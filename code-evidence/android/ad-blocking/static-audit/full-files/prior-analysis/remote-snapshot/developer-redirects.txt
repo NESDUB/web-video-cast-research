@@ -1,0 +1,3 @@
+# Present on 5.12.4
+qp::setContainsAllIgnoreCase::[bto,btz,bs,cf,drf,fs,js_build,jsp,navlng,pl,pnrc,pnt,rb,request_ab2,uac,userId,vsbl,wgl,zoneid]
+path::contains::/r/dir;;qp::setContainsAllIgnoreCase::[abvar,afid,bb,cd,cha,chb,chbr,chf,chm,chmd,chp,chv,cnvs,cti,de,dl,dto,eclog,fdl,febuild,fn,im,ix,ls,md,nojs,os,pb,pbc,pbu,pf,pload,psu,rlp,ss,t,tz,vcn,vcv,vp,wcks,wgl,x,y,zoneid]

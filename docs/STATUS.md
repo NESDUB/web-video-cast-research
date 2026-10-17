@@ -2,7 +2,7 @@
 
 This is a continuing investigation, not a claim that either application has been completely reverse engineered.
 
-**Android blocker current status (2026-10-17):** the main architecture and major code paths are mapped sufficiently to guide implementation. The [current gap register](ANDROID_BLOCKING_GAPS.md#current-gap-register) separates remaining static work, runtime uncertainties, concrete static concerns and unknown device state from [resolved questions](ANDROID_BLOCKING_GAPS.md#questions-resolved-at-code-level). The checkpoints below are chronological; older open-item wording is not the current backlog. No new Android behavioral tests were run for this reconciliation.
+**Android blocker current status (2026-10-17):** the main architecture and major code paths are mapped sufficiently to guide implementation. The [current gap register](ANDROID_BLOCKING_GAPS.md#current-gap-register) separates remaining static work, runtime uncertainties, concrete static concerns and unknown device state from [resolved questions](ANDROID_BLOCKING_GAPS.md#questions-resolved-at-code-level). The [static completion audit](ANDROID_BLOCKING_STATIC_AUDIT.md) adds caller/writer inventories and precise remaining protected-code boundaries; no behavioral tests were run. The checkpoints below are chronological; older open-item wording is not the current backlog. No new Android behavioral tests were run for this reconciliation.
 
 | Phase | Checkpoint | Status |
 |---|---|---|

@@ -3688,6 +3688,2190 @@
       "sha256": "a9aec29d3625981c6fd2b7ed9e39316182dcc23275049d114224f8d4e53e4083",
       "bytes": 112170,
       "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "extracted/android/res/raw/ad_redirect_block_add.txt",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/extracted/android/res/raw/ad_redirect_block_add.txt",
+      "sha256": "b5bd155d0e35c7cfe44484f2d6f9ca4ebcf6695a11d691d369b249613c147b61",
+      "bytes": 13383,
+      "representation": "extracted packaged resource"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "extracted/android/res/raw/ad_redirect_block_remove.txt",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/extracted/android/res/raw/ad_redirect_block_remove.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "representation": "extracted packaged resource"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/com/instantbits/cast/webvideo/ads/config/ad/AdBlockLoadWorker.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/com/instantbits/cast/webvideo/ads/config/ad/AdBlockLoadWorker.java",
+      "sha256": "73c75ea1de2aae8b9773b49f1161f9260ca178787f2daa4f35e3e71e1afaf12c",
+      "bytes": 25170,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/ac.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/ac.java",
+      "sha256": "a3d19dfcdfe1feca67fe7f76e85496b691a9f35127b68358e6dc62a1967464c1",
+      "bytes": 993,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/b19.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/b19.java",
+      "sha256": "fbac3f94ffd3438b024e45a41d8b56e52a9a0a6c7bdf4aa6453bd8468a065ef2",
+      "bytes": 14764,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/ba.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/ba.java",
+      "sha256": "62f2c84e17cb00be2ace0fffc96df7179df84f867ce67a95a63dd2ed76529088",
+      "bytes": 5985,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/bc.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/bc.java",
+      "sha256": "196e7c5419692f224a032ccc0c97b77ab7f13a664f77dd7c59d1d041d81dfd8e",
+      "bytes": 912,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/be2.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/be2.java",
+      "sha256": "2b27759518c4ff4c917fd9be3ea0a1cb95ff4ae12fcf512c220bfb91d72942ff",
+      "bytes": 2220,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/ca.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/ca.java",
+      "sha256": "53db0842a23c5d471b97a2b241cbe5e2532d4a4a2b11f8e1ecb4c38626260760",
+      "bytes": 4876,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/ce2.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/ce2.java",
+      "sha256": "82880cd4a39c9dc4b36cad031e4d20d7d32f6473e0a0b72fd932bb57dd5c0d56",
+      "bytes": 15542,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/da.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/da.java",
+      "sha256": "6711bdbb5dfd1c2d63008e5b84f373fcf10496cc4afacec4e0709c8418eb93c7",
+      "bytes": 1798,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/db.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/db.java",
+      "sha256": "c4b22ac7b1b61b36b4ccc448b1525b45fec7b3028f66b9bcd4a593f47d53e5a1",
+      "bytes": 973,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/dra.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/dra.java",
+      "sha256": "ab8aa0cde19c6980802658f726fcc3848d3e35fd8a19c05415a75f1429515b43",
+      "bytes": 1102,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/e9.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/e9.java",
+      "sha256": "98a90f2acff927ce5a139d84042535fe0f9279ce6fb7592d983a4d36601239fa",
+      "bytes": 1121,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/eb2.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/eb2.java",
+      "sha256": "d0243554ee4c62e4a5fe0f0406c5b054d7afef3973995594ef77542aeda14d77",
+      "bytes": 2067,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/era.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/era.java",
+      "sha256": "6194e7c10e0ed3edd6cf465e45487251d4afdf33ab5f1f5fae0c5805d1f7e496",
+      "bytes": 539,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/f9.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/f9.java",
+      "sha256": "6c58edc57084b9a4e90f95fd6195906ab6886f78d1f9ddb38f874c2cc93adf57",
+      "bytes": 30336,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/fb2.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/fb2.java",
+      "sha256": "d1489bddf957d2801dfdc7232ded297832ce026de716f09762baefb2718f66de",
+      "bytes": 958,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/fc.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/fc.java",
+      "sha256": "a9eae7d43786c621985c2362b1297d5697811f60781a987ddba60573a81bcf0f",
+      "bytes": 13439,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/ffa.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/ffa.java",
+      "sha256": "92585bda6019e4420e1fd729b01c786e01e38eb69fe0d571c929f4d051f643b0",
+      "bytes": 783,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/fu8.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/fu8.java",
+      "sha256": "b0e57c11e0b535c7a3d3ce26fb645211048f61de6f5939aa6f3bd4822bf7b06d",
+      "bytes": 1501,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/fy0.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/fy0.java",
+      "sha256": "2b37a5e223877e6f9b267e27ba51357b84053882913455ea1cf39becdd477606",
+      "bytes": 915,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/ga.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/ga.java",
+      "sha256": "0f5dfb503cace6135f697730e8a873e3460e6525ccbdf46386abc2753ccf5017",
+      "bytes": 2178,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/gb2.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/gb2.java",
+      "sha256": "a33a54db4a17a780808e14b564d02de6954fe23ae8f419ee0ba3fe9eabebd9e8",
+      "bytes": 958,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/gfa.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/gfa.java",
+      "sha256": "6327cb2558f9477990ddfa150dfb573a7084ad1ffd954cec28dd5e8feee818ea",
+      "bytes": 820,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/h9.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/h9.java",
+      "sha256": "e780d03dc22406ce67a2d6f585720d28952ce487cf5538d26ab4c5535386a6df",
+      "bytes": 6542,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/ha.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/ha.java",
+      "sha256": "8fea4b8433055e1590fa45562dacedfc1cf2359a973ef5d9d6857abdf58222de",
+      "bytes": 6969,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/hb.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/hb.java",
+      "sha256": "3350050f88aa9451dc3d2b16566539b4b4508a446148f5da96e292fe74aab79e",
+      "bytes": 1426,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/hy0.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/hy0.java",
+      "sha256": "d6ebee3ee28e67e7e3a6a95596081f3fdf8c8a59179af4915f55937081cd5a20",
+      "bytes": 14313,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/i9.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/i9.java",
+      "sha256": "84e1df164cfb89df6d0e65d292e1a09d2cc6e63b8460282feb81f8e0ac342c4c",
+      "bytes": 29993,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/ira.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/ira.java",
+      "sha256": "bf18efc3e79a09746a566dadf12dd28578d3ecab50ca4304c271bf60487bf3e8",
+      "bytes": 481,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/j9.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/j9.java",
+      "sha256": "4c47e831fcd89ef7ff134f9ff2aee2257e20ff974e4f4f83dd1e50defb3386c9",
+      "bytes": 15110,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/jb2.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/jb2.java",
+      "sha256": "ba9758cec2131f173116623163f52c4bbf285625bbccfdcb32ca6b52ce5ece82",
+      "bytes": 2377,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/jra.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/jra.java",
+      "sha256": "b9cc6afb66619e311afba0e7cb6b80c245fbd669d77d9a0e26c613c1348c1f8f",
+      "bytes": 11421,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/k9.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/k9.java",
+      "sha256": "6bd7d9dd09b6330470d2324b4accc4252115b73a049ceb4b7863ef33e9ff6f7b",
+      "bytes": 6785,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/kh5.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/kh5.java",
+      "sha256": "be4ad0318a98893db79d7a8ab79332b903c897671465e83460b6a1021589d040",
+      "bytes": 7909,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/kra.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/kra.java",
+      "sha256": "0c3986d1761e7c17289372029ed9fce359e2fd98ed94b75e8674f763cc81d41e",
+      "bytes": 881,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/kta.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/kta.java",
+      "sha256": "2146ceec088bd537bd5a475762bf82e3924abd2c77cf67350dc489d431cb0726",
+      "bytes": 472,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/lra.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/lra.java",
+      "sha256": "4057964f517c3fa25067bbec2381f422422f362acf9f4f394639a8e370a7de08",
+      "bytes": 2815,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/lta.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/lta.java",
+      "sha256": "eea8b926a322b067552487fb6ccf3748e00b339c4036325c0af24dcedf190c01",
+      "bytes": 2520,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/m59.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/m59.java",
+      "sha256": "5aca491eda4eb5b581cc5c999e689e91771250a3c26fbdb2ca8ce6302d6a7d2d",
+      "bytes": 1923,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/me2.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/me2.java",
+      "sha256": "3d32fe2a4e5a9bccfb927e66ed947d74de2e7a1f45a64a582d8f2edc055f1d88",
+      "bytes": 15912,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/nra.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/nra.java",
+      "sha256": "ccd3f64a69f9eced93994936cda262a44809e867b2594cce8d58bcbe22e8b333",
+      "bytes": 254,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/ora.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/ora.java",
+      "sha256": "8cfe0be12667919e490099a06484822cabfe7fd8dd342115f72b7cc2c57cfc6b",
+      "bytes": 1919,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/pd2.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/pd2.java",
+      "sha256": "dd9d749624b5754d36d0e9366a508088f559d5ed435081b4e8877f02cce89d5c",
+      "bytes": 3393,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/pra.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/pra.java",
+      "sha256": "ffe88891c1f37527a8d1c5cbe29391e1d1f50b665ec8d67abf1cca55b9581d2f",
+      "bytes": 3987,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/q09.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/q09.java",
+      "sha256": "c84c20d695736c0fec98673d6a9cd3d9f48be0202100e83da7d6e303afde5638",
+      "bytes": 281,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/ql1.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/ql1.java",
+      "sha256": "c10b14283d119a7c240a1f4ee2a509c2b64363ae3453d498f88a1476f3758631",
+      "bytes": 831,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/qt1.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/qt1.java",
+      "sha256": "4d98f32233262f3d2ac2970c7ebbfa0ee6c1016cc8541b600ee53e432fcc6f55",
+      "bytes": 12170,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/rra.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/rra.java",
+      "sha256": "3cd80d9fd2bcaae1decb7d3fbfe9a0323ce60b8b62762f6d3aead5420f176497",
+      "bytes": 5943,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/s92.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/s92.java",
+      "sha256": "95612c05c59284ca0e731264ced6b107a088c10f9c9e0cefef65fb1454c46c15",
+      "bytes": 12695,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/sdc.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/sdc.java",
+      "sha256": "064a891fce20c50f8247b7dadd4ac7b779f9d0d1873bf4c713c006c878e827a6",
+      "bytes": 2308,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/sm9.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/sm9.java",
+      "sha256": "b15034e46fa25e7b83a19a17a526a3b8448d3cbaf95491524b6e4af2e3f3666d",
+      "bytes": 850,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/sv8.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/sv8.java",
+      "sha256": "a89fbd3b2b085592feaa8664cfc5b4b90fc2de2f2093b72d88f971797d671650",
+      "bytes": 28806,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/t8.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/t8.java",
+      "sha256": "fba6079415e4a20867ba3d00c9c7c67b8bfce89ecad498123069e20cc5d5e95e",
+      "bytes": 78297,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/tdc.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/tdc.java",
+      "sha256": "b082f021e6835fa2504f52a03019b890320c50c53b6691695b85d58cd1fcfbc4",
+      "bytes": 2821,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/tz.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/tz.java",
+      "sha256": "ae6a7956e62f2da22f42aa30dcab3b04078297df999945946c8d37730913f74e",
+      "bytes": 57654,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/u9.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/u9.java",
+      "sha256": "2722cbc7c9abf9c742cf57af598798c05abf86d37c08c73a18932551f3c280d6",
+      "bytes": 1080,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/va.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/va.java",
+      "sha256": "86801eca32ee7482d5eb1680deefd3275bbbf1b2c806f527bb49b241d5793c8b",
+      "bytes": 5662,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/vf1.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/vf1.java",
+      "sha256": "4369d6a5dde87364a5aa71cf6b324d9775ed4ad813a18907f5c2ce37e8042479",
+      "bytes": 10700,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/vf7.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/vf7.java",
+      "sha256": "ed5f2676e6b913b6e0bbb7b17e7f0cb7df77c1f0ee4898d3c3fbc1a7116ce317",
+      "bytes": 28112,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/wa.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/wa.java",
+      "sha256": "17a0fbd9a295bb1a12a148eb4e139b8d259a26f7dadc70853de225e406e2fc73",
+      "bytes": 3623,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/wb.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/wb.java",
+      "sha256": "bd81b70e94cda26afe0aa2d164811d52067e665a3c570a35a295a1cebd2ce3bf",
+      "bytes": 745,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/wd2.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/wd2.java",
+      "sha256": "e70af43dc180443ec83ad9802d693ce08fd0129e1d75f6f57ce39919dee54d0b",
+      "bytes": 2090,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/wz8.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/wz8.java",
+      "sha256": "d80cf76ed1fd0746bc00ba2f8121a76d1e337165ee035c2f0a1f8f0862a74c7a",
+      "bytes": 11670,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/wzc.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/wzc.java",
+      "sha256": "7df6741c1efe785b99075047929fde4a5606e13f0b74c1b7f6506a5ff431a226",
+      "bytes": 10055,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/x9.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/x9.java",
+      "sha256": "56b186e389c92a2ba13937f88d7cae1bbaa0b7fe04b817844409e61b3be20350",
+      "bytes": 2457,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/yb.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/yb.java",
+      "sha256": "8200854203c55989f21128a598b5be8d8d3aa8958d4f8cff9f9259938cd310b0",
+      "bytes": 2463,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/z3b.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/z3b.java",
+      "sha256": "0cfa305a8ae519f121e26c71bb72c38e0655b82ca237b0c153c5b60453160972",
+      "bytes": 31827,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/android-code/sources/defpackage/zb.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/android-code/sources/defpackage/zb.java",
+      "sha256": "5476c7604f3cda6f485f59d8ca9555e0fce16ce97e335188f58ab19f4cc668a1",
+      "bytes": 707,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "prior-analysis/remote-snapshot/developer-redirects.txt",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/prior-analysis/remote-snapshot/developer-redirects.txt",
+      "sha256": "256c0167c193d8f788bf6a14cfa1d7327768439006e2d9c77e8b05e2dcd2c10b",
+      "bytes": 384,
+      "representation": "earlier decoded resource / derived evidence"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali/b2c.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali/b2c.smali",
+      "sha256": "2ce66a41318fd2a6e5558eac3290ffbb8c6cf303289a8e0d6ec82279b22222ed",
+      "bytes": 340,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali/c2a.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali/c2a.smali",
+      "sha256": "f40081ba8079920676b04799fa4342c8df04293a29fc8c00aaa09ea2e3f7b483",
+      "bytes": 21392,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali/d9.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali/d9.smali",
+      "sha256": "8bb1f6a34ce0c42b702dc680a4ab2ab2829d69cabbfeb61e1a4157f39715a27b",
+      "bytes": 32611,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali/dp9.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali/dp9.smali",
+      "sha256": "e7f39d4c6d58176a9016135d41fc8a4cfec3aca250e3dca09048c309e0cc1f3b",
+      "bytes": 9581,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali/g9.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali/g9.smali",
+      "sha256": "8e97a43c4cbfd44e844bd8a9078e9a0abab6c7219060b5e90deff1893642ea88",
+      "bytes": 42887,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali/gy0.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali/gy0.smali",
+      "sha256": "5a9fa84ae2a0cb638bd79d8a9d6ea6dbf1dd84c4054cfbf707d88c1feab0b689",
+      "bytes": 40209,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali/ie2.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali/ie2.smali",
+      "sha256": "75155d17e84e12dd54afa3a3c25d435d5346c03dffc4f3dfca996a669b37120e",
+      "bytes": 9002,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali/je2.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali/je2.smali",
+      "sha256": "50f7f581ad0cfb34748d7a77b9c9063619bf76735ec945a9bdcecefa135576d8",
+      "bytes": 16047,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali/jzc.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali/jzc.smali",
+      "sha256": "da441a22930b87640763282b6ff90f9741b1240751ef05ae268a5781709eb137",
+      "bytes": 30972,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali/la.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali/la.smali",
+      "sha256": "733079edcc28876589595ac210845835b475fa616750bc8780ea1cb18cb3ce26",
+      "bytes": 18654,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali/mrb.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali/mrb.smali",
+      "sha256": "dde75444a0fcda96f3fe24cbdbc64063c3b3bfee03743b15e8163143de04333f",
+      "bytes": 46685,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali/n74.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali/n74.smali",
+      "sha256": "0993a8de23a441273090a2d1a8c27974007b8b7238cf60abac579f012e603293",
+      "bytes": 8605,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali/nt4.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali/nt4.smali",
+      "sha256": "b24bfa96d150941add65b1d29500479cd67e9ac58b7404d6efd95235bec617e1",
+      "bytes": 88389,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali/pv7.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali/pv7.smali",
+      "sha256": "6834c3a0d80695aa1eb1b96d432ef621e3544b6f5833628c7720e8610f08db6a",
+      "bytes": 51044,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali/q0.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali/q0.smali",
+      "sha256": "1888294cbb3993fc52ada0bab53435ff35385b2984b3902e4e28245f3c11754b",
+      "bytes": 78078,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali/r0.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali/r0.smali",
+      "sha256": "ce370571fbc321ab5f3b3c35eac73c4b5d0e50efc5a04a0705780345d286d799",
+      "bytes": 117260,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali/rh8.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali/rh8.smali",
+      "sha256": "1a94a40a63011082c88d7fb54aac101f9438a8c42085b35fea2175dfba7f3e40",
+      "bytes": 2334,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali/rx8.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali/rx8.smali",
+      "sha256": "f6e608c571f2ed7814b26483822c274e43db5aa35af5a802df01cb3ab77903f8",
+      "bytes": 29161,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali/s0.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali/s0.smali",
+      "sha256": "1e6423de36a51f4d5b927d210178d17682ca0b5592387dec964c60319e305f32",
+      "bytes": 94430,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali/sw.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali/sw.smali",
+      "sha256": "4790047f9e3c64852de7719f8a1a5b5cd0bad17a8b1934def611d142ff751bc4",
+      "bytes": 942,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali/tw.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali/tw.smali",
+      "sha256": "b1523b8c2cf36a3edec81b46f6bf1b64c5fb1e0033932235ce173d3113ba3575",
+      "bytes": 2942,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali/ub.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali/ub.smali",
+      "sha256": "29f7d0bcb518acc74bebaf7fc1c4265573486035aa8f20986ad66995b4c90904",
+      "bytes": 152586,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali/uqd.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali/uqd.smali",
+      "sha256": "770fe86e154a49008e034bffcacda269a0a730e535d7138e97b7cd44f48565a5",
+      "bytes": 179068,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali/uw.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali/uw.smali",
+      "sha256": "327d574fef30483cf3e4572502694fdd54d2cf2e205d2a1690f9d2a92dc9ce50",
+      "bytes": 3372,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali/vh8.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali/vh8.smali",
+      "sha256": "5f31aa64f142bee8aebb0877e6d9e11c5944d66e06ab56002553eda1c513cce5",
+      "bytes": 13496,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali/xv7.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali/xv7.smali",
+      "sha256": "7f5090bb83069519a1a117ca7f593ca1b78308a2e62984ff267bbfe8bfc429fc",
+      "bytes": 201041,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali/ygc.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali/ygc.smali",
+      "sha256": "3ef1117b87e9da3b3ffd346b218dde1017b0f0c6cb6640bb0963f4b0ae5c3177",
+      "bytes": 31205,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali/z1a.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali/z1a.smali",
+      "sha256": "9655d26c93fd47a66fcacedb861733b035ea6268a432fe9e77ee1f074ac9dc22",
+      "bytes": 45205,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes2/androidx/compose/ui/tooling/yWey/yjVeJcx.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes2/androidx/compose/ui/tooling/yWey/yjVeJcx.smali",
+      "sha256": "d8e23db1eb0e6e3b341b859bad15e180baa0826316cee00ee2016c199a8c884c",
+      "bytes": 285,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes2/com/bykv/vk/openvk/preload/geckox/e/a/loz/rgHn.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes2/com/bykv/vk/openvk/preload/geckox/e/a/loz/rgHn.smali",
+      "sha256": "7bf721b0b697860acd9acf1106d76f30b80df7f8ecff0efe1a9e49f3f7642855",
+      "bytes": 347,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes2/com/bykv/vk/openvk/qam/qam/nf/nf/ihFk/zWEJSwlZUVmyI.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes2/com/bykv/vk/openvk/qam/qam/nf/nf/ihFk/zWEJSwlZUVmyI.smali",
+      "sha256": "a626ff3670a7d220b4157bc7b07552604d879c916c89aa1f6e9f28b124db8ba5",
+      "bytes": 2492,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes2/com/bytedance/sdk/openadsdk/gow/qam/EY/uxvRNKQ.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes2/com/bytedance/sdk/openadsdk/gow/qam/EY/uxvRNKQ.smali",
+      "sha256": "751d1c3ab2379150e53e3adf8f623b8f74ba009d45d24907c0450d29c132c326",
+      "bytes": 2884,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes2/com/pairip/VMRunner.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes2/com/pairip/VMRunner.smali",
+      "sha256": "3a78fb100c66ce859ba538bf584efbfe48f306117df5e28619de513e8d37985b",
+      "bytes": 22850,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes2/com/pairip/application/Application.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes2/com/pairip/application/Application.smali",
+      "sha256": "5c3d20ca7b73acbde3f05e1a1f5dca98fc09f0d68c77b78bdc6bc0825f659afd",
+      "bytes": 840,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes2/ol4.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes2/ol4.smali",
+      "sha256": "5e97539ed4e22a167e778ea93fafd8e5d7c171cca448ab6e465046e481c1b64e",
+      "bytes": 92192,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes2/tu5.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes2/tu5.smali",
+      "sha256": "1dfa0151c365df85dbacfac8f34c30c2f8184745866f11858e3d806bedbb95b6",
+      "bytes": 216830,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes5/aw3.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes5/aw3.smali",
+      "sha256": "f70c8b9940c98685b2eeb53fc214b4f3ed66f5d2d82dad38898a821460259a17",
+      "bytes": 10642,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes5/cu1.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes5/cu1.smali",
+      "sha256": "7df996358573cf8860ac7f140e0811d1500a24c1ed3cbceb0f9205bec3b22a1f",
+      "bytes": 1784,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes5/ita.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes5/ita.smali",
+      "sha256": "eb1b162b6ee88da4278f86bebbe7350a95dbb66c293437be3734c11da1323294",
+      "bytes": 15351,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes5/rm9.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes5/rm9.smali",
+      "sha256": "14d605c64539640607925a5b39929bd4f8aa8758eb4e458da38f6c3a34c287b4",
+      "bytes": 26727,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes5/zn0.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes5/zn0.smali",
+      "sha256": "f36a48589b740740637287f20a85534d1abaa7b2d520f340dcde7b556e7d09d7",
+      "bytes": 27278,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/a9.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/a9.smali",
+      "sha256": "08727c460903c068b97eebce5c364f5b8034911cb0f4c7a5444ab9214f515198",
+      "bytes": 12564,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/aa2.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/aa2.smali",
+      "sha256": "c9d6f767874560082000717c18c9740bfcbf09d3105934321ae75742a197b7e7",
+      "bytes": 29357,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/ab2.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/ab2.smali",
+      "sha256": "1567dea87a7bfbf0c3c2834a2cb1e3ddbb80878e461c8ad5e173ec4cbf638596",
+      "bytes": 5800,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/ac.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/ac.smali",
+      "sha256": "195ee84b727052ad02df72a99ea781e83603ed0185eb085367cc6dc8e45dcc12",
+      "bytes": 1650,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/b19.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/b19.smali",
+      "sha256": "a7ac308e06456a02dbd5d9adda3e961a7006ef13238d7e42c4403f0bff20be2c",
+      "bytes": 38310,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/ba.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/ba.smali",
+      "sha256": "a4891a6ac1b06611535fcf8a60bbe001355ef1a9971d6ba6a74fe3340c6f3b03",
+      "bytes": 15806,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/bc.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/bc.smali",
+      "sha256": "194da3b79ef1bdd5548f0fbfcff2e1c4356e9b7b2eadc8b82cbc3abd5ea37f2a",
+      "bytes": 1835,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/be2.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/be2.smali",
+      "sha256": "00a250a34d6d91242f6b7f72529742df57102fde700007f725773294c146fe96",
+      "bytes": 18243,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/bl0.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/bl0.smali",
+      "sha256": "e00bfdfb16d339512d2fa1e5ce95ec531ef8d69ac357a2c57628855eb9d31b3f",
+      "bytes": 8545,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/ca.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/ca.smali",
+      "sha256": "2b7883c26522bd5a4200c9268e8d80a958bcaaba6a17706adcce3440877751c3",
+      "bytes": 15021,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/cb.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/cb.smali",
+      "sha256": "cc45b7906172890de6b16205e427da7909c5f3d68f6b25ae33801901cf6c84b6",
+      "bytes": 3917,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/ce2.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/ce2.smali",
+      "sha256": "25c09ec412ffb64387d0d4632e21571a6f5ed6a9d866ffefd3c15b6745d072d0",
+      "bytes": 89468,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/com/instantbits/cast/webvideo/BaseCastActivity$MyRewardedVideoListener.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/com/instantbits/cast/webvideo/BaseCastActivity$MyRewardedVideoListener.smali",
+      "sha256": "78dfbaf75d5a78f7ce391054406f431469dc963ed5da91da58f6ea45a9ec7f75",
+      "bytes": 21999,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/com/instantbits/cast/webvideo/WebBrowser.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/com/instantbits/cast/webvideo/WebBrowser.smali",
+      "sha256": "068147be589b55580637c2bad3e70e8f9983a955e0dd9279d922c40f448d818d",
+      "bytes": 434531,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/com/instantbits/cast/webvideo/WebVideoCasterApplication.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/com/instantbits/cast/webvideo/WebVideoCasterApplication.smali",
+      "sha256": "31e1ab2571b33f74dacbdb31579ac555ee6f95f992e812ac62cf5899226dc00d",
+      "bytes": 138441,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/com/instantbits/cast/webvideo/ads/config/ad/AdBlockLoadWorker.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/com/instantbits/cast/webvideo/ads/config/ad/AdBlockLoadWorker.smali",
+      "sha256": "d2511df12e04c22ae04d2341e61a4c5e8964c4a720bac6d6c1b3d3d077e085fc",
+      "bytes": 62528,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/cra.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/cra.smali",
+      "sha256": "cf5cdf5b72944116cd25ba72969f326100bfb52f46a1b951679c5e59cc01815a",
+      "bytes": 6659,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/da.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/da.smali",
+      "sha256": "012ea77e40308bdcec69f99f23d95496e8652b8e8c3fa2cb08af522abd9d7dab",
+      "bytes": 4899,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/db.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/db.smali",
+      "sha256": "eebf9a0769e046d5ab7dcc1e5d9efb89fe5606d149c62a3b75f8003c4b4de7e8",
+      "bytes": 2344,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/do1.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/do1.smali",
+      "sha256": "c44c3dee76eaf8908fdde9a099358790c1188db2658f08faff5cd0b18f2f80b3",
+      "bytes": 24294,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/dra.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/dra.smali",
+      "sha256": "42951428dca0d71ade9f050619017612669c17342562db2053c111327e8e2aaf",
+      "bytes": 4230,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/e0.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/e0.smali",
+      "sha256": "729c9bd6baa3f47e1a897e5ddf9a0dd85effac1c45aa201772a1aa0cefc2c01f",
+      "bytes": 91861,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/e9.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/e9.smali",
+      "sha256": "a3aed6283a1674059d866ade0bf92bd748af09bf85a4fc2e3326066f5c6ab74d",
+      "bytes": 2505,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/ea.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/ea.smali",
+      "sha256": "e0e4c6c1acac7da83058af46e17ced8577be0652da2cf9ad7b86de894433a287",
+      "bytes": 4402,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/eb2.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/eb2.smali",
+      "sha256": "11f52bbc17ffaad67a3ae67a012104c994c640d6e4df82516c42fb38b84ce9f0",
+      "bytes": 5867,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/era.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/era.smali",
+      "sha256": "e1e7d35fefc4b848b704a9d3b1f12b05e97f406d3ea90309b1fbe7970aa3bdbc",
+      "bytes": 1289,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/f9.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/f9.smali",
+      "sha256": "c6a28198f12cd9c2aff65ead436b2ab86072287ccf1ede0619dc43f3539f4cf0",
+      "bytes": 113365,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/fb2.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/fb2.smali",
+      "sha256": "1def3b02355a1ac62bd760e26b026a1afd583362abe7b6ea532e54f6d478d456",
+      "bytes": 3701,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/fc.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/fc.smali",
+      "sha256": "637d654756b6738e9dd3bdedbee25072ffbfeb05bea073cb28f1545a700031c5",
+      "bytes": 57397,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/ffa.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/ffa.smali",
+      "sha256": "1ff1a704978212a6d681cfead1e45432feca452f81862f4cb27212a740487e08",
+      "bytes": 1755,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/fn9.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/fn9.smali",
+      "sha256": "48e706adaa5980140bcad53ed6436f2661ffbc730e6ab0a4e6bdce54e86b8fba",
+      "bytes": 4376,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/fu8.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/fu8.smali",
+      "sha256": "a73eff84d4299eaeedac9d4b0698095ed1d24e3ab470b7e67023c9d4ea684b92",
+      "bytes": 3241,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/fy0.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/fy0.smali",
+      "sha256": "533ead1521c63917a4b01af0d44f122c1f5fa29790c5832f2b384488b372bd8f",
+      "bytes": 1815,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/ga.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/ga.smali",
+      "sha256": "fc26c3005391234e8f5e97da8a5a9e1ba85eb43bcf5d154a41c0f6de8dc1cb32",
+      "bytes": 5709,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/gb2.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/gb2.smali",
+      "sha256": "3fd434815517b6e542c954fe114ab00d3bdedfc001d244c5e686895729cfa6cd",
+      "bytes": 3843,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/gfa.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/gfa.smali",
+      "sha256": "4d8ddb2599037f6b63314d865b3156c8ea39484fa098e5ad6438fff89682540d",
+      "bytes": 1745,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/gl.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/gl.smali",
+      "sha256": "7aee9a6f7d2809a5ff5377bafdb85c96602be4175c2f2b49b13e9adb3a6d3924",
+      "bytes": 17552,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/h9.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/h9.smali",
+      "sha256": "4f851c40a7767cbfbae00087675f86d99e852c49ebb15cedc08ef244dbb98351",
+      "bytes": 17659,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/ha.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/ha.smali",
+      "sha256": "5caee13b80031f9404490ca875483317d269cfa1cb9b90d2af05040e88a836c0",
+      "bytes": 20035,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/hb.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/hb.smali",
+      "sha256": "ccf7628231c934bf578c7659f8c082f499db76142f4e5dc068c6eab16456f681",
+      "bytes": 6251,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/hia.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/hia.smali",
+      "sha256": "74abdc71929786b6bf62750f8a21caec8a6b03f6dd10738bef53c6e69a276a9a",
+      "bytes": 5994,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/hy0.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/hy0.smali",
+      "sha256": "efc0394c5b8157d33751bc74bacd9bb4f680857b53541c9c6c81e704235feba2",
+      "bytes": 43237,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/i9.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/i9.smali",
+      "sha256": "b62f65b2c2b3b36c014257a8937a2d4ec4d3b026733e4add7fc189e9aa608ec4",
+      "bytes": 76424,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/ib2.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/ib2.smali",
+      "sha256": "ac501596987429e62e3a1e4123ace89c203099de98c37e47ea0665f05734e162",
+      "bytes": 9326,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/ipb.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/ipb.smali",
+      "sha256": "b7111b94b5690c8287a5a45cf74ee2929afc273f9296dd4539c7950abfa4b33e",
+      "bytes": 13820,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/ira.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/ira.smali",
+      "sha256": "9e7d32aca56d3bc9123954fed2a2df0e0768a1372780095ec99f3a0edecb7f3f",
+      "bytes": 719,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/j9.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/j9.smali",
+      "sha256": "f274a41816569b82f72cc5aaf45882187d102fdd2d36d1100af7831ab984585b",
+      "bytes": 38295,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/jb2.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/jb2.smali",
+      "sha256": "43adee896ffe6c1927661847b366907b486df435a769a8063bf20066a78f5cb3",
+      "bytes": 9726,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/jm9.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/jm9.smali",
+      "sha256": "aead09fdc633fb43abb35cbf397e4c942b9d9584f93f0c668fef89aa1646ebd9",
+      "bytes": 9711,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/jp8.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/jp8.smali",
+      "sha256": "bfa3f5942332fb41aa6cdb4ec18241b3979ede9ec8f509cccbd05be44b6bef54",
+      "bytes": 48398,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/jr2.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/jr2.smali",
+      "sha256": "7cc19f1c2e86299537c78b8d51260977717357c8fe02e321e7c31f9bab3153b3",
+      "bytes": 6465,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/jra.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/jra.smali",
+      "sha256": "cbbfeaf7b5c7ed61611944176c7bbf31733cabfabce1e95ad1539c833c7950ce",
+      "bytes": 30210,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/jvc.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/jvc.smali",
+      "sha256": "d01e539c1bd1b7fec92ce877dfda28901648440b2a9e3442645e4a661b1e0535",
+      "bytes": 1879,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/k9.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/k9.smali",
+      "sha256": "66c39830e70a55ac23bb0217b72415310b7a3750a406be3b15ac223e5fb94583",
+      "bytes": 18465,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/ka.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/ka.smali",
+      "sha256": "415587cd96c90eb5d3b81ce3278a197548db7abd3b2cb3c2105a5d9eba8cec1a",
+      "bytes": 18571,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/kd.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/kd.smali",
+      "sha256": "dadd5d5ba3467662b1a6578cbce84db773b3e7c730611a262eb897416a0c6f14",
+      "bytes": 49624,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/kh5.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/kh5.smali",
+      "sha256": "c27e5eb8c65e714bad448b77ba7ff9e43da969484a5c578a1658aeb53bc824d2",
+      "bytes": 12835,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/kra.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/kra.smali",
+      "sha256": "7f09fb1c1a84ebfb1c0046eeea0d495005141237ceed6402db67c008b1e11c7b",
+      "bytes": 3137,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/kta.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/kta.smali",
+      "sha256": "f3f04f2200a6a02e7deb461f17a234244128689a9cb9d0e43894d1cfdd8581fe",
+      "bytes": 941,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/kv9.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/kv9.smali",
+      "sha256": "9425a12c721b22005e069ccd3fdfdb8f90b7dbe34b60e63f210d1de3ae8f9568",
+      "bytes": 122408,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/l9.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/l9.smali",
+      "sha256": "71749b92178cb477f180518ae1bcf622ee212726e56ec376300657470f15b282",
+      "bytes": 59815,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/ld.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/ld.smali",
+      "sha256": "f2ddd5b1bdd90600e6b62b2df7ecfa530859416fda665b9513190cf460142107",
+      "bytes": 6564,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/lra.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/lra.smali",
+      "sha256": "5fafe1161701429f96e3ad27eb303176fdec394538719a0daa17c90fd6a79bd6",
+      "bytes": 5302,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/lta.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/lta.smali",
+      "sha256": "73433571319e5782a9955327b20c3c62059639b2a09dac08b4d486192f3a26ff",
+      "bytes": 7626,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/m59.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/m59.smali",
+      "sha256": "eee4a938ae5e78a1dadbe8fe2441ea532ece147686592a655fc8616c2982fb20",
+      "bytes": 6767,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/m9.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/m9.smali",
+      "sha256": "5e5fbef4eb3ab4690b694f6b125ad6dcd711108a116af22fcf1c2aa777620336",
+      "bytes": 4129,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/mc.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/mc.smali",
+      "sha256": "32a733f45a3d73172d92d0d688e0551cd74cb4cbe4beb0c20f331f943baa3fa4",
+      "bytes": 50683,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/md.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/md.smali",
+      "sha256": "baf365a99a9571b790449d3affea2ea784a474af2ae3feaede270a2802c9be5b",
+      "bytes": 1019,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/me2.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/me2.smali",
+      "sha256": "18b95188262f44a782c95a7d85f8be7ce6768503c010fb47f0d47faf125d797f",
+      "bytes": 58632,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/n9.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/n9.smali",
+      "sha256": "e051887f47ef776c42d825b2edbb1a35ba1509ed3ac8a52c370af6623c3598e8",
+      "bytes": 32251,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/nd.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/nd.smali",
+      "sha256": "404d42ed6edc49742ebc5d3b60120daec9aa341c6c1be36895d2e4cd17c6ca0a",
+      "bytes": 2234,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/nm9.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/nm9.smali",
+      "sha256": "cc27f4f1db81fbc4ea59978d330e9bef3d62a5209093059edcf26bffd4c2e8e0",
+      "bytes": 5686,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/nra.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/nra.smali",
+      "sha256": "0feb5352a90c64090c5eafd492dfba89d0ceeaaf40563d5a42766891dc1648f0",
+      "bytes": 124,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/ora.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/ora.smali",
+      "sha256": "bca7ab498cec7f2debc0935362b75268b3d6809e7d83e1bd68dc0a0742ab9167",
+      "bytes": 9262,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/owc.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/owc.smali",
+      "sha256": "5a14d9a934ae39d07ba5d46db5a60e038fe9b50498a424075e551cc6dbf1ad14",
+      "bytes": 11618,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/pd2.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/pd2.smali",
+      "sha256": "6610d3dbad835b3222f3d9fec9ed5ef089c8435f06a5f7b603379bd2f90be011",
+      "bytes": 4493,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/pra.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/pra.smali",
+      "sha256": "652a3818650685bd3cb28e4a1ccb1d5a2e99b87ec55bb2285e9f36c57a869c27",
+      "bytes": 1217,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/psc.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/psc.smali",
+      "sha256": "b0ca568c5551f2e837ec4e552f08e505c0706c43737c6be643e79bf20f521716",
+      "bytes": 33709,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/q09.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/q09.smali",
+      "sha256": "e2c9955c12ef2b316ba300d6084be542c89329be3c8ef5d8a731b97231c7e734",
+      "bytes": 307,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/qb2.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/qb2.smali",
+      "sha256": "78f99ed97a13b4940f34fcb02879b2116d2f234afbe7a8b9bac83e7f932eeb70",
+      "bytes": 5413,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/ql1.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/ql1.smali",
+      "sha256": "932c13083dbb515bf46ae5fa395ffb57c2c4a12f541ce36f4911cd399b61ec92",
+      "bytes": 2399,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/qra.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/qra.smali",
+      "sha256": "b55004bec3d762a5d06e412aa089d0b03c27e7d4b6bee278daafc4733b16f13b",
+      "bytes": 4946,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/qt1.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/qt1.smali",
+      "sha256": "784eff6af65ae0b9a41f2c32c6fe1e872307a79d44e6c78d8b28ca78787bbbaf",
+      "bytes": 50460,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/r59.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/r59.smali",
+      "sha256": "db724f75398776f86f6552f3e4ce96b23a0ce9e8306c0fb4ebc7473e6e0b62c0",
+      "bytes": 13255,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/rg1.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/rg1.smali",
+      "sha256": "ef8d90ad48fbd3f37bc2c4f5849969bf3bcc8cb68786308eca5542cb8ac6543f",
+      "bytes": 149591,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/rra.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/rra.smali",
+      "sha256": "a4d8a9ccc0228b8da2ca9b96980306d111d7961c40a010b396d3e9649317378d",
+      "bytes": 11230,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/s92.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/s92.smali",
+      "sha256": "2f14a9eaa5634019d2f4b9e2cce79fabdea7dc775d4ed0f1ce6eac97f0931e49",
+      "bytes": 46372,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/sdc.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/sdc.smali",
+      "sha256": "cecb6e5337899c16599622f058b75619dcff15ebc2b0de07d88fa83b55b9a438",
+      "bytes": 8249,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/sg1.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/sg1.smali",
+      "sha256": "5b2c3507f4753c36e9406aca4c896d21c931c72f841b1d372b3e2e3e057f90da",
+      "bytes": 270663,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/sm9.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/sm9.smali",
+      "sha256": "34bf27671344fe73cf5956edb12655850d2e0d43e143324b96a64607d51c8a39",
+      "bytes": 2783,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/sv8.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/sv8.smali",
+      "sha256": "de10b97e2045cce3d1a2d3b4c05f4f6641e2e5fde08b900be620fd1af2db6a96",
+      "bytes": 73995,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/t8.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/t8.smali",
+      "sha256": "995bf3f22bfaf2723e7f9a2f326083031ac6dd522b8cd0255acd7cecf7ed4ff8",
+      "bytes": 191879,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/t9.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/t9.smali",
+      "sha256": "c9989187d6a6c3fad0bb1ec3b482d043e375919a8780fecf3f1eebf93b22ed38",
+      "bytes": 49930,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/tdc.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/tdc.smali",
+      "sha256": "dc2f26a155d3a88769b7742d799fb4b18e8abc5bb31c7c68fa82ecb9f75b335a",
+      "bytes": 8894,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/tz.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/tz.smali",
+      "sha256": "a142a14d0ca803fc22d4eb4eaddca9ae19fde3dba010c45965d150c3703b636a",
+      "bytes": 245701,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/u9.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/u9.smali",
+      "sha256": "c798c8cc6df61db62ac9127e3f0b0a3a9beba4a2b691035871d3d44a71355898",
+      "bytes": 4566,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/uc7.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/uc7.smali",
+      "sha256": "df88a9361659eb3d5527b30a140319b7f8aba581242e826433cbf609db2f6345",
+      "bytes": 44607,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/uwc.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/uwc.smali",
+      "sha256": "c6b0a21125a3d62cc1d87e326cdd93c8cf49852b8a4f180722d39d143ac9d6cc",
+      "bytes": 154493,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/v74.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/v74.smali",
+      "sha256": "ed016daf029ba1eb8550bdf91a18d98ac75918b3ea9a5cd9d4ac744cf4401c9b",
+      "bytes": 3105,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/v9.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/v9.smali",
+      "sha256": "d80c4915c695b417104b7cb92867a489fd63c2fd5adc04b0d94d0a5a70a19293",
+      "bytes": 142230,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/va.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/va.smali",
+      "sha256": "42842297ae9fe5399ea75ca873e7881463813ef9a818a46cacacabf2a3ffa5c1",
+      "bytes": 16589,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/vf1.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/vf1.smali",
+      "sha256": "c03a76eff365d045a1b6cd488a5ecb4fc83c8a83230a19e70adb1a0210cf6291",
+      "bytes": 33973,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/vf7.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/vf7.smali",
+      "sha256": "bf57b130440fbdd4263af449b32ad24731ff0998f3b3eab01b084ab974ffc695",
+      "bytes": 50457,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/vw7.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/vw7.smali",
+      "sha256": "2afec06a336a947c4dcfd31f2bd5a1989c5d5264ae99bba2fcc36a4a032d2241",
+      "bytes": 223987,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/wa.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/wa.smali",
+      "sha256": "73153e2f766e8bf8e4a5c1119f1e737acce3b93094223b94bef379322f70dae3",
+      "bytes": 16565,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/wb.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/wb.smali",
+      "sha256": "89465d0fd8a207804dc9c587e936088ac6c893e18f43177d4b708c2fc074629f",
+      "bytes": 1433,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/wd2.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/wd2.smali",
+      "sha256": "9f5579a2ecfd89ca1871bd7ad6a1ed592f0cea822c3eedd8154a4ad5d12f3207",
+      "bytes": 5705,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/wz8.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/wz8.smali",
+      "sha256": "23c21998a11f99bf1077b95fcb0ee0b909bb2a046664cdf171718cc3d305187a",
+      "bytes": 32813,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/wzc.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/wzc.smali",
+      "sha256": "4264fbdbd7c87da9ccbfce22026849dd90b2c55f533e61e7053e64a590d5fea4",
+      "bytes": 35385,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/x9.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/x9.smali",
+      "sha256": "bab07d08aef61bff95cc0ac52ba60221a5941723aab060731c7d36d860cb93e0",
+      "bytes": 5325,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/xb.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/xb.smali",
+      "sha256": "56bd28a0254b432b36d49d2198eb7d6cc8bbc1b9c8a4d0133f2f9be11a764c1a",
+      "bytes": 88441,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/xgb.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/xgb.smali",
+      "sha256": "f01c27b36f92dba86ca5acded96eecd221302be89182debf164b5ffd4602c4e5",
+      "bytes": 163343,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/y6a.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/y6a.smali",
+      "sha256": "f7cc93f29b5bc98c04238c850ddce0b7807ebc6db6f5eabbb3ef9fc85281cb64",
+      "bytes": 47121,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/yb.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/yb.smali",
+      "sha256": "a20113840154573788cb8621c54ebd1790f35ba60eb96d86d90a74373c6fe177",
+      "bytes": 5607,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/yj.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/yj.smali",
+      "sha256": "581b956f2f289b3168e6310e867016fe1d127fc9617ae131c90c28912d75db82",
+      "bytes": 8122,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/yk0.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/yk0.smali",
+      "sha256": "1aeed0e3e4077a646e8150dbd06d19d8226562630d2a51b677bf446b7745dff9",
+      "bytes": 33528,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/yxc.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/yxc.smali",
+      "sha256": "b4ad51ee36400723577d6f22a4551fad80bced4a98df239b8ef239f375c76007",
+      "bytes": 116799,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/z3b.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/z3b.smali",
+      "sha256": "436628c1825207226d6a12ea70aa98adb614a65628d477b349093e78dd45db3c",
+      "bytes": 65367,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/zb.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/zb.smali",
+      "sha256": "0959bfcbea8a2d7af93d27d64b2a4e5e8dfe3cbc48c4428bed519e99a4ed122a",
+      "bytes": 1241,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes6/zk0.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes6/zk0.smali",
+      "sha256": "cfc4b0cc9a8f1b4c3f98737156b0535dd5308601265993411eb84314cc25c6a2",
+      "bytes": 5461,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes7/bdd.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes7/bdd.smali",
+      "sha256": "54ee7aeb58050d341fbe704dc8cd212081a153bb44008ab0a015cc0a86aab4a2",
+      "bytes": 254413,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes7/dl9.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes7/dl9.smali",
+      "sha256": "bb56e0f35ce4442c82c3a9e64dc1a77ba533f681de5a9d737412e9213b003c2f",
+      "bytes": 13794,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes7/hra.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes7/hra.smali",
+      "sha256": "a8c11a9da1e1ea3ef59fe93cb34e0ec7c25a98624c66076aa3c9d080990a6b46",
+      "bytes": 24746,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes7/j6b.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes7/j6b.smali",
+      "sha256": "4fee11d097fd53cd0276170c8b940f3b39779d851f473df86865db64e0262eaa",
+      "bytes": 62015,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes7/n22.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes7/n22.smali",
+      "sha256": "03174fa58d196b0213f123895064337cfb8468b85c822e3e270480667a643501",
+      "bytes": 308662,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes7/p5b.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes7/p5b.smali",
+      "sha256": "65018a357292cc988c9c9b9610fdb985cab136f26bcdee3943e6056280ff80c3",
+      "bytes": 124072,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes7/pw6.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes7/pw6.smali",
+      "sha256": "d606d4b6b185b5761ad8ebac230661345fbccbddfe6f950324b2a22bcede5829",
+      "bytes": 204812,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes7/q6b.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes7/q6b.smali",
+      "sha256": "d0ccd28076eb0fd617f3ec2785545a68032678a1e572c3bf76e2c262a460eeaf",
+      "bytes": 22078,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes7/rp7.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes7/rp7.smali",
+      "sha256": "a3ff8159d03087b1bf786d186578b01760835d9fef41c412ff44617789dae4a1",
+      "bytes": 13842,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes7/vj5.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes7/vj5.smali",
+      "sha256": "a4a2c8042516198784b448e2b54fd70f05a7bc1da5f45964342fceea6e2ef88c",
+      "bytes": 157961,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/apktool/smali_classes7/yv0.smali",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/apktool/smali_classes7/yv0.smali",
+      "sha256": "0c57fbeafae766f0a25e2092dc8278ba9c2a75a42e6aa77e0b0750e7aa1f122c",
+      "bytes": 151899,
+      "representation": "smali bytecode disassembly"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/blocking/ab2.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/blocking/ab2.java",
+      "sha256": "a8ebf24208046843f72464f769669275f8f6f5a0445829b731a59458c91d6e49",
+      "bytes": 1813,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/blocking/bl0.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/blocking/bl0.java",
+      "sha256": "0f3724e7db142bd5704058a5d7df9ea1ab1e821f2ca128867d83fe59ef8fa6a3",
+      "bytes": 2506,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/blocking/cb.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/blocking/cb.java",
+      "sha256": "83a2f348650135530e1dea2235f57d731c5d96e31c21f06e960da31bb75f2ed2",
+      "bytes": 1329,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/blocking/cra.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/blocking/cra.java",
+      "sha256": "2da008d1a33f4e86a245af5e6847409502f74c13fc6c43cdee73f2aed69d8c7c",
+      "bytes": 1992,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/blocking/fn9.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/blocking/fn9.java",
+      "sha256": "91a75fc59dc8c71424c9302cb86058d139d54f6e60499b0389f608bda8fc4a94",
+      "bytes": 1212,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/blocking/ib2.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/blocking/ib2.java",
+      "sha256": "d2d380187790c5ecc39a461fb865c4c6b6272faab3b08710904b7f410d5467bd",
+      "bytes": 2424,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/blocking/jp8.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/blocking/jp8.java",
+      "sha256": "c8517817f67d118d518053ac2492b2aad7896a49bb7432e4f0092efe042dcd4c",
+      "bytes": 13415,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/blocking/jr2.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/blocking/jr2.java",
+      "sha256": "edeaad24008c20c067f8077dae4ab22676236a3456cb38a898712831755dfedb",
+      "bytes": 2151,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/blocking/kd.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/blocking/kd.java",
+      "sha256": "fc9a054d50db20758164477783494899b1a92229d06befa3f4dc2ad8a851b71f",
+      "bytes": 13299,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/blocking/l9.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/blocking/l9.java",
+      "sha256": "e40d945c2b62fb24ca180c386a6f3ac5247b4f24e404e69ad6188d9845360fc9",
+      "bytes": 19052,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/blocking/m9.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/blocking/m9.java",
+      "sha256": "d6ad3477d19d2ab48e527704e7a1dbbe26a1d9ce358d4a474490fbd80063c9f4",
+      "bytes": 1513,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/blocking/mc.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/blocking/mc.java",
+      "sha256": "d7c1661df19bda0d6387a777e7af065cf79a51e4f410e10bb0c14dc3cd404358",
+      "bytes": 12535,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/blocking/md.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/blocking/md.java",
+      "sha256": "d8ffa3edc28a62d44ea34899a5d1fde0ac7a15aa5d92221ac6a457013930a904",
+      "bytes": 464,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/blocking/n9.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/blocking/n9.java",
+      "sha256": "639ee2eeaaf1f4fa8d8055eaea69035dcbacc2d7fb103f0dce4110928d0099a6",
+      "bytes": 9906,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/blocking/nd.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/blocking/nd.java",
+      "sha256": "4d41435d7b98af5c16a9628f3d02634b68e1d8664217ce29a45732d4a31b965e",
+      "bytes": 859,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/blocking/nm9.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/blocking/nm9.java",
+      "sha256": "abc97f76f1a14d1ae6c12b1e0c0c293b9082c0341a823708abadd9e57b7f4e4c",
+      "bytes": 1987,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/blocking/qb2.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/blocking/qb2.java",
+      "sha256": "a056463dcf258ace4ab6dd1d30ff706c3c11ac424475027c9bb6e2e245a9974c",
+      "bytes": 1789,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/blocking/v9.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/blocking/v9.java",
+      "sha256": "0e73d0fa88d09425f27314e32da47c7e308ddda78c8ab9e5025cd431b7dec86d",
+      "bytes": 34318,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/blocking/vw7.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/blocking/vw7.java",
+      "sha256": "18675467dc27e748f4d216b1b80e4d79a666fc4885f14c75afd991589d4ea979",
+      "bytes": 58820,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/blocking/yj.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/blocking/yj.java",
+      "sha256": "3c20945a95fdac6927e215ab9d0130fdad989bd0f6ea22c93994f2d9f7c4e1d8",
+      "bytes": 2310,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/blocking/yk0.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/blocking/yk0.java",
+      "sha256": "7dcdbb374bd591670cc3cdc85983ea9972935ec706eb423fc8f38501dbe2a16d",
+      "bytes": 10812,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/blocking/zk0.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/blocking/zk0.java",
+      "sha256": "ce354260db78fff4285e8365e4938a0624dae93e029782b849b90e04625db9bf",
+      "bytes": 1402,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/native/jm9.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/native/jm9.java",
+      "sha256": "4dc494025bfee12560036aa2ca0e4440b1ce1a5fa384c8f0c5b981deba0a1e0e",
+      "bytes": 3992,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/native/owc.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/native/owc.java",
+      "sha256": "0448eba256c23152a3fc7e90d1fe540d3b09fbec96335b0f582e507eee6982b0",
+      "bytes": 3364,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/native/psc.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/native/psc.java",
+      "sha256": "e254aa2310a60ab84a52b3fce12b53dd0157d0238e56c6db9baf3b14853a422d",
+      "bytes": 10293,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/native/t9.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/native/t9.java",
+      "sha256": "fa747c0cfcdf093640da7f55dc224b66a5addba2619c3dda5547249dcc0e72f1",
+      "bytes": 13091,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/native/uc7.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/native/uc7.java",
+      "sha256": "d437338bc38ccead9b5f0ec122b2ef5573001a6cfb94a9494ef9e168ff115cd2",
+      "bytes": 13755,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/native/xb.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/native/xb.java",
+      "sha256": "77e72aae501e2fa2402eb276c9dc549a606131fd8528edde28375dc6e35635a9",
+      "bytes": 22850,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/native/xgb.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/native/xgb.java",
+      "sha256": "5c714108d9aa769ede52836d4674f99e1e329242c76371b5e1e8fdcbe6727c16",
+      "bytes": 48752,
+      "representation": "reconstructed Java (not original source)"
+    },
+    {
+      "group": "android/ad-blocking/static-audit",
+      "original_evidence_path": "working/native/y6a.java",
+      "organized_path": "code-evidence/android/ad-blocking/static-audit/full-files/working/native/y6a.java",
+      "sha256": "4cde2c7879ca39440a0acf0da545fb02777f9f6e02fb7d8325e15bbd6c8d6791",
+      "bytes": 13256,
+      "representation": "reconstructed Java (not original source)"
     }
   ],
   "excerpts": [
@@ -5356,6 +7540,1126 @@
       "original_end_line": 257,
       "excerpt_sha256": "c623f790b8df668fde5697452c69e55d52ca12d1da73a5b96dd2366c83aec4c9",
       "scope": "Exact focused window; may omit enclosing control flow. Consult full file."
+    },
+    {
+      "id": "static-B01-factory",
+      "file": "working/apktool/smali_classes6/s92.smali",
+      "line": 755,
+      "start_line": 755,
+      "end_line": 2116,
+      "function": "h(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;)Lsra;",
+      "gap": "B01",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B01-factory.smali.txt",
+      "original_start_line": 755,
+      "original_end_line": 2116,
+      "excerpt_sha256": "a29a26ddef9ae4171bd72c5a25c9712f299aeb3c14c3cb26d5baa5d14278a362",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B01-context",
+      "file": "working/apktool/smali_classes6/ld.smali",
+      "line": 135,
+      "start_line": 135,
+      "end_line": 365,
+      "function": "a(Ljava/lang/String;)Z",
+      "gap": "B01",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B01-context.smali.txt",
+      "original_start_line": 135,
+      "original_end_line": 365,
+      "excerpt_sha256": "30774780740013dbdae9fd1d1106db629151fa5fa2025f63c690200ed3dc7557",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B01-field",
+      "file": "working/apktool/smali_classes7/hra.smali",
+      "line": 1324,
+      "start_line": 1324,
+      "end_line": 1346,
+      "function": "g(Ljava/lang/String;)Ljava/lang/Object;",
+      "gap": "B01",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B01-field.smali.txt",
+      "original_start_line": 1324,
+      "original_end_line": 1346,
+      "excerpt_sha256": "6254dde843e9f00155aa8905075547f560a29936cb2e735b8eebe980ba1eebd7",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B01-string",
+      "file": "working/apktool/smali_classes6/rra.smali",
+      "line": 124,
+      "start_line": 124,
+      "end_line": 457,
+      "function": "b(Lhra;)Lasa;",
+      "gap": "B01",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B01-string.smali.txt",
+      "original_start_line": 124,
+      "original_end_line": 457,
+      "excerpt_sha256": "176c30d928b6b7aa0f4c1d6bd909f3bddf5e6bbc73e844f0595c199942cd48ce",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B01-set",
+      "file": "working/apktool/smali_classes6/ora.smali",
+      "line": 204,
+      "start_line": 204,
+      "end_line": 305,
+      "function": "b(Lhra;)Lasa;",
+      "gap": "B01",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B01-set.smali.txt",
+      "original_start_line": 204,
+      "original_end_line": 305,
+      "excerpt_sha256": "10c8a1a5066b1211c1702b3968643a645b01a69ec35a0ae79f1664e809e516bf",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B01-regex",
+      "file": "working/apktool/smali_classes6/lra.smali",
+      "line": 29,
+      "start_line": 29,
+      "end_line": 342,
+      "function": "b(Lhra;)Lasa;",
+      "gap": "B01",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B01-regex.smali.txt",
+      "original_start_line": 29,
+      "original_end_line": 342,
+      "excerpt_sha256": "7555e9f7813868e883d6086f1767bb304a073606a2a4d674a9ee92164b39cc32",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B01-regex-compile",
+      "file": "working/apktool/smali_classes7/dl9.smali",
+      "line": 14,
+      "start_line": 14,
+      "end_line": 46,
+      "function": "<init>(Ljava/lang/String;)V",
+      "gap": "B01",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B01-regex-compile.smali.txt",
+      "original_start_line": 14,
+      "original_end_line": 46,
+      "excerpt_sha256": "753fe96016d5bd725dfb49d883d4b558772d8303ccad0b421be87bab6e2916fc",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B01-percent",
+      "file": "working/apktool/smali_classes6/qra.smali",
+      "line": 38,
+      "start_line": 38,
+      "end_line": 309,
+      "function": "invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;",
+      "gap": "B01",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B01-percent.smali.txt",
+      "original_start_line": 38,
+      "original_end_line": 309,
+      "excerpt_sha256": "7879dcffd515060148afb73ddeb72bffbde7ea18a1e4ef634ba98778c72fae8e",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B01-unary",
+      "file": "working/apktool/smali_classes6/kra.smali",
+      "line": 54,
+      "start_line": 54,
+      "end_line": 139,
+      "function": "b(Lhra;)Lasa;",
+      "gap": "B01",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B01-unary.smali.txt",
+      "original_start_line": 54,
+      "original_end_line": 139,
+      "excerpt_sha256": "ce1451336e31d0aa90c95849f4af9b4b2aaabc6d1ef17d1e157a8bc660cf5f48",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B01-mime",
+      "file": "working/apktool/smali_classes6/uc7.smali",
+      "line": 1827,
+      "start_line": 1827,
+      "end_line": 1987,
+      "function": "m(Ljava/lang/String;)Z",
+      "gap": "B01",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B01-mime.smali.txt",
+      "original_start_line": 1827,
+      "original_end_line": 1987,
+      "excerpt_sha256": "0f82d434e7d3d6037a6f488ac8807ef997da07f5096ef8bbcc8c290d940a5687",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B01-sandbox",
+      "file": "working/apktool/smali_classes7/yv0.smali",
+      "line": 1009,
+      "start_line": 1009,
+      "end_line": 1067,
+      "function": "C(Ljava/lang/String;)Z",
+      "gap": "B01",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B01-sandbox.smali.txt",
+      "original_start_line": 1009,
+      "original_end_line": 1067,
+      "excerpt_sha256": "98973f2bc2ea15ebbb62570f7092807e9036d250100ae2b9316b3c20598b8ee4",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B01-json-matcher",
+      "file": "working/apktool/smali_classes6/sdc.smali",
+      "line": 226,
+      "start_line": 226,
+      "end_line": 487,
+      "function": "a([Ljava/lang/String;)Z",
+      "gap": "B01",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B01-json-matcher.smali.txt",
+      "original_start_line": 226,
+      "original_end_line": 487,
+      "excerpt_sha256": "527717da28279ef03a6c20faa611f9cc583c4cc09d2edc1ab587b159d440b329",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B01-json-fallback",
+      "file": "working/apktool/smali_classes6/tdc.smali",
+      "line": 72,
+      "start_line": 72,
+      "end_line": 239,
+      "function": "a(Lsm9;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lsdc;",
+      "gap": "B01",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B01-json-fallback.smali.txt",
+      "original_start_line": 72,
+      "original_end_line": 239,
+      "excerpt_sha256": "136814c01264a43baf52e68f40cb694807c4ffa78a73cf2b343464ced24688fa",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B01-json-array",
+      "file": "working/apktool/smali_classes6/tdc.smali",
+      "line": 241,
+      "start_line": 241,
+      "end_line": 489,
+      "function": "b(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/util/LinkedHashMap;",
+      "gap": "B01",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B01-json-array.smali.txt",
+      "original_start_line": 241,
+      "original_end_line": 489,
+      "excerpt_sha256": "9a0b0ba4755f4961a07eb4fd7bff75f51992670c1460346bd92ca494bae9b0a9",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B01-json-normalize",
+      "file": "working/apktool/smali_classes6/sdc.smali",
+      "line": 45,
+      "start_line": 45,
+      "end_line": 222,
+      "function": "b(Lj84;Ljava/util/List;)Z",
+      "gap": "B01",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B01-json-normalize.smali.txt",
+      "original_start_line": 45,
+      "original_end_line": 222,
+      "excerpt_sha256": "4cd5cc364829271aa936fe35b8e9615dc9aaea5d26787bc16962c96b60d8f4ca",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B01-split",
+      "file": "working/apktool/smali_classes7/j6b.smali",
+      "line": 2171,
+      "start_line": 2171,
+      "end_line": 2375,
+      "function": "i1(Ljava/lang/String;Ljava/lang/CharSequence;I)Ljava/util/List;",
+      "gap": "B01",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B01-split.smali.txt",
+      "original_start_line": 2171,
+      "original_end_line": 2375,
+      "excerpt_sha256": "86cb3d9222c48d0e38b0ca355193aeb7e24d0c5416fe404e0d049b8f892ba859",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B01-string-operators",
+      "file": "working/apktool/smali_classes6/jra.smali",
+      "line": 32,
+      "start_line": 32,
+      "end_line": 1610,
+      "function": "invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;",
+      "gap": "B01",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B01-string-operators.smali.txt",
+      "original_start_line": 32,
+      "original_end_line": 1610,
+      "excerpt_sha256": "91630b2a375cd1de7ff8352ae7bc2dc2478973ae55de773afd5e6938132ee85d",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B01-unary-operators",
+      "file": "working/apktool/smali/c2a.smali",
+      "line": 32,
+      "start_line": 32,
+      "end_line": 1274,
+      "function": "invoke(Ljava/lang/Object;)Ljava/lang/Object;",
+      "gap": "B01",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B01-unary-operators.smali.txt",
+      "original_start_line": 32,
+      "original_end_line": 1274,
+      "excerpt_sha256": "9ddbaf036a68abbfe7c985018f6019d763c80440c0eacfd7f8e0e084f1f4c599",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B01-loader",
+      "file": "working/apktool/smali_classes6/kd.smali",
+      "line": 360,
+      "start_line": 360,
+      "end_line": 2895,
+      "function": "invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "gap": "B01",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B01-loader.smali.txt",
+      "original_start_line": 360,
+      "original_end_line": 2895,
+      "excerpt_sha256": "c4d2465b46026f7944636be0b69b5cab509e1b17a7e1ecf8230f4073e1217595",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B03-source-edit",
+      "file": "working/apktool/smali_classes6/ea.smali",
+      "line": 44,
+      "start_line": 44,
+      "end_line": 245,
+      "function": "invoke(Ljava/lang/Object;)Ljava/lang/Object;",
+      "gap": "B03",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B03-source-edit.smali.txt",
+      "original_start_line": 44,
+      "original_end_line": 245,
+      "excerpt_sha256": "ed7aaf5a5dc1688fd56afc360fe69b686a8f571be274fce2980a6711aa090fc4",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B03-validation",
+      "file": "working/apktool/smali_classes6/x9.smali",
+      "line": 74,
+      "start_line": 74,
+      "end_line": 324,
+      "function": "a(Ljava/lang/String;)Z",
+      "gap": "B03",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B03-validation.smali.txt",
+      "original_start_line": 74,
+      "original_end_line": 324,
+      "excerpt_sha256": "73fc46c75e32ee3272585464015d14f9cd82a8a7aa3dde9aca786d63b1d8783e",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B03-url-validation",
+      "file": "working/apktool/smali_classes6/ga.smali",
+      "line": 74,
+      "start_line": 74,
+      "end_line": 339,
+      "function": "a(Ljava/lang/String;)Z",
+      "gap": "B03",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B03-url-validation.smali.txt",
+      "original_start_line": 74,
+      "original_end_line": 339,
+      "excerpt_sha256": "fd9ef3219d549cf106ecfb15592eaf9b656bb1d326662b72df09006396abd18c",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B03-model",
+      "file": "working/apktool/smali_classes6/ab2.smali",
+      "line": 17,
+      "start_line": 17,
+      "end_line": 48,
+      "function": "<init>(JJJLjava/lang/String;)V",
+      "gap": "B03",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B03-model.smali.txt",
+      "original_start_line": 17,
+      "original_end_line": 48,
+      "excerpt_sha256": "66cce8fbb94b6ade21e98622066c4e28fb3a658c7d3304ab71051da481266672",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B03-restore",
+      "file": "working/apktool/smali_classes6/be2.smali",
+      "line": 114,
+      "start_line": 114,
+      "end_line": 1011,
+      "function": "invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "gap": "B03",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B03-restore.smali.txt",
+      "original_start_line": 114,
+      "original_end_line": 1011,
+      "excerpt_sha256": "0323e68c0bc077f3707a0026b89884d55db6ed38e37b957a64cfd89c37dee44a",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B03-preferences-backup",
+      "file": "working/apktool/smali_classes6/wz8.smali",
+      "line": 268,
+      "start_line": 268,
+      "end_line": 1018,
+      "function": "a(Landroid/content/Context;Ldz3;Ljava/util/Set;Lkk4;Lm22;)Ljava/lang/Object;",
+      "gap": "B03",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B03-preferences-backup.smali.txt",
+      "original_start_line": 268,
+      "original_end_line": 1018,
+      "excerpt_sha256": "15eb339716ba861a3e72c7a255a6f6b763de964ba5821acf0cbe3ac3f11ced15",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B03-preferences-restore",
+      "file": "working/apktool/smali_classes6/wz8.smali",
+      "line": 1020,
+      "start_line": 1020,
+      "end_line": 1808,
+      "function": "d(Landroid/content/Context;Ldz3;Lorg/json/JSONObject;Lm22;)Ljava/lang/Object;",
+      "gap": "B03",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B03-preferences-restore.smali.txt",
+      "original_start_line": 1020,
+      "original_end_line": 1808,
+      "excerpt_sha256": "606f6a468b9be058568e202ce28dbfcdc3a55accacaad79612781cd8569c3876",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B04-enqueue",
+      "file": "working/apktool/smali_classes6/a9.smali",
+      "line": 267,
+      "start_line": 267,
+      "end_line": 538,
+      "function": "b(Landroid/content/Context;Ldb;Z)Ljava/lang/String;",
+      "gap": "B04",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B04-enqueue.smali.txt",
+      "original_start_line": 267,
+      "original_end_line": 538,
+      "excerpt_sha256": "187e0558a6195793729a821df86f02fe4672b82a774eba53ceaea1e9f641f656",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B04-configuration",
+      "file": "working/apktool/smali_classes6/va.smali",
+      "line": 537,
+      "start_line": 537,
+      "end_line": 801,
+      "function": "b(Landroid/content/Context;Lgm6;Lu9;Lm22;)Ljava/lang/Object;",
+      "gap": "B04",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B04-configuration.smali.txt",
+      "original_start_line": 537,
+      "original_end_line": 801,
+      "excerpt_sha256": "226d1f00bca6b8dabfebf690aaf74cd5d36c6fc2320062a95b3ff32308fa8479",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B04-snapshot",
+      "file": "working/apktool/smali_classes6/va.smali",
+      "line": 828,
+      "start_line": 828,
+      "end_line": 1025,
+      "function": "c(Lm22;)Ljava/lang/Object;",
+      "gap": "B04",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B04-snapshot.smali.txt",
+      "original_start_line": 828,
+      "original_end_line": 1025,
+      "excerpt_sha256": "bc6d37bbba5136ce9c6082c8dfe951c98ad8be4e2e0756b2e0a39921b1c4d3d7",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B04-source-cache",
+      "file": "working/apktool/smali_classes6/fn9.smali",
+      "line": 97,
+      "start_line": 97,
+      "end_line": 242,
+      "function": "a(Lfn9;)Ljava/io/File;",
+      "gap": "B04",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B04-source-cache.smali.txt",
+      "original_start_line": 97,
+      "original_end_line": 242,
+      "excerpt_sha256": "d9733ea63e73dbc7d32710b5c1f08ceae1cdd562c0602562de9fbf448941b8a1",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B05-create",
+      "file": "working/apktool/smali_classes6/sg1.smali",
+      "line": 4388,
+      "start_line": 4388,
+      "end_line": 4723,
+      "function": "onCreateWindow(Landroid/webkit/WebView;ZZLandroid/os/Message;)Z",
+      "gap": "B05",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B05-create.smali.txt",
+      "original_start_line": 4388,
+      "original_end_line": 4723,
+      "excerpt_sha256": "10c03d486669694991007320020a5ab72e4a1e3ee5673fbc1803600ecbadc7a9",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B05-first-start",
+      "file": "working/apktool/smali_classes6/uwc.smali",
+      "line": 5070,
+      "start_line": 5070,
+      "end_line": 5881,
+      "function": "onPageStarted(Landroid/webkit/WebView;Ljava/lang/String;Landroid/graphics/Bitmap;)V",
+      "gap": "B05",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B05-first-start.smali.txt",
+      "original_start_line": 5070,
+      "original_end_line": 5881,
+      "excerpt_sha256": "85f9c8d2f1f584226fb956f245733d78362b435c39da0f06280a10f7c2ab773e",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B05-notification",
+      "file": "working/apktool/smali_classes6/jm9.smali",
+      "line": 68,
+      "start_line": 68,
+      "end_line": 551,
+      "function": "invoke()Ljava/lang/Object;",
+      "gap": "B05",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B05-notification.smali.txt",
+      "original_start_line": 68,
+      "original_end_line": 551,
+      "excerpt_sha256": "cae09a39912e9bdd83873861aca9848ef10b353cfdf2d0f83be3c5251f52a441",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B05-dismiss",
+      "file": "working/apktool/smali_classes6/fu8.smali",
+      "line": 41,
+      "start_line": 41,
+      "end_line": 189,
+      "function": "a(Lzn0;I)V",
+      "gap": "B05",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B05-dismiss.smali.txt",
+      "original_start_line": 41,
+      "original_end_line": 189,
+      "excerpt_sha256": "13c5c6371717496f3a36f836ff0e86cd7f6ad3d8cb5e428936c0f5263ab3e706",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B05-notification-queue",
+      "file": "working/apktool/smali_classes6/lta.smali",
+      "line": 173,
+      "start_line": 173,
+      "end_line": 451,
+      "function": "b(Lm22;)Ljava/lang/Object;",
+      "gap": "B05",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B05-notification-queue.smali.txt",
+      "original_start_line": 173,
+      "original_end_line": 451,
+      "excerpt_sha256": "7fe5cdaff2f7983fb42b9cc8f439f2f1bf302c62407f567adc6d522a35ac82a5",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B05-notification-unlock",
+      "file": "working/apktool/smali_classes6/kta.smali",
+      "line": 29,
+      "start_line": 29,
+      "end_line": 60,
+      "function": "a(Lzn0;I)V",
+      "gap": "B05",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B05-notification-unlock.smali.txt",
+      "original_start_line": 29,
+      "original_end_line": 60,
+      "excerpt_sha256": "7b029e856ce435aca29e0c60dbd0b0ba4764e1fb434a5993e00d2f37fbba68fd",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B05-notification-clear",
+      "file": "working/apktool/smali_classes6/uwc.smali",
+      "line": 3917,
+      "start_line": 3917,
+      "end_line": 4035,
+      "function": "n(Ljava/lang/String;)V",
+      "gap": "B05",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B05-notification-clear.smali.txt",
+      "original_start_line": 3917,
+      "original_end_line": 4035,
+      "excerpt_sha256": "36d0c51b4992ff8395b01352339c20cf8b15c16eec5e3d76fea0888a25daab14",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B05-notification-order",
+      "file": "working/apktool/smali_classes5/zn0.smali",
+      "line": 856,
+      "start_line": 856,
+      "end_line": 1032,
+      "function": "d(I)V",
+      "gap": "B05",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B05-notification-order.smali.txt",
+      "original_start_line": 856,
+      "original_end_line": 1032,
+      "excerpt_sha256": "ca18aaf3d8d66107806509eec96fedcb359c9265fbb7fd565a19b01320f87f3b",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B05-notification-show",
+      "file": "working/apktool/smali_classes5/ita.smali",
+      "line": 555,
+      "start_line": 555,
+      "end_line": 859,
+      "function": "m()V",
+      "gap": "B05",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B05-notification-show.smali.txt",
+      "original_start_line": 555,
+      "original_end_line": 859,
+      "excerpt_sha256": "eb4459c8bf4a9ef009f8373beaa368ee7844273839e31b62b3b86c008ba4c2ac",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B05-dispose",
+      "file": "working/apktool/smali_classes6/psc.smali",
+      "line": 63,
+      "start_line": 63,
+      "end_line": 1784,
+      "function": "run()V",
+      "gap": "B05",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B05-dispose.smali.txt",
+      "original_start_line": 63,
+      "original_end_line": 1784,
+      "excerpt_sha256": "fe1f3a22f9db42517e8e71b1e4e761f76fec0ddd701505c69a5c5891fd5d72f3",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B05-destroy",
+      "file": "working/apktool/smali_classes6/com/instantbits/cast/webvideo/WebBrowser.smali",
+      "line": 3798,
+      "start_line": 3798,
+      "end_line": 3873,
+      "function": "E0(Landroid/webkit/WebView;)V",
+      "gap": "B05",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B05-destroy.smali.txt",
+      "original_start_line": 3798,
+      "original_end_line": 3873,
+      "excerpt_sha256": "26bcd540cd7d086d0afaefb5efd62fae9f59a33644b7eed8082b8647a62e4537",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B05-stop",
+      "file": "working/apktool/smali_classes6/com/instantbits/cast/webvideo/WebBrowser.smali",
+      "line": 3875,
+      "start_line": 3875,
+      "end_line": 3953,
+      "function": "E1(Landroid/webkit/WebView;)V",
+      "gap": "B05",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B05-stop.smali.txt",
+      "original_start_line": 3875,
+      "original_end_line": 3953,
+      "excerpt_sha256": "00ede6148fedaccddfc4a87fbafdca9077ff80ba4926ae1523f444a95b23e261",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B05-teardown-boundary",
+      "file": "working/apktool/smali_classes6/com/instantbits/cast/webvideo/WebBrowser.smali",
+      "line": 14243,
+      "start_line": 14243,
+      "end_line": 14263,
+      "function": "onDestroy()V",
+      "gap": "B05",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B05-teardown-boundary.smali.txt",
+      "original_start_line": 14243,
+      "original_end_line": 14263,
+      "excerpt_sha256": "eac45b09e53984720e80e0a1c232d56eea6444facbe50b87963edecb2cefc42d",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B04-startup-boundary",
+      "file": "working/apktool/smali_classes6/com/instantbits/cast/webvideo/WebBrowser.smali",
+      "line": 14160,
+      "start_line": 14160,
+      "end_line": 14184,
+      "function": "onCreate(Landroid/os/Bundle;)V",
+      "gap": "B04",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B04-startup-boundary.smali.txt",
+      "original_start_line": 14160,
+      "original_end_line": 14184,
+      "excerpt_sha256": "7cf55d20a5a9c06d9f6506fc33f9e9c42cfb6a6c8928defb57e4bd4d36a9ae17",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B07-modern",
+      "file": "working/apktool/smali_classes6/uwc.smali",
+      "line": 7570,
+      "start_line": 7570,
+      "end_line": 7822,
+      "function": "shouldInterceptRequest(Landroid/webkit/WebView;Landroid/webkit/WebResourceRequest;)Landroid/webkit/WebResourceResponse;",
+      "gap": "B07",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B07-modern.smali.txt",
+      "original_start_line": 7570,
+      "original_end_line": 7822,
+      "excerpt_sha256": "e5d3e19cca25945ee6ed888dbd465b796d8a7c9560e010f2d1af712409a2822b",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B07-legacy",
+      "file": "working/apktool/smali_classes6/uwc.smali",
+      "line": 7824,
+      "start_line": 7824,
+      "end_line": 7880,
+      "function": "shouldInterceptRequest(Landroid/webkit/WebView;Ljava/lang/String;)Landroid/webkit/WebResourceResponse;",
+      "gap": "B07",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B07-legacy.smali.txt",
+      "original_start_line": 7824,
+      "original_end_line": 7880,
+      "excerpt_sha256": "6db54c712c93761baaeb590ed89baa50b5fb64efd233f97f1458deb404ff543c",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B07-shared",
+      "file": "working/apktool/smali_classes6/yxc.smali",
+      "line": 749,
+      "start_line": 749,
+      "end_line": 5286,
+      "function": "c(Landroid/webkit/WebView;Lwzc;Ljava/lang/String;Lm48;Lm48;Ljava/lang/String;Ljava/util/Map;)Landroid/webkit/WebResourceResponse;",
+      "gap": "B07",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B07-shared.smali.txt",
+      "original_start_line": 749,
+      "original_end_line": 5286,
+      "excerpt_sha256": "8cdf6084beed37bfdd772b94b3c2d36f515c3707c51edbeb68c9918788c8b6dc",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B07-player-patch",
+      "file": "working/apktool/smali_classes6/uwc.smali",
+      "line": 2887,
+      "start_line": 2887,
+      "end_line": 3592,
+      "function": "k(Ljava/lang/String;)Landroid/webkit/WebResourceResponse;",
+      "gap": "B07",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B07-player-patch.smali.txt",
+      "original_start_line": 2887,
+      "original_end_line": 3592,
+      "excerpt_sha256": "9f83ee4bf9b640ea57a208c8baa1356cb03a6a185c7b39498e35a52f7ea83ea3",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B08-install",
+      "file": "working/apktool/smali_classes6/hy0.smali",
+      "line": 103,
+      "start_line": 103,
+      "end_line": 285,
+      "function": "a(Lwzc;Z)V",
+      "gap": "B08",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B08-install.smali.txt",
+      "original_start_line": 103,
+      "original_end_line": 285,
+      "excerpt_sha256": "ccd4265e55ec91119ec5b6ba79b3eed27a8ce326ddad483714343b5a9f68f814",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B08-controller",
+      "file": "working/apktool/smali/nt4.smali",
+      "line": 4928,
+      "start_line": 4928,
+      "end_line": 4989,
+      "function": "t(Lhp4;)V",
+      "gap": "B08",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B08-controller.smali.txt",
+      "original_start_line": 4928,
+      "original_end_line": 4989,
+      "excerpt_sha256": "7150f90e357d7beeedc91cd6e78539688ad06ff6906608016b3ef08081dd2574",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B08-callback",
+      "file": "working/apktool/smali_classes6/v74.smali",
+      "line": 29,
+      "start_line": 29,
+      "end_line": 169,
+      "function": "shouldInterceptRequest(Landroid/webkit/WebResourceRequest;)Landroid/webkit/WebResourceResponse;",
+      "gap": "B08",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B08-callback.smali.txt",
+      "original_start_line": 29,
+      "original_end_line": 169,
+      "excerpt_sha256": "066e81d1c04908d91f49738bbafae77201da1732488dcc37645900f3bd6328b9",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B08-feature",
+      "file": "working/apktool/smali/ygc.smali",
+      "line": 27,
+      "start_line": 27,
+      "end_line": 217,
+      "function": "c(Ljava/lang/String;)Z",
+      "gap": "B08",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B08-feature.smali.txt",
+      "original_start_line": 27,
+      "original_end_line": 217,
+      "excerpt_sha256": "377f4cc06756c2e4648e271a4deeb4c2164b15b40a82eabdea220f9c64a4c57b",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B08-client",
+      "file": "working/apktool/smali_classes6/gfa.smali",
+      "line": 54,
+      "start_line": 54,
+      "end_line": 112,
+      "function": "a(Ljava/lang/String;Z)Lm48;",
+      "gap": "B08",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B08-client.smali.txt",
+      "original_start_line": 54,
+      "original_end_line": 112,
+      "excerpt_sha256": "7a9e4d2bfbd73a5e2e04b82e689080921f73a47fb23a653f1af754cfe9a1d62e",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B09-popup-mutate",
+      "file": "working/apktool/smali_classes6/yj.smali",
+      "line": 76,
+      "start_line": 76,
+      "end_line": 237,
+      "function": "a(Ljava/lang/String;Lj84;Lh84;Lj84;Lx84;)V",
+      "gap": "B09",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B09-popup-mutate.smali.txt",
+      "original_start_line": 76,
+      "original_end_line": 237,
+      "excerpt_sha256": "eba426ad997ad1fd9a65059be06de4ae89a266ebaa3b3228db023c55cbbdec88",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B09-popup-origin",
+      "file": "working/apktool/smali_classes6/yj.smali",
+      "line": 276,
+      "start_line": 276,
+      "end_line": 317,
+      "function": "c(Ljava/lang/String;)Ljava/lang/String;",
+      "gap": "B09",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B09-popup-origin.smali.txt",
+      "original_start_line": 276,
+      "original_end_line": 317,
+      "excerpt_sha256": "c9a33fe460ae664fa8b185984b5168e988fda27f34e625e84f106eeec08b50cc",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B09-prefix",
+      "file": "working/apktool/smali_classes6/yj.smali",
+      "line": 367,
+      "start_line": 367,
+      "end_line": 471,
+      "function": "e(Ljava/lang/String;)Z",
+      "gap": "B09",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B09-prefix.smali.txt",
+      "original_start_line": 367,
+      "original_end_line": 471,
+      "excerpt_sha256": "e46246809e3e72e79d0488a239908327af441fbad68449e51af54e86903e1b67",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B09-tab-bypass",
+      "file": "working/apktool/smali_classes6/v9.smali",
+      "line": 661,
+      "start_line": 661,
+      "end_line": 793,
+      "function": "d(Landroid/view/View;)V",
+      "gap": "B09",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B09-tab-bypass.smali.txt",
+      "original_start_line": 661,
+      "original_end_line": 793,
+      "excerpt_sha256": "2b2cddfdb5a181996a390281884a3aceb1f3c6d2f61af54bef00deb83182d983",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B09-tab-load",
+      "file": "working/apktool/smali_classes6/wzc.smali",
+      "line": 1348,
+      "start_line": 1348,
+      "end_line": 1640,
+      "function": "o(Ljava/lang/String;Ljava/util/Map;)V",
+      "gap": "B09",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B09-tab-load.smali.txt",
+      "original_start_line": 1348,
+      "original_end_line": 1640,
+      "excerpt_sha256": "50437f1d608358ca21e5d5ad2495925e9e7d7a905113138a6461a944db38b125",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B09-prefix-read",
+      "file": "working/apktool/smali_classes6/yj.smali",
+      "line": 319,
+      "start_line": 319,
+      "end_line": 365,
+      "function": "d()Ljava/util/Set;",
+      "gap": "B09",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B09-prefix-read.smali.txt",
+      "original_start_line": 319,
+      "original_end_line": 365,
+      "excerpt_sha256": "c30dcc6f0601ebe3225c6529d0221ffe6bc55b96a75ef61b78c107832a32d1c3",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B09-navigation-normalize",
+      "file": "working/apktool/smali_classes6/uwc.smali",
+      "line": 7369,
+      "start_line": 7369,
+      "end_line": 7568,
+      "function": "q(Landroid/webkit/WebView;Ljava/lang/String;Landroid/webkit/WebResourceRequest;)Z",
+      "gap": "B09",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B09-navigation-normalize.smali.txt",
+      "original_start_line": 7369,
+      "original_end_line": 7568,
+      "excerpt_sha256": "d95ca82dc2d1c470943837f2360fcdb73f7e6b12ee96fdf83b760d3ed7cc0327",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B11-activation",
+      "file": "working/apktool/smali_classes6/fc.smali",
+      "line": 167,
+      "start_line": 167,
+      "end_line": 416,
+      "function": "a(Lwa;Lm22;)Ljava/lang/Object;",
+      "gap": "B11",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B11-activation.smali.txt",
+      "original_start_line": 167,
+      "original_end_line": 416,
+      "excerpt_sha256": "fd128d035ca1cf09439c78ff68e4b26295a4ec02551d7ab35c5a7b9544bf6ae8",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B11-purge",
+      "file": "working/apktool/smali_classes6/fc.smali",
+      "line": 418,
+      "start_line": 418,
+      "end_line": 730,
+      "function": "b(Lhb;Lx84;Lx84;Lh84;Lh84;Lm22;)Ljava/lang/Object;",
+      "gap": "B11",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B11-purge.smali.txt",
+      "original_start_line": 418,
+      "original_end_line": 730,
+      "excerpt_sha256": "895cb19d62e33b5bb078b2436fe425ca5f04c681dd330745ab70f1827e100f3d",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B11-insertion",
+      "file": "working/apktool/smali_classes6/fc.smali",
+      "line": 1147,
+      "start_line": 1147,
+      "end_line": 2188,
+      "function": "e(Lhb;Lwa;Ljava/util/List;Lj84;Lm22;)Ljava/lang/Object;",
+      "gap": "B11",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B11-insertion.smali.txt",
+      "original_start_line": 1147,
+      "original_end_line": 2188,
+      "excerpt_sha256": "204c0e2d52d34f360b707fbc0ca318f08cdec1418d77d7e5d3d9561603c4e151",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B11-staging",
+      "file": "working/apktool/smali_classes6/fc.smali",
+      "line": 2190,
+      "start_line": 2190,
+      "end_line": 2954,
+      "function": "f(Lhb;Lwa;Leb;Lbb;Ljava/lang/String;Ljava/util/List;La1;Lfb;Lfb;Lgb;Lgb;Lm22;)Ljava/lang/Object;",
+      "gap": "B11",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B11-staging.smali.txt",
+      "original_start_line": 2190,
+      "original_end_line": 2954,
+      "excerpt_sha256": "f41c3f665b74bf22e30ab750743b4717c9ad95f15cbf2bccec91331918a20690",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B11-purge-query",
+      "file": "working/apktool/smali_classes6/n9.smali",
+      "line": 1398,
+      "start_line": 1398,
+      "end_line": 1993,
+      "function": "i(Ln9;Ljava/lang/String;Ljava/util/Set;Lx84;Lx84;Lm22;)Ljava/lang/Object;",
+      "gap": "B11",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B11-purge-query.smali.txt",
+      "original_start_line": 1398,
+      "original_end_line": 1993,
+      "excerpt_sha256": "5292e66a5160563c630f57e6c78d3abb844860cac34debc7e8315c2357b58200",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B11-activate-query",
+      "file": "working/apktool/smali_classes6/n9.smali",
+      "line": 958,
+      "start_line": 958,
+      "end_line": 1396,
+      "function": "h(Ln9;Lwa;Lm22;)Ljava/lang/Object;",
+      "gap": "B11",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B11-activate-query.smali.txt",
+      "original_start_line": 958,
+      "original_end_line": 1396,
+      "excerpt_sha256": "10ad99473593123a072945754e9330c7e31d2b0b429db0f88d1da2ca5c17e3ed",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B11-transaction",
+      "file": "working/apktool/smali/uqd.smali",
+      "line": 2345,
+      "start_line": 2345,
+      "end_line": 2713,
+      "function": "N(Ll22;Lj84;Lst9;)Ljava/lang/Object;",
+      "gap": "B11",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B11-transaction.smali.txt",
+      "original_start_line": 2345,
+      "original_end_line": 2713,
+      "excerpt_sha256": "5e135a14c86e1b6b75e71ef6c080d96764edf8c10fdcf55d2f977de102b46550",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B11-driver-transaction",
+      "file": "working/apktool/smali/rx8.smali",
+      "line": 1390,
+      "start_line": 1390,
+      "end_line": 1801,
+      "function": "g(La2c;Lx84;Lm22;)Ljava/lang/Object;",
+      "gap": "B11",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B11-driver-transaction.smali.txt",
+      "original_start_line": 1390,
+      "original_end_line": 1801,
+      "excerpt_sha256": "5e55441abef11a6b605c5d8a9ad199c60e6f46923456a0d71de84dffa38a5481",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B11-driver-commit",
+      "file": "working/apktool/smali/rx8.smali",
+      "line": 1006,
+      "start_line": 1006,
+      "end_line": 1388,
+      "function": "f(ZLm22;)Ljava/lang/Object;",
+      "gap": "B11",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B11-driver-commit.smali.txt",
+      "original_start_line": 1006,
+      "original_end_line": 1388,
+      "excerpt_sha256": "06ab767935f12628a0279ab993efd60a30bfe3a785aca560872d141f4c49871a",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B11-worker",
+      "file": "working/apktool/smali_classes6/com/instantbits/cast/webvideo/ads/config/ad/AdBlockLoadWorker.smali",
+      "line": 309,
+      "start_line": 309,
+      "end_line": 789,
+      "function": "a(Ll22;)Ljava/lang/Object;",
+      "gap": "B11",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B11-worker.smali.txt",
+      "original_start_line": 309,
+      "original_end_line": 789,
+      "excerpt_sha256": "1568a43eb2080c0885ed1b8b5d08dec41833f5692fd9898370d248f942d09923",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B11-coalescing",
+      "file": "working/apktool/smali_classes6/a9.smali",
+      "line": 43,
+      "start_line": 43,
+      "end_line": 265,
+      "function": "a(Ljava/lang/String;)Z",
+      "gap": "B11",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B11-coalescing.smali.txt",
+      "original_start_line": 43,
+      "original_end_line": 265,
+      "excerpt_sha256": "13e39332a1bf1cc2690d300c6cd62374f592ff8953ae5ac56a28060a7fbbf021",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B11-lookup-timeout",
+      "file": "working/apktool/smali_classes6/yb.smali",
+      "line": 181,
+      "start_line": 181,
+      "end_line": 360,
+      "function": "invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "gap": "B11",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B11-lookup-timeout.smali.txt",
+      "original_start_line": 181,
+      "original_end_line": 360,
+      "excerpt_sha256": "d253caa070a61ce1f708d7a3ea1b9f25c37b0217747e2c1479d79c14576e9742",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B11-timeout-helper",
+      "file": "working/apktool/smali_classes7/bdd.smali",
+      "line": 12132,
+      "start_line": 12132,
+      "end_line": 12349,
+      "function": "n0(JLx84;Lm22;)Ljava/lang/Object;",
+      "gap": "B11",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B11-timeout-helper.smali.txt",
+      "original_start_line": 12132,
+      "original_end_line": 12349,
+      "excerpt_sha256": "8a8c3191d84eb2821d143cd3fa14218e720826161cf3fee4b4966b8961b0e8c9",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B12-gate",
+      "file": "working/apktool/smali_classes6/r59.smali",
+      "line": 220,
+      "start_line": 220,
+      "end_line": 654,
+      "function": "c(Landroid/content/Context;Z)Z",
+      "gap": "B12",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B12-gate.smali.txt",
+      "original_start_line": 220,
+      "original_end_line": 654,
+      "excerpt_sha256": "05d39ba205a825fb55cc4097425312842f703bda2cb0731b720de532332517c2",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B12-expiry",
+      "file": "working/apktool/smali_classes6/ipb.smali",
+      "line": 44,
+      "start_line": 44,
+      "end_line": 296,
+      "function": "a(Landroid/content/Context;)J",
+      "gap": "B12",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B12-expiry.smali.txt",
+      "original_start_line": 44,
+      "original_end_line": 296,
+      "excerpt_sha256": "301c158cbeef476bbd39ee5d0a96ab6c10a95c4c2df31d1825f7553fe1e1279e",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B12-check",
+      "file": "working/apktool/smali_classes6/ipb.smali",
+      "line": 421,
+      "start_line": 421,
+      "end_line": 649,
+      "function": "d(Landroid/content/Context;)Z",
+      "gap": "B12",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B12-check.smali.txt",
+      "original_start_line": 421,
+      "original_end_line": 649,
+      "excerpt_sha256": "246f88508ea2e3f02157e483d6f343864e05e95745c24e09f9da1c6ef2acd572",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B12-issue",
+      "file": "working/apktool/smali_classes6/com/instantbits/cast/webvideo/BaseCastActivity$MyRewardedVideoListener.smali",
+      "line": 719,
+      "start_line": 719,
+      "end_line": 1097,
+      "function": "onUserRewarded(Lcom/applovin/mediation/MaxAd;Lcom/applovin/mediation/MaxReward;)V",
+      "gap": "B12",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B12-issue.smali.txt",
+      "original_start_line": 719,
+      "original_end_line": 1097,
+      "excerpt_sha256": "f864354a07c6404f6a21cd16f4c98eea1c495445d83893dfb4a2194e28c87bb2",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B12-remote-lookup",
+      "file": "working/apktool/smali_classes5/aw3.smali",
+      "line": 189,
+      "start_line": 189,
+      "end_line": 425,
+      "function": "a(Ljava/lang/String;)Ljava/lang/String;",
+      "gap": "B12",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B12-remote-lookup.smali.txt",
+      "original_start_line": 189,
+      "original_end_line": 425,
+      "excerpt_sha256": "8b79e59012bf22de738b44d30c9dc17babb561ce573ab2292cffc73c3df1bf0e",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B12-remote-client",
+      "file": "working/apktool/smali_classes7/vj5.smali",
+      "line": 3790,
+      "start_line": 3790,
+      "end_line": 3972,
+      "function": "O()Lsm9;",
+      "gap": "B12",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B12-remote-client.smali.txt",
+      "original_start_line": 3790,
+      "original_end_line": 3972,
+      "excerpt_sha256": "0f8af5733045e69e74f2a7bd80ca7f38cf3b2981068f77dbd14e4cf1d7bb1a45",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
+    },
+    {
+      "id": "static-B12-reset",
+      "file": "working/apktool/smali_classes6/hia.smali",
+      "line": 38,
+      "start_line": 38,
+      "end_line": 285,
+      "function": "onClick(Landroid/content/DialogInterface;I)V",
+      "gap": "B12",
+      "excerpt_path": "code-evidence/android/ad-blocking/excerpts/static-B12-reset.smali.txt",
+      "original_start_line": 38,
+      "original_end_line": 285,
+      "excerpt_sha256": "1ad0cfa174de79fa6e1198f13f29e24fb63cee388d46d6f4c07c083751224545",
+      "scope": "Exact explicit range (complete method when indexed as such); consult full file for callers and initialization."
     }
   ],
   "missing_optional_paths": []

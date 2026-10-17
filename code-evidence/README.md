@@ -33,6 +33,7 @@ Actual files and exact excerpts accompany the research notes. This collection is
 - [android/media/subtitle-formats-retention-and-receiver-variants](android/media/subtitle-formats-retention-and-receiver-variants/README.md)
 - [android/media/redirect-auth-cookie-audit](android/media/redirect-auth-cookie-audit/README.md)
 - [android/media/cookie-redirect-boundaries](android/media/cookie-redirect-boundaries/README.md)
+- [android/ad-blocking/static-audit](android/ad-blocking/static-audit/README.md)
 
 ## Provenance and interpretation
 

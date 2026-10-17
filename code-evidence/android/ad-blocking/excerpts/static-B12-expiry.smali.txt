@@ -1,0 +1,253 @@
+.method public static a(Landroid/content/Context;)J
+    .locals 4
+
+    .line 1
+    invoke-static {p0}, Lxv7;->U(Landroid/content/Context;)Landroid/content/SharedPreferences;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    const-string v1, "pref.t.p.k"
+
+    .line 6
+    .line 7
+    const/4 v2, 0x0
+
+    .line 8
+    invoke-interface {v0, v1, v2}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    .line 9
+    .line 10
+    .line 11
+    move-result-object v0
+
+    .line 12
+    if-eqz v0, :cond_1
+
+    .line 13
+    .line 14
+    invoke-virtual {v0}, Ljava/lang/String;->length()I
+
+    .line 15
+    .line 16
+    .line 17
+    move-result v1
+
+    .line 18
+    if-nez v1, :cond_0
+
+    .line 19
+    .line 20
+    goto :goto_8
+
+    .line 21
+    :cond_0
+    :try_start_0
+    invoke-static {v0}, Lme2;->a(Ljava/lang/String;)Ljava/lang/String;
+
+    .line 22
+    .line 23
+    .line 24
+    move-result-object v0
+    :try_end_0
+    .catch Ljavax/crypto/NoSuchPaddingException; {:try_start_0 .. :try_end_0} :catch_7
+    .catch Ljavax/crypto/BadPaddingException; {:try_start_0 .. :try_end_0} :catch_6
+    .catch Ljava/security/InvalidAlgorithmParameterException; {:try_start_0 .. :try_end_0} :catch_5
+    .catch Ljava/security/NoSuchProviderException; {:try_start_0 .. :try_end_0} :catch_4
+    .catch Ljava/io/UnsupportedEncodingException; {:try_start_0 .. :try_end_0} :catch_3
+    .catch Ljavax/crypto/IllegalBlockSizeException; {:try_start_0 .. :try_end_0} :catch_2
+    .catch Ljava/security/NoSuchAlgorithmException; {:try_start_0 .. :try_end_0} :catch_1
+    .catch Ljava/security/InvalidKeyException; {:try_start_0 .. :try_end_0} :catch_0
+
+    .line 25
+    :try_start_1
+    invoke-static {v0}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
+
+    .line 26
+    .line 27
+    .line 28
+    move-result-wide v0
+
+    .line 29
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    .line 30
+    .line 31
+    .line 32
+    move-result-wide v2
+    :try_end_1
+    .catch Ljava/lang/NumberFormatException; {:try_start_1 .. :try_end_1} :catch_8
+    .catch Ljavax/crypto/NoSuchPaddingException; {:try_start_1 .. :try_end_1} :catch_7
+    .catch Ljavax/crypto/BadPaddingException; {:try_start_1 .. :try_end_1} :catch_6
+    .catch Ljava/security/InvalidAlgorithmParameterException; {:try_start_1 .. :try_end_1} :catch_5
+    .catch Ljava/security/NoSuchProviderException; {:try_start_1 .. :try_end_1} :catch_4
+    .catch Ljava/io/UnsupportedEncodingException; {:try_start_1 .. :try_end_1} :catch_3
+    .catch Ljavax/crypto/IllegalBlockSizeException; {:try_start_1 .. :try_end_1} :catch_2
+    .catch Ljava/security/NoSuchAlgorithmException; {:try_start_1 .. :try_end_1} :catch_1
+    .catch Ljava/security/InvalidKeyException; {:try_start_1 .. :try_end_1} :catch_0
+
+    .line 33
+    sub-long/2addr v0, v2
+
+    .line 34
+    return-wide v0
+
+    .line 35
+    :catch_0
+    move-exception v0
+
+    .line 36
+    goto :goto_0
+
+    .line 37
+    :catch_1
+    move-exception v0
+
+    .line 38
+    goto :goto_1
+
+    .line 39
+    :catch_2
+    move-exception v0
+
+    .line 40
+    goto :goto_2
+
+    .line 41
+    :catch_3
+    move-exception v0
+
+    .line 42
+    goto :goto_3
+
+    .line 43
+    :catch_4
+    move-exception v0
+
+    .line 44
+    goto :goto_4
+
+    .line 45
+    :catch_5
+    move-exception v0
+
+    .line 46
+    goto :goto_5
+
+    .line 47
+    :catch_6
+    move-exception v0
+
+    .line 48
+    goto :goto_6
+
+    .line 49
+    :catch_7
+    move-exception v0
+
+    .line 50
+    goto :goto_7
+
+    .line 51
+    :catch_8
+    move-exception v0
+
+    .line 52
+    :try_start_2
+    invoke-static {p0, v0}, Lipb;->c(Landroid/content/Context;Ljava/lang/NumberFormatException;)V
+    :try_end_2
+    .catch Ljavax/crypto/NoSuchPaddingException; {:try_start_2 .. :try_end_2} :catch_7
+    .catch Ljavax/crypto/BadPaddingException; {:try_start_2 .. :try_end_2} :catch_6
+    .catch Ljava/security/InvalidAlgorithmParameterException; {:try_start_2 .. :try_end_2} :catch_5
+    .catch Ljava/security/NoSuchProviderException; {:try_start_2 .. :try_end_2} :catch_4
+    .catch Ljava/io/UnsupportedEncodingException; {:try_start_2 .. :try_end_2} :catch_3
+    .catch Ljavax/crypto/IllegalBlockSizeException; {:try_start_2 .. :try_end_2} :catch_2
+    .catch Ljava/security/NoSuchAlgorithmException; {:try_start_2 .. :try_end_2} :catch_1
+    .catch Ljava/security/InvalidKeyException; {:try_start_2 .. :try_end_2} :catch_0
+
+    .line 53
+    .line 54
+    .line 55
+    goto :goto_8
+
+    .line 56
+    :goto_0
+    invoke-static {p0, v0}, Lipb;->b(Landroid/content/Context;Ljava/lang/Exception;)V
+
+    .line 57
+    .line 58
+    .line 59
+    goto :goto_8
+
+    .line 60
+    :goto_1
+    invoke-static {p0, v0}, Lipb;->b(Landroid/content/Context;Ljava/lang/Exception;)V
+
+    .line 61
+    .line 62
+    .line 63
+    goto :goto_8
+
+    .line 64
+    :goto_2
+    invoke-static {p0, v0}, Lipb;->b(Landroid/content/Context;Ljava/lang/Exception;)V
+
+    .line 65
+    .line 66
+    .line 67
+    goto :goto_8
+
+    .line 68
+    :goto_3
+    invoke-static {p0, v0}, Lipb;->b(Landroid/content/Context;Ljava/lang/Exception;)V
+
+    .line 69
+    .line 70
+    .line 71
+    goto :goto_8
+
+    .line 72
+    :goto_4
+    invoke-static {p0, v0}, Lipb;->b(Landroid/content/Context;Ljava/lang/Exception;)V
+
+    .line 73
+    .line 74
+    .line 75
+    goto :goto_8
+
+    .line 76
+    :goto_5
+    invoke-static {p0, v0}, Lipb;->b(Landroid/content/Context;Ljava/lang/Exception;)V
+
+    .line 77
+    .line 78
+    .line 79
+    goto :goto_8
+
+    .line 80
+    :goto_6
+    invoke-static {p0, v0}, Lipb;->b(Landroid/content/Context;Ljava/lang/Exception;)V
+
+    .line 81
+    .line 82
+    .line 83
+    goto :goto_8
+
+    .line 84
+    :goto_7
+    invoke-static {p0, v0}, Lipb;->b(Landroid/content/Context;Ljava/lang/Exception;)V
+
+    .line 85
+    .line 86
+    .line 87
+    :cond_1
+    :goto_8
+    const-wide/16 v0, -0x1
+
+    .line 88
+    .line 89
+    return-wide v0
+.end method

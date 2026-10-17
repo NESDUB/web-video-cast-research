@@ -1,0 +1,62 @@
+.method public t(Lhp4;)V
+    .locals 1
+
+    .line 1
+    sget-object v0, Ljzc;->a:Ltw;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 4
+    .line 5
+    .line 6
+    iget-object v0, p0, Lnt4;->a:Ljava/lang/Object;
+
+    .line 7
+    .line 8
+    check-cast v0, Landroid/webkit/ServiceWorkerController;
+
+    .line 9
+    .line 10
+    if-nez v0, :cond_0
+
+    .line 11
+    .line 12
+    invoke-static {}, Landroid/webkit/ServiceWorkerController;->getInstance()Landroid/webkit/ServiceWorkerController;
+
+    .line 13
+    .line 14
+    .line 15
+    move-result-object v0
+
+    .line 16
+    iput-object v0, p0, Lnt4;->a:Ljava/lang/Object;
+
+    .line 17
+    .line 18
+    :cond_0
+    iget-object p0, p0, Lnt4;->a:Ljava/lang/Object;
+
+    .line 19
+    .line 20
+    check-cast p0, Landroid/webkit/ServiceWorkerController;
+
+    .line 21
+    .line 22
+    new-instance v0, Lv74;
+
+    .line 23
+    .line 24
+    invoke-direct {v0, p1}, Lv74;-><init>(Lhp4;)V
+
+    .line 25
+    .line 26
+    .line 27
+    invoke-virtual {p0, v0}, Landroid/webkit/ServiceWorkerController;->setServiceWorkerClient(Landroid/webkit/ServiceWorkerClient;)V
+
+    .line 28
+    .line 29
+    .line 30
+    return-void
+.end method

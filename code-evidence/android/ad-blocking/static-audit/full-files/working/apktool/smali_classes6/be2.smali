@@ -1,0 +1,1011 @@
+.class public final Lbe2;
+.super Lfgb;
+.source "r8-map-id-5f5060530d9e05db1e1197cdcb7ee4005bad73cf33dea77cc3c253934918b27f"
+
+# interfaces
+.implements Lx84;
+
+
+# instance fields
+.field public r:Lrd2;
+
+.field public s:Ljava/util/Set;
+
+.field public t:I
+
+.field public u:I
+
+.field public v:I
+
+.field public final synthetic w:Ljava/lang/String;
+
+.field public final synthetic x:Lorg/json/JSONArray;
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/String;Lorg/json/JSONArray;Ll22;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lbe2;->w:Ljava/lang/String;
+
+    .line 2
+    .line 3
+    iput-object p2, p0, Lbe2;->x:Lorg/json/JSONArray;
+
+    .line 4
+    .line 5
+    const/4 p1, 0x2
+
+    .line 6
+    invoke-direct {p0, p1, p3}, Lfgb;-><init>(ILl22;)V
+
+    .line 7
+    .line 8
+    .line 9
+    return-void
+.end method
+
+
+# virtual methods
+.method public final create(Ljava/lang/Object;Ll22;)Ll22;
+    .locals 1
+
+    .line 1
+    new-instance p1, Lbe2;
+
+    .line 2
+    .line 3
+    iget-object v0, p0, Lbe2;->w:Ljava/lang/String;
+
+    .line 4
+    .line 5
+    iget-object p0, p0, Lbe2;->x:Lorg/json/JSONArray;
+
+    .line 6
+    .line 7
+    invoke-direct {p1, v0, p0, p2}, Lbe2;-><init>(Ljava/lang/String;Lorg/json/JSONArray;Ll22;)V
+
+    .line 8
+    .line 9
+    .line 10
+    return-object p1
+.end method
+
+.method public final invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    check-cast p1, Lo42;
+
+    .line 2
+    .line 3
+    check-cast p2, Ll22;
+
+    .line 4
+    .line 5
+    invoke-virtual {p0, p1, p2}, Lbe2;->create(Ljava/lang/Object;Ll22;)Ll22;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object p0
+
+    .line 9
+    check-cast p0, Lbe2;
+
+    .line 10
+    .line 11
+    sget-object p1, Lrac;->a:Lrac;
+
+    .line 12
+    .line 13
+    invoke-virtual {p0, p1}, Lbe2;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 14
+    .line 15
+    .line 16
+    move-result-object p0
+
+    .line 17
+    return-object p0
+.end method
+
+.method public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 17
+
+    .line 1
+    move-object/from16 v0, p0
+
+    .line 2
+    .line 3
+    iget v1, v0, Lbe2;->v:I
+
+    .line 4
+    .line 5
+    const/4 v2, 0x2
+
+    .line 6
+    iget-object v3, v0, Lbe2;->x:Lorg/json/JSONArray;
+
+    .line 7
+    .line 8
+    const/4 v4, 0x0
+
+    .line 9
+    const/4 v6, 0x1
+
+    .line 10
+    iget-object v7, v0, Lbe2;->w:Ljava/lang/String;
+
+    .line 11
+    .line 12
+    sget-object v8, Lp42;->a:Lp42;
+
+    .line 13
+    .line 14
+    if-eqz v1, :cond_2
+
+    .line 15
+    .line 16
+    if-eq v1, v6, :cond_1
+
+    .line 17
+    .line 18
+    if-ne v1, v2, :cond_0
+
+    .line 19
+    .line 20
+    iget v1, v0, Lbe2;->u:I
+
+    .line 21
+    .line 22
+    iget v9, v0, Lbe2;->t:I
+
+    .line 23
+    .line 24
+    iget-object v10, v0, Lbe2;->s:Ljava/util/Set;
+
+    .line 25
+    .line 26
+    check-cast v10, Ljava/util/Set;
+
+    .line 27
+    .line 28
+    iget-object v11, v0, Lbe2;->r:Lrd2;
+
+    .line 29
+    .line 30
+    invoke-static/range {p1 .. p1}, Ltt9;->m0(Ljava/lang/Object;)V
+
+    .line 31
+    .line 32
+    .line 33
+    goto/16 :goto_a
+
+    .line 34
+    .line 35
+    :cond_0
+    const-string v0, "call to \'resume\' before \'invoke\' with coroutine"
+
+    .line 36
+    .line 37
+    invoke-static {v0}, Lsm0;->r(Ljava/lang/String;)V
+
+    .line 38
+    .line 39
+    .line 40
+    return-object v4
+
+    .line 41
+    :cond_1
+    invoke-static/range {p1 .. p1}, Ltt9;->m0(Ljava/lang/Object;)V
+
+    .line 42
+    .line 43
+    .line 44
+    move-object/from16 v1, p1
+
+    .line 45
+    .line 46
+    goto :goto_0
+
+    .line 47
+    :cond_2
+    invoke-static/range {p1 .. p1}, Ltt9;->m0(Ljava/lang/Object;)V
+
+    .line 48
+    .line 49
+    .line 50
+    sget-object v1, Lce2;->a:Lce2;
+
+    .line 51
+    .line 52
+    iput v6, v0, Lbe2;->v:I
+
+    .line 53
+    .line 54
+    invoke-static {v7, v0}, Lce2;->k(Ljava/lang/String;Lm22;)Ljava/lang/Object;
+
+    .line 55
+    .line 56
+    .line 57
+    move-result-object v1
+
+    .line 58
+    if-ne v1, v8, :cond_3
+
+    .line 59
+    .line 60
+    goto/16 :goto_8
+
+    .line 61
+    .line 62
+    :cond_3
+    :goto_0
+    check-cast v1, Ljava/lang/Boolean;
+
+    .line 63
+    .line 64
+    invoke-virtual {v1}, Ljava/lang/Boolean;->booleanValue()Z
+
+    .line 65
+    .line 66
+    .line 67
+    move-result v1
+
+    .line 68
+    if-eqz v1, :cond_10
+
+    .line 69
+    .line 70
+    invoke-virtual {v3}, Lorg/json/JSONArray;->length()I
+
+    .line 71
+    .line 72
+    .line 73
+    move-result v1
+
+    .line 74
+    if-lez v1, :cond_f
+
+    .line 75
+    .line 76
+    sget-object v1, Lce2;->a:Lce2;
+
+    .line 77
+    .line 78
+    sget-object v1, Lce2;->d:Lvgb;
+
+    .line 79
+    .line 80
+    invoke-virtual {v1}, Lvgb;->getValue()Ljava/lang/Object;
+
+    .line 81
+    .line 82
+    .line 83
+    move-result-object v1
+
+    .line 84
+    check-cast v1, Ljava/util/List;
+
+    .line 85
+    .line 86
+    check-cast v1, Ljava/lang/Iterable;
+
+    .line 87
+    .line 88
+    new-instance v9, Ljava/util/ArrayList;
+
+    .line 89
+    .line 90
+    invoke-direct {v9}, Ljava/util/ArrayList;-><init>()V
+
+    .line 91
+    .line 92
+    .line 93
+    invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+
+    .line 94
+    .line 95
+    .line 96
+    move-result-object v1
+
+    .line 97
+    :goto_1
+    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+
+    .line 98
+    .line 99
+    .line 100
+    move-result v10
+
+    .line 101
+    if-eqz v10, :cond_4
+
+    .line 102
+    .line 103
+    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    .line 104
+    .line 105
+    .line 106
+    move-result-object v10
+
+    .line 107
+    check-cast v10, Ldf8;
+
+    .line 108
+    .line 109
+    iget-object v10, v10, Ldf8;->b:Ljava/lang/Object;
+
+    .line 110
+    .line 111
+    check-cast v10, Lqd2;
+
+    .line 112
+    .line 113
+    iget-object v10, v10, Lqd2;->a:Ljava/util/List;
+
+    .line 114
+    .line 115
+    check-cast v10, Ljava/lang/Iterable;
+
+    .line 116
+    .line 117
+    invoke-static {v10, v9}, Lem1;->M0(Ljava/lang/Iterable;Ljava/util/Collection;)V
+
+    .line 118
+    .line 119
+    .line 120
+    goto :goto_1
+
+    .line 121
+    :cond_4
+    invoke-virtual {v9}, Ljava/util/ArrayList;->size()I
+
+    .line 122
+    .line 123
+    .line 124
+    move-result v1
+
+    .line 125
+    const/4 v10, 0x0
+
+    .line 126
+    :cond_5
+    if-ge v10, v1, :cond_6
+
+    .line 127
+    .line 128
+    invoke-virtual {v9, v10}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+
+    .line 129
+    .line 130
+    .line 131
+    move-result-object v11
+
+    .line 132
+    add-int/lit8 v10, v10, 0x1
+
+    .line 133
+    .line 134
+    move-object v12, v11
+
+    .line 135
+    check-cast v12, Lrd2;
+
+    .line 136
+    .line 137
+    iget-object v12, v12, Lrd2;->a:Ljava/lang/String;
+
+    .line 138
+    .line 139
+    invoke-static {v12, v7}, Lvj5;->f(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    .line 140
+    .line 141
+    .line 142
+    move-result v12
+
+    .line 143
+    if-eqz v12, :cond_5
+
+    .line 144
+    .line 145
+    goto :goto_2
+
+    .line 146
+    :cond_6
+    move-object v11, v4
+
+    .line 147
+    :goto_2
+    check-cast v11, Lrd2;
+
+    .line 148
+    .line 149
+    sget-object v1, Lce2;->a:Lce2;
+
+    .line 150
+    .line 151
+    invoke-static {}, Lce2;->f()Ljava/lang/String;
+
+    .line 152
+    .line 153
+    .line 154
+    move-result-object v1
+
+    .line 155
+    if-eqz v11, :cond_7
+
+    .line 156
+    .line 157
+    iget-object v9, v11, Lrd2;->c:Ljava/util/List;
+
+    .line 158
+    .line 159
+    goto :goto_3
+
+    .line 160
+    :cond_7
+    move-object v9, v4
+
+    .line 161
+    :goto_3
+    new-instance v10, Ljava/lang/StringBuilder;
+
+    .line 162
+    .line 163
+    const-string v12, "Will restore ROOM table "
+
+    .line 164
+    .line 165
+    invoke-direct {v10, v12}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 166
+    .line 167
+    .line 168
+    invoke-virtual {v10, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 169
+    .line 170
+    .line 171
+    const-string v12, " with declared evolved required columns: "
+
+    .line 172
+    .line 173
+    invoke-virtual {v10, v12}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 174
+    .line 175
+    .line 176
+    invoke-virtual {v10, v9}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    .line 177
+    .line 178
+    .line 179
+    invoke-virtual {v10}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 180
+    .line 181
+    .line 182
+    move-result-object v9
+
+    .line 183
+    invoke-static {v1, v9}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 184
+    .line 185
+    .line 186
+    new-instance v1, Ljava/util/LinkedHashSet;
+
+    .line 187
+    .line 188
+    invoke-direct {v1}, Ljava/util/LinkedHashSet;-><init>()V
+
+    .line 189
+    .line 190
+    .line 191
+    invoke-virtual {v3}, Lorg/json/JSONArray;->length()I
+
+    .line 192
+    .line 193
+    .line 194
+    move-result v9
+
+    .line 195
+    move-object v10, v1
+
+    .line 196
+    move v1, v9
+
+    .line 197
+    const/4 v9, 0x0
+
+    .line 198
+    :goto_4
+    if-ge v9, v1, :cond_e
+
+    .line 199
+    .line 200
+    invoke-virtual {v3, v9}, Lorg/json/JSONArray;->optJSONObject(I)Lorg/json/JSONObject;
+
+    .line 201
+    .line 202
+    .line 203
+    move-result-object v12
+
+    .line 204
+    if-eqz v12, :cond_d
+
+    .line 205
+    .line 206
+    invoke-virtual {v12}, Lorg/json/JSONObject;->names()Lorg/json/JSONArray;
+
+    .line 207
+    .line 208
+    .line 209
+    move-result-object v13
+
+    .line 210
+    if-eqz v13, :cond_d
+
+    .line 211
+    .line 212
+    new-instance v14, Landroid/content/ContentValues;
+
+    .line 213
+    .line 214
+    invoke-direct {v14}, Landroid/content/ContentValues;-><init>()V
+
+    .line 215
+    .line 216
+    .line 217
+    invoke-virtual {v13}, Lorg/json/JSONArray;->length()I
+
+    .line 218
+    .line 219
+    .line 220
+    move-result v15
+
+    .line 221
+    const/4 v5, 0x0
+
+    .line 222
+    :goto_5
+    if-ge v5, v15, :cond_8
+
+    .line 223
+    .line 224
+    invoke-virtual {v13, v5}, Lorg/json/JSONArray;->getString(I)Ljava/lang/String;
+
+    .line 225
+    .line 226
+    .line 227
+    move-result-object v4
+
+    .line 228
+    invoke-virtual {v12, v4}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
+
+    .line 229
+    .line 230
+    .line 231
+    move-result-object v6
+
+    .line 232
+    invoke-virtual {v14, v4, v6}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 233
+    .line 234
+    .line 235
+    add-int/lit8 v5, v5, 0x1
+
+    .line 236
+    .line 237
+    const/4 v4, 0x0
+
+    .line 238
+    const/4 v6, 0x1
+
+    .line 239
+    goto :goto_5
+
+    .line 240
+    :cond_8
+    if-eqz v11, :cond_a
+
+    .line 241
+    .line 242
+    iget-object v4, v11, Lrd2;->c:Ljava/util/List;
+
+    .line 243
+    .line 244
+    check-cast v4, Ljava/lang/Iterable;
+
+    .line 245
+    .line 246
+    invoke-interface {v4}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+
+    .line 247
+    .line 248
+    .line 249
+    move-result-object v4
+
+    .line 250
+    :cond_9
+    :goto_6
+    invoke-interface {v4}, Ljava/util/Iterator;->hasNext()Z
+
+    .line 251
+    .line 252
+    .line 253
+    move-result v5
+
+    .line 254
+    if-eqz v5, :cond_a
+
+    .line 255
+    .line 256
+    invoke-interface {v4}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    .line 257
+    .line 258
+    .line 259
+    move-result-object v5
+
+    .line 260
+    check-cast v5, Ljd2;
+
+    .line 261
+    .line 262
+    iget-object v6, v5, Ljd2;->a:Ljava/lang/String;
+
+    .line 263
+    .line 264
+    invoke-virtual {v14, v6}, Landroid/content/ContentValues;->containsKey(Ljava/lang/String;)Z
+
+    .line 265
+    .line 266
+    .line 267
+    move-result v12
+
+    .line 268
+    if-nez v12, :cond_9
+
+    .line 269
+    .line 270
+    iget-object v5, v5, Ljd2;->b:Ljava/lang/String;
+
+    .line 271
+    .line 272
+    invoke-virtual {v14, v6, v5}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 273
+    .line 274
+    .line 275
+    invoke-interface {v10, v6}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
+
+    .line 276
+    .line 277
+    .line 278
+    goto :goto_6
+
+    .line 279
+    :cond_a
+    sget-object v4, Lce2;->a:Lce2;
+
+    .line 280
+    .line 281
+    iput-object v11, v0, Lbe2;->r:Lrd2;
+
+    .line 282
+    .line 283
+    move-object v4, v10
+
+    .line 284
+    check-cast v4, Ljava/util/Set;
+
+    .line 285
+    .line 286
+    iput-object v4, v0, Lbe2;->s:Ljava/util/Set;
+
+    .line 287
+    .line 288
+    iput v9, v0, Lbe2;->t:I
+
+    .line 289
+    .line 290
+    iput v1, v0, Lbe2;->u:I
+
+    .line 291
+    .line 292
+    iput v2, v0, Lbe2;->v:I
+
+    .line 293
+    .line 294
+    sget-object v4, Lj13;->a:Lsr2;
+
+    .line 295
+    .line 296
+    sget-object v4, Laq2;->c:Laq2;
+
+    .line 297
+    .line 298
+    new-instance v5, Lwd2;
+
+    .line 299
+    .line 300
+    const/4 v6, 0x0
+
+    .line 301
+    const/4 v12, 0x1
+
+    .line 302
+    invoke-direct {v5, v7, v14, v12, v6}, Lwd2;-><init>(Ljava/lang/String;Landroid/content/ContentValues;ILl22;)V
+
+    .line 303
+    .line 304
+    .line 305
+    invoke-static {v4, v5, v0}, Lll4;->j0(Le42;Lx84;Ll22;)Ljava/lang/Object;
+
+    .line 306
+    .line 307
+    .line 308
+    move-result-object v4
+
+    .line 309
+    if-ne v4, v8, :cond_b
+
+    .line 310
+    .line 311
+    goto :goto_7
+
+    .line 312
+    :cond_b
+    sget-object v4, Lrac;->a:Lrac;
+
+    .line 313
+    .line 314
+    :goto_7
+    if-ne v4, v8, :cond_c
+
+    .line 315
+    .line 316
+    :goto_8
+    return-object v8
+
+    .line 317
+    :cond_c
+    :goto_9
+    const/16 v16, 0x1
+
+    .line 318
+    .line 319
+    goto :goto_b
+
+    .line 320
+    :cond_d
+    :goto_a
+    move-object v6, v4
+
+    .line 321
+    goto :goto_9
+
+    .line 322
+    :goto_b
+    add-int/lit8 v9, v9, 0x1
+
+    .line 323
+    .line 324
+    move-object v4, v6
+
+    .line 325
+    move/from16 v6, v16
+
+    .line 326
+    .line 327
+    goto/16 :goto_4
+
+    .line 328
+    .line 329
+    :cond_e
+    sget-object v0, Lce2;->a:Lce2;
+
+    .line 330
+    .line 331
+    invoke-static {}, Lce2;->f()Ljava/lang/String;
+
+    .line 332
+    .line 333
+    .line 334
+    move-result-object v0
+
+    .line 335
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    .line 336
+    .line 337
+    const-string v2, "Restored ROOM table: "
+
+    .line 338
+    .line 339
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 340
+    .line 341
+    .line 342
+    invoke-virtual {v1, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 343
+    .line 344
+    .line 345
+    const-string v2, " (amended required columns: "
+
+    .line 346
+    .line 347
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 348
+    .line 349
+    .line 350
+    invoke-virtual {v1, v10}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    .line 351
+    .line 352
+    .line 353
+    const-string v2, ")"
+
+    .line 354
+    .line 355
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 356
+    .line 357
+    .line 358
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 359
+    .line 360
+    .line 361
+    move-result-object v1
+
+    .line 362
+    invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 363
+    .line 364
+    .line 365
+    move-result v0
+
+    .line 366
+    goto :goto_c
+
+    .line 367
+    :cond_f
+    sget-object v0, Lce2;->a:Lce2;
+
+    .line 368
+    .line 369
+    invoke-static {}, Lce2;->f()Ljava/lang/String;
+
+    .line 370
+    .line 371
+    .line 372
+    move-result-object v0
+
+    .line 373
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    .line 374
+    .line 375
+    const-string v2, "Did NOT restore ROOM table: "
+
+    .line 376
+    .line 377
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 378
+    .line 379
+    .line 380
+    invoke-virtual {v1, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 381
+    .line 382
+    .line 383
+    const-string v2, " as no rows are available in backup"
+
+    .line 384
+    .line 385
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 386
+    .line 387
+    .line 388
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 389
+    .line 390
+    .line 391
+    move-result-object v1
+
+    .line 392
+    invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 393
+    .line 394
+    .line 395
+    move-result v0
+
+    .line 396
+    goto :goto_c
+
+    .line 397
+    :cond_10
+    sget-object v0, Lce2;->a:Lce2;
+
+    .line 398
+    .line 399
+    invoke-static {}, Lce2;->f()Ljava/lang/String;
+
+    .line 400
+    .line 401
+    .line 402
+    move-result-object v0
+
+    .line 403
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    .line 404
+    .line 405
+    const-string v2, "Did NOT restore ROOM table "
+
+    .line 406
+    .line 407
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 408
+    .line 409
+    .line 410
+    invoke-virtual {v1, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 411
+    .line 412
+    .line 413
+    const-string v2, " as it no longer exists in DB"
+
+    .line 414
+    .line 415
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 416
+    .line 417
+    .line 418
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 419
+    .line 420
+    .line 421
+    move-result-object v1
+
+    .line 422
+    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 423
+    .line 424
+    .line 425
+    move-result v0
+
+    .line 426
+    :goto_c
+    new-instance v1, Ljava/lang/Integer;
+
+    .line 427
+    .line 428
+    invoke-direct {v1, v0}, Ljava/lang/Integer;-><init>(I)V
+
+    .line 429
+    .line 430
+    .line 431
+    return-object v1
+.end method

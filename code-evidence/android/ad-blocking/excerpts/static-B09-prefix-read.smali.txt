@@ -1,0 +1,47 @@
+.method public static d()Ljava/util/Set;
+    .locals 3
+
+    .line 1
+    sget-object v0, Lqt1;->d:Landroid/content/SharedPreferences;
+
+    .line 2
+    .line 3
+    sget-object v1, Lqt1;->c:Lcom/instantbits/cast/webvideo/WebVideoCasterApplication;
+
+    .line 4
+    .line 5
+    const v2, 0x7f130721
+
+    .line 6
+    .line 7
+    .line 8
+    invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    .line 9
+    .line 10
+    .line 11
+    move-result-object v1
+
+    .line 12
+    sget-object v2, Luf3;->a:Luf3;
+
+    .line 13
+    .line 14
+    invoke-interface {v0, v1, v2}, Landroid/content/SharedPreferences;->getStringSet(Ljava/lang/String;Ljava/util/Set;)Ljava/util/Set;
+
+    .line 15
+    .line 16
+    .line 17
+    move-result-object v0
+
+    .line 18
+    if-nez v0, :cond_0
+
+    .line 19
+    .line 20
+    return-object v2
+
+    .line 21
+    :cond_0
+    return-object v0
+.end method
