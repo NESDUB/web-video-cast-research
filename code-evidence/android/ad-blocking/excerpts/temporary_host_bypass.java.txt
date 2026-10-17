@@ -1,0 +1,64 @@
+        r3.i = (efc) yl1.c1((ArrayList) r5.k);
+    L9:
+        q0c.e.c();
+        long r8 = ((yec) r1).b;
+        me2.c().delete("USERAGENT", "_id=?", new String[]{String.valueOf(r8)});
+        r3.b();
+        return;
+    L5:
+        r7 = null;
+        goto L7
+    }
+
+    private final void d(View r3) {
+        uwc r4 = (uwc) this.c;
+        String r0 = (String) this.b;
+        String r2 = (String) this.d;
+        vgb r1 = uwc.n;
+        wzc r5 = r4.a;
+        r5.q = r0;
+        ((List) r4.m.getValue()).add(r2);     // Catch: Throwable -> L5
+        tdb.a();     // Catch: Throwable -> L5
+        r5.o(r2, null);     // Catch: Throwable -> L5
+        return;
+    L5:
+        th = move-exception;
+        Log.w(tdb.a(), "Error opening url", th);
+        n00.m(th);
+        Toast.makeText(r5.b, 2131952428, 1).show();
+    }
+
+    /* JADX WARN: Multi-variable type inference failed */
+    /* JADX WARN: Type inference failed for: r0v65, types: [java.util.List] */
+    /* JADX WARN: Type inference failed for: r0v66 */
+    /* JADX WARN: Type inference failed for: r0v86, types: [java.util.ArrayList] */
+    /* JADX WARN: Type inference failed for: r15v19, types: [android.content.Context, java.lang.Object] */
+    /* JADX WARN: Type inference failed for: r17v4, types: [java.util.List] */
+    /* JADX WARN: Type inference failed for: r4v20 */
+    /* JADX WARN: Type inference fix 'apply assigned field type' failed
+    java.lang.UnsupportedOperationException: ArgType.getObject(), call class: class jadx.core.dex.instructions.args.ArgType$ArrayArg
+    	at jadx.core.dex.instructions.args.ArgType.getObject(ArgType.java:596)
+    	at jadx.core.dex.attributes.nodes.ClassTypeVarsAttr.getTypeVarsMapFor(ClassTypeVarsAttr.java:35)
+    	at jadx.core.dex.nodes.utils.TypeUtils.replaceClassGenerics(TypeUtils.java:177)
+    	at jadx.core.dex.visitors.typeinference.FixTypesVisitor.insertExplicitUseCast(FixTypesVisitor.java:397)
+    	at jadx.core.dex.visitors.typeinference.FixTypesVisitor.tryFieldTypeWithNewCasts(FixTypesVisitor.java:359)
+    	at jadx.core.dex.visitors.typeinference.FixTypesVisitor.applyFieldType(FixTypesVisitor.java:309)
+    	at jadx.core.dex.visitors.typeinference.FixTypesVisitor.visit(FixTypesVisitor.java:94)
+     */
+    @Override // android.view.View.OnClickListener
+    public final void onClick(View r44) {
+        int r1 = this.a;
+        int r10 = 0;
+        Object r13 = this.d;
+        Object r14 = this.b;
+        Object r15 = this.c;
+        switch(r1) {
+            case 0: goto L354;
+            case 1: goto L352;
+            case 2: goto L350;
+            case 3: goto L345;
+            case 4: goto L339;
+            case 5: goto L316;
+            case 6: goto L314;
+            case 7: goto L312;
+            case 8: goto L310;

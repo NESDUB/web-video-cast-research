@@ -1,0 +1,64 @@
+    L23:
+        long r39 = r112;
+        Log.i(g(), "Skipping " + r8 + " out of " + r5 + " with duration " + r39);     // Catch: Throwable -> L8
+        goto L28
+    L25:
+        r17 = r7;
+        r8 = -1;
+        goto L23
+    L75:
+        Log.w(g(), "Not a media playlist ".concat(r27));     // Catch: Throwable -> L8
+        Log.i(g(), "Done with list");
+        return -1;
+    L8:
+        th = move-exception;
+        Log.i(g(), "Done with list");
+        throw th;
+    }
+
+    public static final void l(cw4 r16, String r17, long r18, jo4 r20, boolean r21) {
+        r16.getClass();
+        r17.getClass();
+        if (r20 != null) goto L5;
+        jo4 r0 = new jo4();
+        r0.a = -1.0d;
+        jo4 r8 = r0;
+    L6:
+        long r6 = r18;
+        boolean r2 = true;
+        nq9 r3 = null;
+    L7:
+        if (r2 == false) goto L36;
+        nq9 r4 = e(r17, -1, -1, null).execute();     // Catch: Throwable -> L32
+        int r5 = r4.d;     // Catch: Throwable -> L17
+        vq9 r10 = r4.g;
+        if (r5 < 200) goto L31;
+        if (r5 >= 300) goto L31;
+        if (r10 == null) goto L19;
+        InputStream r7 = r10.byteStream();     // Catch: Throwable -> L17
+    L20:
+        if (r7 == null) goto L29;
+        r6 = k(r16, r17, r7, r6, r8, r21);     // Catch: Throwable -> L17
+        if (r6 < 0) goto L24;
+        boolean r9 = true;
+    L25:
+        if (r10 == null) goto L27;
+        r10.close();     // Catch: Throwable -> L17
+    L27:
+        boolean r15 = r9;
+        r3 = r4;
+        r2 = r15;
+        goto L7
+    L24:
+        r9 = false;
+        goto L25
+    L29:
+        throw new IOException("Body is null while parsing");     // Catch: Throwable -> L17
+    L19:
+        r7 = null;
+    L31:
+        throw new IOException("Bad http code " + r5);     // Catch: Throwable -> L17
+    L17:
+        th = th;
+        r3 = r4;
+    L33:

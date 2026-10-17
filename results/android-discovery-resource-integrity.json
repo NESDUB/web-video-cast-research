@@ -1,0 +1,19 @@
+{
+  "scope": "Matches supplied APK, not publisher authenticity verification",
+  "records": [
+    {
+      "entry": "assets/ibfunctions.js",
+      "archive_sha256": "75ac2bf2fe04b25b4b270cd52f0c8d6d9fa5f25fefeaab90e5a2544a0603a3ac",
+      "extracted_sha256": "75ac2bf2fe04b25b4b270cd52f0c8d6d9fa5f25fefeaab90e5a2544a0603a3ac",
+      "equal": true,
+      "bytes": 31448
+    },
+    {
+      "entry": "assets/specialsites/hhtq.js",
+      "archive_sha256": "8133641e61379da2516ecd41a9a1e3a977acd9bfd45376082a1b194f1be6a4d6",
+      "extracted_sha256": "8133641e61379da2516ecd41a9a1e3a977acd9bfd45376082a1b194f1be6a4d6",
+      "equal": true,
+      "bytes": 5886
+    }
+  ]
+}

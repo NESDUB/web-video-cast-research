@@ -1,0 +1,64 @@
+        es1 r39 = r7.l;     // Catch: Throwable -> L37
+        r6 = a(r38, r39, (bi9) r36);     // Catch: Throwable -> L37
+        if (r6 == null) goto L42;
+        mo9 r40 = r6.d;     // Catch: Throwable -> L37
+        if (r40 != null) goto L58;
+    L61:
+        had.b(r38.g);     // Catch: Throwable -> L37
+        int r41 = r20 + 1;
+        zj3 r42 = r7.e;
+        if (r41 > 20) goto L66;
+        r42.getClass();     // Catch: Throwable -> L37
+        r7.e(true);
+        r19 = r38;
+        r5 = r7;
+        r20 = r41;
+        goto L7
+    L66:
+        r42.getClass();     // Catch: Throwable -> L37
+        throw new ProtocolException("Too many follow-up requests: " + r41);     // Catch: Throwable -> L37
+    L58:
+        if (r40.isOneShot() == false) goto L61;
+        r7.e.getClass();     // Catch: Throwable -> L53
+        boolean r43 = false;
+    L52:
+        r7.e(r43);
+        return r38;
+    L42:
+        if (r39 != null) goto L44;
+    L50:
+        r7.e.getClass();     // Catch: Throwable -> L53
+        r43 = false;
+        goto L52
+    L44:
+        if (r39.b == false) goto L50;
+        if (r7.k == true) goto L49;
+        r7.k = true;     // Catch: Throwable -> L37
+        r7.f.i();     // Catch: Throwable -> L37
+        goto L50
+    L49:
+        throw new IllegalStateException("Check failed.");     // Catch: Throwable -> L37
+    L53:
+        th = th;
+        r34 = false;
+        goto L80
+    L39:
+        r37 = null;
+    L68:
+        e = move-exception;
+        boolean r44 = c(e, r7, (bi9) r36, r6);     // Catch: Throwable -> L37
+        r7.e.getClass();     // Catch: Throwable -> L37
+        if (r44 == false) goto L71;
+        r18 = yl1.o1(r18, e);     // Catch: Throwable -> L37
+        r7.e(true);
+        r5 = r7;
+        r4 = false;
+        goto L8
+    L71:
+        byte[] r45 = had.a;     // Catch: Throwable -> L37
+        Iterator r46 = r18.iterator();     // Catch: Throwable -> L37
+    L73:
+        if (r46.hasNext() == false) goto L75;
+        hyc.h(e, (Exception) r46.next());     // Catch: Throwable -> L37
+        goto L73
+    L75:

@@ -1,0 +1,162 @@
+{
+  "scope": "static relationships, not universal runtime sequence",
+  "nodes": [
+    {
+      "id": "android-window",
+      "platform": "android",
+      "role": "gesture and popup preference gate",
+      "evidence": {
+        "file": "working/apktool/smali_classes6/sg1.smali",
+        "symbol": "onCreateWindow"
+      },
+      "confidence": "static-confirmed"
+    },
+    {
+      "id": "android-temporary-popup",
+      "platform": "android",
+      "role": "destination classification and user decision",
+      "evidence": {
+        "file": "working/apktool/smali_classes6/uwc.smali",
+        "symbol": "onPageStarted"
+      },
+      "confidence": "static-confirmed"
+    },
+    {
+      "id": "android-open-popup",
+      "platform": "android",
+      "role": "promote temporary WebView to tab",
+      "evidence": {
+        "file": "working/native/t9.java",
+        "symbol": "invoke, case 10"
+      },
+      "confidence": "static-confirmed"
+    },
+    {
+      "id": "android-dispose-popup",
+      "platform": "android",
+      "role": "clear clients and destroy WebView",
+      "evidence": {
+        "file": "working/apktool/smali_classes6/com/instantbits/cast/webvideo/WebBrowser.smali",
+        "symbol": "E0"
+      },
+      "confidence": "static-confirmed"
+    },
+    {
+      "id": "android-host",
+      "platform": "android",
+      "role": "cached exact host DB lookup on traced path",
+      "evidence": {
+        "file": "prior-analysis/class-fc.java",
+        "symbol": "c"
+      },
+      "confidence": "static-confirmed"
+    },
+    {
+      "id": "android-discovery",
+      "platform": "android",
+      "role": "DOM/player candidate discovery",
+      "evidence": {
+        "file": "extracted/android/assets/ibfunctions.js",
+        "symbol": "ibSendListOfVideos"
+      },
+      "confidence": "static-confirmed"
+    },
+    {
+      "id": "android-bridge",
+      "platform": "android",
+      "role": "console JSON parsing and dispatch",
+      "evidence": {
+        "file": "prior-analysis/class-sg1.java",
+        "symbol": "onConsoleMessage, j, t"
+      },
+      "confidence": "static-confirmed"
+    },
+    {
+      "id": "android-hls-check",
+      "platform": "android",
+      "role": "HTTP header-line validation with cache",
+      "evidence": {
+        "file": "working/apktool/smali_classes6/gpb.smali",
+        "symbol": "a"
+      },
+      "confidence": "static-confirmed"
+    },
+    {
+      "id": "android-proxy-record",
+      "platform": "android",
+      "role": "source URL and header context registry",
+      "evidence": {
+        "file": "working/native/zfa.java",
+        "symbol": "a, b"
+      },
+      "confidence": "static-confirmed"
+    },
+    {
+      "id": "android-playlist-rewrite",
+      "platform": "android",
+      "role": "playlist URL resolution and rewriting",
+      "evidence": {
+        "file": "working/native/uda.java",
+        "symbol": "a, d, f"
+      },
+      "confidence": "static-confirmed"
+    },
+    {
+      "id": "ios-discovery",
+      "platform": "ios",
+      "role": "DOM/player discovery, observers and message bridge",
+      "evidence": {
+        "file": "working/ios-ibfunctions.js",
+        "symbol": "Video, DomMonitor, NativeApp"
+      },
+      "confidence": "static-confirmed"
+    },
+    {
+      "id": "ios-events",
+      "platform": "ios",
+      "role": "request/blob event consumers; producers unresolved",
+      "evidence": {
+        "file": "working/ios-ibfunctions.js",
+        "symbol": "__ib_x, __ib_f, __ib_b listeners"
+      },
+      "confidence": "static-confirmed"
+    }
+  ],
+  "edges": [
+    {
+      "source": "android-window",
+      "target": "android-temporary-popup",
+      "relationship": "popup preference branch creates marked temporary view"
+    },
+    {
+      "source": "android-temporary-popup",
+      "target": "android-host",
+      "relationship": "classifies destination host"
+    },
+    {
+      "source": "android-temporary-popup",
+      "target": "android-open-popup",
+      "relationship": "allowed exception or user action"
+    },
+    {
+      "source": "android-temporary-popup",
+      "target": "android-dispose-popup",
+      "relationship": "cleanup callback if not promoted"
+    },
+    {
+      "source": "android-discovery",
+      "target": "android-bridge",
+      "relationship": "ibMessage console JSON"
+    },
+    {
+      "source": "android-bridge",
+      "target": "android-hls-check",
+      "relationship": "validateHls candidates only"
+    },
+    {
+      "source": "android-playlist-rewrite",
+      "target": "android-proxy-record",
+      "relationship": "proxy URL generator selected downstream"
+    }
+  ]
+}

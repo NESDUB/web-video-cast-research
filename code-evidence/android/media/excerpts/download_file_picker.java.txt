@@ -1,0 +1,64 @@
+import android.view.ViewGroup;
+import android.widget.TextView;
+import androidx.appcompat.widget.AppCompatButton;
+import androidx.constraintlayout.widget.ConstraintLayout;
+import com.instantbits.cast.webvideo.a;
+import java.lang.ref.WeakReference;
+import java.util.Iterator;
+import java.util.Locale;
+import java.util.Map;
+
+/* JADX INFO: compiled from: r8-map-id-5f5060530d9e05db1e1197cdcb7ee4005bad73cf33dea77cc3c253934918b27f */
+/* JADX INFO: loaded from: /home/nes/Downloads/Web-Video-Cast/analysis/classes6.dex */
+public abstract class i57 {
+    public static final vgb a = new vgb(new b57(0));
+    public static n33 b;
+    public static WeakReference c;
+
+    public static void a(Activity activity, String str, String str2, boolean z, c43 c43Var, d43 d43Var, String str3, Map map) {
+        Intent intent = new Intent("android.intent.action.CREATE_DOCUMENT");
+        intent.addCategory("android.intent.category.OPENABLE");
+        intent.setType(d43Var.b);
+        intent.setFlags(195);
+        String strI = c43Var.b.i(str2);
+        if (strI != null) {
+            if (j6b.W0(strI)) {
+                strI = null;
+            }
+            if (strI != null) {
+                intent.putExtra("android.intent.extra.TITLE", strI);
+            }
+        }
+        b = new n33("", str, z, d43Var, c43Var, str3, map, b43.g, null, 0L, 0L, 32257);
+        try {
+            activity.startActivityForResult(intent, 6294);
+        } catch (ActivityNotFoundException e) {
+            Log.w(e(), e);
+            l27.d0(activity, activity.getString(2131952618), activity.getString(2131952160), (DialogInterface.OnDismissListener) null);
+        }
+    }
+
+    public static final void b(Activity activity, xyc xycVar, String str) {
+        activity.getClass();
+        xycVar.getClass();
+        str.getClass();
+        if (!j6b.W0(str)) {
+            f57 f57Var = new f57(activity, xycVar, str, 0);
+            if (n08.s() ? n08.A(activity, "android.permission.POST_NOTIFICATIONS", 6) : true) {
+                f57Var.invoke();
+                return;
+            } else {
+                c = new WeakReference(f57Var);
+                return;
+            }
+        }
+        l27.d0(activity, activity.getString(2131952618), activity.getString(2131954651), (DialogInterface.OnDismissListener) null);
+        String str2 = xycVar.b;
+        String str3 = xycVar.d;
+        c77 c77Var = xycVar.a;
+        String simpleName = activity.getClass().getSimpleName();
+        StringBuilder sbP = b42.p("WebVideo(pageUrl='", str2, "', createdAt='", str3, ")', type=");
+        sbP.append(c77Var);
+        sbP.append(") params[activity=");
+        sbP.append(simpleName);
+        sbP.append(", url='");

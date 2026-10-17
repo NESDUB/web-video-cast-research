@@ -1,0 +1,64 @@
+        r28.J(c);
+        r27.trace("Received redirect response to " + r26 + " for request " + ((ns4) r15.a).c().getUrl());
+        zu4 r29 = new zu4();
+        zu4 r30 = (zu4) r112.a;
+        r30.getClass();
+        r29.e = r30.e;
+        r29.c(r30);
+        a9c r31 = r29.a;
+        r31.j.clear();
+        b9c.b(r31, r26);
+        if (tt9.O(r113) == false) goto L53;
+        if (tt9.O(r31.d()) == true) goto L53;
+        r27.trace("Blocked redirect from " + ((ns4) r15.a).c().getUrl() + " to " + r26 + " due to HTTPS downgrade");
+        return r15.a;
+    L53:
+        if (r24.equals(oc9.X(r31)) == true) goto L55;
+        ek4 r114 = r29.c;
+        r114.getClass();
+        ((Map) ((fm1) r114).b).remove("Authorization");
+        r27.trace("Removing Authorization header for cross-authority redirect: " + r24 + " -> " + r31.c());
+    L55:
+        r112.a = r29;
+        r0.r = r110;
+        r0.s = r12;
+        r0.t = r15;
+        r0.u = r112;
+        r0.v = r15;
+        r0.x = 1;
+        Object r115 = r110.a.a(r29, r0);
+        p42 r32 = p42.a;
+        if (r115 != r32) goto L58;
+        return r32;
+    L58:
+        r4 = r0;
+        r5 = r115;
+        r111 = r12;
+        r19 = r112;
+        r17 = r15;
+        goto L59
+    L32:
+        if (r25 == iw4.g.a) goto L42;
+        if (r25 == iw4.j.a) goto L42;
+        if (r25 == iw4.k.a) goto L42;
+        if (r25 == iw4.h.a) goto L42;
+        return r15.a;
+    L25:
+        if (r22 == r6.i.b) goto L28;
+        r23 = ll4.u(r6);
+        goto L29
+    L12:
+        sm0.r("call to 'resume' before 'invoke' with coroutine");
+        return null;
+    L14:
+        tt9.m0(r14);
+        jk9 r116 = new jk9();
+        r116.a = r11;
+        r112 = new jk9();
+        r112.a = r10;
+        r110 = r9;
+        r15 = r116;
+    L7:
+        r0 = new wu4(r13);
+        goto L8
+    }

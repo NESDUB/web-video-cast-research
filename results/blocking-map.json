@@ -1,0 +1,759 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-16T23:45:31.189513+00:00",
+  "purpose": "Evidence-backed map of Web Video Cast ad blocking",
+  "status": "static_pipeline_mapped_with_partial_native_gaps",
+  "packages": {
+    "android": {
+      "apk": "/home/nes/Downloads/Web_Video_Caster-6.0.3.apk",
+      "sha256": "1b8c59354805a7431db69e701d48a7d09a60b291c362b6e0bcfe73c18a4514f8",
+      "size": 56609020,
+      "note": "Version 6.0.3 is the supplied filename; publisher authenticity has not been independently verified."
+    },
+    "ios": {
+      "bundle_id": "com.instantbits.cast.webvideo",
+      "version": "3.5",
+      "build": "0",
+      "size_bytes": 183863822,
+      "sha256": "e53d533f45821573f9743f3d325f50b98f1b0503d9b76cc82c9c848fba7b971b",
+      "source": "Apple App Store via ipatool 2.7.0",
+      "archive_integrity": "passed"
+    }
+  },
+  "nodes": [
+    {
+      "id": "a.settings",
+      "platform": "android",
+      "stage": "configuration",
+      "behavior": "Separate controls for all popups, non-gesture popups, resource ad blocking, redirect blocking, JS dialogs, blocklists and exceptions.",
+      "evidence": [
+        {
+          "file": "/home/nes/Desktop/Web-Video-Cast-Research/prior-analysis/android-resources/resources/res/xml/preferences_browser_popup_and_ad_blocking.xml",
+          "line": 2,
+          "anchor": "<PreferenceScreen"
+        }
+      ],
+      "confidence": "confirmed_static"
+    },
+    {
+      "id": "a.sources",
+      "platform": "android",
+      "stage": "list-loading",
+      "behavior": "Config combines local additions, optional 1Hosts Lite, developer list and local removals with custom sources.",
+      "evidence": [
+        {
+          "file": "/home/nes/Desktop/Web-Video-Cast-Research/prior-analysis/class-mc.java",
+          "line": 134,
+          "anchor": "remote_default_github"
+        }
+      ],
+      "confidence": "confirmed_static"
+    },
+    {
+      "id": "a.worker",
+      "platform": "android",
+      "stage": "list-loading",
+      "behavior": "Background worker reads hosts, hashes the assembled set and compares with active load; logs distinguish changed/unchanged content and incomplete reads.",
+      "evidence": [
+        {
+          "file": "/home/nes/Desktop/Web-Video-Cast-Research/prior-analysis/android-code/sources/com/instantbits/cast/webvideo/ads/config/ad/AdBlockLoadWorker.java",
+          "line": 416,
+          "anchor": "Hash for"
+        },
+        {
+          "file": "/home/nes/Desktop/Web-Video-Cast-Research/prior-analysis/android-code/sources/com/instantbits/cast/webvideo/ads/config/ad/AdBlockLoadWorker.java",
+          "line": 302,
+          "anchor": "Hosts are incomplete"
+        }
+      ],
+      "confidence": "confirmed_static"
+    },
+    {
+      "id": "a.cache",
+      "platform": "android",
+      "stage": "host-matching",
+      "behavior": "Concurrent host-decision cache and pending lookup coalescing; database lookup selects host from active AdBlockLoad.",
+      "evidence": [
+        {
+          "file": "/home/nes/Desktop/Web-Video-Cast-Research/prior-analysis/class-a9.java",
+          "line": 25,
+          "anchor": "r1.b.get(r9)"
+        },
+        {
+          "file": "/home/nes/Desktop/Web-Video-Cast-Research/prior-analysis/class-fc.java",
+          "line": 9,
+          "anchor": "ConcurrentHashMap"
+        },
+        {
+          "file": "/home/nes/Desktop/Web-Video-Cast-Research/prior-analysis/class-f9.java",
+          "line": 952,
+          "anchor": "SELECT * FROM AdBlockItem WHERE host=?"
+        }
+      ],
+      "confidence": "confirmed_static",
+      "notes": "Exact host query confirmed. Parent-domain expansion and parser semantics not fully resolved."
+    },
+    {
+      "id": "a.request-entry",
+      "platform": "android",
+      "stage": "resource-interception",
+      "behavior": "WebViewClient GET requests go through optional player patch then shared request handling; legacy callback also uses shared handler. General non-GET requests return null except one site-specific path.",
+      "evidence": [
+        {
+          "file": "/home/nes/Desktop/Web-Video-Cast-Research/prior-analysis/class-uwc.java",
+          "line": 1032,
+          "anchor": "public final WebResourceResponse shouldInterceptRequest(WebView r5"
+        },
+        {
+          "file": "/home/nes/Desktop/Web-Video-Cast-Research/prior-analysis/class-uwc.java",
+          "line": 383,
+          "anchor": "return yxc.c("
+        }
+      ],
+      "confidence": "confirmed_static"
+    },
+    {
+      "id": "a.request-block",
+      "platform": "android",
+      "stage": "resource-interception",
+      "behavior": "Shared handler checks host match, tab-specific allowed host, ad-block preference and n00/vgb gate; blocked path returns empty text/plain WebResourceResponse.",
+      "evidence": [
+        {
+          "file": "/home/nes/Desktop/Web-Video-Cast-Research/prior-analysis/request-blocking.java",
+          "line": 290,
+          "anchor": "if (a(r43)"
+        },
+        {
+          "file": "/home/nes/Desktop/Web-Video-Cast-Research/prior-analysis/request-blocking.java",
+          "line": 298,
+          "anchor": "User allowed ad site"
+        },
+        {
+          "file": "/home/nes/Desktop/Web-Video-Cast-Research/prior-analysis/request-blocking.java",
+          "line": 308,
+          "anchor": "AdBlock: Blocking site"
+        },
+        {
+          "file": "/home/nes/Desktop/Web-Video-Cast-Research/prior-analysis/request-blocking.java",
+          "line": 280,
+          "anchor": "new WebResourceResponse(\"text/plain\""
+        }
+      ],
+      "confidence": "confirmed_static",
+      "notes": "Identity of n00/vgb eligibility gate not fully traced; do not assume feature enabled for every user."
+    },
+    {
+      "id": "a.navigation",
+      "platform": "android",
+      "stage": "navigation",
+      "behavior": "shouldOverrideUrlLoading -> q -> c checks destination, allowed-host state, blocked hosts and redirect classifier; redirect blocking has separate preference and optional blocked-notice UI.",
+      "evidence": [
+        {
+          "file": "/home/nes/Desktop/Web-Video-Cast-Research/prior-analysis/class-uwc.java",
+          "line": 990,
+          "anchor": "public final boolean q("
+        },
+        {
+          "file": "/home/nes/Desktop/Web-Video-Cast-Research/prior-analysis/class-uwc.java",
+          "line": 178,
+          "anchor": "if (ld.a(r20)"
+        },
+        {
+          "file": "/home/nes/Desktop/Web-Video-Cast-Research/prior-analysis/class-qt1.java",
+          "line": 411,
+          "anchor": "public static final boolean o()"
+        }
+      ],
+      "confidence": "confirmed_static",
+      "notes": "Simple decompilation has labels/type warnings. Full branch order remains subject to bytecode verification."
+    },
+    {
+      "id": "a.redirect-rules",
+      "platform": "android",
+      "stage": "navigation",
+      "behavior": "Classifier builds a context of full URL, host, path and query-parameter-name set; first matching configured predicate returns true.",
+      "evidence": [
+        {
+          "file": "/home/nes/Desktop/Web-Video-Cast-Research/prior-analysis/class-ld.java",
+          "line": 49,
+          "anchor": "getQueryParameterNames()"
+        },
+        {
+          "file": "/home/nes/Desktop/Web-Video-Cast-Research/prior-analysis/class-ld.java",
+          "line": 61,
+          "anchor": "((cra) r13).a(r3)"
+        }
+      ],
+      "confidence": "confirmed_static",
+      "bundled_rule_count": 5
+    },
+    {
+      "id": "a.redirect-updates",
+      "platform": "android",
+      "stage": "list-loading",
+      "behavior": "Redirect rules have a remote URL configurable with android_ad_redirect_block_remote_url; fallback points to developer CDN redirect_block.txt.",
+      "evidence": [
+        {
+          "file": "/home/nes/Desktop/Web-Video-Cast-Research/prior-analysis/class-nm9.java",
+          "line": 48,
+          "anchor": "android_ad_redirect_block_remote_url"
+        }
+      ],
+      "confidence": "confirmed_static"
+    },
+    {
+      "id": "a.popups",
+      "platform": "android",
+      "stage": "window-creation",
+      "behavior": "WebChromeClient onCreateWindow distinguishes user gestures and supports discarding all popups. Resource XML defaults block-all-popups=true and allow-without-touch=false.",
+      "evidence": [
+        {
+          "file": "/home/nes/Desktop/Web-Video-Cast-Research/prior-analysis/class-sg1.java",
+          "line": 645,
+          "anchor": "onCreateWindow("
+        },
+        {
+          "file": "/home/nes/Desktop/Web-Video-Cast-Research/prior-analysis/android-resources/resources/res/xml/preferences_browser_popup_and_ad_blocking.xml",
+          "line": 5,
+          "anchor": "@string/popup_ignore_title"
+        }
+      ],
+      "confidence": "confirmed_static",
+      "notes": "Preferences and UI descriptions confirmed; decompiler omits/reorders branch labels, so full decision tree not marked bytecode-verified."
+    },
+    {
+      "id": "a.playback",
+      "platform": "android",
+      "stage": "media-handling",
+      "behavior": "Interception also contains site-specific user-agent/referrer changes and player-JS processing. This functionality is adjacent to blocking, not proof of removal of video ad segments.",
+      "evidence": [
+        {
+          "file": "/home/nes/Desktop/Web-Video-Cast-Research/prior-analysis/class-uwc.java",
+          "line": 482,
+          "anchor": "patchYouTubePlayerJs"
+        },
+        {
+          "file": "/home/nes/Desktop/Web-Video-Cast-Research/prior-analysis/request-blocking.java",
+          "line": 259,
+          "anchor": "android_host_needs_user_agent_chrome_95"
+        },
+        {
+          "file": "/home/nes/Desktop/Web-Video-Cast-Research/prior-analysis/request-blocking.java",
+          "line": 1017,
+          "anchor": "android_remove_referrer_for_intercept"
+        }
+      ],
+      "confidence": "confirmed_static"
+    },
+    {
+      "id": "i.defaults",
+      "platform": "ios",
+      "stage": "configuration",
+      "behavior": "Packaged preferences default EasyList, Annoyances, Anti-adblock and WVC lists to true; Privacy and language lists default false.",
+      "evidence": [
+        {
+          "file": "/home/nes/Desktop/Web-Video-Cast-Research/prior-analysis/ios-defaults.json",
+          "line": 12,
+          "anchor": "easylist_ads"
+        }
+      ],
+      "confidence": "confirmed_static",
+      "notes": "Not a readout of current user preferences; premium requirement appears in settings footer."
+    },
+    {
+      "id": "i.content-rules",
+      "platform": "ios",
+      "stage": "resource-and-cosmetic-rules",
+      "behavior": "Readable JSON rules use block, css-display-none and ignore-previous-rules with resource-type, domain and first/third-party restrictions.",
+      "evidence": [
+        {
+          "file": "/home/nes/Desktop/Web-Video-Cast-Research/prior-analysis/ios-rules/easylist-content-rules.json",
+          "line": 1,
+          "anchor": "url-filter"
+        }
+      ],
+      "confidence": "confirmed_static",
+      "notes": "Counts are rules, not unique hosts. Overlap between lists is possible."
+    },
+    {
+      "id": "i.custom",
+      "platform": "ios",
+      "stage": "cosmetic-rules",
+      "behavior": "Seven custom CSS rules target streaming-site banners, modal messages, suspicious sandboxed srcdoc iframes and an adblock-dialog element.",
+      "evidence": [
+        {
+          "file": "/home/nes/Desktop/Web-Video-Cast-Research/prior-analysis/ios-rules/wvc-content-rules.json",
+          "line": 3,
+          "anchor": "traditional adblocking"
+        }
+      ],
+      "confidence": "confirmed_static"
+    },
+    {
+      "id": "i.script-guard",
+      "platform": "ios",
+      "stage": "injected-script",
+      "behavior": "IBDocument.isAdblockEnabled reads a boolean config.adblock; suppression branch runs only when this guard is true.",
+      "evidence": [
+        {
+          "file": "/home/nes/Desktop/Web-Video-Cast-Research/prior-analysis/ios-ibfunctions.min.js",
+          "line": 1,
+          "anchor": "static isAdblockEnabled()"
+        },
+        {
+          "file": "/home/nes/Desktop/Web-Video-Cast-Research/prior-analysis/ios-popup-suppression-extracted.js",
+          "line": 1,
+          "anchor": "if(IBDocument.isAdblockEnabled())"
+        }
+      ],
+      "confidence": "confirmed_static"
+    },
+    {
+      "id": "i.repeated-cleanup",
+      "platform": "ios",
+      "stage": "injected-script",
+      "behavior": "Once per second, scans direct html/body children matching three selectors and sets display:none. Stops after 32 callback invocations (post-increment t++ > 30), approximately 32 seconds absent throttling.",
+      "evidence": [
+        {
+          "file": "/home/nes/Desktop/Web-Video-Cast-Research/prior-analysis/ios-popup-suppression-extracted.js",
+          "line": 1,
+          "anchor": "setInterval"
+        }
+      ],
+      "confidence": "confirmed_static_and_isolated_browser_test",
+      "selectors": [
+        "iframe[style*=\"position: fixed\"][sandbox*=\"allow-popups\"]",
+        "iframe[style*=\"z-index: 21474836\"][style*=\"position: fixed\"]",
+        "in-page-message"
+      ],
+      "notes": "Cosmetic suppression only: hides elements, does not remove them or establish that their network/script execution stopped. Direct-child and literal style substring matching limits apply."
+    },
+    {
+      "id": "i.browser-integration",
+      "platform": "ios",
+      "stage": "native-integration",
+      "behavior": "Executable includes WKContentRuleListStore and loadAdblockRules(into: WKWebView) symbols.",
+      "evidence": [
+        {
+          "file": "/home/nes/Desktop/Web-Video-Cast-Research/prior-analysis/ios-blocking-strings.txt",
+          "line": 28,
+          "anchor": "WKContentRuleListStore"
+        }
+      ],
+      "confidence": "symbol_evidence_only",
+      "notes": "Mach-O cryptid=1. Native implementation remains encrypted; exact installation order, update path and popup policy not established."
+    },
+    {
+      "id": "i.media-extraction",
+      "platform": "ios",
+      "stage": "media-handling",
+      "behavior": "Injected script contains player/video discovery and native messages. Whether direct casting bypasses page-ad flows is an untested hypothesis, not a confirmed ad-removal mechanism.",
+      "evidence": [
+        {
+          "file": "/home/nes/Desktop/Web-Video-Cast-Research/prior-analysis/ios-ibfunctions.min.js",
+          "line": 1,
+          "anchor": "ibPauseAllVideos"
+        }
+      ],
+      "confidence": "partial_static_evidence"
+    }
+  ],
+  "edges": [
+    {
+      "from": "a.sources",
+      "to": "a.worker",
+      "relation": "loads"
+    },
+    {
+      "from": "a.worker",
+      "to": "a.cache",
+      "relation": "populates active host database"
+    },
+    {
+      "from": "a.request-entry",
+      "to": "a.request-block",
+      "relation": "delegates"
+    },
+    {
+      "from": "a.request-block",
+      "to": "a.cache",
+      "relation": "looks up host"
+    },
+    {
+      "from": "a.navigation",
+      "to": "a.cache",
+      "relation": "checks host"
+    },
+    {
+      "from": "a.navigation",
+      "to": "a.redirect-rules",
+      "relation": "checks URL patterns"
+    },
+    {
+      "from": "a.redirect-updates",
+      "to": "a.redirect-rules",
+      "relation": "supplies rules"
+    },
+    {
+      "from": "a.settings",
+      "to": "a.popups",
+      "relation": "configures"
+    },
+    {
+      "from": "a.settings",
+      "to": "a.request-block",
+      "relation": "configures"
+    },
+    {
+      "from": "a.settings",
+      "to": "a.navigation",
+      "relation": "configures"
+    },
+    {
+      "from": "i.defaults",
+      "to": "i.content-rules",
+      "relation": "configures list selection"
+    },
+    {
+      "from": "i.custom",
+      "to": "i.content-rules",
+      "relation": "adds CSS rules"
+    },
+    {
+      "from": "i.script-guard",
+      "to": "i.repeated-cleanup",
+      "relation": "conditionally enables"
+    }
+  ],
+  "android_packaged_defaults": [
+    {
+      "key": "popup",
+      "title": "Block all pop-ups",
+      "default": true
+    },
+    {
+      "key": "pref_allow_popup_alert_without_gesture",
+      "title": "Allow pop-up alert without touch",
+      "default": false
+    },
+    {
+      "key": "pref_ad_block",
+      "title": "Block website ads",
+      "default": false
+    },
+    {
+      "key": "pref_ad_blocked_alert",
+      "title": "Alert about blocked ad pop-ups",
+      "default": true
+    },
+    {
+      "key": "pref_redirect_ad_block",
+      "title": "Block ad redirects",
+      "default": true
+    },
+    {
+      "key": "pref_ad_redirect_ask_to_report",
+      "title": "Ask to report ad redirects",
+      "default": true
+    },
+    {
+      "key": "pref_update_adblock_list_key",
+      "title": "Update adblock list automatically",
+      "default": true
+    },
+    {
+      "key": "pref_external_app_launch_blocked_alert",
+      "title": "Alert for blocked external app launch",
+      "default": true
+    },
+    {
+      "key": "pref_js_alert_block",
+      "title": "Block JavaScript alert dialogs",
+      "default": false
+    },
+    {
+      "key": "pref_js_confirm_block",
+      "title": "Block JavaScript confirm dialogs",
+      "default": false
+    },
+    {
+      "key": "pref_js_prompt_block",
+      "title": "Block JavaScript prompt dialogs",
+      "default": false
+    }
+  ],
+  "ios_rule_counts": {
+    "fr-content-rules.json": {
+      "count": 10588,
+      "actions": {
+        "block": 9188,
+        "css-display-none": 1250,
+        "ignore-previous-rules": 150
+      }
+    },
+    "it-content-rules.json": {
+      "count": 3839,
+      "actions": {
+        "block": 972,
+        "css-display-none": 2781,
+        "ignore-previous-rules": 86
+      }
+    },
+    "privacy-content-rules.json": {
+      "count": 51103,
+      "actions": {
+        "block": 49972,
+        "css-display-none": 292,
+        "ignore-previous-rules": 839
+      }
+    },
+    "de-content-rules.json": {
+      "count": 4258,
+      "actions": {
+        "block": 2064,
+        "css-display-none": 2077,
+        "ignore-previous-rules": 117
+      }
+    },
+    "lt-content-rules.json": {
+      "count": 872,
+      "actions": {
+        "block": 487,
+        "css-display-none": 330,
+        "ignore-previous-rules": 55
+      }
+    },
+    "ar-content-rules.json": {
+      "count": 1131,
+      "actions": {
+        "block": 859,
+        "css-display-none": 242,
+        "ignore-previous-rules": 30
+      }
+    },
+    "pt-content-rules.json": {
+      "count": 1041,
+      "actions": {
+        "block": 270,
+        "css-display-none": 744,
+        "ignore-previous-rules": 27
+      }
+    },
+    "antiadblock-content-rules.json": {
+      "count": 2880,
+      "actions": {
+        "block": 2445,
+        "css-display-none": 386,
+        "ignore-previous-rules": 49
+      }
+    },
+    "he-content-rules.json": {
+      "count": 679,
+      "actions": {
+        "block": 173,
+        "css-display-none": 363,
+        "ignore-previous-rules": 143
+      }
+    },
+    "zh-content-rules.json": {
+      "count": 13652,
+      "actions": {
+        "block": 10564,
+        "css-display-none": 2339,
+        "ignore-previous-rules": 749
+      }
+    },
+    "hi-content-rules.json": {
+      "count": 11215,
+      "actions": {
+        "block": 5063,
+        "css-display-none": 6068,
+        "ignore-previous-rules": 84
+      }
+    },
+    "annoyance-content-rules.json": {
+      "count": 35998,
+      "actions": {
+        "block": 3485,
+        "css-display-none": 31978,
+        "ignore-previous-rules": 535
+      }
+    },
+    "id-content-rules.json": {
+      "count": 4174,
+      "actions": {
+        "block": 3442,
+        "css-display-none": 727,
+        "ignore-previous-rules": 5
+      }
+    },
+    "pl-content-rules.json": {
+      "count": 3016,
+      "actions": {
+        "block": 651,
+        "css-display-none": 2347,
+        "ignore-previous-rules": 18
+      }
+    },
+    "ro-content-rules.json": {
+      "count": 408,
+      "actions": {
+        "block": 279,
+        "css-display-none": 115,
+        "ignore-previous-rules": 14
+      }
+    },
+    "ru-content-rules.json": {
+      "count": 20919,
+      "actions": {
+        "block": 13574,
+        "css-display-none": 6581,
+        "ignore-previous-rules": 764
+      }
+    },
+    "cs-content-rules.json": {
+      "count": 423,
+      "actions": {
+        "block": 203,
+        "css-display-none": 199,
+        "ignore-previous-rules": 21
+      }
+    },
+    "nb-content-rules.json": {
+      "count": 4899,
+      "actions": {
+        "block": 2267,
+        "css-display-none": 2525,
+        "ignore-previous-rules": 107
+      }
+    },
+    "wvc-content-rules.json": {
+      "count": 7,
+      "actions": {
+        "css-display-none": 7
+      }
+    },
+    "easylist-content-rules.json": {
+      "count": 56615,
+      "actions": {
+        "block": 48772,
+        "css-display-none": 7304,
+        "ignore-previous-rules": 539
+      }
+    },
+    "vi-content-rules.json": {
+      "count": 4174,
+      "actions": {
+        "block": 3442,
+        "css-display-none": 727,
+        "ignore-previous-rules": 5
+      }
+    },
+    "lv-content-rules.json": {
+      "count": 270,
+      "actions": {
+        "block": 174,
+        "css-display-none": 79,
+        "ignore-previous-rules": 17
+      }
+    },
+    "ko-content-rules.json": {
+      "count": 900,
+      "actions": {
+        "block": 556,
+        "css-display-none": 322,
+        "ignore-previous-rules": 22
+      }
+    },
+    "nl-content-rules.json": {
+      "count": 1292,
+      "actions": {
+        "block": 365,
+        "css-display-none": 900,
+        "ignore-previous-rules": 27
+      }
+    },
+    "bg-content-rules.json": {
+      "count": 873,
+      "actions": {
+        "block": 672,
+        "css-display-none": 183,
+        "ignore-previous-rules": 18
+      }
+    },
+    "es-content-rules.json": {
+      "count": 2040,
+      "actions": {
+        "block": 559,
+        "css-display-none": 1425,
+        "ignore-previous-rules": 56
+      }
+    }
+  },
+  "remote_snapshot": {
+    "retrieved_at": "2026-10-16T23:40:07.266260+00:00",
+    "files": [
+      {
+        "name": "developer-hosts",
+        "url": "https://delna76eiyecm.cloudfront.net/wvc_files/adblock/block.txt",
+        "bytes": 27439,
+        "active_lines": 1205,
+        "last_modified": "Sun, 11 Oct 2026 18:13:56 GMT",
+        "sha256": "2ffba868737bbeb283e8be6af08c4bb2ffd8dcf9b052d0da4247d4958e4d8233"
+      },
+      {
+        "name": "developer-redirects",
+        "url": "https://delna76eiyecm.cloudfront.net/wvc_files/adblock/redirect_block.txt",
+        "bytes": 384,
+        "active_lines": 2,
+        "last_modified": "Tue, 27 May 2025 20:49:44 GMT",
+        "sha256": "256c0167c193d8f788bf6a14cfa1d7327768439006e2d9c77e8b05e2dcd2c10b"
+      },
+      {
+        "name": "1hosts-lite",
+        "url": "https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/hosts.txt",
+        "bytes": 6557314,
+        "active_lines": 202968,
+        "last_modified": null,
+        "sha256": "e4c334bf3a551ff955538d37c5a0e7087499c5098cafcab4cc72efd23f771a32"
+      }
+    ]
+  },
+  "isolated_browser_test": {
+    "fixture": "/home/nes/Desktop/Web-Video-Cast-Research/prior-analysis/ios-popup-fixture.html",
+    "results": [
+      {
+        "enabled": true,
+        "hidden": [
+          "fixed-ad",
+          "z-ad",
+          "message",
+          "delayed"
+        ],
+        "normalControlVisible": true,
+        "regularFrameVisible": true,
+        "timersCleared": 1,
+        "timersRemaining": 0
+      },
+      {
+        "enabled": false,
+        "hidden": [],
+        "normalControlVisible": true,
+        "regularFrameVisible": true,
+        "timersCleared": 0,
+        "timersRemaining": 0
+      }
+    ],
+    "scope": "Actual extracted JS branch tested in Chromium via CX with controlled timer callbacks and synthetic DOM. Not an end-to-end test of iOS/WKWebView or a production site."
+  },
+  "open_questions": [
+    "Actual iPhone runtime settings and which rules compile successfully",
+    "Native iOS popup/navigation gate and remote list update mechanism",
+    "Android list merge/removal parsing and domain-parent matching semantics",
+    "Exact n00/vgb eligibility gate",
+    "Whether supplied APK signature matches the publisher",
+    "Per-site controlled tests attributing reductions in ads/popups to individual mechanisms",
+    "Whether media extraction changes observed ads; no proof of generic server-side video-ad removal"
+  ],
+  "interpretation": "Popup policy, redirect-shape matching, cosmetic rules, repeat cleanup and compatibility exceptions can plausibly explain better perceived results than a host list alone. Causal effectiveness has not been measured."
+}

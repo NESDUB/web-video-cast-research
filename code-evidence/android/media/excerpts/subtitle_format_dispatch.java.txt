@@ -1,0 +1,64 @@
+        r10.f(r1);
+        r10.z = new qe9(r14, r12, r13, r16, r17, r15);
+        r10.A = null;
+        r10.l();
+    }
+
+    /* JADX WARN: Multi-variable type inference failed */
+    /* JADX WARN: Type inference failed for: r21v0 */
+    /* JADX WARN: Type inference failed for: r21v1, types: [java.io.Closeable] */
+    /* JADX WARN: Type inference failed for: r21v2 */
+    /* JADX WARN: Type inference failed for: r8v10 */
+    /* JADX WARN: Type inference failed for: r8v12 */
+    /* JADX WARN: Type inference failed for: r8v13 */
+    /* JADX WARN: Type inference failed for: r8v14 */
+    /* JADX WARN: Type inference failed for: r8v4 */
+    /* JADX WARN: Type inference failed for: r8v6 */
+    /* JADX WARN: Type inference failed for: r8v7 */
+    /* JADX WARN: Type inference failed for: r8v9, types: [java.io.Closeable] */
+    public static String e(File r25, boolean r26, boolean r27, boolean r28, int r29, boolean r30, boolean r31, boolean r32) {
+        r25.getClass();
+        o8d.p();
+        r25.toString();
+        String r3 = r25.getAbsolutePath();
+        if (r28 == true) goto L6;
+        if (r27 == false) goto L6;
+        boolean r6 = true;
+    L7:
+        if (r27 == true) goto L10;
+        if (r28 == false) goto L10;
+        boolean r7 = true;
+    L11:
+        String r8 = r25.getName();
+        r8.getClass();
+        Locale r9 = Locale.ENGLISH;
+        String r10 = v71.p(r9, r8, r9);
+        if (q6b.u0(r10, ".srt", false) == false) goto L15;
+        if (r6 == false) goto L15;
+        boolean r11 = true;
+    L17:
+        if (q6b.u0(r10, ".vtt", false) == false) goto L20;
+        if (r7 == false) goto L20;
+        boolean r12 = true;
+    L22:
+        if (q6b.u0(r10, ".vtt", false) == false) goto L25;
+        if (r6 == false) goto L25;
+        boolean r13 = true;
+    L27:
+        if (q6b.u0(r10, ".ttml", false) == false) goto L29;
+    L30:
+        if (r7 == false) goto L32;
+        boolean r15 = true;
+    L34:
+        if (q6b.u0(r10, ".ttml", false) == false) goto L36;
+    L37:
+        if (r6 == false) goto L40;
+        boolean r17 = true;
+    L39:
+        boolean r18 = r6;
+        boolean r210 = r7;
+        if (q6b.u0(r10, ".ssa", false) == false) goto L44;
+    L45:
+        if (r210 == false) goto L47;
+        boolean r19 = true;
+    L49:

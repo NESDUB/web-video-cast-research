@@ -1,0 +1,64 @@
+    L187:
+        e = e;
+        r54 = null;
+    L194:
+        e = e;
+        r54 = r4;
+        goto L196
+    L197:
+        boolean r123 = r52;
+        if (r50.isEmpty() == true) goto L200;
+    L202:
+        o8c.g().post(new w28(r49, r114, false, 16));
+        return;
+    L200:
+        if (r114.isEmpty() == false) goto L202;
+        if (r123 == true) goto L202;
+        return;
+    L204:
+        omc r72 = (omc) this.b;
+        qmc r73 = (qmc) this.c;
+        List r74 = (List) this.d;
+        String[] r75 = WebVideoCasterApplication.k;
+        Map r76 = r73.b;
+        List r77 = (List) r76.get(r72);
+        if (r77 != null) goto L207;
+        r77 = Collections.synchronizedList(new ArrayList());
+        r76.getClass();
+        r76.put(r72, r77);
+    L207:
+        if (r77 == null) goto L365;
+        Iterator r78 = r74.iterator();
+        boolean r79 = false;
+    L210:
+        if (r78.hasNext() == false) goto L236;
+        xyc r80 = (xyc) r78.next();
+        if (qmc.b(r80, r72) == true) goto L210;
+        if (r77.contains(r80) == false) goto L216;
+        Iterator r81 = new ArrayList(r77).iterator();
+        r81.getClass();
+    L219:
+        if (r81.hasNext() == false) goto L210;
+        xyc r82 = (xyc) r81.next();
+        if (r82.equals(r80) == false) goto L219;
+        Iterator r83 = new ArrayList(r82.h()).iterator();
+        r83.getClass();
+    L224:
+        if (r83.hasNext() == false) goto L219;
+        nyc r84 = (nyc) r83.next();
+        ArrayList r124 = r80.h();
+        int r125 = r124.size();
+        int r126 = 0;
+    L226:
+        if (r126 >= r125) goto L224;
+        Object r127 = r124.get(r126);
+        r126 = r126 + 1;
+        nyc r128 = (nyc) r127;
+        if (r84.equals(r128) == false) goto L226;
+        long r129 = r128.e;
+        if (r129 <= 0) goto L232;
+        r84.e = r129;
+    L232:
+        long r130 = r128.f;
+        if (r130 <= 0) goto L235;
+        r84.f = r130;

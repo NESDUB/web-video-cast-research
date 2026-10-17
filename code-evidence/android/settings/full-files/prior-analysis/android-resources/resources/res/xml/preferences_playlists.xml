@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <CheckBoxPreference
+        android:icon="@null"
+        android:title="@string/playlist_skip_intro_outro_alert_settings_title"
+        android:key="@string/pref_playlist_skip_intro_outro_alert"
+        android:summary="@string/playlist_skip_intro_outro_alert_settings_summary"
+        android:defaultValue="true"
+        android:singleLineTitle="false"
+        android:iconSpaceReserved="false"
+        app:iconSpaceReserved="false"
+        app:singleLineTitle="false"/>
+    <CheckBoxPreference
+        android:icon="@null"
+        android:title="@string/playlist_skip_intro_outro_option_to_abort_settings_title"
+        android:key="@string/pref_playlist_skip_intro_outro_option_to_abort"
+        android:summary="@string/playlist_skip_intro_outro_option_to_abort_settings_summary"
+        android:defaultValue="true"
+        android:singleLineTitle="false"
+        android:iconSpaceReserved="false"
+        app:iconSpaceReserved="false"
+        app:singleLineTitle="false"/>
+</PreferenceScreen>

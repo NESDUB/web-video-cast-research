@@ -1,0 +1,64 @@
+    goto/16 :goto_15
+
+    :cond_21
+    const/16 v0, 0x12c
+
+    if-lt v7, v0, :cond_28
+
+    const/16 v0, 0x18f
+
+    if-gt v7, v0, :cond_28
+
+    .line 102
+    :try_start_2f
+    const-string v0, "serving video prox redirect"
+
+    invoke-static {v0}, Lmd9;->a(Ljava/lang/String;)V
+
+    .line 103
+    const-string v0, "Location"
+
+    invoke-interface {v2, v0}, Lld9;->header(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_27
+
+    .line 104
+    new-instance v3, Ljava/lang/StringBuilder;
+
+    invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v4, "Sending redirect for "
+
+    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-static {v8, v3}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 105
+    invoke-static {v11}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v3
+    :try_end_2f
+    .catch Ljava/net/ProtocolException; {:try_start_2f .. :try_end_2f} :catch_21
+    .catch Ljava/net/SocketTimeoutException; {:try_start_2f .. :try_end_2f} :catch_20
+    .catch Ljava/io/IOException; {:try_start_2f .. :try_end_2f} :catch_1d
+    .catch Ljava/lang/OutOfMemoryError; {:try_start_2f .. :try_end_2f} :catch_1c
+    .catchall {:try_start_2f .. :try_end_2f} :catchall_7
+
+    if-nez v3, :cond_22
+
+    .line 106
+    :try_start_30
+    new-instance v3, Ljava/lang/StringBuilder;
+
+    invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+

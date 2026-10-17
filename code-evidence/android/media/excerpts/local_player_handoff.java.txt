@@ -1,0 +1,64 @@
+        r67.getClass();
+    L54:
+        r129 = r67;
+        goto L55
+    L53:
+        r67.getClass();
+        goto L54
+    L35:
+        if (r33.length() == 0) goto L38;
+        r65.b = r0.getString(2131952410, new Object[]{r33});
+    L156:
+        a3d.k("Missing required view with ID: ".concat(r59.getResources().getResourceName(r60)));
+        return null;
+    L7:
+        r4 = new q97(r38);
+        goto L8
+    }
+
+    public static void H(AppCompatActivity r2, yp3 r3) {
+        Application r0 = r2.getApplication();
+        r0.getClass();
+        WebVideoCasterApplication r1 = (WebVideoCasterApplication) r0;
+        if (r1.h == true) goto L10;
+    L8:
+        vgb r4 = InternalPlayerService.x;
+        r2.stopService(new Intent(r2, InternalPlayerService.class));
+        o8d.E();
+        Objects.toString(r3);
+        InternalPlayerService.B = r3;
+        r2.startActivity(new Intent(r2, InternalPlayerActivity.class));
+        return;
+    L10:
+        r1.unbindService(r1.i);     // Catch: IllegalArgumentException -> L6
+    L6:
+        e = move-exception;
+        Log.w("WebVideoCasterApplication", e);
+        goto L8
+    }
+
+    public static void I(AppCompatActivity r9, yp3 r10, xo8 r11) {
+        xyc r0 = r10.u;
+        boolean r1 = false;
+        if (r0 != null) goto L5;
+    L7:
+        int r2 = 3;
+        if (r11.e == false) goto L10;
+    L22:
+        sr2 r3 = j13.a;
+        ll4.y(oc9.e(cz6.a), null, null, new e97(r9, r10, r11, null, 7), 3);
+        return;
+    L10:
+        if (k().R() == true) goto L15;
+        if (r1 == false) goto L22;
+        if (k().K() == false) goto L22;
+    L15:
+        if (s(r10) == true) goto L22;
+        qt1 r4 = qt1.a;
+        if (qt1.C() != qu9.a) goto L22;
+        q61 r5 = new q61(r9, 6);
+        ((x17) r5.b).m(2131953950);
+        ((AppCompatTextView) ((yf2) r5.c).d).setText(r9.getString(2131953949, new Object[]{k().w()}));
+        r5.O(2131954772, new r87(r9, r10, r11, r2));
+        r5.L(2131953258, new r87(r9, r10, r11, 4));
+        if (o8c.k(r9) == false) goto L24;

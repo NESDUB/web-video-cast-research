@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ListPreference
+        android:icon="@null"
+        android:entries="@array/proxy_m3u8_proxifier_type_names"
+        android:title="@string/proxy_m3u8_proxifier_type_settings_title"
+        android:key="@string/pref_proxy_m3u8_proxifier_type"
+        android:defaultValue="REMOTE"
+        android:entryValues="@array/proxy_m3u8_proxifier_type_values"
+        android:singleLineTitle="false"
+        android:iconSpaceReserved="false"
+        app:iconSpaceReserved="false"
+        app:singleLineTitle="false"/>
+    <ListPreference
+        android:icon="@null"
+        android:entries="@array/proxy_m3u8_url_generator_type_names"
+        android:title="@string/proxy_m3u8_url_generator_type_settings_title"
+        android:key="@string/pref_proxy_m3u8_url_generator_type"
+        android:defaultValue="REMOTE"
+        android:entryValues="@array/proxy_m3u8_url_generator_type_values"
+        android:singleLineTitle="false"
+        android:iconSpaceReserved="false"
+        app:iconSpaceReserved="false"
+        app:singleLineTitle="false"/>
+</PreferenceScreen>

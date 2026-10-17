@@ -1,0 +1,64 @@
+        String r4 = uc7.b(r3);
+        if (r4 != null) goto L7;
+        return false;
+    L7:
+        if (j6b.W0(r4) == true) goto L14;
+        Locale r5 = Locale.ENGLISH;
+        r5.getClass();
+        String r6 = r4.toLowerCase(r5);
+        r6.getClass();
+        p(r6, r2);
+        return true;
+    L14:
+        return false;
+    L11:
+        return false;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    public static nyc c(xyc r19, String r20, String r21, long r22, String r24, boolean r25, long r26, long r28, Map r30, boolean r31, boolean r32, String r33, int r34) {
+        String r0 = r20;
+        if ((r34 & 2) == 0) goto L5;
+        String r2 = null;
+    L6:
+        long r5 = -1;
+        if ((r34 & 4) == 0) goto L9;
+        long r7 = -1;
+    L11:
+        if ((r34 & 8) == 0) goto L13;
+        String r4 = null;
+    L15:
+        if ((r34 & 16) == 0) goto L17;
+        boolean r9 = false;
+    L19:
+        if ((r34 & 32) == 0) goto L21;
+        long r11 = -1;
+    L23:
+        if ((r34 & 64) != 0) goto L27;
+        r5 = r28;
+    L27:
+        if ((r34 & 128) == 0) goto L29;
+        Map r13 = null;
+    L31:
+        if ((r34 & 256) == 0) goto L33;
+        boolean r14 = false;
+    L35:
+        if ((r34 & 512) == 0) goto L37;
+        boolean r15 = false;
+    L39:
+        if ((r34 & CrashConfig.MAX_STACK_FRAMES_UPPER_BOUND) == 0) goto L41;
+        String r1 = null;
+    L42:
+        r19.getClass();
+        r0.getClass();
+        if (j6b.W0(r0) == true) goto L151;
+        mec r16 = mec.a;
+        vgb r17 = sm9.b;
+        sm9 r18 = vj5.O();
+        monitor-enter(r16);
+        q51 r110 = mec.c;     // Catch: Throwable -> L50
+        if (r110 != null) goto L49;
+        r110 = mec.a(r18);     // Catch: Throwable -> L50
+        mec.c = r110;     // Catch: Throwable -> L50
+    L49:
+        q51 r3 = r110;

@@ -1,0 +1,64 @@
+    invoke-static/range {v34 .. v34}, Lrhc;->l0(Ljava/lang/String;)Z
+
+    move-result v3
+
+    if-eqz v3, :cond_1f
+
+    move-object/from16 v3, v33
+
+    .line 74
+    invoke-virtual {v0, v9, v3}, Lbo9;->e(Ljava/lang/String;Ljava/lang/String;)V
+    :try_end_28
+    .catch Ljava/io/IOException; {:try_start_28 .. :try_end_28} :catch_3
+    .catch Ljava/lang/OutOfMemoryError; {:try_start_28 .. :try_end_28} :catch_2
+    .catchall {:try_start_28 .. :try_end_28} :catchall_2
+
+    .line 75
+    :cond_1f
+    :try_start_29
+    const-string v3, "Accept-Encoding"
+
+    const-string v4, "identity"
+
+    invoke-virtual {v0, v3, v4}, Lbo9;->e(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 76
+    invoke-virtual {v0}, Lbo9;->b()Ldo9;
+
+    move-result-object v3
+
+    .line 77
+    invoke-static {v2}, Lid9;->a(Ljava/lang/String;)Lkd9;
+
+    move-result-object v4
+
+    .line 78
+    new-instance v7, Ljava/lang/StringBuilder;
+
+    invoke-direct {v7}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v8, "Using proxy engine "
+
+    invoke-virtual {v7, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-interface {v4}, Lkd9;->b()Ljava/lang/String;
+
+    move-result-object v8
+
+    invoke-virtual {v7, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v8, " for "
+
+    invoke-virtual {v7, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v7, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v7}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v7
+    :try_end_29
+    .catch Ljava/io/IOException; {:try_start_29 .. :try_end_29} :catch_93
+    .catch Ljava/lang/OutOfMemoryError; {:try_start_29 .. :try_end_29} :catch_92
+    .catchall {:try_start_29 .. :try_end_29} :catchall_36
+
+    move-object/from16 v8, v22

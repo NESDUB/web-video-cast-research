@@ -1,0 +1,64 @@
+    sget-object v4, Ltu4;->x:Lf34;
+
+    .line 107
+    .line 108
+    new-instance v5, Ldh;
+
+    .line 109
+    .line 110
+    invoke-direct {v5, p0, v6, v3}, Ldh;-><init>(Ljava/lang/Object;Ll22;I)V
+
+    .line 111
+    .line 112
+    .line 113
+    invoke-virtual {v1, v4, v5}, Llm8;->f(Lf34;Lz84;)V
+
+    .line 114
+    .line 115
+    .line 116
+    sget-object v1, Lbv4;->b:Ljj1;
+
+    .line 117
+    .line 118
+    new-instance v3, Lxr3;
+
+    .line 119
+    .line 120
+    const/16 v4, 0xb
+
+    .line 121
+    .line 122
+    invoke-direct {v3, v4}, Lxr3;-><init>(I)V
+
+    .line 123
+    .line 124
+    .line 125
+    invoke-virtual {v0, v1, v3}, Lps4;->c(Lct4;Lj84;)V
+
+    .line 126
+    .line 127
+    .line 128
+    sget-object v1, Lqt0;->c:Ljj1;
+
+    .line 129
+    .line 130
+    new-instance v3, Lxr3;
+
+    .line 131
+    .line 132
+    invoke-direct {v3, v4}, Lxr3;-><init>(I)V
+
+    .line 133
+    .line 134
+    .line 135
+    invoke-virtual {v0, v1, v3}, Lps4;->c(Lct4;Lj84;)V
+
+    .line 136
+    .line 137
+    .line 138
+    sget-object v1, Lh33;->d:Ljj1;
+
+    .line 139
+    .line 140
+    new-instance v3, Lxr3;
+

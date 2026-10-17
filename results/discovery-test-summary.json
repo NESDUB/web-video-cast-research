@@ -1,0 +1,23 @@
+{
+  "android": {
+    "passed": true,
+    "sources": [
+      "https://media.example.test/jw-low.mp4",
+      "https://media.example.test/meta.mp4",
+      "https://media.example.test/not-a-video",
+      "https://media.example.test/stream.m3u8"
+    ],
+    "messages": 2
+  },
+  "ios": {
+    "passed": true,
+    "sources": [
+      "blob:https://media.example.test/opaque-id",
+      "https://media.example.test/jw-high.mp4",
+      "https://media.example.test/jw-low.mp4",
+      "https://media.example.test/not-a-video",
+      "https://media.example.test/stream.m3u8"
+    ],
+    "messages": 4
+  }
+}

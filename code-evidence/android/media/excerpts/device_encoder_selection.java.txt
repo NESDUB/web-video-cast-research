@@ -1,0 +1,64 @@
+    public to2(qo2 r2) {
+        this.a = r2.a;
+        this.b = r2.b;
+        this.c = r2.c;
+        this.d = r2.d;
+        this.e = r2.e;
+        this.f = r2.f;
+        this.g = r2.g;
+    }
+
+    public static eo3 a(b r4, String r5) {
+        return eo3.c(new IllegalArgumentException(r5), 4003, new uj1(r4.toString(), null, kg7.o(r4.p), false));
+    }
+
+    public static eo3 b(b r4, boolean r5) {
+        km1 r0 = r4.H;
+        if (r5 == true) goto L5;
+    L7:
+        String r1 = "No MIME type is supported by both encoder and muxer.";
+    L9:
+        return eo3.c(new IllegalArgumentException(r1), 4003, new uj1(r4.toString(), null, r5, false));
+    L5:
+        if (km1.h(r0) == false) goto L7;
+        r1 = "No MIME type is supported by both encoder and muxer. Requested HDR colorInfo: " + r0;
+        goto L9
+    }
+
+    public static x75 d(x75 r6, ro2 r7) {
+        ArrayList r0 = new ArrayList(r6.size());
+        int r2 = 0;
+        int r3 = Integer.MAX_VALUE;
+    L4:
+        if (r2 >= r6.size()) goto L14;
+        MediaCodecInfo r4 = (MediaCodecInfo) r6.get(r2);
+        int r5 = r7.a(r4);
+        if (r5 == Integer.MAX_VALUE) goto L12;
+        if (r5 >= r3) goto L10;
+        r0.clear();
+        r0.add(r4);
+        r3 = r5;
+        goto L12
+    L10:
+        if (r5 != r3) goto L12;
+        r0.add(r4);
+    L12:
+        r2 = r2 + 1;
+        goto L4
+    L14:
+        return x75.r(r0);
+    }
+
+    @Override // defpackage.qk1
+    public final boolean c() {
+        return !this.c.equals(zmc.g);
+    }
+
+    @Override // defpackage.qk1
+    public final rn2 f(b r25, LogSessionId r26) {
+        b r1 = r25;
+        if (r1.B != (-1.0f)) goto L5;
+    L8:
+        a54 r2 = r1.a();
+        r2.a(30.0f);
+        r1 = new b(r2);

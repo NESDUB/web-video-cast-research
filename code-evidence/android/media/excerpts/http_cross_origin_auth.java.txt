@@ -1,0 +1,64 @@
+        if (r4.equals("PROPFIND") == true) goto L106;
+        if (r110 == 308) goto L106;
+        if (r110 == 307) goto L106;
+        r19.f("GET", null);
+    L109:
+        if (r5 == true) goto L112;
+        r19.c.y("Transfer-Encoding");
+        r19.c.y("Content-Length");
+        r19.c.y("Content-Type");
+    L106:
+        if (r5 == false) goto L108;
+        r0 = r7.d;
+    L108:
+        r19.f(r4, r0);
+    L100:
+        r5 = true;
+    L112:
+        if (iad.a(r7.a, r18) == true) goto L114;
+        r19.c.y("Authorization");
+    L114:
+        r19.a = r18;
+        return new do9(r19);
+    L92:
+        if (r12.a.a.i == true) goto L94;
+    L86:
+        r18 = null;
+    L83:
+        r9 = null;
+        goto L84
+    L5:
+        r1 = null;
+        goto L6
+    }
+
+    private final nq9 b(ge5 r52) {
+        bi9 r0 = (bi9) r52;
+        x51 r1 = r0.j;
+        if (r1 == null) goto L35;
+        do9 r5 = r0.e;
+        r5.getClass();
+        vw4 r6 = r5.a;
+        q03 r7 = r1.a.m(cw0.w(r6));     // Catch: IOException -> L268
+        if (r7 == null) goto L7;
+        v51 r8 = new v51((ewa) r7.c.get(0));     // Catch: IOException -> L33
+        String r9 = r8.c;     // Catch: IOException -> L33
+        ak4 r10 = r8.b;     // Catch: IOException -> L33
+        vw4 r11 = r8.a;     // Catch: IOException -> L33
+        ak4 r12 = r8.g;
+        String r13 = r12.a("Content-Type");
+        String r14 = r12.a("Content-Length");
+        r11.getClass();
+        r10.getClass();
+        r9.getClass();
+        bo9 r2 = new bo9();
+        r2.a = r11;
+        r2.c = r10.e();
+        if (r9.equals("\u0000") == true) goto L13;
+        String r3 = r9;
+    L14:
+        r2.f(r3, null);
+        do9 r15 = new do9(r2);
+        uq9 r4 = vq9.Companion;
+        lhb r32 = c0c.z9;
+        new ArrayList(20);

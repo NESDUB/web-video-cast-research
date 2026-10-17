@@ -1,0 +1,64 @@
+        r1.toLowerCase(Locale.ROOT).getClass();     // Catch: MalformedURLException -> L5
+        r0.getProtocol();     // Catch: MalformedURLException -> L5
+    L6:
+        vgb r2 = mfc.a;
+        WebView r3 = this.a.c;
+        if (mfc.c != null) goto L9;
+        mfc.e(r3);
+    L9:
+        p(mfc.a(r4));
+        lta.c.clear();
+        lta.a();
+        return;
+    L5:
+        vgb r5 = n08.a;
+        goto L6
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    public final void o() {
+        omc r0 = new omc(System.currentTimeMillis());
+        qmc r1 = qmc.g;
+        r1.getClass();
+        o8c.o(new nmc(r1, r0, 1));
+        yxc.l = 0;
+        wzc r7 = this.a;
+        if (vj5.f(r7.l(), r0) == true) goto L11;
+        tnb r2 = r7.t;
+        Set r3 = r2.a.keySet();
+        ArrayList r4 = new ArrayList();
+        Iterator r5 = r3.iterator();
+    L6:
+        if (r5.hasNext() == false) goto L10;
+        Object r6 = r5.next();
+        if (((rnb) r6).a != snb.a) goto L6;
+        r4.add(r6);
+        goto L6
+    L10:
+        r2.b(r4);
+    L11:
+        sg1 r8 = r7.h();
+        r8.o = null;
+        sg1.v = null;
+        sg1.w = null;
+        r8.c = null;
+        wwc.b.clear();
+        r7.c.setTag(r0);
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    @Override // android.webkit.WebViewClient
+    public final void onPageFinished(WebView r18, String r19) {
+        ArrayList r3 = u;
+        wzc r4 = this.a;
+        r18.getClass();
+        r19.getClass();
+        long r9 = System.currentTimeMillis() - this.i;     // Catch: Throwable -> L28
+        Log.i((String) n00.a.getValue(), "Timing - webclient pagefinished: " + r9 + " - " + r19);     // Catch: Throwable -> L28
+        if (qt1.q() == true) goto L16;
+        FirebaseAnalytics r5 = FirebaseAnalytics.getInstance(r18.getContext());     // Catch: Throwable -> L28
+        r5.getClass();     // Catch: Throwable -> L28
+        Bundle r8 = new Bundle();     // Catch: Throwable -> L28
+        long r10 = System.currentTimeMillis() - this.i;     // Catch: Throwable -> L28
+        r3.add(Long.valueOf(r10));     // Catch: Throwable -> L28
+        int r11 = r3.size();     // Catch: Throwable -> L28

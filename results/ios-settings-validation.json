@@ -1,0 +1,16 @@
+{
+  "plists_parsed": 12,
+  "base_controls": 104,
+  "choice_defaults_match_options": true,
+  "base_control_defaults_declared": true,
+  "crosswalk_keys_unique": true,
+  "evidence_files_exist": true,
+  "viewer_rows": 120,
+  "viewer_panes": 12,
+  "search_passed": true,
+  "device_tested": false,
+  "ipad_player_difference": [
+    "rotation_setting omitted"
+  ],
+  "unlinked_pane": "Hidden"
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <MultiSelectListPreference
+        android:icon="@null"
+        android:entries="@array/scrobble_enabled_types_strings"
+        android:title="@string/scrobble_enabled_types_settings_title"
+        android:key="@string/pref_scrobble_enabled_types"
+        android:summary="@string/scrobble_enabled_types_settings_description"
+        android:entryValues="@array/scrobble_enabled_types_values"
+        android:singleLineTitle="false"
+        android:iconSpaceReserved="false"
+        app:iconSpaceReserved="false"
+        app:singleLineTitle="false"/>
+    <CheckBoxPreference
+        android:icon="@null"
+        android:title="@string/scrobble_background_events_alert_settings_title"
+        android:key="@string/pref_scrobble_background_events_alert"
+        android:summary="@string/scrobble_background_events_alert_settings_description"
+        android:defaultValue="true"
+        android:singleLineTitle="false"
+        android:iconSpaceReserved="false"
+        app:iconSpaceReserved="false"
+        app:singleLineTitle="false"/>
+    <Preference
+        android:icon="@null"
+        android:title="@string/scrobble_reset_settings_title"
+        android:key="@string/pref_scrobble_reset"
+        android:summary="@string/scrobble_reset_settings_description"
+        android:singleLineTitle="false"
+        android:iconSpaceReserved="false"
+        app:iconSpaceReserved="false"
+        app:singleLineTitle="false"/>
+</PreferenceScreen>

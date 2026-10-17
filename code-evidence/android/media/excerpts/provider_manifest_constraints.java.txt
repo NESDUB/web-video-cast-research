@@ -1,0 +1,64 @@
+        if (jk2.a0(new Integer[]{-1, 443}).contains(Integer.valueOf(r1.getPort())) == false) goto L100;
+        dl9 r4 = il4.b;
+        String r3 = r1.getPath();
+        r3.getClass();
+        i17 r5 = r4.d(r3);
+        if (r5 == null) goto L99;
+        String r6 = (String) r5.a().get(1);
+        if (vj5.f(r14.getString("videoId"), r6) == false) goto L98;
+        String r7 = r14.getString(MimeTypes.BASE_TYPE_TEXT);
+        r7.getClass();
+        if (q6b.E0(r7, "#EXTM3U", false) == true) goto L19;
+    L97:
+        sm0.n("Failed requirement.");
+        goto L102
+    L19:
+        if (j6b.I0(r7, "#EXT-X-ENDLIST", false) == false) goto L97;
+        if (j6b.I0(r7, "#EXT-X-MAP", false) == false) goto L23;
+    L96:
+        sm0.n("Only on-demand TS media playlists are supported");
+        goto L102
+    L23:
+        if (j6b.I0(r7, "#EXT-X-STREAM-INF", false) == true) goto L96;
+        LinkedHashMap r8 = new LinkedHashMap();
+        JSONArray r18 = r14.getJSONArray("keys");     // Catch: Throwable -> L42
+        int r9 = r18.length();     // Catch: Throwable -> L42
+        if (1 > r9) goto L90;
+        if (r9 >= 33) goto L90;
+        int r10 = r18.length();     // Catch: Throwable -> L42
+        int r11 = 0;
+    L30:
+        if (r11 >= r10) goto L48;
+        JSONObject r12 = r18.getJSONObject(r11);     // Catch: Throwable -> L42
+        if (vj5.f(r12.getString("algorithm"), "xsm1") == false) goto L47;
+        if (r12.getInt("flags") != 0) goto L47;
+        String r13 = r12.getString("id");     // Catch: Throwable -> L42
+        if (r8.containsKey(r13) == true) goto L45;
+        byte[] r19 = jl4.a;     // Catch: Throwable -> L42
+        String r110 = r12.getString(SubscriberAttributeKt.JSON_NAME_KEY);     // Catch: Throwable -> L42
+        r110.getClass();     // Catch: Throwable -> L42
+        byte[] r111 = jl4.a(r110);     // Catch: Throwable -> L42
+        r8.put(r13, r111);     // Catch: Throwable -> L42
+        String r112 = r12.getString("probe");     // Catch: Throwable -> L42
+        r112.getClass();     // Catch: Throwable -> L42
+        if (jl4.b(r112, r6, r111).equals(r12.getString("resolved")) == false) goto L41;
+        r11 = r11 + 1;     // Catch: Throwable -> L42
+        goto L30
+    L41:
+        throw new IllegalArgumentException("Native and browser URL resolvers disagree");     // Catch: Throwable -> L42
+    L45:
+        throw new IllegalArgumentException("Duplicate playlist key");     // Catch: Throwable -> L42
+    L47:
+        throw new IllegalArgumentException("Unsupported media encryption variant");     // Catch: Throwable -> L42
+    L48:
+        StringBuilder r113 = new StringBuilder();     // Catch: Throwable -> L42
+        un6 r20 = new un6(r7);     // Catch: Throwable -> L42
+        int r21 = 0;
+    L50:
+        if (r20.hasNext() == false) goto L80;
+        String r114 = j6b.w1((String) r20.next()).toString();     // Catch: Throwable -> L42
+        if (q6b.E0(r114, "#EXT-X-KEY:", false) == true) goto L53;
+        if (r114.length() <= 0) goto L79;
+        if (j6b.m1(r114, '#') == true) goto L79;
+        r21 = r21 + 1;     // Catch: Throwable -> L42
+        if (r21 > 3000) goto L78;

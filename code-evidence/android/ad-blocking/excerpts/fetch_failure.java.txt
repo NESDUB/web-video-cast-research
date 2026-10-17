@@ -1,0 +1,64 @@
+        if (r18 != 1) goto L32;
+        File r19 = (File) this.t;
+        tt9.m0(r25);     // Catch: Exception -> L30
+        File r20 = r19;
+        Object r21 = r25;
+    L40:
+        zm9 r22 = (zm9) r21;     // Catch: Exception -> L30
+        if ((r22 instanceof xm9) == false) goto L43;
+        String r23 = ((xm9) r22).a;     // Catch: Exception -> L30
+        vgb r24 = fn9.f;     // Catch: Exception -> L30
+        lj4.v();     // Catch: Exception -> L30
+        lj4.p(r20, r23);     // Catch: Exception -> L30
+        List r26 = j6b.a1(r23);     // Catch: Exception -> L30
+        lj4.v();     // Catch: Exception -> L30
+        r26.size();     // Catch: Exception -> L30
+        return new iwa(r17, r26);
+    L43:
+        vgb r27 = fn9.f;     // Catch: Exception -> L30
+        Log.w(lj4.v(), "Request to remote source failed: " + r22);     // Catch: Exception -> L30
+        return new kwa(r17);
+    L32:
+        sm0.r("call to 'resume' before 'invoke' with coroutine");
+        return null;
+    L33:
+        tt9.m0(r25);
+        r20 = fn9.a(r16);     // Catch: Exception -> L30
+        if (r20.exists() == false) goto L37;
+        List r28 = j6b.a1(zt3.h0(r20));     // Catch: Exception -> L30
+        vgb r29 = fn9.f;     // Catch: Exception -> L30
+        lj4.v();     // Catch: Exception -> L30
+        r28.size();     // Catch: Exception -> L30
+        return new hwa(r17, r28);
+    L37:
+        vgb r30 = fn9.f;     // Catch: Exception -> L30
+        lj4.v();     // Catch: Exception -> L30
+        String r31 = r16.b;     // Catch: Exception -> L30
+        vgb r32 = wm9.a;     // Catch: Exception -> L30
+        String r33 = r16.e;     // Catch: Exception -> L30
+        this.t = r20;     // Catch: Exception -> L30
+        this.s = 1;     // Catch: Exception -> L30
+        sr2 r34 = j13.a;     // Catch: Exception -> L30
+        r21 = ll4.j0(aq2.c, new vm9(r33, r31, r11, r6), this);     // Catch: Exception -> L30
+        if (r21 != r9) goto L40;
+        return r9;
+    L30:
+        e = move-exception;
+        vgb r35 = fn9.f;
+        Log.w(lj4.v(), "Could not fetch data from remote source", e);
+        n00.m(e);
+        return new kwa(r17);
+    L47:
+        dn9 r36 = (dn9) this.u;
+        int r37 = this.s;
+        if (r37 == 0) goto L52;
+        if (r37 != 1) goto L51;
+        tt9.m0(r25);
+        return r7;
+    L51:
+        sm0.r("call to 'resume' before 'invoke' with coroutine");
+        return null;
+    L52:
+        tt9.m0(r25);
+        JSONObject r38 = (JSONObject) this.t;
+        Objects.toString(r38);

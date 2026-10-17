@@ -1,0 +1,45 @@
+    .line 34
+    invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 35
+    .line 36
+    .line 37
+    iput-object v1, v2, La9c;->h:Ljava/util/List;
+
+    .line 38
+    .line 39
+    iget-object v1, p0, Lzu4;->c:Lek4;
+
+    .line 40
+    .line 41
+    iget-object p1, p1, Lzu4;->c:Lek4;
+
+    .line 42
+    .line 43
+    invoke-static {v1, p1}, Lvj5;->e(Lg6b;Lg6b;)V
+
+    .line 44
+    .line 45
+    .line 46
+    iget-object p0, p0, Lzu4;->f:Llt1;
+
+    .line 47
+    .line 48
+    invoke-static {p0, v0}, Ldpa;->M(Llt1;Llt1;)V
+
+    .line 49
+    .line 50
+    .line 51
+    return-void
+.end method
+
+.method public final getHeaders()Lek4;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lzu4;->c:Lek4;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method

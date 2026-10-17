@@ -1,0 +1,48 @@
+// Load the HHTQ intervention only inside its player frame. Keep the implementation out of
+// the script served to unrelated sites, and use the existing local JavaScript asset route.
+(function ibLoadHhtqIntervention() {
+    if (location.origin !== "https://streamfree.vip" ||
+            !/^\/embed\/(v|vt)\/[a-zA-Z0-9_-]+$/.test(location.pathname) ||
+            window === window.top || window.ibHhtqScriptLoaded) {
+        return;
+    }
+
+    try {
+        var parent = new URL(document.referrer);
+        if (parent.protocol !== "https:" || !/^(www\.)?hhtq\.[a-z0-9-]+$/.test(parent.hostname)) {
+            return;
+        }
+
+        var source = document.currentScript;
+        if (!source || !source.src) {
+            return;
+        }
+        var script = document.createElement("script");
+        script.src = new URL("specialsites/hhtq.js", source.src).href;
+        script.async = false;
+        window.ibHhtqScriptLoaded = true;
+        (document.head || document.documentElement).appendChild(script);
+    } catch (_) {
+        // Invalid or missing frame metadata must not enable a site intervention.
+    }
+})();
+
+
+//delete console;
+var ibConsole = ibConsole ||  window.console;
+var ibConsoleLog = ibConsoleLog || window.console.log;
+//window.console = siteConsole;
+var fakeIframeName = 'ibFakeIframe';
+/* try {
+    var fakeIframe = document.createElement('iframe');
+    fakeIframe.style.display = 'none';
+    fakeIframe.id=fakeIframeName;``
+    document.body.appendChild(i);
+    ibConsole = i.contentWindow.console;
+} catch (e) {
+
+} */
+
+var metaTitle = null;
+var metaImageURL = null;
+var metaInfoNotSet = true;

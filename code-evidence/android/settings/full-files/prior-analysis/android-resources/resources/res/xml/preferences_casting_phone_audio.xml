@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Preference
+        android:icon="@null"
+        android:title="@string/pref_phone_audio_cache_size_max_title"
+        android:key="@string/pref_phone_audio_cache_size_max"
+        android:summary="@string/pref_phone_audio_cache_size_max_description"
+        android:singleLineTitle="false"
+        android:iconSpaceReserved="false"
+        app:iconSpaceReserved="false"
+        app:singleLineTitle="false"/>
+    <ListPreference
+        android:icon="@null"
+        android:entries="@array/phone_audio_keep_on_behavior_names"
+        android:title="@string/pref_phone_audio_keep_on_behavior_title"
+        android:key="@string/pref_phone_audio_keep_on_behavior"
+        android:summary="@string/pref_phone_audio_keep_on_behavior_summary"
+        android:defaultValue="NEVER"
+        android:entryValues="@array/phone_audio_keep_on_behavior_values"
+        android:singleLineTitle="false"
+        android:iconSpaceReserved="false"
+        app:iconSpaceReserved="false"
+        app:singleLineTitle="false"/>
+</PreferenceScreen>

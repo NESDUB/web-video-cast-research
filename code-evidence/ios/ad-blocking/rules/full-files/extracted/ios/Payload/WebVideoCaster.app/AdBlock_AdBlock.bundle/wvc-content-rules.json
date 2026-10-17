@@ -1,0 +1,100 @@
+[
+    {
+        "comment": "For sites like hdtoday.tv and myflixer.to.  There are a bunch of vpn banners all over the place with these links.  They aren't really ads, so they don't get blocked by traditional adblocking",
+        "trigger": {
+            "url-filter": "^https?://",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "document"
+            ]
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "#app a[href*=\"safesurfing\"]"
+        }
+    },
+    {
+        "comment": "For sites like hdtoday.tv and myflixer.to.  There are some iframe ads that don't get blocked",
+        "trigger": {
+            "url-filter": "^https?://",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "document"
+            ]
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "#app .block_area_home iframe[src*=\"&source=\"]"
+        }
+    },
+    {
+        "comment": "For sites like hdtoday.tv and myflixer.to. There are is a 'Free Anime' banner under the videos. this cleans up that ad which isn't blocked by traditional adblock.",
+        "trigger": {
+            "url-filter": "^https?://",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "document"
+            ]
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "#app a[href*=\"kaido\"]"
+        }
+    },
+    {
+        "comment": "0123movies.net has a really annoying modal popup when you first go into a video page saying 'Sharing is caring'.",
+        "trigger": {
+            "url-filter": "^https?://.*123.?movie",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "document"
+            ]
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "#md-share"
+        }
+    },
+    {
+        "comment": "fmovies.co has a really annoying modal popup when you first go into the main site saying 'Subscribe to continue",
+        "trigger": {
+            "url-filter": "^https?://",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "document"
+            ]
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "body.bg-bodys > #ics"
+        }
+    },
+    {
+        "comment": "Popups on movie sites use this pattern for ads",
+        "trigger": {
+            "url-filter": "^https?://",
+            "url-filter-is-case-sensitive": true,
+            "resource-type": [
+                "document"
+            ]
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "iframe[sandbox~='allow-same-origin'][sandbox~='allow-scripts'][sandbox~='allow-popups'][sandbox~='allow-modals'][srcdoc]"
+        }
+    },
+    {
+        "comment": "Adblock Blocker on ask4porn.cc",
+        "trigger": {
+            "url-filter": "^https?://",
+            "url-filter-is-case-sensitive": false,
+            "resource-type": [
+                "document"
+            ]
+        },
+        "action": {
+            "type": "css-display-none",
+            "selector": "#adblock-dialog"
+        }
+    }
+]

@@ -1,0 +1,64 @@
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    public final void a(Map r15) {
+        r15.getClass();
+        vgb r0 = xyc.r;
+        xyc r1 = this.n;
+        r1.getClass();
+        String r2 = r1.b;
+        Comparator r4 = String.CASE_INSENSITIVE_ORDER;
+        TreeMap r3 = new TreeMap(r4);
+        r3.putAll(this.l);
+        LinkedHashMap r5 = new LinkedHashMap();
+        Iterator r16 = r15.entrySet().iterator();
+    L3:
+        boolean r6 = false;
+        if (r16.hasNext() == false) goto L24;
+        Map.Entry r7 = (Map.Entry) r16.next();
+        String r8 = (String) r7.getKey();
+        if (r8 == null) goto L9;
+        r6 = r8.equalsIgnoreCase("range");
+    L22:
+        if (r6 == true) goto L3;
+        r5.put(r7.getKey(), r7.getValue());
+        goto L3
+    L9:
+        if (r8 == "range") goto L21;
+        if (r8 == null) goto L22;
+        if (r8.length() != 5) goto L22;
+        int r10 = r8.length();
+        int r11 = 0;
+    L16:
+        if (r11 >= r10) goto L21;
+        if (hyc.s(r8.charAt(r11), "range".charAt(r11), true) == false) goto L22;
+        r11 = r11 + 1;
+    L21:
+        r6 = true;
+        goto L22
+    L24:
+        r3.putAll(r5);
+        String r17 = (String) r3.get("Referer");
+        zdc r9 = null;
+        if (r17 != null) goto L27;
+    L29:
+        r17 = null;
+    L30:
+        if (r17 != null) goto L32;
+    L39:
+        boolean r18 = r1.g;
+        String r12 = this.h;
+        if (r18 == true) goto L42;
+    L44:
+        TreeMap r19 = this.l;
+        r12.getClass();
+        r19.getClass();
+        vgb r13 = sm9.b;
+        udc r14 = (udc) vdc.e.p0(vj5.O(), "android_requires_accept_language_header", "\n        {\n            \"type\": \"any\",\n            \"rules\": [\n                {\n                    \"field\": \"url\",\n                    \"function\": \"contains\",\n                    \"alternatives\": [\n                        \"akamai-video-content.com\",\n                        \"frost.thrfive.live/stream\",\n                        \"fusevideo.io\",\n                        \"mgu6manjzt9kfp2tar.lol/stream\",\n                        \"/patron/mono.m3u8\",\n                        \"stormrider.cx/stream\",\n                        \"videoslala.com\",\n                        \"wmjkqwjabhxigo.one\",\n                        \"xcrhcyytkarfwab.buzz/stream\"\n                    ]\n                },\n                {\n                    \"field\": \"header::Referer\",\n                    \"function\": \"contains\",\n                    \"alternatives\": [\n                        \"thrfive.io\",\n                        \"veev.to\"\n                    ]\n                },\n                {\n                    \"field\": \"url\",\n                    \"function\": \"matchesRegex\",\n                    \"alternatives\": [\n                        \"^https?://[a-zA-Z0-9.-]+/hls2/\\\\d{2}/\\\\d{5}/[^/]+/master\\\\.m3u8([?].*)?$\"\n                    ]\n                }\n            ]\n        }\n    ");
+        ArrayList r20 = r14.b;
+        hra r21 = new hra(0);
+        LinkedHashMap r110 = r21.b;
+        r110.put("url", r12);
+        Iterator r111 = r19.entrySet().iterator();
+    L46:
+        if (r111.hasNext() == false) goto L49;
+        Map.Entry r112 = (Map.Entry) r111.next();
+        String r113 = (String) r112.getKey();

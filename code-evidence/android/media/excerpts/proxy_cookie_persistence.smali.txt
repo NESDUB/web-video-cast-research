@@ -1,0 +1,26 @@
+    .line 10
+    const-string v0, "ProxyHeadersManager"
+
+    .line 11
+    .line 12
+    invoke-static {v0, p2}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/Throwable;)I
+
+    .line 13
+    .line 14
+    .line 15
+    const/4 p2, 0x0
+
+    .line 16
+    :goto_0
+    if-eqz p2, :cond_0
+
+    .line 17
+    .line 18
+    invoke-virtual {p2, p0, p1}, Landroid/webkit/CookieManager;->setCookie(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 19
+    .line 20
+    .line 21
+    :cond_0
+    return-void
+.end method

@@ -1,0 +1,64 @@
+    .line 550
+    .line 551
+    const-string v2, "download-"
+
+    .line 552
+    .line 553
+    invoke-static {v4, v5, v2}, Ltaa;->m(JLjava/lang/String;)Ljava/lang/String;
+
+    .line 554
+    .line 555
+    .line 556
+    move-result-object v2
+
+    .line 557
+    new-instance v4, Lv60;
+
+    .line 558
+    .line 559
+    const-class v5, Lcom/instantbits/cast/webvideo/download/DownloadWorker;
+
+    .line 560
+    .line 561
+    invoke-direct {v4, v5}, Lv60;-><init>(Ljava/lang/Class;)V
+
+    .line 562
+    .line 563
+    .line 564
+    iget-object v5, v4, Lv60;->d:Ljava/lang/Object;
+
+    .line 565
+    .line 566
+    check-cast v5, Lb5d;
+
+    .line 567
+    .line 568
+    iput-object v3, v5, Lb5d;->e:Lfi2;
+
+    .line 569
+    .line 570
+    sget-object v3, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
+
+    .line 571
+    .line 572
+    invoke-virtual {v3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 573
+    .line 574
+    .line 575
+    iget-object v3, v4, Lv60;->d:Ljava/lang/Object;
+
+    .line 576
+    .line 577
+    check-cast v3, Lb5d;
+
+    .line 578
+    .line 579
+    move-object v7, v15
+
+    .line 580
+    const-wide/16 v14, 0x0
+
+    .line 581
+    .line 582
+    iput-wide v14, v3, Lb5d;->g:J

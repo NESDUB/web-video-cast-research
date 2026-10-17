@@ -1,0 +1,64 @@
+    }
+
+    public final void J(float r3, di r4) {
+        af4 r0 = new af4(this, r3, r4, 0);
+        o8c.g().post(r0);
+    }
+
+    @Override // defpackage.ca7
+    public final boolean K() {
+        return true;
+    }
+
+    @Override // defpackage.ca7
+    public final boolean L() {
+        return ((Boolean) u.getValue()).booleanValue();
+    }
+
+    @Override // defpackage.ca7
+    public final void M(d77 r16, final long r17, long r19, final m67 r21) {
+        r16.getClass();
+        final String r11 = r16.g;
+        final String r10 = r16.j;
+        final String r3 = r16.l;
+        final String r4 = r16.k;
+        if (r16.a().isEmpty() == true) goto L6;
+        String r1 = ((i65) r16.a().get(0)).a;
+    L5:
+        final String r5 = r1;
+        final c77 r2 = r16.a;
+        final qk0 r8 = r16.h;
+        final boolean r7 = r16.p;
+        final String r6 = r16.q;
+        final boolean r9 = r16.c;
+        r11.getClass();
+        r10.getClass();
+        o8c.o(new df4(this, r2, r3, r4, r5, r6, r7, r8, r9, r10, r11, r17, r21));
+        return;
+    L6:
+        r1 = null;
+        goto L5
+    }
+
+    public final void N(e9c r1) {
+        this.i.remove(r1);
+    }
+
+    @Override // defpackage.ca7
+    public final void O() {
+        JSONObject r0 = new JSONObject();
+        r0.put("removeSubtitles", true);     // Catch: JSONException -> L5
+        String r1 = r0.toString();     // Catch: JSONException -> L5
+        r1.getClass();     // Catch: JSONException -> L5
+        H(r1, new lf4(2));     // Catch: JSONException -> L5
+        return;
+    L5:
+        e = move-exception;
+        Log.w(o8d.h(), "unexpected error removing subtitle", e);
+        n00.m(e);
+    }
+
+    @Override // defpackage.ca7
+    public final dfa P(aa7 r3) {
+        r3.getClass();
+        e9c r0 = new e9c(this, "info");

@@ -1,0 +1,64 @@
+        r0.a(new vea(1061, e, "Error getting playback state"));
+        return false;
+    L6:
+        if (this.x == false) goto L10;
+        r0.onSuccess(u47.c);     // Catch: Exception -> L8
+        return true;
+    L10:
+        w47 r4 = z();     // Catch: Exception -> L8
+        if (r4 == null) goto L13;
+        r4.f(r0);     // Catch: Exception -> L8
+        return true;
+    L13:
+        r0.a(new vea(1062, null, "Media control is null."));     // Catch: Exception -> L8
+        return true;
+    L22:
+        return false;
+    }
+
+    public final void n(Context r9, long r10, fbb r12) {
+        n00.i("Changing timing " + r10);
+        d77 r0 = r12.getMediaInfo();
+        if (I() == false) goto L21;
+        if (r0 == null) goto L9;
+        a9b r1 = r0.i;
+        if (r1 == null) goto L9;
+        if (TextUtils.isEmpty(r1.a) == false) goto L21;
+    L9:
+        n00.i("Starting subtitles timing " + r10);
+        JSONObject r11 = new JSONObject();
+        r11.put("subtitleTiming", r10);     // Catch: JSONException -> L16
+        String r13 = r11.toString();     // Catch: JSONException -> L16
+        d67 r14 = new d67(r10);     // Catch: JSONException -> L16
+        n00.i("sendChannelMessage");     // Catch: JSONException -> L16
+        if (L(this.e) == true) goto L13;
+    L18:
+        mbb r15 = mbb.f;
+        fm1 r16 = new c67(this, 1);
+        r15.getClass();
+        mbb.j(this.j, r16);
+        return;
+    L13:
+        if (I() == false) goto L18;
+        A().H(r13, r14);     // Catch: JSONException -> L16
+    L16:
+        e = move-exception;
+        n00.i("Timing message json exception " + r10);
+        Log.w("v67", "unexpected error subtitle timing", e);
+        n00.m(e);
+    L21:
+        if (r12.K() != obb.a) goto L24;
+        a9b r8 = r0.i;
+        r12.R(r8.d, r8.a, r0.f, false, r10);
+        return;
+    L24:
+        a9b r17 = r0.i;
+        if (r17 == null) goto L41;
+        String r18 = r17.a;
+        if (r18 == null) goto L41;
+        String r19 = r17.d;
+        Uri r110 = Uri.parse(r18);
+        Uri.Builder r111 = new Uri.Builder().scheme(r110.getScheme()).encodedAuthority(r110.getAuthority()).path(r110.getPath());
+        Iterator<String> r2 = r110.getQueryParameterNames().iterator();
+    L30:
+        if (r2.hasNext() == false) goto L39;

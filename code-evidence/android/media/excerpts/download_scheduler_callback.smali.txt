@@ -1,0 +1,64 @@
+    :pswitch_15
+    check-cast p0, Lzw6;
+
+    .line 1073
+    .line 1074
+    check-cast p1, Lnw8;
+
+    .line 1075
+    .line 1076
+    invoke-virtual {p0}, Lzw6;->invoke()Ljava/lang/Object;
+
+    .line 1077
+    .line 1078
+    .line 1079
+    return-object v7
+
+    .line 1080
+    :pswitch_16
+    check-cast p0, Lu33;
+
+    .line 1081
+    .line 1082
+    check-cast p1, Ljava/util/List;
+
+    .line 1083
+    .line 1084
+    sget-object v0, Lj13;->a:Lsr2;
+
+    .line 1085
+    .line 1086
+    sget-object v0, Lcz6;->a:Lhi4;
+
+    .line 1087
+    .line 1088
+    invoke-static {v0}, Loc9;->e(Le42;)Lo41;
+
+    .line 1089
+    .line 1090
+    .line 1091
+    move-result-object v0
+
+    .line 1092
+    new-instance v1, Lz8;
+
+    .line 1093
+    .line 1094
+    const/4 v2, 0x3
+
+    .line 1095
+    invoke-direct {v1, p1, p0, v6, v2}, Lz8;-><init>(Ljava/lang/Object;Ljava/lang/Object;Ll22;I)V
+
+    .line 1096
+    .line 1097
+    .line 1098
+    invoke-static {v0, v6, v6, v1, v2}, Lll4;->y(Lo42;Le42;Lr42;Lx84;I)Lx0b;
+
+    .line 1099
+    .line 1100
+    .line 1101
+    return-object v7
+
+    .line 1102
+    :pswitch_17
+    check-cast p0, Lx03;

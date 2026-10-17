@@ -1,0 +1,294 @@
+{
+  "audit": {
+    "native_device_tests": false,
+    "scope": "XML inventory plus settings-fragment/default helper audit; runtime-only dialogs recorded separately"
+  },
+  "settings": {
+    "pref_browser_start_screen": {
+      "code_default": {
+        "value": "HOMEPAGE"
+      },
+      "evidence": [
+        "prior-analysis/class-qt1.java method g"
+      ],
+      "notes": []
+    },
+    "pref_browser_tabs_restore": {
+      "code_default": {
+        "value": "ASK"
+      },
+      "evidence": [
+        "prior-analysis/class-qt1.java method h"
+      ],
+      "notes": [
+        "Fresh-preference fallback; legacy preference migration can change it."
+      ]
+    },
+    "pref_key_cast_resume": {
+      "code_default": {
+        "value": "ASK"
+      },
+      "evidence": [
+        "prior-analysis/class-qt1.java method a"
+      ],
+      "notes": [
+        "Fresh-preference fallback; legacy preference migration can change it."
+      ]
+    },
+    "pref_key_route_through_phone": {
+      "code_default": {
+        "value": "ASK"
+      },
+      "evidence": [
+        "prior-analysis/class-qt1.java method C"
+      ],
+      "notes": [
+        "Fresh-preference fallback; legacy preference migration can change it."
+      ]
+    },
+    "pref_iptv_list_update_mode": {
+      "code_default": {
+        "value": "MANUAL"
+      },
+      "evidence": [
+        "prior-analysis/class-qt1.java method j"
+      ],
+      "notes": []
+    },
+    "pref_iptv_parser_m3u_extinf_attributes_parser": {
+      "code_default": {
+        "value": "REGEX"
+      },
+      "evidence": [
+        "prior-analysis/class-qt1.java method k"
+      ],
+      "notes": []
+    },
+    "pref_key_force_dark_mode": {
+      "code_default": {
+        "value": "1"
+      },
+      "evidence": [
+        "prior-analysis/class-qt1.java method c"
+      ],
+      "notes": []
+    },
+    "pref_key_dark_mode_strategy": {
+      "code_default": {
+        "value": "1"
+      },
+      "evidence": [
+        "prior-analysis/class-qt1.java method e"
+      ],
+      "notes": []
+    },
+    "pref_key_dark_mode": {
+      "code_default": {
+        "value": "0"
+      },
+      "evidence": [
+        "prior-analysis/class-qt1.java method b"
+      ],
+      "notes": []
+    },
+    "pref_start_screen": {
+      "code_default": {
+        "value": "BROWSER"
+      },
+      "evidence": [
+        "working/settings/SettingsPersonalizationFragment.java j; working/apktool/smali_classes6/j1b.smali b"
+      ],
+      "notes": [
+        "Premium-related change listener is installed; UI label may vary on TV devices."
+      ]
+    },
+    "pref_prefer_tv_app": {
+      "code_default": {
+        "value": "1"
+      },
+      "evidence": [
+        "working/apktool/smali_classes6/com/instantbits/cast/webvideo/WebVideoCasterApplication.smali i; blb.d"
+      ],
+      "notes": [
+        "Legacy pref.use_webos_app / pref.never_use_webos_app migration may override the fresh fallback."
+      ]
+    },
+    "pref_receiver_connection_request_action": {
+      "code_default": {
+        "value": "PROMPT"
+      },
+      "evidence": [
+        "working/apktool/smali_classes2/bm0.smali ni9.c fallback; ni9.smali"
+      ],
+      "notes": [
+        "Fallback applies where this receiver-connection decision path is reached."
+      ]
+    },
+    "pref_scrobble_enabled_types": {
+      "code_default": {
+        "value": []
+      },
+      "evidence": [
+        "working/apktool/smali_classes6/u5a.smali getStringSet fallback to uf3.a"
+      ],
+      "notes": [
+        "No selected service when key absent; Trakt is the packaged option."
+      ]
+    },
+    "pref_key_default_subtitle_language": {
+      "code_default": {
+        "value": "device locale",
+        "label": "Device default locale"
+      },
+      "evidence": [
+        "prior-analysis/class-qt1.java d; working/settings/SettingsCastingSubtitlesFragment.java j"
+      ],
+      "notes": [
+        "XML English/Spanish entries are replaced at runtime. Options: available Android locales with nonempty language and no variant; labels use display names; values language or language_COUNTRY."
+      ],
+      "options": [
+        {
+          "label": "Device-generated locale list (not limited to English/Spanish)",
+          "value": "language or language_COUNTRY"
+        }
+      ]
+    },
+    "pref_yt_filter_language": {
+      "notes": [
+        "Dynamically populated from available Android locales, deduplicated by language and sorted by display name. A None option stores an empty string. Device-dependent enumeration cannot be exhaustively reproduced from APK alone."
+      ],
+      "options": [
+        {
+          "label": "None",
+          "value": ""
+        },
+        {
+          "label": "Each available locale language (generated on device)",
+          "value": "language code"
+        }
+      ],
+      "evidence": [
+        "working/settings/SettingsMediaDetectionFragment.java j"
+      ]
+    },
+    "pref_videojs_version": {
+      "notes": [
+        "Stored getter WebVideoCasterApplication.z returns null when absent; effective receiver-library fallback is downstream and not yet verified. Do not assume the XML label Default means it is selected."
+      ],
+      "evidence": [
+        "working/apktool/smali_classes6/com/instantbits/cast/webvideo/WebVideoCasterApplication.smali z"
+      ]
+    },
+    "pref_ad_block_lists": {
+      "notes": [
+        "Settings change/action is wrapped in a premium-related listener with ad_block_requires_premium message. See SettingsBrowserPopupAndAdBlockingFragment.j."
+      ]
+    },
+    "pref_ad_block_reset": {
+      "notes": [
+        "Settings change/action is wrapped in a premium-related listener with ad_block_requires_premium message. See SettingsBrowserPopupAndAdBlockingFragment.j."
+      ]
+    },
+    "pref_proxy_m3u8_proxifier_type": {
+      "notes": [
+        "REMOTE is the stored selector default, not the final mode; remote configuration or its fallback selects the effective mode. See VIDEO_PIPELINE.md."
+      ]
+    },
+    "pref_proxy_m3u8_url_generator_type": {
+      "notes": [
+        "REMOTE is the stored selector default, not the final mode; remote configuration or its fallback selects the effective mode. See VIDEO_PIPELINE.md."
+      ]
+    },
+    "pref_convert_m3u8_always": {
+      "notes": [
+        "Settings screen reads legacy ts.convert.always / ts.dont.convert.always (false fallback) from a separate preferences source. Mutual-exclusion handling is installed."
+      ],
+      "evidence": [
+        "working/settings/SettingsCastingDialogsFragment.java j, p"
+      ]
+    },
+    "pref_convert_m3u8_never": {
+      "notes": [
+        "Settings screen reads legacy ts.convert.always / ts.dont.convert.always (false fallback) from a separate preferences source. Mutual-exclusion handling is installed."
+      ],
+      "evidence": [
+        "working/settings/SettingsCastingDialogsFragment.java j, p"
+      ]
+    },
+    "pref_premium_status": {
+      "notes": [
+        "Read-only/dynamically populated account status row, not a configurable setting or executable action."
+      ],
+      "kind": "status"
+    },
+    "pref_premium_linked_to": {
+      "notes": [
+        "Read-only/dynamically populated account status row, not a configurable setting or executable action."
+      ],
+      "kind": "status"
+    },
+    "pref_premium_support_id": {
+      "notes": [
+        "Read-only/dynamically populated account status row, not a configurable setting or executable action."
+      ],
+      "kind": "status"
+    },
+    "pref_ad_block": {
+      "notes": [
+        "Settings change/action is wrapped in a premium-related listener with ad_block_requires_premium message. See SettingsBrowserPopupAndAdBlockingFragment.j."
+      ]
+    },
+    "pref_in_app_player_buffer_settings": {
+      "notes": [
+        "Opens nested buffer dialog. Profile options: Default and Custom. Default profile: minimum buffer 50000 ms; maximum buffer 50000 ms; playback buffer 1000 ms; after-rebuffer playback buffer 2000 ms. Custom min/max choices: 30000, 40000, 50000, 60000 ms. Custom playback choices: 1500, 2000, 1000, 3000 ms. Custom after-rebuffer choices: 3000, 4000, 2000, 6000 ms. These nested controls are not independent top-level Preference XML rows."
+      ],
+      "evidence": [
+        "working/apktool/smali_classes6/yia.smali; smali/gh5.smali; smali_classes7/jc5.smali cases 7\u201311; smali_classes6/mn2.smali; kb2.smali"
+      ]
+    },
+    "pref_in_app_player_cache_size_max": {
+      "notes": [
+        "Nested cache size options: 0 MB (disabled), 256 MB, 512 MB, 1024 MB, 2048 MB. Fresh/invalid index defaults to 1 = 256 MB. Clear Cache action stops playback; size changes restart playback."
+      ],
+      "evidence": [
+        "working/settings/ph5.java a; working/apktool/smali_classes6/oh5.smali; res/layout/internal_player_cache_layout.xml"
+      ]
+    },
+    "pref_key_search_engine": {
+      "notes": [
+        "Opens search-engine manager. Bundled options: Google, Yahoo, Bing, DuckDuckGo, Yandex, Baidu; manager also has an add action. Default selector chooses Baidu for a country matching Simplified Chinese locale country, Google otherwise. Custom/stored selection may replace it."
+      ],
+      "evidence": [
+        "working/settings/f8a.java a/b; x7a.java f/i"
+      ]
+    },
+    "pref_phone_audio_cache_size_max": {
+      "notes": [
+        "Nested cache-size slider: 0 MB (disabled), 128 MB, 256 MB, 512 MB, 1024 MB. Fresh/invalid index defaults to 1 = 128 MB. Clear Cache stops phone audio; size changes take effect when phone audio is next started."
+      ],
+      "evidence": [
+        "working/settings/uk8.java a; working/apktool/smali_classes6/tk8.smali; res/layout/phone_audio_cache_layout.xml"
+      ]
+    },
+    "pref_chromecast_receiver_type": {
+      "code_default": {
+        "value": "0",
+        "label": "Default"
+      },
+      "notes": [
+        "XML declares defaultValue=\"false\", which is not one of its option values. Native qt1.i falls back to nt1.c (DEFAULT / value \"0\") when the stored value is missing or unrecognized. Both the XML inconsistency and native fallback are preserved."
+      ],
+      "evidence": [
+        "prior-analysis/class-qt1.java i; working/apktool/smali_classes6/nt1.smali c"
+      ]
+    },
+    "pref_ip_preference": {
+      "notes": [
+        "XML default \"prefer_ipv4\" does not match the listed stored values \"0\"/\"1\"/\"2\"/\"3\". Its name suggests IPv4 preference, but the effective native fallback is not established here. Preserve this inconsistency rather than silently substituting value \"0\"."
+      ],
+      "evidence": [
+        "preferences_casting_other.xml; working/settings/SettingsCastingOtherFragment.java j"
+      ]
+    }
+  }
+}

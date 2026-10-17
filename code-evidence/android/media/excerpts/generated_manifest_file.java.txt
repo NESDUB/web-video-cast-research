@@ -1,0 +1,64 @@
+        if (r3.b().containsKey(Command.HTTP_HEADER_USER_AGENT) == true) goto L11;
+        String r2 = i();
+        if (r2 == null) goto L11;
+        String r6 = (String) r5.put(Command.HTTP_HEADER_USER_AGENT, r2);
+    L11:
+        if (r5.isEmpty() == true) goto L16;
+        r3.a(r5);
+        return;
+    L16:
+        return;
+    }
+
+    public final void v(efc r3) {
+        r3.getClass();
+        Runnable r0 = new gy0(4, this, r3);
+        o8c.g().post(r0);
+    }
+
+    public final void w(String r19, String r20, String r21, String r22, String r23, String r24) {
+        File r1 = new File(n00.b(), "m3u8s");
+        r1.mkdirs();
+        File r0 = new File(r1, d6b.d(10).concat(".m3u8"));
+        FileWriter r2 = new FileWriter(r0);
+        char[] r3 = r24.toCharArray();
+        r3.getClass();
+        r2.write(r3);
+        r2.close();
+        int r4 = 0;
+        if (r23 != null) goto L5;
+    L8:
+        boolean r5 = true;
+    L9:
+        if (r5 == false) goto L11;
+        String r9 = r20;
+    L12:
+        String r6 = r0.getAbsolutePath();
+        r6.getClass();
+        o(r6, r22, r19, r9, !r5, null, r21, -1, -1, null);
+        File[] r7 = r1.listFiles();
+        if (r7 == null) goto L20;
+        Log.w(t92.C(), "Have " + r7.length + " m3u8 cached files");
+        int r8 = r7.length;
+    L15:
+        if (r4 >= r8) goto L24;
+        File r10 = r7[r4];
+        if (r10.lastModified() >= (System.currentTimeMillis() - 259200000)) goto L19;
+        Log.w(t92.C(), "Marking m3u8 for deleting on exit " + r10.getAbsolutePath());
+        r10.deleteOnExit();
+    L19:
+        r4 = r4 + 1;
+        goto L15
+    L24:
+        return;
+    L20:
+        return;
+    L11:
+        r9 = r23;
+        goto L12
+    L5:
+        if (r23.length() == 0) goto L8;
+        r5 = false;
+        goto L9
+    }
+

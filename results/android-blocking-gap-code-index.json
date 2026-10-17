@@ -1,0 +1,113 @@
+{
+  "records": [
+    {
+      "id": "host_tokenizer",
+      "file": "working/apktool/smali_classes6/zk0.smali",
+      "line": 7,
+      "marker": ".method public static final a",
+      "confidence": "static-confirmed"
+    },
+    {
+      "id": "host_add_remove_parser",
+      "file": "working/apktool/smali_classes6/yk0.smali",
+      "line": 1901,
+      "marker": "Lzk0;->a",
+      "confidence": "static-confirmed"
+    },
+    {
+      "id": "merge_comparator",
+      "file": "working/apktool/smali/rb.smali",
+      "line": 3009,
+      "marker": "check-cast v0, Lde7;",
+      "confidence": "static-confirmed; comparator contract concern"
+    },
+    {
+      "id": "host_source_merge",
+      "file": "working/blocking/z8.java",
+      "line": 609,
+      "marker": "r133.addAll(r139)",
+      "confidence": "static-confirmed; raw counterpart retained"
+    },
+    {
+      "id": "remote_cache_expiry",
+      "file": "working/blocking/fn9.java",
+      "line": 40,
+      "marker": "604800000",
+      "confidence": "static-confirmed"
+    },
+    {
+      "id": "fetch_failure",
+      "file": "working/blocking/vw7.java",
+      "line": 1055,
+      "marker": "Request to remote source failed",
+      "confidence": "static-confirmed"
+    },
+    {
+      "id": "temporary_host_bypass",
+      "file": "working/blocking/v9.java",
+      "line": 162,
+      "marker": "r5.q = r0",
+      "confidence": "static-confirmed"
+    },
+    {
+      "id": "popup_exception_persistence",
+      "file": "prior-analysis/class-qt1.java",
+      "line": 101,
+      "marker": "putStringSet",
+      "confidence": "static-confirmed"
+    },
+    {
+      "id": "partial_update_policy",
+      "file": "working/blocking/bb.java",
+      "line": 29,
+      "marker": "PARTIAL_LOSES_FULL",
+      "confidence": "static-confirmed"
+    },
+    {
+      "id": "activation_transaction",
+      "file": "prior-analysis/class-fc.java",
+      "line": 70,
+      "marker": "new l9",
+      "confidence": "static-confirmed"
+    },
+    {
+      "id": "redirect_merge",
+      "file": "working/blocking/kd.java",
+      "line": 270,
+      "marker": "r34.remove",
+      "confidence": "static-confirmed"
+    },
+    {
+      "id": "serviceworker_install",
+      "file": "working/apktool/smali_classes6/hy0.smali",
+      "line": 190,
+      "marker": "Lnt4;->t",
+      "confidence": "static-confirmed"
+    },
+    {
+      "id": "serviceworker_interception",
+      "file": "working/apktool/smali_classes6/v74.smali",
+      "line": 160,
+      "marker": "Lyxc;->c",
+      "confidence": "static-confirmed"
+    },
+    {
+      "id": "eligibility_predicate",
+      "file": "working/apktool/smali_classes6/r59.smali",
+      "line": 566,
+      "marker": "Lipb;->d",
+      "confidence": "static-confirmed; full account state not inferred"
+    }
+  ],
+  "native_device_tested": false,
+  "potential_defects": [
+    "REMOVE comparator equality",
+    "custom allow-entry format mismatch"
+  ],
+  "outstanding": [
+    "native timing and fault injection",
+    "refresh scheduler and all triggers",
+    "editor/import paths",
+    "full redirect-expression semantics"
+  ]
+}

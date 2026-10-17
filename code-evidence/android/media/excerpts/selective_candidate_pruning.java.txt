@@ -1,0 +1,64 @@
+        View r46 = (View) r45.k;
+        r46.getLocationOnScreen(r44);
+        int r47 = r44[0];
+        r45.i = new Rect(r47, r44[1], r46.getWidth() + r47, r46.getHeight() + r44[1]);
+        if (((BitmapDrawable) r45.j) == null) goto L79;
+    L83:
+        ((iz8) this.b).run();
+        return;
+    L79:
+        if (r46.getWidth() <= 0) goto L83;
+        if (r46.getHeight() <= 0) goto L83;
+        Bitmap r48 = Bitmap.createBitmap(r46.getWidth(), r46.getHeight(), Bitmap.Config.ARGB_8888);
+        r46.draw(new Canvas(r48));
+        BitmapDrawable r49 = new BitmapDrawable(r46.getContext().getResources(), r48);
+        r45.j = r49;
+        r49.setBounds(0, 0, r49.getIntrinsicWidth(), ((BitmapDrawable) r45.j).getIntrinsicHeight());
+        goto L83
+    L85:
+        HashMap r50 = (HashMap) this.c;
+        qmc r51 = (qmc) this.b;
+        ArrayList r52 = r51.e;
+        o8c.a();
+        List r53 = Collections.unmodifiableList(r51.c);
+        r53.getClass();
+        ArrayList r54 = new ArrayList(r53);
+        int r55 = r54.size();
+    L86:
+        if (r3 >= r55) goto L100;
+        Object r56 = r54.get(r3);
+        r3 = r3 + 1;
+        xyc r57 = (xyc) r56;
+        Iterator r58 = Collections.unmodifiableCollection(r57.h()).iterator();
+    L89:
+        if (r58.hasNext() == false) goto L86;
+        nyc r110 = (nyc) r58.next();
+        String r111 = r110.h;
+        if (r52.contains(r111) == true) goto L92;
+        if (qmc.e(r111) == false) goto L89;
+        vgb r112 = qmc.f;
+        Log.i(xgb.b(), "Removing m3u8 ".concat(r111));
+        r57.h().remove(r110);
+        if (r57.h().isEmpty() == false) goto L89;
+        r51.c.remove(r57);
+        goto L89
+    L92:
+        vgb r113 = qmc.f;
+        Log.i(xgb.b(), "Removing child m3u8");
+        r57.h().remove(r110);
+        if (r57.h().isEmpty() == false) goto L89;
+        r51.c.remove(r57);
+        goto L89
+    L100:
+        HashMap r59 = new HashMap(r51.b);
+        Iterator r60 = r59.keySet().iterator();
+    L102:
+        if (r60.hasNext() == false) goto L125;
+        omc r61 = (omc) r60.next();
+        List r62 = (List) r59.get(r61);
+        if (r62 == null) goto L102;
+        Iterator r63 = new ArrayList(r62).iterator();
+        r63.getClass();
+    L107:
+        if (r63.hasNext() == false) goto L102;
+        Object r64 = r63.next();

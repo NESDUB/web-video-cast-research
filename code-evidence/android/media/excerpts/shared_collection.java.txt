@@ -1,0 +1,64 @@
+    public final ArrayList e;
+
+    static {
+        f = new vgb(new lmc(1));
+        g = new qmc();
+        h = new pqa();
+        i = new vgb(new lmc(2));
+        String[] r0 = WebVideoCasterApplication.k;
+    }
+
+    public qmc() {
+        this.a = new ArrayList();
+        this.b = yx2.p();
+        this.c = taa.w();
+        this.d = taa.w();
+        this.e = new ArrayList();
+    }
+
+    public static boolean b(xyc r5, omc r6) {
+        Iterator r0 = yl1.y1(r5.h()).iterator();
+    L4:
+        if (r0.hasNext() == false) goto L12;
+        nyc r1 = (nyc) r0.next();
+        if (toc.b(r5.b, r1.h, r1.i, r6) == true) goto L7;
+        HashMap r2 = jd9.b(r1.h);
+        if (r2 == null) goto L4;
+        r1.a(r2);
+        goto L4
+    L7:
+        r5.h().remove(r1);
+        goto L4
+    L12:
+        return r5.h().isEmpty();
+    }
+
+    public static boolean e(String r3) {
+        if (r3.length() <= 0) goto L15;
+        boolean r0 = me2.n(r3);
+        if (j6b.I0(r3, "dailymotion.com", false) == false) goto L15;
+        if (r0 == false) goto L15;
+        String r4 = new URL(r3).getQuery();     // Catch: MalformedURLException -> L13
+        if (r4 == null) goto L15;
+        if (q6b.E0(r4, "auth=", false) == false) goto L15;
+        return true;
+    L13:
+        e = move-exception;
+        Log.w(xgb.b(), e);
+    L15:
+        return false;
+    }
+
+    public final void a(xyc r3) {
+        r3.getClass();
+        o8c.o(new zv8(25, r3, this));
+    }
+
+    public final ArrayList c(omc r6) {
+        r6.getClass();
+        o8c.a();
+        long r0 = r6.a;
+        ArrayList r7 = new ArrayList();
+        Iterator r5 = this.c.iterator();
+    L4:
+        if (r5.hasNext() == false) goto L8;

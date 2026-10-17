@@ -1,0 +1,28 @@
+    invoke-interface {p1}, Landroid/webkit/WebResourceRequest;->getRequestHeaders()Ljava/util/Map;
+
+    .line 55
+    .line 56
+    .line 57
+    move-result-object v7
+
+    .line 58
+    const/4 v1, 0x0
+
+    .line 59
+    const/4 v2, 0x0
+
+    .line 60
+    const-string v3, "serviceworker"
+
+    .line 61
+    .line 62
+    invoke-static/range {v1 .. v7}, Lyxc;->c(Landroid/webkit/WebView;Lwzc;Ljava/lang/String;Lm48;Lm48;Ljava/lang/String;Ljava/util/Map;)Landroid/webkit/WebResourceResponse;
+
+    .line 63
+    .line 64
+    .line 65
+    move-result-object p0
+
+    .line 66
+    return-object p0
+.end method

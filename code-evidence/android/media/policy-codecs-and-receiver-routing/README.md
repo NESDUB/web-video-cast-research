@@ -1,0 +1,62 @@
+# android/media/policy-codecs-and-receiver-routing
+
+Full-file snapshots retained without edits. Decompiled Java may contain errors; raw smali is authoritative for branch instructions. File hashes and provenance are in the root manifest. Presence in this folder does not imply native execution or complete mechanism coverage.
+
+- [s2c.java](full-files/working/media/s2c.java) — reconstructed Java (not original source); original `working/media/s2c.java`.
+- [q2c.java](full-files/working/media/q2c.java) — reconstructed Java (not original source); original `working/media/q2c.java`.
+- [j85.java](full-files/working/media/j85.java) — reconstructed Java (not original source); original `working/media/j85.java`.
+- [d4d.java](full-files/working/media/d4d.java) — reconstructed Java (not original source); original `working/media/d4d.java`.
+- [zh0.java](full-files/working/media/zh0.java) — reconstructed Java (not original source); original `working/media/zh0.java`.
+- [z8.java](full-files/working/media/z8.java) — reconstructed Java (not original source); original `working/media/z8.java`.
+- [v67.java](full-files/working/media/v67.java) — reconstructed Java (not original source); original `working/media/v67.java`.
+- [t97.java](full-files/working/media/t97.java) — reconstructed Java (not original source); original `working/media/t97.java`.
+- [n97.java](full-files/working/media/n97.java) — reconstructed Java (not original source); original `working/media/n97.java`.
+- [e97.java](full-files/working/media/e97.java) — reconstructed Java (not original source); original `working/media/e97.java`.
+- [wi5.java](full-files/working/media/wi5.java) — reconstructed Java (not original source); original `working/media/wi5.java`.
+- [e57.java](full-files/working/media/e57.java) — reconstructed Java (not original source); original `working/media/e57.java`.
+- [p4.java](full-files/working/media/p4.java) — reconstructed Java (not original source); original `working/media/p4.java`.
+- [zyc.java](full-files/working/media/zyc.java) — reconstructed Java (not original source); original `working/media/zyc.java`.
+- [yv8.java](full-files/working/media/yv8.java) — reconstructed Java (not original source); original `working/media/yv8.java`.
+- [tv8.java](full-files/working/media/tv8.java) — reconstructed Java (not original source); original `working/media/tv8.java`.
+- [fl7.java](full-files/working/media/fl7.java) — reconstructed Java (not original source); original `working/media/fl7.java`.
+- [to2.java](full-files/working/media/to2.java) — reconstructed Java (not original source); original `working/media/to2.java`.
+- [ku2.java](full-files/working/media/ku2.java) — reconstructed Java (not original source); original `working/media/ku2.java`.
+- [s2c.smali](full-files/working/apktool/smali/s2c.smali) — smali bytecode disassembly; original `working/apktool/smali/s2c.smali`.
+- [q2c.smali](full-files/working/apktool/smali/q2c.smali) — smali bytecode disassembly; original `working/apktool/smali/q2c.smali`.
+- [j85.smali](full-files/working/apktool/smali/j85.smali) — smali bytecode disassembly; original `working/apktool/smali/j85.smali`.
+- [d4d.smali](full-files/working/apktool/smali/d4d.smali) — smali bytecode disassembly; original `working/apktool/smali/d4d.smali`.
+- [zh0.smali](full-files/working/apktool/smali/zh0.smali) — smali bytecode disassembly; original `working/apktool/smali/zh0.smali`.
+- [wo2.smali](full-files/working/apktool/smali/wo2.smali) — smali bytecode disassembly; original `working/apktool/smali/wo2.smali`.
+- [fq6.smali](full-files/working/apktool/smali/fq6.smali) — smali bytecode disassembly; original `working/apktool/smali/fq6.smali`.
+- [eq6.smali](full-files/working/apktool/smali/eq6.smali) — smali bytecode disassembly; original `working/apktool/smali/eq6.smali`.
+- [gq6.smali](full-files/working/apktool/smali/gq6.smali) — smali bytecode disassembly; original `working/apktool/smali/gq6.smali`.
+- [ci3.smali](full-files/working/apktool/smali/ci3.smali) — smali bytecode disassembly; original `working/apktool/smali/ci3.smali`.
+- [fl7.smali](full-files/working/apktool/smali/fl7.smali) — smali bytecode disassembly; original `working/apktool/smali/fl7.smali`.
+- [qo2.smali](full-files/working/apktool/smali/qo2.smali) — smali bytecode disassembly; original `working/apktool/smali/qo2.smali`.
+- [rw0.smali](full-files/working/apktool/smali/rw0.smali) — smali bytecode disassembly; original `working/apktool/smali/rw0.smali`.
+- [m2c.smali](full-files/working/apktool/smali/m2c.smali) — smali bytecode disassembly; original `working/apktool/smali/m2c.smali`.
+- [v60.smali](full-files/working/apktool/smali/v60.smali) — smali bytecode disassembly; original `working/apktool/smali/v60.smali`.
+- [b5d.smali](full-files/working/apktool/smali/b5d.smali) — smali bytecode disassembly; original `working/apktool/smali/b5d.smali`.
+- [qq.smali](full-files/working/apktool/smali/qq.smali) — smali bytecode disassembly; original `working/apktool/smali/qq.smali`.
+- [bo4.smali](full-files/working/apktool/smali/bo4.smali) — smali bytecode disassembly; original `working/apktool/smali/bo4.smali`.
+- [do4.smali](full-files/working/apktool/smali/do4.smali) — smali bytecode disassembly; original `working/apktool/smali/do4.smali`.
+- [ho4.smali](full-files/working/apktool/smali/ho4.smali) — smali bytecode disassembly; original `working/apktool/smali/ho4.smali`.
+- [bzc.smali](full-files/working/apktool/smali_classes6/bzc.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/bzc.smali`.
+- [dd.smali](full-files/working/apktool/smali_classes6/dd.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/dd.smali`.
+- [w87.smali](full-files/working/apktool/smali_classes6/w87.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/w87.smali`.
+- [vqb.smali](full-files/working/apktool/smali_classes6/vqb.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/vqb.smali`.
+- [dv4.smali](full-files/working/apktool/smali_classes7/dv4.smali) — smali bytecode disassembly; original `working/apktool/smali_classes7/dv4.smali`.
+- [pw6.smali](full-files/working/apktool/smali_classes7/pw6.smali) — smali bytecode disassembly; original `working/apktool/smali_classes7/pw6.smali`.
+- [m4d.smali](full-files/working/apktool/smali_classes5/m4d.smali) — smali bytecode disassembly; original `working/apktool/smali_classes5/m4d.smali`.
+- [se.smali](full-files/working/apktool/smali_classes7/se.smali) — smali bytecode disassembly; original `working/apktool/smali_classes7/se.smali`.
+- [TransformerInternal$SequenceAssetLoaderListener.smali](full-files/working/apktool/smali/androidx/media3/transformer/TransformerInternal$SequenceAssetLoaderListener.smali) — smali bytecode disassembly; original `working/apktool/smali/androidx/media3/transformer/TransformerInternal$SequenceAssetLoaderListener.smali`.
+- [AirPlayService.smali](full-files/working/apktool/smali_classes4/com/connectsdk/service/AirPlayService.smali) — smali bytecode disassembly; original `working/apktool/smali_classes4/com/connectsdk/service/AirPlayService.smali`.
+- [DLNAService.smali](full-files/working/apktool/smali_classes4/com/connectsdk/service/DLNAService.smali) — smali bytecode disassembly; original `working/apktool/smali_classes4/com/connectsdk/service/DLNAService.smali`.
+- [FireTVService.smali](full-files/working/apktool/smali_classes4/com/connectsdk/service/FireTVService.smali) — smali bytecode disassembly; original `working/apktool/smali_classes4/com/connectsdk/service/FireTVService.smali`.
+- [NetcastTVService.smali](full-files/working/apktool/smali_classes4/com/connectsdk/service/NetcastTVService.smali) — smali bytecode disassembly; original `working/apktool/smali_classes4/com/connectsdk/service/NetcastTVService.smali`.
+- [RokuServiceBase.smali](full-files/working/apktool/smali_classes4/com/connectsdk/service/RokuServiceBase.smali) — smali bytecode disassembly; original `working/apktool/smali_classes4/com/connectsdk/service/RokuServiceBase.smali`.
+- [WebOSTVService.smali](full-files/working/apktool/smali_classes4/com/connectsdk/service/WebOSTVService.smali) — smali bytecode disassembly; original `working/apktool/smali_classes4/com/connectsdk/service/WebOSTVService.smali`.
+- [rxc.smali](full-files/working/apktool/smali_classes4/rxc.smali) — smali bytecode disassembly; original `working/apktool/smali_classes4/rxc.smali`.
+- [AbstractReceiverService.smali](full-files/working/apktool/smali_classes6/com/connectsdk/service/tvreceiver/AbstractReceiverService.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/com/connectsdk/service/tvreceiver/AbstractReceiverService.smali`.
+- [GoogleCastService.smali](full-files/working/apktool/smali_classes6/com/instantbits/cast/util/connectsdkhelper/googlecastconnectsdk/GoogleCastService.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/com/instantbits/cast/util/connectsdkhelper/googlecastconnectsdk/GoogleCastService.smali`.
+- [RokuChannelService.smali](full-files/working/apktool/smali_classes4/com/connectsdk/service/RokuChannelService.smali) — smali bytecode disassembly; original `working/apktool/smali_classes4/com/connectsdk/service/RokuChannelService.smali`.

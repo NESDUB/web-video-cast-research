@@ -1,0 +1,37 @@
+[
+  {
+    "file": "extracted/android/res/raw/block.txt",
+    "parsed_add_tokens": 34695,
+    "parsed_remove_tokens": 0,
+    "ignored_lines": 22,
+    "scope": "Static Python model of traced tokenizer, not native execution; trim/locale edge cases may differ"
+  },
+  {
+    "file": "extracted/android/res/raw/adblockremovelist.txt",
+    "parsed_add_tokens": 0,
+    "parsed_remove_tokens": 158,
+    "ignored_lines": 95,
+    "scope": "Static Python model of traced tokenizer, not native execution; trim/locale edge cases may differ"
+  },
+  {
+    "file": "prior-analysis/remote-snapshot/1hosts-lite.txt",
+    "parsed_add_tokens": 202955,
+    "parsed_remove_tokens": 0,
+    "ignored_lines": 29,
+    "scope": "Static Python model of traced tokenizer, not native execution; trim/locale edge cases may differ"
+  },
+  {
+    "file": "prior-analysis/remote-snapshot/developer-hosts.txt",
+    "parsed_add_tokens": 927,
+    "parsed_remove_tokens": 27,
+    "ignored_lines": 28,
+    "scope": "Static Python model of traced tokenizer, not native execution; trim/locale edge cases may differ"
+  },
+  {
+    "file": "prior-analysis/remote-snapshot/developer-redirects.txt",
+    "parsed_add_tokens": 0,
+    "parsed_remove_tokens": 0,
+    "ignored_lines": 3,
+    "scope": "Static Python model of traced tokenizer, not native execution; trim/locale edge cases may differ"
+  }
+]

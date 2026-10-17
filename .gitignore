@@ -1,0 +1,9 @@
+# Complete copies are preserved in the private release ZIP.
+/originals/
+/extracted/
+/prior-analysis/
+/working/
+/tools/
+/TRANSFER_MANIFEST.json
+__pycache__/
+*.pyc

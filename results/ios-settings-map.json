@@ -1,0 +1,5513 @@
+{
+  "scope": "All Settings.bundle plist files from supplied iOS 3.5 build 0; packaged declarations, not installed effective settings",
+  "counts": {
+    "plist_files": 12,
+    "base_panes": 11,
+    "base_specifiers": 135,
+    "base_controls": 104,
+    "base_groups": 22,
+    "base_submenus": 9,
+    "ipad_variant_specifiers": 9,
+    "root_reachable_panes": 10,
+    "unlinked_base_panes": [
+      "Hidden"
+    ]
+  },
+  "screens": [
+    {
+      "id": "AdBlockLists",
+      "variant": "base",
+      "items": [
+        {
+          "id": "AdBlockLists:1",
+          "order": 1,
+          "title": "Ad block lists",
+          "key": null,
+          "kind": "group",
+          "type": "PSGroupSpecifier",
+          "group": "Ad block lists",
+          "default": {
+            "source": "not_applicable",
+            "value": null
+          },
+          "options": [],
+          "footer": "Ad blocking is only available for premium users.",
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSGroupSpecifier",
+            "Title": "pref_adblock_lists_category",
+            "FooterText": "pref_adblock_premium_required_footer"
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+            "specifier_index": 1,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "AdBlockLists:2",
+          "order": 2,
+          "title": "Easylist (recommended)",
+          "key": "easylist_ads",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Ad block lists",
+          "default": {
+            "source": "plist",
+            "value": true,
+            "label": "On"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "pref_easylist_title",
+            "Key": "easylist_ads",
+            "DefaultValue": true
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+            "specifier_index": 2,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "AdBlockLists:3",
+          "order": 3,
+          "title": "Website Annoyances (cookie banners, social media, etc.)",
+          "key": "annoyance_ads",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Ad block lists",
+          "default": {
+            "source": "plist",
+            "value": true,
+            "label": "On"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "pref_annoyance_ads_title",
+            "Key": "annoyance_ads",
+            "DefaultValue": true
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+            "specifier_index": 3,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "AdBlockLists:4",
+          "order": 4,
+          "title": "Anti ad block detection",
+          "key": "antiadblock_ads",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Ad block lists",
+          "default": {
+            "source": "plist",
+            "value": true,
+            "label": "On"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "pref_antiadblock_ads_title",
+            "Key": "antiadblock_ads",
+            "DefaultValue": true
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+            "specifier_index": 4,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "AdBlockLists:5",
+          "order": 5,
+          "title": "WVC additional list",
+          "key": "wvc_ads",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Ad block lists",
+          "default": {
+            "source": "plist",
+            "value": true,
+            "label": "On"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "pref_wvc_ads_title",
+            "Key": "wvc_ads",
+            "DefaultValue": true
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+            "specifier_index": 5,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "AdBlockLists:6",
+          "order": 6,
+          "title": "Privacy (website trackers)",
+          "key": "privacy_ads",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Ad block lists",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "pref_privacy_ads_title",
+            "Key": "privacy_ads",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+            "specifier_index": 6,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "AdBlockLists:7",
+          "order": 7,
+          "title": "Enhanced ad block by language",
+          "key": null,
+          "kind": "group",
+          "type": "PSGroupSpecifier",
+          "group": "Enhanced ad block by language",
+          "default": {
+            "source": "not_applicable",
+            "value": null
+          },
+          "options": [],
+          "footer": "Ad block lists provided by https://easylist.to",
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSGroupSpecifier",
+            "Title": "pref_adblock_languages_category",
+            "FooterText": "pref_adblock_attribution_footer"
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+            "specifier_index": 7,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "AdBlockLists:8",
+          "order": 8,
+          "title": "ar - Arabic",
+          "key": "ar_ads",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Enhanced ad block by language",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "pref_ar_ads_title",
+            "Key": "ar_ads",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+            "specifier_index": 8,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "AdBlockLists:9",
+          "order": 9,
+          "title": "bg - Bulgarian",
+          "key": "bg_ads",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Enhanced ad block by language",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "pref_bg_ads_title",
+            "Key": "bg_ads",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+            "specifier_index": 9,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "AdBlockLists:10",
+          "order": 10,
+          "title": "cs - Czech",
+          "key": "cs_ads",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Enhanced ad block by language",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "pref_cs_ads_title",
+            "Key": "cs_ads",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+            "specifier_index": 10,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "AdBlockLists:11",
+          "order": 11,
+          "title": "de - German",
+          "key": "de_ads",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Enhanced ad block by language",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "pref_de_ads_title",
+            "Key": "de_ads",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+            "specifier_index": 11,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "AdBlockLists:12",
+          "order": 12,
+          "title": "es - Spanish",
+          "key": "es_ads",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Enhanced ad block by language",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "pref_es_ads_title",
+            "Key": "es_ads",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+            "specifier_index": 12,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "AdBlockLists:13",
+          "order": 13,
+          "title": "fr - French",
+          "key": "fr_ads",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Enhanced ad block by language",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "pref_fr_ads_title",
+            "Key": "fr_ads",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+            "specifier_index": 13,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "AdBlockLists:14",
+          "order": 14,
+          "title": "he - Hebrew",
+          "key": "he_ads",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Enhanced ad block by language",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "pref_he_ads_title",
+            "Key": "he_ads",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+            "specifier_index": 14,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "AdBlockLists:15",
+          "order": 15,
+          "title": "hi - Hindi",
+          "key": "hi_ads",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Enhanced ad block by language",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "pref_hi_ads_title",
+            "Key": "hi_ads",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+            "specifier_index": 15,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "AdBlockLists:16",
+          "order": 16,
+          "title": "id - Indonesian",
+          "key": "id_ads",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Enhanced ad block by language",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "pref_id_ads_title",
+            "Key": "id_ads",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+            "specifier_index": 16,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "AdBlockLists:17",
+          "order": 17,
+          "title": "it - Italian",
+          "key": "it_ads",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Enhanced ad block by language",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "pref_it_ads_title",
+            "Key": "it_ads",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+            "specifier_index": 17,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "AdBlockLists:18",
+          "order": 18,
+          "title": "ko - Korean",
+          "key": "ko_ads",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Enhanced ad block by language",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "pref_ko_ads_title",
+            "Key": "ko_ads",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+            "specifier_index": 18,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "AdBlockLists:19",
+          "order": 19,
+          "title": "lt - Lithuanian",
+          "key": "lt_ads",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Enhanced ad block by language",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "pref_lt_ads_title",
+            "Key": "lt_ads",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+            "specifier_index": 19,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "AdBlockLists:20",
+          "order": 20,
+          "title": "lv - Latvian",
+          "key": "lv_ads",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Enhanced ad block by language",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "pref_lv_ads_title",
+            "Key": "lv_ads",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+            "specifier_index": 20,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "AdBlockLists:21",
+          "order": 21,
+          "title": "nb - Norwegian",
+          "key": "nb_ads",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Enhanced ad block by language",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "pref_nb_ads_title",
+            "Key": "nb_ads",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+            "specifier_index": 21,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "AdBlockLists:22",
+          "order": 22,
+          "title": "nl - Dutch",
+          "key": "nl_ads",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Enhanced ad block by language",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "pref_nl_ads_title",
+            "Key": "nl_ads",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+            "specifier_index": 22,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "AdBlockLists:23",
+          "order": 23,
+          "title": "pl - Polish",
+          "key": "pl_ads",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Enhanced ad block by language",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "pref_pl_ads_title",
+            "Key": "pl_ads",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+            "specifier_index": 23,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "AdBlockLists:24",
+          "order": 24,
+          "title": "pt - Portuguese",
+          "key": "pt_ads",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Enhanced ad block by language",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "pref_pt_ads_title",
+            "Key": "pt_ads",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+            "specifier_index": 24,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "AdBlockLists:25",
+          "order": 25,
+          "title": "ro - Romanian",
+          "key": "ro_ads",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Enhanced ad block by language",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "pref_ro_ads_title",
+            "Key": "ro_ads",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+            "specifier_index": 25,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "AdBlockLists:26",
+          "order": 26,
+          "title": "ru - Russian",
+          "key": "ru_ads",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Enhanced ad block by language",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "pref_ru_ads_title",
+            "Key": "ru_ads",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+            "specifier_index": 26,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "AdBlockLists:27",
+          "order": 27,
+          "title": "vi - Vietnamese",
+          "key": "vi_ads",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Enhanced ad block by language",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "pref_vi_ads_title",
+            "Key": "vi_ads",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+            "specifier_index": 27,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "AdBlockLists:28",
+          "order": 28,
+          "title": "zh - Chinese",
+          "key": "zh_ads",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Enhanced ad block by language",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "pref_zh_ads_title",
+            "Key": "zh_ads",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+            "specifier_index": 28,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        }
+      ],
+      "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+      "path": "Settings > Browser > Ad block lists",
+      "reachable_from_root": true
+    },
+    {
+      "id": "Advanced",
+      "variant": "base",
+      "items": [
+        {
+          "id": "Advanced:1",
+          "order": 1,
+          "title": null,
+          "key": null,
+          "kind": "group",
+          "type": "PSGroupSpecifier",
+          "group": null,
+          "default": {
+            "source": "not_applicable",
+            "value": null
+          },
+          "options": [],
+          "footer": "Only select this if customer service has directed you to do this. This will slow down the application and consume storage space.",
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSGroupSpecifier",
+            "FooterText": "pref_capture_ios_logs_description"
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Advanced.plist",
+            "specifier_index": 1,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Advanced:2",
+          "order": 2,
+          "title": "Capture iOS logs",
+          "key": "capture_logs",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": null,
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "pref_capture_ios_logs_title",
+            "Key": "capture_logs",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Advanced.plist",
+            "specifier_index": 2,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        }
+      ],
+      "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Advanced.plist",
+      "path": "Settings > Advanced",
+      "reachable_from_root": true
+    },
+    {
+      "id": "Browser",
+      "variant": "base",
+      "items": [
+        {
+          "id": "Browser:1",
+          "order": 1,
+          "title": "Pop-up and Ad Blocking",
+          "key": null,
+          "kind": "group",
+          "type": "PSGroupSpecifier",
+          "group": "Pop-up and Ad Blocking",
+          "default": {
+            "source": "not_applicable",
+            "value": null
+          },
+          "options": [],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSGroupSpecifier",
+            "Title": "browser_ads_pref_category"
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Browser.plist",
+            "specifier_index": 1,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Browser:2",
+          "order": 2,
+          "title": "Block all pop-ups",
+          "key": "popup_ignore",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Pop-up and Ad Blocking",
+          "default": {
+            "source": "plist",
+            "value": true,
+            "label": "On"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": "Ignore pop-ups, even user initiated ones.",
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "popup_ignore_title",
+            "Key": "popup_ignore",
+            "DefaultValue": true
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Browser.plist",
+            "specifier_index": 2,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Browser:3",
+          "order": 3,
+          "title": "Notify on blocked popup",
+          "key": "popup_ignore_notify",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Pop-up and Ad Blocking",
+          "default": {
+            "source": "plist",
+            "value": true,
+            "label": "On"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "pref_popup_ignore_notify_title",
+            "Key": "popup_ignore_notify",
+            "DefaultValue": true
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Browser.plist",
+            "specifier_index": 3,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Browser:4",
+          "order": 4,
+          "title": "Block website ads",
+          "key": "ad_block",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Pop-up and Ad Blocking",
+          "default": {
+            "source": "plist",
+            "value": true,
+            "label": "On"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": "Block some website ads. If ads aren't blocked please contact support",
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "pref_ad_block_title",
+            "Key": "ad_block",
+            "DefaultValue": true
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Browser.plist",
+            "specifier_index": 4,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Browser:5",
+          "order": 5,
+          "title": "Ad block lists",
+          "key": null,
+          "kind": "submenu",
+          "type": "PSChildPaneSpecifier",
+          "group": "Pop-up and Ad Blocking",
+          "default": {
+            "source": "not_applicable",
+            "value": null
+          },
+          "options": [],
+          "footer": null,
+          "description": null,
+          "target_screen": "AdBlockLists",
+          "raw_specifier": {
+            "Type": "PSChildPaneSpecifier",
+            "Title": "pref_adblock_lists_category",
+            "File": "AdBlockLists"
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Browser.plist",
+            "specifier_index": 5,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Browser:6",
+          "order": 6,
+          "title": "Block ad redirects",
+          "key": "redirect_ad_block",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Pop-up and Ad Blocking",
+          "default": {
+            "source": "plist",
+            "value": true,
+            "label": "On"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": "Block sites from redirecting you to pages that only show ads.",
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "pref_redirect_ad_block_title",
+            "Key": "redirect_ad_block",
+            "DefaultValue": true
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Browser.plist",
+            "specifier_index": 6,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Browser:7",
+          "order": 7,
+          "title": "Notify on blocked redirect",
+          "key": "redirect_ad_block_notify",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Pop-up and Ad Blocking",
+          "default": {
+            "source": "plist",
+            "value": true,
+            "label": "On"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "pref_redirect_ad_block_notify_title",
+            "Key": "redirect_ad_block_notify",
+            "DefaultValue": true
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Browser.plist",
+            "specifier_index": 7,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Browser:8",
+          "order": 8,
+          "title": "Block JavaScript alert dialogs",
+          "key": "javascript_alert_block",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Pop-up and Ad Blocking",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": "Block all JavaScript alert dialogs on the browser.",
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "pref_javascript_alert_block_title",
+            "Key": "javascript_alert_block",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Browser.plist",
+            "specifier_index": 8,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Browser:9",
+          "order": 9,
+          "title": "Block JavaScript confirm dialogs",
+          "key": "javascript_confirm_block",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Pop-up and Ad Blocking",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": "Block all JavaScript confirm dialogs on the browser. This could cause issues if the website is expecting a yes or no answer from you.",
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "pref_javascript_confirm_block_title",
+            "Key": "javascript_confirm_block",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Browser.plist",
+            "specifier_index": 9,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Browser:10",
+          "order": 10,
+          "title": "Block JavaScript prompt dialogs",
+          "key": "javascript_prompt_block",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Pop-up and Ad Blocking",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": "Block all JavaScript prompt dialogs on the browser. This could cause issues if the website is expecting information from you.",
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "pref_javascript_prompt_block_title",
+            "Key": "javascript_prompt_block",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Browser.plist",
+            "specifier_index": 10,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Browser:11",
+          "order": 11,
+          "title": "Browsing",
+          "key": null,
+          "kind": "group",
+          "type": "PSGroupSpecifier",
+          "group": "Browsing",
+          "default": {
+            "source": "not_applicable",
+            "value": null
+          },
+          "options": [],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSGroupSpecifier",
+            "Title": "browsing_pref_category"
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Browser.plist",
+            "specifier_index": 11,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Browser:12",
+          "order": 12,
+          "title": "Search engine",
+          "key": "search_engine",
+          "kind": "choice",
+          "type": "PSMultiValueSpecifier",
+          "group": "Browsing",
+          "default": {
+            "source": "plist",
+            "value": "google",
+            "label": "Google"
+          },
+          "options": [
+            {
+              "label": "Google",
+              "value": "google"
+            },
+            {
+              "label": "Yahoo",
+              "value": "yahoo"
+            },
+            {
+              "label": "Bing",
+              "value": "bing"
+            },
+            {
+              "label": "DuckDuckGo",
+              "value": "duckduckgo"
+            },
+            {
+              "label": "Yandex",
+              "value": "yandex"
+            },
+            {
+              "label": "Baidu",
+              "value": "baidu"
+            }
+          ],
+          "footer": null,
+          "description": "Search engine to use when performing a search from the address bar.",
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSMultiValueSpecifier",
+            "Title": "pref_search_engine_title",
+            "Key": "search_engine",
+            "DefaultValue": "google",
+            "Values": [
+              "google",
+              "yahoo",
+              "bing",
+              "duckduckgo",
+              "yandex",
+              "baidu"
+            ],
+            "Titles": [
+              "Google",
+              "Yahoo",
+              "Bing",
+              "DuckDuckGo",
+              "Yandex",
+              "Baidu"
+            ]
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Browser.plist",
+            "specifier_index": 12,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Browser:13",
+          "order": 13,
+          "title": "Show dialog asking to restore tabs",
+          "key": "restore_tabs_dialog",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Browsing",
+          "default": {
+            "source": "plist",
+            "value": true,
+            "label": "On"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": "Ask whether the app should try to restore previously opened tabs after the app was closed.",
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "pref_restore_tabs_dialog_title",
+            "Key": "restore_tabs_dialog",
+            "DefaultValue": true
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Browser.plist",
+            "specifier_index": 13,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Browser:14",
+          "order": 14,
+          "title": "Always attempt to restore tabs",
+          "key": "restore_tabs_automatic",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Browsing",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": "Attempt to restore tabs always, without prompting.",
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "pref_restore_tabs_automatic_title",
+            "Key": "restore_tabs_automatic",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Browser.plist",
+            "specifier_index": 14,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Browser:15",
+          "order": 15,
+          "title": "Automatically mute videos in browser",
+          "key": "mute_videos",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Browsing",
+          "default": {
+            "source": "plist",
+            "value": true,
+            "label": "On"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "pref_mute_videos",
+            "Key": "mute_videos",
+            "DefaultValue": true
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Browser.plist",
+            "specifier_index": 15,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Browser:16",
+          "order": 16,
+          "title": "Navigate using swipe gesture",
+          "key": "navigate_gesture",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Browsing",
+          "default": {
+            "source": "plist",
+            "value": true,
+            "label": "On"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "pref_navigate_gesture",
+            "Key": "navigate_gesture",
+            "DefaultValue": true
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Browser.plist",
+            "specifier_index": 16,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Browser:17",
+          "order": 17,
+          "title": "Prevent app from overriding user agent",
+          "key": "dont_override_user_agent",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Browsing",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": "On some website the app will override the user agent with one known to work better for that site. This option will prevent that.",
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "dont_override_user_agent_title",
+            "Key": "dont_override_user_agent",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Browser.plist",
+            "specifier_index": 17,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Browser:18",
+          "order": 18,
+          "title": "Auto hide navigation bar",
+          "key": "nav_bar_auto_hide",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Browsing",
+          "default": {
+            "source": "plist",
+            "value": true,
+            "label": "On"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "pref_nav_bar_auto_hide_title",
+            "Key": "nav_bar_auto_hide",
+            "DefaultValue": true
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Browser.plist",
+            "specifier_index": 18,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Browser:19",
+          "order": 19,
+          "title": "Pull To Refresh",
+          "key": "pull_to_refresh",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Browsing",
+          "default": {
+            "source": "plist",
+            "value": true,
+            "label": "On"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "pref_pull_to_refresh",
+            "Key": "pull_to_refresh",
+            "DefaultValue": true
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Browser.plist",
+            "specifier_index": 19,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Browser:20",
+          "order": 20,
+          "title": "Default invalid SSL certificate handling",
+          "key": "invalid_ssl_certificate",
+          "kind": "choice",
+          "type": "PSMultiValueSpecifier",
+          "group": "Browsing",
+          "default": {
+            "source": "plist",
+            "value": "prompt",
+            "label": "Prompt"
+          },
+          "options": [
+            {
+              "label": "Prompt",
+              "value": "prompt"
+            },
+            {
+              "label": "Ignore",
+              "value": "ignore"
+            },
+            {
+              "label": "Cancel",
+              "value": "cancel"
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSMultiValueSpecifier",
+            "Title": "pref_invalid_ssl_certificate_title",
+            "Key": "invalid_ssl_certificate",
+            "DefaultValue": "prompt",
+            "Values": [
+              "prompt",
+              "ignore",
+              "cancel"
+            ],
+            "Titles": [
+              "pref_ssl_prompt",
+              "pref_ssl_ignore",
+              "pref_ssl_cancel"
+            ]
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Browser.plist",
+            "specifier_index": 20,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Browser:21",
+          "order": 21,
+          "title": "Bookmarks",
+          "key": null,
+          "kind": "group",
+          "type": "PSGroupSpecifier",
+          "group": "Bookmarks",
+          "default": {
+            "source": "not_applicable",
+            "value": null
+          },
+          "options": [],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSGroupSpecifier",
+            "Title": "pref_bookmarks_category"
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Browser.plist",
+            "specifier_index": 21,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Browser:22",
+          "order": 22,
+          "title": "Where to open pages from within the app",
+          "key": "browser_open_in_tab",
+          "kind": "choice",
+          "type": "PSMultiValueSpecifier",
+          "group": "Bookmarks",
+          "default": {
+            "source": "plist",
+            "value": "new",
+            "label": "In a new tab"
+          },
+          "options": [
+            {
+              "label": "In a new tab",
+              "value": "new"
+            },
+            {
+              "label": "In the active tab",
+              "value": "current"
+            },
+            {
+              "label": "In a new private tab",
+              "value": "new_private"
+            }
+          ],
+          "footer": null,
+          "description": "When asking to open pages from a screen other than the Web Browser itself, choose where you want those pages to open by default.",
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSMultiValueSpecifier",
+            "Title": "pref_browser_open_in_tab_title",
+            "Key": "browser_open_in_tab",
+            "DefaultValue": "new",
+            "Values": [
+              "new",
+              "current",
+              "new_private"
+            ],
+            "Titles": [
+              "browser_open_in_tab_new",
+              "browser_open_in_tab_current",
+              "pref_browser_open_in_tab_new_private"
+            ]
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Browser.plist",
+            "specifier_index": 22,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Browser:23",
+          "order": 23,
+          "title": "Private Tabs",
+          "key": null,
+          "kind": "group",
+          "type": "PSGroupSpecifier",
+          "group": "Private Tabs",
+          "default": {
+            "source": "not_applicable",
+            "value": null
+          },
+          "options": [],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSGroupSpecifier",
+            "Title": "pref_private_tabs_category"
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Browser.plist",
+            "specifier_index": 23,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Browser:24",
+          "order": 24,
+          "title": "When restoring tabs also include private tabs",
+          "key": "restore_private_tabs",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Private Tabs",
+          "default": {
+            "source": "plist",
+            "value": true,
+            "label": "On"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "pref_restore_private_tabs",
+            "Key": "restore_private_tabs",
+            "DefaultValue": true
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Browser.plist",
+            "specifier_index": 24,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Browser:25",
+          "order": 25,
+          "title": "Prevent remembering recent media from private tabs",
+          "key": "private_tab_media_history",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Private Tabs",
+          "default": {
+            "source": "plist",
+            "value": true,
+            "label": "On"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "pref_private_tab_media_history",
+            "Key": "private_tab_media_history",
+            "DefaultValue": true
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Browser.plist",
+            "specifier_index": 25,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Browser:26",
+          "order": 26,
+          "title": "Open links and videos shared from other apps in a private tab",
+          "key": "private_tab_share",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Private Tabs",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "pref_private_tab_share",
+            "Key": "private_tab_share",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Browser.plist",
+            "specifier_index": 26,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Browser:27",
+          "order": 27,
+          "title": "Require Face ID / Touch ID to access private tabs",
+          "key": "private_tab_biometric_lock",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Private Tabs",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "pref_private_tab_biometric_lock",
+            "Key": "private_tab_biometric_lock",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Browser.plist",
+            "specifier_index": 27,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        }
+      ],
+      "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Browser.plist",
+      "path": "Settings > Browser",
+      "reachable_from_root": true
+    },
+    {
+      "id": "Casting",
+      "variant": "base",
+      "items": [
+        {
+          "id": "Casting:1",
+          "order": 1,
+          "title": "Casting Dialogs",
+          "key": null,
+          "kind": "group",
+          "type": "PSGroupSpecifier",
+          "group": "Casting Dialogs",
+          "default": {
+            "source": "not_applicable",
+            "value": null
+          },
+          "options": [],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSGroupSpecifier",
+            "Title": "prior_to_casting_casting_pref_category"
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Casting.plist",
+            "specifier_index": 1,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Casting:2",
+          "order": 2,
+          "title": "Always use subtitles",
+          "key": "prompt_subtitles",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Casting Dialogs",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "pref_prompt_subtitles_settings_title",
+            "Key": "prompt_subtitles",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Casting.plist",
+            "specifier_index": 2,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Casting:3",
+          "order": 3,
+          "title": "Don't show dialog for video already playing",
+          "key": "skip_video_already_playing_dialog",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Casting Dialogs",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "skip_video_already_playing_dialog_settings_description",
+            "Key": "skip_video_already_playing_dialog",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Casting.plist",
+            "specifier_index": 3,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Casting:4",
+          "order": 4,
+          "title": "Never ask to resume video",
+          "key": "never_resume_video",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Casting Dialogs",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "never_ask_to_resume_settings_title",
+            "Key": "never_resume_video",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Casting.plist",
+            "specifier_index": 4,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Casting:5",
+          "order": 5,
+          "title": "Route through phone",
+          "key": "route_through_phone",
+          "kind": "choice",
+          "type": "PSMultiValueSpecifier",
+          "group": "Casting Dialogs",
+          "default": {
+            "source": "plist",
+            "value": "ask",
+            "label": "Prompt"
+          },
+          "options": [
+            {
+              "label": "Prompt",
+              "value": "ask"
+            },
+            {
+              "label": "Always route",
+              "value": "always"
+            },
+            {
+              "label": "Never route",
+              "value": "never"
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSMultiValueSpecifier",
+            "Title": "route_through_phone_pref_title",
+            "Key": "route_through_phone",
+            "DefaultValue": "ask",
+            "Titles": [
+              "setting_convert_m3u8_always_prompt",
+              "route_through_phone_value_always",
+              "route_through_phone_value_never"
+            ],
+            "Values": [
+              "ask",
+              "always",
+              "never"
+            ]
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Casting.plist",
+            "specifier_index": 5,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Casting:6",
+          "order": 6,
+          "title": "Show video played dialog",
+          "key": "enable_played_dialog",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Casting Dialogs",
+          "default": {
+            "source": "plist",
+            "value": true,
+            "label": "On"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": "Shows a dialog a few seconds after a video was played asking if the video played correctly, allowing you to access help and submit the video for review.",
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "enable_played_dialog_pref_title",
+            "Key": "enable_played_dialog",
+            "DefaultValue": true
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Casting.plist",
+            "specifier_index": 6,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Casting:7",
+          "order": 7,
+          "title": "Prefer TV Application",
+          "key": "prefer_app",
+          "kind": "choice",
+          "type": "PSMultiValueSpecifier",
+          "group": "Casting Dialogs",
+          "default": {
+            "source": "plist",
+            "value": "0",
+            "label": "Prompt"
+          },
+          "options": [
+            {
+              "label": "Prompt",
+              "value": "0"
+            },
+            {
+              "label": "Always Prefer",
+              "value": "1"
+            },
+            {
+              "label": "Never Prefer",
+              "value": "2"
+            }
+          ],
+          "footer": null,
+          "description": "Select whether you want the app to always use the TV Receiver App over other methods such as DLNA.",
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSMultiValueSpecifier",
+            "Title": "setting_prefer_app",
+            "Key": "prefer_app",
+            "DefaultValue": "0",
+            "Values": [
+              "0",
+              "1",
+              "2"
+            ],
+            "Titles": [
+              "setting_prefer_app_prompt",
+              "setting_prefer_app_always",
+              "setting_prefer_app_never"
+            ]
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Casting.plist",
+            "specifier_index": 7,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Casting:8",
+          "order": 8,
+          "title": "Receiver Connection Prompt",
+          "key": "allow_wvcconnect",
+          "kind": "choice",
+          "type": "PSMultiValueSpecifier",
+          "group": "Casting Dialogs",
+          "default": {
+            "source": "plist",
+            "value": "prompt",
+            "label": "Prompt"
+          },
+          "options": [
+            {
+              "label": "Prompt",
+              "value": "prompt"
+            },
+            {
+              "label": "Always Accept",
+              "value": "always"
+            },
+            {
+              "label": "Always Decline",
+              "value": "never"
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSMultiValueSpecifier",
+            "Title": "setting_allow_wvcconnect",
+            "Key": "allow_wvcconnect",
+            "DefaultValue": "prompt",
+            "Values": [
+              "prompt",
+              "always",
+              "never"
+            ],
+            "Titles": [
+              "setting_allow_wvcconnect_prompt",
+              "setting_allow_wvcconnect_always",
+              "setting_allow_wvcconnect_never"
+            ]
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Casting.plist",
+            "specifier_index": 8,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Casting:9",
+          "order": 9,
+          "title": "Convert m3u8 videos to ts",
+          "key": "ts_video_convert_always",
+          "kind": "choice",
+          "type": "PSMultiValueSpecifier",
+          "group": "Casting Dialogs",
+          "default": {
+            "source": "plist",
+            "value": "0",
+            "label": "Prompt"
+          },
+          "options": [
+            {
+              "label": "Prompt",
+              "value": "0"
+            },
+            {
+              "label": "Always Convert",
+              "value": "1"
+            },
+            {
+              "label": "Never Convert",
+              "value": "2"
+            }
+          ],
+          "footer": null,
+          "description": "Always convert m3u8 videos to ts without prompting. This is recommended for most dlna streaming devices.",
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSMultiValueSpecifier",
+            "Title": "convert_m3u8_always_pref_title",
+            "Key": "ts_video_convert_always",
+            "DefaultValue": "0",
+            "Values": [
+              "0",
+              "1",
+              "2"
+            ],
+            "Titles": [
+              "setting_convert_m3u8_always_prompt",
+              "setting_convert_m3u8_always_always",
+              "setting_convert_m3u8_always_never"
+            ]
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Casting.plist",
+            "specifier_index": 9,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Casting:10",
+          "order": 10,
+          "title": "Media Control",
+          "key": null,
+          "kind": "group",
+          "type": "PSGroupSpecifier",
+          "group": "Media Control",
+          "default": {
+            "source": "not_applicable",
+            "value": null
+          },
+          "options": [],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSGroupSpecifier",
+            "Title": "while_casting_casting_pref_category"
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Casting.plist",
+            "specifier_index": 10,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Casting:11",
+          "order": 11,
+          "title": "Skip back seconds",
+          "key": "skip_back_seconds",
+          "kind": "choice",
+          "type": "PSMultiValueSpecifier",
+          "group": "Media Control",
+          "default": {
+            "source": "plist",
+            "value": "30",
+            "label": "30"
+          },
+          "options": [
+            {
+              "label": "5",
+              "value": "5"
+            },
+            {
+              "label": "15",
+              "value": "15"
+            },
+            {
+              "label": "30",
+              "value": "30"
+            },
+            {
+              "label": "60",
+              "value": "60"
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSMultiValueSpecifier",
+            "Title": "skip_back_seconds_settings_title",
+            "Key": "skip_back_seconds",
+            "DefaultValue": "30",
+            "Values": [
+              "5",
+              "15",
+              "30",
+              "60"
+            ],
+            "Titles": [
+              "5",
+              "15",
+              "30",
+              "60"
+            ]
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Casting.plist",
+            "specifier_index": 11,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Casting:12",
+          "order": 12,
+          "title": "Skip forward seconds",
+          "key": "skip_forward_seconds",
+          "kind": "choice",
+          "type": "PSMultiValueSpecifier",
+          "group": "Media Control",
+          "default": {
+            "source": "plist",
+            "value": "15",
+            "label": "15"
+          },
+          "options": [
+            {
+              "label": "5",
+              "value": "5"
+            },
+            {
+              "label": "15",
+              "value": "15"
+            },
+            {
+              "label": "30",
+              "value": "30"
+            },
+            {
+              "label": "60",
+              "value": "60"
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSMultiValueSpecifier",
+            "Title": "skip_forward_seconds_settings_title",
+            "Key": "skip_forward_seconds",
+            "DefaultValue": "15",
+            "Values": [
+              "5",
+              "15",
+              "30",
+              "60"
+            ],
+            "Titles": [
+              "5",
+              "15",
+              "30",
+              "60"
+            ]
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Casting.plist",
+            "specifier_index": 12,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Casting:13",
+          "order": 13,
+          "title": "Show Now Playing media controls on lock screen",
+          "key": "show_now_playing_controls",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Media Control",
+          "default": {
+            "source": "plist",
+            "value": true,
+            "label": "On"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "pref_show_now_playing_controls",
+            "Key": "show_now_playing_controls",
+            "DefaultValue": true
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Casting.plist",
+            "specifier_index": 13,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Casting:14",
+          "order": 14,
+          "title": "Prevent Screen Lock",
+          "key": "prevent_screen_lock",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Media Control",
+          "default": {
+            "source": "plist",
+            "value": true,
+            "label": "On"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": "Prevent device from sleeping while a video is being routed through it.",
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "pref_prevent_screen_lock_title",
+            "Key": "prevent_screen_lock",
+            "DefaultValue": true
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Casting.plist",
+            "specifier_index": 14,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Casting:15",
+          "order": 15,
+          "title": "Auto open playback control screen",
+          "key": "open_playback_control",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Media Control",
+          "default": {
+            "source": "plist",
+            "value": true,
+            "label": "On"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": "Open playback control screen as soon as the video starts playing on your TV.",
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "open_playback_control_pref_title",
+            "Key": "open_playback_control",
+            "DefaultValue": true
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Casting.plist",
+            "specifier_index": 15,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Casting:16",
+          "order": 16,
+          "title": "Disable volume buttons while casting",
+          "key": "disable_volume_buttons",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Media Control",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": "Volume buttons on the phone will not control the volume of your casted media. You must restart casting after changing this.",
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "disable_volume_buttons_title",
+            "Key": "disable_volume_buttons",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Casting.plist",
+            "specifier_index": 16,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Casting:17",
+          "order": 17,
+          "title": "Other Casting Options",
+          "key": null,
+          "kind": "group",
+          "type": "PSGroupSpecifier",
+          "group": "Other Casting Options",
+          "default": {
+            "source": "not_applicable",
+            "value": null
+          },
+          "options": [],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSGroupSpecifier",
+            "Title": "other_casting_pref_category"
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Casting.plist",
+            "specifier_index": 17,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Casting:18",
+          "order": 18,
+          "title": "Reconnect to streaming device",
+          "key": "reconnect_to_streaming_device",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Other Casting Options",
+          "default": {
+            "source": "plist",
+            "value": true,
+            "label": "On"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "pref_reconnect_to_streaming_device_title",
+            "Key": "reconnect_to_streaming_device",
+            "DefaultValue": true
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Casting.plist",
+            "specifier_index": 18,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Casting:19",
+          "order": 19,
+          "title": "Disable thumbnail extraction",
+          "key": "disable_thumbnails",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Other Casting Options",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": "Disables the extraction of thumbnails from videos because some content providers have limits on the number of connections",
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "disable_thumbnails_pref_title",
+            "Key": "disable_thumbnails",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Casting.plist",
+            "specifier_index": 19,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Casting:20",
+          "order": 20,
+          "title": "Chromecast Receiver Type",
+          "key": "chromecast_receiver_type",
+          "kind": "choice",
+          "type": "PSMultiValueSpecifier",
+          "group": "Other Casting Options",
+          "default": {
+            "source": "plist",
+            "value": "default",
+            "label": "Default"
+          },
+          "options": [
+            {
+              "label": "Default",
+              "value": "default"
+            },
+            {
+              "label": "Google's Recommended HLS Player",
+              "value": "shaka_hls"
+            },
+            {
+              "label": "HLS Chromecast Alternative",
+              "value": "hlsjs"
+            },
+            {
+              "label": "Google's Legacy HLS Player",
+              "value": "legacy_hls"
+            },
+            {
+              "label": "WVC's Experimental Receiver",
+              "value": "experimental"
+            },
+            {
+              "label": "Prefer Android TV receiver",
+              "value": "android_tv"
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Values": [
+              "default",
+              "shaka_hls",
+              "hlsjs",
+              "legacy_hls",
+              "experimental",
+              "android_tv"
+            ],
+            "Titles": [
+              "pref_chromecast_receiver_default",
+              "pref_chromecast_receiver_shaka_hls",
+              "pref_chromecast_receiver_hlsjs",
+              "pref_chromecast_receiver_legacy_hls",
+              "pref_chromecast_receiver_experimental",
+              "pref_chromecast_receiver_android_tv"
+            ],
+            "Type": "PSMultiValueSpecifier",
+            "Title": "pref_chromecast_receiver",
+            "Key": "chromecast_receiver_type",
+            "DefaultValue": "default"
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Casting.plist",
+            "specifier_index": 20,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Casting:21",
+          "order": 21,
+          "title": "Legacy Amazon Fire TV Casting",
+          "key": "alternate_cast_fire_tv",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Other Casting Options",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "setting_alternate_cast_fire_tv",
+            "Key": "alternate_cast_fire_tv",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Casting.plist",
+            "specifier_index": 21,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Casting:22",
+          "order": 22,
+          "title": "Accept AirPlay auto connect",
+          "key": "airplay_auto_connect",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Other Casting Options",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "setting_airplay_auto_connect",
+            "Key": "airplay_auto_connect",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Casting.plist",
+            "specifier_index": 22,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Casting:23",
+          "order": 23,
+          "title": "Web Receiver compatibility mode",
+          "key": "use_old_videojs",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Other Casting Options",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": "Some old browsers do not have some of the newer features of the web receiver. This will try to use features available on older receivers.",
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "use_old_videojs_pref_title",
+            "Key": "use_old_videojs",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Casting.plist",
+            "specifier_index": 23,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Casting:24",
+          "order": 24,
+          "title": "Internet Protocol Type",
+          "key": "ip_preference",
+          "kind": "choice",
+          "type": "PSMultiValueSpecifier",
+          "group": "Other Casting Options",
+          "default": {
+            "source": "plist",
+            "value": "preferIPv4",
+            "label": "Prefer IPv4"
+          },
+          "options": [
+            {
+              "label": "Prefer IPv4",
+              "value": "preferIPv4"
+            },
+            {
+              "label": "Prefer IPv6",
+              "value": "preferIPv6"
+            },
+            {
+              "label": "IPv4 Only",
+              "value": "ipv4Only"
+            },
+            {
+              "label": "IPv6 Only",
+              "value": "ipv6Only"
+            }
+          ],
+          "footer": null,
+          "description": "Selects the preferred IP protocol for receiver communication.",
+          "target_screen": null,
+          "raw_specifier": {
+            "Values": [
+              "preferIPv4",
+              "preferIPv6",
+              "ipv4Only",
+              "ipv6Only"
+            ],
+            "Titles": [
+              "pref_prefer_ipv4",
+              "pref_prefer_ipv6",
+              "pref_ipv4_only",
+              "pref_ipv6_only"
+            ],
+            "Type": "PSMultiValueSpecifier",
+            "Title": "pref_ip_preference",
+            "Key": "ip_preference",
+            "DefaultValue": "preferIPv4"
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Casting.plist",
+            "specifier_index": 24,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        }
+      ],
+      "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Casting.plist",
+      "path": "Settings > Casting",
+      "reachable_from_root": true
+    },
+    {
+      "id": "Downloads",
+      "variant": "base",
+      "items": [
+        {
+          "id": "Downloads:1",
+          "order": 1,
+          "title": "Downloads",
+          "key": null,
+          "kind": "group",
+          "type": "PSGroupSpecifier",
+          "group": "Downloads",
+          "default": {
+            "source": "not_applicable",
+            "value": null
+          },
+          "options": [],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSGroupSpecifier",
+            "Title": "setting_title_downloads"
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Downloads.plist",
+            "specifier_index": 1,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Downloads:2",
+          "order": 2,
+          "title": "Prompt for download location",
+          "key": "download_prompt_location",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Downloads",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "pref_download_prompt_location_title",
+            "Key": "download_prompt_location",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Downloads.plist",
+            "specifier_index": 2,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Downloads:3",
+          "order": 3,
+          "title": "Download only on wifi",
+          "key": "download_wifi",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Downloads",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "download_wifi_settings_title",
+            "Key": "download_wifi",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Downloads.plist",
+            "specifier_index": 3,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Downloads:4",
+          "order": 4,
+          "title": null,
+          "key": null,
+          "kind": "group",
+          "type": "PSGroupSpecifier",
+          "group": null,
+          "default": {
+            "source": "not_applicable",
+            "value": null
+          },
+          "options": [],
+          "footer": "When a video is downloaded from an HLS (M3U8) stream as a TS file, the system will automatically convert it back to HLS format when casting to devices that prefer that format.",
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSGroupSpecifier",
+            "FooterText": "pref_auto_convert_ts_downloads_description"
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Downloads.plist",
+            "specifier_index": 4,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Downloads:5",
+          "order": 5,
+          "title": "Convert downloaded TS files to HLS when casting",
+          "key": "auto_convert_ts_downloads",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": null,
+          "default": {
+            "source": "plist",
+            "value": true,
+            "label": "On"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "pref_auto_convert_ts_downloads_title",
+            "Key": "auto_convert_ts_downloads",
+            "DefaultValue": true
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Downloads.plist",
+            "specifier_index": 5,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        }
+      ],
+      "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Downloads.plist",
+      "path": "Settings > Downloads",
+      "reachable_from_root": true
+    },
+    {
+      "id": "Hidden",
+      "variant": "base",
+      "items": [
+        {
+          "id": "Hidden:1",
+          "order": 1,
+          "title": "Cast Device Debug",
+          "key": null,
+          "kind": "group",
+          "type": "PSGroupSpecifier",
+          "group": "Cast Device Debug",
+          "default": {
+            "source": "not_applicable",
+            "value": null
+          },
+          "options": [],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSGroupSpecifier",
+            "Title": "setting_cast_device_debug"
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Hidden.plist",
+            "specifier_index": 1,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Hidden:2",
+          "order": 2,
+          "title": "On-Screen Console",
+          "key": "on_screen_console",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Cast Device Debug",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "setting_on_screen_console",
+            "Key": "on_screen_console",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Hidden.plist",
+            "specifier_index": 2,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Hidden:3",
+          "order": 3,
+          "title": "On-Screen Line Limit",
+          "key": "on_screen_line_limit",
+          "kind": "input",
+          "type": "PSTextFieldSpecifier",
+          "group": "Cast Device Debug",
+          "default": {
+            "source": "plist",
+            "value": 100
+          },
+          "options": [],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSTextFieldSpecifier",
+            "Title": "setting_on_screen_line_limit",
+            "Key": "on_screen_line_limit",
+            "DefaultValue": 100,
+            "KeyboardType": "NumberPad"
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Hidden.plist",
+            "specifier_index": 3,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Hidden:4",
+          "order": 4,
+          "title": "Debug Level",
+          "key": "on_screen_debug_level",
+          "kind": "choice",
+          "type": "PSMultiValueSpecifier",
+          "group": "Cast Device Debug",
+          "default": {
+            "source": "plist",
+            "value": 0,
+            "label": "Debug"
+          },
+          "options": [
+            {
+              "label": "Debug",
+              "value": 0
+            },
+            {
+              "label": "Info",
+              "value": 1
+            },
+            {
+              "label": "Warning",
+              "value": 2
+            },
+            {
+              "label": "Error",
+              "value": 3
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSMultiValueSpecifier",
+            "Title": "setting_debug_level",
+            "Key": "on_screen_debug_level",
+            "DefaultValue": 0,
+            "Values": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "Titles": [
+              "setting_debug_level_debug",
+              "setting_debug_level_info",
+              "setting_debug_level_warning",
+              "setting_debug_level_error"
+            ]
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Hidden.plist",
+            "specifier_index": 4,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Hidden:5",
+          "order": 5,
+          "title": "Use hlsjs",
+          "key": "debug_use_hlsjs",
+          "kind": "choice",
+          "type": "PSMultiValueSpecifier",
+          "group": "Cast Device Debug",
+          "default": {
+            "source": "plist",
+            "value": "default",
+            "label": "Default"
+          },
+          "options": [
+            {
+              "label": "Default",
+              "value": "default"
+            },
+            {
+              "label": "Always",
+              "value": "always"
+            },
+            {
+              "label": "Never",
+              "value": "never"
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSMultiValueSpecifier",
+            "Title": "setting_use_hlsjs",
+            "Key": "debug_use_hlsjs",
+            "DefaultValue": "default",
+            "Values": [
+              "default",
+              "always",
+              "never"
+            ],
+            "Titles": [
+              "setting_use_hlsjs_default",
+              "setting_use_hlsjs_always",
+              "setting_use_hlsjs_never"
+            ]
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Hidden.plist",
+            "specifier_index": 5,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Hidden:6",
+          "order": 6,
+          "title": "In-App Player",
+          "key": null,
+          "kind": "group",
+          "type": "PSGroupSpecifier",
+          "group": "In-App Player",
+          "default": {
+            "source": "not_applicable",
+            "value": null
+          },
+          "options": [],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSGroupSpecifier",
+            "Title": "setting_in_app_player"
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Hidden.plist",
+            "specifier_index": 6,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Hidden:7",
+          "order": 7,
+          "title": "Show Share Menu",
+          "key": "in_app_share_menu",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "In-App Player",
+          "default": {
+            "source": "plist",
+            "value": true,
+            "label": "On"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "setting_show_share_menu",
+            "Key": "in_app_share_menu",
+            "DefaultValue": true
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Hidden.plist",
+            "specifier_index": 7,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Hidden:8",
+          "order": 8,
+          "title": "Browser",
+          "key": null,
+          "kind": "group",
+          "type": "PSGroupSpecifier",
+          "group": "Browser",
+          "default": {
+            "source": "not_applicable",
+            "value": null
+          },
+          "options": [],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSGroupSpecifier",
+            "Title": "setting_browser"
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Hidden.plist",
+            "specifier_index": 8,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Hidden:9",
+          "order": 9,
+          "title": "Inject video detection Javascript",
+          "key": "inject_javascript",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Browser",
+          "default": {
+            "source": "plist",
+            "value": true,
+            "label": "On"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "setting_inject_javascript",
+            "Key": "inject_javascript",
+            "DefaultValue": true
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Hidden.plist",
+            "specifier_index": 9,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Hidden:10",
+          "order": 10,
+          "title": "Block redirect in iFrames",
+          "key": "block_redirect_in_iframes",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Browser",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "Block redirect in iFrames",
+            "Key": "block_redirect_in_iframes",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Hidden.plist",
+            "specifier_index": 10,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Hidden:11",
+          "order": 11,
+          "title": "Block Console Detection",
+          "key": "block_console_detection",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Browser",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "Block Console Detection",
+            "Key": "block_console_detection",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Hidden.plist",
+            "specifier_index": 11,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Hidden:12",
+          "order": 12,
+          "title": "Dialogs",
+          "key": null,
+          "kind": "group",
+          "type": "PSGroupSpecifier",
+          "group": "Dialogs",
+          "default": {
+            "source": "not_applicable",
+            "value": null
+          },
+          "options": [],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSGroupSpecifier",
+            "Title": "Dialogs"
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Hidden.plist",
+            "specifier_index": 12,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Hidden:13",
+          "order": 13,
+          "title": "Always Have Download Permission",
+          "key": "always_have_download_permission",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Dialogs",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "Always Have Download Permission",
+            "Key": "always_have_download_permission",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Hidden.plist",
+            "specifier_index": 13,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Hidden:14",
+          "order": 14,
+          "title": "Onboard Complete",
+          "key": "onboard_complete",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Dialogs",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "Onboard Complete",
+            "Key": "onboard_complete",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Hidden.plist",
+            "specifier_index": 14,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Hidden:15",
+          "order": 15,
+          "title": "Reset Rate Us",
+          "key": "reset_rate_us",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Dialogs",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "Reset Rate Us",
+            "Key": "reset_rate_us",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Hidden.plist",
+            "specifier_index": 15,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Hidden:16",
+          "order": 16,
+          "title": "Reset Consent Dialog",
+          "key": "reset_consent_dialog",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Dialogs",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "Reset Consent Dialog",
+            "Key": "reset_consent_dialog",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Hidden.plist",
+            "specifier_index": 16,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Hidden:17",
+          "order": 17,
+          "title": "Misc",
+          "key": null,
+          "kind": "group",
+          "type": "PSGroupSpecifier",
+          "group": "Misc",
+          "default": {
+            "source": "not_applicable",
+            "value": null
+          },
+          "options": [],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSGroupSpecifier",
+            "Title": "Misc"
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Hidden.plist",
+            "specifier_index": 17,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Hidden:18",
+          "order": 18,
+          "title": "Allow erasing of all settings",
+          "key": "allow_erase_all_settings",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Misc",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "Allow erasing of all settings",
+            "Key": "allow_erase_all_settings",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Hidden.plist",
+            "specifier_index": 18,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        }
+      ],
+      "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Hidden.plist",
+      "path": "Unlinked packaged pane > Hidden",
+      "reachable_from_root": false
+    },
+    {
+      "id": "InAppPlayer",
+      "variant": "base",
+      "items": [
+        {
+          "id": "InAppPlayer:1",
+          "order": 1,
+          "title": "In-App Player",
+          "key": null,
+          "kind": "group",
+          "type": "PSGroupSpecifier",
+          "group": "In-App Player",
+          "default": {
+            "source": "not_applicable",
+            "value": null
+          },
+          "options": [],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSGroupSpecifier",
+            "Title": "setting_in_app_player"
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/InAppPlayer.plist",
+            "specifier_index": 1,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "InAppPlayer:2",
+          "order": 2,
+          "title": "Player Rotation",
+          "key": "rotation_setting",
+          "kind": "choice",
+          "type": "PSMultiValueSpecifier",
+          "group": "In-App Player",
+          "default": {
+            "source": "plist",
+            "value": "match_video",
+            "label": "Match Video Size"
+          },
+          "options": [
+            {
+              "label": "Match Phone Position",
+              "value": "follow_phone"
+            },
+            {
+              "label": "Match Video Size",
+              "value": "match_video"
+            },
+            {
+              "label": "Always Landscape",
+              "value": "always_landscape_right"
+            },
+            {
+              "label": "Always Portrait",
+              "value": "always_portrait"
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSMultiValueSpecifier",
+            "Title": "setting_rotation_setting",
+            "Key": "rotation_setting",
+            "DefaultValue": "match_video",
+            "Values": [
+              "follow_phone",
+              "match_video",
+              "always_landscape_right",
+              "always_portrait"
+            ],
+            "Titles": [
+              "setting_follow_phone",
+              "setting_match_video",
+              "setting_always_landscape_right",
+              "setting_always_portrait"
+            ]
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/InAppPlayer.plist",
+            "specifier_index": 2,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "InAppPlayer:3",
+          "order": 3,
+          "title": "Video Renderer",
+          "key": "in_app_renderer",
+          "kind": "choice",
+          "type": "PSMultiValueSpecifier",
+          "group": "In-App Player",
+          "default": {
+            "source": "plist",
+            "value": "auto",
+            "label": "Best for video type"
+          },
+          "options": [
+            {
+              "label": "Best for video type",
+              "value": "auto"
+            },
+            {
+              "label": "Apple AVPlayer",
+              "value": "avplayer"
+            },
+            {
+              "label": "VLCKit",
+              "value": "vlckit"
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSMultiValueSpecifier",
+            "Title": "setting_in_app_renderer",
+            "Key": "in_app_renderer",
+            "DefaultValue": "auto",
+            "Values": [
+              "auto",
+              "avplayer",
+              "vlckit"
+            ],
+            "Titles": [
+              "setting_in_app_renderer_auto",
+              "setting_in_app_renderer_avplayer",
+              "setting_in_app_renderer_vlckit"
+            ]
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/InAppPlayer.plist",
+            "specifier_index": 3,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "InAppPlayer:4",
+          "order": 4,
+          "title": "Always repeat video",
+          "key": "in_app_repeat",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "In-App Player",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "setting_in_app_repeat",
+            "Key": "in_app_repeat",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/InAppPlayer.plist",
+            "specifier_index": 4,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "InAppPlayer:5",
+          "order": 5,
+          "title": "Always mute video",
+          "key": "in_app_mute",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "In-App Player",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "setting_in_app_mute",
+            "Key": "in_app_mute",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/InAppPlayer.plist",
+            "specifier_index": 5,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "InAppPlayer:6",
+          "order": 6,
+          "title": "Gestures",
+          "key": null,
+          "kind": "group",
+          "type": "PSGroupSpecifier",
+          "group": "Gestures",
+          "default": {
+            "source": "not_applicable",
+            "value": null
+          },
+          "options": [],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSGroupSpecifier",
+            "Title": "setting_in_app_gestures"
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/InAppPlayer.plist",
+            "specifier_index": 6,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "InAppPlayer:7",
+          "order": 7,
+          "title": "Left side swipe up or down to adjust brightness",
+          "key": "in_app_brightness_gesture",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Gestures",
+          "default": {
+            "source": "plist",
+            "value": true,
+            "label": "On"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "setting_in_app_brightness_gesture",
+            "Key": "in_app_brightness_gesture",
+            "DefaultValue": true
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/InAppPlayer.plist",
+            "specifier_index": 7,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "InAppPlayer:8",
+          "order": 8,
+          "title": "Right side swipe up or down to adjust volume",
+          "key": "in_app_volume_gesture",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Gestures",
+          "default": {
+            "source": "plist",
+            "value": true,
+            "label": "On"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "setting_in_app_volume_gesture",
+            "Key": "in_app_volume_gesture",
+            "DefaultValue": true
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/InAppPlayer.plist",
+            "specifier_index": 8,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "InAppPlayer:9",
+          "order": 9,
+          "title": "Swipe left or right to skip forward or backward",
+          "key": "in_app_skip_gesture",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Gestures",
+          "default": {
+            "source": "plist",
+            "value": true,
+            "label": "On"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "setting_in_app_skip_gesture",
+            "Key": "in_app_skip_gesture",
+            "DefaultValue": true
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/InAppPlayer.plist",
+            "specifier_index": 9,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "InAppPlayer:10",
+          "order": 10,
+          "title": "Double tap to pause or skip forward or backward",
+          "key": "in_app_skip_tap_gesture",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Gestures",
+          "default": {
+            "source": "plist",
+            "value": true,
+            "label": "On"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "setting_in_app_skip_tap_gesture",
+            "Key": "in_app_skip_tap_gesture",
+            "DefaultValue": true
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/InAppPlayer.plist",
+            "specifier_index": 10,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        }
+      ],
+      "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/InAppPlayer.plist",
+      "path": "Settings > In-App Player",
+      "reachable_from_root": true
+    },
+    {
+      "id": "InAppPlayer~ipad",
+      "variant": "ipad",
+      "items": [
+        {
+          "id": "InAppPlayer~ipad:1",
+          "order": 1,
+          "title": "In-App Player",
+          "key": null,
+          "kind": "group",
+          "type": "PSGroupSpecifier",
+          "group": "In-App Player",
+          "default": {
+            "source": "not_applicable",
+            "value": null
+          },
+          "options": [],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSGroupSpecifier",
+            "Title": "setting_in_app_player"
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/InAppPlayer~ipad.plist",
+            "specifier_index": 1,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "InAppPlayer~ipad:2",
+          "order": 2,
+          "title": "Video Renderer",
+          "key": "in_app_renderer",
+          "kind": "choice",
+          "type": "PSMultiValueSpecifier",
+          "group": "In-App Player",
+          "default": {
+            "source": "plist",
+            "value": "auto",
+            "label": "Best for video type"
+          },
+          "options": [
+            {
+              "label": "Best for video type",
+              "value": "auto"
+            },
+            {
+              "label": "Apple AVPlayer",
+              "value": "avplayer"
+            },
+            {
+              "label": "VLCKit",
+              "value": "vlckit"
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSMultiValueSpecifier",
+            "Title": "setting_in_app_renderer",
+            "Key": "in_app_renderer",
+            "DefaultValue": "auto",
+            "Values": [
+              "auto",
+              "avplayer",
+              "vlckit"
+            ],
+            "Titles": [
+              "setting_in_app_renderer_auto",
+              "setting_in_app_renderer_avplayer",
+              "setting_in_app_renderer_vlckit"
+            ]
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/InAppPlayer~ipad.plist",
+            "specifier_index": 2,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "InAppPlayer~ipad:3",
+          "order": 3,
+          "title": "Always repeat video",
+          "key": "in_app_repeat",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "In-App Player",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "setting_in_app_repeat",
+            "Key": "in_app_repeat",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/InAppPlayer~ipad.plist",
+            "specifier_index": 3,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "InAppPlayer~ipad:4",
+          "order": 4,
+          "title": "Always mute video",
+          "key": "in_app_mute",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "In-App Player",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "setting_in_app_mute",
+            "Key": "in_app_mute",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/InAppPlayer~ipad.plist",
+            "specifier_index": 4,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "InAppPlayer~ipad:5",
+          "order": 5,
+          "title": "Gestures",
+          "key": null,
+          "kind": "group",
+          "type": "PSGroupSpecifier",
+          "group": "Gestures",
+          "default": {
+            "source": "not_applicable",
+            "value": null
+          },
+          "options": [],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSGroupSpecifier",
+            "Title": "setting_in_app_gestures"
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/InAppPlayer~ipad.plist",
+            "specifier_index": 5,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "InAppPlayer~ipad:6",
+          "order": 6,
+          "title": "Left side swipe up or down to adjust brightness",
+          "key": "in_app_brightness_gesture",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Gestures",
+          "default": {
+            "source": "plist",
+            "value": true,
+            "label": "On"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "setting_in_app_brightness_gesture",
+            "Key": "in_app_brightness_gesture",
+            "DefaultValue": true
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/InAppPlayer~ipad.plist",
+            "specifier_index": 6,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "InAppPlayer~ipad:7",
+          "order": 7,
+          "title": "Right side swipe up or down to adjust volume",
+          "key": "in_app_volume_gesture",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Gestures",
+          "default": {
+            "source": "plist",
+            "value": true,
+            "label": "On"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "setting_in_app_volume_gesture",
+            "Key": "in_app_volume_gesture",
+            "DefaultValue": true
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/InAppPlayer~ipad.plist",
+            "specifier_index": 7,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "InAppPlayer~ipad:8",
+          "order": 8,
+          "title": "Swipe left or right to skip forward or backward",
+          "key": "in_app_skip_gesture",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Gestures",
+          "default": {
+            "source": "plist",
+            "value": true,
+            "label": "On"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "setting_in_app_skip_gesture",
+            "Key": "in_app_skip_gesture",
+            "DefaultValue": true
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/InAppPlayer~ipad.plist",
+            "specifier_index": 8,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "InAppPlayer~ipad:9",
+          "order": 9,
+          "title": "Double tap to pause or skip forward or backward",
+          "key": "in_app_skip_tap_gesture",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Gestures",
+          "default": {
+            "source": "plist",
+            "value": true,
+            "label": "On"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "setting_in_app_skip_tap_gesture",
+            "Key": "in_app_skip_tap_gesture",
+            "DefaultValue": true
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/InAppPlayer~ipad.plist",
+            "specifier_index": 9,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        }
+      ],
+      "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/InAppPlayer~ipad.plist",
+      "path": "Settings > In-App Player (iPad variant)",
+      "reachable_from_root": true
+    },
+    {
+      "id": "Personalization",
+      "variant": "base",
+      "items": [
+        {
+          "id": "Personalization:1",
+          "order": 1,
+          "title": "Personalization",
+          "key": null,
+          "kind": "group",
+          "type": "PSGroupSpecifier",
+          "group": "Personalization",
+          "default": {
+            "source": "not_applicable",
+            "value": null
+          },
+          "options": [],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSGroupSpecifier",
+            "Title": "setting_title_personalization"
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Personalization.plist",
+            "specifier_index": 1,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Personalization:2",
+          "order": 2,
+          "title": "Dark/Light mode",
+          "key": "dark_mode",
+          "kind": "choice",
+          "type": "PSMultiValueSpecifier",
+          "group": "Personalization",
+          "default": {
+            "source": "plist",
+            "value": 0,
+            "label": "System setting"
+          },
+          "options": [
+            {
+              "label": "System setting",
+              "value": 0
+            },
+            {
+              "label": "Light mode",
+              "value": 1
+            },
+            {
+              "label": "Dark mode",
+              "value": 2
+            }
+          ],
+          "footer": null,
+          "description": "Select whether the app follows the system settings, or is on light mode, or dark mode.",
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSMultiValueSpecifier",
+            "Title": "pref_dark_mode_title",
+            "Key": "dark_mode",
+            "DefaultValue": 0,
+            "Values": [
+              0,
+              1,
+              2
+            ],
+            "Titles": [
+              "dark_mode_system_setting",
+              "dark_mode_light",
+              "dark_mode_dark"
+            ]
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Personalization.plist",
+            "specifier_index": 2,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        }
+      ],
+      "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Personalization.plist",
+      "path": "Settings > Personalization",
+      "reachable_from_root": true
+    },
+    {
+      "id": "Privacy",
+      "variant": "base",
+      "items": [
+        {
+          "id": "Privacy:1",
+          "order": 1,
+          "title": "Privacy",
+          "key": null,
+          "kind": "group",
+          "type": "PSGroupSpecifier",
+          "group": "Privacy",
+          "default": {
+            "source": "not_applicable",
+            "value": null
+          },
+          "options": [],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSGroupSpecifier",
+            "Title": "setting_title_privacy"
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Privacy.plist",
+            "specifier_index": 1,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Privacy:2",
+          "order": 2,
+          "title": "Disable error and crash reporting",
+          "key": "disable_error_reporting",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Privacy",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "disable_error_reporting_settings_title",
+            "Key": "disable_error_reporting",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Privacy.plist",
+            "specifier_index": 2,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Privacy:3",
+          "order": 3,
+          "title": "Disable anonymous domain reporting",
+          "key": "video_domain_reporting",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Privacy",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "video_domain_reporting_settings_title",
+            "Key": "video_domain_reporting",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Privacy.plist",
+            "specifier_index": 3,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Privacy:4",
+          "order": 4,
+          "title": "Reset privacy settings",
+          "key": "delete_analytics_data",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Privacy",
+          "default": {
+            "source": "plist",
+            "value": false,
+            "label": "Off"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": "Clears all prior selections for age, analytics, GDPR, app instance id, etc.",
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "delete_analytics_data_title",
+            "Key": "delete_analytics_data",
+            "DefaultValue": false
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Privacy.plist",
+            "specifier_index": 4,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        }
+      ],
+      "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Privacy.plist",
+      "path": "Settings > Privacy",
+      "reachable_from_root": true
+    },
+    {
+      "id": "Root",
+      "variant": "base",
+      "items": [
+        {
+          "id": "Root:1",
+          "order": 1,
+          "title": "Browser",
+          "key": null,
+          "kind": "submenu",
+          "type": "PSChildPaneSpecifier",
+          "group": null,
+          "default": {
+            "source": "not_applicable",
+            "value": null
+          },
+          "options": [],
+          "footer": null,
+          "description": null,
+          "target_screen": "Browser",
+          "raw_specifier": {
+            "Type": "PSChildPaneSpecifier",
+            "Title": "setting_title_browser",
+            "File": "Browser"
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Root.plist",
+            "specifier_index": 1,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Root:2",
+          "order": 2,
+          "title": "Casting",
+          "key": null,
+          "kind": "submenu",
+          "type": "PSChildPaneSpecifier",
+          "group": null,
+          "default": {
+            "source": "not_applicable",
+            "value": null
+          },
+          "options": [],
+          "footer": null,
+          "description": null,
+          "target_screen": "Casting",
+          "raw_specifier": {
+            "Type": "PSChildPaneSpecifier",
+            "Title": "setting_title_video_playback",
+            "File": "Casting"
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Root.plist",
+            "specifier_index": 2,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Root:3",
+          "order": 3,
+          "title": "Video detection",
+          "key": null,
+          "kind": "submenu",
+          "type": "PSChildPaneSpecifier",
+          "group": null,
+          "default": {
+            "source": "not_applicable",
+            "value": null
+          },
+          "options": [],
+          "footer": null,
+          "description": null,
+          "target_screen": "VideoDetection",
+          "raw_specifier": {
+            "Type": "PSChildPaneSpecifier",
+            "Title": "setting_title_video_discovery",
+            "File": "VideoDetection"
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Root.plist",
+            "specifier_index": 3,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Root:4",
+          "order": 4,
+          "title": "In-App Player",
+          "key": null,
+          "kind": "submenu",
+          "type": "PSChildPaneSpecifier",
+          "group": null,
+          "default": {
+            "source": "not_applicable",
+            "value": null
+          },
+          "options": [],
+          "footer": null,
+          "description": null,
+          "target_screen": "InAppPlayer",
+          "raw_specifier": {
+            "Type": "PSChildPaneSpecifier",
+            "Title": "setting_in_app_player",
+            "File": "InAppPlayer"
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Root.plist",
+            "specifier_index": 4,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Root:5",
+          "order": 5,
+          "title": "Downloads",
+          "key": null,
+          "kind": "submenu",
+          "type": "PSChildPaneSpecifier",
+          "group": null,
+          "default": {
+            "source": "not_applicable",
+            "value": null
+          },
+          "options": [],
+          "footer": null,
+          "description": null,
+          "target_screen": "Downloads",
+          "raw_specifier": {
+            "Type": "PSChildPaneSpecifier",
+            "Title": "setting_title_downloads",
+            "File": "Downloads"
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Root.plist",
+            "specifier_index": 5,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Root:6",
+          "order": 6,
+          "title": "Personalization",
+          "key": null,
+          "kind": "submenu",
+          "type": "PSChildPaneSpecifier",
+          "group": null,
+          "default": {
+            "source": "not_applicable",
+            "value": null
+          },
+          "options": [],
+          "footer": null,
+          "description": null,
+          "target_screen": "Personalization",
+          "raw_specifier": {
+            "Type": "PSChildPaneSpecifier",
+            "Title": "setting_title_personalization",
+            "File": "Personalization"
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Root.plist",
+            "specifier_index": 6,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Root:7",
+          "order": 7,
+          "title": "Privacy",
+          "key": null,
+          "kind": "submenu",
+          "type": "PSChildPaneSpecifier",
+          "group": null,
+          "default": {
+            "source": "not_applicable",
+            "value": null
+          },
+          "options": [],
+          "footer": null,
+          "description": null,
+          "target_screen": "Privacy",
+          "raw_specifier": {
+            "Type": "PSChildPaneSpecifier",
+            "Title": "setting_title_privacy",
+            "File": "Privacy"
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Root.plist",
+            "specifier_index": 7,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "Root:8",
+          "order": 8,
+          "title": "Advanced",
+          "key": null,
+          "kind": "submenu",
+          "type": "PSChildPaneSpecifier",
+          "group": null,
+          "default": {
+            "source": "not_applicable",
+            "value": null
+          },
+          "options": [],
+          "footer": null,
+          "description": null,
+          "target_screen": "Advanced",
+          "raw_specifier": {
+            "Type": "PSChildPaneSpecifier",
+            "Title": "setting_title_advanced",
+            "File": "Advanced"
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Root.plist",
+            "specifier_index": 8,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        }
+      ],
+      "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Root.plist",
+      "path": "Settings",
+      "reachable_from_root": true
+    },
+    {
+      "id": "VideoDetection",
+      "variant": "base",
+      "items": [
+        {
+          "id": "VideoDetection:1",
+          "order": 1,
+          "title": "Video detection",
+          "key": null,
+          "kind": "group",
+          "type": "PSGroupSpecifier",
+          "group": "Video detection",
+          "default": {
+            "source": "not_applicable",
+            "value": null
+          },
+          "options": [],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSGroupSpecifier",
+            "Title": "setting_title_video_discovery"
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/VideoDetection.plist",
+            "specifier_index": 1,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "VideoDetection:2",
+          "order": 2,
+          "title": "Auto play video or show list",
+          "key": "auto_video_list",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Video detection",
+          "default": {
+            "source": "plist",
+            "value": true,
+            "label": "On"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": "Attempts to play the video or loads the video list as soon as some types of videos are detected.",
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "auto_video_list_title",
+            "Key": "auto_video_list",
+            "DefaultValue": true
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/VideoDetection.plist",
+            "specifier_index": 2,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "VideoDetection:3",
+          "order": 3,
+          "title": "Hide m3u8 with no audio",
+          "key": "hide_m3u8_no_audio",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Video detection",
+          "default": {
+            "source": "plist",
+            "value": true,
+            "label": "On"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": "For adaptive m3u8 videos, the individual videos for each resolution will be hidden in the video list if the app believes they don't have audio.",
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "hide_m3u8_no_audio_pref_title",
+            "Key": "hide_m3u8_no_audio",
+            "DefaultValue": true
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/VideoDetection.plist",
+            "specifier_index": 3,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "VideoDetection:4",
+          "order": 4,
+          "title": "Video count badge",
+          "key": "videos_detected_badge",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Video detection",
+          "default": {
+            "source": "plist",
+            "value": true,
+            "label": "On"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "setting_videos_detected_badge",
+            "Key": "videos_detected_badge",
+            "DefaultValue": true
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/VideoDetection.plist",
+            "specifier_index": 4,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "VideoDetection:5",
+          "order": 5,
+          "title": "Video detection 1",
+          "key": "xhr_override",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Video detection",
+          "default": {
+            "source": "plist",
+            "value": true,
+            "label": "On"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "video_detection_1_title",
+            "Key": "xhr_override",
+            "DefaultValue": true
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/VideoDetection.plist",
+            "specifier_index": 5,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "VideoDetection:6",
+          "order": 6,
+          "title": "Advanced video detection",
+          "key": "shadow_override",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Video detection",
+          "default": {
+            "source": "plist",
+            "value": true,
+            "label": "On"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": "Detects videos that might be a bit harder to detect by other simpler methods. Disable this if browsing is slow.",
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "video_detection_2_title",
+            "Key": "shadow_override",
+            "DefaultValue": true
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/VideoDetection.plist",
+            "specifier_index": 6,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        },
+        {
+          "id": "VideoDetection:7",
+          "order": 7,
+          "title": "Long press option to cast on images and videos",
+          "key": "video_long_press",
+          "kind": "toggle",
+          "type": "PSToggleSwitchSpecifier",
+          "group": "Video detection",
+          "default": {
+            "source": "plist",
+            "value": true,
+            "label": "On"
+          },
+          "options": [
+            {
+              "label": "Off",
+              "value": false
+            },
+            {
+              "label": "On",
+              "value": true
+            }
+          ],
+          "footer": null,
+          "description": null,
+          "target_screen": null,
+          "raw_specifier": {
+            "Type": "PSToggleSwitchSpecifier",
+            "Title": "setting_video_long_press",
+            "Key": "video_long_press",
+            "DefaultValue": true
+          },
+          "evidence": {
+            "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/VideoDetection.plist",
+            "specifier_index": 7,
+            "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+          }
+        }
+      ],
+      "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/VideoDetection.plist",
+      "path": "Settings > Video detection",
+      "reachable_from_root": true
+    }
+  ],
+  "limitations": [
+    "Main executable encrypted (cryptid=1); runtime registration, premium gates, hidden-pane access and native override logic are not recovered.",
+    "Root-reachable means linked in packaged Root.plist, not proof shown in app or system Settings on device.",
+    "Android 6.0.3 versus iOS 3.5 are different release lines; unmapped settings do not prove missing functionality."
+  ]
+}

@@ -1,0 +1,64 @@
+    .line 59
+    .line 60
+    sget-object v2, Lfv4;->a:Lm60;
+
+    .line 61
+    .line 62
+    invoke-virtual {v1, v2}, Llt1;->d(Lm60;)Ljava/lang/Object;
+
+    .line 63
+    .line 64
+    .line 65
+    move-result-object v1
+
+    .line 66
+    check-cast v1, Ljava/lang/Integer;
+
+    .line 67
+    .line 68
+    const/16 v2, 0x14
+
+    .line 69
+    .line 70
+    iget-object v7, p0, Lsv4;->v:Ltv4;
+
+    .line 71
+    .line 72
+    if-eqz v1, :cond_4
+
+    .line 73
+    .line 74
+    invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
+
+    .line 75
+    .line 76
+    .line 77
+    move-result v8
+
+    .line 78
+    invoke-virtual {v7}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 79
+    .line 80
+    .line 81
+    if-lt v8, v2, :cond_4
+
+    .line 82
+    .line 83
+    invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
+
+    .line 84
+    .line 85
+    .line 86
+    move-result v2
+
+    .line 87
+    const v8, 0x7fffffff
+
+    .line 88
+    .line 89
+    .line 90
+    if-ge v2, v8, :cond_3
+
+    .line 91
+    .line 92

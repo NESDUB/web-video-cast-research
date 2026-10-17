@@ -1,0 +1,64 @@
+        Iterator r110 = r4.entrySet().iterator();
+    L37:
+        if (r110.hasNext() == false) goto L43;
+        Map.Entry r6 = (Map.Entry) r110.next();
+        g0d r20 = (g0d) r6.getValue();
+        r0.append("\n::cue(v[voice=\"");
+        r0.append((String) r6.getKey());
+        r0.append("\"]) {");
+        if (r20.h == 0) goto L41;
+        r0.append(" color: ");
+        r0.append(d(r20.h));
+        r0.append(";");
+    L41:
+        r0.append(" }");
+    L43:
+        return r0.toString();
+    }
+
+    public final void g(BufferedWriter r17, long r18, int r20, boolean r21) {
+        long r5 = 1000 * r18;
+        r17.write("WEBVTT");     // Catch: Throwable -> L7
+        r17.write("\r\n");     // Catch: Throwable -> L7
+        r17.write("\r\n");     // Catch: Throwable -> L7
+        if (r20 < 0) goto L10;
+        r17.write("NOTE WVC-APPLIED-LINE:" + r20);     // Catch: Throwable -> L7
+        r17.write("\r\n");     // Catch: Throwable -> L7
+        r17.write("\r\n");     // Catch: Throwable -> L7
+    L10:
+        if (r21 == false) goto L20;
+        List r7 = this.d;     // Catch: Throwable -> L7
+        if (r7 == null) goto L20;
+        if (r7.isEmpty() == true) goto L20;
+        Iterator r8 = this.d.iterator();     // Catch: Throwable -> L7
+    L17:
+        if (r8.hasNext() == false) goto L20;
+        String r9 = (String) r8.next();     // Catch: Throwable -> L7
+        r17.write("STYLE");     // Catch: Throwable -> L7
+        r17.write("\r\n");     // Catch: Throwable -> L7
+        r17.write(r9);     // Catch: Throwable -> L7
+        r17.write("\r\n");     // Catch: Throwable -> L7
+        r17.write("\r\n");     // Catch: Throwable -> L7
+    L20:
+        int r10 = 0;
+        ArrayList r11 = this.a;
+        if (r21 == false) goto L33;
+        int r12 = r11.size();     // Catch: Throwable -> L7
+        int r13 = 0;
+    L23:
+        if (r13 >= r12) goto L33;
+        Object r14 = r11.get(r13);     // Catch: Throwable -> L7
+        r13 = r13 + 1;     // Catch: Throwable -> L7
+        g0d r15 = (g0d) r14;     // Catch: Throwable -> L7
+        if (r15.h != 0) goto L32;
+        if (r15.j != 0) goto L32;
+        if (r15.k != 0) goto L32;
+        if (r15.f == null) goto L23;
+    L32:
+        r17.write("STYLE");     // Catch: Throwable -> L7
+        r17.write("\r\n");     // Catch: Throwable -> L7
+        r17.write(e());     // Catch: Throwable -> L7
+        r17.write("\r\n");     // Catch: Throwable -> L7
+        r17.write("\r\n");     // Catch: Throwable -> L7
+    L33:
+        int r0 = r11.size();     // Catch: Throwable -> L7

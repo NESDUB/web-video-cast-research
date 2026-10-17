@@ -1,0 +1,64 @@
+        xgb.o(r9, r0, null);     // Catch: Throwable -> L14
+        sr2 r1 = j13.a;     // Catch: Throwable -> L14
+        ll4.y(oc9.e(aq2.c), null, null, new lp8(r9, this, null, 12), 3);     // Catch: Throwable -> L14
+        goto L12
+    L7:
+        if (r11.equals(r9) == false) goto L8;
+    L12:
+        m(r8, r9, "doUpdateVisitedHistory");     // Catch: Throwable -> L14
+        return;
+    L14:
+        th = move-exception;
+        Log.w(tdb.a(), th);
+        n00.m(th);
+        bg1 r13 = new bg1(th, 21);
+        o8c.g().post(r13);
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    public final void e() {
+        vgb r0 = n08.a;
+        wzc r1 = this.a;
+        Object r2 = r1.c.getTag();
+        if (r2 == null) goto L5;
+        qmc r3 = qmc.g;
+        r3.getClass();
+        o8c.o(new nmc(r3, (omc) r2, 0));
+    L5:
+        o();
+        vgb r5 = yxc.a;
+        yxc.b.clear();
+        ihb.a();
+        r1.l = null;
+        ihb.a();
+        r1.m = null;
+        String r6 = r1.c.getTitle();
+        ihb.a();
+        r1.n = r6;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    public final String f(String r5) {
+        HashMap r1 = jd9.b(r5);     // Catch: URISyntaxException -> L18
+        if (r1 != null) goto L5;
+    L7:
+        String r0 = null;
+    L8:
+        if (r0 != null) goto L10;
+    L13:
+        String r6 = new URI(r5).getHost();     // Catch: URISyntaxException -> L18
+        if (r6 == null) goto L20;
+        vgb r2 = yxc.a;     // Catch: URISyntaxException -> L18
+        if (xgb.y(r6) == true) goto L20;
+        return null;
+    L20:
+        return this.e;
+    L10:
+        if (r0.length() == 0) goto L13;
+        return r0;
+    L5:
+        if (r1.containsKey("Referer") == false) goto L7;
+        r0 = (String) r1.get("Referer");     // Catch: URISyntaxException -> L18
+    L18:
+        vgb r7 = n08.a;
+        goto L20

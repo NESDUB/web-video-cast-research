@@ -1,0 +1,64 @@
+    public static String e() {
+        return (String) a.getValue();
+    }
+
+    /* JADX WARN: Multi-variable type inference failed */
+    public static final void f(a r13, int r14, Intent r15) {
+        n33 r0 = b;
+        if (r14 != 6294) goto L15;
+        if (r0 != null) goto L6;
+        return;
+    L6:
+        if (r15 == null) goto L8;
+        String r16 = r15.getDataString();
+    L9:
+        if (r16 != null) goto L11;
+        return;
+    L11:
+        if (j6b.W0(r16) == true) goto L18;
+        r13.getContentResolver().takePersistableUriPermission(Uri.parse(r16), 3);
+        n33 r17 = n33.a(r0, j6b.w1(r16).toString(), null, null, null, 0, null, null, 0, 32765);
+        sr2 r1 = j13.a;
+        ll4.y(oc9.e(cz6.a), null, null, new lz3(r17, r13, null, 15), 3);
+        b = null;
+        return;
+    L18:
+        return;
+    L8:
+        r16 = null;
+        goto L9
+    }
+
+    public static boolean g(String r4, String r5) {
+        String r6 = vt3.d(r4);
+        if (r5 != null) goto L5;
+    L10:
+        boolean r7 = false;
+    L11:
+        if (r7 == true) goto L13;
+    L15:
+        if (r7 == false) goto L17;
+    L20:
+        return true;
+    L17:
+        if ("m3u8".equals(r6) == true) goto L20;
+        return false;
+    L13:
+        if ("m3u8".equals(r6) == true) goto L15;
+        r6 = "m3u8";
+        goto L15
+    L5:
+        if (uc7.m(r5) == true) goto L9;
+        if (r6 == null) goto L10;
+        Locale r8 = Locale.ENGLISH;
+        r8.getClass();
+        String r9 = r6.toLowerCase(r8);
+        r9.getClass();
+        if (q6b.u0(r9, "m3u8", false) != true) goto L10;
+    L9:
+        r7 = true;
+        goto L11
+    }
+
+    public static boolean h(String r4, String r5) {
+        String r6 = vt3.d(r4);

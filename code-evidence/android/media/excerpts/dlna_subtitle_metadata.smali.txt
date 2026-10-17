@@ -1,0 +1,64 @@
+    .line 308
+    aget-object v5, v6, v16
+
+    .line 309
+    .line 310
+    goto :goto_3
+
+    .line 311
+    :cond_6
+    const-string v1, "text/srt"
+
+    .line 312
+    .line 313
+    :goto_3
+    iget-object v0, v0, La9b;->a:Ljava/lang/String;
+
+    .line 314
+    .line 315
+    const-string v6, "pv:subtitleFileUri"
+
+    .line 316
+    .line 317
+    invoke-interface {v8, v6, v0}, Lorg/w3c/dom/Element;->setAttribute(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 318
+    .line 319
+    .line 320
+    const-string v6, "pv:subtitleFileType"
+
+    .line 321
+    .line 322
+    invoke-interface {v8, v6, v5}, Lorg/w3c/dom/Element;->setAttribute(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 323
+    .line 324
+    .line 325
+    move-object/from16 v6, v20
+
+    .line 326
+    .line 327
+    move-object/from16 v8, v22
+
+    .line 328
+    .line 329
+    invoke-interface {v8, v6}, Lorg/w3c/dom/Document;->createElement(Ljava/lang/String;)Lorg/w3c/dom/Element;
+
+    .line 330
+    .line 331
+    .line 332
+    move-result-object v9
+
+    .line 333
+    const-string v10, "http-get:*:smi/caption"
+
+    .line 334
+    .line 335
+    invoke-interface {v9, v4, v10}, Lorg/w3c/dom/Element;->setAttribute(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 336
+    .line 337
+    .line 338
+    invoke-interface {v9, v0}, Lorg/w3c/dom/Node;->setTextContent(Ljava/lang/String;)V
+
+    .line 339

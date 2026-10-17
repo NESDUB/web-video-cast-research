@@ -1,0 +1,968 @@
+{
+  "scope": "Static investigation; no new behavioral tests",
+  "records": [
+    {
+      "id": "candidate_filter",
+      "file": "working/media/toc.java",
+      "line": 102,
+      "marker": "public static boolean b(",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "shared_collection",
+      "file": "working/media/qmc.java",
+      "line": 43,
+      "marker": "public static boolean b(",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "source_identity",
+      "file": "working/native/nyc.java",
+      "line": 301,
+      "marker": "public final boolean equals(",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "header_range_filter",
+      "file": "working/native/nyc.java",
+      "line": 87,
+      "marker": "equalsIgnoreCase(\"range\")",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "candidate_normalization",
+      "file": "working/native/xyc.java",
+      "line": 132,
+      "marker": "public static nyc c(",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "local_player_hls",
+      "file": "working/media/com_instantbits_cast_webvideo_player_InternalPlayerService.java",
+      "line": 627,
+      "marker": "will use HlsMediaSource",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "receiver_dispatch",
+      "file": "working/media/com_instantbits_cast_util_connectsdkhelper_googlecastconnectsdk_GoogleCastService.java",
+      "line": 272,
+      "marker": "public final void M(",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "receiver_load",
+      "file": "working/apktool/smali_classes6/df4.smali",
+      "line": 710,
+      "marker": "RemoteMediaClient;->q(",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "download_record",
+      "file": "working/media/n33.java",
+      "line": 239,
+      "marker": "DownloadItem(id=",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "download_file_picker",
+      "file": "prior-analysis/android-code/sources/defpackage/i57.java",
+      "line": 28,
+      "marker": "android.intent.action.CREATE_DOCUMENT",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "download_job",
+      "file": "working/apktool/smali_classes6/z8.smali",
+      "line": 1846,
+      "marker": "const-class v5, Lcom/instantbits/cast/webvideo/download/DownloadWorker;",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "download_resume_request",
+      "file": "working/apktool/smali_classes6/com/instantbits/cast/webvideo/download/DownloadWorker.smali",
+      "line": 1759,
+      "marker": "const-string v6, \"Range\"",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "download_byte_sink",
+      "file": "working/apktool/smali_classes6/com/instantbits/cast/webvideo/download/DownloadWorker.smali",
+      "line": 2453,
+      "marker": "FileOutputStream;->write([BII)",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "hls_ts_endpoint",
+      "file": "working/media/com_instantbits_android_utils_web_hls_M3U8ToTSServlet.java",
+      "line": 76,
+      "marker": "public static void s(",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "segment_delivery",
+      "file": "working/media/ko4.java",
+      "line": 31,
+      "marker": "public static long a(",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "selected_source_dispatch",
+      "file": "working/media/y97.java",
+      "line": 1425,
+      "marker": "public static final void u(",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "local_player_handoff",
+      "file": "working/media/y97.java",
+      "line": 616,
+      "marker": "public static void H(",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "prepared_media_record",
+      "file": "working/media/y97.java",
+      "line": 1015,
+      "marker": "public static yp3 j(",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "download_format_strategies",
+      "file": "working/media/c43.java",
+      "line": 21,
+      "marker": "ORIGINAL",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "original_download_preparation",
+      "file": "working/media/p98.java",
+      "line": 20,
+      "marker": "public final Object a(",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "mp4_transform_staging",
+      "file": "working/media/ihb.java",
+      "line": 67,
+      "marker": "public static Object f(",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "document_result_permissions",
+      "file": "working/media/i57.java",
+      "line": 149,
+      "marker": "takePersistableUriPermission",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "export_case_constructor",
+      "file": "working/apktool/smali/rh3.smali",
+      "line": 30,
+      "marker": ".method public constructor <init>(Landroid/net/Uri;",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "media3_export_engine",
+      "file": "working/media/rh3.java",
+      "line": 704,
+      "marker": "c r212 = new c(",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "download_local_network_split",
+      "file": "working/media/lz3.java",
+      "line": 1110,
+      "marker": "List r91 =",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "download_record_insert_sql",
+      "file": "working/apktool/smali_classes6/h9.smali",
+      "line": 56,
+      "marker": "INSERT OR REPLACE INTO `DownloadItem`",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "download_record_async_insert",
+      "file": "working/apktool/smali_classes6/l53.smali",
+      "line": 69,
+      "marker": ".method public final varargs a(",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "download_database_observer",
+      "file": "working/apktool/smali_classes6/eh3.smali",
+      "line": 4411,
+      "marker": "const-string v3, \"DownloadItem\"",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "download_scheduler_callback",
+      "file": "working/apktool/smali/n82.smali",
+      "line": 2307,
+      "marker": "check-cast p0, Lu33;",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "export_success_continuation",
+      "file": "working/apktool/smali_classes6/nv8.smali",
+      "line": 1793,
+      "marker": "Transformation completed successfully",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "export_error_continuation",
+      "file": "working/apktool/smali_classes6/mh5.smali",
+      "line": 2227,
+      "marker": "Error during transformation:",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "export_cancel_dispatch",
+      "file": "working/apktool/smali_classes6/fi0.smali",
+      "line": 4924,
+      "marker": "invoke-virtual {p0}, Ls2c;->b()V",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "download_status_enum",
+      "file": "working/apktool/smali_classes6/b43.smali",
+      "line": 46,
+      "marker": "const-string v2, \"PAUSED\"",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "retry_threshold",
+      "file": "working/media/com_instantbits_cast_webvideo_download_DownloadWorker.java",
+      "line": 470,
+      "marker": "if (getRunAttemptCount() > 10)",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "linear_backoff",
+      "file": "working/media/z8.java",
+      "line": 309,
+      "marker": "r55.l = zh0.b;",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "ts_download_url_builder",
+      "file": "working/media/e57.java",
+      "line": 62,
+      "marker": "M3U8ToTSServlet.m(",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "ts_receiver_url_builder",
+      "file": "working/media/wi5.java",
+      "line": 82,
+      "marker": "return M3U8ToTSServlet.m(",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "receiver_adapter_dispatch",
+      "file": "working/media/v67.java",
+      "line": 1034,
+      "marker": "public final void f0(",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "receiver_stop_dispatch",
+      "file": "working/media/p4.java",
+      "line": 108,
+      "marker": "serviceCanPlayWithoutStoppingFirst",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "export_muxer_factory",
+      "file": "working/media/j85.java",
+      "line": 25,
+      "marker": "public final k85 c(",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "device_encoder_selection",
+      "file": "working/media/to2.java",
+      "line": 43,
+      "marker": "No MIME type is supported by both encoder and muxer.",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "hls_live_refresh",
+      "file": "working/media/ko4.java",
+      "line": 526,
+      "marker": "public static final void l(",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "hls_segment_delivery",
+      "file": "working/media/ko4.java",
+      "line": 31,
+      "marker": "public static long a(",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "export_engine_cancel",
+      "file": "working/apktool/smali/wo2.smali",
+      "line": 169,
+      "marker": ".method public final a()V",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "failure_result_type",
+      "file": "working/apktool/smali/eq6.smali",
+      "line": 164,
+      "marker": "Failure {mOutputData=",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "shared_candidate_merge",
+      "file": "working/media/zv8.java",
+      "line": 126,
+      "marker": "xyc r20 =",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "page_candidate_merge",
+      "file": "working/media/yv8.java",
+      "line": 471,
+      "marker": "omc r72 =",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "header_cache_storage",
+      "file": "working/media/jd9.java",
+      "line": 17,
+      "marker": "public static final void a(",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "header_cache_snapshot",
+      "file": "working/media/jd9.java",
+      "line": 33,
+      "marker": "public static final HashMap b(",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "group_source_equality",
+      "file": "working/native/xyc.java",
+      "line": 466,
+      "marker": "public final boolean equals(",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "js_player_adapters",
+      "file": "extracted/android/assets/ibfunctions.js",
+      "line": 453,
+      "marker": "function ibSendListOfVideos(",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "js_tcplayer_candidates",
+      "file": "extracted/android/assets/ibfunctions.js",
+      "line": 745,
+      "marker": "function ibAddTCPlayerVideos(",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "js_discovery_triggers",
+      "file": "extracted/android/assets/ibfunctions.js",
+      "line": 152,
+      "marker": "function ibAddInitFunctions(",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "provider_console_gate",
+      "file": "working/media/il4.java",
+      "line": 20,
+      "marker": "public static boolean a(",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "provider_manifest_constraints",
+      "file": "working/media/hi0.java",
+      "line": 95,
+      "marker": "Only on-demand TS media playlists are supported",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "segment_payload_consumer",
+      "file": "working/media/sg1.java",
+      "line": 1252,
+      "marker": "public final void r(JSONObject",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "segment_playlist_builder",
+      "file": "working/media/sg1.java",
+      "line": 1176,
+      "marker": "public final void q(String",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "generated_manifest_file",
+      "file": "working/media/sg1.java",
+      "line": 1553,
+      "marker": "public final void w(String",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "provider_stale_context_cleanup",
+      "file": "working/media/fl4.java",
+      "line": 91,
+      "marker": "r16.delete();",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "http_engine_selection",
+      "file": "working/media/id9.java",
+      "line": 14,
+      "marker": "public static final kd9 a(",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "okhttp_proxy_client",
+      "file": "working/media/t48.java",
+      "line": 17,
+      "marker": "public final ld9 a(",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "ktor_proxy_client",
+      "file": "working/media/rz5.java",
+      "line": 32,
+      "marker": "public final ld9 a(",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "http_basic_auth_lookup",
+      "file": "working/media/cx4.java",
+      "line": 35,
+      "marker": "public static final String a(",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "http_replace_header",
+      "file": "working/media/bo9.java",
+      "line": 42,
+      "marker": "public final void e(",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "proxy_header_merge_order",
+      "file": "working/media/u07.java",
+      "line": 74,
+      "marker": "public static LinkedHashMap V(",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "http_auth_interceptor",
+      "file": "working/media/k71.java",
+      "line": 940,
+      "marker": "String r49 = cx4.a(",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "http_cross_origin_auth",
+      "file": "working/media/k71.java",
+      "line": 154,
+      "marker": "r19.c.y(\"Authorization\")",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "http_followup_limit",
+      "file": "working/media/k71.java",
+      "line": 868,
+      "marker": "Too many follow-up requests:",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "proxy_cached_header_overlay",
+      "file": "working/apktool/smali_classes6/com/instantbits/android/utils/web/AbstractMediaProxyServlet.smali",
+      "line": 4644,
+      "marker": "invoke-static/range {v34 .. v34}, Lcom/instantbits/android/utils/web/AbstractMediaProxyServlet;->r(Ljava/lang/String;)Ljava/util/Map;",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "proxy_cookie_refresh",
+      "file": "working/apktool/smali_classes6/com/instantbits/android/utils/web/AbstractMediaProxyServlet.smali",
+      "line": 4710,
+      "marker": "invoke-static {v2, v5}, Lku7;->l(Ljava/lang/String;Z)Ljava/lang/String;",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "proxy_identity_encoding",
+      "file": "working/apktool/smali_classes6/com/instantbits/android/utils/web/AbstractMediaProxyServlet.smali",
+      "line": 4777,
+      "marker": "const-string v3, \"Accept-Encoding\"",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "proxy_engine_execution",
+      "file": "working/apktool/smali_classes6/com/instantbits/android/utils/web/AbstractMediaProxyServlet.smali",
+      "line": 4843,
+      "marker": "invoke-interface {v4, v3}, Lkd9;->a(Ldo9;)Lld9;",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "proxy_redirect_location",
+      "file": "working/apktool/smali_classes6/com/instantbits/android/utils/web/AbstractMediaProxyServlet.smali",
+      "line": 5144,
+      "marker": "const-string v0, \"Location\"",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "proxy_response_cookie_store",
+      "file": "working/apktool/smali_classes6/com/instantbits/android/utils/web/AbstractMediaProxyServlet.smali",
+      "line": 9993,
+      "marker": "invoke-static {v1, v9, v6}, Ljd9;->c(Ljava/lang/String;Ljava/lang/String;Z)V",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "navigation_context_reset",
+      "file": "prior-analysis/class-uwc.java",
+      "line": 321,
+      "marker": "public final void e()",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "new_context_scoped_close",
+      "file": "prior-analysis/class-uwc.java",
+      "line": 567,
+      "marker": "public final void o()",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "script_asset_delivery",
+      "file": "working/native/xgb.java",
+      "line": 916,
+      "marker": "public static WebResourceResponse r(",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "page_resource_cancel",
+      "file": "working/media/dl4.java",
+      "line": 17,
+      "marker": "public final void close()",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "tab_manifest_cleanup",
+      "file": "working/media/el4.java",
+      "line": 16,
+      "marker": "public final void close()",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "provider_script_injection_gate",
+      "file": "extracted/android/assets/ibfunctions.js",
+      "line": 3,
+      "marker": "function ibLoadHhtqIntervention(",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "subtitle_url_preparation",
+      "file": "working/media/com_instantbits_cast_util_connectsdkhelper_control_subtitles_SubtitlesServlet.java",
+      "line": 94,
+      "marker": "public static String p(",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "subtitle_serving_transform",
+      "file": "working/media/com_instantbits_cast_util_connectsdkhelper_control_subtitles_SubtitlesServlet.java",
+      "line": 168,
+      "marker": "public static void s(",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "cast_subtitle_message",
+      "file": "working/media/com_instantbits_cast_util_connectsdkhelper_googlecastconnectsdk_GoogleCastService.java",
+      "line": 218,
+      "marker": "r0.put(\"subtitleURL\"",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "receiver_subtitle_timing",
+      "file": "working/media/v67.java",
+      "line": 1268,
+      "marker": "public final void n(Context",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "subtitle_format_dispatch",
+      "file": "working/media/mbb.java",
+      "line": 195,
+      "marker": "public static String e(",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "subtitle_conversion_helpers",
+      "file": "working/media/gab.java",
+      "line": 23,
+      "marker": "public static byte[] a(",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "subtitle_encoding_detection",
+      "file": "working/media/w7b.java",
+      "line": 42,
+      "marker": "public static String a(",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "webvtt_serialization",
+      "file": "working/media/q0d.java",
+      "line": 242,
+      "marker": "public final void g(",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "selective_candidate_pruning",
+      "file": "working/media/w28.java",
+      "line": 445,
+      "marker": "HashMap r50 =",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "proxy_database_expiry",
+      "file": "working/apktool/smali_classes6/yla.smali",
+      "line": 643,
+      "marker": "DELETE FROM ampsu WHERE updated < ?",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "proxy_memory_capacity",
+      "file": "working/apktool/smali/f84.smali",
+      "line": 895,
+      "marker": ".method public final removeEldestEntry(",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "roku_subtitle_live_command",
+      "file": "working/apktool/smali_classes4/com/connectsdk/service/RokuChannelService.smali",
+      "line": 3179,
+      "marker": "const-string v0, \"subtitlesSet\"",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "dlna_subtitle_metadata",
+      "file": "working/apktool/smali_classes4/xe2.smali",
+      "line": 732,
+      "marker": "pv:subtitleFileUri",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "ktor_redirect_policy",
+      "file": "working/media/xu4.java",
+      "line": 22,
+      "marker": "public static final Object a(",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "ktor_redirect_auth_strip",
+      "file": "working/media/xu4.java",
+      "line": 103,
+      "marker": "remove(\"Authorization\")",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "ktor_redirect_methods",
+      "file": "working/media/xu4.java",
+      "line": 15,
+      "marker": "y20.U0",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "ktor_send_budget",
+      "file": "working/apktool/smali_classes7/sv4.smali",
+      "line": 241,
+      "marker": "const/16 v2, 0x14",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "ktor_cancel_previous_send",
+      "file": "working/apktool/smali_classes7/qv4.smali",
+      "line": 160,
+      "marker": "Loc9;->L(",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "response_copy_allowlist",
+      "file": "working/apktool/smali_classes7/gy3.smali",
+      "line": 2328,
+      "marker": "android_copy_proxied_headers",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "ktor_response_header_names",
+      "file": "working/apktool/smali/xw0.smali",
+      "line": 2813,
+      "marker": "invoke-virtual {v0, v2}, Ljava/util/AbstractCollection;->add",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "ktor_response_header_lookup",
+      "file": "working/apktool/smali_classes6/qz5.smali",
+      "line": 104,
+      "marker": "toLowerCase",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "okhttp_noop_cookie_jar_default",
+      "file": "working/apktool/smali_classes7/l48.smali",
+      "line": 169,
+      "marker": "sget-object v0, Ljc3;->b:",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "okhttp_cookie_save_noop",
+      "file": "working/apktool/smali_classes7/yt4.smali",
+      "line": 203,
+      "marker": "if-ne v1, v0, :cond_0",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "ktor_copy_request_headers",
+      "file": "working/apktool/smali_classes7/zu4.smali",
+      "line": 263,
+      "marker": "Lvj5;->e(Lg6b;Lg6b;)V",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "ktor_client_default_plugins",
+      "file": "working/apktool/smali_classes7/ls4.smali",
+      "line": 291,
+      "marker": "Lbv4;->b:",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "proxy_redirect_returns_before_cookie_save",
+      "file": "working/apktool/smali_classes6/com/instantbits/android/utils/web/AbstractMediaProxyServlet.smali",
+      "line": 5819,
+      "marker": "->w(Lcw4;Lbw4;Ljava/lang/String;ZLjava/util/HashMap;)V",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    },
+    {
+      "id": "proxy_cookie_persistence",
+      "file": "working/apktool/smali_classes6/jd9.smali",
+      "line": 250,
+      "marker": "Landroid/webkit/CookieManager;->setCookie(",
+      "confidence": "static-confirmed",
+      "platform": "android",
+      "mechanism": "media"
+    }
+  ]
+}

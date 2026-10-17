@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Preference
+        android:icon="@null"
+        android:title="@string/browser_ads_pref_category"
+        android:key="@string/pref_screen_browser_popup_and_ad_blocking"
+        android:iconSpaceReserved="false"
+        app:fragment="com.instantbits.cast.webvideo.settings.SettingsBrowserPopupAndAdBlockingFragment"
+        app:iconSpaceReserved="false"/>
+    <Preference
+        android:icon="@null"
+        android:title="@string/browsing_pref_category"
+        android:key="@string/pref_screen_browser_browsing"
+        android:iconSpaceReserved="false"
+        app:fragment="com.instantbits.cast.webvideo.settings.SettingsBrowserBrowsingFragment"
+        app:iconSpaceReserved="false"/>
+    <Preference
+        android:icon="@null"
+        android:title="@string/browser_controls_pref_category"
+        android:key="@string/pref_screen_browser_controls"
+        android:iconSpaceReserved="false"
+        app:fragment="com.instantbits.cast.webvideo.settings.SettingsBrowserControlsFragment"
+        app:iconSpaceReserved="false"/>
+    <Preference
+        android:icon="@null"
+        android:title="@string/browser_ssl_certificates_pref_category"
+        android:key="@string/pref_screen_browser_ssl_certificates"
+        android:iconSpaceReserved="false"
+        app:fragment="com.instantbits.cast.webvideo.settings.SettingsBrowserSslCertificatesFragment"
+        app:iconSpaceReserved="false"/>
+    <Preference
+        android:icon="@null"
+        android:title="@string/browser_advanced_pref_category"
+        android:key="@string/pref_screen_browser_advanced"
+        android:iconSpaceReserved="false"
+        app:fragment="com.instantbits.cast.webvideo.settings.SettingsBrowserAdvancedFragment"
+        app:iconSpaceReserved="false"/>
+</PreferenceScreen>

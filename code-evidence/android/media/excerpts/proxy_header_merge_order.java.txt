@@ -1,0 +1,64 @@
+        W(r0, r2);
+        return r0;
+    }
+
+    public static final Map U(LinkedHashMap r2) {
+        int r0 = r2.size();
+        if (r0 == 0) goto L10;
+        if (r0 == 1) goto L7;
+        return r2;
+    L7:
+        Map.Entry r3 = (Map.Entry) r2.entrySet().iterator().next();
+        Map r4 = Collections.singletonMap(r3.getKey(), r3.getValue());
+        r4.getClass();
+        return r4;
+    L10:
+        return pf3.a;
+    }
+
+    public static LinkedHashMap V(Map r1, Map r2) {
+        r1.getClass();
+        r2.getClass();
+        LinkedHashMap r0 = new LinkedHashMap(r1);
+        r0.putAll(r2);
+        return r0;
+    }
+
+    public static final void W(HashMap r4, df8[] r5) {
+        int r0 = r5.length;
+        int r1 = 0;
+    L3:
+        if (r1 >= r0) goto L5;
+        df8 r2 = r5[r1];
+        r4.put(r2.a, r2.b);
+        r1 = r1 + 1;
+        goto L3
+    }
+
+    public static void X(Map r2, Iterable r3) {
+        r2.getClass();
+        Iterator r4 = r3.iterator();
+    L4:
+        if (r4.hasNext() == false) goto L6;
+        df8 r0 = (df8) r4.next();
+        r2.put(r0.a, r0.b);
+        goto L4
+    }
+
+    public static List Y(Map r4) {
+        r4.getClass();
+        int r0 = r4.size();
+        of3 r1 = of3.a;
+        if (r0 != 0) goto L5;
+        return r1;
+    L5:
+        Iterator r2 = r4.entrySet().iterator();
+        if (r2.hasNext() == true) goto L8;
+        return r1;
+    L8:
+        Map.Entry r3 = (Map.Entry) r2.next();
+        if (r2.hasNext() == false) goto L11;
+        ArrayList r5 = new ArrayList(r4.size());
+        r5.add(new df8(r3.getKey(), r3.getValue()));
+    L13:
+        Map.Entry r6 = (Map.Entry) r2.next();

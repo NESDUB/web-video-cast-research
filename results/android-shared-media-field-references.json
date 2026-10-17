@@ -1,0 +1,161 @@
+{
+  "scope": "Direct field references only; aliases/reflection/indirect maintenance not excluded",
+  "records": [
+    {
+      "field": "Lqmc;->c:",
+      "file": "working/apktool/smali/zv8.smali",
+      "line": 349,
+      "instruction": "iget-object v0, v2, Lqmc;->c:Ljava/util/List;"
+    },
+    {
+      "field": "Lqmc;->b:",
+      "file": "working/apktool/smali/zv8.smali",
+      "line": 513,
+      "instruction": "iget-object v3, v2, Lqmc;->b:Ljava/util/Map;"
+    },
+    {
+      "field": "Lqmc;->c:",
+      "file": "working/apktool/smali_classes4/w28.smali",
+      "line": 2390,
+      "instruction": "iget-object v7, v1, Lqmc;->c:Ljava/util/List;"
+    },
+    {
+      "field": "Lqmc;->c:",
+      "file": "working/apktool/smali_classes4/w28.smali",
+      "line": 2561,
+      "instruction": "iget-object v10, v1, Lqmc;->c:Ljava/util/List;"
+    },
+    {
+      "field": "Lqmc;->c:",
+      "file": "working/apktool/smali_classes4/w28.smali",
+      "line": 2644,
+      "instruction": "iget-object v10, v1, Lqmc;->c:Ljava/util/List;"
+    },
+    {
+      "field": "Lqmc;->b:",
+      "file": "working/apktool/smali_classes4/w28.smali",
+      "line": 2661,
+      "instruction": "iget-object v5, v1, Lqmc;->b:Ljava/util/Map;"
+    },
+    {
+      "field": "Lqmc;->b:",
+      "file": "working/apktool/smali_classes4/w28.smali",
+      "line": 2905,
+      "instruction": "iget-object v11, v1, Lqmc;->b:Ljava/util/Map;"
+    },
+    {
+      "field": "Lqmc;->b:",
+      "file": "working/apktool/smali_classes4/w28.smali",
+      "line": 3004,
+      "instruction": "iget-object v11, v1, Lqmc;->b:Ljava/util/Map;"
+    },
+    {
+      "field": "Ljd9;->a:",
+      "file": "working/apktool/smali_classes6/jd9.smali",
+      "line": 24,
+      "instruction": "sput-object v0, Ljd9;->a:Ljava/util/HashMap;"
+    },
+    {
+      "field": "Ljd9;->a:",
+      "file": "working/apktool/smali_classes6/jd9.smali",
+      "line": 80,
+      "instruction": "sget-object v0, Ljd9;->a:Ljava/util/HashMap;"
+    },
+    {
+      "field": "Ljd9;->a:",
+      "file": "working/apktool/smali_classes6/jd9.smali",
+      "line": 124,
+      "instruction": "sget-object v0, Ljd9;->a:Ljava/util/HashMap;"
+    },
+    {
+      "field": "Lqmc;->b:",
+      "file": "working/apktool/smali_classes6/nmc.smali",
+      "line": 87,
+      "instruction": "iget-object v0, p0, Lqmc;->b:Ljava/util/Map;"
+    },
+    {
+      "field": "Lqmc;->b:",
+      "file": "working/apktool/smali_classes6/qmc.smali",
+      "line": 146,
+      "instruction": "iput-object v0, p0, Lqmc;->b:Ljava/util/Map;"
+    },
+    {
+      "field": "Lqmc;->c:",
+      "file": "working/apktool/smali_classes6/qmc.smali",
+      "line": 158,
+      "instruction": "iput-object v0, p0, Lqmc;->c:Ljava/util/List;"
+    },
+    {
+      "field": "Lqmc;->c:",
+      "file": "working/apktool/smali_classes6/qmc.smali",
+      "line": 502,
+      "instruction": "iget-object p0, p0, Lqmc;->c:Ljava/util/List;"
+    },
+    {
+      "field": "Lqmc;->b:",
+      "file": "working/apktool/smali_classes6/qmc.smali",
+      "line": 583,
+      "instruction": "iget-object v0, p0, Lqmc;->b:Ljava/util/Map;"
+    },
+    {
+      "field": "Lyxc;->q:",
+      "file": "working/apktool/smali_classes6/sg1.smali",
+      "line": 8744,
+      "instruction": "sget-object v10, Lyxc;->q:Ljava/util/Map;"
+    },
+    {
+      "field": "Lqmc;->b:",
+      "file": "working/apktool/smali_classes6/toc.smali",
+      "line": 732,
+      "instruction": "iget-object v0, v0, Lqmc;->b:Ljava/util/Map;"
+    },
+    {
+      "field": "Lqmc;->b:",
+      "file": "working/apktool/smali_classes6/yv8.smali",
+      "line": 2765,
+      "instruction": "iget-object v3, v2, Lqmc;->b:Ljava/util/Map;"
+    },
+    {
+      "field": "Lyxc;->q:",
+      "file": "working/apktool/smali_classes6/yxc.smali",
+      "line": 326,
+      "instruction": "sput-object v6, Lyxc;->q:Ljava/util/Map;"
+    },
+    {
+      "field": "Lyxc;->q:",
+      "file": "working/apktool/smali_classes6/yxc.smali",
+      "line": 1537,
+      "instruction": "sget-object v9, Lyxc;->q:Ljava/util/Map;"
+    },
+    {
+      "field": "Lqmc;->c:",
+      "file": "working/apktool/smali_classes7/sn2.smali",
+      "line": 204,
+      "instruction": "iget-object v2, v0, Lqmc;->c:Ljava/util/List;"
+    },
+    {
+      "field": "Lqmc;->b:",
+      "file": "working/apktool/smali_classes7/sn2.smali",
+      "line": 230,
+      "instruction": "iget-object v0, v0, Lqmc;->b:Ljava/util/Map;"
+    },
+    {
+      "field": "Lqmc;->b:",
+      "file": "working/apktool/smali_classes6/com/instantbits/cast/webvideo/WebBrowser.smali",
+      "line": 6864,
+      "instruction": "iget-object p2, p2, Lqmc;->b:Ljava/util/Map;"
+    },
+    {
+      "field": "Lqmc;->b:",
+      "file": "working/apktool/smali_classes6/com/instantbits/cast/webvideo/videolist/VideoListActivity.smali",
+      "line": 347,
+      "instruction": "iget-object p2, p2, Lqmc;->b:Ljava/util/Map;"
+    },
+    {
+      "field": "Ljd9;->a:",
+      "file": "working/apktool/smali_classes6/com/instantbits/android/utils/web/AbstractMediaProxyServlet.smali",
+      "line": 920,
+      "instruction": "sget-object v0, Ljd9;->a:Ljava/util/HashMap;"
+    }
+  ]
+}

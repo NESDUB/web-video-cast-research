@@ -1,0 +1,31 @@
+package defpackage;
+
+import java.io.FileOutputStream;
+
+/* JADX INFO: compiled from: r8-map-id-5f5060530d9e05db1e1197cdcb7ee4005bad73cf33dea77cc3c253934918b27f */
+/* JADX INFO: loaded from: /home/nes/Desktop/Web-Video-Cast-Research/extracted/android/classes.dex */
+public final class j85 implements sp7 {
+    @Override // defpackage.sp7
+    public final vl9 a(int r1) {
+        if (r1 != 2) goto L7;
+        return fl7.g;
+    L7:
+        if (r1 == 1) goto L9;
+        n14 r0 = x75.b;
+        return vl9.e;
+    L9:
+        return fl7.h;
+    }
+
+    @Override // defpackage.sp7
+    public final /* bridge */ /* synthetic */ tp7 b(String r1) {
+        return c(r1);
+    }
+
+    public final k85 c(String r2) {
+        return new k85(new fl7(new at3(new FileOutputStream(r2))));
+    L5:
+        e = move-exception;
+        throw new up7("Error creating file output stream", e);
+    }
+}

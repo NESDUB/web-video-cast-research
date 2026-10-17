@@ -1,0 +1,64 @@
+    try {
+        return window.self !== window.top;
+    } catch (e) {
+        //ibConsole.log(e);
+        return true;
+    }
+}
+function ibIsDocumentSomewhatReady(doc) {
+    if (document.readyState === "complete" || document.readyState === "interactive") {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+ibAddEventListener(self.document, "DOMContentLoaded", ibAddInitFunctions, false);
+
+
+function ibAddInitFunctions() {
+    ibAddMessagePostHandlers();
+    ibAddClickHandlerForAll();
+    ibFindAllVideos();
+    //this might be happening too early
+    setTimeout(ibFindAllVideos,2000)
+}
+
+function ibAddEventListener(obj, ev, func, when) {
+    obj.removeEventListener(ev, func, when);
+    obj.addEventListener(ev, func, when);
+}
+
+function ibAddClickHandlerForAll() {
+    // ibFindAllDocuments();
+
+    ibAddClickHandler(self.document);
+}
+function ibAddClickHandler(doc) {
+    if (isES6) {
+
+
+        var domMonitor = new DomMonitor(doc);
+        domMonitor.monitors['video'] = function (newVideos) {
+            ibFindAllVideos();
+        };
+        domMonitor.monitors['track'] = function (newTracks) {
+            ibFindAllVideos();
+        };
+    } else {
+        ibAddEventListener(doc, "click", ibClicked, true);
+
+    }
+}
+function ibClicked() {
+    ibFindAllVideos();
+}
+function ibFindAllDocuments() {
+    var docs = new Array();
+    docs.push(self.document);
+    ibFindAllIFrames(document, docs);
+    return docs;
+}
+function ibCanAccessIFrame(iframe) {
+    var html = null;
+    try {

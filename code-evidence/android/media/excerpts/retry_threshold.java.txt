@@ -1,0 +1,64 @@
+        r8.r = r10;     // Catch: IOException -> L23 Throwable -> L133 CancellationException -> L135
+        r8.s = null;     // Catch: IOException -> L23 Throwable -> L133 CancellationException -> L135
+        r8.t = null;     // Catch: IOException -> L23 Throwable -> L133 CancellationException -> L135
+        r8.u = null;     // Catch: IOException -> L23 Throwable -> L133 CancellationException -> L135
+        r8.x = 3;     // Catch: IOException -> L23 Throwable -> L133 CancellationException -> L135
+        r0 = d(r17, r22, r18, r8);     // Catch: IOException -> L23 Throwable -> L133 CancellationException -> L135
+        if (r0 != r19) goto L107;
+    L129:
+        return r19;
+    L109:
+        if ((r21 instanceof v33) == false) goto L112;
+        Log.w(qo8.t(), "Download ended in definitive failure");     // Catch: IOException -> L23 Throwable -> L133 CancellationException -> L135
+        r10.a = qo8.y((n33) r10.a, ((v33) r21).a());     // Catch: IOException -> L23 Throwable -> L133 CancellationException -> L135
+        return hq6.a();
+    L112:
+        if ((r21 instanceof w33) == false) goto L119;
+        Log.w(qo8.t(), "Download ended in retryable failure");     // Catch: IOException -> L23 Throwable -> L133 CancellationException -> L135
+        r10.a = qo8.y((n33) r10.a, ((w33) r21).a());     // Catch: IOException -> L23 Throwable -> L133 CancellationException -> L135
+        if (getRunAttemptCount() > 10) goto L117;
+        fq6 r23 = new fq6();     // Catch: IOException -> L23 Throwable -> L133 CancellationException -> L135
+    L154:
+        return r23;
+    L117:
+        r23 = new eq6();     // Catch: IOException -> L23 Throwable -> L133 CancellationException -> L135
+        goto L154
+    L119:
+        throw new so1(10);     // Catch: IOException -> L23 Throwable -> L133 CancellationException -> L135
+    L28:
+        e = e;
+        r4 = r16;
+    L122:
+        Log.w(qo8.t(), e);     // Catch: Throwable -> L133 CancellationException -> L135
+        r4.a = qo8.y((n33) r4.a, getApplicationContext().getString(2131952781, new Object[]{e.getMessage()}));     // Catch: Throwable -> L133 CancellationException -> L135
+        if (getRunAttemptCount() > 10) goto L125;
+        r23 = new fq6();     // Catch: Throwable -> L133 CancellationException -> L135
+        goto L154
+    L125:
+        r23 = new eq6();     // Catch: Throwable -> L133 CancellationException -> L135
+        goto L154
+    L30:
+        bo9 r24 = r8.u;
+        r17 = r8.t;
+        r18 = r8.s;
+        jk9 r25 = r8.r;
+        tt9.m0(r0);     // Catch: Exception -> L33 Throwable -> L133
+        r19 = r5;
+    L72:
+        bo9 r26 = r24;
+        r10 = r25;
+    L78:
+        if (r26 == null) goto L127;
+        qo8.t();     // Catch: Throwable -> L133 CancellationException -> L135
+        if (q6b.F0(r18, "content://") == true) goto L141;
+        r10.a = qo8.y((n33) r10.a, getApplicationContext().getString(2131953280));     // Catch: Throwable -> L133 CancellationException -> L135
+    L97:
+        ParcelFileDescriptor r27 = null;
+    L98:
+        if (r27 == null) goto L120;
+        n33 r28 = (n33) r10.a;     // Catch: IOException -> L23 Throwable -> L133 CancellationException -> L135
+        r8.r = r10;     // Catch: IOException -> L23 Throwable -> L133 CancellationException -> L135
+        r8.s = r18;     // Catch: IOException -> L23 Throwable -> L133 CancellationException -> L135
+        r8.t = r17;     // Catch: IOException -> L23 Throwable -> L133 CancellationException -> L135
+        r8.u = null;     // Catch: IOException -> L23 Throwable -> L133 CancellationException -> L135
+        r8.x = 2;     // Catch: IOException -> L23 Throwable -> L133 CancellationException -> L135

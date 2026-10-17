@@ -1,0 +1,16 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Controlled video discovery fixture</title><meta name="videourl_mp4" content="https://media.example.test/meta.mp4"></head><body>
+ <h1>Controlled discovery inputs</h1>
+ <video id="standard" preload="none" poster="https://media.example.test/poster.jpg"><source src="https://media.example.test/stream.m3u8" type="application/vnd.apple.mpegurl"><track kind="subtitles" label="English" srclang="en" src="https://media.example.test/en.vtt"><a href="https://media.example.test/not-a-video">Non-media fallback link</a></video>
+ <video id="blob-video" preload="none" src="blob:https://media.example.test/opaque-id"></video>
+ <script>
+ window.fixtureMessages=[];window.fixtureErrors=[];
+ window.addEventListener('error',e=>{if(e.message)fixtureErrors.push(e.message)});
+ window.addEventListener('unhandledrejection',e=>fixtureErrors.push(String(e.reason)));
+ const originalLog=console.log.bind(console);
+ console.log=(...values)=>{for(const value of values){if(typeof value==='string')try{const item=JSON.parse(value);if(item.type)fixtureMessages.push(item)}catch(e){}}};
+ window.__ib_console={log:()=>{}};
+ window.__ib_config={adblock:false,muteVideos:false,longPressHack:false,debug:false};
+ window.webkit={messageHandlers:{ibfunctions:{postMessage:value=>fixtureMessages.push(JSON.parse(value))}}};
+ window.jwplayer=()=>({getPlaylist:()=>[{title:'JW fixture',sources:[{file:'https://media.example.test/jw-high.mp4',label:'720p',type:'mp4'},{file:'https://media.example.test/jw-low.mp4',label:'360p',type:'mp4'}],tracks:[{file:'https://media.example.test/jw.vtt',kind:'subtitles',label:'English'}]}]});
+ </script><script src="../extracted/ios/Payload/WebVideoCaster.app/ibfunctions.min.js"></script>
+ </body></html>

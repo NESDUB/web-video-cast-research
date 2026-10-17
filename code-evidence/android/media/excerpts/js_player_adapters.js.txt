@@ -1,0 +1,64 @@
+        var videoTracks = new Array();
+        v.textTracks = videoTracks;
+        if (tracks.length > 0) {
+            for (var t = 0; t < tracks.length; t++) {
+                var trackInfo = new Object()
+                var trackSrc = tracks[t].src;
+                trackInfo.url = trackSrc;
+                trackInfo.lang = tracks[t].srclang;
+                if (!trackInfo.lang){
+                    trackInfo.lang = tracks[t].label;
+                }
+                videoTracks[t] = trackInfo;
+            }
+        }
+    } catch (e) {
+        //  ibLog(video.outerHTML+" : "+e);
+    }
+}
+function ibSendListOfVideos(videos) {
+    var listHolder = new Object();
+    listHolder.type = "videoList";
+    listHolder.from = self.document.location.href;
+
+    var videoList = new Array();
+    listHolder.videoList = videoList;
+    ibSetMetaInfo();
+    if (metaTitle) {
+        listHolder.title = metaTitle;
+    }
+    ibAddTCPlayerVideos(videoList);
+    //might make more sense to run this on all documents
+    if (typeof jwplayer == 'function') {
+        try {
+            var playlists = jwplayer().getPlaylist();
+            var lengthOfPlaylist = playlists.length;
+            for (var p = 0; p < lengthOfPlaylist; p++) {
+                var playlist = playlists[p];
+                var v = new Object();
+                    
+                    if (playlist.tracks && playlist.tracks.length > 0) {
+                        var videoTracks = new Array();
+                        v.textTracks = videoTracks;
+                        for (var t = 0; t < playlist.tracks.length; t++) {
+                            var trackSrc = playlist.tracks[t].file;
+                            var trackInfo = new Object()
+                            trackInfo.url = trackSrc;
+                            trackInfo.lang = playlist.tracks[t].label;
+                            videoTracks[t] = trackInfo;
+
+                        }
+                    }
+                    if (metaImageURL) {
+                        v.poster = metaImageURL;
+                    }
+                    if (playlist.title){
+                        v.jwTitle = playlist.title;
+                    }
+                    videoList.push(v);
+                var jSources = playlist.sources;
+                for (var i = 0; i < jSources.length; i++) {
+                    var jSource = jSources[i];
+                    
+                    var sources = new Array();
+                    

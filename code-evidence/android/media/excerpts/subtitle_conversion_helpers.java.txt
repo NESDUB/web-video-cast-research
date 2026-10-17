@@ -1,0 +1,64 @@
+import java.io.BufferedWriter;
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.OutputStreamWriter;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Iterator;
+import java.util.List;
+
+/* JADX INFO: compiled from: r8-map-id-5f5060530d9e05db1e1197cdcb7ee4005bad73cf33dea77cc3c253934918b27f */
+/* JADX INFO: loaded from: /home/nes/Desktop/Web-Video-Cast-Research/extracted/android/classes6.dex */
+public abstract class gab {
+    public static final vgb a = null;
+
+    static {
+        a = new vgb(new tla(23));
+    }
+
+    public static byte[] a(int r8, byte[] r9) {
+        r9.getClass();
+        if (r9.length != 0) goto L5;
+        return r9;
+    L5:
+        String r0 = w7b.a(r9);
+        return e(new w7b().c(new ByteArrayInputStream(r9), r0), r8);
+    L11:
+        q0d r2 = new o0d(0).a(new ByteArrayInputStream(r9));
+        ByteArrayOutputStream r10 = new ByteArrayOutputStream();
+        r2.g(new BufferedWriter(new OutputStreamWriter(r10, C.UTF8_NAME)), 0, r8, true);
+        byte[] r11 = r10.toByteArray();
+        r11.getClass();
+        return r11;
+    L8:
+        th = move-exception;
+        n00.m(th);
+        Log.w(i(), "Error converting subtitle", th);
+        throw new fab("Error converting subtitle ", th);
+    }
+
+    public static byte[] b(byte[] r3, boolean r4) {
+        r3.getClass();
+        if (r3.length != 0) goto L15;
+        return r3;
+    L15:
+        w7b.a(r3);     // Catch: Throwable -> L7 v7b -> L9
+        mza r1 = new mza();     // Catch: Throwable -> L7 v7b -> L9
+        ByteArrayInputStream r2 = new ByteArrayInputStream(r3);     // Catch: Throwable -> L7 v7b -> L9
+        ByteArrayOutputStream r5 = new ByteArrayOutputStream();     // Catch: Throwable -> L7 v7b -> L9
+        vt3.b(r2, r5);     // Catch: Throwable -> L7 v7b -> L9
+        byte[] r6 = r5.toByteArray();     // Catch: Throwable -> L7 v7b -> L9
+        return d(r1.b(r6.length, r6), r4);
+    L9:
+        e = move-exception;
+        n00.m(e);
+        Log.w(i(), e);
+        throw new fab("Error converting subtitle", e);
+    L7:
+        th = move-exception;
+        n00.m(th);
+        Log.w(i(), "Error converting subtitle", th);
+        throw new fab("Error converting subtitle", th);
+    }
+
+    public static byte[] c(int r3, byte[] r4) {

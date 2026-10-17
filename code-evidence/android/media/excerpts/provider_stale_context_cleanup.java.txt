@@ -1,0 +1,64 @@
+        WebView r6 = this.v;
+        l22 r7 = null;
+        int r9 = 1;
+        rac r11 = rac.a;
+        wzc r12 = this.x;
+        p42 r13 = p42.a;
+        if (r2 == 0) goto L22;
+        if (r2 == 1) goto L15;
+        if (r2 != 2) goto L13;
+        String r8 = this.t;
+        hl4 r10 = this.s;
+        ?? r14 = this.r;
+        tt9.m0(r25);     // Catch: Exception -> L9 CancellationException -> L11
+        Object r15 = r25;
+    L38:
+        File r16 = (File) r15;     // Catch: Exception -> L9 CancellationException -> L11
+        if (vj5.f(r6.getUrl(), r5) == true) goto L41;
+    L50:
+        r16.delete();     // Catch: Exception -> L9 CancellationException -> L11
+    L51:
+        return r11;
+    L41:
+        if (vj5.f(r12.l(), r4) == false) goto L50;
+        Map r17 = u07.R(new df8[]{new df8(Command.HTTP_HEADER_USER_AGENT, this.A), new df8("Referer", r10.b), new df8("Origin", "https://streamfree.vip")});     // Catch: Exception -> L9 CancellationException -> L11
+        mxa r18 = new mxa(new lxa(r10.b, "application/x-mpegurl", r17, "streamfree.vip", this.w), new kxa(r12.h(), this.B, "Hhtq", r12.r));     // Catch: Exception -> L9 CancellationException -> L11
+        String r19 = r16.getAbsolutePath();     // Catch: Exception -> L9 CancellationException -> L11
+        r19.getClass();     // Catch: Exception -> L9 CancellationException -> L11
+        eya.a(r18, new soc(r19, "application/x-mpegurl", -1, r17, r12.h(), this.w, this.B, "Hhtq"), bya.a);     // Catch: Exception -> L9 CancellationException -> L11
+        el4 r0 = this.D;     // Catch: Exception -> L9 CancellationException -> L11
+        if (r0 == null) goto L48;
+        ArrayList r1 = r0.a;     // Catch: Exception -> L9 CancellationException -> L11
+        if (r1 == null) goto L48;
+        r1.add(r16);     // Catch: Exception -> L9 CancellationException -> L11
+    L48:
+        r3.c = r8;     // Catch: Exception -> L9 CancellationException -> L11
+        Log.i("Hhtq", "Prepared " + r10.c + " native HLS segments");     // Catch: Exception -> L9 CancellationException -> L11
+        return r11;
+    L11:
+        e = e;
+    L57:
+        File r20 = (File) r14.a;
+        if (r20 == null) goto L60;
+        r20.delete();
+    L60:
+        throw e;
+    L9:
+        e = e;
+    L52:
+        File r21 = (File) r14.a;
+        if (r21 == null) goto L55;
+        r21.delete();
+    L55:
+        v71.t("Could not prepare native HLS (", e.getClass().getSimpleName(), ")", "Hhtq");
+        return r11;
+    L13:
+        sm0.r("call to 'resume' before 'invoke' with coroutine");
+        return null;
+    L15:
+        jk9 r22 = this.r;
+        tt9.m0(r25);     // Catch: Exception -> L18 CancellationException -> L20
+        Object r23 = r25;
+        r2 = r22;
+    L26:
+        hl4 r24 = (hl4) r23;     // Catch: Exception -> L18 CancellationException -> L20

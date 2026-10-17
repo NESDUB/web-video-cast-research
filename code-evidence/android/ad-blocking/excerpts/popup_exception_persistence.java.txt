@@ -1,0 +1,64 @@
+        SharedPreferences.Editor r3 = d.edit();
+        r3.putBoolean(r1, r2);
+        r3.apply();
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    public static final void F(Context r1, boolean r2) {
+        r1.getClass();
+        E(r1, r1.getString(2131953425), r2);
+        E(r1, r1.getString(2131953642), r2);
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    public static void G(Set r3) {
+        SharedPreferences.Editor r0 = d.edit();
+        String r1 = c.getString(2131953441);
+        r1.getClass();
+        if (r3.isEmpty() == true) goto L5;
+        r0.putStringSet(r1, r3);
+    L6:
+        r0.apply();
+        return;
+    L5:
+        r0.remove(r1);
+        goto L6
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    public static final void H(WebVideoCasterApplication r2, blb r3) {
+        r2.getClass();
+        r3.getClass();
+        D(r2, r2.getResources().getString(2131953616), String.valueOf(r3.a));
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    public static final p91 a() {
+        WebVideoCasterApplication r1 = c;
+        String r0 = r1.getString(2131953554);
+        SharedPreferences r2 = d;
+        String r3 = r2.getString(r0, null);
+        if (r3 != null) goto L13;
+        boolean r4 = r2.getBoolean(r1.getString(2131953600), false);
+        if (r4 == true) goto L7;
+        if (r4 == false) goto L10;
+        f01.h();
+        return null;
+    L10:
+        return p91.a;
+    L7:
+        return p91.b;
+    L13:
+        Locale r5 = Locale.ENGLISH;
+        r5.getClass();
+        String r6 = r3.toUpperCase(r5);
+        r6.getClass();
+        return p91.valueOf(r6);
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    public static final kh2 b() {
+        String r0 = c.getString(2131953557);
+        String r1 = d.getString(r0, null);
+        kh2 r2 = kh2.c;
+        if (r1 != null) goto L5;

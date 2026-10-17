@@ -1,0 +1,64 @@
+    }
+
+    public static void b(Context r4) {
+        r4.getClass();
+        if (wzc.z == true) goto L6;
+        wzc.z = true;
+        sr2 r0 = j13.a;
+        l22 r3 = null;
+        ll4.y(oc9.e(cz6.a), null, null, new y9(r4, r3, 9), 3);
+        return;
+    }
+
+    public static UUID e() {
+        UUID r0 = UUID.randomUUID();
+        r0.getClass();
+        return r0;
+    }
+
+    public static Object f(ihb r16, Context r17, String r18, String r19, Uri r20, e43 r21, m22 r22) {
+        ihb r0 = r16;
+        if ((r22 instanceof lm0) == false) goto L7;
+        lm0 r2 = (lm0) r22;
+        int r3 = r2.w;
+        if ((r3 & Integer.MIN_VALUE) == 0) goto L7;
+        r2.w = r3 - Integer.MIN_VALUE;
+    L8:
+        Object r1 = r2.u;
+        int r4 = r2.w;
+        rac r5 = rac.a;
+        l22 r7 = null;
+        p42 r8 = p42.a;
+        if (r4 == 0) goto L20;
+        if (r4 == 1) goto L19;
+        if (r4 != 2) goto L17;
+        File r6 = r2.t;
+        tt9.m0(r1);     // Catch: Throwable -> L15
+    L31:
+        r6.delete();
+        return r5;
+    L15:
+        th = th;
+    L36:
+        r6.delete();
+        throw th;
+    L17:
+        sm0.r("call to 'resume' before 'invoke' with coroutine");
+        return null;
+    L19:
+        Uri r9 = r2.s;
+        ihb r10 = r2.r;
+        tt9.m0(r1);
+        Uri r11 = r9;
+        r0 = r10;
+        Object r12 = r1;
+    L23:
+        File r13 = (File) r12;
+        r2.r = null;     // Catch: Throwable -> L34
+        r2.s = null;     // Catch: Throwable -> L34
+        r2.t = r13;     // Catch: Throwable -> L34
+        r2.w = 2;     // Catch: Throwable -> L34
+        r0.getClass();     // Catch: Throwable -> L34
+        sr2 r14 = j13.a;     // Catch: Throwable -> L34
+        Object r15 = ll4.j0(aq2.c, new xb(r11, r13, r7, 3), r2);     // Catch: Throwable -> L34
+        if (r15 == r8) goto L28;

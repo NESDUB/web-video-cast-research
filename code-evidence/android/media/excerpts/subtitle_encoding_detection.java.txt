@@ -1,0 +1,64 @@
+    public static final Pattern e = null;
+    public static final Pattern f = null;
+    public static final String g = null;
+    public final StringBuilder a;
+
+    static {
+        b = Pattern.compile("(.*)\\s*-->\\s*(.*)");
+        c = Pattern.compile("(?:(\\d+):)?(\\d+):(\\d+),(\\d+)");
+        d = Pattern.compile("(?:(\\d+):)?(\\d+):(\\d+) (\\d+)");
+        e = Pattern.compile("(?:(\\d+):)?(\\d+):(\\d+)\\.(\\d+)");
+        f = Pattern.compile("(?:(\\d+):)?(\\d+):(\\d+)");
+        g = w7b.class.getSimpleName();
+    }
+
+    public w7b() {
+        this.a = new StringBuilder();
+    }
+
+    public static String a(byte[] r2) {
+        if (b(r2) == false) goto L6;
+        return "SUBRIP_UTF-8";
+    L6:
+        ge1 r0 = new ge1();
+        r0.e = r2;
+        r0.f = r2.length;
+        he1 r3 = r0.a();
+        if (r3 == null) goto L16;
+        String r1 = r3.b;
+        int r4 = r3.a;
+        vgb r5 = n08.a;
+        if (TextUtils.isEmpty(r1) == false) goto L11;
+        return "windows-1252";
+    L11:
+        if (r4 > uc7.b) goto L13;
+        return "windows-1252";
+    L13:
+        if (r1.toLowerCase(Locale.ENGLISH).equals("utf-8") == false) goto L15;
+        n00.i("Got utf-8 encoding but not the first 3 bytes");
+    L15:
+        return r1;
+    L16:
+        return "windows-1252";
+    }
+
+    public static boolean b(byte[] r4) {
+        if (r4.length <= 3) goto L11;
+        byte r0 = r4[0];
+        int r1 = tz7.a;
+        if ((r0 & AdConfig.NETWORK_LOAD_LIMIT_DISABLED) != 239) goto L11;
+        if ((r4[1] & AdConfig.NETWORK_LOAD_LIMIT_DISABLED) != 187) goto L11;
+        if ((r4[2] & AdConfig.NETWORK_LOAD_LIMIT_DISABLED) != 191) goto L11;
+        return true;
+    L11:
+        return false;
+    }
+
+    public static long d(String r10) {
+        String r11 = r10.trim();
+        Matcher r0 = c.matcher(r11);
+        long r2 = 0;
+        if (r0.find() == true) goto L13;
+        r0 = d.matcher(r11);
+        if (r0.find() == true) goto L13;
+        r0 = e.matcher(r11);

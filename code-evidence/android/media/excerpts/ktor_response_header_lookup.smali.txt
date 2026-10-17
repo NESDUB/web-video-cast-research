@@ -1,0 +1,64 @@
+.end method
+
+.method public final header(Ljava/lang/String;)Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    iget-object p0, p0, Lqz5;->a:Lpz5;
+
+    .line 2
+    .line 3
+    iget-object p0, p0, Lpz5;->d:Ljava/util/HashMap;
+
+    .line 4
+    .line 5
+    sget-object v0, Ljava/util/Locale;->ROOT:Ljava/util/Locale;
+
+    .line 6
+    .line 7
+    invoke-virtual {p1, v0}, Ljava/lang/String;->toLowerCase(Ljava/util/Locale;)Ljava/lang/String;
+
+    .line 8
+    .line 9
+    .line 10
+    move-result-object p1
+
+    .line 11
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 12
+    .line 13
+    .line 14
+    invoke-virtual {p0, p1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 15
+    .line 16
+    .line 17
+    move-result-object p0
+
+    .line 18
+    check-cast p0, Ljava/util/List;
+
+    .line 19
+    .line 20
+    if-eqz p0, :cond_0
+
+    .line 21
+    .line 22
+    invoke-static {p0}, Lyl1;->j1(Ljava/util/List;)Ljava/lang/Object;
+
+    .line 23
+    .line 24
+    .line 25
+    move-result-object p0
+
+    .line 26
+    check-cast p0, Ljava/lang/String;
+
+    .line 27
+    .line 28
+    return-object p0
+
+    .line 29
+    :cond_0
+    const/4 p0, 0x0

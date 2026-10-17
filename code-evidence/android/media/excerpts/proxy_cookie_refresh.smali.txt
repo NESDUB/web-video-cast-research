@@ -1,0 +1,64 @@
+    .catchall {:try_start_24 .. :try_end_24} :catchall_2
+
+    goto :goto_13
+
+    .line 67
+    :cond_1c
+    :try_start_25
+    const-string v2, "Accept"
+
+    const-string v3, "*/*"
+
+    invoke-virtual {v0, v2, v3}, Lbo9;->e(Ljava/lang/String;Ljava/lang/String;)V
+
+    move/from16 v5, p5
+
+    move-object/from16 v2, v30
+
+    .line 68
+    invoke-static {v2, v5}, Lku7;->l(Ljava/lang/String;Z)Ljava/lang/String;
+
+    move-result-object v3
+    :try_end_25
+    .catch Ljava/io/IOException; {:try_start_25 .. :try_end_25} :catch_93
+    .catch Ljava/lang/OutOfMemoryError; {:try_start_25 .. :try_end_25} :catch_92
+    .catchall {:try_start_25 .. :try_end_25} :catchall_36
+
+    .line 69
+    const-string v4, "Cookie"
+
+    if-eqz v3, :cond_1d
+
+    .line 70
+    :try_start_26
+    invoke-virtual {v0, v4, v3}, Lbo9;->e(Ljava/lang/String;Ljava/lang/String;)V
+    :try_end_26
+    .catch Ljava/io/IOException; {:try_start_26 .. :try_end_26} :catch_3
+    .catch Ljava/lang/OutOfMemoryError; {:try_start_26 .. :try_end_26} :catch_2
+    .catchall {:try_start_26 .. :try_end_26} :catchall_2
+
+    goto :goto_14
+
+    .line 71
+    :cond_1d
+    :try_start_27
+    invoke-interface {v10, v4}, Lbw4;->j(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v3
+    :try_end_27
+    .catch Ljava/io/IOException; {:try_start_27 .. :try_end_27} :catch_93
+    .catch Ljava/lang/OutOfMemoryError; {:try_start_27 .. :try_end_27} :catch_92
+    .catchall {:try_start_27 .. :try_end_27} :catchall_36
+
+    if-eqz v3, :cond_1e
+
+    .line 72
+    :try_start_28
+    invoke-interface {v10, v4}, Lbw4;->j(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-virtual {v0, v4, v3}, Lbo9;->a(Ljava/lang/String;Ljava/lang/String;)V
+
+    :cond_1e
+    :goto_14

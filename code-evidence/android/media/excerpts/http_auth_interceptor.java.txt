@@ -1,0 +1,64 @@
+        r27 = null;
+        r28 = null;
+        goto L25
+    L30:
+        r7 = r5;
+    L86:
+        throw new IllegalStateException("Check failed.");     // Catch: Throwable -> L87
+    L90:
+        throw new IllegalStateException("cannot make a new request because the previous response is still open: please call response.close()");     // Catch: Throwable -> L87
+    L87:
+        th = th;
+        goto L91
+    L93:
+        sm0.r("Check failed.");
+        return null;
+    L95:
+        bi9 r47 = (bi9) r36;
+        do9 r48 = r47.e;
+        String r49 = cx4.a(r48.a.d);
+        if (r49 == null) goto L99;
+        bo9 r50 = r48.b();
+        r50.e("Authorization", r49);
+        return r47.b(new do9(r50));
+    L99:
+        return r47.b(r48);
+    L102:
+        bi9 r51 = (bi9) r36;
+        jc3 r114 = r51.m;
+        do9 r115 = r51.e;
+        bo9 r116 = r115.b();
+        vw4 r117 = r115.a;
+        ak4 r118 = r115.c;
+        mo9 r119 = r115.d;
+        if (r119 == null) goto L112;
+        sc7 r120 = r119.contentType();
+        if (r120 == null) goto L107;
+        r116.e("Content-Type", r120.a);
+    L107:
+        long r121 = r119.contentLength();
+        if (r121 == (-1)) goto L110;
+        r116.e("Content-Length", String.valueOf(r121));
+        r116.c.y("Transfer-Encoding");
+        goto L112
+    L110:
+        r116.e("Transfer-Encoding", "chunked");
+        r116.c.y("Content-Length");
+    L112:
+        if (r118.a("Host") != null) goto L115;
+        r116.e("Host", iad.i(r117, false));
+    L115:
+        if (r118.a("Connection") != null) goto L118;
+        r116.e("Connection", "Keep-Alive");
+    L118:
+        if (r118.a("Accept-Encoding") == null) goto L120;
+    L122:
+        boolean r310 = false;
+    L123:
+        r114.getClass();
+        r117.getClass();
+        if (r118.a("User-Agent") != null) goto L126;
+        r116.e("User-Agent", "okhttp/5.4.0");
+    L126:
+        do9 r52 = new do9(r116);
+        nq9 r53 = r51.b(r52);

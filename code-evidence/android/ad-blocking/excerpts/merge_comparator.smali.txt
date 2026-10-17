@@ -1,0 +1,64 @@
+    .line 1480
+    .line 1481
+    check-cast v0, Ldf8;
+
+    .line 1482
+    .line 1483
+    move-object/from16 v1, p2
+
+    .line 1484
+    .line 1485
+    check-cast v1, Ldf8;
+
+    .line 1486
+    .line 1487
+    iget-object v0, v0, Ldf8;->b:Ljava/lang/Object;
+
+    .line 1488
+    .line 1489
+    check-cast v0, Lde7;
+
+    .line 1490
+    .line 1491
+    iget-object v1, v1, Ldf8;->b:Ljava/lang/Object;
+
+    .line 1492
+    .line 1493
+    check-cast v1, Lde7;
+
+    .line 1494
+    .line 1495
+    invoke-virtual {v0}, Ljava/lang/Enum;->ordinal()I
+
+    .line 1496
+    .line 1497
+    .line 1498
+    move-result v3
+
+    .line 1499
+    if-eqz v3, :cond_1f
+
+    .line 1500
+    .line 1501
+    if-eq v3, v6, :cond_1d
+
+    .line 1502
+    .line 1503
+    const/4 v4, 0x2
+
+    .line 1504
+    if-ne v3, v4, :cond_1c
+
+    .line 1505
+    .line 1506
+    goto :goto_10
+
+    .line 1507
+    :cond_1c
+    invoke-static {}, Lf01;->h()V
+
+    .line 1508
+    .line 1509
+    .line 1510
+    const/4 v0, 0x0
+

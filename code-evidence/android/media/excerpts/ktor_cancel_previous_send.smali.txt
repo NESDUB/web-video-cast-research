@@ -1,0 +1,64 @@
+    .line 44
+    return-object v2
+
+    .line 45
+    :cond_2
+    invoke-static {p2}, Ltt9;->m0(Ljava/lang/Object;)V
+
+    .line 46
+    .line 47
+    .line 48
+    iget-object p2, p0, Lqv4;->d:Lns4;
+
+    .line 49
+    .line 50
+    if-eqz p2, :cond_3
+
+    .line 51
+    .line 52
+    invoke-static {p2, v2}, Loc9;->L(Lo42;Ljava/util/concurrent/CancellationException;)V
+
+    .line 53
+    .line 54
+    .line 55
+    :cond_3
+    iget p2, p0, Lqv4;->c:I
+
+    .line 56
+    .line 57
+    iget v1, p0, Lqv4;->a:I
+
+    .line 58
+    .line 59
+    if-ge p2, v1, :cond_7
+
+    .line 60
+    .line 61
+    add-int/2addr p2, v3
+
+    .line 62
+    iput p2, p0, Lqv4;->c:I
+
+    .line 63
+    .line 64
+    iget-object p2, p0, Lqv4;->b:Lls4;
+
+    .line 65
+    .line 66
+    iget-object p2, p2, Lls4;->f:Ltu4;
+
+    .line 67
+    .line 68
+    iget-object v1, p1, Lzu4;->d:Ljava/lang/Object;
+
+    .line 69
+    .line 70
+    iput v3, v0, Lpv4;->t:I
+
+    .line 71
+    .line 72
+    invoke-virtual {p2, p1, v1, v0}, Llm8;->a(Ljava/lang/Object;Ljava/lang/Object;Lm22;)Ljava/lang/Object;
+
+    .line 73
+    .line 74
+    .line 75

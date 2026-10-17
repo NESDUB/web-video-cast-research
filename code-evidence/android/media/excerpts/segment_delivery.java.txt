@@ -1,0 +1,64 @@
+import java.util.Iterator;
+import java.util.List;
+import java.util.Locale;
+import java.util.Map;
+import java.util.TreeMap;
+
+/* JADX INFO: compiled from: r8-map-id-5f5060530d9e05db1e1197cdcb7ee4005bad73cf33dea77cc3c253934918b27f */
+/* JADX INFO: loaded from: /home/nes/Desktop/Web-Video-Cast-Research/extracted/android/classes6.dex */
+public abstract class ko4 {
+    public static final vgb a = null;
+    public static final vgb b = null;
+
+    static {
+        a = new vgb(new qj4(8));
+        vgb r0 = n08.a;
+        b = new vgb(new qj4(9));
+    }
+
+    public static long a(cw4 r13, String r14, ao4 r15) {
+        long r1 = ((bo4) r15).j;
+        String r6 = ((bo4) r15).h;
+        long r3 = ((bo4) r15).i;
+        String r0 = ((bo4) r15).a;
+        r0.getClass();
+        nq9 r2 = e(c(r14, r0), r1, r3, null).execute();
+        int r4 = r2.d;     // Catch: Throwable -> L26
+        if (r4 >= 200) goto L6;
+    L60:
+        Log.w(g(), "Got bad code, ignoring segment");     // Catch: Throwable -> L26
+        long r5 = -1;
+    L62:
+        r2.close();
+        Log.i(g(), "Wrote " + r5);
+        return r5;
+    L6:
+        if (r4 >= 300) goto L60;
+        vq9 r7 = r2.g;     // Catch: Throwable -> L26
+        if (r7 == null) goto L59;
+        if (r6 != null) goto L12;
+    L39:
+        se r16 = r7.byteStream();     // Catch: Throwable -> L26
+    L40:
+        if (r16 == null) goto L57;
+        byte[] r8 = new byte[4096];     // Catch: Throwable -> L47
+        tfa r17 = r13.u();     // Catch: Throwable -> L47
+        r5 = 0;
+    L43:
+        int r9 = r16.read(r8, 0, 4096);     // Catch: Throwable -> L47
+        if (r9 < 0) goto L49;
+        r17.write(r8, 0, r9);     // Catch: Throwable -> L47
+        r5 = r5 + ((long) r9);
+        goto L43
+    L49:
+        r16.close();     // Catch: Throwable -> L26
+    L47:
+        th = move-exception;
+        throw th;     // Catch: Throwable -> L52
+    L52:
+        th = move-exception;
+        yv0.k(r16, th);     // Catch: Throwable -> L26
+        throw th;     // Catch: Throwable -> L26
+    L57:
+        throw new IOException("Stream is null");     // Catch: Throwable -> L26
+    L12:

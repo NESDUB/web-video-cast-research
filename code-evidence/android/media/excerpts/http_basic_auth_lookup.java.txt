@@ -1,0 +1,64 @@
+
+/* JADX INFO: compiled from: r8-map-id-5f5060530d9e05db1e1197cdcb7ee4005bad73cf33dea77cc3c253934918b27f */
+/* JADX INFO: loaded from: /home/nes/Desktop/Web-Video-Cast-Research/extracted/android/classes6.dex */
+public final class cx4 {
+    public static final vgb a = null;
+    public static final vgb b = null;
+    public static final vgb c = null;
+    public static final vgb d = null;
+    public static final vgb e = null;
+
+    static {
+        a = new vgb(new qj4(20));
+        b = new vgb(new qj4(21));
+        c = new vgb(new qj4(22));
+        d = new vgb(new qj4(23));
+        e = new vgb(new qj4(24));
+    }
+
+    public static final String a(String r3) {
+        UsernamePasswordCredentials r4 = et4.c(r3);
+        if (r4 == null) goto L6;
+        n00.k(6, "HTTP_AUTH", null);
+        byte[] r5 = b42.f(r4.getUserName(), ":", r4.getPassword()).getBytes(ef1.a);
+        r5.getClass();
+        String r6 = "Basic " + Base64.encodeToString(r5, 2);
+        l();
+        return r6;
+    L6:
+        l();
+        return null;
+    }
+
+    public static void b(l48 r4) {
+        final q23 r0 = (q23) q23.f.getValue();
+        SSLContext r1 = SSLContext.getInstance("TLS");
+        r1.init(null, new TrustManager[]{r0}, null);
+        l();
+        SSLSocketFactory r2 = r1.getSocketFactory();
+        r2.getClass();
+        r0.getClass();
+        if (r2.equals(r4.r) == true) goto L5;
+    L6:
+        r4.E = null;
+    L7:
+        r4.r = r2;
+        dn8 r3 = dn8.a;
+        r4.x = dn8.a.c(r0);
+        r4.s = r0;
+        HostnameVerifier r5 = new yw4(r0);
+        if (r5 == r4.v) goto L10;
+        r4.E = null;
+    L10:
+        r4.v = r5;
+        return;
+    L5:
+        if (r0 == r4.s) goto L7;
+        goto L6
+    }
+
+    public static Object c(uh9 r2, m22 r3) {
+        l81 r0 = new l81(1, rhc.k0(r3));
+        r0.t();
+        r0.w(new zw4(r2, 0));
+        r2.h(new ix(r0, 6));

@@ -1,0 +1,5734 @@
+{
+  "scope": "Semantic comparison of packaged settings declarations; differing versions and platform scope; not device-tested",
+  "ios_controls_compared": 104,
+  "comparisons": [
+    {
+      "ios_key": "easylist_ads",
+      "ios_title": "Easylist (recommended)",
+      "ios_screen": "AdBlockLists",
+      "ios_default": {
+        "source": "plist",
+        "value": true,
+        "label": "On"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+          "specifier_index": 2,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "annoyance_ads",
+      "ios_title": "Website Annoyances (cookie banners, social media, etc.)",
+      "ios_screen": "AdBlockLists",
+      "ios_default": {
+        "source": "plist",
+        "value": true,
+        "label": "On"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+          "specifier_index": 3,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "antiadblock_ads",
+      "ios_title": "Anti ad block detection",
+      "ios_screen": "AdBlockLists",
+      "ios_default": {
+        "source": "plist",
+        "value": true,
+        "label": "On"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+          "specifier_index": 4,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "wvc_ads",
+      "ios_title": "WVC additional list",
+      "ios_screen": "AdBlockLists",
+      "ios_default": {
+        "source": "plist",
+        "value": true,
+        "label": "On"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+          "specifier_index": 5,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "privacy_ads",
+      "ios_title": "Privacy (website trackers)",
+      "ios_screen": "AdBlockLists",
+      "ios_default": {
+        "source": "plist",
+        "value": false,
+        "label": "Off"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+          "specifier_index": 6,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "ar_ads",
+      "ios_title": "ar - Arabic",
+      "ios_screen": "AdBlockLists",
+      "ios_default": {
+        "source": "plist",
+        "value": false,
+        "label": "Off"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+          "specifier_index": 8,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "bg_ads",
+      "ios_title": "bg - Bulgarian",
+      "ios_screen": "AdBlockLists",
+      "ios_default": {
+        "source": "plist",
+        "value": false,
+        "label": "Off"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+          "specifier_index": 9,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "cs_ads",
+      "ios_title": "cs - Czech",
+      "ios_screen": "AdBlockLists",
+      "ios_default": {
+        "source": "plist",
+        "value": false,
+        "label": "Off"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+          "specifier_index": 10,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "de_ads",
+      "ios_title": "de - German",
+      "ios_screen": "AdBlockLists",
+      "ios_default": {
+        "source": "plist",
+        "value": false,
+        "label": "Off"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+          "specifier_index": 11,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "es_ads",
+      "ios_title": "es - Spanish",
+      "ios_screen": "AdBlockLists",
+      "ios_default": {
+        "source": "plist",
+        "value": false,
+        "label": "Off"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+          "specifier_index": 12,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "fr_ads",
+      "ios_title": "fr - French",
+      "ios_screen": "AdBlockLists",
+      "ios_default": {
+        "source": "plist",
+        "value": false,
+        "label": "Off"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+          "specifier_index": 13,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "he_ads",
+      "ios_title": "he - Hebrew",
+      "ios_screen": "AdBlockLists",
+      "ios_default": {
+        "source": "plist",
+        "value": false,
+        "label": "Off"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+          "specifier_index": 14,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "hi_ads",
+      "ios_title": "hi - Hindi",
+      "ios_screen": "AdBlockLists",
+      "ios_default": {
+        "source": "plist",
+        "value": false,
+        "label": "Off"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+          "specifier_index": 15,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "id_ads",
+      "ios_title": "id - Indonesian",
+      "ios_screen": "AdBlockLists",
+      "ios_default": {
+        "source": "plist",
+        "value": false,
+        "label": "Off"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+          "specifier_index": 16,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "it_ads",
+      "ios_title": "it - Italian",
+      "ios_screen": "AdBlockLists",
+      "ios_default": {
+        "source": "plist",
+        "value": false,
+        "label": "Off"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+          "specifier_index": 17,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "ko_ads",
+      "ios_title": "ko - Korean",
+      "ios_screen": "AdBlockLists",
+      "ios_default": {
+        "source": "plist",
+        "value": false,
+        "label": "Off"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+          "specifier_index": 18,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "lt_ads",
+      "ios_title": "lt - Lithuanian",
+      "ios_screen": "AdBlockLists",
+      "ios_default": {
+        "source": "plist",
+        "value": false,
+        "label": "Off"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+          "specifier_index": 19,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "lv_ads",
+      "ios_title": "lv - Latvian",
+      "ios_screen": "AdBlockLists",
+      "ios_default": {
+        "source": "plist",
+        "value": false,
+        "label": "Off"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+          "specifier_index": 20,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "nb_ads",
+      "ios_title": "nb - Norwegian",
+      "ios_screen": "AdBlockLists",
+      "ios_default": {
+        "source": "plist",
+        "value": false,
+        "label": "Off"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+          "specifier_index": 21,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "nl_ads",
+      "ios_title": "nl - Dutch",
+      "ios_screen": "AdBlockLists",
+      "ios_default": {
+        "source": "plist",
+        "value": false,
+        "label": "Off"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+          "specifier_index": 22,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "pl_ads",
+      "ios_title": "pl - Polish",
+      "ios_screen": "AdBlockLists",
+      "ios_default": {
+        "source": "plist",
+        "value": false,
+        "label": "Off"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+          "specifier_index": 23,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "pt_ads",
+      "ios_title": "pt - Portuguese",
+      "ios_screen": "AdBlockLists",
+      "ios_default": {
+        "source": "plist",
+        "value": false,
+        "label": "Off"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+          "specifier_index": 24,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "ro_ads",
+      "ios_title": "ro - Romanian",
+      "ios_screen": "AdBlockLists",
+      "ios_default": {
+        "source": "plist",
+        "value": false,
+        "label": "Off"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+          "specifier_index": 25,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "ru_ads",
+      "ios_title": "ru - Russian",
+      "ios_screen": "AdBlockLists",
+      "ios_default": {
+        "source": "plist",
+        "value": false,
+        "label": "Off"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+          "specifier_index": 26,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "vi_ads",
+      "ios_title": "vi - Vietnamese",
+      "ios_screen": "AdBlockLists",
+      "ios_default": {
+        "source": "plist",
+        "value": false,
+        "label": "Off"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+          "specifier_index": 27,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "zh_ads",
+      "ios_title": "zh - Chinese",
+      "ios_screen": "AdBlockLists",
+      "ios_default": {
+        "source": "plist",
+        "value": false,
+        "label": "Off"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/AdBlockLists.plist",
+          "specifier_index": 28,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "capture_logs",
+      "ios_title": "Capture iOS logs",
+      "ios_screen": "Advanced",
+      "ios_default": {
+        "source": "plist",
+        "value": false,
+        "label": "Off"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": "pref_capture_android_logs",
+      "android_title": "Capture Android logs",
+      "android_default": {
+        "source": "xml",
+        "value": false,
+        "raw": "false",
+        "label": "Off"
+      },
+      "android_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "classification": "related_packaged_control",
+      "notes": "Compare user-visible meaning; key/value equality is not required.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Advanced.plist",
+          "specifier_index": 2,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": {
+          "file": "prior-analysis/android-resources/resources/res/xml/preferences_advanced.xml",
+          "line": 47
+        }
+      }
+    },
+    {
+      "ios_key": "popup_ignore",
+      "ios_title": "Block all pop-ups",
+      "ios_screen": "Browser",
+      "ios_default": {
+        "source": "plist",
+        "value": true,
+        "label": "On"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": "popup",
+      "android_title": "Block all pop-ups",
+      "android_default": {
+        "source": "xml",
+        "value": true,
+        "raw": "true",
+        "label": "On"
+      },
+      "android_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "classification": "related_packaged_control",
+      "notes": "Compare user-visible meaning; key/value equality is not required.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Browser.plist",
+          "specifier_index": 2,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": {
+          "file": "prior-analysis/android-resources/resources/res/xml/preferences_browser_popup_and_ad_blocking.xml",
+          "line": 6
+        }
+      }
+    },
+    {
+      "ios_key": "popup_ignore_notify",
+      "ios_title": "Notify on blocked popup",
+      "ios_screen": "Browser",
+      "ios_default": {
+        "source": "plist",
+        "value": true,
+        "label": "On"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": "pref_ad_blocked_alert",
+      "android_title": "Alert about blocked ad pop-ups",
+      "android_default": {
+        "source": "xml",
+        "value": true,
+        "raw": "true",
+        "label": "On"
+      },
+      "android_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "classification": "related_packaged_control",
+      "notes": "Related only: iOS notifies about blocked popups generally; Android row specifically names blocked ad popups.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Browser.plist",
+          "specifier_index": 3,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": {
+          "file": "prior-analysis/android-resources/resources/res/xml/preferences_browser_popup_and_ad_blocking.xml",
+          "line": 63
+        }
+      }
+    },
+    {
+      "ios_key": "ad_block",
+      "ios_title": "Block website ads",
+      "ios_screen": "Browser",
+      "ios_default": {
+        "source": "plist",
+        "value": true,
+        "label": "On"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": "pref_ad_block",
+      "android_title": "Block website ads",
+      "android_default": {
+        "source": "xml",
+        "value": false,
+        "raw": "false",
+        "label": "Off"
+      },
+      "android_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "classification": "related_packaged_control",
+      "notes": "Compare user-visible meaning; key/value equality is not required.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Browser.plist",
+          "specifier_index": 4,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": {
+          "file": "prior-analysis/android-resources/resources/res/xml/preferences_browser_popup_and_ad_blocking.xml",
+          "line": 35
+        }
+      }
+    },
+    {
+      "ios_key": "redirect_ad_block",
+      "ios_title": "Block ad redirects",
+      "ios_screen": "Browser",
+      "ios_default": {
+        "source": "plist",
+        "value": true,
+        "label": "On"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": "pref_redirect_ad_block",
+      "android_title": "Block ad redirects",
+      "android_default": {
+        "source": "xml",
+        "value": true,
+        "raw": "true",
+        "label": "On"
+      },
+      "android_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "classification": "related_packaged_control",
+      "notes": "Compare user-visible meaning; key/value equality is not required.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Browser.plist",
+          "specifier_index": 6,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": {
+          "file": "prior-analysis/android-resources/resources/res/xml/preferences_browser_popup_and_ad_blocking.xml",
+          "line": 73
+        }
+      }
+    },
+    {
+      "ios_key": "redirect_ad_block_notify",
+      "ios_title": "Notify on blocked redirect",
+      "ios_screen": "Browser",
+      "ios_default": {
+        "source": "plist",
+        "value": true,
+        "label": "On"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Browser.plist",
+          "specifier_index": 7,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "javascript_alert_block",
+      "ios_title": "Block JavaScript alert dialogs",
+      "ios_screen": "Browser",
+      "ios_default": {
+        "source": "plist",
+        "value": false,
+        "label": "Off"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": "pref_js_alert_block",
+      "android_title": "Block JavaScript alert dialogs",
+      "android_default": {
+        "source": "xml",
+        "value": false,
+        "raw": "false",
+        "label": "Off"
+      },
+      "android_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "classification": "related_packaged_control",
+      "notes": "Compare user-visible meaning; key/value equality is not required.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Browser.plist",
+          "specifier_index": 8,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": {
+          "file": "prior-analysis/android-resources/resources/res/xml/preferences_browser_popup_and_ad_blocking.xml",
+          "line": 113
+        }
+      }
+    },
+    {
+      "ios_key": "javascript_confirm_block",
+      "ios_title": "Block JavaScript confirm dialogs",
+      "ios_screen": "Browser",
+      "ios_default": {
+        "source": "plist",
+        "value": false,
+        "label": "Off"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": "pref_js_confirm_block",
+      "android_title": "Block JavaScript confirm dialogs",
+      "android_default": {
+        "source": "xml",
+        "value": false,
+        "raw": "false",
+        "label": "Off"
+      },
+      "android_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "classification": "related_packaged_control",
+      "notes": "Compare user-visible meaning; key/value equality is not required.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Browser.plist",
+          "specifier_index": 9,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": {
+          "file": "prior-analysis/android-resources/resources/res/xml/preferences_browser_popup_and_ad_blocking.xml",
+          "line": 123
+        }
+      }
+    },
+    {
+      "ios_key": "javascript_prompt_block",
+      "ios_title": "Block JavaScript prompt dialogs",
+      "ios_screen": "Browser",
+      "ios_default": {
+        "source": "plist",
+        "value": false,
+        "label": "Off"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": "pref_js_prompt_block",
+      "android_title": "Block JavaScript prompt dialogs",
+      "android_default": {
+        "source": "xml",
+        "value": false,
+        "raw": "false",
+        "label": "Off"
+      },
+      "android_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "classification": "related_packaged_control",
+      "notes": "Compare user-visible meaning; key/value equality is not required.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Browser.plist",
+          "specifier_index": 10,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": {
+          "file": "prior-analysis/android-resources/resources/res/xml/preferences_browser_popup_and_ad_blocking.xml",
+          "line": 133
+        }
+      }
+    },
+    {
+      "ios_key": "search_engine",
+      "ios_title": "Search engine",
+      "ios_screen": "Browser",
+      "ios_default": {
+        "source": "plist",
+        "value": "google",
+        "label": "Google"
+      },
+      "ios_options": [
+        {
+          "label": "Google",
+          "value": "google"
+        },
+        {
+          "label": "Yahoo",
+          "value": "yahoo"
+        },
+        {
+          "label": "Bing",
+          "value": "bing"
+        },
+        {
+          "label": "DuckDuckGo",
+          "value": "duckduckgo"
+        },
+        {
+          "label": "Yandex",
+          "value": "yandex"
+        },
+        {
+          "label": "Baidu",
+          "value": "baidu"
+        }
+      ],
+      "android_key": "pref_key_search_engine",
+      "android_title": "Search engine",
+      "android_default": {
+        "source": "not_applicable",
+        "value": null
+      },
+      "android_options": [],
+      "classification": "related_packaged_control",
+      "notes": "Compare user-visible meaning; key/value equality is not required.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Browser.plist",
+          "specifier_index": 12,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": {
+          "file": "prior-analysis/android-resources/resources/res/xml/preferences_browser_browsing.xml",
+          "line": 17
+        }
+      }
+    },
+    {
+      "ios_key": "restore_tabs_dialog",
+      "ios_title": "Show dialog asking to restore tabs",
+      "ios_screen": "Browser",
+      "ios_default": {
+        "source": "plist",
+        "value": true,
+        "label": "On"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": "pref_browser_tabs_restore",
+      "android_title": "Restore tabs",
+      "android_default": {
+        "value": "ASK",
+        "source": "code",
+        "label": "Ask whether to restore"
+      },
+      "android_options": [
+        {
+          "label": "Ask whether to restore",
+          "value": "ASK"
+        },
+        {
+          "label": "Always restore",
+          "value": "ALWAYS"
+        },
+        {
+          "label": "Never restore",
+          "value": "NEVER"
+        }
+      ],
+      "classification": "related_packaged_control",
+      "notes": "iOS splits ask and automatic into toggles; Android combines ASK/ALWAYS/NEVER in one list. Defaults correspond to asking.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Browser.plist",
+          "specifier_index": 13,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": {
+          "file": "prior-analysis/android-resources/resources/res/xml/preferences_browser_browsing.xml",
+          "line": 68
+        }
+      }
+    },
+    {
+      "ios_key": "restore_tabs_automatic",
+      "ios_title": "Always attempt to restore tabs",
+      "ios_screen": "Browser",
+      "ios_default": {
+        "source": "plist",
+        "value": false,
+        "label": "Off"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": "pref_browser_tabs_restore",
+      "android_title": "Restore tabs",
+      "android_default": {
+        "value": "ASK",
+        "source": "code",
+        "label": "Ask whether to restore"
+      },
+      "android_options": [
+        {
+          "label": "Ask whether to restore",
+          "value": "ASK"
+        },
+        {
+          "label": "Always restore",
+          "value": "ALWAYS"
+        },
+        {
+          "label": "Never restore",
+          "value": "NEVER"
+        }
+      ],
+      "classification": "related_packaged_control",
+      "notes": "Same Android counterpart as restore_tabs_dialog; not a second independent Android feature.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Browser.plist",
+          "specifier_index": 14,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": {
+          "file": "prior-analysis/android-resources/resources/res/xml/preferences_browser_browsing.xml",
+          "line": 68
+        }
+      }
+    },
+    {
+      "ios_key": "mute_videos",
+      "ios_title": "Automatically mute videos in browser",
+      "ios_screen": "Browser",
+      "ios_default": {
+        "source": "plist",
+        "value": true,
+        "label": "On"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Browser.plist",
+          "specifier_index": 15,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "navigate_gesture",
+      "ios_title": "Navigate using swipe gesture",
+      "ios_screen": "Browser",
+      "ios_default": {
+        "source": "plist",
+        "value": true,
+        "label": "On"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Browser.plist",
+          "specifier_index": 16,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "dont_override_user_agent",
+      "ios_title": "Prevent app from overriding user agent",
+      "ios_screen": "Browser",
+      "ios_default": {
+        "source": "plist",
+        "value": false,
+        "label": "Off"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": "pref_dont_override_user_agent",
+      "android_title": "Prevent app from overriding user agent",
+      "android_default": {
+        "source": "xml",
+        "value": false,
+        "raw": "false",
+        "label": "Off"
+      },
+      "android_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "classification": "related_packaged_control",
+      "notes": "Compare user-visible meaning; key/value equality is not required.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Browser.plist",
+          "specifier_index": 17,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": {
+          "file": "prior-analysis/android-resources/resources/res/xml/preferences_browser_browsing.xml",
+          "line": 132
+        }
+      }
+    },
+    {
+      "ios_key": "nav_bar_auto_hide",
+      "ios_title": "Auto hide navigation bar",
+      "ios_screen": "Browser",
+      "ios_default": {
+        "source": "plist",
+        "value": true,
+        "label": "On"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Browser.plist",
+          "specifier_index": 18,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "pull_to_refresh",
+      "ios_title": "Pull To Refresh",
+      "ios_screen": "Browser",
+      "ios_default": {
+        "source": "plist",
+        "value": true,
+        "label": "On"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Browser.plist",
+          "specifier_index": 19,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "invalid_ssl_certificate",
+      "ios_title": "Default invalid SSL certificate handling",
+      "ios_screen": "Browser",
+      "ios_default": {
+        "source": "plist",
+        "value": "prompt",
+        "label": "Prompt"
+      },
+      "ios_options": [
+        {
+          "label": "Prompt",
+          "value": "prompt"
+        },
+        {
+          "label": "Ignore",
+          "value": "ignore"
+        },
+        {
+          "label": "Cancel",
+          "value": "cancel"
+        }
+      ],
+      "android_key": "pref_invalid_ssl_certificate_ignore_all_domains",
+      "android_title": "Ignore invalid SSL certificates for all domains",
+      "android_default": {
+        "source": "xml",
+        "value": false,
+        "raw": "false",
+        "label": "Off"
+      },
+      "android_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "classification": "related_packaged_control",
+      "notes": "iOS presents Prompt/Ignore/Cancel. Android uses management actions plus an ignore-all toggle; not equivalent enums.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Browser.plist",
+          "specifier_index": 20,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": {
+          "file": "prior-analysis/android-resources/resources/res/xml/preferences_browser_ssl_certificates_advanced.xml",
+          "line": 6
+        }
+      }
+    },
+    {
+      "ios_key": "browser_open_in_tab",
+      "ios_title": "Where to open pages from within the app",
+      "ios_screen": "Browser",
+      "ios_default": {
+        "source": "plist",
+        "value": "new",
+        "label": "In a new tab"
+      },
+      "ios_options": [
+        {
+          "label": "In a new tab",
+          "value": "new"
+        },
+        {
+          "label": "In the active tab",
+          "value": "current"
+        },
+        {
+          "label": "In a new private tab",
+          "value": "new_private"
+        }
+      ],
+      "android_key": "pref_browser_open_in_tab",
+      "android_title": "Where to open pages from within the app",
+      "android_default": {
+        "source": "xml",
+        "value": "NEW",
+        "raw": "NEW",
+        "label": "In a new tab"
+      },
+      "android_options": [
+        {
+          "label": "In a new tab",
+          "value": "NEW"
+        },
+        {
+          "label": "In the active tab",
+          "value": "CURRENT"
+        }
+      ],
+      "classification": "related_packaged_control",
+      "notes": "Compare user-visible meaning; key/value equality is not required.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Browser.plist",
+          "specifier_index": 22,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": {
+          "file": "prior-analysis/android-resources/resources/res/xml/preferences_browser_browsing.xml",
+          "line": 99
+        }
+      }
+    },
+    {
+      "ios_key": "restore_private_tabs",
+      "ios_title": "When restoring tabs also include private tabs",
+      "ios_screen": "Browser",
+      "ios_default": {
+        "source": "plist",
+        "value": true,
+        "label": "On"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Browser.plist",
+          "specifier_index": 24,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "private_tab_media_history",
+      "ios_title": "Prevent remembering recent media from private tabs",
+      "ios_screen": "Browser",
+      "ios_default": {
+        "source": "plist",
+        "value": true,
+        "label": "On"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Browser.plist",
+          "specifier_index": 25,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "private_tab_share",
+      "ios_title": "Open links and videos shared from other apps in a private tab",
+      "ios_screen": "Browser",
+      "ios_default": {
+        "source": "plist",
+        "value": false,
+        "label": "Off"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": "pref_browser_open_in_tab_external",
+      "android_title": "Where to open pages from other apps",
+      "android_default": {
+        "source": "xml",
+        "value": "NEW",
+        "raw": "NEW",
+        "label": "In a new tab"
+      },
+      "android_options": [
+        {
+          "label": "In a new tab",
+          "value": "NEW"
+        },
+        {
+          "label": "In the active tab",
+          "value": "CURRENT"
+        }
+      ],
+      "classification": "related_packaged_control",
+      "notes": "iOS can send externally shared links/media to private tabs; Android packaged external-tab list offers NEW/CURRENT only.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Browser.plist",
+          "specifier_index": 26,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": {
+          "file": "prior-analysis/android-resources/resources/res/xml/preferences_browser_browsing.xml",
+          "line": 111
+        }
+      }
+    },
+    {
+      "ios_key": "private_tab_biometric_lock",
+      "ios_title": "Require Face ID / Touch ID to access private tabs",
+      "ios_screen": "Browser",
+      "ios_default": {
+        "source": "plist",
+        "value": false,
+        "label": "Off"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Browser.plist",
+          "specifier_index": 27,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "prompt_subtitles",
+      "ios_title": "Always use subtitles",
+      "ios_screen": "Casting",
+      "ios_default": {
+        "source": "plist",
+        "value": false,
+        "label": "Off"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": "pref_prompt_subtitles",
+      "android_title": "Always use subtitles",
+      "android_default": {
+        "source": "xml",
+        "value": false,
+        "raw": "false",
+        "label": "Off"
+      },
+      "android_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "classification": "related_packaged_control",
+      "notes": "Compare user-visible meaning; key/value equality is not required.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Casting.plist",
+          "specifier_index": 2,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": {
+          "file": "prior-analysis/android-resources/resources/res/xml/preferences_casting_subtitles.xml",
+          "line": 6
+        }
+      }
+    },
+    {
+      "ios_key": "skip_video_already_playing_dialog",
+      "ios_title": "Don't show dialog for video already playing",
+      "ios_screen": "Casting",
+      "ios_default": {
+        "source": "plist",
+        "value": false,
+        "label": "Off"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": "pref_skip_video_playing_dialog",
+      "android_title": "Don't show dialog for video already playing",
+      "android_default": {
+        "source": "xml",
+        "value": false,
+        "raw": "false",
+        "label": "Off"
+      },
+      "android_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "classification": "related_packaged_control",
+      "notes": "Compare user-visible meaning; key/value equality is not required.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Casting.plist",
+          "specifier_index": 3,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": {
+          "file": "prior-analysis/android-resources/resources/res/xml/preferences_casting_dialogs.xml",
+          "line": 6
+        }
+      }
+    },
+    {
+      "ios_key": "never_resume_video",
+      "ios_title": "Never ask to resume video",
+      "ios_screen": "Casting",
+      "ios_default": {
+        "source": "plist",
+        "value": false,
+        "label": "Off"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": "pref_key_cast_resume",
+      "android_title": "Resume media playback",
+      "android_default": {
+        "value": "ASK",
+        "source": "code",
+        "label": "Ask whether to resume"
+      },
+      "android_options": [
+        {
+          "label": "Ask whether to resume",
+          "value": "ASK"
+        },
+        {
+          "label": "Always resume",
+          "value": "ALWAYS"
+        },
+        {
+          "label": "Never resume",
+          "value": "NEVER"
+        }
+      ],
+      "classification": "related_packaged_control",
+      "notes": "False means the never-ask toggle is off. Android ASK is related; false alone does not prove native resume policy.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Casting.plist",
+          "specifier_index": 4,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": {
+          "file": "prior-analysis/android-resources/resources/res/xml/preferences_casting_dialogs.xml",
+          "line": 17
+        }
+      }
+    },
+    {
+      "ios_key": "route_through_phone",
+      "ios_title": "Route through phone",
+      "ios_screen": "Casting",
+      "ios_default": {
+        "source": "plist",
+        "value": "ask",
+        "label": "Prompt"
+      },
+      "ios_options": [
+        {
+          "label": "Prompt",
+          "value": "ask"
+        },
+        {
+          "label": "Always route",
+          "value": "always"
+        },
+        {
+          "label": "Never route",
+          "value": "never"
+        }
+      ],
+      "android_key": "pref_key_route_through_phone",
+      "android_title": "Route through phone",
+      "android_default": {
+        "value": "ASK",
+        "source": "code",
+        "label": "Ask whether to route"
+      },
+      "android_options": [
+        {
+          "label": "Ask whether to route",
+          "value": "ASK"
+        },
+        {
+          "label": "Always route",
+          "value": "ALWAYS"
+        },
+        {
+          "label": "Never route",
+          "value": "NEVER"
+        }
+      ],
+      "classification": "related_packaged_control",
+      "notes": "Compare user-visible meaning; key/value equality is not required.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Casting.plist",
+          "specifier_index": 5,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": {
+          "file": "prior-analysis/android-resources/resources/res/xml/preferences_casting_dialogs.xml",
+          "line": 28
+        }
+      }
+    },
+    {
+      "ios_key": "enable_played_dialog",
+      "ios_title": "Show video played dialog",
+      "ios_screen": "Casting",
+      "ios_default": {
+        "source": "plist",
+        "value": true,
+        "label": "On"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": "pref_enable_played_dialog",
+      "android_title": "Show video played dialog",
+      "android_default": {
+        "source": "xml",
+        "value": true,
+        "raw": "true",
+        "label": "On"
+      },
+      "android_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "classification": "related_packaged_control",
+      "notes": "Compare user-visible meaning; key/value equality is not required.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Casting.plist",
+          "specifier_index": 6,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": {
+          "file": "prior-analysis/android-resources/resources/res/xml/preferences_casting_dialogs.xml",
+          "line": 88
+        }
+      }
+    },
+    {
+      "ios_key": "prefer_app",
+      "ios_title": "Prefer TV Application",
+      "ios_screen": "Casting",
+      "ios_default": {
+        "source": "plist",
+        "value": "0",
+        "label": "Prompt"
+      },
+      "ios_options": [
+        {
+          "label": "Prompt",
+          "value": "0"
+        },
+        {
+          "label": "Always Prefer",
+          "value": "1"
+        },
+        {
+          "label": "Never Prefer",
+          "value": "2"
+        }
+      ],
+      "android_key": "pref_prefer_tv_app",
+      "android_title": "Prefer TV Application",
+      "android_default": {
+        "value": "1",
+        "source": "code",
+        "label": "Prompt"
+      },
+      "android_options": [
+        {
+          "label": "Always Prefer",
+          "value": "0"
+        },
+        {
+          "label": "Prompt",
+          "value": "1"
+        },
+        {
+          "label": "Never Prefer",
+          "value": "2"
+        }
+      ],
+      "classification": "related_packaged_control",
+      "notes": "Both default to Prompt despite different stored values (iOS 0, Android 1).",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Casting.plist",
+          "specifier_index": 7,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": {
+          "file": "prior-analysis/android-resources/resources/res/xml/preferences_casting_dialogs.xml",
+          "line": 129
+        }
+      }
+    },
+    {
+      "ios_key": "allow_wvcconnect",
+      "ios_title": "Receiver Connection Prompt",
+      "ios_screen": "Casting",
+      "ios_default": {
+        "source": "plist",
+        "value": "prompt",
+        "label": "Prompt"
+      },
+      "ios_options": [
+        {
+          "label": "Prompt",
+          "value": "prompt"
+        },
+        {
+          "label": "Always Accept",
+          "value": "always"
+        },
+        {
+          "label": "Always Decline",
+          "value": "never"
+        }
+      ],
+      "android_key": "pref_receiver_connection_request_action",
+      "android_title": "Receiver connection prompt",
+      "android_default": {
+        "value": "PROMPT",
+        "source": "code",
+        "label": "Prompt"
+      },
+      "android_options": [
+        {
+          "label": "Prompt",
+          "value": "PROMPT"
+        },
+        {
+          "label": "Always accept",
+          "value": "ACCEPT"
+        },
+        {
+          "label": "Always decline",
+          "value": "DECLINE"
+        }
+      ],
+      "classification": "related_packaged_control",
+      "notes": "Both default to prompting; option labels/storage differ.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Casting.plist",
+          "specifier_index": 8,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": {
+          "file": "prior-analysis/android-resources/resources/res/xml/preferences_casting_dialogs.xml",
+          "line": 140
+        }
+      }
+    },
+    {
+      "ios_key": "ts_video_convert_always",
+      "ios_title": "Convert m3u8 videos to ts",
+      "ios_screen": "Casting",
+      "ios_default": {
+        "source": "plist",
+        "value": "0",
+        "label": "Prompt"
+      },
+      "ios_options": [
+        {
+          "label": "Prompt",
+          "value": "0"
+        },
+        {
+          "label": "Always Convert",
+          "value": "1"
+        },
+        {
+          "label": "Never Convert",
+          "value": "2"
+        }
+      ],
+      "android_key": "pref_convert_m3u8_always",
+      "android_title": "Convert m3u8 videos to ts",
+      "android_default": {
+        "source": "xml",
+        "value": false,
+        "raw": "false",
+        "label": "Off"
+      },
+      "android_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "classification": "related_packaged_control",
+      "notes": "Compare user-visible meaning; key/value equality is not required.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Casting.plist",
+          "specifier_index": 9,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": {
+          "file": "prior-analysis/android-resources/resources/res/xml/preferences_casting_dialogs.xml",
+          "line": 58
+        }
+      }
+    },
+    {
+      "ios_key": "skip_back_seconds",
+      "ios_title": "Skip back seconds",
+      "ios_screen": "Casting",
+      "ios_default": {
+        "source": "plist",
+        "value": "30",
+        "label": "30"
+      },
+      "ios_options": [
+        {
+          "label": "5",
+          "value": "5"
+        },
+        {
+          "label": "15",
+          "value": "15"
+        },
+        {
+          "label": "30",
+          "value": "30"
+        },
+        {
+          "label": "60",
+          "value": "60"
+        }
+      ],
+      "android_key": "pref_rewind",
+      "android_title": "Skip back seconds",
+      "android_default": {
+        "source": "xml",
+        "value": "30",
+        "raw": "30"
+      },
+      "android_options": [],
+      "classification": "related_packaged_control",
+      "notes": "Compare user-visible meaning; key/value equality is not required.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Casting.plist",
+          "specifier_index": 11,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": {
+          "file": "prior-analysis/android-resources/resources/res/xml/preferences_casting_media_control.xml",
+          "line": 8
+        }
+      }
+    },
+    {
+      "ios_key": "skip_forward_seconds",
+      "ios_title": "Skip forward seconds",
+      "ios_screen": "Casting",
+      "ios_default": {
+        "source": "plist",
+        "value": "15",
+        "label": "15"
+      },
+      "ios_options": [
+        {
+          "label": "5",
+          "value": "5"
+        },
+        {
+          "label": "15",
+          "value": "15"
+        },
+        {
+          "label": "30",
+          "value": "30"
+        },
+        {
+          "label": "60",
+          "value": "60"
+        }
+      ],
+      "android_key": "pref_forward",
+      "android_title": "Skip forward seconds",
+      "android_default": {
+        "source": "xml",
+        "value": "15",
+        "raw": "15"
+      },
+      "android_options": [],
+      "classification": "related_packaged_control",
+      "notes": "Compare user-visible meaning; key/value equality is not required.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Casting.plist",
+          "specifier_index": 12,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": {
+          "file": "prior-analysis/android-resources/resources/res/xml/preferences_casting_media_control.xml",
+          "line": 21
+        }
+      }
+    },
+    {
+      "ios_key": "show_now_playing_controls",
+      "ios_title": "Show Now Playing media controls on lock screen",
+      "ios_screen": "Casting",
+      "ios_default": {
+        "source": "plist",
+        "value": true,
+        "label": "On"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Casting.plist",
+          "specifier_index": 13,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "prevent_screen_lock",
+      "ios_title": "Prevent Screen Lock",
+      "ios_screen": "Casting",
+      "ios_default": {
+        "source": "plist",
+        "value": true,
+        "label": "On"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": "pref_key_wake_lock",
+      "android_title": "Maintain wake/wifi lock during playback",
+      "android_default": {
+        "source": "xml",
+        "value": false,
+        "raw": "false",
+        "label": "Off"
+      },
+      "android_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "classification": "related_packaged_control",
+      "notes": "iOS description concerns routing video through phone. Android wake/Wi-Fi lock is related, not the same OS behavior.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Casting.plist",
+          "specifier_index": 14,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": {
+          "file": "prior-analysis/android-resources/resources/res/xml/preferences_advanced.xml",
+          "line": 6
+        }
+      }
+    },
+    {
+      "ios_key": "open_playback_control",
+      "ios_title": "Auto open playback control screen",
+      "ios_screen": "Casting",
+      "ios_default": {
+        "source": "plist",
+        "value": true,
+        "label": "On"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": "pref_open_playback_control",
+      "android_title": "Auto open playback control screen",
+      "android_default": {
+        "source": "xml",
+        "value": true,
+        "raw": "true",
+        "label": "On"
+      },
+      "android_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "classification": "related_packaged_control",
+      "notes": "Compare user-visible meaning; key/value equality is not required.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Casting.plist",
+          "specifier_index": 15,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": {
+          "file": "prior-analysis/android-resources/resources/res/xml/preferences_casting_media_control.xml",
+          "line": 62
+        }
+      }
+    },
+    {
+      "ios_key": "disable_volume_buttons",
+      "ios_title": "Disable volume buttons while casting",
+      "ios_screen": "Casting",
+      "ios_default": {
+        "source": "plist",
+        "value": false,
+        "label": "Off"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": "pref_disable_volume_buttons",
+      "android_title": "Disable volume buttons while casting",
+      "android_default": {
+        "source": "xml",
+        "value": false,
+        "raw": "false",
+        "label": "Off"
+      },
+      "android_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "classification": "related_packaged_control",
+      "notes": "Compare user-visible meaning; key/value equality is not required.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Casting.plist",
+          "specifier_index": 16,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": {
+          "file": "prior-analysis/android-resources/resources/res/xml/preferences_casting_media_control.xml",
+          "line": 32
+        }
+      }
+    },
+    {
+      "ios_key": "reconnect_to_streaming_device",
+      "ios_title": "Reconnect to streaming device",
+      "ios_screen": "Casting",
+      "ios_default": {
+        "source": "plist",
+        "value": true,
+        "label": "On"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": "pref_key_reconnect",
+      "android_title": "Reconnect to streaming device",
+      "android_default": {
+        "source": "xml",
+        "value": true,
+        "raw": "true",
+        "label": "On"
+      },
+      "android_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "classification": "related_packaged_control",
+      "notes": "Compare user-visible meaning; key/value equality is not required.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Casting.plist",
+          "specifier_index": 18,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": {
+          "file": "prior-analysis/android-resources/resources/res/xml/preferences_casting_other.xml",
+          "line": 6
+        }
+      }
+    },
+    {
+      "ios_key": "disable_thumbnails",
+      "ios_title": "Disable thumbnail extraction",
+      "ios_screen": "Casting",
+      "ios_default": {
+        "source": "plist",
+        "value": false,
+        "label": "Off"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": "pref_disable_thumbnails",
+      "android_title": "Disable thumbnail extraction",
+      "android_default": {
+        "source": "xml",
+        "value": true,
+        "raw": "@bool/isAndroid10OrOlder",
+        "label": "On"
+      },
+      "android_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "classification": "related_packaged_control",
+      "notes": "Compare user-visible meaning; key/value equality is not required.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Casting.plist",
+          "specifier_index": 19,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": {
+          "file": "prior-analysis/android-resources/resources/res/xml/preferences_casting_other.xml",
+          "line": 26
+        }
+      }
+    },
+    {
+      "ios_key": "chromecast_receiver_type",
+      "ios_title": "Chromecast Receiver Type",
+      "ios_screen": "Casting",
+      "ios_default": {
+        "source": "plist",
+        "value": "default",
+        "label": "Default"
+      },
+      "ios_options": [
+        {
+          "label": "Default",
+          "value": "default"
+        },
+        {
+          "label": "Google's Recommended HLS Player",
+          "value": "shaka_hls"
+        },
+        {
+          "label": "HLS Chromecast Alternative",
+          "value": "hlsjs"
+        },
+        {
+          "label": "Google's Legacy HLS Player",
+          "value": "legacy_hls"
+        },
+        {
+          "label": "WVC's Experimental Receiver",
+          "value": "experimental"
+        },
+        {
+          "label": "Prefer Android TV receiver",
+          "value": "android_tv"
+        }
+      ],
+      "android_key": "pref_chromecast_receiver_type",
+      "android_title": "Chromecast Receiver Type",
+      "android_default": {
+        "source": "xml",
+        "value": "false",
+        "raw": "false"
+      },
+      "android_options": [
+        {
+          "label": "Default",
+          "value": "0"
+        },
+        {
+          "label": "Google's Recommended HLS Player",
+          "value": "1"
+        },
+        {
+          "label": "HLS Chromecast Alternative",
+          "value": "2"
+        },
+        {
+          "label": "Google's Legacy HLS Player",
+          "value": "3"
+        },
+        {
+          "label": "WVC's Experimental Receiver",
+          "value": "4"
+        },
+        {
+          "label": "Prefer Android TV receiver",
+          "value": "5"
+        }
+      ],
+      "classification": "related_packaged_control",
+      "notes": "iOS has a valid default selector. Android XML false is outside its values; traced native fallback is DEFAULT/0.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Casting.plist",
+          "specifier_index": 20,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": {
+          "file": "prior-analysis/android-resources/resources/res/xml/preferences_casting_other.xml",
+          "line": 57
+        }
+      }
+    },
+    {
+      "ios_key": "alternate_cast_fire_tv",
+      "ios_title": "Legacy Amazon Fire TV Casting",
+      "ios_screen": "Casting",
+      "ios_default": {
+        "source": "plist",
+        "value": false,
+        "label": "Off"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Casting.plist",
+          "specifier_index": 21,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "airplay_auto_connect",
+      "ios_title": "Accept AirPlay auto connect",
+      "ios_screen": "Casting",
+      "ios_default": {
+        "source": "plist",
+        "value": false,
+        "label": "Off"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Casting.plist",
+          "specifier_index": 22,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "use_old_videojs",
+      "ios_title": "Web Receiver compatibility mode",
+      "ios_screen": "Casting",
+      "ios_default": {
+        "source": "plist",
+        "value": false,
+        "label": "Off"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": "pref_videojs_version",
+      "android_title": "Web Receiver compatibility mode",
+      "android_default": {
+        "source": "not_declared",
+        "value": null
+      },
+      "android_options": [
+        {
+          "label": "Default",
+          "value": "7"
+        },
+        {
+          "label": "Compatibility mode 1",
+          "value": "6"
+        },
+        {
+          "label": "Compatibility mode 2",
+          "value": "5"
+        }
+      ],
+      "classification": "related_packaged_control",
+      "notes": "iOS boolean compatibility switch versus Android three-choice list; Android effective fresh version unresolved.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Casting.plist",
+          "specifier_index": 23,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": {
+          "file": "prior-analysis/android-resources/resources/res/xml/preferences_casting_other.xml",
+          "line": 69
+        }
+      }
+    },
+    {
+      "ios_key": "ip_preference",
+      "ios_title": "Internet Protocol Type",
+      "ios_screen": "Casting",
+      "ios_default": {
+        "source": "plist",
+        "value": "preferIPv4",
+        "label": "Prefer IPv4"
+      },
+      "ios_options": [
+        {
+          "label": "Prefer IPv4",
+          "value": "preferIPv4"
+        },
+        {
+          "label": "Prefer IPv6",
+          "value": "preferIPv6"
+        },
+        {
+          "label": "IPv4 Only",
+          "value": "ipv4Only"
+        },
+        {
+          "label": "IPv6 Only",
+          "value": "ipv6Only"
+        }
+      ],
+      "android_key": "pref_ip_preference",
+      "android_title": "Internet Protocol Type",
+      "android_default": {
+        "source": "xml",
+        "value": "prefer_ipv4",
+        "raw": "prefer_ipv4"
+      },
+      "android_options": [
+        {
+          "label": "Prefer IPv4",
+          "value": "0"
+        },
+        {
+          "label": "Prefer IPv6",
+          "value": "1"
+        },
+        {
+          "label": "IPv4 Only",
+          "value": "2"
+        },
+        {
+          "label": "IPv6 Only",
+          "value": "3"
+        }
+      ],
+      "classification": "related_packaged_control",
+      "notes": "iOS preferIPv4 matches its values. Android XML prefer_ipv4 is outside its numbered values; effective fallback unresolved.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Casting.plist",
+          "specifier_index": 24,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": {
+          "file": "prior-analysis/android-resources/resources/res/xml/preferences_casting_other.xml",
+          "line": 112
+        }
+      }
+    },
+    {
+      "ios_key": "download_prompt_location",
+      "ios_title": "Prompt for download location",
+      "ios_screen": "Downloads",
+      "ios_default": {
+        "source": "plist",
+        "value": false,
+        "label": "Off"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Downloads.plist",
+          "specifier_index": 2,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "download_wifi",
+      "ios_title": "Download only on wifi",
+      "ios_screen": "Downloads",
+      "ios_default": {
+        "source": "plist",
+        "value": false,
+        "label": "Off"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": "pref_download_wifi",
+      "android_title": "Download only on wifi",
+      "android_default": {
+        "source": "xml",
+        "value": true,
+        "raw": "true",
+        "label": "On"
+      },
+      "android_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "classification": "related_packaged_control",
+      "notes": "Compare user-visible meaning; key/value equality is not required.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Downloads.plist",
+          "specifier_index": 3,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": {
+          "file": "prior-analysis/android-resources/resources/res/xml/preferences_downloads.xml",
+          "line": 6
+        }
+      }
+    },
+    {
+      "ios_key": "auto_convert_ts_downloads",
+      "ios_title": "Convert downloaded TS files to HLS when casting",
+      "ios_screen": "Downloads",
+      "ios_default": {
+        "source": "plist",
+        "value": true,
+        "label": "On"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Downloads.plist",
+          "specifier_index": 5,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "on_screen_console",
+      "ios_title": "On-Screen Console",
+      "ios_screen": "Hidden",
+      "ios_default": {
+        "source": "plist",
+        "value": false,
+        "label": "Off"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Hidden.plist",
+          "specifier_index": 2,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "on_screen_line_limit",
+      "ios_title": "On-Screen Line Limit",
+      "ios_screen": "Hidden",
+      "ios_default": {
+        "source": "plist",
+        "value": 100
+      },
+      "ios_options": [],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Hidden.plist",
+          "specifier_index": 3,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "on_screen_debug_level",
+      "ios_title": "Debug Level",
+      "ios_screen": "Hidden",
+      "ios_default": {
+        "source": "plist",
+        "value": 0,
+        "label": "Debug"
+      },
+      "ios_options": [
+        {
+          "label": "Debug",
+          "value": 0
+        },
+        {
+          "label": "Info",
+          "value": 1
+        },
+        {
+          "label": "Warning",
+          "value": 2
+        },
+        {
+          "label": "Error",
+          "value": 3
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Hidden.plist",
+          "specifier_index": 4,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "debug_use_hlsjs",
+      "ios_title": "Use hlsjs",
+      "ios_screen": "Hidden",
+      "ios_default": {
+        "source": "plist",
+        "value": "default",
+        "label": "Default"
+      },
+      "ios_options": [
+        {
+          "label": "Default",
+          "value": "default"
+        },
+        {
+          "label": "Always",
+          "value": "always"
+        },
+        {
+          "label": "Never",
+          "value": "never"
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Hidden.plist",
+          "specifier_index": 5,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "in_app_share_menu",
+      "ios_title": "Show Share Menu",
+      "ios_screen": "Hidden",
+      "ios_default": {
+        "source": "plist",
+        "value": true,
+        "label": "On"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Hidden.plist",
+          "specifier_index": 7,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "inject_javascript",
+      "ios_title": "Inject video detection Javascript",
+      "ios_screen": "Hidden",
+      "ios_default": {
+        "source": "plist",
+        "value": true,
+        "label": "On"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": "pref_enable_inject",
+      "android_title": "Advanced video detection",
+      "android_default": {
+        "source": "xml",
+        "value": true,
+        "raw": "true",
+        "label": "On"
+      },
+      "android_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "classification": "related_packaged_control",
+      "notes": "Unlinked Hidden pane. Visibility/access unverified; not a normal Root-linked setting.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Hidden.plist",
+          "specifier_index": 9,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": {
+          "file": "prior-analysis/android-resources/resources/res/xml/preferences_media_detection.xml",
+          "line": 16
+        }
+      }
+    },
+    {
+      "ios_key": "block_redirect_in_iframes",
+      "ios_title": "Block redirect in iFrames",
+      "ios_screen": "Hidden",
+      "ios_default": {
+        "source": "plist",
+        "value": false,
+        "label": "Off"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Hidden.plist",
+          "specifier_index": 10,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "block_console_detection",
+      "ios_title": "Block Console Detection",
+      "ios_screen": "Hidden",
+      "ios_default": {
+        "source": "plist",
+        "value": false,
+        "label": "Off"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Hidden.plist",
+          "specifier_index": 11,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "always_have_download_permission",
+      "ios_title": "Always Have Download Permission",
+      "ios_screen": "Hidden",
+      "ios_default": {
+        "source": "plist",
+        "value": false,
+        "label": "Off"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Hidden.plist",
+          "specifier_index": 13,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "onboard_complete",
+      "ios_title": "Onboard Complete",
+      "ios_screen": "Hidden",
+      "ios_default": {
+        "source": "plist",
+        "value": false,
+        "label": "Off"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Hidden.plist",
+          "specifier_index": 14,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "reset_rate_us",
+      "ios_title": "Reset Rate Us",
+      "ios_screen": "Hidden",
+      "ios_default": {
+        "source": "plist",
+        "value": false,
+        "label": "Off"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Hidden.plist",
+          "specifier_index": 15,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "reset_consent_dialog",
+      "ios_title": "Reset Consent Dialog",
+      "ios_screen": "Hidden",
+      "ios_default": {
+        "source": "plist",
+        "value": false,
+        "label": "Off"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Hidden.plist",
+          "specifier_index": 16,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "allow_erase_all_settings",
+      "ios_title": "Allow erasing of all settings",
+      "ios_screen": "Hidden",
+      "ios_default": {
+        "source": "plist",
+        "value": false,
+        "label": "Off"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Hidden.plist",
+          "specifier_index": 18,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "rotation_setting",
+      "ios_title": "Player Rotation",
+      "ios_screen": "InAppPlayer",
+      "ios_default": {
+        "source": "plist",
+        "value": "match_video",
+        "label": "Match Video Size"
+      },
+      "ios_options": [
+        {
+          "label": "Match Phone Position",
+          "value": "follow_phone"
+        },
+        {
+          "label": "Match Video Size",
+          "value": "match_video"
+        },
+        {
+          "label": "Always Landscape",
+          "value": "always_landscape_right"
+        },
+        {
+          "label": "Always Portrait",
+          "value": "always_portrait"
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/InAppPlayer.plist",
+          "specifier_index": 2,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "in_app_renderer",
+      "ios_title": "Video Renderer",
+      "ios_screen": "InAppPlayer",
+      "ios_default": {
+        "source": "plist",
+        "value": "auto",
+        "label": "Best for video type"
+      },
+      "ios_options": [
+        {
+          "label": "Best for video type",
+          "value": "auto"
+        },
+        {
+          "label": "Apple AVPlayer",
+          "value": "avplayer"
+        },
+        {
+          "label": "VLCKit",
+          "value": "vlckit"
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/InAppPlayer.plist",
+          "specifier_index": 3,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "in_app_repeat",
+      "ios_title": "Always repeat video",
+      "ios_screen": "InAppPlayer",
+      "ios_default": {
+        "source": "plist",
+        "value": false,
+        "label": "Off"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": "pref_in_app_player_repeat_playlists_always",
+      "android_title": "Always repeat playlists",
+      "android_default": {
+        "source": "xml",
+        "value": false,
+        "raw": "false",
+        "label": "Off"
+      },
+      "android_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "classification": "related_packaged_control",
+      "notes": "iOS repeats video; Android row repeats playlists. Related but different scope.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/InAppPlayer.plist",
+          "specifier_index": 4,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": {
+          "file": "prior-analysis/android-resources/resources/res/xml/preferences_in_app_player.xml",
+          "line": 28
+        }
+      }
+    },
+    {
+      "ios_key": "in_app_mute",
+      "ios_title": "Always mute video",
+      "ios_screen": "InAppPlayer",
+      "ios_default": {
+        "source": "plist",
+        "value": false,
+        "label": "Off"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": "pref_in_app_player_always_mute",
+      "android_title": "Always mute videos",
+      "android_default": {
+        "source": "xml",
+        "value": false,
+        "raw": "false",
+        "label": "Off"
+      },
+      "android_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "classification": "related_packaged_control",
+      "notes": "Compare user-visible meaning; key/value equality is not required.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/InAppPlayer.plist",
+          "specifier_index": 5,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": {
+          "file": "prior-analysis/android-resources/resources/res/xml/preferences_in_app_player.xml",
+          "line": 78
+        }
+      }
+    },
+    {
+      "ios_key": "in_app_brightness_gesture",
+      "ios_title": "Left side swipe up or down to adjust brightness",
+      "ios_screen": "InAppPlayer",
+      "ios_default": {
+        "source": "plist",
+        "value": true,
+        "label": "On"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": "pref_in_app_player_gesture_brightness_via_swipe",
+      "android_title": "Swipe to adjust brightness",
+      "android_default": {
+        "source": "xml",
+        "value": true,
+        "raw": "true",
+        "label": "On"
+      },
+      "android_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "classification": "related_packaged_control",
+      "notes": "Compare user-visible meaning; key/value equality is not required.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/InAppPlayer.plist",
+          "specifier_index": 7,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": {
+          "file": "prior-analysis/android-resources/resources/res/xml/preferences_in_app_player_gestures.xml",
+          "line": 26
+        }
+      }
+    },
+    {
+      "ios_key": "in_app_volume_gesture",
+      "ios_title": "Right side swipe up or down to adjust volume",
+      "ios_screen": "InAppPlayer",
+      "ios_default": {
+        "source": "plist",
+        "value": true,
+        "label": "On"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": "pref_in_app_player_gesture_volume_via_swipe",
+      "android_title": "Swipe to adjust volume",
+      "android_default": {
+        "source": "xml",
+        "value": true,
+        "raw": "true",
+        "label": "On"
+      },
+      "android_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "classification": "related_packaged_control",
+      "notes": "Compare user-visible meaning; key/value equality is not required.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/InAppPlayer.plist",
+          "specifier_index": 8,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": {
+          "file": "prior-analysis/android-resources/resources/res/xml/preferences_in_app_player_gestures.xml",
+          "line": 36
+        }
+      }
+    },
+    {
+      "ios_key": "in_app_skip_gesture",
+      "ios_title": "Swipe left or right to skip forward or backward",
+      "ios_screen": "InAppPlayer",
+      "ios_default": {
+        "source": "plist",
+        "value": true,
+        "label": "On"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": "pref_in_app_player_gesture_skip_via_swipe",
+      "android_title": "Swipe to skip",
+      "android_default": {
+        "source": "xml",
+        "value": true,
+        "raw": "true",
+        "label": "On"
+      },
+      "android_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "classification": "related_packaged_control",
+      "notes": "Compare user-visible meaning; key/value equality is not required.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/InAppPlayer.plist",
+          "specifier_index": 9,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": {
+          "file": "prior-analysis/android-resources/resources/res/xml/preferences_in_app_player_gestures.xml",
+          "line": 16
+        }
+      }
+    },
+    {
+      "ios_key": "in_app_skip_tap_gesture",
+      "ios_title": "Double tap to pause or skip forward or backward",
+      "ios_screen": "InAppPlayer",
+      "ios_default": {
+        "source": "plist",
+        "value": true,
+        "label": "On"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": "pref_in_app_player_gesture_playback_via_double_tap",
+      "android_title": "Double-tap to control playback",
+      "android_default": {
+        "source": "xml",
+        "value": true,
+        "raw": "true",
+        "label": "On"
+      },
+      "android_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "classification": "related_packaged_control",
+      "notes": "Compare user-visible meaning; key/value equality is not required.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/InAppPlayer.plist",
+          "specifier_index": 10,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": {
+          "file": "prior-analysis/android-resources/resources/res/xml/preferences_in_app_player_gestures.xml",
+          "line": 6
+        }
+      }
+    },
+    {
+      "ios_key": "dark_mode",
+      "ios_title": "Dark/Light mode",
+      "ios_screen": "Personalization",
+      "ios_default": {
+        "source": "plist",
+        "value": 0,
+        "label": "System setting"
+      },
+      "ios_options": [
+        {
+          "label": "System setting",
+          "value": 0
+        },
+        {
+          "label": "Light mode",
+          "value": 1
+        },
+        {
+          "label": "Dark mode",
+          "value": 2
+        }
+      ],
+      "android_key": "pref_key_dark_mode",
+      "android_title": "Dark/Light mode",
+      "android_default": {
+        "value": "0",
+        "source": "code",
+        "label": "System setting"
+      },
+      "android_options": [
+        {
+          "label": "System setting",
+          "value": "0"
+        },
+        {
+          "label": "Dark mode",
+          "value": "1"
+        },
+        {
+          "label": "Light mode",
+          "value": "2"
+        }
+      ],
+      "classification": "related_packaged_control",
+      "notes": "Both default to system. iOS 1=Light, 2=Dark; Android 1=Dark, 2=Light. Never copy stored numeric values between platforms.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Personalization.plist",
+          "specifier_index": 2,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": {
+          "file": "prior-analysis/android-resources/resources/res/xml/preferences_personalization.xml",
+          "line": 7
+        }
+      }
+    },
+    {
+      "ios_key": "disable_error_reporting",
+      "ios_title": "Disable error and crash reporting",
+      "ios_screen": "Privacy",
+      "ios_default": {
+        "source": "plist",
+        "value": false,
+        "label": "Off"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": "pref_disable_error_reporting",
+      "android_title": "Disable error and crash reporting",
+      "android_default": {
+        "source": "xml",
+        "value": false,
+        "raw": "false",
+        "label": "Off"
+      },
+      "android_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "classification": "related_packaged_control",
+      "notes": "Compare user-visible meaning; key/value equality is not required.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Privacy.plist",
+          "specifier_index": 2,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": {
+          "file": "prior-analysis/android-resources/resources/res/xml/preferences_privacy.xml",
+          "line": 6
+        }
+      }
+    },
+    {
+      "ios_key": "video_domain_reporting",
+      "ios_title": "Disable anonymous domain reporting",
+      "ios_screen": "Privacy",
+      "ios_default": {
+        "source": "plist",
+        "value": false,
+        "label": "Off"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Privacy.plist",
+          "specifier_index": 3,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "delete_analytics_data",
+      "ios_title": "Reset privacy settings",
+      "ios_screen": "Privacy",
+      "ios_default": {
+        "source": "plist",
+        "value": false,
+        "label": "Off"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": "pref_delete_analytics_data",
+      "android_title": "Reset privacy settings",
+      "android_default": {
+        "source": "not_applicable",
+        "value": null
+      },
+      "android_options": [],
+      "classification": "related_packaged_control",
+      "notes": "iOS declares a false reset toggle; Android is an action. Native reset effect unverified.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/Privacy.plist",
+          "specifier_index": 4,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": {
+          "file": "prior-analysis/android-resources/resources/res/xml/preferences_privacy.xml",
+          "line": 16
+        }
+      }
+    },
+    {
+      "ios_key": "auto_video_list",
+      "ios_title": "Auto play video or show list",
+      "ios_screen": "VideoDetection",
+      "ios_default": {
+        "source": "plist",
+        "value": true,
+        "label": "On"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": "pref_enable_auto_video_list",
+      "android_title": "Auto play video or show list",
+      "android_default": {
+        "source": "xml",
+        "value": true,
+        "raw": "true",
+        "label": "On"
+      },
+      "android_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "classification": "related_packaged_control",
+      "notes": "Compare user-visible meaning; key/value equality is not required.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/VideoDetection.plist",
+          "specifier_index": 2,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": {
+          "file": "prior-analysis/android-resources/resources/res/xml/preferences_media_detection.xml",
+          "line": 26
+        }
+      }
+    },
+    {
+      "ios_key": "hide_m3u8_no_audio",
+      "ios_title": "Hide m3u8 with no audio",
+      "ios_screen": "VideoDetection",
+      "ios_default": {
+        "source": "plist",
+        "value": true,
+        "label": "On"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": "pref_hide_m3u8_no_audio",
+      "android_title": "Hide m3u8 with no audio",
+      "android_default": {
+        "source": "xml",
+        "value": true,
+        "raw": "true",
+        "label": "On"
+      },
+      "android_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "classification": "related_packaged_control",
+      "notes": "Compare user-visible meaning; key/value equality is not required.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/VideoDetection.plist",
+          "specifier_index": 3,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": {
+          "file": "prior-analysis/android-resources/resources/res/xml/preferences_media_detection.xml",
+          "line": 36
+        }
+      }
+    },
+    {
+      "ios_key": "videos_detected_badge",
+      "ios_title": "Video count badge",
+      "ios_screen": "VideoDetection",
+      "ios_default": {
+        "source": "plist",
+        "value": true,
+        "label": "On"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/VideoDetection.plist",
+          "specifier_index": 4,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "xhr_override",
+      "ios_title": "Video detection 1",
+      "ios_screen": "VideoDetection",
+      "ios_default": {
+        "source": "plist",
+        "value": true,
+        "label": "On"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/VideoDetection.plist",
+          "specifier_index": 5,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    },
+    {
+      "ios_key": "shadow_override",
+      "ios_title": "Advanced video detection",
+      "ios_screen": "VideoDetection",
+      "ios_default": {
+        "source": "plist",
+        "value": true,
+        "label": "On"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": "pref_enable_inject",
+      "android_title": "Advanced video detection",
+      "android_default": {
+        "source": "xml",
+        "value": true,
+        "raw": "true",
+        "label": "On"
+      },
+      "android_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "classification": "related_packaged_control",
+      "notes": "Same label does not prove same implementation; iOS key shadow_override is a hint, not confirmation of exact native mechanism.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/VideoDetection.plist",
+          "specifier_index": 6,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": {
+          "file": "prior-analysis/android-resources/resources/res/xml/preferences_media_detection.xml",
+          "line": 16
+        }
+      }
+    },
+    {
+      "ios_key": "video_long_press",
+      "ios_title": "Long press option to cast on images and videos",
+      "ios_screen": "VideoDetection",
+      "ios_default": {
+        "source": "plist",
+        "value": true,
+        "label": "On"
+      },
+      "ios_options": [
+        {
+          "label": "Off",
+          "value": false
+        },
+        {
+          "label": "On",
+          "value": true
+        }
+      ],
+      "android_key": null,
+      "android_title": null,
+      "android_default": null,
+      "android_options": null,
+      "classification": "no_direct_packaged_control_matched",
+      "notes": "Unmatched in this settings comparison does not prove absence from Android runtime dialogs or code.",
+      "evidence": {
+        "ios": {
+          "file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/VideoDetection.plist",
+          "specifier_index": 7,
+          "localization_file": "extracted/ios/Payload/WebVideoCaster.app/Settings.bundle/en.lproj/Root.strings"
+        },
+        "android": null
+      }
+    }
+  ],
+  "android_unmatched_rows": [
+    {
+      "key": "pref_disable_transition_animations",
+      "title": "Disable transition animations",
+      "default": {
+        "source": "xml",
+        "value": false,
+        "raw": "false",
+        "label": "Off"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_advanced.xml",
+        "line": 16
+      }
+    },
+    {
+      "key": "pref_key_disable_google_play_services_warning",
+      "title": "Disable Google Play Services warnings",
+      "default": {
+        "source": "xml",
+        "value": false,
+        "raw": "false",
+        "label": "Off"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_advanced.xml",
+        "line": 26
+      }
+    },
+    {
+      "key": "pref_log_ad_block",
+      "title": "Log ad blocker details",
+      "default": {
+        "source": "xml",
+        "value": false,
+        "raw": "false",
+        "label": "Off"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_advanced.xml",
+        "line": 37
+      }
+    },
+    {
+      "key": "pref_preferences_restore_defaults",
+      "title": "Restore defaults",
+      "default": {
+        "source": "not_applicable",
+        "value": null
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_advanced.xml",
+        "line": 64
+      }
+    },
+    {
+      "key": "pref_proxy_m3u8_proxifier_type",
+      "title": "Operating mode",
+      "default": {
+        "source": "xml",
+        "value": "REMOTE",
+        "raw": "REMOTE",
+        "label": "Option A"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_advanced_proxy_m3u8.xml",
+        "line": 7
+      }
+    },
+    {
+      "key": "pref_proxy_m3u8_url_generator_type",
+      "title": "Generation mode",
+      "default": {
+        "source": "xml",
+        "value": "REMOTE",
+        "raw": "REMOTE",
+        "label": "Option A"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_advanced_proxy_m3u8.xml",
+        "line": 18
+      }
+    },
+    {
+      "key": "pref_use_webview_hardware_layer",
+      "title": "Use hardware layer",
+      "default": {
+        "source": "xml",
+        "value": false,
+        "raw": "false",
+        "label": "Off"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_browser_advanced.xml",
+        "line": 6
+      }
+    },
+    {
+      "key": "pref_browser_tab_lazy_load_enable",
+      "title": "Load tabs lazily after restoration",
+      "default": {
+        "source": "xml",
+        "value": true,
+        "raw": "true",
+        "label": "On"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_browser_advanced.xml",
+        "line": 16
+      }
+    },
+    {
+      "key": "pref_max_active_webview_tabs",
+      "title": "Max active tabs",
+      "default": {
+        "source": "xml",
+        "value": "3",
+        "raw": "3"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_browser_advanced.xml",
+        "line": 26
+      }
+    },
+    {
+      "key": "pref_max_active_incognito_webview_tabs",
+      "title": "Max active incognito tabs",
+      "default": {
+        "source": "xml",
+        "value": "3",
+        "raw": "3"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_browser_advanced.xml",
+        "line": 37
+      }
+    },
+    {
+      "key": "pref_webview_media_integrity_api_status",
+      "title": "Media Integrity API",
+      "default": {
+        "source": "xml",
+        "value": "0",
+        "raw": "0",
+        "label": "Disabled"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_browser_advanced.xml",
+        "line": 49
+      }
+    },
+    {
+      "key": "pref_reset_browser",
+      "title": "Reset browser",
+      "default": {
+        "source": "not_applicable",
+        "value": null
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_browser_advanced.xml",
+        "line": 60
+      }
+    },
+    {
+      "key": "pref_browser_start_screen",
+      "title": "Start screen",
+      "default": {
+        "value": "HOMEPAGE",
+        "source": "code",
+        "label": "Homepage (if set)"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_browser_browsing.xml",
+        "line": 7
+      }
+    },
+    {
+      "key": "pref_browser_tab_homepage",
+      "title": "Homepage for tabs",
+      "default": {
+        "source": "not_applicable",
+        "value": null
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_browser_browsing.xml",
+        "line": 26
+      }
+    },
+    {
+      "key": "pref_key_force_dark_mode",
+      "title": "Force web page dark mode",
+      "default": {
+        "value": "1",
+        "source": "code",
+        "label": "Auto"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_browser_browsing.xml",
+        "line": 36
+      }
+    },
+    {
+      "key": "pref_key_dark_mode_strategy",
+      "title": "Dark mode strategy for web pages",
+      "default": {
+        "value": "1",
+        "source": "code",
+        "label": "Web theme"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_browser_browsing.xml",
+        "line": 47
+      }
+    },
+    {
+      "key": "browserRegister",
+      "title": "Register as browser",
+      "default": {
+        "source": "xml",
+        "value": true,
+        "raw": "true",
+        "label": "On"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_browser_browsing.xml",
+        "line": 57
+      }
+    },
+    {
+      "key": "pref_render_process_gone_reopen_always",
+      "title": "Always reopen crashed tabs",
+      "default": {
+        "source": "xml",
+        "value": false,
+        "raw": "false",
+        "label": "Off"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_browser_browsing.xml",
+        "line": 78
+      }
+    },
+    {
+      "key": "pref_key_save_webview_state",
+      "title": "Save WebView state",
+      "default": {
+        "source": "xml",
+        "value": false,
+        "raw": "false",
+        "label": "Off"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_browser_browsing.xml",
+        "line": 88
+      }
+    },
+    {
+      "key": "pref_never_ask_to_close_tab",
+      "title": "Never confirm before closing tab",
+      "default": {
+        "source": "xml",
+        "value": false,
+        "raw": "false",
+        "label": "Off"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_browser_browsing.xml",
+        "line": 122
+      }
+    },
+    {
+      "key": "pref_key_disable_dash",
+      "title": "Disable MPEG-Dash (mpd) support",
+      "default": {
+        "source": "xml",
+        "value": false,
+        "raw": "false",
+        "label": "Off"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_browser_browsing.xml",
+        "line": 142
+      }
+    },
+    {
+      "key": "pref_use_sandboxing_fix",
+      "title": "Sandboxing error fix",
+      "default": {
+        "source": "xml",
+        "value": true,
+        "raw": "true",
+        "label": "On"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_browser_browsing.xml",
+        "line": 152
+      }
+    },
+    {
+      "key": "pref_browser_tab_manager_legacy_enable",
+      "title": "Use legacy Tab Manager",
+      "default": {
+        "source": "xml",
+        "value": false,
+        "raw": "false",
+        "label": "Off"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_browser_browsing.xml",
+        "line": 162
+      }
+    },
+    {
+      "key": "zoomControls",
+      "title": "Show zoom controls",
+      "default": {
+        "source": "xml",
+        "value": false,
+        "raw": "false",
+        "label": "Off"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_browser_controls.xml",
+        "line": 6
+      }
+    },
+    {
+      "key": "pref_user_gesture_play",
+      "title": "Require user touch to play video",
+      "default": {
+        "source": "xml",
+        "value": true,
+        "raw": "true",
+        "label": "On"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_browser_controls.xml",
+        "line": 16
+      }
+    },
+    {
+      "key": "pref_allowed_popups_addresses",
+      "title": "Allowed pop-ups",
+      "default": {
+        "source": "not_applicable",
+        "value": null
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_browser_popup_and_ad_blocking.xml",
+        "line": 16
+      }
+    },
+    {
+      "key": "pref_allow_popup_alert_without_gesture",
+      "title": "Allow pop-up alert without touch",
+      "default": {
+        "source": "xml",
+        "value": false,
+        "raw": "false",
+        "label": "Off"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_browser_popup_and_ad_blocking.xml",
+        "line": 25
+      }
+    },
+    {
+      "key": "pref_ad_block_lists",
+      "title": "Ad block lists",
+      "default": {
+        "source": "not_applicable",
+        "value": null
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_browser_popup_and_ad_blocking.xml",
+        "line": 45
+      }
+    },
+    {
+      "key": "pref_ad_block_reset",
+      "title": "Reset Ad Block",
+      "default": {
+        "source": "not_applicable",
+        "value": null
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_browser_popup_and_ad_blocking.xml",
+        "line": 54
+      }
+    },
+    {
+      "key": "pref_ad_redirect_ask_to_report",
+      "title": "Ask to report ad redirects",
+      "default": {
+        "source": "xml",
+        "value": true,
+        "raw": "true",
+        "label": "On"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_browser_popup_and_ad_blocking.xml",
+        "line": 83
+      }
+    },
+    {
+      "key": "pref_update_adblock_list_key",
+      "title": "Update adblock list automatically",
+      "default": {
+        "source": "xml",
+        "value": true,
+        "raw": "true",
+        "label": "On"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_browser_popup_and_ad_blocking.xml",
+        "line": 93
+      }
+    },
+    {
+      "key": "pref_external_app_launch_blocked_alert",
+      "title": "Alert for blocked external app launch",
+      "default": {
+        "source": "xml",
+        "value": true,
+        "raw": "true",
+        "label": "On"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_browser_popup_and_ad_blocking.xml",
+        "line": 103
+      }
+    },
+    {
+      "key": "pref_ssl_certificates_invalid_ignored",
+      "title": "Ignored invalid SSL certificates",
+      "default": {
+        "source": "not_applicable",
+        "value": null,
+        "declared_xml_value": "false"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_browser_ssl_certificates.xml",
+        "line": 6
+      }
+    },
+    {
+      "key": "pref_ssl_certificates_root",
+      "title": "CA certificates",
+      "default": {
+        "source": "not_applicable",
+        "value": null,
+        "declared_xml_value": "false"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_browser_ssl_certificates.xml",
+        "line": 16
+      }
+    },
+    {
+      "key": "pref_never_cast_video_ads",
+      "title": "Don't cast video ads",
+      "default": {
+        "source": "xml",
+        "value": false,
+        "raw": "false",
+        "label": "Off"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_casting_dialogs.xml",
+        "line": 38
+      }
+    },
+    {
+      "key": "pref_never_ask_cast_video_ads",
+      "title": "Never show video ad dialog",
+      "default": {
+        "source": "xml",
+        "value": false,
+        "raw": "false",
+        "label": "Off"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_casting_dialogs.xml",
+        "line": 48
+      }
+    },
+    {
+      "key": "pref_convert_m3u8_never",
+      "title": "Don't convert m3u8 videos to ts",
+      "default": {
+        "source": "xml",
+        "value": false,
+        "raw": "false",
+        "label": "Off"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_casting_dialogs.xml",
+        "line": 68
+      }
+    },
+    {
+      "key": "pref_use_final_redirect_always",
+      "title": "Resolve video redirects",
+      "default": {
+        "source": "xml",
+        "value": false,
+        "raw": "false",
+        "label": "Off"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_casting_dialogs.xml",
+        "line": 78
+      }
+    },
+    {
+      "key": "pref_enable_other_mime_types",
+      "title": "Use alternative file types for certain media files",
+      "default": {
+        "source": "xml",
+        "value": true,
+        "raw": "true",
+        "label": "On"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_casting_dialogs.xml",
+        "line": 98
+      }
+    },
+    {
+      "key": "pref_enable_mx_roku_videos",
+      "title": "Roku fix for certain countries.",
+      "default": {
+        "source": "xml",
+        "value": false,
+        "raw": "false",
+        "label": "Off"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_casting_dialogs.xml",
+        "line": 108
+      }
+    },
+    {
+      "key": "pref_never_ask_mx_roku_videos",
+      "title": "Never ask about Roku fix for certain countries.",
+      "default": {
+        "source": "xml",
+        "value": false,
+        "raw": "false",
+        "label": "Off"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_casting_dialogs.xml",
+        "line": 118
+      }
+    },
+    {
+      "key": "pref_pause_incoming_call",
+      "title": "Pause video on incoming call",
+      "default": {
+        "source": "xml",
+        "value": false,
+        "raw": "false",
+        "label": "Off"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_casting_media_control.xml",
+        "line": 42
+      }
+    },
+    {
+      "key": "pref_pause_answered_call",
+      "title": "Pause video when answering a call",
+      "default": {
+        "source": "xml",
+        "value": false,
+        "raw": "false",
+        "label": "Off"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_casting_media_control.xml",
+        "line": 52
+      }
+    },
+    {
+      "key": "pref_image_controller_gesture_next_previous_via_swipe",
+      "title": "Swipe for Next/Previous Image",
+      "default": {
+        "source": "xml",
+        "value": true,
+        "raw": "true",
+        "label": "On"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_casting_media_control_gestures.xml",
+        "line": 6
+      }
+    },
+    {
+      "key": "pref_dont_show_title",
+      "title": "Don't send title to streaming device",
+      "default": {
+        "source": "xml",
+        "value": false,
+        "raw": "false",
+        "label": "Off"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_casting_other.xml",
+        "line": 16
+      }
+    },
+    {
+      "key": "pref_use_w_1252_for_srt",
+      "title": "Special character issues on subtitles",
+      "default": {
+        "source": "xml",
+        "value": false,
+        "raw": "false",
+        "label": "Off"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_casting_other.xml",
+        "line": 36
+      }
+    },
+    {
+      "key": "pref_use_chromecast_notification",
+      "title": "Show Cast SDK notification",
+      "default": {
+        "source": "xml",
+        "value": false,
+        "raw": "false",
+        "label": "Off"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_casting_other.xml",
+        "line": 46
+      }
+    },
+    {
+      "key": "pref_enable_lockscreen_wallpaper",
+      "title": "Lockscreen wallpaper",
+      "default": {
+        "source": "xml",
+        "value": true,
+        "raw": "true",
+        "label": "On"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_casting_other.xml",
+        "line": 79
+      }
+    },
+    {
+      "key": "pref_playback_control_help_tips_show",
+      "title": "Show help tips",
+      "default": {
+        "source": "xml",
+        "value": true,
+        "raw": "true",
+        "label": "On"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_casting_other.xml",
+        "line": 89
+      }
+    },
+    {
+      "key": "pref_proxy_buffer_size",
+      "title": "Proxy buffer size",
+      "default": {
+        "source": "xml",
+        "value": "1048576",
+        "raw": "1048576",
+        "label": "1 MB"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_casting_other.xml",
+        "line": 100
+      }
+    },
+    {
+      "key": "pref_phone_audio_cache_size_max",
+      "title": "Cache options",
+      "default": {
+        "source": "not_applicable",
+        "value": null
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_casting_phone_audio.xml",
+        "line": 6
+      }
+    },
+    {
+      "key": "pref_phone_audio_keep_on_behavior",
+      "title": "Keep Phone audio on",
+      "default": {
+        "source": "xml",
+        "value": "NEVER",
+        "raw": "NEVER",
+        "label": "Never"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_casting_phone_audio.xml",
+        "line": 16
+      }
+    },
+    {
+      "key": "pref_key_default_subtitle_language",
+      "title": "Default subtitle language",
+      "default": {
+        "value": "device locale",
+        "label": "Device default locale",
+        "source": "code"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_casting_subtitles.xml",
+        "line": 17
+      }
+    },
+    {
+      "key": "pref_dont_recode_srt",
+      "title": "Don't modify SRT subtitles",
+      "default": {
+        "source": "xml",
+        "value": false,
+        "raw": "false",
+        "label": "Off"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_casting_subtitles.xml",
+        "line": 27
+      }
+    },
+    {
+      "key": "pref_recode_vtt",
+      "title": "Clear formatting from VTT",
+      "default": {
+        "source": "xml",
+        "value": true,
+        "raw": "true",
+        "label": "On"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_casting_subtitles.xml",
+        "line": 37
+      }
+    },
+    {
+      "key": "pref_preserve_subtitle_file_styles",
+      "title": "Preserve subtitle file styles",
+      "default": {
+        "source": "xml",
+        "value": true,
+        "raw": "true",
+        "label": "On"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_in_app_player.xml",
+        "line": 135
+      }
+    },
+    {
+      "key": "pref_subtitles_search_name_must_match_always",
+      "title": "Always perform exact searches",
+      "default": {
+        "source": "xml",
+        "value": false,
+        "raw": "false",
+        "label": "Off"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_casting_subtitles.xml",
+        "line": 57
+      }
+    },
+    {
+      "key": "pref_in_app_player_always_use",
+      "title": "Always use the in-app player",
+      "default": {
+        "source": "xml",
+        "value": false,
+        "raw": "false",
+        "label": "Off"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_in_app_player.xml",
+        "line": 6
+      }
+    },
+    {
+      "key": "pref_in_app_player_resume",
+      "title": "Resume media playback",
+      "default": {
+        "source": "xml",
+        "value": "ASK",
+        "raw": "ASK",
+        "label": "Ask whether to resume"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_in_app_player.xml",
+        "line": 17
+      }
+    },
+    {
+      "key": "pref_in_app_player_back_exits_always",
+      "title": "Always exit without asking",
+      "default": {
+        "source": "xml",
+        "value": false,
+        "raw": "false",
+        "label": "Off"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_in_app_player.xml",
+        "line": 38
+      }
+    },
+    {
+      "key": "pref_in_app_player_volume_boost_allowed",
+      "title": "Allow volume boost",
+      "default": {
+        "source": "xml",
+        "value": false,
+        "raw": "false",
+        "label": "Off"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_in_app_player.xml",
+        "line": 48
+      }
+    },
+    {
+      "key": "pref_in_app_player_volume_remember",
+      "title": "Remember volume level",
+      "default": {
+        "source": "xml",
+        "value": true,
+        "raw": "true",
+        "label": "On"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_in_app_player.xml",
+        "line": 58
+      }
+    },
+    {
+      "key": "pref_in_app_player_volume_reset_before_playback",
+      "title": "Reset volume before playback",
+      "default": {
+        "source": "xml",
+        "value": false,
+        "raw": "false",
+        "label": "Off"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_in_app_player.xml",
+        "line": 68
+      }
+    },
+    {
+      "key": "pref_in_app_player_brightness_remember",
+      "title": "Remember brightness level",
+      "default": {
+        "source": "xml",
+        "value": true,
+        "raw": "true",
+        "label": "On"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_in_app_player.xml",
+        "line": 88
+      }
+    },
+    {
+      "key": "pref_in_app_player_screen_orientation_remember",
+      "title": "Remember screen orientation",
+      "default": {
+        "source": "xml",
+        "value": true,
+        "raw": "true",
+        "label": "On"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_in_app_player.xml",
+        "line": 98
+      }
+    },
+    {
+      "key": "pref_in_app_player_buffer_settings",
+      "title": "Buffer settings",
+      "default": {
+        "source": "not_applicable",
+        "value": null
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_in_app_player.xml",
+        "line": 108
+      }
+    },
+    {
+      "key": "pref_in_app_player_cache_size_max",
+      "title": "Cache options",
+      "default": {
+        "source": "not_applicable",
+        "value": null
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_in_app_player.xml",
+        "line": 116
+      }
+    },
+    {
+      "key": "pref_in_app_player_adaptive_tracks_consider_all",
+      "title": "Consider all tracks in adaptive formats",
+      "default": {
+        "source": "xml",
+        "value": false,
+        "raw": "false",
+        "label": "Off"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_in_app_player.xml",
+        "line": 125
+      }
+    },
+    {
+      "key": "pref_iptv_list_update_mode",
+      "title": "IPTV List update mode",
+      "default": {
+        "value": "MANUAL",
+        "source": "code",
+        "label": "Manual"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_iptv.xml",
+        "line": 7
+      }
+    },
+    {
+      "key": "pref_iptv_skip_standalone_groups",
+      "title": "Skip standalone groups",
+      "default": {
+        "source": "xml",
+        "value": true,
+        "raw": "true",
+        "label": "On"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_iptv.xml",
+        "line": 17
+      }
+    },
+    {
+      "key": "pref_iptv_parse_show_info",
+      "title": "Parse show information",
+      "default": {
+        "source": "xml",
+        "value": true,
+        "raw": "true",
+        "label": "On"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_iptv.xml",
+        "line": 27
+      }
+    },
+    {
+      "key": "pref_iptv_parser_m3u_extinf_attributes_parser",
+      "title": "M3U Attribute extraction",
+      "default": {
+        "value": "REGEX",
+        "source": "code",
+        "label": "More precise but slower"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_iptv_parser_m3u.xml",
+        "line": 7
+      }
+    },
+    {
+      "key": "pref_iptv_parser_m3u_name_override_with_attribute",
+      "title": "Override name with attribute",
+      "default": {
+        "source": "xml",
+        "value": false,
+        "raw": "false",
+        "label": "Off"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_iptv_parser_m3u.xml",
+        "line": 17
+      }
+    },
+    {
+      "key": "pref_iptv_parser_m3u_name_strip_tags",
+      "title": "Strip tags from name",
+      "default": {
+        "source": "xml",
+        "value": false,
+        "raw": "false",
+        "label": "Off"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_iptv_parser_m3u.xml",
+        "line": 27
+      }
+    },
+    {
+      "key": "pref_iptv_parser_m3u_subgroups_consider",
+      "title": "Consider M3U subgroups",
+      "default": {
+        "source": "xml",
+        "value": true,
+        "raw": "true",
+        "label": "On"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_iptv_parser_m3u.xml",
+        "line": 37
+      }
+    },
+    {
+      "key": "pref_iptv_parser_m3u_extvlcopt_attributes_parser",
+      "title": "Parse M3U attributes in #EXTVLCOPT",
+      "default": {
+        "source": "xml",
+        "value": false,
+        "raw": "false",
+        "label": "Off"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_iptv_parser_m3u.xml",
+        "line": 47
+      }
+    },
+    {
+      "key": "pref_iptv_parser_rss_root_channel_keep",
+      "title": "Keep RSS root Channel element",
+      "default": {
+        "source": "xml",
+        "value": false,
+        "raw": "false",
+        "label": "Off"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_iptv_parser_rss.xml",
+        "line": 6
+      }
+    },
+    {
+      "key": "pref_key_clear_videos_on_location_change",
+      "title": "Clear video list on address change",
+      "default": {
+        "source": "xml",
+        "value": true,
+        "raw": "true",
+        "label": "On"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_media_detection.xml",
+        "line": 6
+      }
+    },
+    {
+      "key": "pref_check_live_stream",
+      "title": "Detect live streams",
+      "default": {
+        "source": "xml",
+        "value": true,
+        "raw": "true",
+        "label": "On"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_media_detection.xml",
+        "line": 46
+      }
+    },
+    {
+      "key": "pref_yt_filter_language",
+      "title": "Filter by language on YT",
+      "default": {
+        "source": "xml",
+        "value": "",
+        "raw": ""
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_media_detection.xml",
+        "line": 56
+      }
+    },
+    {
+      "key": "pref_start_screen",
+      "title": "Start screen",
+      "default": {
+        "value": "BROWSER",
+        "source": "code",
+        "label": "Browser"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_personalization.xml",
+        "line": 18
+      }
+    },
+    {
+      "key": "pref_language",
+      "title": "Language",
+      "default": {
+        "source": "not_applicable",
+        "value": null
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_personalization.xml",
+        "line": 28
+      }
+    },
+    {
+      "key": "pref_playlist_skip_intro_outro_alert",
+      "title": "Alert when intros or outros are skipped on playlists",
+      "default": {
+        "source": "xml",
+        "value": true,
+        "raw": "true",
+        "label": "On"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_playlists.xml",
+        "line": 6
+      }
+    },
+    {
+      "key": "pref_playlist_skip_intro_outro_option_to_abort",
+      "title": "Option to abort skipping intros or outros on playlists on the in-app player",
+      "default": {
+        "source": "xml",
+        "value": true,
+        "raw": "true",
+        "label": "On"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_playlists.xml",
+        "line": 16
+      }
+    },
+    {
+      "key": "pref_premium_sign_up_or_in",
+      "title": "Sign Up / Sign In",
+      "default": {
+        "source": "not_applicable",
+        "value": null
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_premium.xml",
+        "line": null
+      }
+    },
+    {
+      "key": "pref_premium_sign_in",
+      "title": "Sign In",
+      "default": {
+        "source": "not_applicable",
+        "value": null
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_premium.xml",
+        "line": null
+      }
+    },
+    {
+      "key": "pref_premium_restore_purchase",
+      "title": "Restore your Premium purchase",
+      "default": {
+        "source": "not_applicable",
+        "value": null
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_premium.xml",
+        "line": null
+      }
+    },
+    {
+      "key": "pref_premium_account_transfer",
+      "title": "Transfer Premium to another Web Video Caster account",
+      "default": {
+        "source": "not_applicable",
+        "value": null
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_premium.xml",
+        "line": null
+      }
+    },
+    {
+      "key": "pref_premium_account_unlink",
+      "title": "DEBUG: Unlink Premium from Account",
+      "default": {
+        "source": "not_applicable",
+        "value": null
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_premium.xml",
+        "line": null
+      }
+    },
+    {
+      "key": "pref_premium_contact_support",
+      "title": "Contact Support",
+      "default": {
+        "source": "not_applicable",
+        "value": null
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_premium.xml",
+        "line": null
+      }
+    },
+    {
+      "key": "pref_premium_sign_out",
+      "title": "DEBUG: Sign Out",
+      "default": {
+        "source": "not_applicable",
+        "value": null
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_premium.xml",
+        "line": null
+      }
+    },
+    {
+      "key": "pref_premium_revenuecat_debug",
+      "title": "DEBUG: RevenueCat",
+      "default": {
+        "source": "not_applicable",
+        "value": null
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_premium.xml",
+        "line": null
+      }
+    },
+    {
+      "key": "pref_shred_and_exit_reset",
+      "title": "Reset the options for Erase and Exit",
+      "default": {
+        "source": "not_applicable",
+        "value": null
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_privacy.xml",
+        "line": 25
+      }
+    },
+    {
+      "key": "pref_scrobble_enabled_types",
+      "title": "Scrobble services",
+      "default": {
+        "value": [],
+        "source": "code"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_scrobble.xml",
+        "line": 7
+      }
+    },
+    {
+      "key": "pref_scrobble_background_events_alert",
+      "title": "Alert about background issues",
+      "default": {
+        "source": "xml",
+        "value": true,
+        "raw": "true",
+        "label": "On"
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_scrobble.xml",
+        "line": 17
+      }
+    },
+    {
+      "key": "pref_scrobble_reset",
+      "title": "Reset scrobble services",
+      "default": {
+        "source": "not_applicable",
+        "value": null
+      },
+      "evidence": {
+        "file": "prior-analysis/android-resources/resources/res/xml/preferences_scrobble.xml",
+        "line": 27
+      }
+    }
+  ]
+}

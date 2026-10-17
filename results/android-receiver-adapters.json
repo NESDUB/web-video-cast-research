@@ -1,0 +1,590 @@
+{
+  "scope": "Static inventory, not tested device support",
+  "records": [
+    {
+      "file": "working/apktool/smali_classes4/com/connectsdk/service/AirPlayService.smali",
+      "methods": [
+        {
+          "signature": ".method public final M(Ld77;JJLm67;)V",
+          "start_line": 2398,
+          "end_line": 2569,
+          "throws_error_stub": false,
+          "calls": [
+            {
+              "line": 2425,
+              "instruction": "invoke-virtual {p1}, Ld77;->a()Ljava/util/List;"
+            },
+            {
+              "line": 2437,
+              "instruction": "invoke-virtual {p1}, Ld77;->a()Ljava/util/List;"
+            },
+            {
+              "line": 2445,
+              "instruction": "invoke-interface {v7}, Ljava/util/List;->size()I"
+            },
+            {
+              "line": 2457,
+              "instruction": "invoke-virtual {p1}, Ld77;->a()Ljava/util/List;"
+            },
+            {
+              "line": 2468,
+              "instruction": "invoke-interface {v0, v7}, Ljava/util/List;->get(I)Ljava/lang/Object;"
+            },
+            {
+              "line": 2524,
+              "instruction": "invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicInteger;->get()I"
+            },
+            {
+              "line": 2554,
+              "instruction": "invoke-direct/range {v0 .. v13}, Lfi;-><init>(Lcom/connectsdk/service/AirPlayService;ILm67;Ljava/lang/String;Ljava/lang/String;Ld77;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;JJ)V"
+            },
+            {
+              "line": 2563,
+              "instruction": "invoke-virtual {v1, v0}, Ljava/util/concurrent/ScheduledThreadPoolExecutor;->execute(Ljava/lang/Runnable;)V"
+            }
+          ]
+        },
+        {
+          "signature": ".method public final l(Ld77;Lz97;)V",
+          "start_line": 3451,
+          "end_line": 3482,
+          "throws_error_stub": false,
+          "calls": [
+            {
+              "line": 3476,
+              "instruction": "invoke-virtual/range {v0 .. v6}, Lcom/connectsdk/service/AirPlayService;->M(Ld77;JJLm67;)V"
+            }
+          ]
+        }
+      ],
+      "scope": "Direct ca7 implementor; inherited methods and subclasses require separate tracing"
+    },
+    {
+      "file": "working/apktool/smali_classes4/com/connectsdk/service/DLNAService.smali",
+      "methods": [
+        {
+          "signature": ".method public final M(Ld77;JJLm67;)V",
+          "start_line": 1364,
+          "end_line": 1383,
+          "throws_error_stub": true,
+          "calls": [
+            {
+              "line": 1372,
+              "instruction": "invoke-direct {p0}, Ljava/lang/Error;-><init>()V"
+            },
+            {
+              "line": 1377,
+              "instruction": "invoke-static {p6, p0}, Lshc;->d(Lxq9;Lvea;)V"
+            }
+          ]
+        },
+        {
+          "signature": ".method public final l(Ld77;Lz97;)V",
+          "start_line": 2311,
+          "end_line": 2751,
+          "throws_error_stub": false,
+          "calls": [
+            {
+              "line": 2357,
+              "instruction": "invoke-virtual {v0}, Ld77;->a()Ljava/util/List;"
+            },
+            {
+              "line": 2369,
+              "instruction": "invoke-virtual {v0}, Ld77;->a()Ljava/util/List;"
+            },
+            {
+              "line": 2377,
+              "instruction": "invoke-interface {v10}, Ljava/util/List;->size()I"
+            },
+            {
+              "line": 2389,
+              "instruction": "invoke-virtual {v0}, Ld77;->a()Ljava/util/List;"
+            },
+            {
+              "line": 2397,
+              "instruction": "invoke-interface {v10, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;"
+            },
+            {
+              "line": 2482,
+              "instruction": "invoke-virtual {v6, v11}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;"
+            },
+            {
+              "line": 2549,
+              "instruction": "invoke-virtual {v2}, Ljava/lang/String;->length()I"
+            },
+            {
+              "line": 2565,
+              "instruction": "invoke-virtual {v12}, Ljava/lang/String;->length()I"
+            },
+            {
+              "line": 2585,
+              "instruction": "invoke-virtual {v4, v12}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z"
+            },
+            {
+              "line": 2602,
+              "instruction": "invoke-static {v2, v11, v12}, Lb42;->f(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"
+            },
+            {
+              "line": 2617,
+              "instruction": "invoke-direct {v11, v4, v1, v9}, Lbi;-><init>(ILjava/lang/Object;Ljava/lang/Object;)V"
+            },
+            {
+              "line": 2641,
+              "instruction": "invoke-direct/range {v0 .. v8}, Lxe2;-><init>(Lcom/connectsdk/service/DLNAService;Ljava/lang/String;Ljava/lang/String;Lc77;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;La9b;)V"
+            },
+            {
+              "line": 2650,
+              "instruction": "invoke-direct {v2, v0, v13}, Lppa;-><init>(Ljava/lang/Object;I)V"
+            },
+            {
+              "line": 2655,
+              "instruction": "invoke-static {}, Lwq;->a()La3a;"
+            },
+            {
+              "line": 2663,
+              "instruction": "invoke-virtual {v2, v0}, Lwe4;->D(La3a;)Lupa;"
+            },
+            {
+              "line": 2675,
+              "instruction": "invoke-virtual {v0, v2}, Lwe4;->S(La3a;)Lupa;"
+            },
+            {
+              "line": 2687,
+              "instruction": "invoke-direct {v2, v1, v9, v5, v11}, Lq61;-><init>(Lcom/connectsdk/service/DLNAService;Lz97;Ljava/lang/String;Lbi;)V"
+            },
+            {
+              "line": 2692,
+              "instruction": "invoke-virtual {v0, v2}, Lwe4;->Q(Lvpa;)V"
+            },
+            {
+              "line": 2710,
+              "instruction": "invoke-static {v1, v6}, Lv71;->l(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"
+            },
+            {
+              "line": 2718,
+              "instruction": "invoke-direct {v0, v1}, Ljava/lang/Exception;-><init>(Ljava/lang/String;)V"
+            },
+            {
+              "line": 2723,
+              "instruction": "invoke-static {v0}, Ln00;->m(Ljava/lang/Throwable;)V"
+            },
+            {
+              "line": 2740,
+              "instruction": "invoke-direct {v0, v1, v4, v2}, Lvea;-><init>(ILjava/lang/Object;Ljava/lang/String;)V"
+            },
+            {
+              "line": 2745,
+              "instruction": "invoke-static {v9, v0}, Lshc;->d(Lxq9;Lvea;)V"
+            }
+          ]
+        }
+      ],
+      "scope": "Direct ca7 implementor; inherited methods and subclasses require separate tracing"
+    },
+    {
+      "file": "working/apktool/smali_classes4/com/connectsdk/service/FireTVService.smali",
+      "methods": [
+        {
+          "signature": ".method public final M(Ld77;JJLm67;)V",
+          "start_line": 751,
+          "end_line": 770,
+          "throws_error_stub": true,
+          "calls": [
+            {
+              "line": 759,
+              "instruction": "invoke-direct {p0}, Ljava/lang/Error;-><init>()V"
+            },
+            {
+              "line": 764,
+              "instruction": "invoke-static {p6, p0}, Lshc;->d(Lxq9;Lvea;)V"
+            }
+          ]
+        },
+        {
+          "signature": ".method public final l(Ld77;Lz97;)V",
+          "start_line": 1471,
+          "end_line": 1548,
+          "throws_error_stub": false,
+          "calls": [
+            {
+              "line": 1480,
+              "instruction": "invoke-static {p1}, Lcom/connectsdk/service/FireTVService;->q0(Ld77;)Ljava/lang/String;"
+            },
+            {
+              "line": 1502,
+              "instruction": "invoke-interface {v2, p1, v1, v4, v3}, Lcom/amazon/whisperplay/fling/media/controller/RemoteMediaPlayer;->setMediaSource(Ljava/lang/String;Ljava/lang/String;ZZ)Lcom/amazon/whisperplay/fling/media/controller/RemoteMediaPlayer$AsyncFuture;"
+            },
+            {
+              "line": 1516,
+              "instruction": "invoke-direct {v1, p0, v4}, Lwj3;-><init>(Ljava/lang/Object;I)V"
+            },
+            {
+              "line": 1521,
+              "instruction": "invoke-static {p2, p1, v1, v0}, Lcom/connectsdk/service/FireTVService;->r0(Lxq9;Lcom/amazon/whisperplay/fling/media/controller/RemoteMediaPlayer$AsyncFuture;Lbv3;Ljava/lang/String;)V"
+            },
+            {
+              "line": 1537,
+              "instruction": "invoke-direct {p1, v0, p0}, Lfv3;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V"
+            },
+            {
+              "line": 1542,
+              "instruction": "invoke-static {p2, p1}, Lshc;->d(Lxq9;Lvea;)V"
+            }
+          ]
+        }
+      ],
+      "scope": "Direct ca7 implementor; inherited methods and subclasses require separate tracing"
+    },
+    {
+      "file": "working/apktool/smali_classes4/com/connectsdk/service/NetcastTVService.smali",
+      "methods": [
+        {
+          "signature": ".method public final M(Ld77;JJLm67;)V",
+          "start_line": 605,
+          "end_line": 624,
+          "throws_error_stub": true,
+          "calls": [
+            {
+              "line": 613,
+              "instruction": "invoke-direct {p0}, Ljava/lang/Error;-><init>()V"
+            },
+            {
+              "line": 618,
+              "instruction": "invoke-static {p6, p0}, Lshc;->d(Lxq9;Lvea;)V"
+            }
+          ]
+        },
+        {
+          "signature": ".method public final l(Ld77;Lz97;)V",
+          "start_line": 2323,
+          "end_line": 2383,
+          "throws_error_stub": false,
+          "calls": [
+            {
+              "line": 2327,
+              "instruction": "invoke-virtual {p0}, Lcom/connectsdk/service/NetcastTVService;->p0()Lcom/connectsdk/service/DLNAService;"
+            },
+            {
+              "line": 2347,
+              "instruction": "invoke-direct {v0, p0, p2}, Lou7;-><init>(Lcom/connectsdk/service/NetcastTVService;Lm67;)V"
+            },
+            {
+              "line": 2352,
+              "instruction": "invoke-virtual {p0}, Lcom/connectsdk/service/NetcastTVService;->p0()Lcom/connectsdk/service/DLNAService;"
+            },
+            {
+              "line": 2360,
+              "instruction": "invoke-virtual {p0, p1, v0}, Lcom/connectsdk/service/DLNAService;->l(Ld77;Lz97;)V"
+            },
+            {
+              "line": 2377,
+              "instruction": "invoke-virtual {p0, p1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V"
+            }
+          ]
+        }
+      ],
+      "scope": "Direct ca7 implementor; inherited methods and subclasses require separate tracing"
+    },
+    {
+      "file": "working/apktool/smali_classes4/com/connectsdk/service/RokuServiceBase.smali",
+      "methods": [],
+      "scope": "Direct ca7 implementor; inherited methods and subclasses require separate tracing"
+    },
+    {
+      "file": "working/apktool/smali_classes4/com/connectsdk/service/WebOSTVService.smali",
+      "methods": [
+        {
+          "signature": ".method public final M(Ld77;JJLm67;)V",
+          "start_line": 649,
+          "end_line": 668,
+          "throws_error_stub": true,
+          "calls": [
+            {
+              "line": 657,
+              "instruction": "invoke-direct {p0}, Ljava/lang/Error;-><init>()V"
+            },
+            {
+              "line": 662,
+              "instruction": "invoke-static {p6, p0}, Lshc;->d(Lxq9;Lvea;)V"
+            }
+          ]
+        },
+        {
+          "signature": ".method public final l(Ld77;Lz97;)V",
+          "start_line": 2075,
+          "end_line": 2241,
+          "throws_error_stub": false,
+          "calls": [
+            {
+              "line": 2087,
+              "instruction": "invoke-direct {v0, p2, p1}, Lbi;-><init>(Lm67;Ld77;)V"
+            },
+            {
+              "line": 2096,
+              "instruction": "invoke-direct {v1, p0, v0, p1, p2}, Lbxc;-><init>(Lcom/connectsdk/service/WebOSTVService;Lbi;Ld77;Lm67;)V"
+            },
+            {
+              "line": 2105,
+              "instruction": "invoke-static {p1}, Llf6;->a(Ljava/lang/String;)Llf6;"
+            },
+            {
+              "line": 2136,
+              "instruction": "invoke-direct {v0}, Ljava/util/concurrent/ConcurrentHashMap;-><init>()V"
+            },
+            {
+              "line": 2167,
+              "instruction": "invoke-virtual {v0, v2}, Ljava/util/concurrent/ConcurrentHashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;"
+            },
+            {
+              "line": 2187,
+              "instruction": "invoke-direct {v0, p1, p0}, Lrxc;-><init>(Llf6;Lzx2;)V"
+            },
+            {
+              "line": 2200,
+              "instruction": "invoke-virtual {v2, p1, v0}, Ljava/util/concurrent/ConcurrentHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+            },
+            {
+              "line": 2210,
+              "instruction": "invoke-direct {p1, p0, v1, v0, p2}, Lre2;-><init>(Lv81;Ljava/lang/Object;Ljava/lang/Object;I)V"
+            },
+            {
+              "line": 2230,
+              "instruction": "invoke-direct {v1, v0, p1, p0, v2}, Loj4;-><init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;I)V"
+            },
+            {
+              "line": 2235,
+              "instruction": "invoke-virtual {p2, v1}, La3a;->c(Ljava/lang/Runnable;)Lo13;"
+            }
+          ]
+        }
+      ],
+      "scope": "Direct ca7 implementor; inherited methods and subclasses require separate tracing"
+    },
+    {
+      "file": "working/apktool/smali_classes4/rxc.smali",
+      "methods": [
+        {
+          "signature": ".method public final M(Ld77;JJLm67;)V",
+          "start_line": 495,
+          "end_line": 514,
+          "throws_error_stub": true,
+          "calls": [
+            {
+              "line": 503,
+              "instruction": "invoke-direct {p0}, Ljava/lang/Error;-><init>()V"
+            },
+            {
+              "line": 508,
+              "instruction": "invoke-static {p6, p0}, Lshc;->d(Lxq9;Lvea;)V"
+            }
+          ]
+        },
+        {
+          "signature": ".method public final l(Ld77;Lz97;)V",
+          "start_line": 1858,
+          "end_line": 2052,
+          "throws_error_stub": false,
+          "calls": [
+            {
+              "line": 1882,
+              "instruction": "invoke-static {v1, v0}, Ltaa;->p(Ljava/lang/String;I)Ljava/lang/String;"
+            },
+            {
+              "line": 1890,
+              "instruction": "invoke-virtual {p1}, Ld77;->a()Ljava/util/List;"
+            },
+            {
+              "line": 1905,
+              "instruction": "invoke-interface {v1}, Ljava/util/List;->isEmpty()Z"
+            },
+            {
+              "line": 1920,
+              "instruction": "invoke-interface {v1, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;"
+            },
+            {
+              "line": 1965,
+              "instruction": "invoke-direct {v4, p1, v1, v0, v3}, Lpxc;-><init>(Ld77;Ljava/lang/String;Ljava/lang/String;La9b;)V"
+            },
+            {
+              "line": 1984,
+              "instruction": "invoke-direct {p1, v1, p0, p2}, Lbi;-><init>(ILjava/lang/Object;Ljava/lang/Object;)V"
+            },
+            {
+              "line": 1993,
+              "instruction": "invoke-direct {v1, v2, v2, v2, p1}, Luea;-><init>(Ltea;Ljava/lang/String;Ljava/lang/Object;Lxq9;)V"
+            },
+            {
+              "line": 2002,
+              "instruction": "invoke-virtual {p1, v0, v1}, Ljava/util/concurrent/ConcurrentHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+            },
+            {
+              "line": 2015,
+              "instruction": "invoke-direct {p1, p2, v0}, Ldi;-><init>(Ljava/lang/Object;I)V"
+            },
+            {
+              "line": 2020,
+              "instruction": "invoke-virtual {p0, v4, p1}, Lrxc;->W(Lorg/json/JSONObject;Lxq9;)V"
+            },
+            {
+              "line": 2041,
+              "instruction": "invoke-direct {p0, p1, v2, v0}, Lvea;-><init>(ILjava/lang/Object;Ljava/lang/String;)V"
+            },
+            {
+              "line": 2046,
+              "instruction": "invoke-static {p2, p0}, Lshc;->d(Lxq9;Lvea;)V"
+            }
+          ]
+        }
+      ],
+      "scope": "Direct ca7 implementor; inherited methods and subclasses require separate tracing"
+    },
+    {
+      "file": "working/apktool/smali_classes6/com/connectsdk/service/tvreceiver/AbstractReceiverService.smali",
+      "methods": [
+        {
+          "signature": ".method public final M(Ld77;JJLm67;)V",
+          "start_line": 614,
+          "end_line": 831,
+          "throws_error_stub": false,
+          "calls": [
+            {
+              "line": 618,
+              "instruction": "invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;"
+            },
+            {
+              "line": 627,
+              "instruction": "invoke-direct {v2}, Ljava/lang/Object;-><init>()V"
+            },
+            {
+              "line": 636,
+              "instruction": "invoke-direct {v10}, Ljava/lang/Object;-><init>()V"
+            },
+            {
+              "line": 645,
+              "instruction": "invoke-direct {v5}, Ljava/lang/Object;-><init>()V"
+            },
+            {
+              "line": 654,
+              "instruction": "invoke-direct {v7}, Ljava/lang/Object;-><init>()V"
+            },
+            {
+              "line": 663,
+              "instruction": "invoke-direct {v8}, Ljava/lang/Object;-><init>()V"
+            },
+            {
+              "line": 672,
+              "instruction": "invoke-direct {v9}, Ljava/lang/Object;-><init>()V"
+            },
+            {
+              "line": 717,
+              "instruction": "invoke-virtual {p1}, Ld77;->a()Ljava/util/List;"
+            },
+            {
+              "line": 736,
+              "instruction": "invoke-interface {v1}, Ljava/util/Collection;->isEmpty()Z"
+            },
+            {
+              "line": 755,
+              "instruction": "invoke-interface {v0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;"
+            },
+            {
+              "line": 785,
+              "instruction": "invoke-static {v0}, Loc9;->e(Le42;)Lo41;"
+            },
+            {
+              "line": 814,
+              "instruction": "invoke-direct/range {v0 .. v12}, Lm4;-><init>(Lcom/connectsdk/service/tvreceiver/AbstractReceiverService;Ljk9;JLjk9;Ld77;Ljk9;Ljk9;Ljk9;Ljk9;Lm67;Ll22;)V"
+            },
+            {
+              "line": 825,
+              "instruction": "invoke-static {v13, p1, p1, v0, p0}, Lll4;->y(Lo42;Le42;Lr42;Lx84;I)Lx0b;"
+            }
+          ]
+        },
+        {
+          "signature": ".method public final l(Ld77;Lz97;)V",
+          "start_line": 1999,
+          "end_line": 2035,
+          "throws_error_stub": false,
+          "calls": [
+            {
+              "line": 2003,
+              "instruction": "invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;"
+            },
+            {
+              "line": 2029,
+              "instruction": "invoke-virtual/range {v0 .. v6}, Lcom/connectsdk/service/tvreceiver/AbstractReceiverService;->M(Ld77;JJLm67;)V"
+            }
+          ]
+        }
+      ],
+      "scope": "Direct ca7 implementor; inherited methods and subclasses require separate tracing"
+    },
+    {
+      "file": "working/apktool/smali_classes6/com/instantbits/cast/util/connectsdkhelper/googlecastconnectsdk/GoogleCastService.smali",
+      "methods": [
+        {
+          "signature": ".method public final M(Ld77;JJLm67;)V",
+          "start_line": 1330,
+          "end_line": 1481,
+          "throws_error_stub": false,
+          "calls": [
+            {
+              "line": 1338,
+              "instruction": "invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;"
+            },
+            {
+              "line": 1359,
+              "instruction": "invoke-virtual {v0}, Ld77;->a()Ljava/util/List;"
+            },
+            {
+              "line": 1371,
+              "instruction": "invoke-interface {v1}, Ljava/util/Collection;->isEmpty()Z"
+            },
+            {
+              "line": 1383,
+              "instruction": "invoke-virtual {v0}, Ld77;->a()Ljava/util/List;"
+            },
+            {
+              "line": 1394,
+              "instruction": "invoke-interface {v1, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;"
+            },
+            {
+              "line": 1445,
+              "instruction": "invoke-virtual {v11}, Ljava/lang/Object;->getClass()Ljava/lang/Class;"
+            },
+            {
+              "line": 1450,
+              "instruction": "invoke-virtual {v10}, Ljava/lang/Object;->getClass()Ljava/lang/Class;"
+            },
+            {
+              "line": 1470,
+              "instruction": "invoke-direct/range {v0 .. v14}, Ldf4;-><init>(Lcom/instantbits/cast/util/connectsdkhelper/googlecastconnectsdk/GoogleCastService;Lc77;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLqk0;ZLjava/lang/String;Ljava/lang/String;JLm67;)V"
+            },
+            {
+              "line": 1475,
+              "instruction": "invoke-static {v0}, Lo8c;->o(Ljava/lang/Runnable;)V"
+            }
+          ]
+        },
+        {
+          "signature": ".method public final l(Ld77;Lz97;)V",
+          "start_line": 3186,
+          "end_line": 3222,
+          "throws_error_stub": false,
+          "calls": [
+            {
+              "line": 3190,
+              "instruction": "invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;"
+            },
+            {
+              "line": 3216,
+              "instruction": "invoke-virtual/range {v0 .. v6}, Lcom/instantbits/cast/util/connectsdkhelper/googlecastconnectsdk/GoogleCastService;->M(Ld77;JJLm67;)V"
+            }
+          ]
+        }
+      ],
+      "scope": "Direct ca7 implementor; inherited methods and subclasses require separate tracing"
+    }
+  ]
+}

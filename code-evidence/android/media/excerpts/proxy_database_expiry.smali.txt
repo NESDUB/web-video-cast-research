@@ -1,0 +1,64 @@
+
+    .line 11
+    sget-object v2, Lyla;->e:Lfh6;
+
+    .line 12
+    .line 13
+    invoke-interface {v2}, Lfh6;->getValue()Ljava/lang/Object;
+
+    .line 14
+    .line 15
+    .line 16
+    move-result-object v2
+
+    .line 17
+    check-cast v2, Landroid/database/sqlite/SQLiteDatabase;
+
+    .line 18
+    .line 19
+    const-string v3, "DELETE FROM ampsu WHERE updated < ?"
+
+    .line 20
+    .line 21
+    invoke-virtual {v2, v3}, Landroid/database/sqlite/SQLiteDatabase;->compileStatement(Ljava/lang/String;)Landroid/database/sqlite/SQLiteStatement;
+
+    .line 22
+    .line 23
+    .line 24
+    move-result-object v2
+
+    .line 25
+    sget-object v3, Lyla;->a:Lvgb;
+
+    .line 26
+    .line 27
+    invoke-virtual {v3}, Lvgb;->getValue()Ljava/lang/Object;
+
+    .line 28
+    .line 29
+    .line 30
+    move-result-object v3
+
+    .line 31
+    check-cast v3, Ljava/lang/String;
+
+    .line 32
+    .line 33
+    invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 34
+    .line 35
+    .line 36
+    const/4 v3, 0x1
+
+    .line 37
+    invoke-virtual {v2, v3, v0, v1}, Landroid/database/sqlite/SQLiteProgram;->bindLong(IJ)V
+
+    .line 38
+    .line 39
+    .line 40
+    invoke-virtual {v2}, Landroid/database/sqlite/SQLiteStatement;->executeUpdateDelete()I
+
+    .line 41
+    .line 42
+    .line 43

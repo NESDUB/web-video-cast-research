@@ -1,0 +1,23 @@
+        this.a = r1;
+        this.b = r2;
+        this.c = r3;
+        this.d = r4;
+        this.e = r5;
+    }
+
+    public static final File a(fn9 r6) {
+        File r0 = new File(n00.b(), r6.c);
+        File r1 = new File(r0, r6.d);
+        if (r0.exists() == true) goto L8;
+        if (r0.mkdirs() == true) goto L8;
+        n00.i("Can't make cache directory: " + r0);
+    L8:
+        if (r1.exists() == true) goto L10;
+    L12:
+        return r1;
+    L10:
+        if ((r1.lastModified() + 604800000) >= System.currentTimeMillis()) goto L12;
+        r1.delete();
+        goto L12
+    }
+}

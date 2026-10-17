@@ -1,0 +1,64 @@
+
+    @Override // defpackage.ca7
+    public final float B() {
+        return this.n;
+    }
+
+    @Override // defpackage.ca7
+    public final dfa C(b67 r3) {
+        e9c r0 = new e9c(this, "message");
+        r0.c(r3);
+        this.i.add(r0);
+        return r0;
+    }
+
+    @Override // defpackage.ca7
+    public final void D(String r3) {
+        r3.getClass();
+        JSONObject r0 = new JSONObject();
+        r0.put("subtitleURL", r3);     // Catch: JSONException -> L5
+        String r4 = r0.toString();     // Catch: JSONException -> L5
+        r4.getClass();     // Catch: JSONException -> L5
+        H(r4, new lf4(6));     // Catch: JSONException -> L5
+        return;
+    L5:
+        e = move-exception;
+        Log.w(o8d.h(), "unexpected error adding subtitle", e);
+        n00.m(e);
+    }
+
+    @Override // defpackage.ca7
+    public final boolean E() {
+        return true;
+    }
+
+    @Override // defpackage.ca7
+    public final boolean F() {
+        return true;
+    }
+
+    @Override // defpackage.ca7
+    public final boolean G() {
+        return true;
+    }
+
+    @Override // defpackage.ca7
+    public final void H(String r3, xq9 r4) {
+        r3.getClass();
+        o8c.o(new lk(this, r3, r4, 18));
+    }
+
+    @Override // defpackage.w47
+    public final void I(xq9 r3) {
+        bf4 r0 = new bf4(this, (di) r3, 0);
+        o8c.g().post(r0);
+    }
+
+    public final void J(float r3, di r4) {
+        af4 r0 = new af4(this, r3, r4, 0);
+        o8c.g().post(r0);
+    }
+
+    @Override // defpackage.ca7
+    public final boolean K() {
+        return true;

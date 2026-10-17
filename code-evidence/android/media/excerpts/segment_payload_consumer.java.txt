@@ -1,0 +1,64 @@
+    L43:
+        Log.w(t92.C(), "Segments missing on json " + r17);     // Catch: IOException -> L45
+        return;
+    L45:
+        e = move-exception;
+        n00.m(e);
+        Log.w(t92.C(), "Ignoring exception ", e);
+        return;
+    L61:
+        return;
+    L11:
+        r1 = null;
+        goto L10
+    L5:
+        if (r0.equals(r17.toString()) == false) goto L8;
+        Log.w(t92.C(), "Already parsed segments");
+    }
+
+    public final void r(JSONObject r12, String r13, String r14, String r15) {
+        if (r12.has("segments") == false) goto L35;
+        JSONObject r6 = r12.getJSONObject("segments");
+        String r7 = r12.optString("from", "");
+        r7.getClass();
+        if (r7.length() > 0) goto L33;
+    L18:
+        String r1 = null;
+        String r5 = null;
+        String r8 = null;
+    L19:
+        String r9 = t92.q(r12, r8, r1, r5, r15);
+        String r16 = r12.optString(CampaignEx.JSON_KEY_TITLE, "");
+        r16.getClass();
+        if (r16.length() <= 0) goto L22;
+        String r10 = r16;
+    L23:
+        r6.getClass();
+        q(r13, r14, r6, r7, r9, r10);
+        return;
+    L22:
+        r10 = null;
+        goto L23
+    L33:
+        URL r2 = new URL(r7);     // Catch: MalformedURLException -> L26
+        Integer r4 = g(r2);     // Catch: MalformedURLException -> L26
+        r5 = r2.getProtocol();     // Catch: MalformedURLException -> L26
+        r8 = r5 + "://" + r2.getHost();     // Catch: MalformedURLException -> L17
+        if (r4 != null) goto L31;
+    L11:
+        r1 = r8 + new File(r2.getPath()).getParent();     // Catch: MalformedURLException -> L10
+        if (q6b.u0(r1, "/", false) == true) goto L19;
+        r1 = r1.concat("/");     // Catch: MalformedURLException -> L25
+    L10:
+        r1 = null;
+        goto L19
+    L31:
+        r8 = r8 + ":" + r4.intValue();     // Catch: MalformedURLException -> L10
+    L17:
+        r1 = null;
+        r8 = null;
+        goto L19
+    }
+
+    public final void s(JSONObject r21, String r22, String r23, String r24) {
+        String r3 = r21.getString(MimeTypes.BASE_TYPE_VIDEO);

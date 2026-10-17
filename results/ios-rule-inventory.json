@@ -1,0 +1,234 @@
+[
+  {
+    "file": "extracted/ios/Payload/WebVideoCaster.app/AdBlock_AdBlock.bundle/annoyance-content-rules.json",
+    "rule_count": 35998,
+    "actions": {
+      "css-display-none": 31978,
+      "block": 3485,
+      "ignore-previous-rules": 535
+    }
+  },
+  {
+    "file": "extracted/ios/Payload/WebVideoCaster.app/AdBlock_AdBlock.bundle/antiadblock-content-rules.json",
+    "rule_count": 2880,
+    "actions": {
+      "css-display-none": 386,
+      "block": 2445,
+      "ignore-previous-rules": 49
+    }
+  },
+  {
+    "file": "extracted/ios/Payload/WebVideoCaster.app/AdBlock_AdBlock.bundle/ar-content-rules.json",
+    "rule_count": 1131,
+    "actions": {
+      "css-display-none": 242,
+      "block": 859,
+      "ignore-previous-rules": 30
+    }
+  },
+  {
+    "file": "extracted/ios/Payload/WebVideoCaster.app/AdBlock_AdBlock.bundle/bg-content-rules.json",
+    "rule_count": 873,
+    "actions": {
+      "css-display-none": 183,
+      "block": 672,
+      "ignore-previous-rules": 18
+    }
+  },
+  {
+    "file": "extracted/ios/Payload/WebVideoCaster.app/AdBlock_AdBlock.bundle/cs-content-rules.json",
+    "rule_count": 423,
+    "actions": {
+      "css-display-none": 199,
+      "block": 203,
+      "ignore-previous-rules": 21
+    }
+  },
+  {
+    "file": "extracted/ios/Payload/WebVideoCaster.app/AdBlock_AdBlock.bundle/de-content-rules.json",
+    "rule_count": 4258,
+    "actions": {
+      "css-display-none": 2077,
+      "block": 2064,
+      "ignore-previous-rules": 117
+    }
+  },
+  {
+    "file": "extracted/ios/Payload/WebVideoCaster.app/AdBlock_AdBlock.bundle/easylist-content-rules.json",
+    "rule_count": 56615,
+    "actions": {
+      "css-display-none": 7304,
+      "block": 48772,
+      "ignore-previous-rules": 539
+    }
+  },
+  {
+    "file": "extracted/ios/Payload/WebVideoCaster.app/AdBlock_AdBlock.bundle/es-content-rules.json",
+    "rule_count": 2040,
+    "actions": {
+      "css-display-none": 1425,
+      "block": 559,
+      "ignore-previous-rules": 56
+    }
+  },
+  {
+    "file": "extracted/ios/Payload/WebVideoCaster.app/AdBlock_AdBlock.bundle/fr-content-rules.json",
+    "rule_count": 10588,
+    "actions": {
+      "css-display-none": 1250,
+      "block": 9188,
+      "ignore-previous-rules": 150
+    }
+  },
+  {
+    "file": "extracted/ios/Payload/WebVideoCaster.app/AdBlock_AdBlock.bundle/he-content-rules.json",
+    "rule_count": 679,
+    "actions": {
+      "css-display-none": 363,
+      "block": 173,
+      "ignore-previous-rules": 143
+    }
+  },
+  {
+    "file": "extracted/ios/Payload/WebVideoCaster.app/AdBlock_AdBlock.bundle/hi-content-rules.json",
+    "rule_count": 11215,
+    "actions": {
+      "css-display-none": 6068,
+      "block": 5063,
+      "ignore-previous-rules": 84
+    }
+  },
+  {
+    "file": "extracted/ios/Payload/WebVideoCaster.app/AdBlock_AdBlock.bundle/id-content-rules.json",
+    "rule_count": 4174,
+    "actions": {
+      "css-display-none": 727,
+      "block": 3442,
+      "ignore-previous-rules": 5
+    }
+  },
+  {
+    "file": "extracted/ios/Payload/WebVideoCaster.app/AdBlock_AdBlock.bundle/it-content-rules.json",
+    "rule_count": 3839,
+    "actions": {
+      "css-display-none": 2781,
+      "block": 972,
+      "ignore-previous-rules": 86
+    }
+  },
+  {
+    "file": "extracted/ios/Payload/WebVideoCaster.app/AdBlock_AdBlock.bundle/ko-content-rules.json",
+    "rule_count": 900,
+    "actions": {
+      "css-display-none": 322,
+      "block": 556,
+      "ignore-previous-rules": 22
+    }
+  },
+  {
+    "file": "extracted/ios/Payload/WebVideoCaster.app/AdBlock_AdBlock.bundle/lt-content-rules.json",
+    "rule_count": 872,
+    "actions": {
+      "css-display-none": 330,
+      "block": 487,
+      "ignore-previous-rules": 55
+    }
+  },
+  {
+    "file": "extracted/ios/Payload/WebVideoCaster.app/AdBlock_AdBlock.bundle/lv-content-rules.json",
+    "rule_count": 270,
+    "actions": {
+      "css-display-none": 79,
+      "block": 174,
+      "ignore-previous-rules": 17
+    }
+  },
+  {
+    "file": "extracted/ios/Payload/WebVideoCaster.app/AdBlock_AdBlock.bundle/nb-content-rules.json",
+    "rule_count": 4899,
+    "actions": {
+      "css-display-none": 2525,
+      "block": 2267,
+      "ignore-previous-rules": 107
+    }
+  },
+  {
+    "file": "extracted/ios/Payload/WebVideoCaster.app/AdBlock_AdBlock.bundle/nl-content-rules.json",
+    "rule_count": 1292,
+    "actions": {
+      "css-display-none": 900,
+      "block": 365,
+      "ignore-previous-rules": 27
+    }
+  },
+  {
+    "file": "extracted/ios/Payload/WebVideoCaster.app/AdBlock_AdBlock.bundle/pl-content-rules.json",
+    "rule_count": 3016,
+    "actions": {
+      "css-display-none": 2347,
+      "block": 651,
+      "ignore-previous-rules": 18
+    }
+  },
+  {
+    "file": "extracted/ios/Payload/WebVideoCaster.app/AdBlock_AdBlock.bundle/privacy-content-rules.json",
+    "rule_count": 51103,
+    "actions": {
+      "css-display-none": 292,
+      "block": 49972,
+      "ignore-previous-rules": 839
+    }
+  },
+  {
+    "file": "extracted/ios/Payload/WebVideoCaster.app/AdBlock_AdBlock.bundle/pt-content-rules.json",
+    "rule_count": 1041,
+    "actions": {
+      "css-display-none": 744,
+      "block": 270,
+      "ignore-previous-rules": 27
+    }
+  },
+  {
+    "file": "extracted/ios/Payload/WebVideoCaster.app/AdBlock_AdBlock.bundle/ro-content-rules.json",
+    "rule_count": 408,
+    "actions": {
+      "css-display-none": 115,
+      "block": 279,
+      "ignore-previous-rules": 14
+    }
+  },
+  {
+    "file": "extracted/ios/Payload/WebVideoCaster.app/AdBlock_AdBlock.bundle/ru-content-rules.json",
+    "rule_count": 20919,
+    "actions": {
+      "css-display-none": 6581,
+      "block": 13574,
+      "ignore-previous-rules": 764
+    }
+  },
+  {
+    "file": "extracted/ios/Payload/WebVideoCaster.app/AdBlock_AdBlock.bundle/vi-content-rules.json",
+    "rule_count": 4174,
+    "actions": {
+      "css-display-none": 727,
+      "block": 3442,
+      "ignore-previous-rules": 5
+    }
+  },
+  {
+    "file": "extracted/ios/Payload/WebVideoCaster.app/AdBlock_AdBlock.bundle/wvc-content-rules.json",
+    "rule_count": 7,
+    "actions": {
+      "css-display-none": 7
+    }
+  },
+  {
+    "file": "extracted/ios/Payload/WebVideoCaster.app/AdBlock_AdBlock.bundle/zh-content-rules.json",
+    "rule_count": 13652,
+    "actions": {
+      "css-display-none": 2339,
+      "block": 10564,
+      "ignore-previous-rules": 749
+    }
+  }
+]

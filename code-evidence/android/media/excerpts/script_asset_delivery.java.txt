@@ -1,0 +1,64 @@
+    }
+
+    public static void p(sg1 r10, wzc r11, String r12, String r13, String r14, String r15, String r16, String r17, Map r18) {
+        String r19 = new URL(r13).getHost();     // Catch: MalformedURLException -> L4
+    L6:
+        i(r10, r11, r12, r14, r19, r15, r16, r17, r18);
+        return;
+    L4:
+        e = move-exception;
+        Log.w(q(), e);
+        r19 = Uri.parse(r13).getHost();
+        goto L6
+    }
+
+    public static String q() {
+        return (String) yxc.a.getValue();
+    }
+
+    public static WebResourceResponse r(String r12, String r13, String r14) {
+        boolean r0 = r13.equals("ibfunctions.js");
+        if (yxc.o.containsKey(r13) == true) goto L11;
+        WebVideoCasterApplication r1 = (WebVideoCasterApplication) n00.c;
+        r1.getClass();
+        InputStream r2 = r1.getAssets().open(r13);
+        r2.getClass();
+        byte[] r5 = new byte[4096];
+        ByteArrayOutputStream r6 = new ByteArrayOutputStream();
+    L5:
+        int r7 = r2.read(r5);
+        if (r7 < 0) goto L8;
+        r6.write(r5, 0, r7);
+        goto L5
+    L8:
+        r2.close();
+        byte[] r3 = r6.toByteArray();
+        HashMap r8 = yxc.o;
+        r8.put(r13, r3);
+        if (r0 == false) goto L11;
+        r6.reset();
+        r6.write(r3);
+        Charset r4 = Charset.forName(C.UTF8_NAME);
+        r4.getClass();
+        byte[] r9 = "\nwindow.MediaSource = null;window.MediaSource= new Object(); window.MediaSource.isTypeSupported = function(mime){return false;};".getBytes(r4);
+        r9.getClass();
+        r6.write(r9);
+        r8.put(r13.concat("_dash"), r6.toByteArray());
+    L11:
+        if (r0 == true) goto L13;
+    L20:
+        byte[] r15 = (byte[]) yxc.o.get(r13);
+    L21:
+        q0a r10 = null;
+        if (r0 == false) goto L43;
+        if (r15 == null) goto L43;
+        if (r14 == null) goto L43;
+        vgb r11 = s0a.a;
+        vgb r16 = sm9.b;
+        sm9 r17 = vj5.O();
+        q0a r18 = s0a.b;
+        if (r18 != null) goto L42;
+        if (r17 != null) goto L67;
+    L39:
+        if (r10 != null) goto L41;
+        Log.w((String) s0a.a.getValue(), "Will use Sandbox Probe fix from default config");

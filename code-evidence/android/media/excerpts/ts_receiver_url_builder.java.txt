@@ -1,0 +1,28 @@
+            default: goto L4;
+        };
+    L4:
+        tt9.m0(r11);
+        boolean r3 = r1.f;
+        y97 r12 = y97.a;
+        boolean r4 = y97.k().i();
+        boolean r5 = y97.k().V();
+        boolean r6 = y97.k().S();
+        obb r9 = obb.b;
+        return SubtitlesServlet.p(this.s, r3, r4, r5, r6, false, false, r9);
+    L6:
+        tt9.m0(r11);
+        hi8 r7 = new hi8(this.s);
+        boolean r8 = r1.f;
+        y97 r13 = y97.a;
+        boolean r10 = y97.k().i();
+        TreeMap r14 = r1.r;
+        return M3U8ToTSServlet.m(MediaProxyServlet.B(this.s, r7, null, r8, r10, r14, false, null), r1.f, y97.k().i(), r1.h, "stream.ts");
+    L8:
+        tt9.m0(r11);
+        boolean r2 = r1.f;
+        SharedPreferences r15 = qt1.d;
+        boolean r16 = yx2.x(qt1.c, 2131953629, r15, true);
+        obb r17 = obb.a;
+        return SubtitlesServlet.p(this.s, r2, false, true, false, r16, true, r17);
+    }
+}

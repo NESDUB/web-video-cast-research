@@ -1,0 +1,56 @@
+import com.mbridge.msdk.foundation.entity.CampaignEx;
+import com.mbridge.msdk.playercommon.exoplayer2.util.MimeTypes;
+
+/* JADX INFO: compiled from: r8-map-id-5f5060530d9e05db1e1197cdcb7ee4005bad73cf33dea77cc3c253934918b27f */
+/* JADX INFO: loaded from: /home/nes/Desktop/Web-Video-Cast-Research/extracted/android/classes6.dex */
+public final enum c43 extends Enum {
+    public static final c43 e = null;
+    public static final c43 f = null;
+    public static final c43 g = null;
+    public static final c43 h = null;
+    public static final c43 i = null;
+    public static final /* synthetic */ c43[] j = null;
+    public final String a;
+    public final m33 b;
+    public final a43 c;
+    public final ihb d;
+
+    static {
+        c43 r0 = new c43("ORIGINAL", 0, null, new mq3(24), new p98(), null);
+        e = r0;
+        c43 r1 = new c43("TS_FROM_M3U8", 1, MimeTypes.APPLICATION_M3U8, new cf(CampaignEx.JSON_KEY_ST_TS, 5), new py6(), null);
+        f = r1;
+        c43 r2 = new c43("MP4_FROM_MPD", 2, MimeTypes.APPLICATION_MPD, new cf("mp4", 5), null, new ihb(1));
+        g = r2;
+        c43 r10 = new c43("MP4_FROM_M3U8", 3, MimeTypes.APPLICATION_M3U8, new cf("mp4", 5), null, new ihb(1));
+        h = r10;
+        int r4 = 15;
+        c43 r3 = new c43("UNKNOWN", 4, null, new lj4(r4), new ic5(r4), null);
+        i = r3;
+        j = new c43[]{r0, r1, r2, r10, r3};
+    }
+
+    public c43(String r1, int r2, String r3, m33 r4, a43 r5, ihb r6) {
+        super(r1, r2);
+        this.a = r3;
+        this.b = r4;
+        this.c = r5;
+        this.d = r6;
+    }
+
+    public static c43 valueOf(String r1) {
+        return (c43) Enum.valueOf(c43.class, r1);
+    }
+
+    public static c43[] values() {
+        return (c43[]) j.clone();
+    }
+
+    public final m33 d() {
+        return this.b;
+    }
+
+    public final a43 f() {
+        return this.c;
+    }
+}

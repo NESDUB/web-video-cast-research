@@ -1,0 +1,64 @@
+        yp3 r26 = r3.t;
+        tt9.m0(r2);
+        yp3 r27 = r26;
+        vi5 r28 = r3;
+    L111:
+        String r29 = o8d.E();
+        if (r20 == 0) goto L114;
+        boolean r30 = true;
+    L115:
+        Log.i(r29, "Will use Default Data Source as is local or user did not ask for Cache (local: " + r30 + ", cache max size: " + r21 + " GB)");
+        r9 = r25;
+        int r31 = r22;
+        Uri r32 = r23;
+        yp3 r111 = r27;
+        cj2 r37 = r110;
+    L116:
+        p77 r39 = p77.a(r32);
+        if (uc7.m(r111.j) == false) goto L121;
+        Log.i(o8d.E(), "Media Item is HLS (MIME type: " + r111.j + "), will use HlsMediaSource");
+        HlsMediaSource.Factory r40 = new HlsMediaSource.Factory(r37);
+        r40.k = false;
+        r40.j = new bw6(5, 4);
+        r8 = r40.e(r39);
+    L119:
+        r14 = r37;
+    L124:
+        String r41 = r111.j;
+        Locale r42 = Locale.ENGLISH;
+        r42.getClass();
+        String r43 = r41.toLowerCase(r42);
+        r43.getClass();
+        if (r43.equals("video/mp2t") == false) goto L127;
+        ((xm3) r9).U1(2);
+        ?? r112 = 0;
+    L129:
+        if (tt9.H(r1).getBoolean("cast.dontusesubtitles", r112) == true) goto L143;
+        a9b r44 = r111.i;
+        if (r44 == null) goto L143;
+        r0 = r44.a;
+        if (r0 == null) goto L143;
+        o8d.E();
+        sr2 r45 = j13.a;
+        aq2 r46 = aq2.c;
+        wi5 r47 = new wi5(r0, r111, null, r112);
+        r28.r = null;
+        r28.s = null;
+        r28.t = null;
+        r28.u = r9;
+        r28.v = null;
+        r28.w = r14;
+        r28.x = null;
+        r28.y = r8;
+        r28.z = null;
+        r28.A = r0;
+        r28.B = r17;
+        r28.C = r31;
+        r28.I = 5;
+        r2 = ll4.j0(r46, r47, r28);
+        if (r2 != r12) goto L137;
+    L136:
+        return r12;
+    L137:
+        r6 = r17;
+        goto L138

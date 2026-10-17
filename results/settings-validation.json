@@ -1,0 +1,12 @@
+{
+  "rows": 173,
+  "screens": 29,
+  "submenu_links": 28,
+  "all_evidence_files_exist": true,
+  "viewer_and_search_passed": true,
+  "documented_xml_option_mismatches": [
+    "pref_chromecast_receiver_type",
+    "pref_ip_preference"
+  ],
+  "runtime_device_tested": false
+}

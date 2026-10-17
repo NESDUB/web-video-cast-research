@@ -1,0 +1,64 @@
+
+    .line 1229
+    iget-object v1, v1, Ll53;->a:Li53;
+
+    .line 1230
+    .line 1231
+    iget-object v2, v1, Li53;->a:Lst9;
+
+    .line 1232
+    .line 1233
+    invoke-virtual {v2}, Lst9;->i()Lzk5;
+
+    .line 1234
+    .line 1235
+    .line 1236
+    move-result-object v2
+
+    .line 1237
+    const-string v3, "DownloadItem"
+
+    .line 1238
+    .line 1239
+    filled-new-array {v3}, [Ljava/lang/String;
+
+    .line 1240
+    .line 1241
+    .line 1242
+    move-result-object v3
+
+    .line 1243
+    new-instance v4, Lg53;
+
+    .line 1244
+    .line 1245
+    invoke-direct {v4, v1, v9}, Lg53;-><init>(Li53;I)V
+
+    .line 1246
+    .line 1247
+    .line 1248
+    invoke-virtual {v2, v3, v7, v4}, Lzk5;->b([Ljava/lang/String;ZLj84;)Lut9;
+
+    .line 1249
+    .line 1250
+    .line 1251
+    move-result-object v1
+
+    .line 1252
+    new-instance v2, Ln82;
+
+    .line 1253
+    .line 1254
+    const/4 v3, 0x6
+
+    .line 1255
+    invoke-direct {v2, v0, v3}, Ln82;-><init>(Ljava/lang/Object;I)V
+
+    .line 1256
+    .line 1257
+    .line 1258
+    new-instance v0, Lr33;
+
+    .line 1259
+    .line 1260
+    invoke-direct {v0, v7, v2}, Lr33;-><init>(ILj84;)V

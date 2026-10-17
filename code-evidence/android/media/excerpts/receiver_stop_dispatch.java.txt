@@ -1,0 +1,64 @@
+    L16:
+        th = move-exception;
+        r10.run();
+        throw th;
+    L25:
+        j67 r14 = (j67) this.c;
+        r14.d.e0((d77) this.d, (xo8) this.e, this.b);
+        return;
+    L27:
+        v67 r15 = (v67) this.c;
+        d77 r16 = (d77) this.d;
+        xo8 r17 = (xo8) this.e;
+        int r18 = this.b;
+        Log.i("v67", "Going to play video from " + r16.g);
+        ((WebVideoCasterApplication) r15.t).e = r16.i;
+        if (r15.L(r15.e) == false) goto L76;
+        w47 r19 = r15.z();
+        if (r19 == null) goto L45;
+        n00.i("serviceCanPlayWithoutStoppingFirst");
+        ca7 r20 = r15.A();
+        if ((r20 instanceof AirPlayService) == true) goto L45;
+        if (r15.I() == true) goto L45;
+        if ((r20 instanceof WebOSTVService) == true) goto L45;
+        if ((r20 instanceof RokuChannelService) == true) goto L45;
+        if ((r20 instanceof WebReceiverService) == true) goto L45;
+        if ((r20 instanceof TVAppReceiverService) == true) goto L45;
+        r19.d(new j67(r15, r16, r17, r18));
+        return;
+    L45:
+        r15.e0(r16, r17, r18);
+        return;
+    L76:
+        return;
+    L47:
+        GoogleCastService r21 = (GoogleCastService) this.c;
+        wea r22 = (wea) this.d;
+        qv1 r23 = (qv1) this.e;
+        int r24 = this.b;
+        vgb r25 = GoogleCastService.t;
+        if (((zx2) r21).b == false) goto L50;
+        Log.w(o8d.h(), "It is supposed to be connected");
+        r21.f(new jf4(r24, r21, r22, r23));
+        return;
+    L50:
+        Log.w(o8d.h(), "Not supposed to be connected, will check if available.");
+        if (r21.w0() == null) goto L53;
+        Log.w(o8d.h(), "Not removing because route info is not null");
+        return;
+    L53:
+        Log.w(o8d.h(), "Removing because route info is null");
+        r21.Y(r22, r23);
+        return;
+    L55:
+        AirPlayService r26 = (AirPlayService) this.c;
+        uea r27 = (uea) this.d;
+        int r28 = this.b;
+        Object r29 = this.e;
+        pqa r30 = AirPlayService.L;
+        xq9 r31 = r27.f;
+        if (r31 != null) goto L59;
+        return;
+    L59:
+        if (r28 == r26.k.get()) goto L61;
+    L63:

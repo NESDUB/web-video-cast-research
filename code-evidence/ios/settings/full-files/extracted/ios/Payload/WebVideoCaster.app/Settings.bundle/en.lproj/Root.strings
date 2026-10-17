@@ -1,0 +1,574 @@
+"pref_prevent_screen_lock_summary" = "Prevent device from sleeping while a video is being routed through it.";
+"pref_prevent_screen_lock_title" = "Prevent Screen Lock";
+"setting_alternate_cast_fire_tv" = "Legacy Amazon Fire TV Casting";
+"dark_mode_missing_error" = "Dark mode is only available in iOS 13 and above";
+"pref_mute_videos" = "Automatically mute videos in browser";
+"hide_m3u8_no_audio_pref_title" = "Hide m3u8 with no audio";
+"setting_airplay_auto_connect" = "Accept AirPlay auto connect";
+"pref_navigate_gesture" = "Navigate using swipe gesture";
+"pref_autoselect_subtitle_language_title" = "Autoselect Subtitles";
+
+/* This is for a boolean switch that allows the user to prevent having the video automatically play on the TV when they play the video in the browser */
+"auto_video_list_dialog" = "Show this dialog when a video is played in the browser";
+
+/* Setting to determine if the navigation bar in the web browser should automatically be shown or hidden when the user scrolls */
+"pref_nav_bar_auto_hide_title" = "Auto hide navigation bar";
+
+/* Setting to allow the user to pull down on the top of a web page to reload it */
+"pref_pull_to_refresh" = "Pull To Refresh";
+
+/* Setting category header for items related to private browsing (incognito) */
+"pref_private_tabs_category" = "Private Tabs";
+
+/* Setting to have the web browser re-open private tabs (incognito) when it is restoring other tabs open in the last session. */
+"pref_restore_private_tabs" = "When restoring tabs also include private tabs";
+
+/* Setting to prevent the app from remember videos casted from private tabs (incognito) in the "Recent Media" section of the app. */
+"pref_private_tab_media_history" = "Prevent remembering recent media from private tabs";
+
+/* Setting so any website urls, or video urls shared from other apps to this app will be opened in a private tab (incognito) */
+"pref_private_tab_share" = "Open links and videos shared from other apps in a private tab";
+
+/* Setting to require Face ID / Touch ID before accessing private tabs */
+"pref_private_tab_biometric_lock" = "Require Face ID / Touch ID to access private tabs";
+
+/* Setting title for the app to start logging to a file */
+"pref_capture_ios_logs_title" = "Capture iOS logs";
+
+/* Setting description for the app to start logging to a file */
+"pref_capture_ios_logs_description" = "Only select this if customer service has directed you to do this. This will slow down the application and consume storage space.";
+
+/* Setting to ask the user if m3u8 files should be converted */
+"setting_convert_m3u8_always_prompt" = "Prompt";
+
+/* Setting to always convert m3u8 files to ts */
+"setting_convert_m3u8_always_always" = "Always Convert";
+
+/* Setting to never convert m3u8 files to ts */
+"setting_convert_m3u8_always_never" = "Never Convert";
+
+/* Setting to control if the user will be prompted to resume a previously played video */
+"never_ask_to_resume_settings_title" = "Never ask to resume video";
+
+/* Description for the setting to control if the user will be prompted to resume a previously played video */
+"never_ask_to_resume_settings_description" = "Check this if you don't want the app to ask you whether you want to resume a video.";
+
+/* Setting to show the "Now Playing" media controls on the iOS lock screen. */
+"pref_show_now_playing_controls" = "Show Now Playing media controls on lock screen";
+
+/* Setting to use an experimental receiver when casting to chreomcast devices */
+"pref_chromecast_experimental_receiver" = "Experimental Chromecast Receiver";
+
+/* Setting to open a list of available lists that can be enabled to block certain types of ads */
+"pref_adblock_lists_category" = "Ad block lists";
+
+/* Setting to enable an ad block list called "Easylist". It is recommended the user enable this setting. "Easylist" should not be translated */
+"pref_easylist_title" = "Easylist (recommended)";
+
+/* Setting to enable an ad block list that blocks certain types of website annoyances */
+"pref_annoyance_ads_title" = "Website Annoyances (cookie banners, social media, etc.)";
+
+/* Setting to enable an ad block list that will block user trackers in websites increasing privacy */
+"pref_privacy_ads_title" = "Privacy (website trackers)";
+
+/* Setting to enable an ad block list that will stop messages that tell the user to disable their adblock extension */
+"pref_antiadblock_ads_title" = "Anti ad block detection";
+
+/* Setting to enable an ad block list that specifically designed for WVC (This application).  WVC should not be translated. */
+"pref_wvc_ads_title" = "WVC additional list";
+
+/* Section heading in settings to tell the user the following list of languages are to enable an ad block list made especially for websites in those languages */
+"pref_adblock_languages_category" = "Enhanced ad block by language";
+
+/* Attribution for the source adblock lists.  "Easylist" should not be translated. */
+"pref_adblock_attribution_footer" = "Ad block lists provided by https://easylist.to";
+
+/* Message shown under the list of available adblock options. Easylist should not be translated. */
+"pref_adblock_premium_required_footer" = "Ad blocking is only available for premium users.";
+"pref_ar_ads_title" = "ar - Arabic";
+"pref_bg_ads_title" = "bg - Bulgarian";
+"pref_cs_ads_title" = "cs - Czech";
+"pref_de_ads_title" = "de - German";
+"pref_es_ads_title" = "es - Spanish";
+"pref_fr_ads_title" = "fr - French";
+"pref_he_ads_title" = "he - Hebrew";
+"pref_hi_ads_title" = "hi - Hindi";
+"pref_id_ads_title" = "id - Indonesian";
+"pref_it_ads_title" = "it - Italian";
+"pref_ko_ads_title" = "ko - Korean";
+"pref_lt_ads_title" = "lt - Lithuanian";
+"pref_lv_ads_title" = "lv - Latvian";
+"pref_nb_ads_title" = "nb - Norwegian";
+"pref_nl_ads_title" = "nl - Dutch";
+"pref_pl_ads_title" = "pl - Polish";
+"pref_pt_ads_title" = "pt - Portuguese";
+"pref_ro_ads_title" = "ro - Romanian";
+"pref_ru_ads_title" = "ru - Russian";
+"pref_vi_ads_title" = "vi - Vietnamese";
+"pref_zh_ads_title" = "zh - Chinese";
+"video_detection_1_title" = "Video detection 1";
+"video_domain_reporting_settings_title" = "Disable anonymous domain reporting";
+"proxy_videos_always_pref_title" = "Always route videos through phone";
+
+/* Setting label to determine if the user should be prompted when a device on their network tries to connect to their phone. */
+"setting_allow_wvcconnect" = "Receiver Connection Prompt";
+
+/* Setting label to always accept connections from a device on the user's network */
+"setting_allow_wvcconnect_always" = "Always Accept";
+
+/* Setting label to never accept connections from a device on the user's network */
+"setting_allow_wvcconnect_never" = "Always Decline";
+
+/* Setting label to prompt the user when connections from a device on the user's network are attempted */
+"setting_allow_wvcconnect_prompt" = "Prompt";
+
+/* Setting label to determine if the red badge with video count on the play button should be shown. */
+"setting_videos_detected_badge" = "Video count badge";
+
+/* Section title for the In-App video player settings */
+"setting_in_app_player" = "In-App Player";
+
+/* Setting to adjust the phone rotation behavior when the in-app video player begins playing */
+"setting_rotation_setting" = "Player Rotation";
+
+/* The rotation should match how the user is currently holding the phone */
+"setting_follow_phone" = "Match Phone Position";
+
+/* The rotation should match the aspect ratio (width and height) of the video being played */
+"setting_match_video" = "Match Video Size";
+
+/* The video playback should always be started in landscape position */
+"setting_always_landscape_right" = "Always Landscape";
+
+/* The video playback should always be started in portrait */
+"setting_always_portrait" = "Always Portrait";
+
+/* Automatically loop or repeat the video when it finishes playing */
+"setting_in_app_repeat" = "Always repeat video";
+
+/* Automatically to always start playing video muted (0% volume) */
+"setting_in_app_mute" = "Always mute video";
+
+/* Section heading for gesture settings in the in-app video player */
+"setting_in_app_gestures" = "Gestures";
+
+/* Setting to allow the user to swipe up or down on the left side of the screen to adjust the phone brightness in the in-app video player */
+"setting_in_app_brightness_gesture" = "Left side swipe up or down to adjust brightness";
+
+/* Setting to allow the user to swipe up or down on the right side of the screen to adjust the phone volume in the in-app video player */
+"setting_in_app_volume_gesture" = "Right side swipe up or down to adjust volume";
+
+/* Setting to allow the user to swipe left or right to skip the video forward or backward in the in-app video player */
+"setting_in_app_skip_gesture" = "Swipe left or right to skip forward or backward";
+
+/* Setting to allow the user to tap the screen twice on the left or right side to skip the video forward or backward or on in the middle to play/pause the video */
+"setting_in_app_skip_tap_gesture" = "Double tap to pause or skip forward or backward";
+
+/* Setting to determine if the app should give the user the option to cast an image or video when it is long pressed in the web browser */
+"setting_video_long_press" = "Long press option to cast on images and videos";
+
+/* Setting to allow the user to change the default behavior for bad ssl certificates */
+"pref_invalid_ssl_certificate_title" = "Default invalid SSL certificate handling";
+
+/* Setting to prompt the user with a dialog box when it encounters a bad SSL Certificate */
+"pref_ssl_prompt" = "Prompt";
+
+/* Setting to automatically ignore bad ssl certificates and continue loading */
+"pref_ssl_ignore" = "Ignore";
+
+/* Setting to automatically stop loading sites with invalid ssl certificates */
+"pref_ssl_cancel" = "Cancel";
+"pref_chromecast_receiver" = "Chromecast Receiver Type";
+"pref_chromecast_receiver_default" = "Default";
+"pref_chromecast_receiver_shaka_hls" = "Google's Recommended HLS Player";
+"pref_chromecast_receiver_hlsjs" = "HLS Chromecast Alternative";
+"pref_chromecast_receiver_legacy_hls" = "Google's Legacy HLS Player";
+"pref_chromecast_receiver_experimental" = "WVC's Experimental Receiver";
+"pref_restore_tabs_dialog_title" = "Show dialog asking to restore tabs";
+"pref_restore_tabs_dialog_summary" = "Ask whether the app should try to restore previously opened tabs after the app was closed.";
+"pref_restore_tabs_automatic_title" = "Always attempt to restore tabs";
+"pref_restore_tabs_automatic_summary" = "Attempt to restore tabs always, without prompting.";
+
+/* Toggle in the Downloads settings section. When enabled, the user is prompted to choose a save location (via the system Files picker) each time they download a file. When disabled, files are saved automatically to the app's default Downloads folder. */
+"pref_download_prompt_location_title" = "Prompt for download location";
+
+/* When an hls (m3u8) video is downloaded as ts automatically convert it back to hls format when casting. */
+"pref_auto_convert_ts_downloads_title" = "Convert downloaded TS files to HLS when casting";
+"pref_auto_convert_ts_downloads_description" = "When a video is downloaded from an HLS (M3U8) stream as a TS file, the system will automatically convert it back to HLS format when casting to devices that prefer that format.";
+
+/* Setting to always open bookmarks in private tab */
+"pref_browser_open_in_tab_new_private" = "In a new private tab";
+
+/* Setting header for bookmark related properties */
+"pref_bookmarks_category" = "Bookmarks";
+
+/* Label for preference where the user can select the type of network communication with the receiver they want (IPv4 or IPv6) */
+"pref_ip_preference" = "Internet Protocol Type";
+"pref_prefer_ipv4" = "Prefer IPv4";
+"pref_prefer_ipv6" = "Prefer IPv6";
+"pref_ipv4_only" = "IPv4 Only";
+"pref_ipv6_only" = "IPv6 Only";
+
+/* Setting to choose which video renderer to use in the in-app player */
+"setting_in_app_renderer" = "Video Renderer";
+
+/* Use the best renderer automatically based on the video type being played */
+"setting_in_app_renderer_auto" = "Best for video type";
+
+/* Use Apple's AVPlayer renderer */
+"setting_in_app_renderer_avplayer" = "Apple AVPlayer";
+
+/* Use VLCKit renderer */
+"setting_in_app_renderer_vlckit" = "VLCKit";
+
+/* Section header for cast device debugging options in the hidden settings menu */
+"setting_cast_device_debug" = "Cast Device Debug";
+
+/* Toggle to show a scrollable debug log overlay on screen during app use */
+"setting_on_screen_console" = "On-Screen Console";
+
+/* Number of log lines kept visible in the on-screen debug console */
+"setting_on_screen_line_limit" = "On-Screen Line Limit";
+
+/* Picker label for selecting the minimum severity of messages shown in the on-screen console */
+"setting_debug_level" = "Debug Level";
+
+/* Debug level option: show all messages including verbose debug output */
+"setting_debug_level_debug" = "Debug";
+
+/* Debug level option: show informational messages and above */
+"setting_debug_level_info" = "Info";
+
+/* Debug level option: show warnings and above */
+"setting_debug_level_warning" = "Warning";
+
+/* Debug level option: show only errors */
+"setting_debug_level_error" = "Error";
+
+/* Picker label for overriding whether hls.js is used for HLS playback in the Chromecast receiver */
+"setting_use_hlsjs" = "Use hlsjs";
+
+/* hlsjs override option: use the default behaviour to decide when to use hls.js */
+"setting_use_hlsjs_default" = "Default";
+
+/* hlsjs override option: always use hls.js regardless of stream type */
+"setting_use_hlsjs_always" = "Always";
+
+/* hlsjs override option: never use hls.js, fall back to native playback */
+"setting_use_hlsjs_never" = "Never";
+
+/* Toggle to show a Share button at the bottom of the browser overflow menu, allowing the user to share the current page URL via the iOS share sheet */
+"setting_show_share_menu" = "Show Share Menu";
+
+/* Section header for browser options in the hidden settings menu */
+"setting_browser" = "Browser";
+
+/* Toggle to disable all WKWebView user script injection for browser tabs */
+"setting_inject_javascript" = "Inject video detection Javascript";
+
+/* Toggle in Settings > Browser > Block ad redirects. When on, a notification toast is shown whenever an ad redirect is blocked. When off, the redirect is silently blocked. */
+"pref_redirect_ad_block_notify_title" = "Notify on blocked redirect";
+
+/* Toggle in Settings > Browser > Block all popups. When on, a notification toast is shown whenever a popup is blocked. When off, the popup is silently blocked. */
+"pref_popup_ignore_notify_title" = "Notify on blocked popup";
+"popup_ignore_title" = "Block all pop-ups";
+"popup_ignore_summary" = "Ignore pop-ups, even user initiated ones.";
+"dont_send_title_to_streaming_device_pref_title" = "Don't send title to streaming device";
+"dont_send_title_to_streaming_device_pref_summary" = "Video title won't show on list of streaming devices for devices which show a title";
+"proxy_videos_always_pref_summary" = "Play videos through phone on streaming devices which can only play content in your local network or require assistance to play videos (recommended for Samsung TVs)";
+"route_through_phone_pref_title" = "Route through phone";
+"route_through_phone_value_always" = "Always route";
+"route_through_phone_value_ask" = "Ask whether to route";
+"route_through_phone_value_never" = "Never route";
+"skip_video_already_playing_dialog_settings_description" = "Don't show dialog for video already playing";
+"skip_video_already_playing_dialog_settings_title" = "When you try to play a video and one is already playing a dialog is shown asking what you want to do.";
+"disable_thumbnails_pref_summary" = "Disables the extraction of thumbnails from videos because some content providers have limits on the number of connections";
+"disable_thumbnails_pref_title" = "Disable thumbnail extraction";
+"pref_ad_block_summary" = "Block some website ads. If ads aren't blocked please contact support";
+"pref_ad_block_title" = "Block website ads";
+"pref_ad_block_lists_summary" = "Choose the ad blocklists and allowlists you want to use.";
+"pref_ad_block_lists_title" = "Ad block lists";
+"pref_ad_blocked_alert_summary" = "Whether the app should let you know when an ad pop-up was blocked";
+"pref_ad_blocked_alert_title" = "Alert about blocked ad pop-ups";
+"pref_redirect_ad_block_title" = "Block ad redirects";
+"pref_redirect_ad_block_summary" = "Block sites from redirecting you to pages that only show ads.";
+"pref_ad_redirect_ask_to_report_summary" = "Be given the option to report the ad redirects that you encounter, to help improve ad blocking.";
+"pref_ad_redirect_ask_to_report_title" = "Ask to report ad redirects";
+"pref_external_app_launch_blocked_alert_summary" = "Be alerted when this app prevented the launch of an external app.";
+"pref_external_app_launch_blocked_alert_title" = "Alert for blocked external app launch";
+"pref_browser_register_title" = "Register as browser";
+"pref_browser_register_summary" = "Allows this app to show up on the list of browsers when opening web links.";
+"pref_browser_tab_lazy_load_enable_title" = "Load tabs lazily after restoration";
+"pref_browser_tab_lazy_load_enable_summary" = "When tabs are restored, load the current tab immediately but do not load any other tabs until they are selected. This can lower resource usage.";
+"pref_browser_tab_manager_legacy_enable_title" = "Use legacy Tab Manager";
+"pref_browser_tab_manager_legacy_enable_summary" = "If you prefer to use the legacy Tab Manager instead of the new one.";
+"setting_title_browser" = "Browser";
+"setting_title_video_playback" = "Casting";
+"setting_title_in_app_player" = "In-app player";
+"setting_title_iptv" = "IPTV";
+"setting_summary_iptv_parser_m3u" = "Options for IPTV lists in M3U format.";
+"setting_title_iptv_parser_m3u" = "M3U advanced options";
+"setting_summary_iptv_parser_rss" = "Options for IPTV lists in RSS/XML format.";
+"setting_title_iptv_parser_rss" = "RSS advanced options";
+"setting_title_advanced" = "Advanced";
+"pref_start_screen_summary" = "Start the application straight into a specific screen.";
+"pref_start_screen_title" = "Start screen";
+"pref_javascript_alert_block_title" = "Block JavaScript alert dialogs";
+"pref_javascript_alert_block_summary" = "Block all JavaScript alert dialogs on the browser.";
+"pref_javascript_confirm_block_title" = "Block JavaScript confirm dialogs";
+"pref_javascript_confirm_block_summary" = "Block all JavaScript confirm dialogs on the browser. This could cause issues if the website is expecting a yes or no answer from you.";
+"pref_javascript_prompt_block_title" = "Block JavaScript prompt dialogs";
+"pref_javascript_prompt_block_summary" = "Block all JavaScript prompt dialogs on the browser. This could cause issues if the website is expecting information from you.";
+"setting_title_video_discovery" = "Video detection";
+"video_detection_2_title" = "Advanced video detection";
+"video_detection_2_summary" = "Detects videos that might be a bit harder to detect by other simpler methods. Disable this if browsing is slow.";
+"auto_video_list_summary" = "Attempts to play the video or loads the video list as soon as some types of videos are detected.";
+"auto_video_list_title" = "Auto play video or show list";
+"setting_title_downloads" = "Downloads";
+"download_wifi_settings_title" = "Download only on wifi";
+"download_wifi_settings_description" = "Download files only while connected to a wifi connection. Recommended as videos tend to be large.";
+"pref_search_engine_title" = "Search engine";
+"pref_search_engine_summary" = "Search engine to use when performing a search from the address bar.";
+"enable_played_dialog_pref_title" = "Show video played dialog";
+"enable_played_dialog_pref_summary" = "Shows a dialog a few seconds after a video was played asking if the video played correctly, allowing you to access help and submit the video for review.";
+"enable_lockscreen_wallpaper_pref_title" = "Lockscreen wallpaper";
+"enable_lockscreen_wallpaper_pref_summary" = "Show video poster or placeholder while casting on lockscreen as wallpaper.";
+"use_final_redirect_always_pref_title" = "Resolve video redirects";
+"use_final_redirect_always_pref_summary" = "Always figure out what the final address of a video is when the server redirects. This might be required for some DLNA players.";
+"convert_m3u8_always_pref_title" = "Convert m3u8 videos to ts";
+"convert_m3u8_always_pref_summary" = "Always convert m3u8 videos to ts without prompting. This is recommended for most dlna streaming devices.";
+"convert_m3u8_never_pref_title" = "Don't convert m3u8 videos to ts";
+"convert_m3u8_never_pref_summary" = "Never convert m3u8 videos to ts without prompting. Use this if your device can play m3u8 videos and you don't want to see the prompt dialog again.";
+"enable_mx_roku_videos_pref_summary" = "Send videos to Roku in a different way. Works in countries (Mexico especially) that certain videos don't work on Roku.";
+"enable_mx_roku_videos_pref_title" = "Roku fix for certain countries.";
+"never_ask_mx_roku_videos_pref_title" = "Never ask about Roku fix for certain countries.";
+"never_ask_mx_roku_videos_pref_summary" = "Never ask if videos casted to Roku should use the alternate way of casting them.";
+"never_ask_cast_video_ads_pref_summary" = "Don't ask whether it should cast a video that was detected to be an ad.";
+"never_ask_cast_video_ads_pref_title" = "Never show video ad dialog";
+"never_cast_video_ads_pref_title" = "Don't cast video ads";
+"never_cast_video_ads_pref_summary" = "Don't cast any videos if the app detects that they are advertisements.";
+"cast_resume_settings_title" = "Resume media playback";
+"cast_resume_settings_description" = "Whether you want to resume previously played media";
+"disable_volume_buttons_summary" = "Volume buttons on the phone will not control the volume of your casted media. You must restart casting after changing this.";
+"disable_volume_buttons_title" = "Disable volume buttons while casting";
+"use_old_videojs_pref_title" = "Web Receiver compatibility mode";
+"use_old_videojs_pref_summary" = "Some old browsers do not have some of the newer features of the web receiver. This will try to use features available on older receivers.";
+"iptv_parse_show_info_pref_summary" = "Attempt to extract Season and Episode information for each item. This may slow down the processing of the list.";
+"iptv_parse_show_info_pref_title" = "Parse show information";
+"iptv_skip_standalone_groups_pref_summary" = "When navigating an IPTV list that has nothing but a group at the top level, skip the group altogether to get to its contained items directly.";
+"iptv_skip_standalone_groups_pref_title" = "Skip standalone groups";
+"iptv_list_update_mode_pref_summary" = "Whether to perform automatic or manual IPTV list refreshes. Note that automatic modes, depending on the size of the source file, may require lengthy reprocessing, even if the IPTV List itself has not changed. For this reason, manual mode is recommended, especially if you use large lists.";
+"iptv_list_update_mode_pref_title" = "IPTV List update mode";
+"iptv_parser_m3u_extinf_attributes_parser_pref_summary" = "How to extract the attributes that determine things like the groups and subgroups that channels belong to. The selected mode may make the list load process faster or slower.";
+"iptv_parser_m3u_extinf_attributes_parser_pref_title" = "M3U Attribute extraction";
+"iptv_parser_m3u_extvlcopt_attributes_parser_pref_summary" = "Parse this element to extract relevant data like HTTP Headers. This may slow down the processing of lists.";
+"iptv_parser_m3u_extvlcopt_attributes_parser_pref_title" = "Parse M3U attributes in #EXTVLCOPT";
+"iptv_parser_m3u_name_override_with_attribute_pref_summary" = "Replace the name of the channel with the one specified by the tvg-name attribute.";
+"iptv_parser_m3u_name_override_with_attribute_pref_title" = "Override name with attribute";
+"iptv_parser_m3u_name_strip_tags_pref_summary" = "Remove tags like [B] or [I] from the name. This will slow down the processing of lists.";
+"iptv_parser_m3u_name_strip_tags_pref_title" = "Strip tags from name";
+"iptv_parser_m3u_subgroups_consider_pref_summary" = "Whether to consider or ignore subgroups specified by the pltv-subgroup attribute. If disabled, all channels will be placed under the main group.";
+"iptv_parser_m3u_subgroups_consider_pref_title" = "Consider M3U subgroups";
+"iptv_parser_rss_root_channel_keep_pref_summary" = "When loading the list, do keep the root Channel instead of only loading its contained Stations.";
+"iptv_parser_rss_root_channel_keep_pref_title" = "Keep RSS root Channel element";
+"browser_ads_pref_category" = "Pop-up and Ad Blocking";
+"browsing_pref_category" = "Browsing";
+"browser_controls_pref_category" = "Controls";
+"prior_to_casting_casting_pref_category" = "Casting Dialogs";
+"while_casting_casting_pref_category" = "Media Control";
+"subtitles_casting_pref_category" = "Subtitles Options";
+"phone_audio_casting_pref_category" = "Phone Audio Options";
+"other_casting_pref_category" = "Other Casting Options";
+"dark_mode_system_setting" = "System setting";
+"dark_mode_light" = "Light mode";
+"dark_mode_dark" = "Dark mode";
+"pref_dark_mode_title" = "Dark/Light mode";
+"pref_dark_mode_summary" = "Select whether the app follows the system settings, or is on light mode, or dark mode.";
+"setting_title_personalization" = "Personalization";
+"dark_mode_dialog_title" = "Dark Mode";
+"setting_prefer_app" = "Prefer TV Application";
+"setting_prefer_app_prompt" = "Prompt";
+"setting_prefer_app_always" = "Always Prefer";
+"setting_prefer_app_never" = "Never Prefer";
+"setting_prefer_app_summary" = "Select whether you want the app to always use the TV Receiver App over other methods such as DLNA.";
+"use_chromecast_notification_pref_title" = "Show Cast SDK notification";
+"use_chromecast_notification_pref_summary" = "Show the Google Cast notification alongside the Web Video Caster notification. This might help with Chromecast connectivity, but you'll see two notifications.";
+"dont_override_user_agent_title" = "Prevent app from overriding user agent";
+"dont_override_user_agent_summary" = "On some website the app will override the user agent with one known to work better for that site. This option will prevent that.";
+"open_playback_control_pref_summary" = "Open playback control screen as soon as the video starts playing on your TV.";
+"open_playback_control_pref_title" = "Auto open playback control screen";
+"pref_force_dark_mode_title" = "Force web page dark mode";
+"pref_force_dark_mode_summary" = "Select whether web pages should use dark mode regardless of what the configuration of the app or phone.";
+"pref_dark_mode_strategy_title" = "Dark mode strategy for web pages";
+"pref_dark_mode_strategy_summary" = "Select whether you want the webpage to use dark mode based on user agent or web theme.";
+"dark_mode_dialog_app_settings_label" = "App Settings";
+"dark_mdeo_web_page_settings_dialog_label" = "Web Page Settings";
+"dark_mode_dialog_webview_info" = "The Android System WebView handles how web sites look in dark mode. Below are all the settings available on the Android System WebView. You must have a WebView version 83 or higher.";
+"dark_mode_strategy_for_web_pages_dialog_label" = "Dark mode strategy for web pages";
+"dark_mode_strategy_web_theme_over_user_agent" = "Prefer web theme over user agent";
+"dark_mode_strategy_user_agent" = "User agent";
+"dark_mode_strategy_web_theme" = "Web theme";
+"pref_use_sandboxing_fix_title" = "Sandboxing error fix";
+"pref_use_sandboxing_fix_summary" = "Use this if a website gives you an error about sandboxing not being allowed.";
+"pref_update_adblock_list_title" = "Update adblock list automatically";
+"pref_update_adblock_list_summary" = "Disable this if the ad blocker is breaking some website you want to use. Requires an app restart.";
+"hide_m3u8_no_audio_pref_summary" = "For adaptive m3u8 videos, the individual videos for each resolution will be hidden in the video list if the app believes they don't have audio.";
+"pref_default_subtitle_language_title" = "Default subtitle language";
+"pref_default_subtitle_language_description" = "The language that will be used when auto selecting web page subtitles.";
+"recode_vtt_pref_title" = "Clear formatting from VTT";
+"recode_vtt_pref_summary" = "Some VTT subtitles include some formatting and that isn't compatible with all streaming devices. This will clear that formatting.";
+"pref_subtitles_search_name_must_match_always_summary" = "Whether subtitles searches should always use the entered name literally. This can help if you regularly see irrelevant or no results for your searches.";
+"pref_subtitles_search_name_must_match_always_title" = "Always perform exact searches";
+"setting_title_privacy" = "Privacy";
+"delete_analytics_data_title" = "Reset privacy settings";
+"delete_analytics_data_summary" = "Clears all prior selections for age, analytics, GDPR, app instance id, etc.";
+"pref_save_webview_state_title" = "Save WebView state";
+"pref_save_webview_state_summary" = "When saving tabs for restoring, this will make it so not only the address is saved but also the state of the page. There is a high chance this will cause freezes while using the app.";
+"browser_advanced_pref_category" = "Advanced";
+"pref_language_title" = "Language";
+"pref_language_summary" = "Change the language of the app.";
+"pref_render_process_gone_reopen_always_title" = "Always reopen crashed tabs";
+"pref_render_process_gone_reopen_always_summary" = "When a tab crashes, reopen it without asking.";
+"receiver_connection_request_action_pref_summary" = "What to do about incoming connection requests from the Web Video Caster Receiver";
+"receiver_connection_request_action_pref_title" = "Receiver connection prompt";
+"preferences_restore_defaults_confirm" = "Are you sure you want to restore all preferences?";
+"preferences_restore_defaults_summary" = "Restores all preferences back to application defaults. This action is irreversible, but you can manually reconfigure your settings afterward.";
+"preferences_restore_defaults_title" = "Restore defaults";
+"pref_shred_and_exit_reset_title" = "Reset the options for Erase and Exit";
+"pref_shred_and_exit_reset_summary" = "Enable the selection of the options to erase after choosing to never be asked again";
+"pref_shred_and_exit_reset_dialog_title" = "Erase and Exit";
+"pref_shred_and_exit_reset_dialog_content" = "The options were reset. You can now make your selections again.";
+"in_app_player_always_mute_settings_title" = "Always mute videos";
+"in_app_player_always_mute_settings_description" = "Mute all videos played on the in-app player.";
+"in_app_player_always_use_settings_title" = "Always use the in-app player";
+"in_app_player_always_use_settings_description" = "For supported media, always play them on the in-app player instead of casting them to a streaming device.";
+"in_app_player_back_exits_always_settings_title" = "Always exit without asking";
+"in_app_player_back_exits_always_settings_description" = "When a video is playing on the in-app player and the back button is pressed, exit without asking for confirmation.";
+"in_app_player_brightness_remember_settings_title" = "Remember brightness level";
+"in_app_player_brightness_remember_settings_description" = "Whether to remember the brightness level for it to be restored when the next video is played back.";
+"in_app_player_buffer_settings_title" = "Buffer settings";
+"in_app_player_buffer_settings_error_title" = "Buffer settings error";
+"in_app_player_buffer_settings_error_invalid_buffer_equalized" = "The value for maximum buffer must be equal or greater than the value for minimum buffer. The values have been automatically equalized.";
+"in_app_player_buffer_settings_error_invalid_buffer_reset" = "The value for maximum buffer must be equal or greater than the value for minimum buffer. Both have been automatically reverted to their default values.";
+"in_app_player_buffer_settings_set_custom" = "Use custom settings";
+"in_app_player_buffer_settings_set_default" = "Use default settings";
+"in_app_player_cache_size_max_pref_summary" = "Set the maximum size or clear the cache.";
+"in_app_player_cache_size_max_pref_title" = "Cache options";
+"in_app_player_gesture_brightness_via_swipe_settings_title" = "Swipe to adjust brightness";
+"in_app_player_gesture_brightness_via_swipe_settings_description" = "Swipe up or down on the left of the screen to increase or decrease the brightness";
+"in_app_player_gesture_playback_via_double_tap_settings_title" = "Double-tap to control playback";
+"in_app_player_gesture_playback_via_double_tap_settings_description" = "Skip backward via double-tap on the left, play/pause on the center, and skip forward on the right";
+"in_app_player_gesture_skip_via_swipe_settings_title" = "Swipe to skip";
+"in_app_player_gesture_skip_via_swipe_settings_description" = "Swipe left to skip back, or right to skip forward";
+"in_app_player_gesture_volume_via_swipe_settings_title" = "Swipe to adjust volume";
+"in_app_player_gesture_volume_via_swipe_settings_description" = "Swipe up or down on the right of the screen to increase or decrease the volume";
+"in_app_player_gestures_settings_title" = "Gestures";
+"in_app_player_repeat_playlists_always_settings_title" = "Always repeat playlists";
+"in_app_player_repeat_playlists_always_settings_description" = "Repeat all playlists played on the in-app player.";
+"in_app_player_resume_settings_title" = "Resume media playback";
+"in_app_player_resume_settings_description" = "Whether you want to resume previously played media";
+"in_app_player_screen_orientation_remember_settings_title" = "Remember screen orientation";
+"in_app_player_screen_orientation_remember_settings_description" = "Whether to remember the orientation the screen had while playing the last video, in order to restore it when the next video is played back.";
+"in_app_player_volume_boost_allowed_settings_title" = "Allow volume boost";
+"in_app_player_volume_boost_allowed_settings_description" = "Whether to allow the volume to be increased beyond its original level";
+"in_app_player_volume_remember_settings_title" = "Remember volume level";
+"in_app_player_volume_remember_settings_description" = "Whether to remember the volume level for it to be restored when the next video is played back.";
+"in_app_player_volume_reset_before_playback_settings_title" = "Reset volume before playback";
+"in_app_player_volume_reset_before_playback_settings_description" = "Reset the volume to a low level before starting playback for every media item.";
+"pref_webview_media_integrity_api_status_summary" = "Whether to enable or disable the Media Integrity API in Web View";
+"pref_webview_media_integrity_api_status_title" = "Media Integrity API";
+"playback_control_help_tips_show_settings_title" = "Show help tips";
+"playback_control_help_tips_show_settings_summary" = "Show tips that may help to resolve issues that occur when casting media to the streaming devices";
+"pref_allowed_popups_summary" = "Specify which websites are always allowed to open pop-up windows.";
+"pref_allowed_popups_title" = "Allowed pop-ups";
+"pref_browser_open_in_tab_summary" = "When asking to open pages from a screen other than the Web Browser itself, choose where you want those pages to open by default.";
+"pref_browser_open_in_tab_title" = "Where to open pages from within the app";
+"pref_browser_open_in_tab_external_summary" = "When asked to open a page that comes from another app (e.g., via URL sharing), choose where you want those pages to open by default.";
+"pref_browser_open_in_tab_external_title" = "Where to open pages from other apps";
+"browser_open_in_tab_current" = "In the active tab";
+"browser_open_in_tab_new" = "In a new tab";
+"pref_browser_start_screen_title" = "Start screen";
+"pref_browser_start_screen_summary" = "What to show when the browser is launched";
+"pref_browser_tabs_restore_title" = "Restore tabs";
+"pref_browser_tabs_restore_summary" = "Whether to attempt to restore the tabs when the browser is launched";
+"pref_proxy_buffer_size_summary" = "The size of the buffer that the proxy should use. Keep in mind that large values might cause the app to crash due to memory constraints.";
+"pref_proxy_buffer_size_title" = "Proxy buffer size";
+"setting_title_scrobble" = "Scrobble";
+"scrobble_background_events_alert_settings_description" = "Whether to be alerted when scrobble operations that run in the background encounter issues.";
+"scrobble_background_events_alert_settings_title" = "Alert about background issues";
+"scrobble_enabled_types_settings_description" = "Which services will be presented as options to scrobble to during video playback.";
+"scrobble_enabled_types_settings_title" = "Scrobble services";
+"scrobble_reset_settings_description" = "Do this if scrobble operations are not working as expected. This will allow you to start from scratch, which means that you will be asked again whether you want to authorize this app to scrobble on your behalf.";
+"scrobble_reset_settings_title" = "Reset scrobble services";
+"chromecast_receiver_type_pref_summary" = "Select the Chromecast receiver to use. This mostly only affects HLS videos.";
+"chromecast_receiver_type_pref_title" = "Chromecast Receiver Type";
+"pref_phone_audio_cache_size_max_description" = "Set the maximum size or clear the cache.";
+"pref_phone_audio_cache_size_max_title" = "Cache options";
+"settings_title_parent_child" = "%@: %@";
+"settings_search_dialog_title" = "Settings search";
+"settings_search_item_preference_set_title_with_parent" = "Setting in %@: %@";
+"settings_search_item_preference_set_title_without_parent" = "Setting in %@";
+"settings_search_item_section_set_title_with_parent" = "All settings for %@";
+"settings_search_item_section_set_title_without_parent" = "All settings";
+"settings_search_main_section_label" = "Main settings section";
+"settings_search_query_hint" = "Search settings";
+"settings_search_results_none" = "No settings found.";
+"pref_ip_preference_title" = "Internet Protocol Type";
+"pref_ip_preference_summary" = "Selects the preferred IP protocol for receiver communication.";
+"browser_ssl_certificates_pref_category" = "SSL certificates";
+"ssl_certificate_details_value_not_available" = "N/A";
+"ssl_certificates_advanced_settings_title" = "Advanced options";
+"ssl_certificates_ca_settings_summary" = "You can store CA certificates that you trust to avoid SSL certificate validation errors.";
+"ssl_certificates_ca_settings_title" = "CA certificates";
+"ssl_certificates_ignore_all_domains_settings_summary" = "Whether to continue browsing in spite of the presence of any invalid SSL certificate. WARNING: Enabling this can put your personal information at risk.";
+"ssl_certificates_ignore_all_domains_settings_title" = "Ignore invalid SSL certificates for all domains";
+"ssl_certificates_invalid_ignored_settings_summary" = "The domains for which you have chosen to ignore SSL certificates that were found to be invalid.";
+"ssl_certificates_invalid_ignored_settings_title" = "Ignored invalid SSL certificates";
+"premium_contact_support_settings_summary" = "If none of the options above work for you, please DO NOT REINSTALL THE APP and contact us so that we can help to resolve the issue.";
+"premium_contact_support_settings_title" = "Contact Support";
+"premium_restore_purchase_settings_summary" = "If you have not signed up for an account yet, an attempt can be made to restore your premium status by looking for the corresponding purchase on the Play Store. IMPORTANT: DO NOT choose this option if you already signed up for an account, or else recovering your premium status will become harder.";
+"premium_restore_purchase_settings_title" = "Restore Purchase";
+"premium_sign_in_settings_summary" = "If you have an existing account with premium, sign in to recover your premium status.";
+"premium_sign_in_settings_title" = "Sign In";
+"premium_sign_up_or_in_settings_summary" = "Create an account to tie your premium purchase to. This will make recovery or transfers to other devices easier.";
+"premium_sign_up_or_in_settings_title" = "Sign Up / Sign In";
+"setting_title_premium" = "Premium";
+"proxy_m3u8_proxifier_type_settings_title" = "Operating mode";
+"proxy_m3u8_settings_title" = "Proxy for M3U8";
+"proxy_m3u8_url_generator_type_settings_title" = "Generation mode";
+"check_live_stream_pref_title" = "Check if video is live stream";
+"check_live_stream_pref_summary" = "Check if video is live stream so it won't lag behind live events. Disable this if non live m3u8 videos end a few seconds after starting or if you prefer to use the play as live stream option manually.";
+"yt_client_pref_title" = "YouTube API client";
+"yt_client_pref_summary" = "Select which YouTube Innertube client to use for video extraction. IOS is the default (reliable, no signature decoding needed).";
+"pause_on_incoming_call_settings_title" = "Pause video on incoming call";
+"pause_on_incoming_call_settings_description" = "When the phone starts ringing the video will be paused";
+"pause_on_answered_call_settings_title" = "Pause video when answering a call";
+"pause_on_answered_call_settings_description" = "When you answer a phone call the video will be paused";
+"disable_error_reporting_settings_title" = "Disable error and crash reporting";
+"disable_error_reporting_settings_description" = "Disables anonymous error and crash reporting as well as anonymous usage data.";
+"open_settings_dialog_button" = "Open settings";
+"wake_lock_pref_summary" = "Request a wake/wifi lock even when the video is not being routed through the phone. Use this if you experience disconnect issues.";
+"wake_lock_pref_title" = "Maintain wake/wifi lock during playback";
+"pref_reconnect_to_streaming_device_description" = "Attempt to reconnect to your last used streaming device when the application starts";
+"pref_reconnect_to_streaming_device_title" = "Reconnect to streaming device";
+"enable_other_mime_types_pref_title" = "Use alternative file types for certain media files";
+"enable_other_mime_types_pref_summary" = "Use this when some devices won't play some video files like MKV or TS.";
+"skip_back_seconds_settings_title" = "Skip back seconds";
+"skip_back_seconds_settings_description" = "Seconds it will jump back during playback";
+"skip_forward_seconds_settings_title" = "Skip forward seconds";
+"skip_forward_seconds_settings_description" = "Seconds it will jump forward during playback";
+"you_must_enter_a_value_error_message" = "You must enter a value";
+"pref_prompt_subtitles_settings_description" = "Show dialog to choose subtitles every time a video is played";
+"pref_prompt_subtitles_settings_title" = "Always use subtitles";
+"optimization_settings_not_found_title" = "Settings missing";
+"optimization_settings_not_found_message" = "We were unable to open your battery settings. Please go into your Android battery settings and remove the optimization for Web Video Caster. Failure to remove optimizations will result on the video stopping on its own and playback controls going away on their own.";
+"must_enter_a_minute_value_only" = "Must enter only a minute value";
+"use_w_1252_for_srt_pref_title" = "Special character issues on subtitles";
+"use_w_1252_for_srt_pref_summary" = "Use this if your TV shows weird characters when it should be showing special characters on subtitle text. Some Samsung TVs need this.";
+"dont_recode_srt_pref_title" = "Don't modify SRT subtitles";
+"dont_recode_srt_pref_summary" = "If a subtitle is already on SRT format and the streaming device accepts SRT, don't modify the SRT file.";
+"image_controller_gesture_next_previous_via_swipe_settings_title" = "Swipe for Next/Previous Image";
+"image_controller_gesture_next_previous_via_swipe_settings_summary" = "Swipe left for the previous image, right for the next image";
+"image_controller_gestures_settings_title" = "Gestures";
+"optimization_settings_not_found_message_for_this_app" = "Please select Web Video Caster from the list of battery optimized apps and change Web Video Caster to \"not optimized\".";
+"pref_chromecast_receiver_android_tv" = "Prefer Android TV receiver";

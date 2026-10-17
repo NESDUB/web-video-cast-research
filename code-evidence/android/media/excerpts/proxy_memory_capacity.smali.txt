@@ -1,0 +1,64 @@
+    .line 65
+    .line 66
+    .line 67
+    move-result v1
+
+    .line 68
+    :goto_2
+    return v1
+
+    .line 69
+    :pswitch_data_0
+    .packed-switch 0x2
+        :pswitch_2
+        :pswitch_1
+        :pswitch_0
+    .end packed-switch
+.end method
+
+.method public final removeEldestEntry(Ljava/util/Map$Entry;)Z
+    .locals 0
+
+    .line 1
+    iget p1, p0, Lf84;->a:I
+
+    .line 2
+    .line 3
+    packed-switch p1, :pswitch_data_0
+
+    .line 4
+    .line 5
+    .line 6
+    invoke-super {p0}, Ljava/util/AbstractMap;->size()I
+
+    .line 7
+    .line 8
+    .line 9
+    move-result p0
+
+    .line 10
+    const/16 p1, 0x1388
+
+    .line 11
+    .line 12
+    if-le p0, p1, :cond_0
+
+    .line 13
+    .line 14
+    const/4 p0, 0x1
+
+    .line 15
+    goto :goto_0
+
+    .line 16
+    :cond_0
+    const/4 p0, 0x0
+
+    .line 17
+    :goto_0
+    return p0
+
+    .line 18
+    :pswitch_0
+    invoke-super {p0}, Ljava/util/AbstractMap;->size()I
+

@@ -1,0 +1,64 @@
+    invoke-static {v8, v7}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 79
+    const-string v7, "serving video prox before code"
+
+    invoke-static {v7}, Lmd9;->a(Ljava/lang/String;)V
+    :try_end_2a
+    .catch Ljava/io/IOException; {:try_start_2a .. :try_end_2a} :catch_91
+    .catch Ljava/lang/OutOfMemoryError; {:try_start_2a .. :try_end_2a} :catch_90
+    .catchall {:try_start_2a .. :try_end_2a} :catchall_35
+
+    .line 80
+    :try_start_2b
+    const-string v7, "Going to execute call"
+
+    invoke-static {v8, v7}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 81
+    invoke-interface {v4, v3}, Lkd9;->a(Ldo9;)Lld9;
+
+    move-result-object v7
+    :try_end_2b
+    .catch Ljava/net/ProtocolException; {:try_start_2b .. :try_end_2b} :catch_66
+    .catch Ljava/net/SocketTimeoutException; {:try_start_2b .. :try_end_2b} :catch_65
+    .catch Ljava/io/IOException; {:try_start_2b .. :try_end_2b} :catch_64
+    .catch Ljava/lang/OutOfMemoryError; {:try_start_2b .. :try_end_2b} :catch_63
+    .catchall {:try_start_2b .. :try_end_2b} :catchall_22
+
+    .line 82
+    :try_start_2c
+    const-string v9, "Executed call"
+
+    invoke-static {v8, v9}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 83
+    invoke-interface {v7}, Lld9;->code()I
+
+    move-result v9
+    :try_end_2c
+    .catch Ljava/net/ProtocolException; {:try_start_2c .. :try_end_2c} :catch_62
+    .catch Ljava/net/SocketTimeoutException; {:try_start_2c .. :try_end_2c} :catch_61
+    .catch Ljava/io/IOException; {:try_start_2c .. :try_end_2c} :catch_5e
+    .catch Ljava/lang/OutOfMemoryError; {:try_start_2c .. :try_end_2c} :catch_5d
+    .catchall {:try_start_2c .. :try_end_2c} :catchall_21
+
+    move-object/from16 v30, v2
+
+    .line 84
+    :try_start_2d
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+
+    move-object/from16 v22, v3
+
+    const-string v3, "Response has code: "
+
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v2, v9}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v2

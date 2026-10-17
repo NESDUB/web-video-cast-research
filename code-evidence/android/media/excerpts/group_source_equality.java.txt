@@ -1,0 +1,64 @@
+        if (j6b.W0(r0) == false) goto L12;
+    L11:
+        ((Map) r2.getValue()).put(r3, r4);
+        goto L12
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    public final void e(Map r4) {
+        r4.getClass();
+        Iterator r0 = r4.keySet().iterator();
+    L4:
+        if (r0.hasNext() == false) goto L6;
+        String r1 = (String) r0.next();
+        d(r1, (String) r4.get(r1));
+        goto L4
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    public final boolean equals(Object r5) {
+        if (this != r5) goto L6;
+        return true;
+    L6:
+        if (r5 != null) goto L8;
+    L21:
+        return false;
+    L8:
+        if (xyc.class.equals(r5.getClass()) == false) goto L21;
+        xyc r6 = (xyc) r5;
+        ArrayList r2 = r6.h();
+        if (r2 == null) goto L21;
+        if (h().size() != r2.size()) goto L21;
+        Iterator r4 = h().iterator();
+        r4.getClass();
+    L16:
+        if (r4.hasNext() == false) goto L20;
+        Object r3 = r4.next();
+        r3.getClass();
+        ArrayList r7 = r6.h();
+        if (r7.contains((nyc) r3) == true) goto L16;
+        return false;
+    L20:
+        return true;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    public final Object f(nyc r9, boolean r10, int r11, boolean r12, fgb r13) {
+        ((WebVideoCasterApplication) n00.c).getClass();
+        return ll4.j0(ead.t(WebVideoCasterApplication.m), new syc(r9, this, r10, r12, r11, null), r13);
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    public final nyc g() {
+        if (h().size() > 0) goto L5;
+        return null;
+    L5:
+        return (nyc) h().get(0);
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    public final ArrayList h() {
+        return (ArrayList) this.j.getValue();
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */

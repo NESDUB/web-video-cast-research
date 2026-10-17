@@ -1,0 +1,64 @@
+    invoke-virtual {v13, v10, v11}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+
+    .line 257
+    .line 258
+    .line 259
+    invoke-virtual {v13}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 260
+    .line 261
+    .line 262
+    move-result-object v6
+
+    .line 263
+    invoke-static {v7, v6}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 264
+    .line 265
+    .line 266
+    const-string v6, "Range"
+
+    .line 267
+    .line 268
+    new-instance v7, Ljava/lang/StringBuilder;
+
+    .line 269
+    .line 270
+    invoke-direct {v7, v5}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 271
+    .line 272
+    .line 273
+    invoke-virtual {v7, v10, v11}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+
+    .line 274
+    .line 275
+    .line 276
+    const-string v5, "-"
+
+    .line 277
+    .line 278
+    invoke-virtual {v7, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 279
+    .line 280
+    .line 281
+    invoke-virtual {v7}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 282
+    .line 283
+    .line 284
+    move-result-object v5
+
+    .line 285
+    invoke-virtual {v0, v6, v5}, Lbo9;->e(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 286
+    .line 287
+    .line 288
+    goto :goto_2
+
+    .line 289
+    :catchall_1
+    move-exception v0
+

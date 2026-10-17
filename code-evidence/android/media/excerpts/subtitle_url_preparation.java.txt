@@ -1,0 +1,64 @@
+        th.addSuppressed(th);
+        throw th;
+    L15:
+        y7b r10 = new w7b().c(r1, q(r0));
+        BufferedWriter r14 = new BufferedWriter(new FileWriter(r12));
+        r10.c(r14, r9);     // Catch: Throwable -> L19
+        r14.close();
+        return;
+    L19:
+        th = move-exception;
+        r14.close();     // Catch: Throwable -> L23
+        throw th;
+    L23:
+        th = move-exception;
+        th.addSuppressed(th);
+        throw th;
+    }
+
+    public static String p(String r18, boolean r19, boolean r20, boolean r21, boolean r22, boolean r23, boolean r24, obb r25) {
+        mbb r0 = mbb.f;
+        File r1 = new File(r18);
+        boolean r6 = v67.y(null).t.r();
+        boolean r7 = !v67.y(null).t.o();
+        boolean r8 = v67.y(null).t.p();
+        r0.getClass();
+        String r10 = mbb.e(r1, false, r21, r22, -1, r6, r7, r8);
+        if (r10 != null) goto L6;
+        return null;
+    L6:
+        if (r24 == false) goto L9;
+        vgb r2 = vv4.a;
+        String r3 = dv4.s().concat("/subtitle/");
+    L13:
+        String r4 = zfa.a(r10, null, r19, null, r3, ki8.a, false, null);
+        v67 r5 = v67.y(null);
+        String r9 = vt3.d(r10);
+        if (TextUtils.isEmpty(r9) == true) goto L16;
+    L19:
+        StringBuilder r11 = new StringBuilder();
+        r11.append(r4);
+        r11.append("subtitle.");
+        r11.append(r9);
+        r11.append("?pl=");
+        r11.append(r25.name());
+        r11.append("&lh=true");
+        if (r23 == false) goto L22;
+        String r12 = "&styles=true";
+    L23:
+        r11.append(r12);
+        return r11.toString();
+    L22:
+        r12 = "";
+        goto L23
+    L16:
+        if (r5.V() == false) goto L18;
+        r9 = "vtt";
+        goto L19
+    L18:
+        r9 = "srt";
+        goto L19
+    L9:
+        if (r20 == false) goto L11;
+        vgb r13 = vv4.a;
+        String r14 = dv4.t();
