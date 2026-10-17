@@ -1,6 +1,8 @@
+> Repository and release assets made public at the owner’s explicit request. References to private visibility in the original handoff ZIP describe its creation-time state.
+
 ## Complete handoff
 
-Start with [HANDOFF.md](HANDOFF.md). The complete originals, extraction, working files and tools are in the ZIP attached to the [private releases](https://github.com/NESDUB/web-video-cast-research/releases). Git contains the reviewable research and organized code evidence. Behavioral testing is currently deferred by the user; historical test commands below are documentation, not instructions to run them now.
+Start with [HANDOFF.md](HANDOFF.md). The complete originals, extraction, working files and tools are in the ZIP attached to the [releases](https://github.com/NESDUB/web-video-cast-research/releases). Git contains the reviewable research and organized code evidence. Behavioral testing is currently deferred by the user; historical test commands below are documentation, not instructions to run them now.
 
 # Web Video Cast research
 

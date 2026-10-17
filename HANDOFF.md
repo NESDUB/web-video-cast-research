@@ -1,5 +1,7 @@
 # Web Video Cast research — complete AI handoff
 
+> Visibility update: the owner explicitly made this repository and release assets public after this handoff was packaged. Private-visibility statements below and inside the original ZIP describe its creation-time state.
+
 ## Assignment and present direction
 
 Owner: NESDUB. Repository: https://github.com/NESDUB/web-video-cast-research (private).
