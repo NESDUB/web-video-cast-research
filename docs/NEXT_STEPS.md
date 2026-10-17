@@ -1,5 +1,7 @@
 # Remaining questions and ordered next experiments
 
+The [static blocking completion audit](ANDROID_BLOCKING_STATIC_AUDIT.md) now covers the visible code paths. Prioritize its remaining protected constants/startup/teardown boundaries; keep behavioral work deferred. The [current gap register](ANDROID_BLOCKING_GAPS.md#current-gap-register) supersedes older chronological open-item lists.
+
 **Current Android blocker status:** use the [gap register B01–B12](ANDROID_BLOCKING_GAPS.md#current-gap-register), [resolved questions](ANDROID_BLOCKING_GAPS.md#questions-resolved-at-code-level), and latest audit sections in that document. The architecture is sufficient to guide independent implementation; complete native reconstruction is not a prerequisite for blocker design. This file retains historical proposed experiments and later checkpoints. Behavioral/device/provider tests remain deferred unless separately authorized; listing an experiment here does not authorize it.
 
 1. **Android popup lifecycle:** classification, promotion/disposal, prefix matching and this Allow always writer's normalization/persistence are traced. Remaining work is pre-disposal execution/request timing, cleanup races and click/player continuity (B05/B06), plus other exception writers/lifetime (B09).

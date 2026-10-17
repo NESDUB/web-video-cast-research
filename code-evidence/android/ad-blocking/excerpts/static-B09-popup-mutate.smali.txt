@@ -1,0 +1,162 @@
+.method public static a(Ljava/lang/String;Lj84;Lh84;Lj84;Lx84;)V
+    .locals 2
+
+    .line 1
+    invoke-static {}, Lyj;->d()Ljava/util/Set;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    invoke-static {p0}, Lj6b;->w1(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object p0
+
+    .line 9
+    invoke-virtual {p0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    .line 10
+    .line 11
+    .line 12
+    move-result-object p0
+
+    .line 13
+    sget-object v1, Ljava/util/Locale;->ENGLISH:Ljava/util/Locale;
+
+    .line 14
+    .line 15
+    invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 16
+    .line 17
+    .line 18
+    invoke-virtual {p0, v1}, Ljava/lang/String;->toLowerCase(Ljava/util/Locale;)Ljava/lang/String;
+
+    .line 19
+    .line 20
+    .line 21
+    move-result-object p0
+
+    .line 22
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 23
+    .line 24
+    .line 25
+    invoke-interface {p4, p0, v0}, Lx84;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 26
+    .line 27
+    .line 28
+    move-result-object p0
+
+    .line 29
+    check-cast p0, Lxj;
+
+    .line 30
+    .line 31
+    instance-of p4, p0, Lwj;
+
+    .line 32
+    .line 33
+    if-eqz p4, :cond_1
+
+    .line 34
+    .line 35
+    check-cast p0, Lwj;
+
+    .line 36
+    .line 37
+    iget-object p0, p0, Lwj;->a:Ljava/util/LinkedHashSet;
+
+    .line 38
+    .line 39
+    invoke-interface {p0}, Ljava/util/Set;->size()I
+
+    .line 40
+    .line 41
+    .line 42
+    move-result p3
+
+    .line 43
+    invoke-interface {v0}, Ljava/util/Set;->size()I
+
+    .line 44
+    .line 45
+    .line 46
+    move-result p4
+
+    .line 47
+    if-eq p3, p4, :cond_0
+
+    .line 48
+    .line 49
+    sget-object p2, Lqt1;->a:Lqt1;
+
+    .line 50
+    .line 51
+    invoke-static {p0}, Lqt1;->G(Ljava/util/Set;)V
+
+    .line 52
+    .line 53
+    .line 54
+    invoke-interface {p1, p0}, Lj84;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 55
+    .line 56
+    .line 57
+    return-void
+
+    .line 58
+    :cond_0
+    invoke-interface {p2}, Lh84;->invoke()Ljava/lang/Object;
+
+    .line 59
+    .line 60
+    .line 61
+    return-void
+
+    .line 62
+    :cond_1
+    instance-of p0, p0, Lvj;
+
+    .line 63
+    .line 64
+    if-eqz p0, :cond_2
+
+    .line 65
+    .line 66
+    const p0, 0x7f1300ac
+
+    .line 67
+    .line 68
+    .line 69
+    invoke-static {p0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    .line 70
+    .line 71
+    .line 72
+    move-result-object p0
+
+    .line 73
+    invoke-interface {p3, p0}, Lj84;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 74
+    .line 75
+    .line 76
+    return-void
+
+    .line 77
+    :cond_2
+    invoke-static {}, Lf01;->h()V
+
+    .line 78
+    .line 79
+    .line 80
+    return-void
+.end method

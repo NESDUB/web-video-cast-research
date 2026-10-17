@@ -1,0 +1,277 @@
+# android/ad-blocking/static-audit
+
+Full-file snapshots retained without edits. Decompiled Java may contain errors; raw smali is authoritative for branch instructions. File hashes and provenance are in the root manifest. Presence in this folder does not imply native execution or complete mechanism coverage.
+
+- [ad_redirect_block_add.txt](full-files/extracted/android/res/raw/ad_redirect_block_add.txt) — extracted packaged resource; original `extracted/android/res/raw/ad_redirect_block_add.txt`.
+- [ad_redirect_block_remove.txt](full-files/extracted/android/res/raw/ad_redirect_block_remove.txt) — extracted packaged resource; original `extracted/android/res/raw/ad_redirect_block_remove.txt`.
+- [AdBlockLoadWorker.java](full-files/prior-analysis/android-code/sources/com/instantbits/cast/webvideo/ads/config/ad/AdBlockLoadWorker.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/com/instantbits/cast/webvideo/ads/config/ad/AdBlockLoadWorker.java`.
+- [ac.java](full-files/prior-analysis/android-code/sources/defpackage/ac.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/ac.java`.
+- [b19.java](full-files/prior-analysis/android-code/sources/defpackage/b19.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/b19.java`.
+- [ba.java](full-files/prior-analysis/android-code/sources/defpackage/ba.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/ba.java`.
+- [bc.java](full-files/prior-analysis/android-code/sources/defpackage/bc.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/bc.java`.
+- [be2.java](full-files/prior-analysis/android-code/sources/defpackage/be2.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/be2.java`.
+- [ca.java](full-files/prior-analysis/android-code/sources/defpackage/ca.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/ca.java`.
+- [ce2.java](full-files/prior-analysis/android-code/sources/defpackage/ce2.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/ce2.java`.
+- [da.java](full-files/prior-analysis/android-code/sources/defpackage/da.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/da.java`.
+- [db.java](full-files/prior-analysis/android-code/sources/defpackage/db.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/db.java`.
+- [dra.java](full-files/prior-analysis/android-code/sources/defpackage/dra.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/dra.java`.
+- [e9.java](full-files/prior-analysis/android-code/sources/defpackage/e9.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/e9.java`.
+- [eb2.java](full-files/prior-analysis/android-code/sources/defpackage/eb2.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/eb2.java`.
+- [era.java](full-files/prior-analysis/android-code/sources/defpackage/era.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/era.java`.
+- [f9.java](full-files/prior-analysis/android-code/sources/defpackage/f9.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/f9.java`.
+- [fb2.java](full-files/prior-analysis/android-code/sources/defpackage/fb2.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/fb2.java`.
+- [fc.java](full-files/prior-analysis/android-code/sources/defpackage/fc.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/fc.java`.
+- [ffa.java](full-files/prior-analysis/android-code/sources/defpackage/ffa.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/ffa.java`.
+- [fu8.java](full-files/prior-analysis/android-code/sources/defpackage/fu8.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/fu8.java`.
+- [fy0.java](full-files/prior-analysis/android-code/sources/defpackage/fy0.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/fy0.java`.
+- [ga.java](full-files/prior-analysis/android-code/sources/defpackage/ga.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/ga.java`.
+- [gb2.java](full-files/prior-analysis/android-code/sources/defpackage/gb2.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/gb2.java`.
+- [gfa.java](full-files/prior-analysis/android-code/sources/defpackage/gfa.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/gfa.java`.
+- [h9.java](full-files/prior-analysis/android-code/sources/defpackage/h9.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/h9.java`.
+- [ha.java](full-files/prior-analysis/android-code/sources/defpackage/ha.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/ha.java`.
+- [hb.java](full-files/prior-analysis/android-code/sources/defpackage/hb.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/hb.java`.
+- [hy0.java](full-files/prior-analysis/android-code/sources/defpackage/hy0.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/hy0.java`.
+- [i9.java](full-files/prior-analysis/android-code/sources/defpackage/i9.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/i9.java`.
+- [ira.java](full-files/prior-analysis/android-code/sources/defpackage/ira.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/ira.java`.
+- [j9.java](full-files/prior-analysis/android-code/sources/defpackage/j9.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/j9.java`.
+- [jb2.java](full-files/prior-analysis/android-code/sources/defpackage/jb2.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/jb2.java`.
+- [jra.java](full-files/prior-analysis/android-code/sources/defpackage/jra.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/jra.java`.
+- [k9.java](full-files/prior-analysis/android-code/sources/defpackage/k9.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/k9.java`.
+- [kh5.java](full-files/prior-analysis/android-code/sources/defpackage/kh5.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/kh5.java`.
+- [kra.java](full-files/prior-analysis/android-code/sources/defpackage/kra.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/kra.java`.
+- [kta.java](full-files/prior-analysis/android-code/sources/defpackage/kta.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/kta.java`.
+- [lra.java](full-files/prior-analysis/android-code/sources/defpackage/lra.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/lra.java`.
+- [lta.java](full-files/prior-analysis/android-code/sources/defpackage/lta.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/lta.java`.
+- [m59.java](full-files/prior-analysis/android-code/sources/defpackage/m59.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/m59.java`.
+- [me2.java](full-files/prior-analysis/android-code/sources/defpackage/me2.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/me2.java`.
+- [nra.java](full-files/prior-analysis/android-code/sources/defpackage/nra.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/nra.java`.
+- [ora.java](full-files/prior-analysis/android-code/sources/defpackage/ora.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/ora.java`.
+- [pd2.java](full-files/prior-analysis/android-code/sources/defpackage/pd2.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/pd2.java`.
+- [pra.java](full-files/prior-analysis/android-code/sources/defpackage/pra.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/pra.java`.
+- [q09.java](full-files/prior-analysis/android-code/sources/defpackage/q09.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/q09.java`.
+- [ql1.java](full-files/prior-analysis/android-code/sources/defpackage/ql1.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/ql1.java`.
+- [qt1.java](full-files/prior-analysis/android-code/sources/defpackage/qt1.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/qt1.java`.
+- [rra.java](full-files/prior-analysis/android-code/sources/defpackage/rra.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/rra.java`.
+- [s92.java](full-files/prior-analysis/android-code/sources/defpackage/s92.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/s92.java`.
+- [sdc.java](full-files/prior-analysis/android-code/sources/defpackage/sdc.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/sdc.java`.
+- [sm9.java](full-files/prior-analysis/android-code/sources/defpackage/sm9.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/sm9.java`.
+- [sv8.java](full-files/prior-analysis/android-code/sources/defpackage/sv8.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/sv8.java`.
+- [t8.java](full-files/prior-analysis/android-code/sources/defpackage/t8.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/t8.java`.
+- [tdc.java](full-files/prior-analysis/android-code/sources/defpackage/tdc.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/tdc.java`.
+- [tz.java](full-files/prior-analysis/android-code/sources/defpackage/tz.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/tz.java`.
+- [u9.java](full-files/prior-analysis/android-code/sources/defpackage/u9.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/u9.java`.
+- [va.java](full-files/prior-analysis/android-code/sources/defpackage/va.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/va.java`.
+- [vf1.java](full-files/prior-analysis/android-code/sources/defpackage/vf1.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/vf1.java`.
+- [vf7.java](full-files/prior-analysis/android-code/sources/defpackage/vf7.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/vf7.java`.
+- [wa.java](full-files/prior-analysis/android-code/sources/defpackage/wa.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/wa.java`.
+- [wb.java](full-files/prior-analysis/android-code/sources/defpackage/wb.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/wb.java`.
+- [wd2.java](full-files/prior-analysis/android-code/sources/defpackage/wd2.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/wd2.java`.
+- [wz8.java](full-files/prior-analysis/android-code/sources/defpackage/wz8.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/wz8.java`.
+- [wzc.java](full-files/prior-analysis/android-code/sources/defpackage/wzc.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/wzc.java`.
+- [x9.java](full-files/prior-analysis/android-code/sources/defpackage/x9.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/x9.java`.
+- [yb.java](full-files/prior-analysis/android-code/sources/defpackage/yb.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/yb.java`.
+- [z3b.java](full-files/prior-analysis/android-code/sources/defpackage/z3b.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/z3b.java`.
+- [zb.java](full-files/prior-analysis/android-code/sources/defpackage/zb.java) — reconstructed Java (not original source); original `prior-analysis/android-code/sources/defpackage/zb.java`.
+- [developer-redirects.txt](full-files/prior-analysis/remote-snapshot/developer-redirects.txt) — earlier decoded resource / derived evidence; original `prior-analysis/remote-snapshot/developer-redirects.txt`.
+- [b2c.smali](full-files/working/apktool/smali/b2c.smali) — smali bytecode disassembly; original `working/apktool/smali/b2c.smali`.
+- [c2a.smali](full-files/working/apktool/smali/c2a.smali) — smali bytecode disassembly; original `working/apktool/smali/c2a.smali`.
+- [d9.smali](full-files/working/apktool/smali/d9.smali) — smali bytecode disassembly; original `working/apktool/smali/d9.smali`.
+- [dp9.smali](full-files/working/apktool/smali/dp9.smali) — smali bytecode disassembly; original `working/apktool/smali/dp9.smali`.
+- [g9.smali](full-files/working/apktool/smali/g9.smali) — smali bytecode disassembly; original `working/apktool/smali/g9.smali`.
+- [gy0.smali](full-files/working/apktool/smali/gy0.smali) — smali bytecode disassembly; original `working/apktool/smali/gy0.smali`.
+- [ie2.smali](full-files/working/apktool/smali/ie2.smali) — smali bytecode disassembly; original `working/apktool/smali/ie2.smali`.
+- [je2.smali](full-files/working/apktool/smali/je2.smali) — smali bytecode disassembly; original `working/apktool/smali/je2.smali`.
+- [jzc.smali](full-files/working/apktool/smali/jzc.smali) — smali bytecode disassembly; original `working/apktool/smali/jzc.smali`.
+- [la.smali](full-files/working/apktool/smali/la.smali) — smali bytecode disassembly; original `working/apktool/smali/la.smali`.
+- [mrb.smali](full-files/working/apktool/smali/mrb.smali) — smali bytecode disassembly; original `working/apktool/smali/mrb.smali`.
+- [n74.smali](full-files/working/apktool/smali/n74.smali) — smali bytecode disassembly; original `working/apktool/smali/n74.smali`.
+- [nt4.smali](full-files/working/apktool/smali/nt4.smali) — smali bytecode disassembly; original `working/apktool/smali/nt4.smali`.
+- [pv7.smali](full-files/working/apktool/smali/pv7.smali) — smali bytecode disassembly; original `working/apktool/smali/pv7.smali`.
+- [q0.smali](full-files/working/apktool/smali/q0.smali) — smali bytecode disassembly; original `working/apktool/smali/q0.smali`.
+- [r0.smali](full-files/working/apktool/smali/r0.smali) — smali bytecode disassembly; original `working/apktool/smali/r0.smali`.
+- [rh8.smali](full-files/working/apktool/smali/rh8.smali) — smali bytecode disassembly; original `working/apktool/smali/rh8.smali`.
+- [rx8.smali](full-files/working/apktool/smali/rx8.smali) — smali bytecode disassembly; original `working/apktool/smali/rx8.smali`.
+- [s0.smali](full-files/working/apktool/smali/s0.smali) — smali bytecode disassembly; original `working/apktool/smali/s0.smali`.
+- [sw.smali](full-files/working/apktool/smali/sw.smali) — smali bytecode disassembly; original `working/apktool/smali/sw.smali`.
+- [tw.smali](full-files/working/apktool/smali/tw.smali) — smali bytecode disassembly; original `working/apktool/smali/tw.smali`.
+- [ub.smali](full-files/working/apktool/smali/ub.smali) — smali bytecode disassembly; original `working/apktool/smali/ub.smali`.
+- [uqd.smali](full-files/working/apktool/smali/uqd.smali) — smali bytecode disassembly; original `working/apktool/smali/uqd.smali`.
+- [uw.smali](full-files/working/apktool/smali/uw.smali) — smali bytecode disassembly; original `working/apktool/smali/uw.smali`.
+- [vh8.smali](full-files/working/apktool/smali/vh8.smali) — smali bytecode disassembly; original `working/apktool/smali/vh8.smali`.
+- [xv7.smali](full-files/working/apktool/smali/xv7.smali) — smali bytecode disassembly; original `working/apktool/smali/xv7.smali`.
+- [ygc.smali](full-files/working/apktool/smali/ygc.smali) — smali bytecode disassembly; original `working/apktool/smali/ygc.smali`.
+- [z1a.smali](full-files/working/apktool/smali/z1a.smali) — smali bytecode disassembly; original `working/apktool/smali/z1a.smali`.
+- [yjVeJcx.smali](full-files/working/apktool/smali_classes2/androidx/compose/ui/tooling/yWey/yjVeJcx.smali) — smali bytecode disassembly; original `working/apktool/smali_classes2/androidx/compose/ui/tooling/yWey/yjVeJcx.smali`.
+- [rgHn.smali](full-files/working/apktool/smali_classes2/com/bykv/vk/openvk/preload/geckox/e/a/loz/rgHn.smali) — smali bytecode disassembly; original `working/apktool/smali_classes2/com/bykv/vk/openvk/preload/geckox/e/a/loz/rgHn.smali`.
+- [zWEJSwlZUVmyI.smali](full-files/working/apktool/smali_classes2/com/bykv/vk/openvk/qam/qam/nf/nf/ihFk/zWEJSwlZUVmyI.smali) — smali bytecode disassembly; original `working/apktool/smali_classes2/com/bykv/vk/openvk/qam/qam/nf/nf/ihFk/zWEJSwlZUVmyI.smali`.
+- [uxvRNKQ.smali](full-files/working/apktool/smali_classes2/com/bytedance/sdk/openadsdk/gow/qam/EY/uxvRNKQ.smali) — smali bytecode disassembly; original `working/apktool/smali_classes2/com/bytedance/sdk/openadsdk/gow/qam/EY/uxvRNKQ.smali`.
+- [VMRunner.smali](full-files/working/apktool/smali_classes2/com/pairip/VMRunner.smali) — smali bytecode disassembly; original `working/apktool/smali_classes2/com/pairip/VMRunner.smali`.
+- [Application.smali](full-files/working/apktool/smali_classes2/com/pairip/application/Application.smali) — smali bytecode disassembly; original `working/apktool/smali_classes2/com/pairip/application/Application.smali`.
+- [ol4.smali](full-files/working/apktool/smali_classes2/ol4.smali) — smali bytecode disassembly; original `working/apktool/smali_classes2/ol4.smali`.
+- [tu5.smali](full-files/working/apktool/smali_classes2/tu5.smali) — smali bytecode disassembly; original `working/apktool/smali_classes2/tu5.smali`.
+- [aw3.smali](full-files/working/apktool/smali_classes5/aw3.smali) — smali bytecode disassembly; original `working/apktool/smali_classes5/aw3.smali`.
+- [cu1.smali](full-files/working/apktool/smali_classes5/cu1.smali) — smali bytecode disassembly; original `working/apktool/smali_classes5/cu1.smali`.
+- [ita.smali](full-files/working/apktool/smali_classes5/ita.smali) — smali bytecode disassembly; original `working/apktool/smali_classes5/ita.smali`.
+- [rm9.smali](full-files/working/apktool/smali_classes5/rm9.smali) — smali bytecode disassembly; original `working/apktool/smali_classes5/rm9.smali`.
+- [zn0.smali](full-files/working/apktool/smali_classes5/zn0.smali) — smali bytecode disassembly; original `working/apktool/smali_classes5/zn0.smali`.
+- [a9.smali](full-files/working/apktool/smali_classes6/a9.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/a9.smali`.
+- [aa2.smali](full-files/working/apktool/smali_classes6/aa2.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/aa2.smali`.
+- [ab2.smali](full-files/working/apktool/smali_classes6/ab2.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/ab2.smali`.
+- [ac.smali](full-files/working/apktool/smali_classes6/ac.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/ac.smali`.
+- [b19.smali](full-files/working/apktool/smali_classes6/b19.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/b19.smali`.
+- [ba.smali](full-files/working/apktool/smali_classes6/ba.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/ba.smali`.
+- [bc.smali](full-files/working/apktool/smali_classes6/bc.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/bc.smali`.
+- [be2.smali](full-files/working/apktool/smali_classes6/be2.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/be2.smali`.
+- [bl0.smali](full-files/working/apktool/smali_classes6/bl0.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/bl0.smali`.
+- [ca.smali](full-files/working/apktool/smali_classes6/ca.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/ca.smali`.
+- [cb.smali](full-files/working/apktool/smali_classes6/cb.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/cb.smali`.
+- [ce2.smali](full-files/working/apktool/smali_classes6/ce2.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/ce2.smali`.
+- [BaseCastActivity$MyRewardedVideoListener.smali](full-files/working/apktool/smali_classes6/com/instantbits/cast/webvideo/BaseCastActivity$MyRewardedVideoListener.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/com/instantbits/cast/webvideo/BaseCastActivity$MyRewardedVideoListener.smali`.
+- [WebBrowser.smali](full-files/working/apktool/smali_classes6/com/instantbits/cast/webvideo/WebBrowser.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/com/instantbits/cast/webvideo/WebBrowser.smali`.
+- [WebVideoCasterApplication.smali](full-files/working/apktool/smali_classes6/com/instantbits/cast/webvideo/WebVideoCasterApplication.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/com/instantbits/cast/webvideo/WebVideoCasterApplication.smali`.
+- [AdBlockLoadWorker.smali](full-files/working/apktool/smali_classes6/com/instantbits/cast/webvideo/ads/config/ad/AdBlockLoadWorker.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/com/instantbits/cast/webvideo/ads/config/ad/AdBlockLoadWorker.smali`.
+- [cra.smali](full-files/working/apktool/smali_classes6/cra.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/cra.smali`.
+- [da.smali](full-files/working/apktool/smali_classes6/da.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/da.smali`.
+- [db.smali](full-files/working/apktool/smali_classes6/db.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/db.smali`.
+- [do1.smali](full-files/working/apktool/smali_classes6/do1.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/do1.smali`.
+- [dra.smali](full-files/working/apktool/smali_classes6/dra.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/dra.smali`.
+- [e0.smali](full-files/working/apktool/smali_classes6/e0.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/e0.smali`.
+- [e9.smali](full-files/working/apktool/smali_classes6/e9.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/e9.smali`.
+- [ea.smali](full-files/working/apktool/smali_classes6/ea.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/ea.smali`.
+- [eb2.smali](full-files/working/apktool/smali_classes6/eb2.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/eb2.smali`.
+- [era.smali](full-files/working/apktool/smali_classes6/era.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/era.smali`.
+- [f9.smali](full-files/working/apktool/smali_classes6/f9.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/f9.smali`.
+- [fb2.smali](full-files/working/apktool/smali_classes6/fb2.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/fb2.smali`.
+- [fc.smali](full-files/working/apktool/smali_classes6/fc.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/fc.smali`.
+- [ffa.smali](full-files/working/apktool/smali_classes6/ffa.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/ffa.smali`.
+- [fn9.smali](full-files/working/apktool/smali_classes6/fn9.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/fn9.smali`.
+- [fu8.smali](full-files/working/apktool/smali_classes6/fu8.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/fu8.smali`.
+- [fy0.smali](full-files/working/apktool/smali_classes6/fy0.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/fy0.smali`.
+- [ga.smali](full-files/working/apktool/smali_classes6/ga.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/ga.smali`.
+- [gb2.smali](full-files/working/apktool/smali_classes6/gb2.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/gb2.smali`.
+- [gfa.smali](full-files/working/apktool/smali_classes6/gfa.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/gfa.smali`.
+- [gl.smali](full-files/working/apktool/smali_classes6/gl.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/gl.smali`.
+- [h9.smali](full-files/working/apktool/smali_classes6/h9.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/h9.smali`.
+- [ha.smali](full-files/working/apktool/smali_classes6/ha.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/ha.smali`.
+- [hb.smali](full-files/working/apktool/smali_classes6/hb.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/hb.smali`.
+- [hia.smali](full-files/working/apktool/smali_classes6/hia.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/hia.smali`.
+- [hy0.smali](full-files/working/apktool/smali_classes6/hy0.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/hy0.smali`.
+- [i9.smali](full-files/working/apktool/smali_classes6/i9.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/i9.smali`.
+- [ib2.smali](full-files/working/apktool/smali_classes6/ib2.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/ib2.smali`.
+- [ipb.smali](full-files/working/apktool/smali_classes6/ipb.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/ipb.smali`.
+- [ira.smali](full-files/working/apktool/smali_classes6/ira.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/ira.smali`.
+- [j9.smali](full-files/working/apktool/smali_classes6/j9.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/j9.smali`.
+- [jb2.smali](full-files/working/apktool/smali_classes6/jb2.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/jb2.smali`.
+- [jm9.smali](full-files/working/apktool/smali_classes6/jm9.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/jm9.smali`.
+- [jp8.smali](full-files/working/apktool/smali_classes6/jp8.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/jp8.smali`.
+- [jr2.smali](full-files/working/apktool/smali_classes6/jr2.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/jr2.smali`.
+- [jra.smali](full-files/working/apktool/smali_classes6/jra.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/jra.smali`.
+- [jvc.smali](full-files/working/apktool/smali_classes6/jvc.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/jvc.smali`.
+- [k9.smali](full-files/working/apktool/smali_classes6/k9.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/k9.smali`.
+- [ka.smali](full-files/working/apktool/smali_classes6/ka.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/ka.smali`.
+- [kd.smali](full-files/working/apktool/smali_classes6/kd.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/kd.smali`.
+- [kh5.smali](full-files/working/apktool/smali_classes6/kh5.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/kh5.smali`.
+- [kra.smali](full-files/working/apktool/smali_classes6/kra.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/kra.smali`.
+- [kta.smali](full-files/working/apktool/smali_classes6/kta.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/kta.smali`.
+- [kv9.smali](full-files/working/apktool/smali_classes6/kv9.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/kv9.smali`.
+- [l9.smali](full-files/working/apktool/smali_classes6/l9.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/l9.smali`.
+- [ld.smali](full-files/working/apktool/smali_classes6/ld.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/ld.smali`.
+- [lra.smali](full-files/working/apktool/smali_classes6/lra.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/lra.smali`.
+- [lta.smali](full-files/working/apktool/smali_classes6/lta.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/lta.smali`.
+- [m59.smali](full-files/working/apktool/smali_classes6/m59.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/m59.smali`.
+- [m9.smali](full-files/working/apktool/smali_classes6/m9.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/m9.smali`.
+- [mc.smali](full-files/working/apktool/smali_classes6/mc.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/mc.smali`.
+- [md.smali](full-files/working/apktool/smali_classes6/md.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/md.smali`.
+- [me2.smali](full-files/working/apktool/smali_classes6/me2.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/me2.smali`.
+- [n9.smali](full-files/working/apktool/smali_classes6/n9.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/n9.smali`.
+- [nd.smali](full-files/working/apktool/smali_classes6/nd.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/nd.smali`.
+- [nm9.smali](full-files/working/apktool/smali_classes6/nm9.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/nm9.smali`.
+- [nra.smali](full-files/working/apktool/smali_classes6/nra.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/nra.smali`.
+- [ora.smali](full-files/working/apktool/smali_classes6/ora.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/ora.smali`.
+- [owc.smali](full-files/working/apktool/smali_classes6/owc.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/owc.smali`.
+- [pd2.smali](full-files/working/apktool/smali_classes6/pd2.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/pd2.smali`.
+- [pra.smali](full-files/working/apktool/smali_classes6/pra.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/pra.smali`.
+- [psc.smali](full-files/working/apktool/smali_classes6/psc.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/psc.smali`.
+- [q09.smali](full-files/working/apktool/smali_classes6/q09.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/q09.smali`.
+- [qb2.smali](full-files/working/apktool/smali_classes6/qb2.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/qb2.smali`.
+- [ql1.smali](full-files/working/apktool/smali_classes6/ql1.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/ql1.smali`.
+- [qra.smali](full-files/working/apktool/smali_classes6/qra.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/qra.smali`.
+- [qt1.smali](full-files/working/apktool/smali_classes6/qt1.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/qt1.smali`.
+- [r59.smali](full-files/working/apktool/smali_classes6/r59.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/r59.smali`.
+- [rg1.smali](full-files/working/apktool/smali_classes6/rg1.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/rg1.smali`.
+- [rra.smali](full-files/working/apktool/smali_classes6/rra.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/rra.smali`.
+- [s92.smali](full-files/working/apktool/smali_classes6/s92.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/s92.smali`.
+- [sdc.smali](full-files/working/apktool/smali_classes6/sdc.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/sdc.smali`.
+- [sg1.smali](full-files/working/apktool/smali_classes6/sg1.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/sg1.smali`.
+- [sm9.smali](full-files/working/apktool/smali_classes6/sm9.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/sm9.smali`.
+- [sv8.smali](full-files/working/apktool/smali_classes6/sv8.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/sv8.smali`.
+- [t8.smali](full-files/working/apktool/smali_classes6/t8.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/t8.smali`.
+- [t9.smali](full-files/working/apktool/smali_classes6/t9.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/t9.smali`.
+- [tdc.smali](full-files/working/apktool/smali_classes6/tdc.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/tdc.smali`.
+- [tz.smali](full-files/working/apktool/smali_classes6/tz.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/tz.smali`.
+- [u9.smali](full-files/working/apktool/smali_classes6/u9.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/u9.smali`.
+- [uc7.smali](full-files/working/apktool/smali_classes6/uc7.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/uc7.smali`.
+- [uwc.smali](full-files/working/apktool/smali_classes6/uwc.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/uwc.smali`.
+- [v74.smali](full-files/working/apktool/smali_classes6/v74.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/v74.smali`.
+- [v9.smali](full-files/working/apktool/smali_classes6/v9.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/v9.smali`.
+- [va.smali](full-files/working/apktool/smali_classes6/va.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/va.smali`.
+- [vf1.smali](full-files/working/apktool/smali_classes6/vf1.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/vf1.smali`.
+- [vf7.smali](full-files/working/apktool/smali_classes6/vf7.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/vf7.smali`.
+- [vw7.smali](full-files/working/apktool/smali_classes6/vw7.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/vw7.smali`.
+- [wa.smali](full-files/working/apktool/smali_classes6/wa.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/wa.smali`.
+- [wb.smali](full-files/working/apktool/smali_classes6/wb.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/wb.smali`.
+- [wd2.smali](full-files/working/apktool/smali_classes6/wd2.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/wd2.smali`.
+- [wz8.smali](full-files/working/apktool/smali_classes6/wz8.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/wz8.smali`.
+- [wzc.smali](full-files/working/apktool/smali_classes6/wzc.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/wzc.smali`.
+- [x9.smali](full-files/working/apktool/smali_classes6/x9.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/x9.smali`.
+- [xb.smali](full-files/working/apktool/smali_classes6/xb.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/xb.smali`.
+- [xgb.smali](full-files/working/apktool/smali_classes6/xgb.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/xgb.smali`.
+- [y6a.smali](full-files/working/apktool/smali_classes6/y6a.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/y6a.smali`.
+- [yb.smali](full-files/working/apktool/smali_classes6/yb.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/yb.smali`.
+- [yj.smali](full-files/working/apktool/smali_classes6/yj.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/yj.smali`.
+- [yk0.smali](full-files/working/apktool/smali_classes6/yk0.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/yk0.smali`.
+- [yxc.smali](full-files/working/apktool/smali_classes6/yxc.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/yxc.smali`.
+- [z3b.smali](full-files/working/apktool/smali_classes6/z3b.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/z3b.smali`.
+- [zb.smali](full-files/working/apktool/smali_classes6/zb.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/zb.smali`.
+- [zk0.smali](full-files/working/apktool/smali_classes6/zk0.smali) — smali bytecode disassembly; original `working/apktool/smali_classes6/zk0.smali`.
+- [bdd.smali](full-files/working/apktool/smali_classes7/bdd.smali) — smali bytecode disassembly; original `working/apktool/smali_classes7/bdd.smali`.
+- [dl9.smali](full-files/working/apktool/smali_classes7/dl9.smali) — smali bytecode disassembly; original `working/apktool/smali_classes7/dl9.smali`.
+- [hra.smali](full-files/working/apktool/smali_classes7/hra.smali) — smali bytecode disassembly; original `working/apktool/smali_classes7/hra.smali`.
+- [j6b.smali](full-files/working/apktool/smali_classes7/j6b.smali) — smali bytecode disassembly; original `working/apktool/smali_classes7/j6b.smali`.
+- [n22.smali](full-files/working/apktool/smali_classes7/n22.smali) — smali bytecode disassembly; original `working/apktool/smali_classes7/n22.smali`.
+- [p5b.smali](full-files/working/apktool/smali_classes7/p5b.smali) — smali bytecode disassembly; original `working/apktool/smali_classes7/p5b.smali`.
+- [pw6.smali](full-files/working/apktool/smali_classes7/pw6.smali) — smali bytecode disassembly; original `working/apktool/smali_classes7/pw6.smali`.
+- [q6b.smali](full-files/working/apktool/smali_classes7/q6b.smali) — smali bytecode disassembly; original `working/apktool/smali_classes7/q6b.smali`.
+- [rp7.smali](full-files/working/apktool/smali_classes7/rp7.smali) — smali bytecode disassembly; original `working/apktool/smali_classes7/rp7.smali`.
+- [vj5.smali](full-files/working/apktool/smali_classes7/vj5.smali) — smali bytecode disassembly; original `working/apktool/smali_classes7/vj5.smali`.
+- [yv0.smali](full-files/working/apktool/smali_classes7/yv0.smali) — smali bytecode disassembly; original `working/apktool/smali_classes7/yv0.smali`.
+- [ab2.java](full-files/working/blocking/ab2.java) — reconstructed Java (not original source); original `working/blocking/ab2.java`.
+- [bl0.java](full-files/working/blocking/bl0.java) — reconstructed Java (not original source); original `working/blocking/bl0.java`.
+- [cb.java](full-files/working/blocking/cb.java) — reconstructed Java (not original source); original `working/blocking/cb.java`.
+- [cra.java](full-files/working/blocking/cra.java) — reconstructed Java (not original source); original `working/blocking/cra.java`.
+- [fn9.java](full-files/working/blocking/fn9.java) — reconstructed Java (not original source); original `working/blocking/fn9.java`.
+- [ib2.java](full-files/working/blocking/ib2.java) — reconstructed Java (not original source); original `working/blocking/ib2.java`.
+- [jp8.java](full-files/working/blocking/jp8.java) — reconstructed Java (not original source); original `working/blocking/jp8.java`.
+- [jr2.java](full-files/working/blocking/jr2.java) — reconstructed Java (not original source); original `working/blocking/jr2.java`.
+- [kd.java](full-files/working/blocking/kd.java) — reconstructed Java (not original source); original `working/blocking/kd.java`.
+- [l9.java](full-files/working/blocking/l9.java) — reconstructed Java (not original source); original `working/blocking/l9.java`.
+- [m9.java](full-files/working/blocking/m9.java) — reconstructed Java (not original source); original `working/blocking/m9.java`.
+- [mc.java](full-files/working/blocking/mc.java) — reconstructed Java (not original source); original `working/blocking/mc.java`.
+- [md.java](full-files/working/blocking/md.java) — reconstructed Java (not original source); original `working/blocking/md.java`.
+- [n9.java](full-files/working/blocking/n9.java) — reconstructed Java (not original source); original `working/blocking/n9.java`.
+- [nd.java](full-files/working/blocking/nd.java) — reconstructed Java (not original source); original `working/blocking/nd.java`.
+- [nm9.java](full-files/working/blocking/nm9.java) — reconstructed Java (not original source); original `working/blocking/nm9.java`.
+- [qb2.java](full-files/working/blocking/qb2.java) — reconstructed Java (not original source); original `working/blocking/qb2.java`.
+- [v9.java](full-files/working/blocking/v9.java) — reconstructed Java (not original source); original `working/blocking/v9.java`.
+- [vw7.java](full-files/working/blocking/vw7.java) — reconstructed Java (not original source); original `working/blocking/vw7.java`.
+- [yj.java](full-files/working/blocking/yj.java) — reconstructed Java (not original source); original `working/blocking/yj.java`.
+- [yk0.java](full-files/working/blocking/yk0.java) — reconstructed Java (not original source); original `working/blocking/yk0.java`.
+- [zk0.java](full-files/working/blocking/zk0.java) — reconstructed Java (not original source); original `working/blocking/zk0.java`.
+- [jm9.java](full-files/working/native/jm9.java) — reconstructed Java (not original source); original `working/native/jm9.java`.
+- [owc.java](full-files/working/native/owc.java) — reconstructed Java (not original source); original `working/native/owc.java`.
+- [psc.java](full-files/working/native/psc.java) — reconstructed Java (not original source); original `working/native/psc.java`.
+- [t9.java](full-files/working/native/t9.java) — reconstructed Java (not original source); original `working/native/t9.java`.
+- [uc7.java](full-files/working/native/uc7.java) — reconstructed Java (not original source); original `working/native/uc7.java`.
+- [xb.java](full-files/working/native/xb.java) — reconstructed Java (not original source); original `working/native/xb.java`.
+- [xgb.java](full-files/working/native/xgb.java) — reconstructed Java (not original source); original `working/native/xgb.java`.
+- [y6a.java](full-files/working/native/y6a.java) — reconstructed Java (not original source); original `working/native/y6a.java`.
