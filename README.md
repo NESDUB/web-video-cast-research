@@ -65,7 +65,7 @@ Includes all 12 Settings.bundle plists: 11 base panes (104 controls), with an un
 
 ## Android blocking gap investigation
 
-[New code evidence, corrected removal semantics, update decisions and exception paths](docs/ANDROID_BLOCKING_GAPS.md). Includes explicit potential defects and remaining native-test requirements.
+[Current gap register, resolved questions and investigation record](docs/ANDROID_BLOCKING_GAPS.md). The main architecture is mapped well enough to guide implementation; remaining matching/input/refresh work, static inconsistencies and unverified native timing/failure behavior are listed separately. This is not an exhaustive, fully verified reconstruction.
 
 ## Connected Android media code investigation
 
