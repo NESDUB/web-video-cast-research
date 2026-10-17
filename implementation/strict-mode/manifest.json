@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Strict Popup Mode \u2014 Research",
+  "version": "0.1.0",
+  "description": "Native CSP sandbox popup denial with a reversible rule toggle. Research build.",
+  "permissions": [
+    "declarativeNetRequest",
+    "storage",
+    "tabs"
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Strict Popup Mode controls"
+  },
+  "options_page": "controls.html"
+}

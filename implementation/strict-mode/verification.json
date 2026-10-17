@@ -1,0 +1,37 @@
+{
+  "browser": "Chromium 154.0.8037.57 Fedora 44",
+  "mode": "headful, desktop display :0",
+  "delivery": "unpacked MV3 extension DNR append response CSP",
+  "cases": [
+    {
+      "mode": "on",
+      "trusted": true,
+      "activeBefore": true,
+      "opened": false,
+      "handlerContinued": true
+    },
+    {
+      "mode": "off after reload",
+      "trusted": true,
+      "activeBefore": true,
+      "opened": true,
+      "handlerContinued": true
+    },
+    {
+      "mode": "on with 127.0.0.1 top-domain exception after reload",
+      "trusted": true,
+      "activeBefore": true,
+      "opened": true,
+      "handlerContinued": true
+    },
+    {
+      "mode": "restored on without exception after navigation",
+      "trusted": true,
+      "activeBefore": true,
+      "opened": false,
+      "handlerContinued": true
+    }
+  ],
+  "live_site": "Opened visibly; playback unverified",
+  "limits": "Synthetic window.open only; not exhaustive popup, network, media or sandbox compatibility verification"
+}
