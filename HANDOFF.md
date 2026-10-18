@@ -2,6 +2,10 @@
 
 > Visibility update: the owner explicitly made this repository and release assets public after this handoff was packaged. Private-visibility statements below and inside the original ZIP describe its creation-time state.
 
+## Current media audit — 2026-10-17
+
+The latest user-directed workstream is the comprehensive static media audit, separate from blocking design. Start with [MEDIA_GAPS.md](docs/MEDIA_GAPS.md), [MEDIA_STATIC_AUDIT.md](docs/MEDIA_STATIC_AUDIT.md), [architecture](docs/MEDIA_ARCHITECTURE.md), [techniques](docs/MEDIA_METHOD_INVENTORY.md), [platform comparison](docs/MEDIA_PLATFORM_COMPARISON.md), [implementation relevance](docs/MEDIA_IMPLEMENTATION_RELEVANCE.md), and [verification](docs/MEDIA_VERIFICATION.md). Earlier priorities/remaining lists below preserve history; use the current register for status. No behavioral testing was authorized or performed.
+
 ## Assignment and present direction
 
 Owner: NESDUB. Repository: https://github.com/NESDUB/web-video-cast-research (private).

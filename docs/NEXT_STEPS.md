@@ -1,5 +1,7 @@
 # Remaining questions and ordered next experiments
 
+**Current media audit (2026-10-17):** [current stable gaps](MEDIA_GAPS.md) separate 21 resolved static questions, eight protected/encrypted boundaries, ten runtime questions and two unknown effective-state questions. See the [new detailed audit](MEDIA_STATIC_AUDIT.md), [request reconciliation](MEDIA_AUDIT_CHECKLIST.md), and [static-only verification](MEDIA_VERIFICATION.md). The older media items below are chronology, not a second current backlog; no behavioral tests were run.
+
 The [static blocking completion audit](ANDROID_BLOCKING_STATIC_AUDIT.md) now covers the visible code paths. Prioritize its remaining protected constants/startup/teardown boundaries; keep behavioral work deferred. The [current gap register](ANDROID_BLOCKING_GAPS.md#current-gap-register) supersedes older chronological open-item lists.
 
 **Current Android blocker status:** use the [gap register B01–B12](ANDROID_BLOCKING_GAPS.md#current-gap-register), [resolved questions](ANDROID_BLOCKING_GAPS.md#questions-resolved-at-code-level), and latest audit sections in that document. The architecture is sufficient to guide independent implementation; complete native reconstruction is not a prerequisite for blocker design. This file retains historical proposed experiments and later checkpoints. Behavioral/device/provider tests remain deferred unless separately authorized; listing an experiment here does not authorize it.

@@ -1,0 +1,45 @@
+.method public final onPause()V
+    .locals 2
+
+    .line 1
+    invoke-super {p0}, Lcom/instantbits/cast/webvideo/a;->onPause()V
+
+    .line 2
+    .line 3
+    .line 4
+    sget-object v0, Lqmc;->g:Lqmc;
+
+    .line 5
+    .line 6
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 7
+    .line 8
+    .line 9
+    iget-object v1, p0, Lcom/instantbits/cast/webvideo/videolist/VideoListActivity;->c0:Lznc;
+
+    .line 10
+    .line 11
+    invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 12
+    .line 13
+    .line 14
+    iget-object v0, v0, Lqmc;->a:Ljava/util/ArrayList;
+
+    .line 15
+    .line 16
+    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
+
+    .line 17
+    .line 18
+    .line 19
+    const/4 v0, 0x0
+
+    .line 20
+    iput-object v0, p0, Lcom/instantbits/cast/webvideo/videolist/VideoListActivity;->a0:Landroid/widget/ImageView;
+
+    .line 21
+    .line 22
+    return-void
+.end method

@@ -1,0 +1,28 @@
+{
+  "reason": "User prohibits reproducing credentials; mixed-purpose files include packaged credential or service-identity material",
+  "items": [
+    {
+      "file": "working/apktool/smali_classes6/cu7.smali",
+      "safe_constructor_range": [
+        429,
+        442
+      ],
+      "finding": "Fresh l48 and m48 construction; separate OpenSubtitles API plane",
+      "sha256": "ecb480f319f12ccf45c3e444afb9de9361fb3349ea19acc8c9048e0bfbb342f5",
+      "bytes": 11572
+    },
+    {
+      "file": "working/apktool/smali_classes6/gh0.smali",
+      "safe_constructor_range": [
+        2774,
+        2863
+      ],
+      "finding": "TLS/cache client, connect/write 30s and read 60s; separate request construction and authenticator",
+      "sha256": "56075e943f28f27bbc79d95406a9c4bce3122cfe171b8e778e76511ce98950a3",
+      "bytes": 54384
+    }
+  ],
+  "retained_locally": true,
+  "public_full_snapshot": false,
+  "no_credential_resolution": true
+}

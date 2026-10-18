@@ -1,0 +1,2828 @@
+.method public final j(Landroid/content/Context;Lvh5;Lyp3;JLm22;)Ljava/lang/Object;
+    .locals 32
+
+    .line 1
+    move-object/from16 v1, p0
+
+    .line 2
+    .line 3
+    move-object/from16 v0, p3
+
+    .line 4
+    .line 5
+    move-object/from16 v2, p6
+
+    .line 6
+    .line 7
+    instance-of v3, v2, Lvi5;
+
+    .line 8
+    .line 9
+    if-eqz v3, :cond_0
+
+    .line 10
+    .line 11
+    move-object v3, v2
+
+    .line 12
+    check-cast v3, Lvi5;
+
+    .line 13
+    .line 14
+    iget v4, v3, Lvi5;->I:I
+
+    .line 15
+    .line 16
+    const/high16 v5, -0x80000000
+
+    .line 17
+    .line 18
+    and-int v6, v4, v5
+
+    .line 19
+    .line 20
+    if-eqz v6, :cond_0
+
+    .line 21
+    .line 22
+    sub-int/2addr v4, v5
+
+    .line 23
+    iput v4, v3, Lvi5;->I:I
+
+    .line 24
+    .line 25
+    goto :goto_0
+
+    .line 26
+    :cond_0
+    new-instance v3, Lvi5;
+
+    .line 27
+    .line 28
+    invoke-direct {v3, v1, v2}, Lvi5;-><init>(Lcom/instantbits/cast/webvideo/player/InternalPlayerService;Lm22;)V
+
+    .line 29
+    .line 30
+    .line 31
+    :goto_0
+    iget-object v2, v3, Lvi5;->G:Ljava/lang/Object;
+
+    .line 32
+    .line 33
+    iget v4, v3, Lvi5;->I:I
+
+    .line 34
+    .line 35
+    const/4 v5, 0x4
+
+    .line 36
+    const/4 v6, 0x3
+
+    .line 37
+    const/4 v7, 0x5
+
+    .line 38
+    const/4 v8, 0x1
+
+    .line 39
+    const/4 v9, 0x2
+
+    .line 40
+    const/4 v11, 0x0
+
+    .line 41
+    sget-object v12, Lp42;->a:Lp42;
+
+    .line 42
+    .line 43
+    if-eqz v4, :cond_6
+
+    .line 44
+    .line 45
+    if-eq v4, v8, :cond_5
+
+    .line 46
+    .line 47
+    if-eq v4, v9, :cond_4
+
+    .line 48
+    .line 49
+    if-eq v4, v6, :cond_3
+
+    .line 50
+    .line 51
+    if-eq v4, v5, :cond_2
+
+    .line 52
+    .line 53
+    if-ne v4, v7, :cond_1
+
+    .line 54
+    .line 55
+    iget-wide v6, v3, Lvi5;->B:J
+
+    .line 56
+    .line 57
+    iget-object v0, v3, Lvi5;->A:Ljava/lang/String;
+
+    .line 58
+    .line 59
+    iget-object v4, v3, Lvi5;->z:Ljava/lang/Exception;
+
+    .line 60
+    .line 61
+    check-cast v4, Ljava/lang/String;
+
+    .line 62
+    .line 63
+    iget-object v4, v3, Lvi5;->y:Ljava/lang/Object;
+
+    .line 64
+    .line 65
+    check-cast v4, Lzm0;
+
+    .line 66
+    .line 67
+    iget-object v11, v3, Lvi5;->x:Landroid/net/Uri;
+
+    .line 68
+    .line 69
+    check-cast v11, Lp77;
+
+    .line 70
+    .line 71
+    iget-object v11, v3, Lvi5;->w:Ljava/lang/Object;
+
+    .line 72
+    .line 73
+    check-cast v11, Lcj2;
+
+    .line 74
+    .line 75
+    iget-object v3, v3, Lvi5;->u:Landroidx/media3/exoplayer/ExoPlayer;
+
+    .line 76
+    .line 77
+    invoke-static {v2}, Ltt9;->m0(Ljava/lang/Object;)V
+
+    .line 78
+    .line 79
+    .line 80
+    goto/16 :goto_15
+
+    .line 81
+    .line 82
+    :cond_1
+    const-string v0, "call to \'resume\' before \'invoke\' with coroutine"
+
+    .line 83
+    .line 84
+    invoke-static {v0}, Lsm0;->r(Ljava/lang/String;)V
+
+    .line 85
+    .line 86
+    .line 87
+    return-object v11
+
+    .line 88
+    :cond_2
+    iget v0, v3, Lvi5;->F:I
+
+    .line 89
+    .line 90
+    iget v4, v3, Lvi5;->E:I
+
+    .line 91
+    .line 92
+    iget v6, v3, Lvi5;->C:I
+
+    .line 93
+    .line 94
+    iget-wide v13, v3, Lvi5;->B:J
+
+    .line 95
+    .line 96
+    iget-object v15, v3, Lvi5;->y:Ljava/lang/Object;
+
+    .line 97
+    .line 98
+    check-cast v15, Lcj2;
+
+    .line 99
+    .line 100
+    iget-object v7, v3, Lvi5;->x:Landroid/net/Uri;
+
+    .line 101
+    .line 102
+    iget-object v5, v3, Lvi5;->w:Ljava/lang/Object;
+
+    .line 103
+    .line 104
+    check-cast v5, Lcom/instantbits/cast/webvideo/player/InternalPlayerService;
+
+    .line 105
+    .line 106
+    iget-object v5, v3, Lvi5;->u:Landroidx/media3/exoplayer/ExoPlayer;
+
+    .line 107
+    .line 108
+    iget-object v9, v3, Lvi5;->t:Lyp3;
+
+    .line 109
+    .line 110
+    invoke-static {v2}, Ltt9;->m0(Ljava/lang/Object;)V
+
+    .line 111
+    .line 112
+    .line 113
+    move-object v8, v9
+
+    .line 114
+    move-object v9, v3
+
+    .line 115
+    goto/16 :goto_e
+
+    .line 116
+    .line 117
+    :cond_3
+    iget v0, v3, Lvi5;->C:I
+
+    .line 118
+    .line 119
+    iget-wide v4, v3, Lvi5;->B:J
+
+    .line 120
+    .line 121
+    iget-object v6, v3, Lvi5;->z:Ljava/lang/Exception;
+
+    .line 122
+    .line 123
+    iget-object v7, v3, Lvi5;->y:Ljava/lang/Object;
+
+    .line 124
+    .line 125
+    check-cast v7, Lcj2;
+
+    .line 126
+    .line 127
+    iget-object v9, v3, Lvi5;->x:Landroid/net/Uri;
+
+    .line 128
+    .line 129
+    iget-object v13, v3, Lvi5;->w:Ljava/lang/Object;
+
+    .line 130
+    .line 131
+    check-cast v13, Lcom/instantbits/cast/webvideo/player/InternalPlayerService;
+
+    .line 132
+    .line 133
+    iget-object v13, v3, Lvi5;->u:Landroidx/media3/exoplayer/ExoPlayer;
+
+    .line 134
+    .line 135
+    iget-object v14, v3, Lvi5;->t:Lyp3;
+
+    .line 136
+    .line 137
+    invoke-static {v2}, Ltt9;->m0(Ljava/lang/Object;)V
+
+    .line 138
+    .line 139
+    .line 140
+    move-object v10, v9
+
+    .line 141
+    move-object v9, v3
+
+    .line 142
+    goto/16 :goto_c
+
+    .line 143
+    .line 144
+    :cond_4
+    iget v4, v3, Lvi5;->F:I
+
+    .line 145
+    .line 146
+    iget v5, v3, Lvi5;->E:I
+
+    .line 147
+    .line 148
+    iget v7, v3, Lvi5;->D:I
+
+    .line 149
+    .line 150
+    iget v9, v3, Lvi5;->C:I
+
+    .line 151
+    .line 152
+    iget-wide v13, v3, Lvi5;->B:J
+
+    .line 153
+    .line 154
+    iget-object v0, v3, Lvi5;->y:Ljava/lang/Object;
+
+    .line 155
+    .line 156
+    move-object v15, v0
+
+    .line 157
+    check-cast v15, Lcj2;
+
+    .line 158
+    .line 159
+    iget-object v6, v3, Lvi5;->x:Landroid/net/Uri;
+
+    .line 160
+    .line 161
+    iget-object v0, v3, Lvi5;->w:Ljava/lang/Object;
+
+    .line 162
+    .line 163
+    move-object/from16 v18, v0
+
+    .line 164
+    .line 165
+    check-cast v18, Lcom/instantbits/cast/webvideo/player/InternalPlayerService;
+
+    .line 166
+    .line 167
+    iget-object v8, v3, Lvi5;->u:Landroidx/media3/exoplayer/ExoPlayer;
+
+    .line 168
+    .line 169
+    iget-object v10, v3, Lvi5;->t:Lyp3;
+
+    .line 170
+    .line 171
+    :try_start_0
+    invoke-static {v2}, Ltt9;->m0(Ljava/lang/Object;)V
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    .line 172
+    .line 173
+    .line 174
+    move-object v0, v2
+
+    .line 175
+    move-wide/from16 v21, v13
+
+    .line 176
+    .line 177
+    move-object/from16 v2, v18
+
+    .line 178
+    .line 179
+    move v14, v9
+
+    .line 180
+    move-object v9, v3
+
+    .line 181
+    goto/16 :goto_9
+
+    .line 182
+    .line 183
+    :catch_0
+    move-exception v0
+
+    .line 184
+    move-object/from16 v2, v18
+
+    .line 185
+    .line 186
+    move/from16 v30, v7
+
+    .line 187
+    .line 188
+    move-object v7, v0
+
+    .line 189
+    move v0, v9
+
+    .line 190
+    move-object v9, v3
+
+    .line 191
+    move v3, v5
+
+    .line 192
+    move-object/from16 v31, v6
+
+    .line 193
+    .line 194
+    move v6, v4
+
+    .line 195
+    move-wide v4, v13
+
+    .line 196
+    move-object v13, v8
+
+    .line 197
+    move-object v14, v10
+
+    .line 198
+    move-object/from16 v10, v31
+
+    .line 199
+    .line 200
+    move/from16 v8, v30
+
+    .line 201
+    .line 202
+    goto/16 :goto_b
+
+    .line 203
+    .line 204
+    :cond_5
+    iget v0, v3, Lvi5;->C:I
+
+    .line 205
+    .line 206
+    iget-wide v4, v3, Lvi5;->B:J
+
+    .line 207
+    .line 208
+    iget-object v6, v3, Lvi5;->v:Ljava/lang/String;
+
+    .line 209
+    .line 210
+    iget-object v7, v3, Lvi5;->u:Landroidx/media3/exoplayer/ExoPlayer;
+
+    .line 211
+    .line 212
+    iget-object v8, v3, Lvi5;->t:Lyp3;
+
+    .line 213
+    .line 214
+    iget-object v9, v3, Lvi5;->s:Lvh5;
+
+    .line 215
+    .line 216
+    iget-object v10, v3, Lvi5;->r:Landroid/content/Context;
+
+    .line 217
+    .line 218
+    invoke-static {v2}, Ltt9;->m0(Ljava/lang/Object;)V
+
+    .line 219
+    .line 220
+    .line 221
+    move v14, v0
+
+    .line 222
+    const/4 v13, 0x0
+
+    .line 223
+    goto :goto_1
+
+    .line 224
+    :cond_6
+    invoke-static {v2}, Ltt9;->m0(Ljava/lang/Object;)V
+
+    .line 225
+    .line 226
+    .line 227
+    iget-object v2, v1, Lcom/instantbits/cast/webvideo/player/InternalPlayerService;->u:Lxm3;
+
+    .line 228
+    .line 229
+    if-eqz v2, :cond_20
+
+    .line 230
+    .line 231
+    iget-object v6, v0, Ld77;->g:Ljava/lang/String;
+
+    .line 232
+    .line 233
+    sget-object v4, Lj13;->a:Lsr2;
+
+    .line 234
+    .line 235
+    sget-object v4, Laq2;->c:Laq2;
+
+    .line 236
+    .line 237
+    new-instance v5, Lxb;
+
+    .line 238
+    .line 239
+    const/16 v7, 0x10
+
+    .line 240
+    .line 241
+    invoke-direct {v5, v1, v6, v11, v7}, Lxb;-><init>(Ljava/lang/Object;Ljava/lang/Object;Ll22;I)V
+
+    .line 242
+    .line 243
+    .line 244
+    move-object/from16 v7, p1
+
+    .line 245
+    .line 246
+    iput-object v7, v3, Lvi5;->r:Landroid/content/Context;
+
+    .line 247
+    .line 248
+    move-object/from16 v8, p2
+
+    .line 249
+    .line 250
+    iput-object v8, v3, Lvi5;->s:Lvh5;
+
+    .line 251
+    .line 252
+    iput-object v0, v3, Lvi5;->t:Lyp3;
+
+    .line 253
+    .line 254
+    iput-object v2, v3, Lvi5;->u:Landroidx/media3/exoplayer/ExoPlayer;
+
+    .line 255
+    .line 256
+    iput-object v6, v3, Lvi5;->v:Ljava/lang/String;
+
+    .line 257
+    .line 258
+    move-wide/from16 v9, p4
+
+    .line 259
+    .line 260
+    iput-wide v9, v3, Lvi5;->B:J
+
+    .line 261
+    .line 262
+    const/4 v13, 0x0
+
+    .line 263
+    iput v13, v3, Lvi5;->C:I
+
+    .line 264
+    .line 265
+    const/4 v14, 0x1
+
+    .line 266
+    iput v14, v3, Lvi5;->I:I
+
+    .line 267
+    .line 268
+    invoke-static {v4, v5, v3}, Lll4;->j0(Le42;Lx84;Ll22;)Ljava/lang/Object;
+
+    .line 269
+    .line 270
+    .line 271
+    move-result-object v4
+
+    .line 272
+    if-ne v4, v12, :cond_7
+
+    .line 273
+    .line 274
+    goto/16 :goto_14
+
+    .line 275
+    .line 276
+    :cond_7
+    move-object v14, v7
+
+    .line 277
+    move-object v7, v2
+
+    .line 278
+    move-object v2, v4
+
+    .line 279
+    move-wide v4, v9
+
+    .line 280
+    move-object v10, v14
+
+    .line 281
+    move-object v9, v8
+
+    .line 282
+    move v14, v13
+
+    .line 283
+    move-object v8, v0
+
+    .line 284
+    :goto_1
+    check-cast v2, Ljava/lang/String;
+
+    .line 285
+    .line 286
+    const-string v0, "/"
+
+    .line 287
+    .line 288
+    const-string v15, "content://"
+
+    .line 289
+    .line 290
+    if-eqz v2, :cond_b
+
+    .line 291
+    .line 292
+    invoke-static {v2, v0, v13}, Lq6b;->E0(Ljava/lang/String;Ljava/lang/String;Z)Z
+
+    .line 293
+    .line 294
+    .line 295
+    move-result v18
+
+    .line 296
+    if-nez v18, :cond_b
+
+    .line 297
+    .line 298
+    invoke-static {v2, v15, v13}, Lq6b;->E0(Ljava/lang/String;Ljava/lang/String;Z)Z
+
+    .line 299
+    .line 300
+    .line 301
+    move-result v18
+
+    .line 302
+    if-nez v18, :cond_b
+
+    .line 303
+    .line 304
+    sget-object v0, Lvv4;->a:Lvgb;
+
+    .line 305
+    .line 306
+    invoke-static {}, Ldv4;->r()Ljava/lang/String;
+
+    .line 307
+    .line 308
+    .line 309
+    move-result-object v0
+
+    .line 310
+    invoke-static {v6, v0, v13}, Lq6b;->E0(Ljava/lang/String;Ljava/lang/String;Z)Z
+
+    .line 311
+    .line 312
+    .line 313
+    move-result v0
+
+    .line 314
+    if-nez v0, :cond_8
+
+    .line 315
+    .line 316
+    invoke-static {}, Ldv4;->s()Ljava/lang/String;
+
+    .line 317
+    .line 318
+    .line 319
+    move-result-object v0
+
+    .line 320
+    invoke-static {v6, v0, v13}, Lq6b;->E0(Ljava/lang/String;Ljava/lang/String;Z)Z
+
+    .line 321
+    .line 322
+    .line 323
+    move-result v0
+
+    .line 324
+    if-eqz v0, :cond_9
+
+    .line 325
+    .line 326
+    :cond_8
+    move-object/from16 v18, v11
+
+    .line 327
+    .line 328
+    goto :goto_3
+
+    .line 329
+    :cond_9
+    invoke-virtual {v1}, Lcom/instantbits/cast/webvideo/player/InternalPlayerService;->g()Lcom/instantbits/cast/webvideo/WebVideoCasterApplication;
+
+    .line 330
+    .line 331
+    .line 332
+    move-result-object v0
+
+    .line 333
+    iget-object v2, v8, Ld77;->j:Ljava/lang/String;
+
+    .line 334
+    .line 335
+    iget-boolean v13, v8, Ld77;->f:Z
+
+    .line 336
+    .line 337
+    move-object/from16 v18, v11
+
+    .line 338
+    .line 339
+    iget-object v11, v8, Ld77;->r:Ljava/util/TreeMap;
+
+    .line 340
+    .line 341
+    invoke-virtual {v0, v6, v2, v13, v11}, Lcom/instantbits/cast/webvideo/WebVideoCasterApplication;->c(Ljava/lang/String;Ljava/lang/String;ZLjava/util/TreeMap;)Ljava/lang/String;
+
+    .line 342
+    .line 343
+    .line 344
+    move-result-object v0
+
+    .line 345
+    if-eqz v0, :cond_a
+
+    .line 346
+    .line 347
+    invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+
+    .line 348
+    .line 349
+    .line 350
+    move-result-object v0
+
+    .line 351
+    if-eqz v0, :cond_a
+
+    .line 352
+    .line 353
+    :goto_2
+    move-object v2, v0
+
+    .line 354
+    goto :goto_4
+
+    .line 355
+    :cond_a
+    const-string v0, "URL is invalid"
+
+    .line 356
+    .line 357
+    invoke-static {v0}, Lsm0;->n(Ljava/lang/String;)V
+
+    .line 358
+    .line 359
+    .line 360
+    return-object v18
+
+    .line 361
+    :goto_3
+    invoke-static {v6}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+
+    .line 362
+    .line 363
+    .line 364
+    move-result-object v0
+
+    .line 365
+    goto :goto_2
+
+    .line 366
+    :cond_b
+    move-object/from16 v18, v11
+
+    .line 367
+    .line 368
+    if-eqz v2, :cond_c
+
+    .line 369
+    .line 370
+    const/4 v13, 0x0
+
+    .line 371
+    invoke-static {v2, v0, v13}, Lq6b;->E0(Ljava/lang/String;Ljava/lang/String;Z)Z
+
+    .line 372
+    .line 373
+    .line 374
+    move-result v0
+
+    .line 375
+    const/4 v6, 0x1
+
+    .line 376
+    if-ne v0, v6, :cond_d
+
+    .line 377
+    .line 378
+    new-instance v0, Ljava/io/File;
+
+    .line 379
+    .line 380
+    invoke-direct {v0, v2}, Ljava/io/File;-><init>(Ljava/lang/String;)V
+
+    .line 381
+    .line 382
+    .line 383
+    invoke-static {v0}, Landroid/net/Uri;->fromFile(Ljava/io/File;)Landroid/net/Uri;
+
+    .line 384
+    .line 385
+    .line 386
+    move-result-object v0
+
+    .line 387
+    goto :goto_2
+
+    .line 388
+    :cond_c
+    const/4 v6, 0x1
+
+    .line 389
+    const/4 v13, 0x0
+
+    .line 390
+    :cond_d
+    if-eqz v2, :cond_1f
+
+    .line 391
+    .line 392
+    invoke-static {v2, v15, v13}, Lq6b;->E0(Ljava/lang/String;Ljava/lang/String;Z)Z
+
+    .line 393
+    .line 394
+    .line 395
+    move-result v0
+
+    .line 396
+    if-ne v0, v6, :cond_1f
+
+    .line 397
+    .line 398
+    invoke-static {v2}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+
+    .line 399
+    .line 400
+    .line 401
+    move-result-object v0
+
+    .line 402
+    goto :goto_2
+
+    .line 403
+    :goto_4
+    const-string v0, "file://"
+
+    .line 404
+    .line 405
+    filled-new-array {v0, v15}, [Ljava/lang/String;
+
+    .line 406
+    .line 407
+    .line 408
+    move-result-object v0
+
+    .line 409
+    invoke-static {v0}, Ljk2;->a0([Ljava/lang/Object;)Ljava/util/List;
+
+    .line 410
+    .line 411
+    .line 412
+    move-result-object v0
+
+    .line 413
+    check-cast v0, Ljava/lang/Iterable;
+
+    .line 414
+    .line 415
+    instance-of v6, v0, Ljava/util/Collection;
+
+    .line 416
+    .line 417
+    if-eqz v6, :cond_f
+
+    .line 418
+    .line 419
+    move-object v6, v0
+
+    .line 420
+    check-cast v6, Ljava/util/Collection;
+
+    .line 421
+    .line 422
+    invoke-interface {v6}, Ljava/util/Collection;->isEmpty()Z
+
+    .line 423
+    .line 424
+    .line 425
+    move-result v6
+
+    .line 426
+    if-eqz v6, :cond_f
+
+    .line 427
+    .line 428
+    :cond_e
+    const/4 v6, 0x0
+
+    .line 429
+    goto :goto_5
+
+    .line 430
+    :cond_f
+    invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+
+    .line 431
+    .line 432
+    .line 433
+    move-result-object v0
+
+    .line 434
+    :cond_10
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+
+    .line 435
+    .line 436
+    .line 437
+    move-result v6
+
+    .line 438
+    if-eqz v6, :cond_e
+
+    .line 439
+    .line 440
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    .line 441
+    .line 442
+    .line 443
+    move-result-object v6
+
+    .line 444
+    check-cast v6, Ljava/lang/String;
+
+    .line 445
+    .line 446
+    invoke-virtual {v2}, Landroid/net/Uri;->toString()Ljava/lang/String;
+
+    .line 447
+    .line 448
+    .line 449
+    move-result-object v11
+
+    .line 450
+    invoke-virtual {v11}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 451
+    .line 452
+    .line 453
+    const/4 v13, 0x0
+
+    .line 454
+    invoke-static {v11, v6, v13}, Lq6b;->E0(Ljava/lang/String;Ljava/lang/String;Z)Z
+
+    .line 455
+    .line 456
+    .line 457
+    move-result v6
+
+    .line 458
+    if-eqz v6, :cond_10
+
+    .line 459
+    .line 460
+    const/4 v6, 0x1
+
+    .line 461
+    :goto_5
+    if-eqz v6, :cond_11
+
+    .line 462
+    .line 463
+    new-instance v0, Lzn2;
+
+    .line 464
+    .line 465
+    const/4 v11, 0x1
+
+    .line 466
+    invoke-direct {v0, v1, v11}, Lzn2;-><init>(Landroid/content/Context;I)V
+
+    .line 467
+    .line 468
+    .line 469
+    invoke-static {}, Lo8d;->E()Ljava/lang/String;
+
+    .line 470
+    .line 471
+    .line 472
+    :goto_6
+    move-object v11, v0
+
+    .line 473
+    goto :goto_7
+
+    .line 474
+    :cond_11
+    const/4 v11, 0x1
+
+    .line 475
+    new-instance v0, Lmp2;
+
+    .line 476
+    .line 477
+    invoke-direct {v0}, Lmp2;-><init>()V
+
+    .line 478
+    .line 479
+    .line 480
+    const-string v13, "phoneaudio"
+
+    .line 481
+    .line 482
+    iput-object v13, v0, Lmp2;->b:Ljava/lang/String;
+
+    .line 483
+    .line 484
+    const/16 v13, 0x7530
+
+    .line 485
+    .line 486
+    iput v13, v0, Lmp2;->c:I
+
+    .line 487
+    .line 488
+    iput v13, v0, Lmp2;->d:I
+
+    .line 489
+    .line 490
+    iput-boolean v11, v0, Lmp2;->e:Z
+
+    .line 491
+    .line 492
+    sget-object v11, Ln08;->a:Lvgb;
+
+    .line 493
+    .line 494
+    invoke-static {}, Lo8d;->E()Ljava/lang/String;
+
+    .line 495
+    .line 496
+    .line 497
+    goto :goto_6
+
+    .line 498
+    :goto_7
+    sget-object v0, Lph5;->a:Ljava/util/List;
+
+    .line 499
+    .line 500
+    check-cast v0, Ljava/lang/Iterable;
+
+    .line 501
+    .line 502
+    invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+
+    .line 503
+    .line 504
+    .line 505
+    move-result-object v0
+
+    .line 506
+    :goto_8
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+
+    .line 507
+    .line 508
+    .line 509
+    move-result v13
+
+    .line 510
+    if-eqz v13, :cond_1e
+
+    .line 511
+    .line 512
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    .line 513
+    .line 514
+    .line 515
+    move-result-object v13
+
+    .line 516
+    check-cast v13, Ldf8;
+
+    .line 517
+    .line 518
+    iget-object v15, v13, Ldf8;->a:Ljava/lang/Object;
+
+    .line 519
+    .line 520
+    check-cast v15, Ljava/lang/Number;
+
+    .line 521
+    .line 522
+    invoke-virtual {v15}, Ljava/lang/Number;->intValue()I
+
+    .line 523
+    .line 524
+    .line 525
+    move-result v15
+
+    .line 526
+    move-object/from16 p1, v0
+
+    .line 527
+    .line 528
+    invoke-static {}, Lph5;->a()I
+
+    .line 529
+    .line 530
+    .line 531
+    move-result v0
+
+    .line 532
+    if-ne v15, v0, :cond_1d
+
+    .line 533
+    .line 534
+    iget-object v0, v13, Ldf8;->b:Ljava/lang/Object;
+
+    .line 535
+    .line 536
+    check-cast v0, Ljava/lang/Number;
+
+    .line 537
+    .line 538
+    invoke-virtual {v0}, Ljava/lang/Number;->intValue()I
+
+    .line 539
+    .line 540
+    .line 541
+    move-result v13
+
+    .line 542
+    if-nez v6, :cond_14
+
+    .line 543
+    .line 544
+    if-lez v13, :cond_14
+
+    .line 545
+    .line 546
+    move-object/from16 v15, v18
+
+    .line 547
+    .line 548
+    :try_start_1
+    iput-object v15, v3, Lvi5;->r:Landroid/content/Context;
+
+    .line 549
+    .line 550
+    iput-object v15, v3, Lvi5;->s:Lvh5;
+
+    .line 551
+    .line 552
+    iput-object v8, v3, Lvi5;->t:Lyp3;
+
+    .line 553
+    .line 554
+    iput-object v7, v3, Lvi5;->u:Landroidx/media3/exoplayer/ExoPlayer;
+
+    .line 555
+    .line 556
+    iput-object v15, v3, Lvi5;->v:Ljava/lang/String;
+
+    .line 557
+    .line 558
+    iput-object v1, v3, Lvi5;->w:Ljava/lang/Object;
+
+    .line 559
+    .line 560
+    iput-object v2, v3, Lvi5;->x:Landroid/net/Uri;
+
+    .line 561
+    .line 562
+    iput-object v11, v3, Lvi5;->y:Ljava/lang/Object;
+
+    .line 563
+    .line 564
+    iput-wide v4, v3, Lvi5;->B:J
+
+    .line 565
+    .line 566
+    iput v14, v3, Lvi5;->C:I
+
+    .line 567
+    .line 568
+    const/4 v15, 0x0
+
+    .line 569
+    iput v15, v3, Lvi5;->D:I
+
+    .line 570
+    .line 571
+    iput v13, v3, Lvi5;->E:I
+
+    .line 572
+    .line 573
+    iput v6, v3, Lvi5;->F:I
+
+    .line 574
+    .line 575
+    const/4 v15, 0x2
+
+    .line 576
+    iput v15, v3, Lvi5;->I:I
+    :try_end_1
+    .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_3
+
+    .line 577
+    .line 578
+    move-object/from16 p1, v1
+
+    .line 579
+    .line 580
+    move-object/from16 p6, v3
+
+    .line 581
+    .line 582
+    move-object/from16 p3, v9
+
+    .line 583
+    .line 584
+    move-object/from16 p2, v10
+
+    .line 585
+    .line 586
+    move-object/from16 p4, v11
+
+    .line 587
+    .line 588
+    move/from16 p5, v13
+
+    .line 589
+    .line 590
+    :try_start_2
+    invoke-virtual/range {p1 .. p6}, Lcom/instantbits/cast/webvideo/player/InternalPlayerService;->c(Landroid/content/Context;Lvh5;Lcj2;ILm22;)Ljava/lang/Object;
+
+    .line 591
+    .line 592
+    .line 593
+    move-result-object v0
+    :try_end_2
+    .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_2
+
+    .line 594
+    move-object/from16 v1, p1
+
+    .line 595
+    .line 596
+    move-object/from16 v15, p4
+
+    .line 597
+    .line 598
+    move/from16 v3, p5
+
+    .line 599
+    .line 600
+    move-object/from16 v9, p6
+
+    .line 601
+    .line 602
+    if-ne v0, v12, :cond_12
+
+    .line 603
+    .line 604
+    goto/16 :goto_14
+
+    .line 605
+    .line 606
+    :cond_12
+    move-wide/from16 v21, v4
+
+    .line 607
+    .line 608
+    move v4, v6
+
+    .line 609
+    move-object v10, v8
+
+    .line 610
+    move-object v6, v2
+
+    .line 611
+    move v5, v3
+
+    .line 612
+    move-object v8, v7
+
+    .line 613
+    const/4 v7, 0x0
+
+    .line 614
+    move-object v2, v1
+
+    .line 615
+    :goto_9
+    :try_start_3
+    move-object v3, v0
+
+    .line 616
+    check-cast v3, Lcj2;
+
+    .line 617
+    .line 618
+    invoke-static {}, Lo8d;->E()Ljava/lang/String;
+
+    .line 619
+    .line 620
+    .line 621
+    move-result-object v3
+
+    .line 622
+    const-string v11, "Will use CacheDataSource"
+
+    .line 623
+    .line 624
+    invoke-static {v3, v11}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 625
+    .line 626
+    .line 627
+    check-cast v0, Lcj2;
+    :try_end_3
+    .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_1
+
+    .line 628
+    .line 629
+    goto/16 :goto_d
+
+    .line 630
+    .line 631
+    :catch_1
+    move-exception v0
+
+    .line 632
+    move v3, v5
+
+    .line 633
+    move-object v13, v8
+
+    .line 634
+    const/4 v11, 0x0
+
+    .line 635
+    move v8, v7
+
+    .line 636
+    move-object v7, v0
+
+    .line 637
+    move v0, v14
+
+    .line 638
+    move-object v14, v10
+
+    .line 639
+    move-object v10, v6
+
+    .line 640
+    move v6, v4
+
+    .line 641
+    move-wide/from16 v4, v21
+
+    .line 642
+    .line 643
+    goto :goto_b
+
+    .line 644
+    :catch_2
+    move-exception v0
+
+    .line 645
+    move-object/from16 v1, p1
+
+    .line 646
+    .line 647
+    move-object/from16 v15, p4
+
+    .line 648
+    .line 649
+    move/from16 v3, p5
+
+    .line 650
+    .line 651
+    move-object/from16 v9, p6
+
+    .line 652
+    .line 653
+    :goto_a
+    move-object v10, v2
+
+    .line 654
+    move-object v13, v7
+
+    .line 655
+    const/4 v11, 0x0
+
+    .line 656
+    move-object v7, v0
+
+    .line 657
+    move-object v2, v1
+
+    .line 658
+    move v0, v14
+
+    .line 659
+    move-object v14, v8
+
+    .line 660
+    const/4 v8, 0x0
+
+    .line 661
+    goto :goto_b
+
+    .line 662
+    :catch_3
+    move-exception v0
+
+    .line 663
+    move-object v9, v3
+
+    .line 664
+    move-object v15, v11
+
+    .line 665
+    move v3, v13
+
+    .line 666
+    goto :goto_a
+
+    .line 667
+    :goto_b
+    iput-object v11, v9, Lvi5;->r:Landroid/content/Context;
+
+    .line 668
+    .line 669
+    iput-object v11, v9, Lvi5;->s:Lvh5;
+
+    .line 670
+    .line 671
+    iput-object v14, v9, Lvi5;->t:Lyp3;
+
+    .line 672
+    .line 673
+    iput-object v13, v9, Lvi5;->u:Landroidx/media3/exoplayer/ExoPlayer;
+
+    .line 674
+    .line 675
+    iput-object v11, v9, Lvi5;->v:Ljava/lang/String;
+
+    .line 676
+    .line 677
+    iput-object v11, v9, Lvi5;->w:Ljava/lang/Object;
+
+    .line 678
+    .line 679
+    iput-object v10, v9, Lvi5;->x:Landroid/net/Uri;
+
+    .line 680
+    .line 681
+    iput-object v15, v9, Lvi5;->y:Ljava/lang/Object;
+
+    .line 682
+    .line 683
+    iput-object v7, v9, Lvi5;->z:Ljava/lang/Exception;
+
+    .line 684
+    .line 685
+    iput-wide v4, v9, Lvi5;->B:J
+
+    .line 686
+    .line 687
+    iput v0, v9, Lvi5;->C:I
+
+    .line 688
+    .line 689
+    iput v8, v9, Lvi5;->D:I
+
+    .line 690
+    .line 691
+    iput v3, v9, Lvi5;->E:I
+
+    .line 692
+    .line 693
+    iput v6, v9, Lvi5;->F:I
+
+    .line 694
+    .line 695
+    const/4 v3, 0x3
+
+    .line 696
+    iput v3, v9, Lvi5;->I:I
+
+    .line 697
+    .line 698
+    const/4 v3, 0x0
+
+    .line 699
+    invoke-virtual {v2, v3, v9}, Lcom/instantbits/cast/webvideo/player/InternalPlayerService;->k(ZLm22;)Ljava/lang/Object;
+
+    .line 700
+    .line 701
+    .line 702
+    move-result-object v2
+
+    .line 703
+    if-ne v2, v12, :cond_13
+
+    .line 704
+    .line 705
+    goto/16 :goto_14
+
+    .line 706
+    .line 707
+    :cond_13
+    move-object v6, v7
+
+    .line 708
+    move-object v7, v15
+
+    .line 709
+    :goto_c
+    invoke-static {}, Lo8d;->E()Ljava/lang/String;
+
+    .line 710
+    .line 711
+    .line 712
+    move-result-object v2
+
+    .line 713
+    const-string v3, "Could not create Cache Data Source. Will use the Default one."
+
+    .line 714
+    .line 715
+    invoke-static {v2, v3, v6}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+
+    .line 716
+    .line 717
+    .line 718
+    invoke-static {v6}, Ln00;->m(Ljava/lang/Throwable;)V
+
+    .line 719
+    .line 720
+    .line 721
+    move-wide/from16 v21, v4
+
+    .line 722
+    .line 723
+    move-object v6, v10
+
+    .line 724
+    move-object v8, v13
+
+    .line 725
+    move-object v10, v14
+
+    .line 726
+    move v14, v0
+
+    .line 727
+    move-object v0, v7
+
+    .line 728
+    :goto_d
+    move-object v3, v8
+
+    .line 729
+    move v2, v14
+
+    .line 730
+    move-wide/from16 v13, v21
+
+    .line 731
+    .line 732
+    goto/16 :goto_10
+
+    .line 733
+    .line 734
+    :cond_14
+    move-object v9, v3
+
+    .line 735
+    move-object v15, v11
+
+    .line 736
+    move v3, v13
+
+    .line 737
+    const/4 v11, 0x0
+
+    .line 738
+    iput-object v11, v9, Lvi5;->r:Landroid/content/Context;
+
+    .line 739
+    .line 740
+    iput-object v11, v9, Lvi5;->s:Lvh5;
+
+    .line 741
+    .line 742
+    iput-object v8, v9, Lvi5;->t:Lyp3;
+
+    .line 743
+    .line 744
+    iput-object v7, v9, Lvi5;->u:Landroidx/media3/exoplayer/ExoPlayer;
+
+    .line 745
+    .line 746
+    iput-object v11, v9, Lvi5;->v:Ljava/lang/String;
+
+    .line 747
+    .line 748
+    iput-object v11, v9, Lvi5;->w:Ljava/lang/Object;
+
+    .line 749
+    .line 750
+    iput-object v2, v9, Lvi5;->x:Landroid/net/Uri;
+
+    .line 751
+    .line 752
+    iput-object v15, v9, Lvi5;->y:Ljava/lang/Object;
+
+    .line 753
+    .line 754
+    iput-wide v4, v9, Lvi5;->B:J
+
+    .line 755
+    .line 756
+    iput v14, v9, Lvi5;->C:I
+
+    .line 757
+    .line 758
+    const/4 v13, 0x0
+
+    .line 759
+    iput v13, v9, Lvi5;->D:I
+
+    .line 760
+    .line 761
+    iput v3, v9, Lvi5;->E:I
+
+    .line 762
+    .line 763
+    iput v6, v9, Lvi5;->F:I
+
+    .line 764
+    .line 765
+    const/4 v10, 0x4
+
+    .line 766
+    iput v10, v9, Lvi5;->I:I
+
+    .line 767
+    .line 768
+    invoke-virtual {v1, v13, v9}, Lcom/instantbits/cast/webvideo/player/InternalPlayerService;->k(ZLm22;)Ljava/lang/Object;
+
+    .line 769
+    .line 770
+    .line 771
+    move-result-object v0
+
+    .line 772
+    if-ne v0, v12, :cond_15
+
+    .line 773
+    .line 774
+    goto/16 :goto_14
+
+    .line 775
+    .line 776
+    :cond_15
+    move v0, v6
+
+    .line 777
+    move v6, v14
+
+    .line 778
+    move-wide v13, v4
+
+    .line 779
+    move-object v5, v7
+
+    .line 780
+    move-object v7, v2
+
+    .line 781
+    move v4, v3
+
+    .line 782
+    :goto_e
+    invoke-static {}, Lo8d;->E()Ljava/lang/String;
+
+    .line 783
+    .line 784
+    .line 785
+    move-result-object v2
+
+    .line 786
+    if-eqz v0, :cond_16
+
+    .line 787
+    .line 788
+    const/4 v0, 0x1
+
+    .line 789
+    goto :goto_f
+
+    .line 790
+    :cond_16
+    const/4 v0, 0x0
+
+    .line 791
+    :goto_f
+    new-instance v3, Ljava/lang/StringBuilder;
+
+    .line 792
+    .line 793
+    const-string v10, "Will use Default Data Source as is local or user did not ask for Cache (local: "
+
+    .line 794
+    .line 795
+    invoke-direct {v3, v10}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 796
+    .line 797
+    .line 798
+    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+
+    .line 799
+    .line 800
+    .line 801
+    const-string v0, ", cache max size: "
+
+    .line 802
+    .line 803
+    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 804
+    .line 805
+    .line 806
+    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    .line 807
+    .line 808
+    .line 809
+    const-string v0, " GB)"
+
+    .line 810
+    .line 811
+    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 812
+    .line 813
+    .line 814
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 815
+    .line 816
+    .line 817
+    move-result-object v0
+
+    .line 818
+    invoke-static {v2, v0}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 819
+    .line 820
+    .line 821
+    move-object v3, v5
+
+    .line 822
+    move v2, v6
+
+    .line 823
+    move-object v6, v7
+
+    .line 824
+    move-object v10, v8
+
+    .line 825
+    move-object v0, v15
+
+    .line 826
+    :goto_10
+    invoke-static {v6}, Lp77;->a(Landroid/net/Uri;)Lp77;
+
+    .line 827
+    .line 828
+    .line 829
+    move-result-object v4
+
+    .line 830
+    iget-object v5, v10, Ld77;->j:Ljava/lang/String;
+
+    .line 831
+    .line 832
+    invoke-static {v5}, Luc7;->m(Ljava/lang/String;)Z
+
+    .line 833
+    .line 834
+    .line 835
+    move-result v5
+
+    .line 836
+    if-eqz v5, :cond_17
+
+    .line 837
+    .line 838
+    invoke-static {}, Lo8d;->E()Ljava/lang/String;
+
+    .line 839
+    .line 840
+    .line 841
+    move-result-object v5
+
+    .line 842
+    iget-object v6, v10, Ld77;->j:Ljava/lang/String;
+
+    .line 843
+    .line 844
+    new-instance v7, Ljava/lang/StringBuilder;
+
+    .line 845
+    .line 846
+    const-string v8, "Media Item is HLS (MIME type: "
+
+    .line 847
+    .line 848
+    invoke-direct {v7, v8}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 849
+    .line 850
+    .line 851
+    invoke-virtual {v7, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 852
+    .line 853
+    .line 854
+    const-string v6, "), will use HlsMediaSource"
+
+    .line 855
+    .line 856
+    invoke-virtual {v7, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 857
+    .line 858
+    .line 859
+    invoke-virtual {v7}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 860
+    .line 861
+    .line 862
+    move-result-object v6
+
+    .line 863
+    invoke-static {v5, v6}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 864
+    .line 865
+    .line 866
+    new-instance v5, Landroidx/media3/exoplayer/hls/HlsMediaSource$Factory;
+
+    .line 867
+    .line 868
+    invoke-direct {v5, v0}, Landroidx/media3/exoplayer/hls/HlsMediaSource$Factory;-><init>(Lcj2;)V
+
+    .line 869
+    .line 870
+    .line 871
+    const/4 v15, 0x0
+
+    .line 872
+    iput-boolean v15, v5, Landroidx/media3/exoplayer/hls/HlsMediaSource$Factory;->k:Z
+
+    .line 873
+    .line 874
+    new-instance v6, Lbw6;
+
+    .line 875
+    .line 876
+    const/4 v7, 0x4
+
+    .line 877
+    const/4 v8, 0x5
+
+    .line 878
+    invoke-direct {v6, v8, v7}, Lbw6;-><init>(II)V
+
+    .line 879
+    .line 880
+    .line 881
+    iput-object v6, v5, Landroidx/media3/exoplayer/hls/HlsMediaSource$Factory;->j:Lbw6;
+
+    .line 882
+    .line 883
+    invoke-virtual {v5, v4}, Landroidx/media3/exoplayer/hls/HlsMediaSource$Factory;->e(Lp77;)Leo4;
+
+    .line 884
+    .line 885
+    .line 886
+    move-result-object v4
+
+    .line 887
+    :goto_11
+    move-object v11, v0
+
+    .line 888
+    goto/16 :goto_12
+
+    .line 889
+    .line 890
+    :cond_17
+    iget-object v5, v10, Ld77;->j:Ljava/lang/String;
+
+    .line 891
+    .line 892
+    invoke-static {v5}, Luc7;->k(Ljava/lang/String;)Z
+
+    .line 893
+    .line 894
+    .line 895
+    move-result v5
+
+    .line 896
+    if-eqz v5, :cond_18
+
+    .line 897
+    .line 898
+    invoke-static {}, Lo8d;->E()Ljava/lang/String;
+
+    .line 899
+    .line 900
+    .line 901
+    move-result-object v5
+
+    .line 902
+    iget-object v6, v10, Ld77;->j:Ljava/lang/String;
+
+    .line 903
+    .line 904
+    new-instance v7, Ljava/lang/StringBuilder;
+
+    .line 905
+    .line 906
+    const-string v8, "Media Item is DASH MPD (MIME type: "
+
+    .line 907
+    .line 908
+    invoke-direct {v7, v8}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 909
+    .line 910
+    .line 911
+    invoke-virtual {v7, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 912
+    .line 913
+    .line 914
+    const-string v6, "), will use DashMediaSource"
+
+    .line 915
+    .line 916
+    invoke-virtual {v7, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 917
+    .line 918
+    .line 919
+    invoke-virtual {v7}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 920
+    .line 921
+    .line 922
+    move-result-object v6
+
+    .line 923
+    invoke-static {v5, v6}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 924
+    .line 925
+    .line 926
+    new-instance v5, Landroidx/media3/exoplayer/dash/DashMediaSource$Factory;
+
+    .line 927
+    .line 928
+    new-instance v6, Lum2;
+
+    .line 929
+    .line 930
+    invoke-direct {v6, v0}, Lum2;-><init>(Lcj2;)V
+
+    .line 931
+    .line 932
+    .line 933
+    invoke-direct {v5, v6, v0}, Landroidx/media3/exoplayer/dash/DashMediaSource$Factory;-><init>(Lum2;Lcj2;)V
+
+    .line 934
+    .line 935
+    .line 936
+    new-instance v6, Lbw6;
+
+    .line 937
+    .line 938
+    const/4 v7, 0x4
+
+    .line 939
+    const/4 v8, 0x5
+
+    .line 940
+    invoke-direct {v6, v8, v7}, Lbw6;-><init>(II)V
+
+    .line 941
+    .line 942
+    .line 943
+    iput-object v6, v5, Landroidx/media3/exoplayer/dash/DashMediaSource$Factory;->e:Lbw6;
+
+    .line 944
+    .line 945
+    invoke-virtual {v5, v4}, Landroidx/media3/exoplayer/dash/DashMediaSource$Factory;->e(Lp77;)Luh2;
+
+    .line 946
+    .line 947
+    .line 948
+    move-result-object v4
+
+    .line 949
+    goto :goto_11
+
+    .line 950
+    :cond_18
+    invoke-static {}, Lo8d;->E()Ljava/lang/String;
+
+    .line 951
+    .line 952
+    .line 953
+    move-result-object v5
+
+    .line 954
+    iget-object v6, v10, Ld77;->j:Ljava/lang/String;
+
+    .line 955
+    .line 956
+    new-instance v7, Ljava/lang/StringBuilder;
+
+    .line 957
+    .line 958
+    const-string v8, "Media Item is generic (MIME type: "
+
+    .line 959
+    .line 960
+    invoke-direct {v7, v8}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 961
+    .line 962
+    .line 963
+    invoke-virtual {v7, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 964
+    .line 965
+    .line 966
+    const-string v6, "), will use ProgressiveMediaSource"
+
+    .line 967
+    .line 968
+    invoke-virtual {v7, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 969
+    .line 970
+    .line 971
+    invoke-virtual {v7}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 972
+    .line 973
+    .line 974
+    move-result-object v6
+
+    .line 975
+    invoke-static {v5, v6}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 976
+    .line 977
+    .line 978
+    new-instance v5, Lzo2;
+
+    .line 979
+    .line 980
+    invoke-direct {v5}, Lzo2;-><init>()V
+
+    .line 981
+    .line 982
+    .line 983
+    new-instance v6, Lnv8;
+
+    .line 984
+    .line 985
+    const/4 v15, 0x2
+
+    .line 986
+    invoke-direct {v6, v5, v15}, Lnv8;-><init>(Ljava/lang/Object;I)V
+
+    .line 987
+    .line 988
+    .line 989
+    new-instance v5, Lbw6;
+
+    .line 990
+    .line 991
+    const/4 v7, 0x4
+
+    .line 992
+    invoke-direct {v5, v15, v7}, Lbw6;-><init>(II)V
+
+    .line 993
+    .line 994
+    .line 995
+    iget-object v7, v4, Lp77;->b:Ll77;
+
+    .line 996
+    .line 997
+    invoke-virtual {v7}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 998
+    .line 999
+    .line 1000
+    new-instance v21, Llb9;
+
+    .line 1001
+    .line 1002
+    iget-object v7, v4, Lp77;->b:Ll77;
+
+    .line 1003
+    .line 1004
+    invoke-virtual {v7}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 1005
+    .line 1006
+    .line 1007
+    iget-object v7, v4, Lp77;->b:Ll77;
+
+    .line 1008
+    .line 1009
+    invoke-virtual {v7}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 1010
+    .line 1011
+    .line 1012
+    sget-object v25, Le93;->a:Ld93;
+
+    .line 1013
+    .line 1014
+    const/high16 v27, 0x100000
+
+    .line 1015
+    .line 1016
+    const/16 v28, 0x1
+
+    .line 1017
+    .line 1018
+    const/16 v29, 0x0
+
+    .line 1019
+    .line 1020
+    move-object/from16 v23, v0
+
+    .line 1021
+    .line 1022
+    move-object/from16 v22, v4
+
+    .line 1023
+    .line 1024
+    move-object/from16 v26, v5
+
+    .line 1025
+    .line 1026
+    move-object/from16 v24, v6
+
+    .line 1027
+    .line 1028
+    invoke-direct/range {v21 .. v29}, Llb9;-><init>(Lp77;Lcj2;Lnv8;Le93;Lbw6;IZLandroidx/media3/common/b;)V
+
+    .line 1029
+    .line 1030
+    .line 1031
+    move-object/from16 v11, v23
+
+    .line 1032
+    .line 1033
+    move-object/from16 v4, v21
+
+    .line 1034
+    .line 1035
+    :goto_12
+    iget-object v0, v10, Ld77;->j:Ljava/lang/String;
+
+    .line 1036
+    .line 1037
+    sget-object v5, Ljava/util/Locale;->ENGLISH:Ljava/util/Locale;
+
+    .line 1038
+    .line 1039
+    invoke-virtual {v5}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 1040
+    .line 1041
+    .line 1042
+    invoke-virtual {v0, v5}, Ljava/lang/String;->toLowerCase(Ljava/util/Locale;)Ljava/lang/String;
+
+    .line 1043
+    .line 1044
+    .line 1045
+    move-result-object v0
+
+    .line 1046
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 1047
+    .line 1048
+    .line 1049
+    const-string v5, "video/mp2t"
+
+    .line 1050
+    .line 1051
+    invoke-virtual {v0, v5}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    .line 1052
+    .line 1053
+    .line 1054
+    move-result v0
+
+    .line 1055
+    if-eqz v0, :cond_19
+
+    .line 1056
+    .line 1057
+    move-object v0, v3
+
+    .line 1058
+    check-cast v0, Lxm3;
+
+    .line 1059
+    .line 1060
+    const/4 v15, 0x2
+
+    .line 1061
+    invoke-virtual {v0, v15}, Lxm3;->U1(I)V
+
+    .line 1062
+    .line 1063
+    .line 1064
+    const/4 v15, 0x0
+
+    .line 1065
+    goto :goto_13
+
+    .line 1066
+    :cond_19
+    move-object v0, v3
+
+    .line 1067
+    check-cast v0, Lxm3;
+
+    .line 1068
+    .line 1069
+    const/4 v15, 0x0
+
+    .line 1070
+    invoke-virtual {v0, v15}, Lxm3;->U1(I)V
+
+    .line 1071
+    .line 1072
+    .line 1073
+    :goto_13
+    invoke-static {v1}, Ltt9;->H(Landroid/content/Context;)Landroid/content/SharedPreferences;
+
+    .line 1074
+    .line 1075
+    .line 1076
+    move-result-object v0
+
+    .line 1077
+    const-string v5, "cast.dontusesubtitles"
+
+    .line 1078
+    .line 1079
+    invoke-interface {v0, v5, v15}, Landroid/content/SharedPreferences;->getBoolean(Ljava/lang/String;Z)Z
+
+    .line 1080
+    .line 1081
+    .line 1082
+    move-result v0
+
+    .line 1083
+    if-nez v0, :cond_1c
+
+    .line 1084
+    .line 1085
+    iget-object v0, v10, Ld77;->i:La9b;
+
+    .line 1086
+    .line 1087
+    if-eqz v0, :cond_1c
+
+    .line 1088
+    .line 1089
+    iget-object v0, v0, La9b;->a:Ljava/lang/String;
+
+    .line 1090
+    .line 1091
+    if-eqz v0, :cond_1c
+
+    .line 1092
+    .line 1093
+    invoke-static {}, Lo8d;->E()Ljava/lang/String;
+
+    .line 1094
+    .line 1095
+    .line 1096
+    sget-object v5, Lj13;->a:Lsr2;
+
+    .line 1097
+    .line 1098
+    sget-object v5, Laq2;->c:Laq2;
+
+    .line 1099
+    .line 1100
+    new-instance v6, Lwi5;
+
+    .line 1101
+    .line 1102
+    const/4 v7, 0x0
+
+    .line 1103
+    invoke-direct {v6, v0, v10, v7, v15}, Lwi5;-><init>(Ljava/lang/String;Lyp3;Ll22;I)V
+
+    .line 1104
+    .line 1105
+    .line 1106
+    iput-object v7, v9, Lvi5;->r:Landroid/content/Context;
+
+    .line 1107
+    .line 1108
+    iput-object v7, v9, Lvi5;->s:Lvh5;
+
+    .line 1109
+    .line 1110
+    iput-object v7, v9, Lvi5;->t:Lyp3;
+
+    .line 1111
+    .line 1112
+    iput-object v3, v9, Lvi5;->u:Landroidx/media3/exoplayer/ExoPlayer;
+
+    .line 1113
+    .line 1114
+    iput-object v7, v9, Lvi5;->v:Ljava/lang/String;
+
+    .line 1115
+    .line 1116
+    iput-object v11, v9, Lvi5;->w:Ljava/lang/Object;
+
+    .line 1117
+    .line 1118
+    iput-object v7, v9, Lvi5;->x:Landroid/net/Uri;
+
+    .line 1119
+    .line 1120
+    iput-object v4, v9, Lvi5;->y:Ljava/lang/Object;
+
+    .line 1121
+    .line 1122
+    iput-object v7, v9, Lvi5;->z:Ljava/lang/Exception;
+
+    .line 1123
+    .line 1124
+    iput-object v0, v9, Lvi5;->A:Ljava/lang/String;
+
+    .line 1125
+    .line 1126
+    iput-wide v13, v9, Lvi5;->B:J
+
+    .line 1127
+    .line 1128
+    iput v2, v9, Lvi5;->C:I
+
+    .line 1129
+    .line 1130
+    const/4 v10, 0x5
+
+    .line 1131
+    iput v10, v9, Lvi5;->I:I
+
+    .line 1132
+    .line 1133
+    invoke-static {v5, v6, v9}, Lll4;->j0(Le42;Lx84;Ll22;)Ljava/lang/Object;
+
+    .line 1134
+    .line 1135
+    .line 1136
+    move-result-object v2
+
+    .line 1137
+    if-ne v2, v12, :cond_1a
+
+    .line 1138
+    .line 1139
+    :goto_14
+    return-object v12
+
+    .line 1140
+    :cond_1a
+    move-wide v6, v13
+
+    .line 1141
+    :goto_15
+    check-cast v2, Ljava/lang/String;
+
+    .line 1142
+    .line 1143
+    invoke-static {}, Lo8d;->E()Ljava/lang/String;
+
+    .line 1144
+    .line 1145
+    .line 1146
+    if-eqz v2, :cond_1b
+
+    .line 1147
+    .line 1148
+    invoke-static {v2}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+
+    .line 1149
+    .line 1150
+    .line 1151
+    move-result-object v0
+
+    .line 1152
+    new-instance v2, Lvzb;
+
+    .line 1153
+    .line 1154
+    invoke-direct {v2}, Ljava/lang/Object;-><init>()V
+
+    .line 1155
+    .line 1156
+    .line 1157
+    iput-object v0, v2, Lvzb;->b:Ljava/lang/Object;
+
+    .line 1158
+    .line 1159
+    const-string v0, "n/a"
+
+    .line 1160
+    .line 1161
+    iput-object v0, v2, Lvzb;->e:Ljava/lang/Object;
+
+    .line 1162
+    .line 1163
+    iput-object v0, v2, Lvzb;->d:Ljava/lang/Object;
+
+    .line 1164
+    .line 1165
+    const-string v0, "text/vtt"
+
+    .line 1166
+    .line 1167
+    invoke-static {v0}, Lkg7;->p(Ljava/lang/String;)Ljava/lang/String;
+
+    .line 1168
+    .line 1169
+    .line 1170
+    move-result-object v0
+
+    .line 1171
+    iput-object v0, v2, Lvzb;->c:Ljava/lang/Object;
+
+    .line 1172
+    .line 1173
+    const/4 v13, 0x2
+
+    .line 1174
+    iput v13, v2, Lvzb;->a:I
+
+    .line 1175
+    .line 1176
+    invoke-virtual {v11}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 1177
+    .line 1178
+    .line 1179
+    new-instance v0, Lbw6;
+
+    .line 1180
+    .line 1181
+    const/4 v5, -0x1
+
+    .line 1182
+    const/4 v8, 0x4
+
+    .line 1183
+    invoke-direct {v0, v5, v8}, Lbw6;-><init>(II)V
+
+    .line 1184
+    .line 1185
+    .line 1186
+    new-instance v5, Lo77;
+
+    .line 1187
+    .line 1188
+    invoke-direct {v5, v2}, Lo77;-><init>(Lvzb;)V
+
+    .line 1189
+    .line 1190
+    .line 1191
+    new-instance v2, Lmqa;
+
+    .line 1192
+    .line 1193
+    invoke-direct {v2, v5, v11, v0}, Lmqa;-><init>(Lo77;Lcj2;Lbw6;)V
+
+    .line 1194
+    .line 1195
+    .line 1196
+    new-instance v0, Lke7;
+
+    .line 1197
+    .line 1198
+    new-array v5, v13, [Lyb7;
+
+    .line 1199
+    .line 1200
+    const/16 v20, 0x0
+
+    .line 1201
+    .line 1202
+    aput-object v4, v5, v20
+
+    .line 1203
+    .line 1204
+    const/16 v19, 0x1
+
+    .line 1205
+    .line 1206
+    aput-object v2, v5, v19
+
+    .line 1207
+    .line 1208
+    invoke-direct {v0, v5}, Lke7;-><init>([Lyb7;)V
+
+    .line 1209
+    .line 1210
+    .line 1211
+    move-object v4, v0
+
+    .line 1212
+    goto :goto_16
+
+    .line 1213
+    :cond_1b
+    new-instance v2, Ljava/lang/Exception;
+
+    .line 1214
+    .line 1215
+    const-string v5, "Null servlet path for file after: "
+
+    .line 1216
+    .line 1217
+    invoke-static {v5, v0}, Lv71;->l(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    .line 1218
+    .line 1219
+    .line 1220
+    move-result-object v5
+
+    .line 1221
+    invoke-direct {v2, v5}, Ljava/lang/Exception;-><init>(Ljava/lang/String;)V
+
+    .line 1222
+    .line 1223
+    .line 1224
+    invoke-static {v2}, Ln00;->m(Ljava/lang/Throwable;)V
+
+    .line 1225
+    .line 1226
+    .line 1227
+    invoke-static {}, Lo8d;->E()Ljava/lang/String;
+
+    .line 1228
+    .line 1229
+    .line 1230
+    move-result-object v2
+
+    .line 1231
+    new-instance v5, Ljava/lang/StringBuilder;
+
+    .line 1232
+    .line 1233
+    const-string v8, "For some reason the subtitle path is null for "
+
+    .line 1234
+    .line 1235
+    invoke-direct {v5, v8}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 1236
+    .line 1237
+    .line 1238
+    invoke-virtual {v5, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 1239
+    .line 1240
+    .line 1241
+    invoke-virtual {v5}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 1242
+    .line 1243
+    .line 1244
+    move-result-object v0
+
+    .line 1245
+    invoke-static {v2, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 1246
+    .line 1247
+    .line 1248
+    move-result v0
+
+    .line 1249
+    invoke-static {v0}, Lug8;->j(I)Ljava/lang/Integer;
+
+    .line 1250
+    .line 1251
+    .line 1252
+    :goto_16
+    move-wide v13, v6
+
+    .line 1253
+    :cond_1c
+    move-object v0, v3
+
+    .line 1254
+    check-cast v0, Lxm3;
+
+    .line 1255
+    .line 1256
+    invoke-virtual {v0}, Lxm3;->g2()V
+
+    .line 1257
+    .line 1258
+    .line 1259
+    invoke-static {v4}, Ljava/util/Collections;->singletonList(Ljava/lang/Object;)Ljava/util/List;
+
+    .line 1260
+    .line 1261
+    .line 1262
+    move-result-object v2
+
+    .line 1263
+    invoke-virtual {v0}, Lxm3;->g2()V
+
+    .line 1264
+    .line 1265
+    .line 1266
+    const/4 v4, 0x0
+
+    .line 1267
+    const/4 v5, 0x0
+
+    .line 1268
+    move-object/from16 p1, v0
+
+    .line 1269
+    .line 1270
+    move-object/from16 p2, v2
+
+    .line 1271
+    .line 1272
+    move/from16 p3, v4
+
+    .line 1273
+    .line 1274
+    move/from16 p6, v5
+
+    .line 1275
+    .line 1276
+    move-wide/from16 p4, v13
+
+    .line 1277
+    .line 1278
+    invoke-virtual/range {p1 .. p6}, Lxm3;->Q1(Ljava/util/List;ZJI)V
+
+    .line 1279
+    .line 1280
+    .line 1281
+    check-cast v3, Lxm3;
+
+    .line 1282
+    .line 1283
+    invoke-virtual {v3}, Lxm3;->U0()V
+
+    .line 1284
+    .line 1285
+    .line 1286
+    const/4 v11, 0x0
+
+    .line 1287
+    iput-boolean v11, v1, Lcom/instantbits/cast/webvideo/player/InternalPlayerService;->i:Z
+
+    .line 1288
+    .line 1289
+    goto :goto_17
+
+    .line 1290
+    :cond_1d
+    move-object/from16 v16, v9
+
+    .line 1291
+    .line 1292
+    move-object v0, v10
+
+    .line 1293
+    const/4 v10, 0x5
+
+    .line 1294
+    const/16 v17, 0x4
+
+    .line 1295
+    .line 1296
+    const/16 v19, 0x1
+
+    .line 1297
+    .line 1298
+    move-object v9, v3
+
+    .line 1299
+    move-object v10, v0
+
+    .line 1300
+    move-object/from16 v9, v16
+
+    .line 1301
+    .line 1302
+    const/16 v18, 0x0
+
+    .line 1303
+    .line 1304
+    move-object/from16 v0, p1
+
+    .line 1305
+    .line 1306
+    goto/16 :goto_8
+
+    .line 1307
+    .line 1308
+    :cond_1e
+    const-string v0, "Collection contains no element matching the predicate."
+
+    .line 1309
+    .line 1310
+    invoke-static {v0}, Ltia;->i(Ljava/lang/String;)V
+
+    .line 1311
+    .line 1312
+    .line 1313
+    const/16 v18, 0x0
+
+    .line 1314
+    .line 1315
+    return-object v18
+
+    .line 1316
+    :cond_1f
+    new-instance v0, Ljava/lang/Exception;
+
+    .line 1317
+    .line 1318
+    const-string v1, "Local file issue "
+
+    .line 1319
+    .line 1320
+    invoke-static {v1, v2}, Lv71;->l(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    .line 1321
+    .line 1322
+    .line 1323
+    move-result-object v1
+
+    .line 1324
+    invoke-direct {v0, v1}, Ljava/lang/Exception;-><init>(Ljava/lang/String;)V
+
+    .line 1325
+    .line 1326
+    .line 1327
+    throw v0
+
+    .line 1328
+    :cond_20
+    :goto_17
+    sget-object v0, Lrac;->a:Lrac;
+
+    .line 1329
+    .line 1330
+    return-object v0
+.end method

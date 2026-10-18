@@ -1,5 +1,7 @@
 # Video discovery, validation and delivery
 
+> **Current media status (2026-10-17):** use the [current gap register](MEDIA_GAPS.md) and [comprehensive static audit](MEDIA_STATIC_AUDIT.md). This document preserves chronological findings; older “remaining/open” lists and historical test commands below are not the current backlog or authorization to run tests. No behavioral tests were run for the new audit.
+
 ## Confirmed pipeline
 
 **Page/player inspection → candidate messages → native parsing/validation → delivery decisions.** Discovery is not a download, and discovery of a blob URL does not provide a remotely playable URL.

@@ -1,0 +1,1114 @@
+{
+  "scope": "All packaged *.js; literal search, not a semantic absence proof",
+  "terms": [
+    "createObjectURL",
+    "SourceBuffer",
+    "XMLHttpRequest",
+    "__ib_x",
+    "__ib_f",
+    "__ib_b",
+    "__ib_w",
+    "__ib_c",
+    "__ib_s",
+    "MediaSource",
+    "m3u8Segments",
+    "hhtqManifest"
+  ],
+  "files": [
+    {
+      "file": "extracted/android/assets/aps-mraid.js",
+      "sha256": "cb7d05b96bd63ed2156cad6a1696d580eaa9eb21854b70be9b0d9818591daf87",
+      "matches": {
+        "createObjectURL": [],
+        "SourceBuffer": [],
+        "XMLHttpRequest": [],
+        "__ib_x": [],
+        "__ib_f": [],
+        "__ib_b": [],
+        "__ib_w": [],
+        "__ib_c": [],
+        "__ib_s": [],
+        "MediaSource": [],
+        "m3u8Segments": [],
+        "hhtqManifest": []
+      }
+    },
+    {
+      "file": "extracted/android/assets/bgutils.bundle.js",
+      "sha256": "33f1c48e29449cc4691718d6e1fcbe84f633471f17cc282e9820a8a838bc024a",
+      "matches": {
+        "createObjectURL": [],
+        "SourceBuffer": [],
+        "XMLHttpRequest": [],
+        "__ib_x": [],
+        "__ib_f": [],
+        "__ib_b": [],
+        "__ib_w": [],
+        "__ib_c": [],
+        "__ib_s": [],
+        "MediaSource": [],
+        "m3u8Segments": [],
+        "hhtqManifest": []
+      }
+    },
+    {
+      "file": "extracted/android/assets/dtb-m.js",
+      "sha256": "59298603e1f5db562191637fcb72c74aae70cbd94505ddf7e36a2ba6b99da3bf",
+      "matches": {
+        "createObjectURL": [],
+        "SourceBuffer": [],
+        "XMLHttpRequest": [],
+        "__ib_x": [],
+        "__ib_f": [],
+        "__ib_b": [],
+        "__ib_w": [],
+        "__ib_c": [],
+        "__ib_s": [],
+        "MediaSource": [],
+        "m3u8Segments": [],
+        "hhtqManifest": []
+      }
+    },
+    {
+      "file": "extracted/android/assets/ibfunctions.js",
+      "sha256": "75ac2bf2fe04b25b4b270cd52f0c8d6d9fa5f25fefeaab90e5a2544a0603a3ac",
+      "matches": {
+        "createObjectURL": [],
+        "SourceBuffer": [],
+        "XMLHttpRequest": [],
+        "__ib_x": [],
+        "__ib_f": [],
+        "__ib_b": [],
+        "__ib_w": [],
+        "__ib_c": [],
+        "__ib_s": [],
+        "MediaSource": [],
+        "m3u8Segments": [
+          304
+        ],
+        "hhtqManifest": []
+      }
+    },
+    {
+      "file": "extracted/android/assets/json2.js",
+      "sha256": "925947d3d711c4441a9db20f51215fbf5c119d2a3b51cadb2c9031907d8014b5",
+      "matches": {
+        "createObjectURL": [],
+        "SourceBuffer": [],
+        "XMLHttpRequest": [],
+        "__ib_x": [],
+        "__ib_f": [],
+        "__ib_b": [],
+        "__ib_w": [],
+        "__ib_c": [],
+        "__ib_s": [],
+        "MediaSource": [],
+        "m3u8Segments": [],
+        "hhtqManifest": []
+      }
+    },
+    {
+      "file": "extracted/android/assets/omsdk-v1.js",
+      "sha256": "888adbb31d26da54902b9deb11239d11a40071394512db7225752cbf46ad9665",
+      "matches": {
+        "createObjectURL": [],
+        "SourceBuffer": [],
+        "XMLHttpRequest": [],
+        "__ib_x": [],
+        "__ib_f": [],
+        "__ib_b": [],
+        "__ib_w": [],
+        "__ib_c": [],
+        "__ib_s": [],
+        "MediaSource": [],
+        "m3u8Segments": [],
+        "hhtqManifest": []
+      }
+    },
+    {
+      "file": "extracted/android/assets/potoken_mint.js",
+      "sha256": "7ac63ffc74f6b22b1ed315e117e957ea2ce8500988ee4ff73c1807fd13946341",
+      "matches": {
+        "createObjectURL": [],
+        "SourceBuffer": [],
+        "XMLHttpRequest": [],
+        "__ib_x": [],
+        "__ib_f": [],
+        "__ib_b": [],
+        "__ib_w": [],
+        "__ib_c": [],
+        "__ib_s": [],
+        "MediaSource": [],
+        "m3u8Segments": [],
+        "hhtqManifest": []
+      }
+    },
+    {
+      "file": "extracted/android/assets/specialsites/hhtq.js",
+      "sha256": "8133641e61379da2516ecd41a9a1e3a977acd9bfd45376082a1b194f1be6a4d6",
+      "matches": {
+        "createObjectURL": [],
+        "SourceBuffer": [],
+        "XMLHttpRequest": [],
+        "__ib_x": [],
+        "__ib_f": [],
+        "__ib_b": [],
+        "__ib_w": [],
+        "__ib_c": [],
+        "__ib_s": [],
+        "MediaSource": [],
+        "m3u8Segments": [],
+        "hhtqManifest": [
+          138
+        ]
+      }
+    },
+    {
+      "file": "extracted/android/assets/web-receiver/app.min.js",
+      "sha256": "f03cf7274f9e430c2083055e5ce0cc07fc9fb24eaf5277f793ff7d116dc9215d",
+      "matches": {
+        "createObjectURL": [],
+        "SourceBuffer": [],
+        "XMLHttpRequest": [
+          1
+        ],
+        "__ib_x": [],
+        "__ib_f": [],
+        "__ib_b": [],
+        "__ib_w": [],
+        "__ib_c": [],
+        "__ib_s": [],
+        "MediaSource": [],
+        "m3u8Segments": [],
+        "hhtqManifest": []
+      }
+    },
+    {
+      "file": "extracted/android/assets/web-receiver/classList.min.js",
+      "sha256": "89d9b7a7b8e5d17c32994a4871c83a588f7ab509a80d1ff90d612c9cf9f1614e",
+      "matches": {
+        "createObjectURL": [],
+        "SourceBuffer": [],
+        "XMLHttpRequest": [],
+        "__ib_x": [],
+        "__ib_f": [],
+        "__ib_b": [],
+        "__ib_w": [],
+        "__ib_c": [],
+        "__ib_s": [],
+        "MediaSource": [],
+        "m3u8Segments": [],
+        "hhtqManifest": []
+      }
+    },
+    {
+      "file": "extracted/android/assets/web-receiver/domready.min.js",
+      "sha256": "b134b10ae2592f94c82e46be7e0a2aa9853eabc680df1551e7f3ac6c5ce78277",
+      "matches": {
+        "createObjectURL": [],
+        "SourceBuffer": [],
+        "XMLHttpRequest": [],
+        "__ib_x": [],
+        "__ib_f": [],
+        "__ib_b": [],
+        "__ib_w": [],
+        "__ib_c": [],
+        "__ib_s": [],
+        "MediaSource": [],
+        "m3u8Segments": [],
+        "hhtqManifest": []
+      }
+    },
+    {
+      "file": "extracted/android/assets/web-receiver/js-cookie.min.js",
+      "sha256": "b3b6c142935afe29b4a0088d0641e5865361272c9bb3401192d5afae0d364397",
+      "matches": {
+        "createObjectURL": [],
+        "SourceBuffer": [],
+        "XMLHttpRequest": [],
+        "__ib_x": [],
+        "__ib_f": [],
+        "__ib_b": [],
+        "__ib_w": [],
+        "__ib_c": [],
+        "__ib_s": [],
+        "MediaSource": [],
+        "m3u8Segments": [],
+        "hhtqManifest": []
+      }
+    },
+    {
+      "file": "extracted/android/assets/web-receiver/require.js",
+      "sha256": "4948c3fe4b57cd92118ec7b89deb99ff0eb2586a02c5f454df21c1ecfc144c81",
+      "matches": {
+        "createObjectURL": [],
+        "SourceBuffer": [],
+        "XMLHttpRequest": [],
+        "__ib_x": [],
+        "__ib_f": [],
+        "__ib_b": [],
+        "__ib_w": [],
+        "__ib_c": [],
+        "__ib_s": [],
+        "MediaSource": [],
+        "m3u8Segments": [],
+        "hhtqManifest": []
+      }
+    },
+    {
+      "file": "extracted/android/assets/web-receiver/tomodo-korz.js",
+      "sha256": "bbef76dc03bff4d34ee27fbb1ac5dab56e643a427532258f66939c5ce8f422a4",
+      "matches": {
+        "createObjectURL": [],
+        "SourceBuffer": [],
+        "XMLHttpRequest": [
+          29,
+          33,
+          121,
+          124,
+          133,
+          140,
+          194,
+          195,
+          205,
+          206,
+          211
+        ],
+        "__ib_x": [],
+        "__ib_f": [],
+        "__ib_b": [],
+        "__ib_w": [],
+        "__ib_c": [],
+        "__ib_s": [],
+        "MediaSource": [],
+        "m3u8Segments": [],
+        "hhtqManifest": []
+      }
+    },
+    {
+      "file": "extracted/android/assets/web-receiver/typedarray-polyfill.js",
+      "sha256": "856293c7b444aa6e83fe9b8e080ae5f8c5607f08135a4a8bd026ddb69260a722",
+      "matches": {
+        "createObjectURL": [],
+        "SourceBuffer": [],
+        "XMLHttpRequest": [],
+        "__ib_x": [],
+        "__ib_f": [],
+        "__ib_b": [],
+        "__ib_w": [],
+        "__ib_c": [],
+        "__ib_s": [],
+        "MediaSource": [],
+        "m3u8Segments": [],
+        "hhtqManifest": []
+      }
+    },
+    {
+      "file": "extracted/android/assets/web-receiver/video.4.12.15.min.js",
+      "sha256": "632f77b845978f869bf4753157aa29d7ffb6d16f989c38e6068b1f4bfdb53cdd",
+      "matches": {
+        "createObjectURL": [],
+        "SourceBuffer": [],
+        "XMLHttpRequest": [
+          26
+        ],
+        "__ib_x": [],
+        "__ib_f": [],
+        "__ib_b": [],
+        "__ib_w": [],
+        "__ib_c": [],
+        "__ib_s": [],
+        "MediaSource": [],
+        "m3u8Segments": [],
+        "hhtqManifest": []
+      }
+    },
+    {
+      "file": "extracted/android/assets/web-receiver/video.5.20.4.min.js",
+      "sha256": "cb2014196f7444095cf7518430c8afdb9b6dbb83a065151d4473bddb63066237",
+      "matches": {
+        "createObjectURL": [],
+        "SourceBuffer": [],
+        "XMLHttpRequest": [
+          19
+        ],
+        "__ib_x": [],
+        "__ib_f": [],
+        "__ib_b": [],
+        "__ib_w": [],
+        "__ib_c": [],
+        "__ib_s": [],
+        "MediaSource": [],
+        "m3u8Segments": [],
+        "hhtqManifest": []
+      }
+    },
+    {
+      "file": "extracted/android/assets/web-receiver/video.6.13.0.min.js",
+      "sha256": "ad21ec812f9512ca791fb66e05b29dfe67b8c889b57e5342c916f4b9ba79f586",
+      "matches": {
+        "createObjectURL": [],
+        "SourceBuffer": [],
+        "XMLHttpRequest": [
+          1,
+          2
+        ],
+        "__ib_x": [],
+        "__ib_f": [],
+        "__ib_b": [],
+        "__ib_w": [],
+        "__ib_c": [],
+        "__ib_s": [],
+        "MediaSource": [],
+        "m3u8Segments": [],
+        "hhtqManifest": []
+      }
+    },
+    {
+      "file": "extracted/android/assets/web-receiver/video.7.5.0.min.js",
+      "sha256": "329bcb0f0f67ea056dda53422f5dd747feb23cbfe6b9d0e88c854162f3cce90b",
+      "matches": {
+        "createObjectURL": [
+          13
+        ],
+        "SourceBuffer": [
+          13
+        ],
+        "XMLHttpRequest": [
+          12
+        ],
+        "__ib_x": [],
+        "__ib_f": [],
+        "__ib_b": [],
+        "__ib_w": [],
+        "__ib_c": [],
+        "__ib_s": [],
+        "MediaSource": [
+          13
+        ],
+        "m3u8Segments": [],
+        "hhtqManifest": []
+      }
+    },
+    {
+      "file": "extracted/android/assets/web-receiver/videojs-contrib-hls.5.15.0.min.js",
+      "sha256": "22fee1d86825cc66a155c1e2747cdd801e7bd4aff6b9584e2c280e343e5fb38f",
+      "matches": {
+        "createObjectURL": [
+          7,
+          8
+        ],
+        "SourceBuffer": [
+          1,
+          3,
+          6,
+          7
+        ],
+        "XMLHttpRequest": [],
+        "__ib_x": [],
+        "__ib_f": [],
+        "__ib_b": [],
+        "__ib_w": [],
+        "__ib_c": [],
+        "__ib_s": [],
+        "MediaSource": [
+          1,
+          2,
+          7,
+          8
+        ],
+        "m3u8Segments": [],
+        "hhtqManifest": []
+      }
+    },
+    {
+      "file": "extracted/android/assets/web-receiver/videojs-http-streaming.1.8.0.min.js",
+      "sha256": "12d8c09cf2fcf68a2ddf372d1c480b27a42bb4c3b73365525d1101d8b7676019",
+      "matches": {
+        "createObjectURL": [
+          9,
+          11
+        ],
+        "SourceBuffer": [
+          9,
+          11
+        ],
+        "XMLHttpRequest": [],
+        "__ib_x": [],
+        "__ib_f": [],
+        "__ib_b": [],
+        "__ib_w": [],
+        "__ib_c": [],
+        "__ib_s": [],
+        "MediaSource": [
+          9,
+          11
+        ],
+        "m3u8Segments": [],
+        "hhtqManifest": []
+      }
+    },
+    {
+      "file": "extracted/android/assets/web-receiver/videojs-media-sources.1.0.0.js",
+      "sha256": "6254ddbde12bc74bb3a0cf7920d7f0c72f6e58e32004c334ac9bbbdc98f8ff88",
+      "matches": {
+        "createObjectURL": [
+          253,
+          285
+        ],
+        "SourceBuffer": [
+          86,
+          92,
+          95,
+          125,
+          204,
+          209,
+          217,
+          249
+        ],
+        "XMLHttpRequest": [],
+        "__ib_x": [],
+        "__ib_f": [],
+        "__ib_b": [],
+        "__ib_w": [],
+        "__ib_c": [],
+        "__ib_s": [],
+        "MediaSource": [
+          3,
+          39,
+          41,
+          63,
+          82,
+          83,
+          86,
+          103,
+          111,
+          137,
+          153,
+          155,
+          156,
+          282
+        ],
+        "m3u8Segments": [],
+        "hhtqManifest": []
+      }
+    },
+    {
+      "file": "extracted/android/assets/web-receiver/videojs.hls.0.17.5.min.js",
+      "sha256": "e8a6fa0eb5dc810fee346f75eb2eee478504b87e00d8829fdaad9d63240e4644",
+      "matches": {
+        "createObjectURL": [
+          3
+        ],
+        "SourceBuffer": [
+          3
+        ],
+        "XMLHttpRequest": [
+          4
+        ],
+        "__ib_x": [],
+        "__ib_f": [],
+        "__ib_b": [],
+        "__ib_w": [],
+        "__ib_c": [],
+        "__ib_s": [],
+        "MediaSource": [
+          3
+        ],
+        "m3u8Segments": [],
+        "hhtqManifest": []
+      }
+    },
+    {
+      "file": "extracted/android/assets/wss.js",
+      "sha256": "2112df6035588cc1f89e6efdaa81178f47f9d50b82c25ecd27129a13b0a6ce5e",
+      "matches": {
+        "createObjectURL": [],
+        "SourceBuffer": [],
+        "XMLHttpRequest": [],
+        "__ib_x": [],
+        "__ib_f": [],
+        "__ib_b": [],
+        "__ib_w": [],
+        "__ib_c": [],
+        "__ib_s": [],
+        "MediaSource": [],
+        "m3u8Segments": [],
+        "hhtqManifest": []
+      }
+    },
+    {
+      "file": "extracted/ios/Payload/WebVideoCaster.app/ApiSources_ApiSources.bundle/bgutils.bundle.js",
+      "sha256": "33f1c48e29449cc4691718d6e1fcbe84f633471f17cc282e9820a8a838bc024a",
+      "matches": {
+        "createObjectURL": [],
+        "SourceBuffer": [],
+        "XMLHttpRequest": [],
+        "__ib_x": [],
+        "__ib_f": [],
+        "__ib_b": [],
+        "__ib_w": [],
+        "__ib_c": [],
+        "__ib_s": [],
+        "MediaSource": [],
+        "m3u8Segments": [],
+        "hhtqManifest": []
+      }
+    },
+    {
+      "file": "extracted/ios/Payload/WebVideoCaster.app/ApiSources_ApiSources.bundle/potoken_mint.js",
+      "sha256": "5d7b1760c2af099d0f7160c839ad1d82734bc5ede3a1832aac8e85386b2f8935",
+      "matches": {
+        "createObjectURL": [],
+        "SourceBuffer": [],
+        "XMLHttpRequest": [],
+        "__ib_x": [],
+        "__ib_f": [],
+        "__ib_b": [],
+        "__ib_w": [],
+        "__ib_c": [],
+        "__ib_s": [],
+        "MediaSource": [],
+        "m3u8Segments": [],
+        "hhtqManifest": []
+      }
+    },
+    {
+      "file": "extracted/ios/Payload/WebVideoCaster.app/Frameworks/AppLovinSDK.framework/AppLovinSDKResources.bundle/omsdk-v1.6.2.js",
+      "sha256": "0f8ece9415167386b7d7e219c9af9face467ba2e7fd9af4ce79256e2b44d8b1e",
+      "matches": {
+        "createObjectURL": [],
+        "SourceBuffer": [],
+        "XMLHttpRequest": [],
+        "__ib_x": [],
+        "__ib_f": [],
+        "__ib_b": [],
+        "__ib_w": [],
+        "__ib_c": [],
+        "__ib_s": [],
+        "MediaSource": [],
+        "m3u8Segments": [],
+        "hhtqManifest": []
+      }
+    },
+    {
+      "file": "extracted/ios/Payload/WebVideoCaster.app/Frameworks/MobileFuseSDK.framework/httpTracking.js",
+      "sha256": "1935add1750da7e538fff92abe3b3b39337481471cb5c97c8f45a8c616927337",
+      "matches": {
+        "createObjectURL": [],
+        "SourceBuffer": [],
+        "XMLHttpRequest": [
+          48,
+          49,
+          50,
+          51
+        ],
+        "__ib_x": [],
+        "__ib_f": [],
+        "__ib_b": [],
+        "__ib_w": [],
+        "__ib_c": [],
+        "__ib_s": [],
+        "MediaSource": [],
+        "m3u8Segments": [],
+        "hhtqManifest": []
+      }
+    },
+    {
+      "file": "extracted/ios/Payload/WebVideoCaster.app/Frameworks/MobileFuseSDK.framework/mraid.js",
+      "sha256": "af26886a879707f79466ec378e8e2e2f900d8c50a5566b4336a0cbd08a1599c6",
+      "matches": {
+        "createObjectURL": [],
+        "SourceBuffer": [],
+        "XMLHttpRequest": [
+          102
+        ],
+        "__ib_x": [],
+        "__ib_f": [],
+        "__ib_b": [],
+        "__ib_w": [],
+        "__ib_c": [],
+        "__ib_s": [],
+        "MediaSource": [],
+        "m3u8Segments": [],
+        "hhtqManifest": []
+      }
+    },
+    {
+      "file": "extracted/ios/Payload/WebVideoCaster.app/Frameworks/MobileFuseSDK.framework/mraid_close_controls.js",
+      "sha256": "1f7130d4c8c9cfa3ace06e0a2397c3c9db2459407927da63dabc365b907ee920",
+      "matches": {
+        "createObjectURL": [],
+        "SourceBuffer": [],
+        "XMLHttpRequest": [],
+        "__ib_x": [],
+        "__ib_f": [],
+        "__ib_b": [],
+        "__ib_w": [],
+        "__ib_c": [],
+        "__ib_s": [],
+        "MediaSource": [],
+        "m3u8Segments": [],
+        "hhtqManifest": []
+      }
+    },
+    {
+      "file": "extracted/ios/Payload/WebVideoCaster.app/Frameworks/MobileFuseSDK.framework/omsdk-v1.js",
+      "sha256": "845044b36a76035e2643e600aa90f6b12aebaa1282e59c530fbbc3f52291bc45",
+      "matches": {
+        "createObjectURL": [],
+        "SourceBuffer": [],
+        "XMLHttpRequest": [],
+        "__ib_x": [],
+        "__ib_f": [],
+        "__ib_b": [],
+        "__ib_w": [],
+        "__ib_c": [],
+        "__ib_s": [],
+        "MediaSource": [],
+        "m3u8Segments": [],
+        "hhtqManifest": []
+      }
+    },
+    {
+      "file": "extracted/ios/Payload/WebVideoCaster.app/Frameworks/MobileFuseSDK.framework/vast.js",
+      "sha256": "5268add154bbc89ed20f947db8df561640a15d953c2f21192e8d06f993468f49",
+      "matches": {
+        "createObjectURL": [],
+        "SourceBuffer": [],
+        "XMLHttpRequest": [],
+        "__ib_x": [],
+        "__ib_f": [],
+        "__ib_b": [],
+        "__ib_w": [],
+        "__ib_c": [],
+        "__ib_s": [],
+        "MediaSource": [],
+        "m3u8Segments": [],
+        "hhtqManifest": []
+      }
+    },
+    {
+      "file": "extracted/ios/Payload/WebVideoCaster.app/Frameworks/MobileFuseSDK.framework/vast.src.js",
+      "sha256": "25b9ee24a461fc22ab9dd70ecf873858da720896d0c9f49d22526e817f77122b",
+      "matches": {
+        "createObjectURL": [],
+        "SourceBuffer": [],
+        "XMLHttpRequest": [],
+        "__ib_x": [],
+        "__ib_f": [],
+        "__ib_b": [],
+        "__ib_w": [],
+        "__ib_c": [],
+        "__ib_s": [],
+        "MediaSource": [],
+        "m3u8Segments": [],
+        "hhtqManifest": []
+      }
+    },
+    {
+      "file": "extracted/ios/Payload/WebVideoCaster.app/SearchWebView.js",
+      "sha256": "8f7a83a234c5ce1d168e89e1a0b0c84105be72a23b0d6a7ff6106a5adfa151df",
+      "matches": {
+        "createObjectURL": [],
+        "SourceBuffer": [],
+        "XMLHttpRequest": [],
+        "__ib_x": [],
+        "__ib_f": [],
+        "__ib_b": [],
+        "__ib_w": [],
+        "__ib_c": [],
+        "__ib_s": [],
+        "MediaSource": [],
+        "m3u8Segments": [],
+        "hhtqManifest": []
+      }
+    },
+    {
+      "file": "extracted/ios/Payload/WebVideoCaster.app/ibfunctions.min.js",
+      "sha256": "2b349db83a70bca4b16bc4af3b163ff2e98e358ea06d0e4bd07ce31b8f022ee6",
+      "matches": {
+        "createObjectURL": [],
+        "SourceBuffer": [],
+        "XMLHttpRequest": [],
+        "__ib_x": [
+          1
+        ],
+        "__ib_f": [
+          1
+        ],
+        "__ib_b": [
+          1
+        ],
+        "__ib_w": [
+          1
+        ],
+        "__ib_c": [
+          1
+        ],
+        "__ib_s": [
+          1
+        ],
+        "MediaSource": [],
+        "m3u8Segments": [],
+        "hhtqManifest": []
+      }
+    },
+    {
+      "file": "extracted/ios/Payload/WebVideoCaster.app/web-receiver-static/app.min.js",
+      "sha256": "f03cf7274f9e430c2083055e5ce0cc07fc9fb24eaf5277f793ff7d116dc9215d",
+      "matches": {
+        "createObjectURL": [],
+        "SourceBuffer": [],
+        "XMLHttpRequest": [
+          1
+        ],
+        "__ib_x": [],
+        "__ib_f": [],
+        "__ib_b": [],
+        "__ib_w": [],
+        "__ib_c": [],
+        "__ib_s": [],
+        "MediaSource": [],
+        "m3u8Segments": [],
+        "hhtqManifest": []
+      }
+    },
+    {
+      "file": "extracted/ios/Payload/WebVideoCaster.app/web-receiver-static/classList.min.js",
+      "sha256": "89d9b7a7b8e5d17c32994a4871c83a588f7ab509a80d1ff90d612c9cf9f1614e",
+      "matches": {
+        "createObjectURL": [],
+        "SourceBuffer": [],
+        "XMLHttpRequest": [],
+        "__ib_x": [],
+        "__ib_f": [],
+        "__ib_b": [],
+        "__ib_w": [],
+        "__ib_c": [],
+        "__ib_s": [],
+        "MediaSource": [],
+        "m3u8Segments": [],
+        "hhtqManifest": []
+      }
+    },
+    {
+      "file": "extracted/ios/Payload/WebVideoCaster.app/web-receiver-static/domready.min.js",
+      "sha256": "b134b10ae2592f94c82e46be7e0a2aa9853eabc680df1551e7f3ac6c5ce78277",
+      "matches": {
+        "createObjectURL": [],
+        "SourceBuffer": [],
+        "XMLHttpRequest": [],
+        "__ib_x": [],
+        "__ib_f": [],
+        "__ib_b": [],
+        "__ib_w": [],
+        "__ib_c": [],
+        "__ib_s": [],
+        "MediaSource": [],
+        "m3u8Segments": [],
+        "hhtqManifest": []
+      }
+    },
+    {
+      "file": "extracted/ios/Payload/WebVideoCaster.app/web-receiver-static/js-cookie.min.js",
+      "sha256": "b3b6c142935afe29b4a0088d0641e5865361272c9bb3401192d5afae0d364397",
+      "matches": {
+        "createObjectURL": [],
+        "SourceBuffer": [],
+        "XMLHttpRequest": [],
+        "__ib_x": [],
+        "__ib_f": [],
+        "__ib_b": [],
+        "__ib_w": [],
+        "__ib_c": [],
+        "__ib_s": [],
+        "MediaSource": [],
+        "m3u8Segments": [],
+        "hhtqManifest": []
+      }
+    },
+    {
+      "file": "extracted/ios/Payload/WebVideoCaster.app/web-receiver-static/require.js",
+      "sha256": "4948c3fe4b57cd92118ec7b89deb99ff0eb2586a02c5f454df21c1ecfc144c81",
+      "matches": {
+        "createObjectURL": [],
+        "SourceBuffer": [],
+        "XMLHttpRequest": [],
+        "__ib_x": [],
+        "__ib_f": [],
+        "__ib_b": [],
+        "__ib_w": [],
+        "__ib_c": [],
+        "__ib_s": [],
+        "MediaSource": [],
+        "m3u8Segments": [],
+        "hhtqManifest": []
+      }
+    },
+    {
+      "file": "extracted/ios/Payload/WebVideoCaster.app/web-receiver-static/tomodo-korz.js",
+      "sha256": "bbef76dc03bff4d34ee27fbb1ac5dab56e643a427532258f66939c5ce8f422a4",
+      "matches": {
+        "createObjectURL": [],
+        "SourceBuffer": [],
+        "XMLHttpRequest": [
+          29,
+          33,
+          121,
+          124,
+          133,
+          140,
+          194,
+          195,
+          205,
+          206,
+          211
+        ],
+        "__ib_x": [],
+        "__ib_f": [],
+        "__ib_b": [],
+        "__ib_w": [],
+        "__ib_c": [],
+        "__ib_s": [],
+        "MediaSource": [],
+        "m3u8Segments": [],
+        "hhtqManifest": []
+      }
+    },
+    {
+      "file": "extracted/ios/Payload/WebVideoCaster.app/web-receiver-static/typedarray-polyfill.js",
+      "sha256": "856293c7b444aa6e83fe9b8e080ae5f8c5607f08135a4a8bd026ddb69260a722",
+      "matches": {
+        "createObjectURL": [],
+        "SourceBuffer": [],
+        "XMLHttpRequest": [],
+        "__ib_x": [],
+        "__ib_f": [],
+        "__ib_b": [],
+        "__ib_w": [],
+        "__ib_c": [],
+        "__ib_s": [],
+        "MediaSource": [],
+        "m3u8Segments": [],
+        "hhtqManifest": []
+      }
+    },
+    {
+      "file": "extracted/ios/Payload/WebVideoCaster.app/web-receiver-static/video.4.12.15.min.js",
+      "sha256": "632f77b845978f869bf4753157aa29d7ffb6d16f989c38e6068b1f4bfdb53cdd",
+      "matches": {
+        "createObjectURL": [],
+        "SourceBuffer": [],
+        "XMLHttpRequest": [
+          26
+        ],
+        "__ib_x": [],
+        "__ib_f": [],
+        "__ib_b": [],
+        "__ib_w": [],
+        "__ib_c": [],
+        "__ib_s": [],
+        "MediaSource": [],
+        "m3u8Segments": [],
+        "hhtqManifest": []
+      }
+    },
+    {
+      "file": "extracted/ios/Payload/WebVideoCaster.app/web-receiver-static/video.5.20.4.min.js",
+      "sha256": "cb2014196f7444095cf7518430c8afdb9b6dbb83a065151d4473bddb63066237",
+      "matches": {
+        "createObjectURL": [],
+        "SourceBuffer": [],
+        "XMLHttpRequest": [
+          19
+        ],
+        "__ib_x": [],
+        "__ib_f": [],
+        "__ib_b": [],
+        "__ib_w": [],
+        "__ib_c": [],
+        "__ib_s": [],
+        "MediaSource": [],
+        "m3u8Segments": [],
+        "hhtqManifest": []
+      }
+    },
+    {
+      "file": "extracted/ios/Payload/WebVideoCaster.app/web-receiver-static/video.6.13.0.min.js",
+      "sha256": "ad21ec812f9512ca791fb66e05b29dfe67b8c889b57e5342c916f4b9ba79f586",
+      "matches": {
+        "createObjectURL": [],
+        "SourceBuffer": [],
+        "XMLHttpRequest": [
+          1,
+          2
+        ],
+        "__ib_x": [],
+        "__ib_f": [],
+        "__ib_b": [],
+        "__ib_w": [],
+        "__ib_c": [],
+        "__ib_s": [],
+        "MediaSource": [],
+        "m3u8Segments": [],
+        "hhtqManifest": []
+      }
+    },
+    {
+      "file": "extracted/ios/Payload/WebVideoCaster.app/web-receiver-static/video.7.5.0.min.js",
+      "sha256": "329bcb0f0f67ea056dda53422f5dd747feb23cbfe6b9d0e88c854162f3cce90b",
+      "matches": {
+        "createObjectURL": [
+          13
+        ],
+        "SourceBuffer": [
+          13
+        ],
+        "XMLHttpRequest": [
+          12
+        ],
+        "__ib_x": [],
+        "__ib_f": [],
+        "__ib_b": [],
+        "__ib_w": [],
+        "__ib_c": [],
+        "__ib_s": [],
+        "MediaSource": [
+          13
+        ],
+        "m3u8Segments": [],
+        "hhtqManifest": []
+      }
+    },
+    {
+      "file": "extracted/ios/Payload/WebVideoCaster.app/web-receiver-static/videojs-contrib-hls.5.15.0.min.js",
+      "sha256": "22fee1d86825cc66a155c1e2747cdd801e7bd4aff6b9584e2c280e343e5fb38f",
+      "matches": {
+        "createObjectURL": [
+          7,
+          8
+        ],
+        "SourceBuffer": [
+          1,
+          3,
+          6,
+          7
+        ],
+        "XMLHttpRequest": [],
+        "__ib_x": [],
+        "__ib_f": [],
+        "__ib_b": [],
+        "__ib_w": [],
+        "__ib_c": [],
+        "__ib_s": [],
+        "MediaSource": [
+          1,
+          2,
+          7,
+          8
+        ],
+        "m3u8Segments": [],
+        "hhtqManifest": []
+      }
+    },
+    {
+      "file": "extracted/ios/Payload/WebVideoCaster.app/web-receiver-static/videojs-http-streaming.1.8.0.min.js",
+      "sha256": "12d8c09cf2fcf68a2ddf372d1c480b27a42bb4c3b73365525d1101d8b7676019",
+      "matches": {
+        "createObjectURL": [
+          9,
+          11
+        ],
+        "SourceBuffer": [
+          9,
+          11
+        ],
+        "XMLHttpRequest": [],
+        "__ib_x": [],
+        "__ib_f": [],
+        "__ib_b": [],
+        "__ib_w": [],
+        "__ib_c": [],
+        "__ib_s": [],
+        "MediaSource": [
+          9,
+          11
+        ],
+        "m3u8Segments": [],
+        "hhtqManifest": []
+      }
+    },
+    {
+      "file": "extracted/ios/Payload/WebVideoCaster.app/web-receiver-static/videojs-media-sources.1.0.0.js",
+      "sha256": "6254ddbde12bc74bb3a0cf7920d7f0c72f6e58e32004c334ac9bbbdc98f8ff88",
+      "matches": {
+        "createObjectURL": [
+          253,
+          285
+        ],
+        "SourceBuffer": [
+          86,
+          92,
+          95,
+          125,
+          204,
+          209,
+          217,
+          249
+        ],
+        "XMLHttpRequest": [],
+        "__ib_x": [],
+        "__ib_f": [],
+        "__ib_b": [],
+        "__ib_w": [],
+        "__ib_c": [],
+        "__ib_s": [],
+        "MediaSource": [
+          3,
+          39,
+          41,
+          63,
+          82,
+          83,
+          86,
+          103,
+          111,
+          137,
+          153,
+          155,
+          156,
+          282
+        ],
+        "m3u8Segments": [],
+        "hhtqManifest": []
+      }
+    },
+    {
+      "file": "extracted/ios/Payload/WebVideoCaster.app/web-receiver-static/videojs.hls.0.17.5.min.js",
+      "sha256": "e8a6fa0eb5dc810fee346f75eb2eee478504b87e00d8829fdaad9d63240e4644",
+      "matches": {
+        "createObjectURL": [
+          3
+        ],
+        "SourceBuffer": [
+          3
+        ],
+        "XMLHttpRequest": [
+          4
+        ],
+        "__ib_x": [],
+        "__ib_f": [],
+        "__ib_b": [],
+        "__ib_w": [],
+        "__ib_c": [],
+        "__ib_s": [],
+        "MediaSource": [
+          3
+        ],
+        "m3u8Segments": [],
+        "hhtqManifest": []
+      }
+    }
+  ]
+}

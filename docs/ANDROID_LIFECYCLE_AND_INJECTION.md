@@ -1,5 +1,7 @@
 # Android navigation, injection and provider resource lifetime
 
+> **Current media status (2026-10-17):** use the [current gap register](MEDIA_GAPS.md) and [comprehensive static audit](MEDIA_STATIC_AUDIT.md). This document preserves chronological findings; older “remaining/open” lists and historical test commands below are not the current backlog or authorization to run tests. No behavioral tests were run for the new audit.
+
 Static inspection only; no app navigation, injection, provider request, file-generation behavior or playback was executed. Supporting smali is retained with reconstructed Java. Package authenticity remains unverified; findings apply to the supplied APK.
 
 ## Context resets are explicit, not every-cache deletion

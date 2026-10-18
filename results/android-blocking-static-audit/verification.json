@@ -2,7 +2,7 @@
   "scope": "Static integrity and documentation checks only; no APK/browser/device behavior executed",
   "full_file_snapshots_checked": 273,
   "complete_method_excerpts_checked": 80,
-  "local_links_checked": 115,
+  "local_links_checked": 132,
   "recognized_operators": 29,
   "active_physical_rule_rows": 7,
   "unique_active_rule_strings": 5,

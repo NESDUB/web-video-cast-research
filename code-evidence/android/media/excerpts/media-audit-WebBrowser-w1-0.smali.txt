@@ -1,0 +1,208 @@
+.method public final w1()V
+    .locals 5
+
+    .line 1
+    invoke-virtual {p0}, Lcom/instantbits/cast/webvideo/WebBrowser;->I0()Landroid/webkit/WebView;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    const/4 v1, 0x0
+
+    .line 6
+    if-eqz v0, :cond_0
+
+    .line 7
+    .line 8
+    sget-object v2, Lqmc;->g:Lqmc;
+
+    .line 9
+    .line 10
+    invoke-virtual {v0}, Landroid/view/View;->getTag()Ljava/lang/Object;
+
+    .line 11
+    .line 12
+    .line 13
+    move-result-object v0
+
+    .line 14
+    check-cast v0, Lomc;
+
+    .line 15
+    .line 16
+    invoke-virtual {v2, v0}, Lqmc;->d(Lomc;)Z
+
+    .line 17
+    .line 18
+    .line 19
+    move-result v0
+
+    .line 20
+    goto :goto_0
+
+    .line 21
+    :cond_0
+    move v0, v1
+
+    .line 22
+    :goto_0
+    iget-object v2, p0, Lcom/instantbits/cast/webvideo/WebBrowser;->a0:Lbz6;
+
+    .line 23
+    .line 24
+    iget-object v2, v2, Lbz6;->s:Landroidx/appcompat/widget/AppCompatImageView;
+
+    .line 25
+    .line 26
+    invoke-virtual {v2}, Landroid/view/View;->getVisibility()I
+
+    .line 27
+    .line 28
+    .line 29
+    move-result v2
+
+    .line 30
+    iget-object v3, p0, Lcom/instantbits/cast/webvideo/WebBrowser;->a0:Lbz6;
+
+    .line 31
+    .line 32
+    const/16 v4, 0x8
+
+    .line 33
+    .line 34
+    if-eqz v0, :cond_3
+
+    .line 35
+    .line 36
+    iget-object v0, v3, Lbz6;->s:Landroidx/appcompat/widget/AppCompatImageView;
+
+    .line 37
+    .line 38
+    invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
+
+    .line 39
+    .line 40
+    .line 41
+    if-ne v2, v4, :cond_2
+
+    .line 42
+    .line 43
+    const-string v0, "f_videoListIconVisible"
+
+    .line 44
+    .line 45
+    const/4 v2, 0x0
+
+    .line 46
+    invoke-static {v0, v2, v2}, Ln00;->j(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 47
+    .line 48
+    .line 49
+    invoke-static {p0}, Lxv7;->U(Landroid/content/Context;)Landroid/content/SharedPreferences;
+
+    .line 50
+    .line 51
+    .line 52
+    move-result-object v0
+
+    .line 53
+    const-string v2, "webvideo.video.icon.used"
+
+    .line 54
+    .line 55
+    invoke-interface {v0, v2, v1}, Landroid/content/SharedPreferences;->getBoolean(Ljava/lang/String;Z)Z
+
+    .line 56
+    .line 57
+    .line 58
+    move-result v0
+
+    .line 59
+    if-nez v0, :cond_1
+
+    .line 60
+    .line 61
+    iget-object v0, p0, Lcom/instantbits/cast/webvideo/WebBrowser;->a0:Lbz6;
+
+    .line 62
+    .line 63
+    iget-object v0, v0, Lbz6;->s:Landroidx/appcompat/widget/AppCompatImageView;
+
+    .line 64
+    .line 65
+    new-instance v1, Lkvc;
+
+    .line 66
+    .line 67
+    invoke-direct {v1}, Ljava/lang/Object;-><init>()V
+
+    .line 68
+    .line 69
+    .line 70
+    const v2, 0x7f130c17
+
+    .line 71
+    .line 72
+    .line 73
+    const v3, 0x7f130c16
+
+    .line 74
+    .line 75
+    .line 76
+    invoke-static {p0, v0, v2, v3, v1}, Lo8c;->t(Landroid/app/Activity;Landroid/view/View;IILuh0;)Lrob;
+
+    .line 77
+    .line 78
+    .line 79
+    :cond_1
+    const v0, 0x7f080636
+
+    .line 80
+    .line 81
+    .line 82
+    invoke-static {p0, v0}, Lcu;->a(Landroid/content/Context;I)Lcu;
+
+    .line 83
+    .line 84
+    .line 85
+    move-result-object v0
+
+    .line 86
+    iget-object p0, p0, Lcom/instantbits/cast/webvideo/WebBrowser;->a0:Lbz6;
+
+    .line 87
+    .line 88
+    iget-object p0, p0, Lbz6;->s:Landroidx/appcompat/widget/AppCompatImageView;
+
+    .line 89
+    .line 90
+    invoke-virtual {p0, v0}, Landroidx/appcompat/widget/AppCompatImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
+
+    .line 91
+    .line 92
+    .line 93
+    invoke-virtual {v0}, Lcu;->start()V
+
+    .line 94
+    .line 95
+    .line 96
+    :cond_2
+    return-void
+
+    .line 97
+    :cond_3
+    iget-object p0, v3, Lbz6;->s:Landroidx/appcompat/widget/AppCompatImageView;
+
+    .line 98
+    .line 99
+    invoke-virtual {p0, v4}, Landroid/view/View;->setVisibility(I)V
+
+    .line 100
+    .line 101
+    .line 102
+    return-void
+.end method

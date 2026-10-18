@@ -8,6 +8,10 @@ Start with [HANDOFF.md](HANDOFF.md). The complete originals, extraction, working
 
 The originals and complete extracted packages are preserved here with prior analysis, code references and repeatable tests. This is a substantive research checkpoint, not a claim of complete reverse engineering.
 
+## Current media audit
+
+The [end-to-end media map](docs/MEDIA_ARCHITECTURE.md), [technique inventory](docs/MEDIA_METHOD_INVENTORY.md), [detailed static audit](docs/MEDIA_STATIC_AUDIT.md), [current gaps](docs/MEDIA_GAPS.md), [Android/iOS comparison](docs/MEDIA_PLATFORM_COMPARISON.md), and [extension assessment](docs/MEDIA_IMPLEMENTATION_RELEVANCE.md) reconcile the prior media work. [Exact evidence](docs/MEDIA_EVIDENCE_INDEX.md), [all request items](docs/MEDIA_AUDIT_CHECKLIST.md) and [static verification](docs/MEDIA_VERIFICATION.md) retain the distinction between code findings and untested behavior. No new behavioral tests were run.
+
 ## Main findings
 
 - Blocking combines separate layers: window creation, navigation/redirect filtering, request blocking, exceptions and cosmetic cleanup. A host list alone does not explain the behavior.

@@ -1,5 +1,7 @@
 # Android subtitle preparation and receiver dispatch
 
+> **Current media status (2026-10-17):** use the [current gap register](MEDIA_GAPS.md) and [comprehensive static audit](MEDIA_STATIC_AUDIT.md). This document preserves chronological findings; older “remaining/open” lists and historical test commands below are not the current backlog or authorization to run tests. No behavioral tests were run for the new audit.
+
 Static code inspection only. No subtitle file was opened by the app, converted, served or cast during this investigation. The report separates display metadata, external subtitle delivery and receiver-native tracks.
 
 ## Preparation and serving are separate stages

@@ -1,0 +1,56 @@
+class PayloadSource {
+    static addVideos(e, t) {
+        if (e.dataset && e.dataset.payload && window.jsonpack) try {
+            let o = window.jsonpack.unpack(this.atobSafe(e.dataset.payload));
+            if (o.sg && o.sg.length > 0) {
+                let i = `#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-TARGETDURATION:${o.td||20}\n#EXT-X-MEDIA-SEQUENCE:${o.ms||0}`;
+                return this.getWorkingHost(o.sg[0].u, e.dataset.id).then(s => {
+                    ibConsole.log("base payload url = ${baseUrl}"), o.sg.forEach(e => {
+                        i += `\n#EXTINF:${e.d},`, i += `\n${s}${this.atobSafe(e.u)}`
+                    }), i += "\n#EXT-X-ENDLIST";
+                    let r = `data:application/x-mpegURL;base64,${btoa(i)}`;
+                    return t.sources.push({
+                        source: r
+                    }), Video.addSubtitles(t, e), t
+                })
+            }
+            return Promise.reject()
+        } catch (e) {
+            return ibConsole.error(e), Promise.reject()
+        }
+        return Promise.reject()
+    }
+    static getWorkingHost(e, t) {
+        try {
+            if (t && this.payloadBaseUrlCache[t]) return Promise.resolve(this.payloadBaseUrlCache[t]);
+            let o = [`https://lh3.googleusercontent.com/d${e.startsWith("/")?"":"/"}${e}`];
+            Object.keys(window).filter(e => 0 == e.indexOf("_0x")).filter(e => "object" == typeof window[e] && Array.isArray(window[e])).forEach(i => {
+                window[i].map(e => this.atobSafe(e)).filter(e => void 0 != e && 0 == e.indexOf("http")).forEach(i => {
+                    o.push(`${i}${i.endsWith("/")||e.startsWith("/")?"":"/"}${e}`), t && o.push(`${i}${i.endsWith("/")?"":"/"}${t}${e.startsWith("/")?"":"/"}${e}`)
+                })
+            });
+            let i = [];
+            return o.forEach(e => {
+                i.push(fetch(e, {
+                    method: "HEAD",
+                    cache: "force-cache"
+                }).then(t => t.status < 400 ? Promise.resolve(e) : Promise.reject()))
+            }), Promise.allSettled(i).then(o => {
+                let i = o.filter(e => "fulfilled" == e.status),
+                    s = i.length > 0 ? i[0].value.substring(0, i[0].value.length - e.length) : null;
+                return t && s && (this.payloadBaseUrlCache[t] = s), s || Promise.reject()
+            })
+        } catch (e) {
+            return ibConsole.error(e), Promise.reject()
+        }
+    }
+    static atobSafe(e) {
+        if (!/^[A-Za-z0-9+/]+=*$/.test(e)) return e;
+        try {
+            return atob(e)
+        } catch (t) {
+            return e
+        }
+    }
+}
+PayloadSource.payloadBaseUrlCache = {};

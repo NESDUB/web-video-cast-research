@@ -34,6 +34,10 @@ Actual files and exact excerpts accompany the research notes. This collection is
 - [android/media/redirect-auth-cookie-audit](android/media/redirect-auth-cookie-audit/README.md)
 - [android/media/cookie-redirect-boundaries](android/media/cookie-redirect-boundaries/README.md)
 - [android/ad-blocking/static-audit](android/ad-blocking/static-audit/README.md)
+- [android/media/comprehensive-static-audit](android/media/comprehensive-static-audit/README.md)
+- [ios/media/readable-static-audit](ios/media/readable-static-audit/README.md)
+- [android/media/web-receiver-static-audit](android/media/web-receiver-static-audit/README.md)
+- [ios/media/web-receiver-static-audit](ios/media/web-receiver-static-audit/README.md)
 
 ## Provenance and interpretation
 
@@ -41,7 +45,7 @@ Actual files and exact excerpts accompany the research notes. This collection is
 
 The Android blocking `excerpts/` folder contains exact line windows around indexed findings. Excerpts are not standalone methods and may omit important branches: consult the full files before drawing conclusions. Metadata identifies original line ranges without changing code text.
 
-Media directories contain the code found so far. Cast/download caller tracing is still incomplete; no screen-recording implementation is implied. iOS native executable code remains encrypted. Settings resources are included separately.
+Media directories contain the code found so far. The current [media gap register](../docs/MEDIA_GAPS.md) separates resolved traces from protected code and runtime questions. No screen-recording implementation is implied. iOS native executable code remains encrypted. Settings resources are included separately.
 
 ## Related findings
 

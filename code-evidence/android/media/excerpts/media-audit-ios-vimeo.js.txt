@@ -1,0 +1,86 @@
+class Vimeo {
+    static getVideosFromApi(e) {
+        const t = document.location.href.match(/^.+vimeo.com\/(?:.*\/)?([0-9]+)/),
+            o = t ? t[1] : null;
+        if (o) {
+            let t = `//player.vimeo.com/video/${o}/config`,
+                i = document.querySelectorAll("div.player[data-config-url]"),
+                s = i.length > 0 && i[0].getAttribute("data-config-url") || t;
+            return fetch(s, {
+                credentials: "include"
+            }).then(e => e.json()).then(t => this.getVideoInfoFromConfigJson(t, e)).catch(e => (ibConsole.log(e), null))
+        }
+        return Promise.resolve(null)
+    }
+    static getVideosFromPlayerConfig(e) {
+        let t = window.playerConfig;
+        return /^.+vimeo.com\//.test(document.location.href) && t ? this.getVideoInfoFromConfigJson(t, e) : Promise.resolve(null)
+    }
+    static getVideoInfoFromConfigJson(e, t) {
+        var o, i, s, r, n, a;
+        if (e) {
+            let l = this.getVideosFromConfigJson(e);
+            if (l && l.length > 0) {
+                let d = {
+                    type: VideoType.Video,
+                    poster: (null === (o = e.thumb_preview) || void 0 === o ? void 0 : o.url) || (null === (s = null === (i = e.video) || void 0 === i ? void 0 : i.thumbs) || void 0 === s ? void 0 : s[640]) || (null === (n = null === (r = e.video) || void 0 === r ? void 0 : r.thumbs) || void 0 === n ? void 0 : n.base) || t.pageInfo.poster,
+                    title: (null === (a = e.video) || void 0 === a ? void 0 : a.title) || t.pageInfo.title,
+                    sources: l,
+                    subtitles: []
+                };
+                return Promise.resolve(d)
+            }
+        }
+        return Promise.resolve(null)
+    }
+    static getVideosFromConfigJson(e) {
+        var t;
+        let o = [];
+        if (null === (t = null === e || void 0 === e ? void 0 : e.request) || void 0 === t ? void 0 : t.files) {
+            let t = e.request.files;
+            if (t.progressive && t.progressive) {
+                t.progressive.forEach(t => {
+                    o.push({
+                        source: t.url,
+                        label: t.quality,
+                        mime: t.mime,
+                        duration: e.video && e.video.duration,
+                        width: Video.getSize(t.width),
+                        height: Video.getSize(t.height)
+                    })
+                })
+            }
+            Object.keys(t).forEach(i => {
+                var s;
+                if (null === (s = t[i]) || void 0 === s ? void 0 : s.cdns) {
+                    let s = t[i].cdns;
+                    Object.keys(s).forEach(t => {
+                        var r, n, a, l, d;
+                        if (null === (r = s[t]) || void 0 === r ? void 0 : r.url) {
+                            let r = s[t].url;
+                            o.push({
+                                source: IBDocument.getAbsoluteUrl(r),
+                                label: null === (n = e.video) || void 0 === n ? void 0 : n.title,
+                                mime: Vimeo.videoTypes[i],
+                                duration: null === (a = e.video) || void 0 === a ? void 0 : a.duration,
+                                width: Video.getSize(null === (l = e.video) || void 0 === l ? void 0 : l.width),
+                                height: Video.getSize(null === (d = e.video) || void 0 === d ? void 0 : d.height)
+                            })
+                        }
+                    })
+                }
+            })
+        }
+        return o
+    }
+    static removeDash(e) {
+        e.sources.forEach(t => {
+            e.page && /^https?:\/\/[^\/?]*vimeo/.test(e.page) && /[?&]f=dash(:?&|$)/.test(t.source) && (t.source = t.source.replace(/f=dash(:?&|$)/, ""))
+        })
+    }
+}
+Vimeo.videoTypes = {
+    hls: "application/vnd.apple.mpegurl",
+    dash: "application/dash+xml",
+    mp4: "video/mp4"
+};

@@ -1,5 +1,7 @@
 # Android final HTTP context and proxy engines
 
+> **Current media status (2026-10-17):** use the [current gap register](MEDIA_GAPS.md) and [comprehensive static audit](MEDIA_STATIC_AUDIT.md). This document preserves chronological findings; older “remaining/open” lists and historical test commands below are not the current backlog or authorization to run tests. No behavioral tests were run for the new audit.
+
 Static analysis only. No network request, cookie extraction, credential lookup, provider access or media execution was performed. Full files, raw smali and indexed excerpts accompany this report. This maps the supplied APK; remote configuration and device state can change which branch runs.
 
 ## 1. Request-builder semantics
@@ -117,7 +119,7 @@ Response-cookie persistence through `jd9.c` happens in the servlet's visible res
 
 ### Header forwarding and retry distinctions
 
-The stored-header loop's additional excluded-name pattern is `accept-encoding`, not `range`: raw register tracking shows the string changes before the loop. The final request explicitly uses Accept-Encoding: identity. Exact-URL cached headers overlay stored headers; current CookieManager contents can then replace Cookie, and the default engine's Basic interceptor can replace Authorization.
+**Corrected by the 2026-10-17 comprehensive audit:** the stored-header loop's additional excluded-name pattern is `range`. The earlier interpretation of `accept-encoding` missed the final enumeration iteration: raw `x:3982–3993` resets v7 to `range` before the hasMoreElements result is tested, including the exit pass, and no reassignment precedes the stored-header contains call at 4619. See [the complete register trace](MEDIA_STATIC_AUDIT.md#proxy-header-modes-and-complete-retry-selector). The final request explicitly uses Accept-Encoding: identity. Exact-URL cached headers overlay stored headers; current CookieManager contents can then replace Cookie, and the default engine's Basic interceptor can replace Authorization.
 
 `gy3.O` is an outgoing response-header predicate, not the incoming forwarding policy. Its packaged `android_copy_proxied_headers` fallback matches content-disposition, accept-ranges and content-encoding case-insensitively. Remote configuration may change the active predicate.
 

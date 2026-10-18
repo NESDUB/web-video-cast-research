@@ -40,6 +40,9 @@ groups['android/media/cookie-redirect-boundaries']=['working/apktool/smali_class
 static_index=r/'results/android-blocking-static-evidence-index.json'
 static_audit=json.loads(static_index.read_text()) if static_index.exists() else {}
 groups.update(static_audit.get('groups',{}))
+media_static_index=r/'results/media-static-evidence-index.json'
+media_static_audit=json.loads(media_static_index.read_text()) if media_static_index.exists() else {}
+groups.update(media_static_audit.get('groups',{}))
 manifest=[];missing=[]
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 for group,paths in groups.items():
@@ -59,6 +62,7 @@ anchors=json.loads((r/'results/android-blocking-gap-code-index.json').read_text(
 media_index=r/'results/android-media-code-index.json'
 if media_index.exists():anchors+=json.loads(media_index.read_text())['records']
 anchors+=static_audit.get('records',[])
+anchors+=media_static_audit.get('records',[])
 excerpt_records=[]
 for record in anchors:
  p=r/record['file'];lines=p.read_text().splitlines(keepends=True);anchor=record['line'];start=record.get('start_line',max(1,anchor-18));end=record.get('end_line',min(len(lines),anchor+45))
@@ -83,7 +87,7 @@ Actual files and exact excerpts accompany the research notes. This collection is
 
 The Android blocking `excerpts/` folder contains exact line windows around indexed findings. Excerpts are not standalone methods and may omit important branches: consult the full files before drawing conclusions. Metadata identifies original line ranges without changing code text.
 
-Media directories contain the code found so far. Cast/download caller tracing is still incomplete; no screen-recording implementation is implied. iOS native executable code remains encrypted. Settings resources are included separately.
+Media directories contain the code found so far. The current [media gap register](../docs/MEDIA_GAPS.md) separates resolved traces from protected code and runtime questions. No screen-recording implementation is implied. iOS native executable code remains encrypted. Settings resources are included separately.
 
 ## Related findings
 

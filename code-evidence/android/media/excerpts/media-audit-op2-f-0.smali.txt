@@ -1,0 +1,235 @@
+.method public final f(Ljava/net/URL;Ljava/lang/String;)Ljava/net/URL;
+    .locals 3
+
+    .line 1
+    const/16 v0, 0x7d1
+
+    .line 2
+    .line 3
+    if-eqz p2, :cond_4
+
+    .line 4
+    .line 5
+    :try_start_0
+    new-instance v1, Ljava/net/URL;
+
+    .line 6
+    .line 7
+    invoke-direct {v1, p1, p2}, Ljava/net/URL;-><init>(Ljava/net/URL;Ljava/lang/String;)V
+    :try_end_0
+    .catch Ljava/net/MalformedURLException; {:try_start_0 .. :try_end_0} :catch_0
+
+    .line 8
+    .line 9
+    .line 10
+    invoke-virtual {v1}, Ljava/net/URL;->getProtocol()Ljava/lang/String;
+
+    .line 11
+    .line 12
+    .line 13
+    move-result-object p2
+
+    .line 14
+    const-string v2, "https"
+
+    .line 15
+    .line 16
+    invoke-virtual {v2, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 17
+    .line 18
+    .line 19
+    move-result v2
+
+    .line 20
+    if-nez v2, :cond_1
+
+    .line 21
+    .line 22
+    const-string v2, "http"
+
+    .line 23
+    .line 24
+    invoke-virtual {v2, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 25
+    .line 26
+    .line 27
+    move-result v2
+
+    .line 28
+    if-eqz v2, :cond_0
+
+    .line 29
+    .line 30
+    goto :goto_0
+
+    .line 31
+    :cond_0
+    new-instance p0, Lkt4;
+
+    .line 32
+    .line 33
+    const-string p1, "Unsupported protocol redirect: "
+
+    .line 34
+    .line 35
+    invoke-static {p1, p2}, Lv71;->l(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    .line 36
+    .line 37
+    .line 38
+    move-result-object p1
+
+    .line 39
+    invoke-direct {p0, p1, v0}, Lkt4;-><init>(Ljava/lang/String;I)V
+
+    .line 40
+    .line 41
+    .line 42
+    throw p0
+
+    .line 43
+    :cond_1
+    :goto_0
+    iget-boolean p0, p0, Lop2;->e:Z
+
+    .line 44
+    .line 45
+    if-nez p0, :cond_3
+
+    .line 46
+    .line 47
+    invoke-virtual {p1}, Ljava/net/URL;->getProtocol()Ljava/lang/String;
+
+    .line 48
+    .line 49
+    .line 50
+    move-result-object p0
+
+    .line 51
+    invoke-virtual {p2, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 52
+    .line 53
+    .line 54
+    move-result p0
+
+    .line 55
+    if-eqz p0, :cond_2
+
+    .line 56
+    .line 57
+    goto :goto_1
+
+    .line 58
+    :cond_2
+    new-instance p0, Lkt4;
+
+    .line 59
+    .line 60
+    invoke-virtual {p1}, Ljava/net/URL;->getProtocol()Ljava/lang/String;
+
+    .line 61
+    .line 62
+    .line 63
+    move-result-object p1
+
+    .line 64
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    .line 65
+    .line 66
+    const-string v2, "Disallowed cross-protocol redirect ("
+
+    .line 67
+    .line 68
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 69
+    .line 70
+    .line 71
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 72
+    .line 73
+    .line 74
+    const-string p1, " to "
+
+    .line 75
+    .line 76
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 77
+    .line 78
+    .line 79
+    invoke-virtual {v1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 80
+    .line 81
+    .line 82
+    const-string p1, ")"
+
+    .line 83
+    .line 84
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 85
+    .line 86
+    .line 87
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 88
+    .line 89
+    .line 90
+    move-result-object p1
+
+    .line 91
+    invoke-direct {p0, p1, v0}, Lkt4;-><init>(Ljava/lang/String;I)V
+
+    .line 92
+    .line 93
+    .line 94
+    throw p0
+
+    .line 95
+    :cond_3
+    :goto_1
+    return-object v1
+
+    .line 96
+    :catch_0
+    move-exception p0
+
+    .line 97
+    new-instance p1, Lkt4;
+
+    .line 98
+    .line 99
+    const/4 p2, 0x1
+
+    .line 100
+    invoke-direct {p1, v0, p2, p0}, Lkt4;-><init>(IILjava/io/IOException;)V
+
+    .line 101
+    .line 102
+    .line 103
+    throw p1
+
+    .line 104
+    :cond_4
+    new-instance p0, Lkt4;
+
+    .line 105
+    .line 106
+    const-string p1, "Null location redirect"
+
+    .line 107
+    .line 108
+    invoke-direct {p0, p1, v0}, Lkt4;-><init>(Ljava/lang/String;I)V
+
+    .line 109
+    .line 110
+    .line 111
+    throw p0
+.end method

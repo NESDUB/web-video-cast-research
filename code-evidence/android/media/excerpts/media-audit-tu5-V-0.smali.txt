@@ -1,0 +1,2474 @@
+.method public static V(Ljava/lang/String;Ljava/util/HashMap;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZZ)Lxyc;
+    .locals 27
+
+    .line 1
+    .line 2
+    move-object/from16 v8, p1
+
+    .line 3
+    .line 4
+    const-string v0, "redirector.gdriveplayer.me"
+
+    .line 5
+    .line 6
+    const-string v12, "Exception loading "
+
+    .line 7
+    .line 8
+    .line 9
+    invoke-virtual/range {p0 .. p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 10
+    .line 11
+    .line 12
+    invoke-virtual/range {p0 .. p0}, Ljava/lang/String;->length()I
+
+    .line 13
+    move-result v1
+
+    .line 14
+    const/4 v13, 0x0
+
+    .line 15
+    .line 16
+    if-nez v1, :cond_0
+
+    .line 17
+    .line 18
+    goto/16 :goto_23
+
+    .line 19
+    .line 20
+    :cond_0
+    const-string v1, "about:blank"
+
+    .line 21
+    .line 22
+    move-object/from16 v2, p0
+
+    .line 23
+    .line 24
+    .line 25
+    invoke-virtual {v1, v2}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    .line 26
+    move-result v1
+
+    .line 27
+    .line 28
+    if-eqz v1, :cond_1
+
+    .line 29
+    .line 30
+    goto/16 :goto_23
+
+    .line 31
+    .line 32
+    .line 33
+    :cond_1
+    invoke-static {v2}, Lj6b;->w1(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
+
+    .line 34
+    move-result-object v1
+
+    .line 35
+    .line 36
+    .line 37
+    invoke-virtual {v1}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    .line 38
+    move-result-object v1
+
+    .line 39
+    .line 40
+    sget-object v2, Ljava/util/Locale;->ENGLISH:Ljava/util/Locale;
+
+    .line 41
+    .line 42
+    .line 43
+    invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 44
+    .line 45
+    .line 46
+    invoke-virtual {v1, v2}, Ljava/lang/String;->toLowerCase(Ljava/util/Locale;)Ljava/lang/String;
+
+    .line 47
+    move-result-object v3
+
+    .line 48
+    .line 49
+    .line 50
+    invoke-virtual {v3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 51
+    .line 52
+    const-string v4, "rtsp"
+
+    .line 53
+    const/4 v14, 0x0
+
+    .line 54
+    .line 55
+    .line 56
+    invoke-static {v3, v4, v14}, Lq6b;->E0(Ljava/lang/String;Ljava/lang/String;Z)Z
+
+    .line 57
+    move-result v3
+
+    .line 58
+    .line 59
+    if-nez v3, :cond_1f
+
+    .line 60
+    .line 61
+    .line 62
+    invoke-virtual {v1, v2}, Ljava/lang/String;->toLowerCase(Ljava/util/Locale;)Ljava/lang/String;
+
+    .line 63
+    move-result-object v2
+
+    .line 64
+    .line 65
+    .line 66
+    invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 67
+    .line 68
+    const-string v3, "rtmp"
+
+    .line 69
+    .line 70
+    .line 71
+    invoke-static {v2, v3, v14}, Lq6b;->E0(Ljava/lang/String;Ljava/lang/String;Z)Z
+
+    .line 72
+    move-result v2
+
+    .line 73
+    .line 74
+    if-eqz v2, :cond_2
+
+    .line 75
+    .line 76
+    goto/16 :goto_24
+
+    .line 77
+    .line 78
+    :cond_2
+    const-string v2, "http"
+
+    .line 79
+    .line 80
+    .line 81
+    invoke-static {v1, v2, v14}, Lq6b;->E0(Ljava/lang/String;Ljava/lang/String;Z)Z
+
+    .line 82
+    move-result v2
+
+    .line 83
+    .line 84
+    if-nez v2, :cond_3
+
+    .line 85
+    .line 86
+    .line 87
+    invoke-static {}, Ltu5;->A()Ljava/lang/String;
+
+    .line 88
+    move-result-object v0
+
+    .line 89
+    .line 90
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    .line 91
+    .line 92
+    const-string v3, "Url "
+
+    .line 93
+    .line 94
+    .line 95
+    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 96
+    .line 97
+    .line 98
+    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    .line 99
+    .line 100
+    const-string v1, " doesn\'t start with http"
+
+    .line 101
+    .line 102
+    .line 103
+    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 104
+    .line 105
+    .line 106
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 107
+    move-result-object v1
+
+    .line 108
+    .line 109
+    .line 110
+    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 111
+    return-object v13
+
+    .line 112
+    .line 113
+    .line 114
+    :cond_3
+    :try_start_0
+    invoke-static {}, Lcx4;->e()Lm48;
+
+    .line 115
+    move-result-object v2
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_2
+
+    .line 116
+    .line 117
+    :try_start_1
+    new-instance v3, Lbo9;
+    :try_end_1
+    .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_3
+    .catch Ljava/lang/ArrayIndexOutOfBoundsException; {:try_start_1 .. :try_end_1} :catch_2
+    .catch Ljava/lang/IllegalArgumentException; {:try_start_1 .. :try_end_1} :catch_1
+    .catch Ljava/lang/IllegalStateException; {:try_start_1 .. :try_end_1} :catch_0
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    .line 118
+    .line 119
+    .line 120
+    :try_start_2
+    invoke-direct {v3}, Lbo9;-><init>()V
+
+    .line 121
+    .line 122
+    .line 123
+    invoke-virtual {v3, v1}, Lbo9;->g(Ljava/lang/String;)V
+
+    .line 124
+    .line 125
+    const-string v4, "http://127.0.0.1"
+
+    .line 126
+    .line 127
+    .line 128
+    invoke-static {v1, v4, v14}, Lq6b;->E0(Ljava/lang/String;Ljava/lang/String;Z)Z
+
+    .line 129
+    move-result v4
+    :try_end_2
+    .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_14
+    .catch Ljava/lang/ArrayIndexOutOfBoundsException; {:try_start_2 .. :try_end_2} :catch_13
+    .catch Ljava/lang/IllegalArgumentException; {:try_start_2 .. :try_end_2} :catch_12
+    .catch Ljava/lang/IllegalStateException; {:try_start_2 .. :try_end_2} :catch_11
+    .catchall {:try_start_2 .. :try_end_2} :catchall_0
+
+    .line 130
+    .line 131
+    if-eqz v4, :cond_4
+
+    .line 132
+    .line 133
+    .line 134
+    :try_start_3
+    invoke-virtual {v3}, Lbo9;->d()V
+    :try_end_3
+    .catch Ljava/io/IOException; {:try_start_3 .. :try_end_3} :catch_3
+    .catch Ljava/lang/ArrayIndexOutOfBoundsException; {:try_start_3 .. :try_end_3} :catch_2
+    .catch Ljava/lang/IllegalArgumentException; {:try_start_3 .. :try_end_3} :catch_1
+    .catch Ljava/lang/IllegalStateException; {:try_start_3 .. :try_end_3} :catch_0
+    .catchall {:try_start_3 .. :try_end_3} :catchall_0
+
+    .line 135
+    goto :goto_4
+
+    .line 136
+    :catchall_0
+    move-exception v0
+
+    .line 137
+    move-object v11, v1
+
+    .line 138
+    .line 139
+    move-object/from16 v26, v13
+
+    .line 140
+    .line 141
+    goto/16 :goto_1b
+
+    .line 142
+    :catch_0
+    move-exception v0
+
+    .line 143
+    .line 144
+    :goto_0
+    move-object/from16 v26, v13
+
+    .line 145
+    .line 146
+    goto/16 :goto_1d
+
+    .line 147
+    :catch_1
+    move-exception v0
+
+    .line 148
+    .line 149
+    :goto_1
+    move-object/from16 v26, v13
+
+    .line 150
+    .line 151
+    goto/16 :goto_1e
+
+    .line 152
+    :catch_2
+    move-exception v0
+
+    .line 153
+    .line 154
+    :goto_2
+    move-object/from16 v26, v13
+
+    .line 155
+    .line 156
+    goto/16 :goto_1f
+
+    .line 157
+    :catch_3
+    move-exception v0
+
+    .line 158
+    .line 159
+    :goto_3
+    move-object/from16 v26, v13
+
+    .line 160
+    .line 161
+    goto/16 :goto_20
+
+    .line 162
+    .line 163
+    :cond_4
+    :try_start_4
+    const-string v4, "HEAD"
+
+    .line 164
+    .line 165
+    .line 166
+    invoke-virtual {v3, v4, v13}, Lbo9;->f(Ljava/lang/String;Lmo9;)V
+    :try_end_4
+    .catch Ljava/io/IOException; {:try_start_4 .. :try_end_4} :catch_18
+    .catch Ljava/lang/ArrayIndexOutOfBoundsException; {:try_start_4 .. :try_end_4} :catch_17
+    .catch Ljava/lang/IllegalArgumentException; {:try_start_4 .. :try_end_4} :catch_16
+    .catch Ljava/lang/IllegalStateException; {:try_start_4 .. :try_end_4} :catch_15
+    .catchall {:try_start_4 .. :try_end_4} :catchall_0
+
+    .line 167
+    .line 168
+    :goto_4
+    if-eqz v8, :cond_6
+
+    .line 169
+    .line 170
+    .line 171
+    :try_start_5
+    invoke-virtual {v8}, Ljava/util/HashMap;->keySet()Ljava/util/Set;
+
+    .line 172
+    move-result-object v4
+
+    .line 173
+    .line 174
+    .line 175
+    invoke-interface {v4}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+
+    .line 176
+    move-result-object v4
+
+    .line 177
+    .line 178
+    .line 179
+    :cond_5
+    :goto_5
+    invoke-interface {v4}, Ljava/util/Iterator;->hasNext()Z
+
+    .line 180
+    move-result v5
+
+    .line 181
+    .line 182
+    if-eqz v5, :cond_6
+
+    .line 183
+    .line 184
+    .line 185
+    invoke-interface {v4}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    .line 186
+    move-result-object v5
+
+    .line 187
+    .line 188
+    check-cast v5, Ljava/lang/String;
+
+    .line 189
+    .line 190
+    .line 191
+    invoke-virtual {v8, v5}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 192
+    move-result-object v6
+
+    .line 193
+    .line 194
+    check-cast v6, Ljava/lang/String;
+
+    .line 195
+    .line 196
+    if-eqz v6, :cond_5
+
+    .line 197
+    .line 198
+    .line 199
+    invoke-virtual {v3, v5, v6}, Lbo9;->e(Ljava/lang/String;Ljava/lang/String;)V
+    :try_end_5
+    .catch Ljava/io/IOException; {:try_start_5 .. :try_end_5} :catch_3
+    .catch Ljava/lang/ArrayIndexOutOfBoundsException; {:try_start_5 .. :try_end_5} :catch_2
+    .catch Ljava/lang/IllegalArgumentException; {:try_start_5 .. :try_end_5} :catch_1
+    .catch Ljava/lang/IllegalStateException; {:try_start_5 .. :try_end_5} :catch_0
+    .catchall {:try_start_5 .. :try_end_5} :catchall_0
+
+    .line 200
+    goto :goto_5
+
+    .line 201
+    .line 202
+    :cond_6
+    const-string v4, "Cookie"
+
+    .line 203
+    .line 204
+    if-eqz v8, :cond_7
+
+    .line 205
+    .line 206
+    .line 207
+    :try_start_6
+    invoke-virtual {v8, v4}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 208
+    move-result-object v5
+
+    .line 209
+    .line 210
+    check-cast v5, Ljava/lang/String;
+
+    .line 211
+    goto :goto_6
+
+    .line 212
+    :cond_7
+    move-object v5, v13
+
+    .line 213
+    .line 214
+    :goto_6
+    if-eqz v5, :cond_8
+
+    .line 215
+    .line 216
+    .line 217
+    invoke-static {v5}, Lj6b;->W0(Ljava/lang/CharSequence;)Z
+
+    .line 218
+    move-result v5
+    :try_end_6
+    .catch Ljava/io/IOException; {:try_start_6 .. :try_end_6} :catch_3
+    .catch Ljava/lang/ArrayIndexOutOfBoundsException; {:try_start_6 .. :try_end_6} :catch_2
+    .catch Ljava/lang/IllegalArgumentException; {:try_start_6 .. :try_end_6} :catch_1
+    .catch Ljava/lang/IllegalStateException; {:try_start_6 .. :try_end_6} :catch_0
+    .catchall {:try_start_6 .. :try_end_6} :catchall_0
+
+    .line 219
+    .line 220
+    if-eqz v5, :cond_9
+
+    .line 221
+    .line 222
+    :cond_8
+    move/from16 v11, p7
+
+    .line 223
+    goto :goto_7
+
+    .line 224
+    .line 225
+    :cond_9
+    move/from16 v11, p7
+
+    .line 226
+    goto :goto_8
+
+    .line 227
+    .line 228
+    .line 229
+    :goto_7
+    :try_start_7
+    invoke-static {v1, v11}, Lku7;->l(Ljava/lang/String;Z)Ljava/lang/String;
+
+    .line 230
+    move-result-object v5
+    :try_end_7
+    .catch Ljava/io/IOException; {:try_start_7 .. :try_end_7} :catch_14
+    .catch Ljava/lang/ArrayIndexOutOfBoundsException; {:try_start_7 .. :try_end_7} :catch_13
+    .catch Ljava/lang/IllegalArgumentException; {:try_start_7 .. :try_end_7} :catch_12
+    .catch Ljava/lang/IllegalStateException; {:try_start_7 .. :try_end_7} :catch_11
+    .catchall {:try_start_7 .. :try_end_7} :catchall_0
+
+    .line 231
+    .line 232
+    if-eqz v5, :cond_b
+
+    .line 233
+    .line 234
+    .line 235
+    :try_start_8
+    invoke-static {v5}, Lj6b;->W0(Ljava/lang/CharSequence;)Z
+
+    .line 236
+    move-result v6
+
+    .line 237
+    .line 238
+    if-eqz v6, :cond_a
+
+    .line 239
+    goto :goto_8
+
+    .line 240
+    .line 241
+    .line 242
+    :cond_a
+    invoke-virtual {v3, v4, v5}, Lbo9;->e(Ljava/lang/String;Ljava/lang/String;)V
+    :try_end_8
+    .catch Ljava/io/IOException; {:try_start_8 .. :try_end_8} :catch_3
+    .catch Ljava/lang/ArrayIndexOutOfBoundsException; {:try_start_8 .. :try_end_8} :catch_2
+    .catch Ljava/lang/IllegalArgumentException; {:try_start_8 .. :try_end_8} :catch_1
+    .catch Ljava/lang/IllegalStateException; {:try_start_8 .. :try_end_8} :catch_0
+    .catchall {:try_start_8 .. :try_end_8} :catchall_0
+
+    .line 243
+    .line 244
+    :cond_b
+    :goto_8
+    :try_start_9
+    new-instance v5, Ldo9;
+
+    .line 245
+    .line 246
+    .line 247
+    invoke-direct {v5, v3}, Ldo9;-><init>(Lbo9;)V
+    :try_end_9
+    .catch Ljava/io/IOException; {:try_start_9 .. :try_end_9} :catch_18
+    .catch Ljava/lang/ArrayIndexOutOfBoundsException; {:try_start_9 .. :try_end_9} :catch_17
+    .catch Ljava/lang/IllegalArgumentException; {:try_start_9 .. :try_end_9} :catch_16
+    .catch Ljava/lang/IllegalStateException; {:try_start_9 .. :try_end_9} :catch_15
+    .catchall {:try_start_9 .. :try_end_9} :catchall_0
+
+    .line 248
+    .line 249
+    .line 250
+    :try_start_a
+    invoke-virtual {v2, v5}, Lm48;->b(Ldo9;)Luh9;
+
+    .line 251
+    move-result-object v26
+    :try_end_a
+    .catch Ljava/io/IOException; {:try_start_a .. :try_end_a} :catch_14
+    .catch Ljava/lang/ArrayIndexOutOfBoundsException; {:try_start_a .. :try_end_a} :catch_13
+    .catch Ljava/lang/IllegalArgumentException; {:try_start_a .. :try_end_a} :catch_12
+    .catch Ljava/lang/IllegalStateException; {:try_start_a .. :try_end_a} :catch_11
+    .catchall {:try_start_a .. :try_end_a} :catchall_0
+
+    .line 252
+    .line 253
+    .line 254
+    :try_start_b
+    invoke-virtual/range {v26 .. v26}, Luh9;->execute()Lnq9;
+
+    .line 255
+    move-result-object v15
+    :try_end_b
+    .catch Ljava/io/IOException; {:try_start_b .. :try_end_b} :catch_10
+    .catch Ljava/lang/ArrayIndexOutOfBoundsException; {:try_start_b .. :try_end_b} :catch_f
+    .catch Ljava/lang/IllegalArgumentException; {:try_start_b .. :try_end_b} :catch_e
+    .catch Ljava/lang/IllegalStateException; {:try_start_b .. :try_end_b} :catch_d
+    .catchall {:try_start_b .. :try_end_b} :catchall_3
+
+    .line 256
+    .line 257
+    :try_start_c
+    iget-boolean v2, v15, Lnq9;->q:Z
+    :try_end_c
+    .catchall {:try_start_c .. :try_end_c} :catchall_b
+
+    .line 258
+    .line 259
+    if-eqz v2, :cond_13
+
+    .line 260
+    .line 261
+    :try_start_d
+    const-string v2, "Content-Type"
+
+    .line 262
+    .line 263
+    .line 264
+    invoke-static {v15, v2}, Lnq9;->l(Lnq9;Ljava/lang/String;)Ljava/lang/String;
+
+    .line 265
+    move-result-object v2
+
+    .line 266
+    .line 267
+    if-eqz v2, :cond_13
+
+    .line 268
+    .line 269
+    sget-object v3, Ljava/util/Locale;->ENGLISH:Ljava/util/Locale;
+
+    .line 270
+    .line 271
+    .line 272
+    invoke-virtual {v3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 273
+    .line 274
+    .line 275
+    invoke-virtual {v2, v3}, Ljava/lang/String;->toLowerCase(Ljava/util/Locale;)Ljava/lang/String;
+
+    .line 276
+    move-result-object v2
+
+    .line 277
+    .line 278
+    .line 279
+    invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 280
+    .line 281
+    .line 282
+    invoke-static {v2, v1}, Luc7;->p(Ljava/lang/String;Ljava/lang/String;)Z
+
+    .line 283
+    move-result v3
+    :try_end_d
+    .catchall {:try_start_d .. :try_end_d} :catchall_1
+
+    .line 284
+    .line 285
+    const-string v5, "application/octet-stream"
+
+    .line 286
+    const/4 v6, 0x1
+
+    .line 287
+    .line 288
+    if-nez v3, :cond_d
+
+    .line 289
+    .line 290
+    :try_start_e
+    sget-object v3, Lrj4;->j:Lvgb;
+
+    .line 291
+    .line 292
+    if-eqz p5, :cond_c
+
+    .line 293
+    .line 294
+    .line 295
+    invoke-virtual {v2, v5}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
+
+    .line 296
+    move-result v3
+
+    .line 297
+    .line 298
+    if-eqz v3, :cond_c
+
+    .line 299
+    move v3, v6
+
+    .line 300
+    goto :goto_a
+
+    .line 301
+    :catchall_1
+    move-exception v0
+
+    .line 302
+    move-object v2, v0
+
+    .line 303
+    move-object v11, v1
+
+    .line 304
+    :goto_9
+    move-object v1, v15
+
+    .line 305
+    .line 306
+    goto/16 :goto_16
+
+    .line 307
+    :cond_c
+    move v3, v14
+
+    .line 308
+    .line 309
+    :goto_a
+    if-eqz v3, :cond_13
+
+    .line 310
+    .line 311
+    :cond_d
+    const-string v0, "Content-Length"
+
+    .line 312
+    .line 313
+    .line 314
+    invoke-static {v15, v0}, Lnq9;->l(Lnq9;Ljava/lang/String;)Ljava/lang/String;
+
+    .line 315
+    move-result-object v3
+
+    .line 316
+    .line 317
+    if-eqz v3, :cond_f
+
+    .line 318
+    .line 319
+    .line 320
+    invoke-virtual {v3}, Ljava/lang/String;->length()I
+
+    .line 321
+    move-result v0
+    :try_end_e
+    .catchall {:try_start_e .. :try_end_e} :catchall_1
+
+    .line 322
+    .line 323
+    if-nez v0, :cond_e
+
+    .line 324
+    goto :goto_b
+
+    .line 325
+    .line 326
+    .line 327
+    :cond_e
+    :try_start_f
+    invoke-static {v3}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
+
+    .line 328
+    move-result-wide v3
+    :try_end_f
+    .catch Ljava/lang/NumberFormatException; {:try_start_f .. :try_end_f} :catch_4
+    .catchall {:try_start_f .. :try_end_f} :catchall_1
+
+    .line 329
+    goto :goto_c
+
+    .line 330
+    :catch_4
+    move-exception v0
+
+    .line 331
+    .line 332
+    :try_start_10
+    sget-object v4, Lrj4;->j:Lvgb;
+
+    .line 333
+    .line 334
+    .line 335
+    invoke-static {}, Ltu5;->A()Ljava/lang/String;
+
+    .line 336
+    move-result-object v4
+
+    .line 337
+    .line 338
+    const-string v7, "Unable to parse content length"
+
+    .line 339
+    .line 340
+    .line 341
+    invoke-static {v4, v7, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+
+    .line 342
+    .line 343
+    new-instance v4, Ljava/lang/Exception;
+
+    .line 344
+    .line 345
+    new-instance v7, Ljava/lang/StringBuilder;
+
+    .line 346
+    .line 347
+    .line 348
+    invoke-direct {v7}, Ljava/lang/StringBuilder;-><init>()V
+
+    .line 349
+    .line 350
+    const-string v9, "Unable to parse "
+
+    .line 351
+    .line 352
+    .line 353
+    invoke-virtual {v7, v9}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 354
+    .line 355
+    .line 356
+    invoke-virtual {v7, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 357
+    .line 358
+    .line 359
+    invoke-virtual {v7}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 360
+    move-result-object v3
+
+    .line 361
+    .line 362
+    .line 363
+    invoke-direct {v4, v3, v0}, Ljava/lang/Exception;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+
+    .line 364
+    .line 365
+    .line 366
+    invoke-static {v4}, Ln00;->m(Ljava/lang/Throwable;)V
+
+    .line 367
+    .line 368
+    :cond_f
+    :goto_b
+    const-wide/16 v3, -0x1
+
+    .line 369
+    .line 370
+    :goto_c
+    sget-object v0, Lrj4;->j:Lvgb;
+
+    .line 371
+    .line 372
+    if-eqz p5, :cond_10
+
+    .line 373
+    .line 374
+    .line 375
+    invoke-virtual {v2, v5}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
+
+    .line 376
+    move-result v0
+
+    .line 377
+    .line 378
+    if-eqz v0, :cond_10
+
+    .line 379
+    move v0, v6
+
+    .line 380
+    goto :goto_d
+
+    .line 381
+    :cond_10
+    move v0, v14
+
+    .line 382
+    .line 383
+    :goto_d
+    if-eqz v0, :cond_11
+
+    .line 384
+    .line 385
+    .line 386
+    invoke-static {v1}, Lvt3;->d(Ljava/lang/String;)Ljava/lang/String;
+
+    .line 387
+    move-result-object v0
+
+    .line 388
+    .line 389
+    const-string v2, "mpd"
+
+    .line 390
+    .line 391
+    .line 392
+    invoke-static {v0, v2, v6}, Lq6b;->w0(Ljava/lang/String;Ljava/lang/String;Z)Z
+
+    .line 393
+    move-result v0
+
+    .line 394
+    .line 395
+    if-nez v0, :cond_11
+
+    .line 396
+    .line 397
+    const-string v0, "video/mp4"
+
+    .line 398
+    goto :goto_e
+
+    .line 399
+    .line 400
+    .line 401
+    :cond_11
+    invoke-static {v1}, Lvt3;->d(Ljava/lang/String;)Ljava/lang/String;
+
+    .line 402
+    move-result-object v0
+
+    .line 403
+    .line 404
+    .line 405
+    invoke-static {v0}, Luc7;->b(Ljava/lang/String;)Ljava/lang/String;
+
+    .line 406
+    move-result-object v0
+
+    .line 407
+    .line 408
+    if-nez v0, :cond_12
+
+    .line 409
+    .line 410
+    const-string v0, ""
+
+    .line 411
+    .line 412
+    :cond_12
+    :goto_e
+    const-string v9, "shouldPlay2"
+
+    .line 413
+    .line 414
+    move-object/from16 v5, p2
+
+    .line 415
+    .line 416
+    move-object/from16 v6, p3
+
+    .line 417
+    .line 418
+    move-object/from16 v7, p4
+
+    .line 419
+    .line 420
+    move/from16 v10, p6
+
+    .line 421
+    move-wide v2, v3
+
+    .line 422
+    move-object v4, v0
+
+    .line 423
+    .line 424
+    .line 425
+    invoke-static/range {v1 .. v11}, Ltu5;->Q(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;ZZ)Lxyc;
+
+    .line 426
+    move-result-object v0
+    :try_end_10
+    .catchall {:try_start_10 .. :try_end_10} :catchall_1
+
+    .line 427
+    .line 428
+    .line 429
+    :try_start_11
+    invoke-static {v15, v13}, Lyv0;->k(Ljava/io/Closeable;Ljava/lang/Throwable;)V
+    :try_end_11
+    .catch Ljava/io/IOException; {:try_start_11 .. :try_end_11} :catch_8
+    .catch Ljava/lang/ArrayIndexOutOfBoundsException; {:try_start_11 .. :try_end_11} :catch_7
+    .catch Ljava/lang/IllegalArgumentException; {:try_start_11 .. :try_end_11} :catch_6
+    .catch Ljava/lang/IllegalStateException; {:try_start_11 .. :try_end_11} :catch_5
+    .catchall {:try_start_11 .. :try_end_11} :catchall_3
+
+    .line 430
+    .line 431
+    .line 432
+    :try_start_12
+    invoke-virtual/range {v26 .. v26}, Luh9;->cancel()V
+    :try_end_12
+    .catchall {:try_start_12 .. :try_end_12} :catchall_2
+
+    .line 433
+    return-object v0
+
+    .line 434
+    :catchall_2
+    move-exception v0
+
+    .line 435
+    .line 436
+    goto/16 :goto_22
+
+    .line 437
+    :catchall_3
+    move-exception v0
+
+    .line 438
+    move-object v11, v1
+
+    .line 439
+    .line 440
+    goto/16 :goto_1b
+
+    .line 441
+    :catch_5
+    move-exception v0
+
+    .line 442
+    .line 443
+    goto/16 :goto_1d
+
+    .line 444
+    :catch_6
+    move-exception v0
+
+    .line 445
+    .line 446
+    goto/16 :goto_1e
+
+    .line 447
+    :catch_7
+    move-exception v0
+
+    .line 448
+    .line 449
+    goto/16 :goto_1f
+
+    .line 450
+    :catch_8
+    move-exception v0
+
+    .line 451
+    .line 452
+    goto/16 :goto_20
+
+    .line 453
+    .line 454
+    :cond_13
+    :try_start_13
+    sget-object v2, Lrj4;->j:Lvgb;
+
+    .line 455
+    .line 456
+    .line 457
+    invoke-static {v1}, Ltu5;->n(Ljava/lang/String;)Z
+
+    .line 458
+    move-result v2
+    :try_end_13
+    .catchall {:try_start_13 .. :try_end_13} :catchall_b
+
+    .line 459
+    .line 460
+    if-eqz v2, :cond_14
+
+    .line 461
+    .line 462
+    :try_start_14
+    const-string v9, "shouldPlay3"
+
+    .line 463
+    .line 464
+    const-wide/16 v2, -0x1
+
+    .line 465
+    const/4 v4, 0x0
+
+    .line 466
+    .line 467
+    move-object/from16 v8, p1
+
+    .line 468
+    .line 469
+    move-object/from16 v5, p2
+
+    .line 470
+    .line 471
+    move-object/from16 v6, p3
+
+    .line 472
+    .line 473
+    move-object/from16 v7, p4
+
+    .line 474
+    .line 475
+    move/from16 v10, p6
+
+    .line 476
+    .line 477
+    move/from16 v11, p7
+
+    .line 478
+    .line 479
+    .line 480
+    invoke-static/range {v1 .. v11}, Ltu5;->Q(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;ZZ)Lxyc;
+
+    .line 481
+    move-result-object v0
+    :try_end_14
+    .catchall {:try_start_14 .. :try_end_14} :catchall_6
+
+    .line 482
+    move-object v11, v1
+
+    .line 483
+    .line 484
+    .line 485
+    :goto_f
+    :try_start_15
+    invoke-static {v15, v13}, Lyv0;->k(Ljava/io/Closeable;Ljava/lang/Throwable;)V
+    :try_end_15
+    .catch Ljava/io/IOException; {:try_start_15 .. :try_end_15} :catch_c
+    .catch Ljava/lang/ArrayIndexOutOfBoundsException; {:try_start_15 .. :try_end_15} :catch_b
+    .catch Ljava/lang/IllegalArgumentException; {:try_start_15 .. :try_end_15} :catch_a
+    .catch Ljava/lang/IllegalStateException; {:try_start_15 .. :try_end_15} :catch_9
+    .catchall {:try_start_15 .. :try_end_15} :catchall_5
+
+    .line 486
+    .line 487
+    .line 488
+    :goto_10
+    :try_start_16
+    invoke-virtual/range {v26 .. v26}, Luh9;->cancel()V
+    :try_end_16
+    .catchall {:try_start_16 .. :try_end_16} :catchall_4
+
+    .line 489
+    return-object v0
+
+    .line 490
+    :catchall_4
+    move-exception v0
+
+    .line 491
+    move-object v1, v11
+
+    .line 492
+    .line 493
+    goto/16 :goto_22
+
+    .line 494
+    :catchall_5
+    move-exception v0
+
+    .line 495
+    .line 496
+    goto/16 :goto_1b
+
+    .line 497
+    :catch_9
+    move-exception v0
+
+    .line 498
+    move-object v1, v11
+
+    .line 499
+    .line 500
+    goto/16 :goto_1d
+
+    .line 501
+    :catch_a
+    move-exception v0
+
+    .line 502
+    move-object v1, v11
+
+    .line 503
+    .line 504
+    goto/16 :goto_1e
+
+    .line 505
+    :catch_b
+    move-exception v0
+
+    .line 506
+    move-object v1, v11
+
+    .line 507
+    .line 508
+    goto/16 :goto_1f
+
+    .line 509
+    :catch_c
+    move-exception v0
+
+    .line 510
+    move-object v1, v11
+
+    .line 511
+    .line 512
+    goto/16 :goto_20
+
+    .line 513
+    :catchall_6
+    move-exception v0
+
+    .line 514
+    move-object v11, v1
+
+    .line 515
+    :goto_11
+    move-object v2, v0
+
+    .line 516
+    .line 517
+    goto/16 :goto_9
+
+    .line 518
+    :cond_14
+    move-object v11, v1
+
+    .line 519
+    .line 520
+    :try_start_17
+    iget-object v1, v15, Lnq9;->a:Ldo9;
+    :try_end_17
+    .catchall {:try_start_17 .. :try_end_17} :catchall_9
+
+    .line 521
+    .line 522
+    if-eqz v1, :cond_15
+
+    .line 523
+    .line 524
+    :try_start_18
+    iget-object v1, v1, Ldo9;->a:Lvw4;
+
+    .line 525
+    .line 526
+    if-eqz v1, :cond_15
+
+    .line 527
+    .line 528
+    .line 529
+    invoke-virtual {v1}, Lvw4;->i()Ljava/net/URI;
+
+    .line 530
+    move-result-object v1
+    :try_end_18
+    .catchall {:try_start_18 .. :try_end_18} :catchall_7
+
+    .line 531
+    goto :goto_12
+
+    .line 532
+    :catchall_7
+    move-exception v0
+
+    .line 533
+    goto :goto_11
+
+    .line 534
+    :cond_15
+    move-object v1, v13
+
+    .line 535
+    .line 536
+    :goto_12
+    if-eqz v1, :cond_1a
+
+    .line 537
+    .line 538
+    .line 539
+    :try_start_19
+    invoke-virtual {v1}, Ljava/net/URI;->toString()Ljava/lang/String;
+
+    .line 540
+    move-result-object v2
+
+    .line 541
+    .line 542
+    .line 543
+    invoke-virtual {v2, v11}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 544
+    move-result v2
+
+    .line 545
+    .line 546
+    if-nez v2, :cond_1a
+
+    .line 547
+    .line 548
+    .line 549
+    invoke-virtual {v1}, Ljava/net/URI;->isAbsolute()Z
+
+    .line 550
+    move-result v2
+    :try_end_19
+    .catchall {:try_start_19 .. :try_end_19} :catchall_9
+
+    .line 551
+    .line 552
+    if-nez v2, :cond_16
+
+    .line 553
+    .line 554
+    :try_start_1a
+    new-instance v2, Ljava/lang/Exception;
+
+    .line 555
+    .line 556
+    new-instance v3, Ljava/lang/StringBuilder;
+
+    .line 557
+    .line 558
+    .line 559
+    invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
+
+    .line 560
+    .line 561
+    const/4 v5, 0x0
+
+    sget-object v5, Lcom/bytedance/sdk/openadsdk/core/cd/nf/tv/UYVInZewtfl;->cKrAWThO:Ljava/lang/String;
+
+    .line 562
+    .line 563
+    .line 564
+    invoke-virtual {v3, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 565
+    .line 566
+    .line 567
+    invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    .line 568
+    .line 569
+    const-string v5, " from "
+
+    .line 570
+    .line 571
+    .line 572
+    invoke-virtual {v3, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 573
+    .line 574
+    .line 575
+    invoke-virtual {v3, v11}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    .line 576
+    .line 577
+    .line 578
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 579
+    move-result-object v3
+
+    .line 580
+    .line 581
+    .line 582
+    invoke-direct {v2, v3}, Ljava/lang/Exception;-><init>(Ljava/lang/String;)V
+
+    .line 583
+    .line 584
+    .line 585
+    invoke-static {v2}, Ln00;->m(Ljava/lang/Throwable;)V
+    :try_end_1a
+    .catchall {:try_start_1a .. :try_end_1a} :catchall_7
+
+    .line 586
+    .line 587
+    .line 588
+    :cond_16
+    :try_start_1b
+    invoke-virtual {v1}, Ljava/net/URI;->toString()Ljava/lang/String;
+
+    .line 589
+    move-result-object v2
+
+    .line 590
+    .line 591
+    .line 592
+    invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 593
+    .line 594
+    .line 595
+    invoke-static {v2}, Ltu5;->n(Ljava/lang/String;)Z
+
+    .line 596
+    move-result v2
+    :try_end_1b
+    .catchall {:try_start_1b .. :try_end_1b} :catchall_9
+
+    .line 597
+    .line 598
+    if-eqz v2, :cond_17
+
+    .line 599
+    .line 600
+    .line 601
+    :try_start_1c
+    invoke-virtual {v1}, Ljava/net/URI;->toString()Ljava/lang/String;
+
+    .line 602
+    move-result-object v0
+
+    .line 603
+    .line 604
+    .line 605
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 606
+    .line 607
+    const-string v8, "shouldPlay4"
+
+    .line 608
+    .line 609
+    const-wide/16 v1, -0x1
+
+    .line 610
+    const/4 v3, 0x0
+
+    .line 611
+    .line 612
+    move-object/from16 v7, p1
+
+    .line 613
+    .line 614
+    move-object/from16 v4, p2
+
+    .line 615
+    .line 616
+    move-object/from16 v5, p3
+
+    .line 617
+    .line 618
+    move-object/from16 v6, p4
+
+    .line 619
+    .line 620
+    move/from16 v9, p6
+
+    .line 621
+    .line 622
+    move/from16 v10, p7
+
+    .line 623
+    .line 624
+    .line 625
+    invoke-static/range {v0 .. v10}, Ltu5;->Q(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;ZZ)Lxyc;
+
+    .line 626
+    move-result-object v0
+    :try_end_1c
+    .catchall {:try_start_1c .. :try_end_1c} :catchall_7
+
+    .line 627
+    .line 628
+    goto/16 :goto_f
+
+    .line 629
+    .line 630
+    .line 631
+    :cond_17
+    :try_start_1d
+    invoke-static {v11, v0, v14}, Lj6b;->I0(Ljava/lang/CharSequence;Ljava/lang/CharSequence;Z)Z
+
+    .line 632
+    move-result v2
+
+    .line 633
+    .line 634
+    if-eqz v2, :cond_1a
+
+    .line 635
+    .line 636
+    .line 637
+    invoke-virtual {v1}, Ljava/net/URI;->toString()Ljava/lang/String;
+
+    .line 638
+    move-result-object v2
+
+    .line 639
+    .line 640
+    .line 641
+    invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 642
+    .line 643
+    .line 644
+    invoke-static {v2, v0, v14}, Lj6b;->I0(Ljava/lang/CharSequence;Ljava/lang/CharSequence;Z)Z
+
+    .line 645
+    move-result v0
+
+    .line 646
+    .line 647
+    if-nez v0, :cond_1a
+
+    .line 648
+    .line 649
+    new-instance v0, Ljava/util/HashMap;
+
+    .line 650
+    .line 651
+    .line 652
+    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
+
+    .line 653
+    .line 654
+    const-string v2, "Referer"
+
+    .line 655
+    .line 656
+    .line 657
+    invoke-virtual {v0, v2, v11}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    :try_end_1d
+    .catchall {:try_start_1d .. :try_end_1d} :catchall_9
+
+    .line 658
+    .line 659
+    .line 660
+    :try_start_1e
+    invoke-static/range {p7 .. p7}, Lku7;->i(Z)Landroid/webkit/CookieManager;
+
+    .line 661
+    move-result-object v2
+
+    .line 662
+    .line 663
+    .line 664
+    invoke-static {v11, v2}, Lku7;->k(Ljava/lang/String;Landroid/webkit/CookieManager;)Ljava/lang/String;
+
+    .line 665
+    move-result-object v2
+    :try_end_1e
+    .catchall {:try_start_1e .. :try_end_1e} :catchall_a
+
+    .line 666
+    .line 667
+    if-eqz v2, :cond_19
+
+    .line 668
+    .line 669
+    .line 670
+    :try_start_1f
+    invoke-static {v2}, Lj6b;->W0(Ljava/lang/CharSequence;)Z
+
+    .line 671
+    move-result v3
+
+    .line 672
+    .line 673
+    if-eqz v3, :cond_18
+
+    .line 674
+    goto :goto_13
+
+    .line 675
+    .line 676
+    .line 677
+    :cond_18
+    invoke-virtual {v0, v4, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    :try_end_1f
+    .catchall {:try_start_1f .. :try_end_1f} :catchall_7
+
+    .line 678
+    .line 679
+    .line 680
+    :cond_19
+    :goto_13
+    :try_start_20
+    invoke-virtual {v1}, Ljava/net/URI;->toString()Ljava/lang/String;
+
+    .line 681
+    move-result-object v1
+
+    .line 682
+    .line 683
+    .line 684
+    invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 685
+    .line 686
+    const-string v23, "shouldPlay4"
+    :try_end_20
+    .catchall {:try_start_20 .. :try_end_20} :catchall_9
+
+    .line 687
+    .line 688
+    const-wide/16 v16, -0x1
+
+    .line 689
+    .line 690
+    const/16 v18, 0x0
+
+    .line 691
+    .line 692
+    move-object/from16 v19, v15
+
+    .line 693
+    move-object v15, v1
+
+    .line 694
+    .line 695
+    move-object/from16 v1, v19
+
+    .line 696
+    .line 697
+    move-object/from16 v19, p2
+
+    .line 698
+    .line 699
+    move-object/from16 v20, p3
+
+    .line 700
+    .line 701
+    move-object/from16 v21, p4
+
+    .line 702
+    .line 703
+    move/from16 v24, p6
+
+    .line 704
+    .line 705
+    move/from16 v25, p7
+
+    .line 706
+    .line 707
+    move-object/from16 v22, v0
+
+    .line 708
+    .line 709
+    .line 710
+    :try_start_21
+    invoke-static/range {v15 .. v25}, Ltu5;->Q(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;ZZ)Lxyc;
+
+    .line 711
+    move-result-object v0
+    :try_end_21
+    .catchall {:try_start_21 .. :try_end_21} :catchall_8
+
+    .line 712
+    .line 713
+    .line 714
+    :try_start_22
+    invoke-static {v1, v13}, Lyv0;->k(Ljava/io/Closeable;Ljava/lang/Throwable;)V
+
+    .line 715
+    .line 716
+    goto/16 :goto_10
+
+    .line 717
+    :catchall_8
+    move-exception v0
+
+    .line 718
+    :goto_14
+    move-object v2, v0
+
+    .line 719
+    goto :goto_16
+
+    .line 720
+    :catchall_9
+    move-exception v0
+
+    .line 721
+    :goto_15
+    move-object v1, v15
+
+    .line 722
+    goto :goto_14
+
+    .line 723
+    :catchall_a
+    move-exception v0
+
+    .line 724
+    goto :goto_15
+
+    .line 725
+    :cond_1a
+    move-object v1, v15
+
+    .line 726
+    .line 727
+    .line 728
+    invoke-static {v1, v13}, Lyv0;->k(Ljava/io/Closeable;Ljava/lang/Throwable;)V
+    :try_end_22
+    .catch Ljava/io/IOException; {:try_start_22 .. :try_end_22} :catch_c
+    .catch Ljava/lang/ArrayIndexOutOfBoundsException; {:try_start_22 .. :try_end_22} :catch_b
+    .catch Ljava/lang/IllegalArgumentException; {:try_start_22 .. :try_end_22} :catch_a
+    .catch Ljava/lang/IllegalStateException; {:try_start_22 .. :try_end_22} :catch_9
+    .catchall {:try_start_22 .. :try_end_22} :catchall_5
+
+    .line 729
+    .line 730
+    .line 731
+    :try_start_23
+    invoke-virtual/range {v26 .. v26}, Luh9;->cancel()V
+    :try_end_23
+    .catchall {:try_start_23 .. :try_end_23} :catchall_4
+
+    .line 732
+    return-object v13
+
+    .line 733
+    :catchall_b
+    move-exception v0
+
+    .line 734
+    move-object v11, v1
+
+    .line 735
+    goto :goto_15
+
+    .line 736
+    :goto_16
+    :try_start_24
+    throw v2
+    :try_end_24
+    .catchall {:try_start_24 .. :try_end_24} :catchall_c
+
+    .line 737
+    :catchall_c
+    move-exception v0
+
+    .line 738
+    .line 739
+    .line 740
+    :try_start_25
+    invoke-static {v1, v2}, Lyv0;->k(Ljava/io/Closeable;Ljava/lang/Throwable;)V
+
+    .line 741
+    throw v0
+    :try_end_25
+    .catch Ljava/io/IOException; {:try_start_25 .. :try_end_25} :catch_c
+    .catch Ljava/lang/ArrayIndexOutOfBoundsException; {:try_start_25 .. :try_end_25} :catch_b
+    .catch Ljava/lang/IllegalArgumentException; {:try_start_25 .. :try_end_25} :catch_a
+    .catch Ljava/lang/IllegalStateException; {:try_start_25 .. :try_end_25} :catch_9
+    .catchall {:try_start_25 .. :try_end_25} :catchall_5
+
+    .line 742
+    :catch_d
+    move-exception v0
+
+    .line 743
+    move-object v11, v1
+
+    .line 744
+    .line 745
+    goto/16 :goto_1d
+
+    .line 746
+    :catch_e
+    move-exception v0
+
+    .line 747
+    move-object v11, v1
+
+    .line 748
+    .line 749
+    goto/16 :goto_1e
+
+    .line 750
+    :catch_f
+    move-exception v0
+
+    .line 751
+    move-object v11, v1
+
+    .line 752
+    .line 753
+    goto/16 :goto_1f
+
+    .line 754
+    :catch_10
+    move-exception v0
+
+    .line 755
+    move-object v11, v1
+
+    .line 756
+    .line 757
+    goto/16 :goto_20
+
+    .line 758
+    :catch_11
+    move-exception v0
+
+    .line 759
+    move-object v11, v1
+
+    .line 760
+    .line 761
+    goto/16 :goto_0
+
+    .line 762
+    :catch_12
+    move-exception v0
+
+    .line 763
+    move-object v11, v1
+
+    .line 764
+    .line 765
+    goto/16 :goto_1
+
+    .line 766
+    :catch_13
+    move-exception v0
+
+    .line 767
+    move-object v11, v1
+
+    .line 768
+    .line 769
+    goto/16 :goto_2
+
+    .line 770
+    :catch_14
+    move-exception v0
+
+    .line 771
+    move-object v11, v1
+
+    .line 772
+    .line 773
+    goto/16 :goto_3
+
+    .line 774
+    :catch_15
+    move-exception v0
+
+    .line 775
+    move-object v11, v1
+
+    .line 776
+    goto :goto_17
+
+    .line 777
+    :catch_16
+    move-exception v0
+
+    .line 778
+    move-object v11, v1
+
+    .line 779
+    goto :goto_18
+
+    .line 780
+    :catch_17
+    move-exception v0
+
+    .line 781
+    move-object v11, v1
+
+    .line 782
+    goto :goto_19
+
+    .line 783
+    :catch_18
+    move-exception v0
+
+    .line 784
+    move-object v11, v1
+
+    .line 785
+    goto :goto_1a
+
+    .line 786
+    :goto_17
+    move-object v1, v11
+
+    .line 787
+    .line 788
+    goto/16 :goto_0
+
+    .line 789
+    :goto_18
+    move-object v1, v11
+
+    .line 790
+    .line 791
+    goto/16 :goto_1
+
+    .line 792
+    :goto_19
+    move-object v1, v11
+
+    .line 793
+    .line 794
+    goto/16 :goto_2
+
+    .line 795
+    :goto_1a
+    move-object v1, v11
+
+    .line 796
+    .line 797
+    goto/16 :goto_3
+
+    .line 798
+    .line 799
+    :goto_1b
+    :try_start_26
+    sget-object v1, Ljava/util/Locale;->ENGLISH:Ljava/util/Locale;
+
+    .line 800
+    .line 801
+    .line 802
+    invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 803
+    .line 804
+    .line 805
+    invoke-virtual {v11, v1}, Ljava/lang/String;->toLowerCase(Ljava/util/Locale;)Ljava/lang/String;
+
+    .line 806
+    move-result-object v2
+
+    .line 807
+    .line 808
+    .line 809
+    invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 810
+    .line 811
+    const-string v3, ".m3u8"
+
+    .line 812
+    .line 813
+    .line 814
+    invoke-static {v2, v3, v14}, Lj6b;->I0(Ljava/lang/CharSequence;Ljava/lang/CharSequence;Z)Z
+
+    .line 815
+    move-result v2
+
+    .line 816
+    .line 817
+    if-eqz v2, :cond_1c
+
+    .line 818
+    .line 819
+    .line 820
+    invoke-virtual {v11, v1}, Ljava/lang/String;->toLowerCase(Ljava/util/Locale;)Ljava/lang/String;
+
+    .line 821
+    move-result-object v1
+
+    .line 822
+    .line 823
+    .line 824
+    invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 825
+    .line 826
+    const-string v2, "x-forwarded-for"
+
+    .line 827
+    .line 828
+    .line 829
+    invoke-static {v1, v2, v14}, Lj6b;->I0(Ljava/lang/CharSequence;Ljava/lang/CharSequence;Z)Z
+
+    .line 830
+    move-result v1
+
+    .line 831
+    .line 832
+    if-eqz v1, :cond_1c
+
+    .line 833
+    .line 834
+    const-string v4, "application/x-mpegurl"
+
+    .line 835
+    .line 836
+    const-string v9, "shouldPlay5"
+    :try_end_26
+    .catchall {:try_start_26 .. :try_end_26} :catchall_e
+
+    .line 837
+    .line 838
+    const-wide/16 v2, -0x1
+
+    .line 839
+    .line 840
+    move-object/from16 v8, p1
+
+    .line 841
+    .line 842
+    move-object/from16 v5, p2
+
+    .line 843
+    .line 844
+    move-object/from16 v6, p3
+
+    .line 845
+    .line 846
+    move-object/from16 v7, p4
+
+    .line 847
+    .line 848
+    move/from16 v10, p6
+
+    .line 849
+    move-object v1, v11
+
+    .line 850
+    .line 851
+    move/from16 v11, p7
+
+    .line 852
+    .line 853
+    .line 854
+    :try_start_27
+    invoke-static/range {v1 .. v11}, Ltu5;->Q(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;ZZ)Lxyc;
+
+    .line 855
+    move-result-object v0
+    :try_end_27
+    .catchall {:try_start_27 .. :try_end_27} :catchall_d
+
+    .line 856
+    .line 857
+    if-eqz v26, :cond_1b
+
+    .line 858
+    .line 859
+    .line 860
+    :try_start_28
+    invoke-virtual/range {v26 .. v26}, Luh9;->cancel()V
+    :try_end_28
+    .catchall {:try_start_28 .. :try_end_28} :catchall_2
+
+    .line 861
+    :cond_1b
+    return-object v0
+
+    .line 862
+    :catchall_d
+    move-exception v0
+
+    .line 863
+    .line 864
+    goto/16 :goto_21
+
+    .line 865
+    :catchall_e
+    move-exception v0
+
+    .line 866
+    move-object v1, v11
+
+    .line 867
+    .line 868
+    goto/16 :goto_21
+
+    .line 869
+    :cond_1c
+    move-object v1, v11
+
+    .line 870
+    .line 871
+    .line 872
+    :try_start_29
+    invoke-static {}, Ltu5;->A()Ljava/lang/String;
+
+    .line 873
+    move-result-object v2
+
+    .line 874
+    .line 875
+    new-instance v3, Ljava/lang/StringBuilder;
+
+    .line 876
+    .line 877
+    .line 878
+    invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
+
+    .line 879
+    .line 880
+    const-string v4, "Unexpected exception loading "
+
+    .line 881
+    .line 882
+    .line 883
+    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 884
+    .line 885
+    .line 886
+    invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    .line 887
+    .line 888
+    .line 889
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 890
+    move-result-object v3
+
+    .line 891
+    .line 892
+    .line 893
+    invoke-static {v2, v3, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+
+    .line 894
+    .line 895
+    .line 896
+    invoke-static {v0}, Ln00;->m(Ljava/lang/Throwable;)V
+    :try_end_29
+    .catchall {:try_start_29 .. :try_end_29} :catchall_d
+
+    .line 897
+    .line 898
+    if-eqz v26, :cond_1e
+
+    .line 899
+    .line 900
+    .line 901
+    :goto_1c
+    :try_start_2a
+    invoke-virtual/range {v26 .. v26}, Luh9;->cancel()V
+    :try_end_2a
+    .catchall {:try_start_2a .. :try_end_2a} :catchall_2
+
+    .line 902
+    .line 903
+    goto/16 :goto_23
+
+    .line 904
+    .line 905
+    .line 906
+    :goto_1d
+    :try_start_2b
+    invoke-static {}, Ltu5;->A()Ljava/lang/String;
+
+    .line 907
+    move-result-object v2
+
+    .line 908
+    .line 909
+    new-instance v3, Ljava/lang/StringBuilder;
+
+    .line 910
+    .line 911
+    .line 912
+    invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
+
+    .line 913
+    .line 914
+    .line 915
+    invoke-virtual {v3, v12}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 916
+    .line 917
+    .line 918
+    invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    .line 919
+    .line 920
+    .line 921
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 922
+    move-result-object v3
+
+    .line 923
+    .line 924
+    .line 925
+    invoke-static {v2, v3, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+
+    .line 926
+    .line 927
+    if-eqz v26, :cond_1e
+
+    .line 928
+    goto :goto_1c
+
+    .line 929
+    .line 930
+    .line 931
+    :goto_1e
+    invoke-static {}, Ltu5;->A()Ljava/lang/String;
+
+    .line 932
+    move-result-object v2
+
+    .line 933
+    .line 934
+    new-instance v3, Ljava/lang/StringBuilder;
+
+    .line 935
+    .line 936
+    .line 937
+    invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
+
+    .line 938
+    .line 939
+    .line 940
+    invoke-virtual {v3, v12}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 941
+    .line 942
+    .line 943
+    invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    .line 944
+    .line 945
+    .line 946
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 947
+    move-result-object v3
+
+    .line 948
+    .line 949
+    .line 950
+    invoke-static {v2, v3, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+
+    .line 951
+    .line 952
+    if-eqz v26, :cond_1e
+
+    .line 953
+    goto :goto_1c
+
+    .line 954
+    .line 955
+    .line 956
+    :goto_1f
+    invoke-static {}, Ltu5;->A()Ljava/lang/String;
+
+    .line 957
+    move-result-object v2
+
+    .line 958
+    .line 959
+    new-instance v3, Ljava/lang/StringBuilder;
+
+    .line 960
+    .line 961
+    .line 962
+    invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
+
+    .line 963
+    .line 964
+    .line 965
+    invoke-virtual {v3, v12}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 966
+    .line 967
+    .line 968
+    invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    .line 969
+    .line 970
+    .line 971
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 972
+    move-result-object v3
+
+    .line 973
+    .line 974
+    .line 975
+    invoke-static {v2, v3, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+
+    .line 976
+    .line 977
+    if-eqz v26, :cond_1e
+
+    .line 978
+    goto :goto_1c
+
+    .line 979
+    .line 980
+    .line 981
+    :goto_20
+    invoke-static {}, Ltu5;->A()Ljava/lang/String;
+
+    .line 982
+    move-result-object v2
+
+    .line 983
+    .line 984
+    new-instance v3, Ljava/lang/StringBuilder;
+
+    .line 985
+    .line 986
+    .line 987
+    invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
+
+    .line 988
+    .line 989
+    .line 990
+    invoke-virtual {v3, v12}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 991
+    .line 992
+    .line 993
+    invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    .line 994
+    .line 995
+    .line 996
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 997
+    move-result-object v3
+
+    .line 998
+    .line 999
+    .line 1000
+    invoke-static {v2, v3, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    :try_end_2b
+    .catchall {:try_start_2b .. :try_end_2b} :catchall_d
+
+    .line 1001
+    .line 1002
+    if-eqz v26, :cond_1e
+
+    .line 1003
+    goto :goto_1c
+
+    .line 1004
+    .line 1005
+    :goto_21
+    if-eqz v26, :cond_1d
+
+    .line 1006
+    .line 1007
+    .line 1008
+    :try_start_2c
+    invoke-virtual/range {v26 .. v26}, Luh9;->cancel()V
+
+    .line 1009
+    :cond_1d
+    throw v0
+    :try_end_2c
+    .catchall {:try_start_2c .. :try_end_2c} :catchall_2
+
+    .line 1010
+    .line 1011
+    .line 1012
+    :goto_22
+    invoke-static {}, Ltu5;->A()Ljava/lang/String;
+
+    .line 1013
+    move-result-object v2
+
+    .line 1014
+    .line 1015
+    new-instance v3, Ljava/lang/StringBuilder;
+
+    .line 1016
+    .line 1017
+    const-string v4, "Unexpected exception getting headers "
+
+    .line 1018
+    .line 1019
+    .line 1020
+    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 1021
+    .line 1022
+    .line 1023
+    invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    .line 1024
+    .line 1025
+    .line 1026
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 1027
+    move-result-object v1
+
+    .line 1028
+    .line 1029
+    .line 1030
+    invoke-static {v2, v1, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+
+    .line 1031
+    .line 1032
+    .line 1033
+    invoke-static {v0}, Ln00;->m(Ljava/lang/Throwable;)V
+
+    .line 1034
+    :cond_1e
+    :goto_23
+    return-object v13
+
+    .line 1035
+    :cond_1f
+    :goto_24
+    const/4 v4, 0x0
+
+    .line 1036
+    .line 1037
+    const-string v9, "shouldPlay1"
+
+    .line 1038
+    .line 1039
+    const-wide/16 v2, -0x1
+
+    .line 1040
+    .line 1041
+    move-object/from16 v8, p1
+
+    .line 1042
+    .line 1043
+    move-object/from16 v5, p2
+
+    .line 1044
+    .line 1045
+    move-object/from16 v6, p3
+
+    .line 1046
+    .line 1047
+    move-object/from16 v7, p4
+
+    .line 1048
+    .line 1049
+    move/from16 v10, p6
+
+    .line 1050
+    .line 1051
+    move/from16 v11, p7
+
+    .line 1052
+    .line 1053
+    .line 1054
+    invoke-static/range {v1 .. v11}, Ltu5;->Q(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;ZZ)Lxyc;
+
+    .line 1055
+    move-result-object v0
+
+    .line 1056
+    return-object v0
+.end method

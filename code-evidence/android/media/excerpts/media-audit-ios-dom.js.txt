@@ -1,0 +1,40 @@
+class DomMonitor {
+    constructor(e) {
+        this.monitors = {};
+        let t = new MutationObserver(e => {
+            let t = e.map(e => [].slice.call(e.addedNodes)).reduce((e, t) => e.concat(t), []).filter(e => e.tagName);
+            Object.keys(this.monitors).forEach(e => {
+                let o = t.filter(t => t.tagName === e.toUpperCase()),
+                    i = t.reduce((t, o) => t.concat([].slice.call(o.getElementsByTagName(e))), []),
+                    s = t.filter(t => t.parentElement && t.parentElement.tagName === e.toUpperCase()).map(e => e.parentElement),
+                    r = o.concat(i).concat(s);
+                r.length > 0 && this.monitors[e](r)
+            })
+        });
+        e && t.observe(e, {
+            childList: !0,
+            subtree: !0,
+            attributes: !1,
+            attributeOldValue: !1,
+            characterDataOldValue: !1
+        })
+    }
+    addObserver(e, t) {
+        this.monitors[e] = t
+    }
+}
+class MessageReceiver {
+    constructor() {
+        this.receivers = {}, window.addEventListener("message", e => {
+            let t = e.data;
+            if (t && t.indexOf && t.indexOf(MessageReceiver.IFRAME_MESSAGE) >= 0) {
+                let e = JSON.parse(t.substring(MessageReceiver.IFRAME_MESSAGE.length));
+                this.receivers[e.tstringype](e)
+            }
+        })
+    }
+    addReceiver(e, t) {
+        this.receivers[e] = t
+    }
+}
+MessageReceiver.IFRAME_MESSAGE = "ibMessageToIFrame";

@@ -1,0 +1,292 @@
+.method private final k(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 8
+
+    .line 1
+    iget-object v0, p0, Lt8;->t:Ljava/lang/Object;
+
+    .line 2
+    .line 3
+    check-cast v0, Lqp2;
+
+    .line 4
+    .line 5
+    iget v1, p0, Lt8;->s:I
+
+    .line 6
+    .line 7
+    const/4 v2, 0x0
+
+    .line 8
+    const/4 v3, 0x1
+
+    .line 9
+    if-eqz v1, :cond_1
+
+    .line 10
+    .line 11
+    if-ne v1, v3, :cond_0
+
+    .line 12
+    .line 13
+    invoke-static {p1}, Ltt9;->m0(Ljava/lang/Object;)V
+
+    .line 14
+    .line 15
+    .line 16
+    goto :goto_0
+
+    .line 17
+    :cond_0
+    const-string p0, "call to \'resume\' before \'invoke\' with coroutine"
+
+    .line 18
+    .line 19
+    invoke-static {p0}, Lsm0;->r(Ljava/lang/String;)V
+
+    .line 20
+    .line 21
+    .line 22
+    return-object v2
+
+    .line 23
+    :cond_1
+    invoke-static {p1}, Ltt9;->m0(Ljava/lang/Object;)V
+
+    .line 24
+    .line 25
+    .line 26
+    iget-object p1, p0, Lt8;->u:Ljava/lang/Object;
+
+    .line 27
+    .line 28
+    check-cast p1, Ljava/util/concurrent/atomic/AtomicReference;
+
+    .line 29
+    .line 30
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 31
+    .line 32
+    .line 33
+    new-instance v1, Ljava/util/LinkedHashSet;
+
+    .line 34
+    .line 35
+    invoke-direct {v1}, Ljava/util/LinkedHashSet;-><init>()V
+
+    .line 36
+    .line 37
+    .line 38
+    new-instance v4, Ljava/util/HashMap;
+
+    .line 39
+    .line 40
+    invoke-direct {v4}, Ljava/util/HashMap;-><init>()V
+
+    .line 41
+    .line 42
+    .line 43
+    invoke-interface {v0}, Ldu4;->getHeaders()Lzj4;
+
+    .line 44
+    .line 45
+    .line 46
+    move-result-object v5
+
+    .line 47
+    new-instance v6, Lxw0;
+
+    .line 48
+    .line 49
+    const/16 v7, 0xa
+
+    .line 50
+    .line 51
+    invoke-direct {v6, v7, v1, v4}, Lxw0;-><init>(ILjava/lang/Object;Ljava/lang/Object;)V
+
+    .line 52
+    .line 53
+    .line 54
+    invoke-interface {v5, v6}, Lf6b;->i(Lx84;)V
+
+    .line 55
+    .line 56
+    .line 57
+    new-instance v5, Lpz5;
+
+    .line 58
+    .line 59
+    invoke-virtual {v0}, Lqp2;->d()Liw4;
+
+    .line 60
+    .line 61
+    .line 62
+    move-result-object v6
+
+    .line 63
+    iget v6, v6, Liw4;->a:I
+
+    .line 64
+    .line 65
+    invoke-virtual {v0}, Lqp2;->B()Lns4;
+
+    .line 66
+    .line 67
+    .line 68
+    move-result-object v7
+
+    .line 69
+    invoke-virtual {v7}, Lns4;->c()Lyu4;
+
+    .line 70
+    .line 71
+    .line 72
+    move-result-object v7
+
+    .line 73
+    invoke-interface {v7}, Lyu4;->getUrl()Lkdc;
+
+    .line 74
+    .line 75
+    .line 76
+    move-result-object v7
+
+    .line 77
+    iget-object v7, v7, Lkdc;->f:Ljava/lang/String;
+
+    .line 78
+    .line 79
+    invoke-direct {v5, v6, v7, v1, v4}, Lpz5;-><init>(ILjava/lang/String;Ljava/util/LinkedHashSet;Ljava/util/HashMap;)V
+
+    .line 80
+    .line 81
+    .line 82
+    invoke-virtual {p1, v5}, Ljava/util/concurrent/atomic/AtomicReference;->set(Ljava/lang/Object;)V
+
+    .line 83
+    .line 84
+    .line 85
+    iget-object p1, p0, Lt8;->v:Ljava/lang/Object;
+
+    .line 86
+    .line 87
+    check-cast p1, Ljava/util/concurrent/CountDownLatch;
+
+    .line 88
+    .line 89
+    invoke-virtual {p1}, Ljava/util/concurrent/CountDownLatch;->countDown()V
+
+    .line 90
+    .line 91
+    .line 92
+    iput-object v2, p0, Lt8;->t:Ljava/lang/Object;
+
+    .line 93
+    .line 94
+    iput v3, p0, Lt8;->s:I
+
+    .line 95
+    .line 96
+    invoke-static {v0, p0}, Lrhc;->H(Lqp2;Lm22;)Ljava/lang/Object;
+
+    .line 97
+    .line 98
+    .line 99
+    move-result-object p1
+
+    .line 100
+    sget-object v0, Lp42;->a:Lp42;
+
+    .line 101
+    .line 102
+    if-ne p1, v0, :cond_2
+
+    .line 103
+    .line 104
+    return-object v0
+
+    .line 105
+    :cond_2
+    :goto_0
+    check-cast p1, Ls21;
+
+    .line 106
+    .line 107
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 108
+    .line 109
+    .line 110
+    new-instance v0, Lit0;
+
+    .line 111
+    .line 112
+    const/4 v1, 0x0
+
+    .line 113
+    invoke-direct {v0, p1, v1}, Lit0;-><init>(Ljava/lang/Object;I)V
+
+    .line 114
+    .line 115
+    .line 116
+    iget-object p0, p0, Lt8;->w:Ljava/lang/Object;
+
+    .line 117
+    .line 118
+    check-cast p0, Ljava/io/PipedOutputStream;
+
+    .line 119
+    .line 120
+    const/high16 p1, 0x10000
+
+    .line 121
+    .line 122
+    :try_start_0
+    invoke-static {v0, p0, p1}, Lwn1;->R(Ljava/io/InputStream;Ljava/io/OutputStream;I)J
+
+    .line 123
+    .line 124
+    .line 125
+    move-result-wide p0
+
+    .line 126
+    new-instance v1, Ljava/lang/Long;
+
+    .line 127
+    .line 128
+    invoke-direct {v1, p0, p1}, Ljava/lang/Long;-><init>(J)V
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 129
+    .line 130
+    .line 131
+    invoke-virtual {v0}, Lit0;->close()V
+
+    .line 132
+    .line 133
+    .line 134
+    return-object v1
+
+    .line 135
+    :catchall_0
+    move-exception p0
+
+    .line 136
+    :try_start_1
+    throw p0
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_1
+
+    .line 137
+    :catchall_1
+    move-exception p1
+
+    .line 138
+    invoke-static {v0, p0}, Lyv0;->k(Ljava/io/Closeable;Ljava/lang/Throwable;)V
+
+    .line 139
+    .line 140
+    .line 141
+    throw p1
+.end method

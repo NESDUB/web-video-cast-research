@@ -1,0 +1,97 @@
+.method public final g(Landroid/webkit/WebView;Ljava/lang/String;Ljava/util/Map;)Landroid/webkit/WebResourceResponse;
+    .locals 8
+
+    .line 1
+    new-instance v0, Lyxc;
+
+    .line 2
+    .line 3
+    iget-object v0, p0, Luwc;->g:Lm48;
+
+    .line 4
+    .line 5
+    if-nez v0, :cond_0
+
+    .line 6
+    .line 7
+    const/4 v0, 0x0
+
+    .line 8
+    const-string v1, "intercept"
+
+    .line 9
+    .line 10
+    invoke-static {v1, v0}, Luwc;->b(Ljava/lang/String;Z)Lm48;
+
+    .line 11
+    .line 12
+    .line 13
+    move-result-object v0
+
+    .line 14
+    iput-object v0, p0, Luwc;->g:Lm48;
+
+    .line 15
+    .line 16
+    :cond_0
+    move-object v4, v0
+
+    .line 17
+    iget-object v0, p0, Luwc;->f:Lm48;
+
+    .line 18
+    .line 19
+    if-nez v0, :cond_1
+
+    .line 20
+    .line 21
+    const/4 v0, 0x1
+
+    .line 22
+    const-string v1, "intercept_rd"
+
+    .line 23
+    .line 24
+    invoke-static {v1, v0}, Luwc;->b(Ljava/lang/String;Z)Lm48;
+
+    .line 25
+    .line 26
+    .line 27
+    move-result-object v0
+
+    .line 28
+    iput-object v0, p0, Luwc;->f:Lm48;
+
+    .line 29
+    .line 30
+    :cond_1
+    move-object v5, v0
+
+    .line 31
+    iget-object v2, p0, Luwc;->a:Lwzc;
+
+    .line 32
+    .line 33
+    const-string v3, "intercept"
+
+    .line 34
+    .line 35
+    move-object v1, p1
+
+    .line 36
+    move-object v6, p2
+
+    .line 37
+    move-object v7, p3
+
+    .line 38
+    invoke-static/range {v1 .. v7}, Lyxc;->c(Landroid/webkit/WebView;Lwzc;Ljava/lang/String;Lm48;Lm48;Ljava/lang/String;Ljava/util/Map;)Landroid/webkit/WebResourceResponse;
+
+    .line 39
+    .line 40
+    .line 41
+    move-result-object p0
+
+    .line 42
+    return-object p0
+.end method

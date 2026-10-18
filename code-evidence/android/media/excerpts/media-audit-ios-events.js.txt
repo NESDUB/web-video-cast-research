@@ -1,0 +1,78 @@
+    }), window.addEventListener("__ib_x", t => {
+        const o = t && t.detail && t.detail.o;
+        let i = [],
+            s = t.detail.h || {};
+        if (t.detail.x && (i = (t.detail.x.getAllResponseHeaders() || "").trim().split(/[\r\n]+/)), o && o.length >= 2) {
+            let t = {
+                type: "xhrRequest",
+                from: e.location,
+                method: o[0],
+                url: IBDocument.getAbsoluteUrl(o[1]),
+                requestHeaders: s,
+                responseHeaders: i
+            };
+            o.length >= 5 && (t.user = o[3], t.password = o[4]), NativeApp.sendMessage(t)
+        }
+    }), window.addEventListener("__ib_f", t => {
+        const o = t && t.detail && t.detail.o || [],
+            i = t && t.detail && t.detail.r;
+        let s = null;
+        o.length > 0 && "string" == typeof o[0] ? s = new Request(o[0], o.length > 1 ? o[1] : void 0) : o.length > 0 && o[0].url && (s = o[0]);
+        let r = [];
+        if (i && i.headers && i.headers.forEach((e, t) => {
+                r.push(`${t}: ${e}`)
+            }), s && s.url) {
+            let t = {
+                type: "xhrRequest",
+                from: e.location,
+                method: s.method,
+                url: IBDocument.getAbsoluteUrl(s.url),
+                responseHeaders: r
+            };
+            o.length >= 5 && (t.user = o[3], t.password = o[4]), NativeApp.sendMessage(t)
+        }
+    }), window.addEventListener("__ib_w", t => {
+        const o = t && t.detail && t.detail.a || [];
+        if (o.length > 0 && "object" == typeof o[0] && "load" == o[0].funcName && Array.isArray(o[0].args) && o[0].args.length > 0 && "string" == typeof o[0].args[0]) {
+            let t = {
+                type: "xhrRequest",
+                from: e.location,
+                method: "GET",
+                url: IBDocument.getAbsoluteUrl(o[0].args[0])
+            };
+            NativeApp.sendMessage(t)
+        }
+    }), window.addEventListener("__ib_c", () => {
+        let t = {
+            type: "cookiesChanged",
+            from: e.location
+        };
+        NativeApp.sendMessage(t)
+    }), window.addEventListener("__ib_b", t => {
+        const o = t && t.detail && t.detail.o || [],
+            i = t && t.detail && t.detail.r;
+        if (o.length > 0 && o[0] instanceof Blob && i && "string" == typeof i) {
+            const t = o[0];
+            new Promise((e, o) => {
+                const i = new FileReader;
+                i.onloadend = (() => e(i.result)), i.onerror = o, i.readAsDataURL(t)
+            }).then(o => {
+                let s = {
+                    type: "blobRequest",
+                    from: e.location,
+                    mime: t.type,
+                    url: o,
+                    browserUrl: i
+                };
+                NativeApp.sendMessage(s)
+            }).catch(e => console.error(e))
+        }
+    });
+    let b = [],
+        y = e => {
+            let t = new DomMonitor(e);
+            b.push(t), d(t)
+        };
+    if ((window.__ib_s_ || []).slice().forEach(e => y(e)), window.addEventListener("__ib_s", e => {
+            const t = e && e.detail && e.detail.s;
+            t && y(t)

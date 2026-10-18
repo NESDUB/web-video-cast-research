@@ -1,0 +1,90 @@
+    sget-object p0, Lcx4;->a:Lvgb;
+
+    .line 53
+    .line 54
+    new-instance p0, Ll48;
+
+    .line 55
+    .line 56
+    invoke-direct {p0}, Ll48;-><init>()V
+
+    .line 57
+    .line 58
+    .line 59
+    invoke-static {p0}, Lcx4;->b(Ll48;)V
+
+    .line 60
+    .line 61
+    .line 62
+    const-wide/16 v3, 0x1e
+
+    .line 63
+    .line 64
+    sget-object p2, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
+
+    .line 65
+    .line 66
+    invoke-virtual {p0, v3, v4, p2}, Ll48;->a(JLjava/util/concurrent/TimeUnit;)V
+
+    .line 67
+    .line 68
+    .line 69
+    const-wide/16 v5, 0x3c
+
+    .line 70
+    .line 71
+    invoke-static {v5, v6, p2}, Liad;->b(JLjava/util/concurrent/TimeUnit;)I
+
+    .line 72
+    .line 73
+    .line 74
+    move-result v5
+
+    .line 75
+    iput v5, p0, Ll48;->A:I
+
+    .line 76
+    .line 77
+    invoke-static {v3, v4, p2}, Liad;->b(JLjava/util/concurrent/TimeUnit;)I
+
+    .line 78
+    .line 79
+    .line 80
+    move-result p2
+
+    .line 81
+    iput p2, p0, Ll48;->B:I
+
+    .line 82
+    .line 83
+    iput-boolean v2, p0, Ll48;->i:Z
+
+    .line 84
+    .line 85
+    iput-boolean v2, p0, Ll48;->j:Z
+
+    .line 86
+    .line 87
+    new-instance p2, Loo2;
+
+    .line 88
+    .line 89
+    invoke-direct {p2, p1}, Loo2;-><init>(Ljava/lang/String;)V
+
+    .line 90
+    .line 91
+    .line 92
+    iput-object p2, p0, Ll48;->h:Lqa0;
+
+    .line 93
+    .line 94
+    invoke-static {p0}, Lcx4;->d(Ll48;)V
+
+    .line 95
+    .line 96
+    .line 97
+    new-instance p2, Lm48;
+
+    .line 98
+    .line 99
+    invoke-direct {p2, p0}, Lm48;-><init>(Ll48;)V

@@ -1,0 +1,410 @@
+.method public final o(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLjava/util/LinkedHashMap;Ljava/lang/String;JJLjava/lang/String;)V
+    .locals 17
+
+    .line 1
+    .line 2
+    move-object/from16 v0, p0
+
+    .line 3
+    .line 4
+    move-object/from16 v2, p1
+
+    .line 5
+    .line 6
+    move-object/from16 v1, p6
+
+    .line 7
+    .line 8
+    move-object/from16 v3, p7
+
+    .line 9
+    .line 10
+    move-object/from16 v4, p12
+
+    .line 11
+    const/4 v5, 0x0
+
+    .line 12
+    .line 13
+    iget-object v6, v0, Lsg1;->b:Lwzc;
+
+    .line 14
+    .line 15
+    if-eqz v6, :cond_0
+
+    .line 16
+    .line 17
+    .line 18
+    invoke-virtual {v6}, Lwzc;->l()Lomc;
+
+    .line 19
+    move-result-object v7
+
+    .line 20
+    goto :goto_0
+
+    .line 21
+    :cond_0
+    move-object v7, v5
+
+    .line 22
+    .line 23
+    :goto_0
+    if-eqz v7, :cond_1
+
+    .line 24
+    .line 25
+    :goto_1
+    move-object/from16 v10, p3
+
+    .line 26
+    goto :goto_2
+
+    .line 27
+    :cond_1
+    move-object v7, v5
+
+    .line 28
+    goto :goto_1
+
+    .line 29
+    .line 30
+    .line 31
+    :goto_2
+    invoke-static {v10, v2, v5, v7}, Ltoc;->b(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lomc;)Z
+
+    .line 32
+    move-result v5
+
+    .line 33
+    .line 34
+    if-eqz v5, :cond_2
+
+    .line 35
+    .line 36
+    goto/16 :goto_5
+
+    .line 37
+    .line 38
+    :cond_2
+    iget-boolean v13, v6, Lwzc;->g:Z
+
+    .line 39
+    .line 40
+    iget-boolean v14, v6, Lwzc;->e:Z
+
+    .line 41
+    .line 42
+    iget-boolean v15, v6, Lwzc;->r:Z
+
+    .line 43
+    .line 44
+    sget-object v8, Lsg1;->q:Lt92;
+
+    .line 45
+    .line 46
+    const-string v12, "playVideoRightAway"
+
+    .line 47
+    .line 48
+    move-object/from16 v9, p2
+
+    .line 49
+    .line 50
+    move-object/from16 v11, p4
+
+    .line 51
+    .line 52
+    .line 53
+    invoke-static/range {v8 .. v15}, Lt92;->x(Lt92;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZZ)Lxyc;
+
+    .line 54
+    move-result-object v5
+
+    .line 55
+    .line 56
+    move/from16 v6, p5
+
+    .line 57
+    .line 58
+    iput-boolean v6, v5, Lxyc;->o:Z
+
+    .line 59
+    .line 60
+    if-eqz v1, :cond_3
+
+    .line 61
+    .line 62
+    .line 63
+    invoke-virtual {v5, v1}, Lxyc;->e(Ljava/util/Map;)V
+
+    .line 64
+    .line 65
+    :cond_3
+    new-instance v12, Ljava/util/LinkedHashMap;
+
+    .line 66
+    .line 67
+    .line 68
+    invoke-direct {v12}, Ljava/util/LinkedHashMap;-><init>()V
+
+    .line 69
+    .line 70
+    if-eqz v3, :cond_6
+
+    .line 71
+    .line 72
+    .line 73
+    invoke-static {v3}, Lj6b;->W0(Ljava/lang/CharSequence;)Z
+
+    .line 74
+    move-result v1
+
+    .line 75
+    .line 76
+    if-eqz v1, :cond_4
+
+    .line 77
+    goto :goto_3
+
+    .line 78
+    .line 79
+    .line 80
+    :cond_4
+    invoke-virtual {v2, v3}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    .line 81
+    move-result v1
+
+    .line 82
+    .line 83
+    if-nez v1, :cond_6
+
+    .line 84
+    .line 85
+    .line 86
+    invoke-static {v3}, Lsg1;->l(Ljava/lang/String;)Z
+
+    .line 87
+    move-result v1
+
+    .line 88
+    .line 89
+    if-nez v1, :cond_6
+
+    .line 90
+    .line 91
+    .line 92
+    invoke-static {v2}, Lsg1;->l(Ljava/lang/String;)Z
+
+    .line 93
+    move-result v1
+
+    .line 94
+    .line 95
+    if-eqz v1, :cond_5
+
+    .line 96
+    goto :goto_3
+
+    .line 97
+    .line 98
+    :cond_5
+    const-string v1, "Referer"
+
+    .line 99
+    .line 100
+    .line 101
+    invoke-static {v3, v2}, Lsg1;->h(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    .line 102
+    move-result-object v3
+
+    .line 103
+    .line 104
+    .line 105
+    invoke-interface {v12, v1, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 106
+    .line 107
+    :cond_6
+    :goto_3
+    if-eqz v4, :cond_8
+
+    .line 108
+    .line 109
+    .line 110
+    invoke-static {v4}, Lj6b;->W0(Ljava/lang/CharSequence;)Z
+
+    .line 111
+    move-result v1
+
+    .line 112
+    .line 113
+    if-eqz v1, :cond_7
+
+    .line 114
+    goto :goto_4
+
+    .line 115
+    .line 116
+    :cond_7
+    const-string v1, "Origin"
+
+    .line 117
+    .line 118
+    .line 119
+    invoke-interface {v12, v1, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 120
+    :cond_8
+    :goto_4
+    const/4 v15, 0x0
+
+    .line 121
+    .line 122
+    const/16 v16, 0x71e
+
+    .line 123
+    const/4 v3, 0x0
+
+    .line 124
+    move-object v1, v5
+
+    .line 125
+    .line 126
+    const-wide/16 v4, 0x0
+
+    .line 127
+    const/4 v6, 0x0
+
+    .line 128
+    const/4 v7, 0x0
+
+    .line 129
+    const/4 v13, 0x0
+
+    .line 130
+    const/4 v14, 0x0
+
+    .line 131
+    .line 132
+    move-wide/from16 v8, p8
+
+    .line 133
+    .line 134
+    move-wide/from16 v10, p10
+
+    .line 135
+    .line 136
+    .line 137
+    invoke-static/range {v1 .. v16}, Lxyc;->c(Lxyc;Ljava/lang/String;Ljava/lang/String;JLjava/lang/String;ZJJLjava/util/Map;ZZLjava/lang/String;I)Lnyc;
+
+    .line 138
+    move-result-object v3
+
+    .line 139
+    .line 140
+    .line 141
+    invoke-static {v1}, Ljk2;->Z(Ljava/lang/Object;)Ljava/util/List;
+
+    .line 142
+    move-result-object v4
+
+    .line 143
+    .line 144
+    .line 145
+    invoke-virtual {v0, v4}, Lsg1;->d(Ljava/util/List;)V
+
+    .line 146
+    .line 147
+    sget-object v4, Lsm9;->b:Lvgb;
+
+    .line 148
+    .line 149
+    .line 150
+    invoke-static {}, Lvj5;->O()Lsm9;
+
+    .line 151
+    move-result-object v4
+
+    .line 152
+    .line 153
+    sget-object v5, Lob4;->e:Lob4;
+
+    .line 154
+    .line 155
+    const/4 v6, 0x0
+
+    sget-object v6, Lcom/mbridge/msdk/config/component/animation/ll/OFEddKyuShZTaT;->mukNrYuJ:Ljava/lang/String;
+
+    .line 156
+    .line 157
+    const-string v7, "\n        {\n            \"type\": \"any\",\n            \"rules\": [\n                {\n                    \"field\": \"url\",\n                    \"function\": \"contains\",\n                    \"alternatives\": [\n                        \"gstatic.com/images\",\n                        \"gstatic.com/video\"\n                    ]\n                },\n                {\n                    \"field\": \"url\",\n                    \"function\": \"matchesRegex\",\n                    \"alternatives\": [\n                        \"^https?://thumb-.*\\\\.xhcdn.com/.*\"\n                    ]\n                }\n            ]\n        }\n    "
+
+    .line 158
+    .line 159
+    .line 160
+    invoke-virtual {v5, v4, v6, v7}, Lfm1;->p0(Lsm9;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;
+
+    .line 161
+    move-result-object v4
+
+    .line 162
+    .line 163
+    check-cast v4, Lnb4;
+
+    .line 164
+    .line 165
+    new-instance v5, Lhra;
+
+    .line 166
+    const/4 v6, 0x0
+
+    .line 167
+    .line 168
+    .line 169
+    invoke-direct {v5, v6}, Lhra;-><init>(I)V
+
+    .line 170
+    .line 171
+    const-string v6, "url"
+
+    .line 172
+    .line 173
+    iget-object v7, v5, Lhra;->b:Ljava/util/LinkedHashMap;
+
+    .line 174
+    .line 175
+    .line 176
+    invoke-interface {v7, v6, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 177
+    .line 178
+    iget-object v2, v4, Lnb4;->a:Lcra;
+
+    .line 179
+    .line 180
+    .line 181
+    invoke-virtual {v2, v5}, Lcra;->a(Lhra;)Z
+
+    .line 182
+    move-result v2
+
+    .line 183
+    .line 184
+    if-eqz v2, :cond_9
+
+    .line 185
+    :goto_5
+    return-void
+
+    .line 186
+    .line 187
+    .line 188
+    :cond_9
+    invoke-virtual {v0, v3, v1}, Lsg1;->n(Lnyc;Lxyc;)V
+
+    .line 189
+    return-void
+.end method

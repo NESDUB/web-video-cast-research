@@ -1,0 +1,80 @@
+.method public close()V
+    .locals 2
+
+    .line 1
+    iget v0, p0, Lit0;->a:I
+
+    .line 2
+    .line 3
+    iget-object v1, p0, Lit0;->b:Ljava/lang/Object;
+
+    .line 4
+    .line 5
+    packed-switch v0, :pswitch_data_0
+
+    .line 6
+    .line 7
+    .line 8
+    :pswitch_0
+    invoke-super {p0}, Ljava/io/InputStream;->close()V
+
+    .line 9
+    .line 10
+    .line 11
+    return-void
+
+    .line 12
+    :pswitch_1
+    check-cast v1, Lqh9;
+
+    .line 13
+    .line 14
+    invoke-virtual {v1}, Lqh9;->close()V
+
+    .line 15
+    .line 16
+    .line 17
+    return-void
+
+    .line 18
+    :pswitch_2
+    invoke-super {p0}, Ljava/io/InputStream;->close()V
+
+    .line 19
+    .line 20
+    .line 21
+    check-cast v1, Lit0;
+
+    .line 22
+    .line 23
+    invoke-virtual {v1}, Lit0;->close()V
+
+    .line 24
+    .line 25
+    .line 26
+    :pswitch_3
+    return-void
+
+    .line 27
+    :pswitch_4
+    check-cast v1, Ls21;
+
+    .line 28
+    .line 29
+    invoke-static {v1}, Lead;->h(Ls21;)V
+
+    .line 30
+    .line 31
+    .line 32
+    return-void
+
+    .line 33
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_4
+        :pswitch_3
+        :pswitch_0
+        :pswitch_2
+        :pswitch_1
+    .end packed-switch
+.end method

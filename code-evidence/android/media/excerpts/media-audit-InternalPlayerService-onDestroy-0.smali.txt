@@ -1,0 +1,28 @@
+.method public final onDestroy()V
+    .locals 1
+
+    .line 1
+    invoke-static {}, Lo8d;->E()Ljava/lang/String;
+
+    .line 2
+    .line 3
+    .line 4
+    const/4 v0, 0x0
+
+    .line 5
+    sput-boolean v0, Lcom/instantbits/cast/webvideo/player/InternalPlayerService;->y:Z
+
+    .line 6
+    .line 7
+    invoke-virtual {p0}, Lcom/instantbits/cast/webvideo/player/InternalPlayerService;->m()V
+
+    .line 8
+    .line 9
+    .line 10
+    invoke-super {p0}, Landroid/app/Service;->onDestroy()V
+
+    .line 11
+    .line 12
+    .line 13
+    return-void
+.end method

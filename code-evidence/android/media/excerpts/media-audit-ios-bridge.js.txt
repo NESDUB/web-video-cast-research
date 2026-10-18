@@ -1,0 +1,10 @@
+class NativeApp {
+    static sendMessage(e) {
+        try {
+            let t = window.webkit;
+            t && t.messageHandlers || (t = window._webkit), t.messageHandlers.ibfunctions.postMessage(JSON.stringify(e))
+        } catch (e) {
+            ibConsole.log("The native context does not exist yet: " + e)
+        }
+    }
+}

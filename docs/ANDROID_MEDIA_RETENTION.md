@@ -1,5 +1,7 @@
 # Android media retention and selective pruning
 
+> **Current media status (2026-10-17):** use the [current gap register](MEDIA_GAPS.md) and [comprehensive static audit](MEDIA_STATIC_AUDIT.md). This document preserves chronological findings; older “remaining/open” lists and historical test commands below are not the current backlog or authorization to run tests. No behavioral tests were run for the new audit.
+
 Static analysis only. No caches were opened or cleared, and no app state changed. Direct-reference inventory: results/android-shared-media-field-references.json. An absence in direct references does not rule out aliasing, reflection or indirect maintenance.
 
 ## Distinct stores have distinct policies

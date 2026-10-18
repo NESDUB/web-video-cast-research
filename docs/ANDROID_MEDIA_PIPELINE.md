@@ -1,5 +1,7 @@
 # Android media pipeline: code investigation
 
+> **Current media status (2026-10-17):** use the [current gap register](MEDIA_GAPS.md) and [comprehensive static audit](MEDIA_STATIC_AUDIT.md). This document preserves chronological findings; older “remaining/open” lists and historical test commands below are not the current backlog or authorization to run tests. No behavioral tests were run for the new audit.
+
 This connects retained implementation files into a pipeline. Evidence is static unless explicitly stated in older research documents. **No new application, playback, download or browser tests were run for this checkpoint.** The user's requested investigation-only phase remains in effect.
 
 ## Overall flow

@@ -1,5 +1,7 @@
 # Android media gap coverage
 
+> **Current media status (2026-10-17):** use the [current gap register](MEDIA_GAPS.md) and [comprehensive static audit](MEDIA_STATIC_AUDIT.md). This document preserves chronological findings; older “remaining/open” lists and historical test commands below are not the current backlog or authorization to run tests. No behavioral tests were run for the new audit.
+
 Scope: follow-up static investigation of the remaining scheduling, export and delivery questions. No behavioral tests run. Read this with ANDROID_MEDIA_PIPELINE.md sections 11–15 and the indexed code evidence.
 
 | Question | Current conclusion | Evidence |

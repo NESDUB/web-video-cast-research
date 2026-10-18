@@ -1,0 +1,597 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-17",
+  "scope": "Current stable media question IDs; resolved paths are distinct from runtime questions",
+  "items": [
+    {
+      "id": "M01",
+      "platform": "Android",
+      "stage": "DOM discovery",
+      "status": "resolved",
+      "question": "What is actually scanned and when are discoveries sent?",
+      "finding": "Initial/readiness and play scans, child-node observers, player APIs, frame messages and console JSON are connected. Main observer does not observe attributes; explicit generic audio DOM discovery is not established.",
+      "evidence": [
+        "ANDROID_DISCOVERY_AND_CONTEXT.md",
+        "ANDROID_LIFECYCLE_AND_INJECTION.md",
+        "MEDIA_STATIC_AUDIT.md"
+      ],
+      "closure": "Closed for the inspected script; callback delivery and real-player continuity are M09.",
+      "implementation_relevance": "High: combine multiple observation sources and preserve page behavior."
+    },
+    {
+      "id": "M02",
+      "platform": "Android",
+      "stage": "Frame/injection installation",
+      "status": "protected/encrypted code",
+      "question": "Is every frame, startup/reload and newly installed browser callback covered?",
+      "finding": "uwc/xgb and page-reset branches are visible; browser onCreate/onResume/onDestroy call protected reflective Method fields. Cross-origin messaging requires a cooperating installed script.",
+      "evidence": [
+        "MEDIA_STATIC_AUDIT.md",
+        "ANDROID_LIFECYCLE_AND_INJECTION.md",
+        "ANDROID_BLOCKING_STATIC_AUDIT.md"
+      ],
+      "closure": "Readable implementation/initialization of the protected entry points; later frame instrumentation is a separate runtime check.",
+      "implementation_relevance": "High: all-frame injection and reliable teardown must be independently designed."
+    },
+    {
+      "id": "M03",
+      "platform": "Android",
+      "stage": "Provider adapters",
+      "status": "resolved",
+      "question": "How do packaged player/provider adapters reach native candidates?",
+      "finding": "Primary player APIs, TCPlayer validation, m3u8Segments and hhtqManifest paths connect to native construction; generic text/JSON adapters use separate native fetches. This is package-specific coverage, not all providers.",
+      "evidence": [
+        "ANDROID_DISCOVERY_AND_CONTEXT.md",
+        "ANDROID_MEDIA_PIPELINE.md",
+        "MEDIA_STATIC_AUDIT.md"
+      ],
+      "closure": "Closed for connected named adapter paths; live provider validity remains M09/M39.",
+      "implementation_relevance": "High: adapters are optional, scoped, independently implemented components."
+    },
+    {
+      "id": "M04",
+      "platform": "Android",
+      "stage": "Blob/MSE source recovery",
+      "status": "resolved",
+      "question": "Does the located mechanism record arbitrary MSE/blob media?",
+      "finding": "No generic SourceBuffer/createObjectURL recorder is established. Page metadata emits segment references, interception supplies yxc.q path mappings, sg1.q builds a local HLS candidate; disabling DASH can change isTypeSupported.",
+      "evidence": [
+        "ANDROID_DISCOVERY_AND_CONTEXT.md",
+        "ANDROID_LIFECYCLE_AND_INJECTION.md",
+        "MEDIA_STATIC_AUDIT.md"
+      ],
+      "closure": "Closed as a bounded mechanism distinction; arbitrary media-hook installation remains M05.",
+      "implementation_relevance": "High: a blob URL is not a transferable origin URL or recorded stream."
+    },
+    {
+      "id": "M05",
+      "platform": "Android",
+      "stage": "Additional hook production",
+      "status": "protected/encrypted code",
+      "question": "Can protected/dynamic injection install additional generic fetch/XHR/MSE hooks?",
+      "finding": "The 50-file JS census separates injected scripts from bundled receiver libraries; protected startup and script-producing entry points prevent universal absence claims.",
+      "evidence": [
+        "MEDIA_STATIC_AUDIT.md",
+        "MEDIA_METHOD_INVENTORY.md"
+      ],
+      "closure": "Recover the missing protected producers/active script content without resolving secrets; runtime observation later if authorized.",
+      "implementation_relevance": "High when claiming general segment capture; do not promise it from the present evidence."
+    },
+    {
+      "id": "M06",
+      "platform": "Android",
+      "stage": "URL/type construction",
+      "status": "resolved",
+      "question": "Are normalization, scheme handling and validation one common operation?",
+      "finding": "No: DOM URL resolution, native replacements/decoding, exact cache keys, MIME/extension helpers, 64-byte HLS validation and manifest/receiver rewriting occur at different stages.",
+      "evidence": [
+        "ANDROID_DISCOVERY_AND_CONTEXT.md",
+        "ANDROID_MEDIA_PIPELINE.md",
+        "MEDIA_STATIC_AUDIT.md"
+      ],
+      "closure": "Closed for connected stages; universal malformed-input/format conformance is M20.",
+      "implementation_relevance": "High: retain original and transformed URL and validation confidence separately."
+    },
+    {
+      "id": "M07",
+      "platform": "Android",
+      "stage": "Identity/merge/order/filter",
+      "status": "resolved",
+      "question": "What identities and mutations affect candidates?",
+      "finding": "URL/MIME identity excludes headers; context and shared lists differ; metadata/header merges, playlist-child pruning and timestamp ordering are traced. Equal context-group merges need not notify.",
+      "evidence": [
+        "ANDROID_DISCOVERY_AND_CONTEXT.md",
+        "ANDROID_MEDIA_RETENTION.md",
+        "MEDIA_STATIC_AUDIT.md"
+      ],
+      "closure": "Closed for these visible data structures; sorting/races and rendered consequences remain M09/M41.",
+      "implementation_relevance": "High: deduplicate with profile/page/request provenance, not URL alone."
+    },
+    {
+      "id": "M08",
+      "platform": "Android",
+      "stage": "Icon/list registration",
+      "status": "protected/encrypted code",
+      "question": "Where is WebBrowser.mvc installed and removed, and does every mutation rebuild the list?",
+      "finding": "qmc.g to mvc/una18/w1/yuc is visible. Only constructor q0 write is found in direct DEX references. VideoListActivity listener znc.a is empty; initial xnc2 to h0 rebuild is visible.",
+      "evidence": [
+        "MEDIA_STATIC_AUDIT.md",
+        "MEDIA_EVIDENCE_INDEX.md"
+      ],
+      "closure": "Readable protected browser startup/teardown registration and any additional refresh producer; do not infer registration from the listener class.",
+      "implementation_relevance": "High: explicit event/version model and subscription ownership are needed."
+    },
+    {
+      "id": "M09",
+      "platform": "Android",
+      "stage": "Discovery/UI/player continuity",
+      "status": "runtime unverified",
+      "question": "Do actual clicks, frame/cache callbacks, icon/list updates and player handoff work under blocking?",
+      "finding": "Static producers/consumers are connected; no instrumented device/browser observation was performed. User three-click report remains an observation, not a rule.",
+      "evidence": [
+        "MEDIA_STATIC_AUDIT.md",
+        "ANDROID_BLOCKING_GAPS.md"
+      ],
+      "closure": "Later authorized instrumentation of callbacks and UI/player state, including cached/worker/cross-origin paths.",
+      "implementation_relevance": "High: preserve clicks and report detection confidence; no fixed retry count."
+    },
+    {
+      "id": "M10",
+      "platform": "Android",
+      "stage": "Header/private-context capture",
+      "status": "resolved",
+      "question": "Where do headers/cookies/private selection originate and which values win?",
+      "finding": "bwc to jd9, case-insensitive nyc merging, y97 current-cookie selection, proxy registration and stored/cache/current-cookie/engine precedence are connected; Range removed from candidate merge. The stored-header exclusion is range; the earlier accept-encoding inference is corrected by tracing the final enumeration pass.",
+      "evidence": [
+        "ANDROID_HTTP_CONTEXT.md",
+        "ANDROID_DISCOVERY_AND_CONTEXT.md",
+        "MEDIA_STATIC_AUDIT.md"
+      ],
+      "closure": "Closed for the named common chain; shared lifetime/private boundaries M32/M33.",
+      "implementation_relevance": "High: explicit provenance and destination-aware credential handling."
+    },
+    {
+      "id": "M11",
+      "platform": "Android",
+      "stage": "Final response cookies",
+      "status": "resolved",
+      "question": "Which URL receives final response cookies?",
+      "finding": "Wrapper ld9.v final URL reaches v1 through normal HLS/plain/DASH branches, then exact Set-Cookie match calls jd9.c(v1,...). No explicit flush/wait.",
+      "evidence": [
+        "MEDIA_STATIC_AUDIT.md",
+        "ANDROID_HTTP_CONTEXT.md",
+        "MEDIA_EVIDENCE_INDEX.md"
+      ],
+      "closure": "Closed at the static sink/argument level; platform acceptance/casing M13.",
+      "implementation_relevance": "High: attribute response cookies to their actual origin and store."
+    },
+    {
+      "id": "M12",
+      "platform": "Android",
+      "stage": "Redirect cookie/auth policy",
+      "status": "resolved",
+      "question": "Are cookies refreshed/saved at intermediate redirects and how do engines differ?",
+      "finding": "Inspected proxy OkHttp jar is no-op; Ktor has no cookie plugin; explicit cookies survive copied requests; intermediate and servlet-visible redirects bypass the final save loop. Auth removal/method/status/budgets differ.",
+      "evidence": [
+        "ANDROID_HTTP_CONTEXT.md",
+        "MEDIA_STATIC_AUDIT.md"
+      ],
+      "closure": "Closed for these constructions; actual traffic not tested.",
+      "implementation_relevance": "High: independently enforce per-destination cookie/auth selection on every hop."
+    },
+    {
+      "id": "M13",
+      "platform": "Android",
+      "stage": "Cookie casing/acceptance",
+      "status": "runtime unverified",
+      "question": "Which header spellings reach the exact comparison, and are cookies accepted/persisted?",
+      "finding": "Enumeration preserves engine-supplied names; lookup is case-insensitive; servlet Set-Cookie comparison is exact. CookieManager sink does not prove acceptance or durable storage.",
+      "evidence": [
+        "ANDROID_HTTP_CONTEXT.md",
+        "MEDIA_STATIC_AUDIT.md"
+      ],
+      "closure": "Authorized protocol-specific HTTP and CookieManager observation; no live credential collection needed.",
+      "implementation_relevance": "High: use case-insensitive multi-value headers and explicit store integration."
+    },
+    {
+      "id": "M14",
+      "platform": "Android",
+      "stage": "Auxiliary HTTP caller semantics",
+      "status": "resolved",
+      "question": "What HTTP construction/context differences are visible in the connected auxiliary media and API paths?",
+      "finding": "pg1/qg1 ID-keyed 900,000 ms caches, explicit UA/Referer/page-cookie requests, tu5.V HEAD/localhost GET and header/cookie precedence, gdrive redirect-context adaptation, image/thumbnail fetch and MediaMetadataRetriever, IPTV auth, OpenSubtitles API and Trakt interceptor constructions are traced separately. Native framework internals and device-active credentials are outside these APK paths; no values accessed or resolved.",
+      "evidence": [
+        "MEDIA_STATIC_AUDIT.md",
+        "MEDIA_EVIDENCE_INDEX.md"
+      ],
+      "closure": "Closed for the connected auxiliary families in the audit table, with exact source boundaries. This does not certify arbitrary dynamically loaded SDK traffic or all platform-native HTTP internals.",
+      "implementation_relevance": "High: avoid shared ID-only caches, reselect credentials by destination, keep native-framework/API traffic distinct from the main proxy."
+    },
+    {
+      "id": "M15",
+      "platform": "Android",
+      "stage": "Effective configuration/engine selection",
+      "status": "device state unknown",
+      "question": "Which engine, remote URL patterns, TLS exceptions, player/cache and receiver policies are active on the phone?",
+      "finding": "Packaged/default/activated-remote precedence is traced separately; a downloaded historical snapshot is not effective device configuration.",
+      "evidence": [
+        "ANDROID_HTTP_CONTEXT.md",
+        "MEDIA_STATIC_AUDIT.md",
+        "ANDROID_BLOCKING_STATIC_AUDIT.md"
+      ],
+      "closure": "Later authorized nonsecret effective-state snapshot; do not access credentials or bypass entitlement.",
+      "implementation_relevance": "High: defaults and capability checks must be explicit."
+    },
+    {
+      "id": "M16",
+      "platform": "Android",
+      "stage": "Application retries/header modes",
+      "status": "resolved",
+      "question": "What triggers every numbered proxy retry and what does modes 4/5 use?",
+      "finding": "v(status), exception/null response gate, modes 0 through 6, timeout shortcut, incoming-UA mode 4 and alternate-URL mode 5 are traced. Static alternate URL and rewrite map are not per-tab/private.",
+      "evidence": [
+        "MEDIA_STATIC_AUDIT.md",
+        "MEDIA_EVIDENCE_INDEX.md"
+      ],
+      "closure": "Closed for the numbered selector and common trigger; actual scheduling/errors M18/M41.",
+      "implementation_relevance": "High: bounded retries must not replay credentials to an unrelated fallback."
+    },
+    {
+      "id": "M17",
+      "platform": "Android",
+      "stage": "Ktor stream architecture",
+      "status": "resolved",
+      "question": "When are headers published, what buffers the body, and what does close cancel?",
+      "finding": "65,536-byte pipe, latch-before-body, producer cleanup, response job/channel cleanup and qz5 input-only close are traced. No direct qz5 close to upstream job/thread link.",
+      "evidence": [
+        "MEDIA_STATIC_AUDIT.md",
+        "MEDIA_EVIDENCE_INDEX.md"
+      ],
+      "closure": "Closed for the visible object graph and control flow; practical teardown M18.",
+      "implementation_relevance": "High: link cancellation and preserve post-header producer errors."
+    },
+    {
+      "id": "M18",
+      "platform": "Android",
+      "stage": "Truncation/cancel/timeout outcomes",
+      "status": "runtime unverified",
+      "question": "What happens on consumer close, stalled headers/read, post-header failure and partial writes?",
+      "finding": "Source permits a wrapper to escape before copy fails; qz5 lacks the error reference. Original producer error is not explicitly propagated by wrapper reads.",
+      "evidence": [
+        "MEDIA_STATIC_AUDIT.md"
+      ],
+      "closure": "Later fault-injected stream lifecycle tests, measuring termination, truncation signalling and resource release.",
+      "implementation_relevance": "High for proxy/download reliability."
+    },
+    {
+      "id": "M19",
+      "platform": "Android",
+      "stage": "HLS parser vs consumers",
+      "status": "resolved",
+      "question": "Which HLS features are parsed and which are used by the custom TS copy path?",
+      "finding": "no4 parses rich playlist/rendition/range/init/discontinuity/key metadata; ko4 variant/throughput selection, live loop, ranges and conventional AES stream handling are connected. Custom copy does not demonstrate init/discontinuity/DRM-field handling or separate-rendition mux.",
+      "evidence": [
+        "ANDROID_MEDIA_PIPELINE.md",
+        "MEDIA_STATIC_AUDIT.md"
+      ],
+      "closure": "Closed as parser/consumer capability distinction; conformance and receiver support M20/M23.",
+      "implementation_relevance": "High: use a maintained demuxer and explicit unsupported cases."
+    },
+    {
+      "id": "M20",
+      "platform": "Android",
+      "stage": "Format/parser conformance",
+      "status": "runtime unverified",
+      "question": "Do all malformed/encoded/dynamic manifests, fMP4/live windows and subtitle variants work correctly?",
+      "finding": "Named parser/rewriter branches are located; neither library presence nor URI rewriting proves end-to-end standards coverage.",
+      "evidence": [
+        "MEDIA_STATIC_AUDIT.md",
+        "ANDROID_MEDIA_PIPELINE.md",
+        "ANDROID_SUBTITLE_PIPELINE.md"
+      ],
+      "closure": "Later authorized local corpus tests, including byte-range/init/discontinuity/separate audio and dynamic DASH; no DRM bypass.",
+      "implementation_relevance": "High: define supported formats and fail visibly."
+    },
+    {
+      "id": "M21",
+      "platform": "Android",
+      "stage": "DASH rewrite/play/export",
+      "status": "resolved",
+      "question": "Is DASH processing a URL rewrite, custom assembly or export path?",
+      "finding": "vh2 XML/XPath rewrites selected URL/reference attributes; local DashMediaSource and Media3 export are separate consumers. Codec text changes are not transcoding.",
+      "evidence": [
+        "MEDIA_STATIC_AUDIT.md",
+        "ANDROID_MEDIA_PIPELINE.md"
+      ],
+      "closure": "Closed for dispatch/reference transformation; decoder/license/manifest interoperability M20/M23.",
+      "implementation_relevance": "High: separate manifest routing from media transformation."
+    },
+    {
+      "id": "M22",
+      "platform": "Android/iOS",
+      "stage": "Encryption and authorization",
+      "status": "runtime unverified",
+      "question": "Which encrypted media can actually be played/exported with the effective authorized context?",
+      "finding": "Ordinary full-segment AES handling and parsed DRM metadata do not establish general DRM playback/export or license acquisition. No bypass inferred or attempted; iOS native path encrypted.",
+      "evidence": [
+        "MEDIA_STATIC_AUDIT.md",
+        "MEDIA_PLATFORM_COMPARISON.md"
+      ],
+      "closure": "Authorized supported-media/runtime capability evidence; protected/native code if needed. Never credential extraction or bypass.",
+      "implementation_relevance": "High: distinguish normal encryption from DRM and do not promise universal saving."
+    },
+    {
+      "id": "M23",
+      "platform": "Android",
+      "stage": "Receiver interoperability",
+      "status": "runtime unverified",
+      "question": "Do dispatch callbacks lead to receiver decoding and usable subtitles/seek/live operation?",
+      "finding": "Selection, URL/header adaptation, standard/extended adapter paths and key callbacks are mapped; real receiver protocols, firmware and decoding are not exercised.",
+      "evidence": [
+        "ANDROID_MEDIA_PIPELINE.md",
+        "ANDROID_SUBTITLE_PIPELINE.md",
+        "MEDIA_STATIC_AUDIT.md"
+      ],
+      "closure": "Later receiver-specific playback/status/seek/subtitle tests with versioned devices.",
+      "implementation_relevance": "High: receiver adapters and negotiation are native/companion work."
+    },
+    {
+      "id": "M24",
+      "platform": "Android",
+      "stage": "Subtitle pipeline",
+      "status": "resolved",
+      "question": "How are subtitles discovered, prepared, converted and delivered?",
+      "finding": "Track/search/file input to mbb/gab/w92 parsing/charset/timing/servlet and receiver-specific initial/live operations are connected; parser fidelity is a separate question.",
+      "evidence": [
+        "ANDROID_SUBTITLE_PIPELINE.md",
+        "MEDIA_STATIC_AUDIT.md"
+      ],
+      "closure": "Closed at named pipeline level; fidelity M20 and receiver effects M23.",
+      "implementation_relevance": "Medium/high: preserve original text, timing and unsupported features."
+    },
+    {
+      "id": "M25",
+      "platform": "Android",
+      "stage": "Action routing",
+      "status": "resolved",
+      "question": "Where do detected-item selection and local/external/cast/save actions diverge?",
+      "finding": "y97/d77/yp3 action construction, service start, external intent, Application/v67/receiver chain and proxy/direct/file routes are connected.",
+      "evidence": [
+        "ANDROID_MEDIA_PIPELINE.md",
+        "MEDIA_STATIC_AUDIT.md",
+        "MEDIA_ARCHITECTURE.md"
+      ],
+      "closure": "Closed for visible action graph; protected installation and runtime M02/M23.",
+      "implementation_relevance": "High: separate detection from explicit user-selected delivery."
+    },
+    {
+      "id": "M26",
+      "platform": "Android",
+      "stage": "Download records/scheduling",
+      "status": "resolved",
+      "question": "How are records, work uniqueness, backoff and cancellation represented?",
+      "finding": "Room and WorkManager are separate; download-id KEEP; LINEAR ten-second backoff; IO retry threshold; PAUSED can accompany worker Failure. Correct result class mapping retained.",
+      "evidence": [
+        "ANDROID_MEDIA_PIPELINE.md",
+        "MEDIA_STATIC_AUDIT.md"
+      ],
+      "closure": "Closed for visible scheduling/worker graph; startup/crash reconciliation M34.",
+      "implementation_relevance": "High: transactional ownership and persistent state machine required."
+    },
+    {
+      "id": "M27",
+      "platform": "Android",
+      "stage": "Resume validation",
+      "status": "resolved",
+      "question": "Does append resumption validate entity/range continuity?",
+      "finding": "content destination opened wa; existing size>2 yields Range; success flag accepted; Content-Range logged but no 206/offset/entity validation in transfer body. Close paths retained.",
+      "evidence": [
+        "MEDIA_STATIC_AUDIT.md",
+        "MEDIA_EVIDENCE_INDEX.md"
+      ],
+      "closure": "Closed as a code-level validation concern; outcome M28.",
+      "implementation_relevance": "High: validate 206/offset/ETag or restart safely."
+    },
+    {
+      "id": "M28",
+      "platform": "Android",
+      "stage": "SAF append/transform outcomes",
+      "status": "runtime unverified",
+      "question": "Can ignored ranges, changed resources, provider append behavior or transformed sources corrupt resumed output?",
+      "finding": "Code concern is established without exercising it. Stat size, append semantics and response behavior depend on provider and origin.",
+      "evidence": [
+        "MEDIA_STATIC_AUDIT.md"
+      ],
+      "closure": "Later authorized document-provider and range/fault tests; compare output bytes.",
+      "implementation_relevance": "High for a reliable downloader."
+    },
+    {
+      "id": "M29",
+      "platform": "Android",
+      "stage": "Save format/export decisions",
+      "status": "resolved",
+      "question": "Is saving original bytes, TS assembly, container conversion, transcode or screen capture?",
+      "finding": "p98 ORIGINAL, py6 TS endpoint and ihb/rh3 Media3 export are distinct. Per-track shouldTranscode can choose transmux/transcode. No connected screen-capture save path established.",
+      "evidence": [
+        "ANDROID_MEDIA_PIPELINE.md",
+        "MEDIA_STATIC_AUDIT.md",
+        "MEDIA_ARCHITECTURE.md"
+      ],
+      "closure": "Closed for these named strategies; actual codec/output behavior M20/M22.",
+      "implementation_relevance": "High: label operations accurately and use a native media stack when needed."
+    },
+    {
+      "id": "M30",
+      "platform": "Android",
+      "stage": "Pre-return temporary-file maintenance",
+      "status": "protected/encrypted code",
+      "question": "Who removes export files when failure/cancel occurs before a File is returned?",
+      "finding": "ihb deletes returned files after destination copy/error. Pre-return export failure/cancel does not reach that deletion; inspected callbacks only cancel/stop. Global maintenance may be behind protected app startup/teardown.",
+      "evidence": [
+        "MEDIA_STATIC_AUDIT.md",
+        "ANDROID_MEDIA_RETENTION.md"
+      ],
+      "closure": "Readable global maintenance/protected entry implementation or later authorized filesystem lifecycle evidence.",
+      "implementation_relevance": "High: own temporary files from creation and delete in finally; include crash scavenging."
+    },
+    {
+      "id": "M31",
+      "platform": "Android",
+      "stage": "Startup/teardown ownership",
+      "status": "protected/encrypted code",
+      "question": "What additional registrations, cleanup, retries and saved state are performed by protected entry points?",
+      "finding": "WebBrowser startup/destruction and Application.onCreate are reflective wrappers; visible cleanup is not a proof of their missing implementations. InternalPlayerService.onDestroy to m/n/q/job cleanup is readable.",
+      "evidence": [
+        "MEDIA_STATIC_AUDIT.md",
+        "ANDROID_LIFECYCLE_AND_INJECTION.md",
+        "ANDROID_MEDIA_RETENTION.md"
+      ],
+      "closure": "Recover protected Method implementations/initialization or artifacts that genuinely expose them. More direct-reference searching alone cannot close this boundary.",
+      "implementation_relevance": "High for isolation, browser integration and crash recovery."
+    },
+    {
+      "id": "M32",
+      "platform": "Android",
+      "stage": "Visible shared-store lifetime",
+      "status": "resolved",
+      "question": "Which stores are context-owned versus shared/persistent, and what limits are visible?",
+      "finding": "Context removal, PAGE/TAB ownership, jd9 alias/copy difference, yxc.q/static suppression, proxy 5000-entry insertion bounds, two-day DB aging and three-day playlist deleteOnExit are separated. DownloadItem persists incognito and headers.",
+      "evidence": [
+        "MEDIA_STATIC_AUDIT.md",
+        "ANDROID_MEDIA_RETENTION.md",
+        "ANDROID_LIFECYCLE_AND_INJECTION.md"
+      ],
+      "closure": "Closed for explicit stores and cleanup; indirect/protected cleanup M31 and runtime M33/M41.",
+      "implementation_relevance": "High: use profile/tab/request keys and bounded retention."
+    },
+    {
+      "id": "M33",
+      "platform": "Android",
+      "stage": "Private/concurrent isolation",
+      "status": "runtime unverified",
+      "question": "Can aliases/shared URL keys affect another tab or private session in practice?",
+      "finding": "Some shared keys omit profile/tab identity; static callbacks and selected-cookie flags do not establish observed leakage or isolation failure.",
+      "evidence": [
+        "MEDIA_STATIC_AUDIT.md",
+        "ANDROID_MEDIA_RETENTION.md"
+      ],
+      "closure": "Later authorized nonsecret synthetic-context concurrency/private transition tests.",
+      "implementation_relevance": "High: independently enforce private-store partitioning."
+    },
+    {
+      "id": "M34",
+      "platform": "Android",
+      "stage": "Interrupted work recovery",
+      "status": "protected/encrypted code",
+      "question": "How are Room statuses, WorkManager work and destination/temp bytes reconciled after process death?",
+      "finding": "Visible writes/scheduling are separate commits; duplicate-work guard and retry exist. No unconditional all-store reconciliation has been established; application startup is protected.",
+      "evidence": [
+        "MEDIA_STATIC_AUDIT.md",
+        "ANDROID_MEDIA_PIPELINE.md"
+      ],
+      "closure": "Readable app startup reconciliation plus later crash/restart verification; WorkManager persistence alone is insufficient.",
+      "implementation_relevance": "High: explicit recovery and idempotent state transitions."
+    },
+    {
+      "id": "M35",
+      "platform": "iOS",
+      "stage": "Native pipeline",
+      "status": "protected/encrypted code",
+      "question": "What consumes bridge messages and implements native HTTP, candidates, cast/download and lifecycle?",
+      "finding": "Main executable cryptid=1. Readable assets/UI metadata cannot recover those native implementations or Android parity.",
+      "evidence": [
+        "MEDIA_PLATFORM_COMPARISON.md",
+        "MEDIA_STATIC_AUDIT.md"
+      ],
+      "closure": "An authorized unencrypted equivalent native artifact or source for this version; no circumvention attempted.",
+      "implementation_relevance": "High: never base native parity or privacy promises on shared assets."
+    },
+    {
+      "id": "M36",
+      "platform": "iOS",
+      "stage": "Hook/event installation",
+      "status": "protected/encrypted code",
+      "question": "Where are __ib_x/f/b/w/c/s and initial shadow-root event producers installed?",
+      "finding": "Readable script consumes the events; literal packaged-script/executable searches have not located all production hooks. Hidden native/generated injection remains plausible, not confirmed.",
+      "evidence": [
+        "MEDIA_PLATFORM_COMPARISON.md",
+        "MEDIA_STATIC_AUDIT.md",
+        "MEDIA_METHOD_INVENTORY.md"
+      ],
+      "closure": "Readable producer/installation code and active injection parameters; later runtime confirmation separately.",
+      "implementation_relevance": "High for complete fetch/XHR/blob coverage; event listeners alone are insufficient."
+    },
+    {
+      "id": "M37",
+      "platform": "iOS",
+      "stage": "Readable discovery techniques",
+      "status": "resolved",
+      "question": "What additional techniques and side effects are actually readable?",
+      "finding": "DOM AudioOnly/source observers, play, JW retries, Vimeo credentialed config fetch, page payload HLS generation, Blob data serialization and message bridge are inspectable; receiver assets separate.",
+      "evidence": [
+        "MEDIA_PLATFORM_COMPARISON.md",
+        "MEDIA_STATIC_AUDIT.md",
+        "MEDIA_METHOD_INVENTORY.md"
+      ],
+      "closure": "Closed for script semantics, not native installation/execution.",
+      "implementation_relevance": "High: separate observed URL, generated manifest and serialized bytes."
+    },
+    {
+      "id": "M38",
+      "platform": "iOS",
+      "stage": "Message and page side-effect outcomes",
+      "status": "runtime unverified",
+      "question": "Do the misspelled iframe-dispatch property, autoplay/pause/mute changes and Blob reads affect operation?",
+      "finding": "MessageReceiver uses e.tstringype; prefix handling and play/inline/mute attributes are source-visible. No resulting failure, successful frame relay or user effect was tested.",
+      "evidence": [
+        "MEDIA_PLATFORM_COMPARISON.md",
+        "MEDIA_STATIC_AUDIT.md"
+      ],
+      "closure": "Later authorized script/bridge instrumentation using local synthetic pages.",
+      "implementation_relevance": "Medium/high: validate message types/origins and preserve player behavior."
+    },
+    {
+      "id": "M39",
+      "platform": "Android/iOS",
+      "stage": "Effective device state",
+      "status": "device state unknown",
+      "question": "What app/provider rules, WebView/WK version, eligibility, cookies, codecs and receiver versions are effective?",
+      "finding": "No device was inspected. Package defaults and user observation cannot substitute for effective state.",
+      "evidence": [
+        "MEDIA_STATIC_AUDIT.md",
+        "MEDIA_PLATFORM_COMPARISON.md",
+        "ANDROID_BLOCKING_GAPS.md"
+      ],
+      "closure": "Authorized nonsecret effective-state report, without accessing credentials or entitlement bypass.",
+      "implementation_relevance": "High for reproducibility; independent design should expose supported capabilities."
+    },
+    {
+      "id": "M40",
+      "platform": "Android/iOS",
+      "stage": "Screen recording claim",
+      "status": "resolved",
+      "question": "Is a connected screen-recording path demonstrated by the inspected media save graph?",
+      "finding": "No. Source discovery, proxying, receiver rendering, TS assembly and Media3 export do not establish recording rendered frames. Search scope is documented; SDK symbols do not prove universal absence or presence.",
+      "evidence": [
+        "MEDIA_STATIC_AUDIT.md",
+        "MEDIA_ARCHITECTURE.md"
+      ],
+      "closure": "Closed as an evidence/terminology boundary; a new connected capture implementation would reopen under a new ID.",
+      "implementation_relevance": "High: do not advertise source extraction as screen recording."
+    },
+    {
+      "id": "M41",
+      "platform": "Android",
+      "stage": "Concurrency/order/delete outcomes",
+      "status": "runtime unverified",
+      "question": "What are actual callback ordering, timestamp sort, stale-page races, cache coverage and failed-delete outcomes?",
+      "finding": "Explicit schedulers, cancellation/rechecks and cleanup calls are traced, with shared mutable state and incomplete protected lifetime.",
+      "evidence": [
+        "MEDIA_STATIC_AUDIT.md",
+        "ANDROID_MEDIA_RETENTION.md"
+      ],
+      "closure": "Later deterministic instrumentation/fault injection, preserving runtime results separately from static claims.",
+      "implementation_relevance": "High: test resource ownership and cancellation, not just happy-path playback."
+    }
+  ]
+}

@@ -1,0 +1,3852 @@
+{
+  "scope": "Direct DEX references only; excludes reflection, aliases and runtime resolution",
+  "files_scanned": 46271,
+  "methods_scanned": 250119,
+  "target_prefixes": [
+    "Ll48;-><init>(",
+    "Lm48;-><init>(",
+    "Lm48;->a(",
+    "Lcx4;->",
+    "Lid9;->a(",
+    "Lqo8;->g(",
+    "Luwc;->b(",
+    "Lgfa;->a(",
+    "Lmp2;->",
+    "Ljava/net/URL;->openConnection(",
+    "Lqmc;->",
+    "Ljd9;->",
+    "Lyxc;->q:",
+    "Lsg1;->v:",
+    "Lcom/instantbits/android/utils/web/AbstractMediaProxyServlet;->e:",
+    "Lcom/instantbits/cast/webvideo/WebBrowser;->q0:",
+    "Ll53;->b(",
+    "Lcom/instantbits/cast/webvideo/download/DownloadWorker;->",
+    "Lpg1;->",
+    "Lqg1;->",
+    "Ltu5;->V(",
+    "Lhsc;->a(",
+    "Lgjc;->a(",
+    "Lgh0;->r(",
+    "La78;->",
+    "Lp0c;->"
+  ],
+  "references": [
+    {
+      "file": "working/apktool/smali/com/amazon/aps/shared/util/APSNetworkManager.smali",
+      "line": 521,
+      "caller": "Lcom/amazon/aps/shared/util/APSNetworkManager;->sendDataAsync(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {v2}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali/com/apm/insight/k/e.smali",
+      "line": 89,
+      "caller": "Lcom/apm/insight/k/e;->a(Ljava/lang/String;[BLjava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/apm/insight/l/f;",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {v2}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali/com/apm/insight/k/i.smali",
+      "line": 95,
+      "caller": "Lcom/apm/insight/k/i;-><init>(Ljava/lang/String;Ljava/lang/String;Z)V",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {v0}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali/com/applovin/impl/g4$b.smali",
+      "line": 144,
+      "caller": "Lcom/applovin/impl/g4$b;->a(Lcom/applovin/impl/g4$c;)Ljava/net/HttpURLConnection;",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {p0}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali/com/applovin/impl/l2.smali",
+      "line": 59,
+      "caller": "Lcom/applovin/impl/l2;->a(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;)Ljava/io/InputStream;",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {v0}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali/gy0.smali",
+      "line": 1488,
+      "caller": "Lgy0;->run()V",
+      "target": "Lqmc;->g:Lqmc;",
+      "instruction": "sget-object v0, Lqmc;->g:Lqmc;"
+    },
+    {
+      "file": "working/apktool/smali/mp2.smali",
+      "line": 43,
+      "caller": "Lmp2;-><init>()V",
+      "target": "Lmp2;->a:Lnt4;",
+      "instruction": "iput-object v0, p0, Lmp2;->a:Lnt4;"
+    },
+    {
+      "file": "working/apktool/smali/mp2.smali",
+      "line": 51,
+      "caller": "Lmp2;-><init>()V",
+      "target": "Lmp2;->c:I",
+      "instruction": "iput v0, p0, Lmp2;->c:I"
+    },
+    {
+      "file": "working/apktool/smali/mp2.smali",
+      "line": 55,
+      "caller": "Lmp2;-><init>()V",
+      "target": "Lmp2;->d:I",
+      "instruction": "iput v0, p0, Lmp2;->d:I"
+    },
+    {
+      "file": "working/apktool/smali/mp2.smali",
+      "line": 72,
+      "caller": "Lmp2;->createDataSource()Lfj2;",
+      "target": "Lmp2;->b:Ljava/lang/String;",
+      "instruction": "iget-object v1, p0, Lmp2;->b:Ljava/lang/String;"
+    },
+    {
+      "file": "working/apktool/smali/mp2.smali",
+      "line": 76,
+      "caller": "Lmp2;->createDataSource()Lfj2;",
+      "target": "Lmp2;->c:I",
+      "instruction": "iget v2, p0, Lmp2;->c:I"
+    },
+    {
+      "file": "working/apktool/smali/mp2.smali",
+      "line": 80,
+      "caller": "Lmp2;->createDataSource()Lfj2;",
+      "target": "Lmp2;->d:I",
+      "instruction": "iget v3, p0, Lmp2;->d:I"
+    },
+    {
+      "file": "working/apktool/smali/mp2.smali",
+      "line": 84,
+      "caller": "Lmp2;->createDataSource()Lfj2;",
+      "target": "Lmp2;->e:Z",
+      "instruction": "iget-boolean v4, p0, Lmp2;->e:Z"
+    },
+    {
+      "file": "working/apktool/smali/mp2.smali",
+      "line": 88,
+      "caller": "Lmp2;->createDataSource()Lfj2;",
+      "target": "Lmp2;->a:Lnt4;",
+      "instruction": "iget-object v5, p0, Lmp2;->a:Lnt4;"
+    },
+    {
+      "file": "working/apktool/smali/oa.smali",
+      "line": 535,
+      "caller": "Loa;->e(Lq0c;)Ld20;",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {v2}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali/op2.smali",
+      "line": 2016,
+      "caller": "Lop2;->i(Ljava/net/URL;I[BJJZZLjava/util/Map;)Ljava/net/HttpURLConnection;",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {p1}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali/s0.smali",
+      "line": 4390,
+      "caller": "Ls0;->invoke(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lm48;->a()Ll48;",
+      "instruction": "invoke-virtual {v2}, Lm48;->a()Ll48;"
+    },
+    {
+      "file": "working/apktool/smali/s0.smali",
+      "line": 4550,
+      "caller": "Ls0;->invoke(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lm48;-><init>(Ll48;)V",
+      "instruction": "invoke-direct {v0, v2}, Lm48;-><init>(Ll48;)V"
+    },
+    {
+      "file": "working/apktool/smali/ss1.smali",
+      "line": 437,
+      "caller": "Lss1;->invoke()Ljava/lang/Object;",
+      "target": "Lm48;-><init>()V",
+      "instruction": "invoke-direct {p0}, Lm48;-><init>()V"
+    },
+    {
+      "file": "working/apktool/smali/v.smali",
+      "line": 1348,
+      "caller": "Lv;->run()V",
+      "target": "Lcx4;->g(Ljava/lang/String;Ljava/util/Map;)Lnq9;",
+      "instruction": "invoke-static {v7, v0}, Lcx4;->g(Ljava/lang/String;Ljava/util/Map;)Lnq9;"
+    },
+    {
+      "file": "working/apktool/smali/zn2.smali",
+      "line": 35,
+      "caller": "Lzn2;-><init>(Landroid/content/Context;I)V",
+      "target": "Lmp2;-><init>()V",
+      "instruction": "invoke-direct {p2}, Lmp2;-><init>()V"
+    },
+    {
+      "file": "working/apktool/smali/zn2.smali",
+      "line": 69,
+      "caller": "Lzn2;-><init>(Landroid/content/Context;I)V",
+      "target": "Lmp2;-><init>()V",
+      "instruction": "invoke-direct {p2}, Lmp2;-><init>()V"
+    },
+    {
+      "file": "working/apktool/smali/zn2.smali",
+      "line": 78,
+      "caller": "Lzn2;-><init>(Landroid/content/Context;I)V",
+      "target": "Lmp2;->b:Ljava/lang/String;",
+      "instruction": "iput-object v0, p2, Lmp2;->b:Ljava/lang/String;"
+    },
+    {
+      "file": "working/apktool/smali/zn2.smali",
+      "line": 142,
+      "caller": "Lzn2;->createDataSource()Lfj2;",
+      "target": "Lmp2;->createDataSource()Lfj2;",
+      "instruction": "invoke-virtual {v1}, Lmp2;->createDataSource()Lfj2;"
+    },
+    {
+      "file": "working/apktool/smali/zn2.smali",
+      "line": 163,
+      "caller": "Lzn2;->createDataSource()Lfj2;",
+      "target": "Lmp2;->createDataSource()Lfj2;",
+      "instruction": "invoke-virtual {v1}, Lmp2;->createDataSource()Lfj2;"
+    },
+    {
+      "file": "working/apktool/smali/zv8.smali",
+      "line": 349,
+      "caller": "Lzv8;->run()V",
+      "target": "Lqmc;->c:Ljava/util/List;",
+      "instruction": "iget-object v0, v2, Lqmc;->c:Ljava/util/List;"
+    },
+    {
+      "file": "working/apktool/smali/zv8.smali",
+      "line": 490,
+      "caller": "Lzv8;->run()V",
+      "target": "Lqmc;->g()V",
+      "instruction": "invoke-virtual {v2}, Lqmc;->g()V"
+    },
+    {
+      "file": "working/apktool/smali/zv8.smali",
+      "line": 508,
+      "caller": "Lzv8;->run()V",
+      "target": "Lqmc;->f(Lomc;Ljava/util/List;)V",
+      "instruction": "invoke-virtual {v2, v5, v3}, Lqmc;->f(Lomc;Ljava/util/List;)V"
+    },
+    {
+      "file": "working/apktool/smali/zv8.smali",
+      "line": 513,
+      "caller": "Lzv8;->run()V",
+      "target": "Lqmc;->b:Ljava/util/Map;",
+      "instruction": "iget-object v3, v2, Lqmc;->b:Ljava/util/Map;"
+    },
+    {
+      "file": "working/apktool/smali/zv8.smali",
+      "line": 653,
+      "caller": "Lzv8;->run()V",
+      "target": "Lqmc;->b(Lxyc;Lomc;)Z",
+      "instruction": "invoke-static {v1, v5}, Lqmc;->b(Lxyc;Lomc;)Z"
+    },
+    {
+      "file": "working/apktool/smali/zv8.smali",
+      "line": 715,
+      "caller": "Lzv8;->run()V",
+      "target": "Lqmc;->g()V",
+      "instruction": "invoke-virtual {v2}, Lqmc;->g()V"
+    },
+    {
+      "file": "working/apktool/smali_classes2/com/amazon/device/ads/DtbHttpClient.smali",
+      "line": 306,
+      "caller": "Lcom/amazon/device/ads/DtbHttpClient;->createDefaultConnection(Ljava/net/URL;I)Ljava/net/HttpURLConnection;",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {p1}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali_classes2/com/applovin/impl/i2.smali",
+      "line": 2117,
+      "caller": "Lcom/applovin/impl/i2;->b(Ljava/lang/String;Lcom/applovin/impl/h2;Lorg/json/JSONObject;)V",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {v3}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali_classes2/com/applovin/impl/i2.smali",
+      "line": 2552,
+      "caller": "Lcom/applovin/impl/i2;->c(Lcom/applovin/impl/h2;Ljava/util/List;)V",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {v3}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali_classes2/gb5.smali",
+      "line": 4633,
+      "caller": "Lgb5;->s(Ljava/lang/String;Lq60;Ljava/lang/String;)Lgv7;",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {p0}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali_classes2/ol4.smali",
+      "line": 4166,
+      "caller": "Lol4;->j()Liz9;",
+      "target": "Lm48;-><init>()V",
+      "instruction": "invoke-direct {v1}, Lm48;-><init>()V"
+    },
+    {
+      "file": "working/apktool/smali_classes2/tu5.smali",
+      "line": 5339,
+      "caller": "Ltu5;->V(Ljava/lang/String;Ljava/util/HashMap;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZZ)Lxyc;",
+      "target": "Lcx4;->e()Lm48;",
+      "instruction": "invoke-static {}, Lcx4;->e()Lm48;"
+    },
+    {
+      "file": "working/apktool/smali_classes4/ay2.smali",
+      "line": 160,
+      "caller": "Lay2;->run()V",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {v0}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali_classes4/com/bytedance/adsdk/nf/sh/nf.smali",
+      "line": 42,
+      "caller": "Lcom/bytedance/adsdk/nf/sh/nf;->qam(Ljava/lang/String;)Lcom/bytedance/adsdk/nf/sh/sh;",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {p0}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali_classes4/com/bytedance/sdk/component/nf/qam/qam/qam/nf.smali",
+      "line": 489,
+      "caller": "Lcom/bytedance/sdk/component/nf/qam/qam/qam/nf;->nf(Lcom/bytedance/sdk/component/nf/qam/oe;Z)Lcom/bytedance/sdk/component/nf/qam/cd;",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {v5}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali_classes4/com/bytedance/sdk/component/wc/qam/qam.smali",
+      "line": 213,
+      "caller": "Lcom/bytedance/sdk/component/wc/qam/qam;->nf(Lcom/bytedance/sdk/component/wc/jdl;)Lcom/bytedance/sdk/component/wc/qam/lej;",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {v6}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali_classes4/com/bytedance/sdk/openadsdk/sks/sh$1.smali",
+      "line": 148,
+      "caller": "Lcom/bytedance/sdk/openadsdk/sks/sh$1;->run()V",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {v1}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali_classes4/com/connectsdk/discovery/provider/SSDPDiscoveryProvider.smali",
+      "line": 807,
+      "caller": "Lcom/connectsdk/discovery/provider/SSDPDiscoveryProvider;->q()Lm48;",
+      "target": "Ll48;-><init>()V",
+      "instruction": "invoke-direct {v0}, Ll48;-><init>()V"
+    },
+    {
+      "file": "working/apktool/smali_classes4/com/connectsdk/discovery/provider/SSDPDiscoveryProvider.smali",
+      "line": 857,
+      "caller": "Lcom/connectsdk/discovery/provider/SSDPDiscoveryProvider;->q()Lm48;",
+      "target": "Lm48;-><init>(Ll48;)V",
+      "instruction": "invoke-direct {v1, v0}, Lm48;-><init>(Ll48;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes4/com/google/android/gms/auth/api/signin/internal/zbb.smali",
+      "line": 149,
+      "caller": "Lcom/google/android/gms/auth/api/signin/internal/zbb;->run()V",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {v5}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali_classes4/gt4.smali",
+      "line": 26,
+      "caller": "Lgt4;-><init>(Ljava/net/URL;)V",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {p1}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali_classes4/p94.smali",
+      "line": 2451,
+      "caller": "Lp94;->run()V",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {v0}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali_classes4/w28.smali",
+      "line": 2381,
+      "caller": "Lw28;->run()V",
+      "target": "Lqmc;->e:Ljava/util/ArrayList;",
+      "instruction": "iget-object v6, v1, Lqmc;->e:Ljava/util/ArrayList;"
+    },
+    {
+      "file": "working/apktool/smali_classes4/w28.smali",
+      "line": 2390,
+      "caller": "Lw28;->run()V",
+      "target": "Lqmc;->c:Ljava/util/List;",
+      "instruction": "iget-object v7, v1, Lqmc;->c:Ljava/util/List;"
+    },
+    {
+      "file": "working/apktool/smali_classes4/w28.smali",
+      "line": 2511,
+      "caller": "Lw28;->run()V",
+      "target": "Lqmc;->f:Lvgb;",
+      "instruction": "sget-object v11, Lqmc;->f:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes4/w28.smali",
+      "line": 2561,
+      "caller": "Lw28;->run()V",
+      "target": "Lqmc;->c:Ljava/util/List;",
+      "instruction": "iget-object v10, v1, Lqmc;->c:Ljava/util/List;"
+    },
+    {
+      "file": "working/apktool/smali_classes4/w28.smali",
+      "line": 2574,
+      "caller": "Lw28;->run()V",
+      "target": "Lqmc;->e(Ljava/lang/String;)Z",
+      "instruction": "invoke-static {v11}, Lqmc;->e(Ljava/lang/String;)Z"
+    },
+    {
+      "file": "working/apktool/smali_classes4/w28.smali",
+      "line": 2586,
+      "caller": "Lw28;->run()V",
+      "target": "Lqmc;->f:Lvgb;",
+      "instruction": "sget-object v12, Lqmc;->f:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes4/w28.smali",
+      "line": 2644,
+      "caller": "Lw28;->run()V",
+      "target": "Lqmc;->c:Ljava/util/List;",
+      "instruction": "iget-object v10, v1, Lqmc;->c:Ljava/util/List;"
+    },
+    {
+      "file": "working/apktool/smali_classes4/w28.smali",
+      "line": 2661,
+      "caller": "Lw28;->run()V",
+      "target": "Lqmc;->b:Ljava/util/Map;",
+      "instruction": "iget-object v5, v1, Lqmc;->b:Ljava/util/Map;"
+    },
+    {
+      "file": "working/apktool/smali_classes4/w28.smali",
+      "line": 2855,
+      "caller": "Lw28;->run()V",
+      "target": "Lqmc;->f:Lvgb;",
+      "instruction": "sget-object v12, Lqmc;->f:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes4/w28.smali",
+      "line": 2905,
+      "caller": "Lw28;->run()V",
+      "target": "Lqmc;->b:Ljava/util/Map;",
+      "instruction": "iget-object v11, v1, Lqmc;->b:Ljava/util/Map;"
+    },
+    {
+      "file": "working/apktool/smali_classes4/w28.smali",
+      "line": 2934,
+      "caller": "Lw28;->run()V",
+      "target": "Lqmc;->e(Ljava/lang/String;)Z",
+      "instruction": "invoke-static {v12}, Lqmc;->e(Ljava/lang/String;)Z"
+    },
+    {
+      "file": "working/apktool/smali_classes4/w28.smali",
+      "line": 2946,
+      "caller": "Lw28;->run()V",
+      "target": "Lqmc;->f:Lvgb;",
+      "instruction": "sget-object v13, Lqmc;->f:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes4/w28.smali",
+      "line": 3004,
+      "caller": "Lw28;->run()V",
+      "target": "Lqmc;->b:Ljava/util/Map;",
+      "instruction": "iget-object v11, v1, Lqmc;->b:Ljava/util/Map;"
+    },
+    {
+      "file": "working/apktool/smali_classes4/w48.smali",
+      "line": 61,
+      "caller": "Lw48;-><init>(I)V",
+      "target": "Lm48;-><init>()V",
+      "instruction": "invoke-direct {v0}, Lm48;-><init>()V"
+    },
+    {
+      "file": "working/apktool/smali_classes4/w6d.smali",
+      "line": 730,
+      "caller": "Lw6d;->b(Ljavax/xml/transform/Result;)Lo7d;",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {p1}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali_classes4/ww4.smali",
+      "line": 149,
+      "caller": "Lww4;->b(Ljava/net/URL;ILjava/net/URL;Ljava/util/Map;)Ljava/io/InputStream;",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {p1}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali_classes5/bhb.smali",
+      "line": 467,
+      "caller": "Lbhb;->a(Ljava/lang/String;Ljava/util/Map;)Lnq9;",
+      "target": "Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;",
+      "instruction": "invoke-static/range {v0 .. v6}, Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;"
+    },
+    {
+      "file": "working/apktool/smali_classes5/com/google/android/gms/ads/identifier/zzc.smali",
+      "line": 38,
+      "caller": "Lcom/google/android/gms/ads/identifier/zzc;->zza(Ljava/lang/String;)V",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {v2}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali_classes5/com/google/android/gms/ads/internal/util/client/zzu.smali",
+      "line": 219,
+      "caller": "Lcom/google/android/gms/ads/internal/util/client/zzu;->a(Ljava/lang/String;Ljava/util/HashMap;)Lcom/google/android/gms/ads/internal/util/client/zzt;",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {v3}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali_classes5/com/google/android/gms/internal/ads/zzaut.smali",
+      "line": 240,
+      "caller": "Lcom/google/android/gms/internal/ads/zzaut;->zza(Lcom/google/android/gms/internal/ads/zzats;Ljava/util/Map;)Lcom/google/android/gms/internal/ads/zzauq;",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {p2}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali_classes5/com/google/android/gms/internal/ads/zzcju.smali",
+      "line": 115,
+      "caller": "Lcom/google/android/gms/internal/ads/zzcju;->zza()Ljava/net/URLConnection;",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {v1}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali_classes5/com/google/android/gms/internal/ads/zzckd.smali",
+      "line": 688,
+      "caller": "Lcom/google/android/gms/internal/ads/zzckd;->zzb(Lcom/google/android/gms/internal/ads/zzhw;)J",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {v6}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali_classes5/com/google/android/gms/internal/ads/zzckx.smali",
+      "line": 1123,
+      "caller": "Lcom/google/android/gms/internal/ads/zzckx;->zzk(JJI)Ljava/net/HttpURLConnection;",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {v4}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali_classes5/com/google/android/gms/internal/ads/zzclx.smali",
+      "line": 463,
+      "caller": "Lcom/google/android/gms/internal/ads/zzclx;->zzaf(Ljava/lang/String;Ljava/util/Map;)Landroid/webkit/WebResourceResponse;",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {v0}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali_classes5/com/google/android/gms/internal/ads/zzejk.smali",
+      "line": 274,
+      "caller": "Lcom/google/android/gms/internal/ads/zzejk;->zzc(Ljava/lang/String;ILjava/util/Map;[BLjava/lang/String;J)Lcom/google/android/gms/internal/ads/zzejj;",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {v3}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali_classes5/com/google/android/gms/internal/ads/zzelp.smali",
+      "line": 2826,
+      "caller": "Lcom/google/android/gms/internal/ads/zzelp;->zzj(Lcom/google/android/gms/dynamic/IObjectWrapper;Lcom/google/android/gms/ads/internal/offline/buffering/zza;)V",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {v0}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali_classes5/com/google/android/gms/internal/ads/zzgbk.smali",
+      "line": 367,
+      "caller": "Lcom/google/android/gms/internal/ads/zzgbk;->zzy(Ljava/net/URL;)Ljava/net/URLConnection;",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {p0}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali_classes5/com/google/android/gms/internal/ads/zzgfn.smali",
+      "line": 109,
+      "caller": "Lcom/google/android/gms/internal/ads/zzgfn;->zzf(Ljava/lang/String;Lt71;ZLjava/lang/String;[B)V",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {p1}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali_classes5/com/google/android/gms/internal/ads/zzid.smali",
+      "line": 95,
+      "caller": "Lcom/google/android/gms/internal/ads/zzid;->zzk(Ljava/net/URL;I[BJJZZLjava/util/Map;)Ljava/net/HttpURLConnection;",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {p1}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali_classes5/com/google/android/gms/internal/consent_sdk/zzcr.smali",
+      "line": 367,
+      "caller": "Lcom/google/android/gms/internal/consent_sdk/zzcr;->zzl()V",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {v6}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali_classes5/com/google/android/gms/internal/consent_sdk/zzw.smali",
+      "line": 565,
+      "caller": "Lcom/google/android/gms/internal/consent_sdk/zzw;->zzd(Lcom/google/android/gms/internal/consent_sdk/zzcl;)Lcom/google/android/gms/internal/consent_sdk/zzcn;",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {v1}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali_classes5/com/google/firebase/remoteconfig/internal/ConfigFetchHttpClient.smali",
+      "line": 771,
+      "caller": "Lcom/google/firebase/remoteconfig/internal/ConfigFetchHttpClient;->b()Ljava/net/HttpURLConnection;",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {v0}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali_classes5/pmd.smali",
+      "line": 287,
+      "caller": "Lpmd;->run()V",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {v12}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali_classes5/pmd.smali",
+      "line": 1131,
+      "caller": "Lpmd;->run()V",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {v12}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali_classes5/tv3.smali",
+      "line": 1421,
+      "caller": "Ltv3;->c(Ljava/net/URL;Ljava/lang/String;)Ljava/net/HttpURLConnection;",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {p1}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali_classes5/ygb.smali",
+      "line": 203,
+      "caller": "Lygb;->a(Ljava/lang/String;Ljava/util/Map;)Lnq9;",
+      "target": "Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;",
+      "instruction": "invoke-static/range {v0 .. v6}, Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/a01.smali",
+      "line": 2564,
+      "caller": "La01;->A(Ljava/lang/String;JJIZLm22;)Ljava/lang/Object;",
+      "target": "Lcx4;->a:Lvgb;",
+      "instruction": "sget-object v12, Lcx4;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/a01.smali",
+      "line": 2607,
+      "caller": "La01;->A(Ljava/lang/String;JJIZLm22;)Ljava/lang/Object;",
+      "target": "Lcx4;->j(Ljava/lang/String;Ljava/util/LinkedHashMap;Ljava/lang/String;Lm22;I)Ljava/lang/Object;",
+      "instruction": "invoke-static {v15, v10, v12, v9, v14}, Lcx4;->j(Ljava/lang/String;Ljava/util/LinkedHashMap;Ljava/lang/String;Lm22;I)Ljava/lang/Object;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/a1c.smali",
+      "line": 181,
+      "caller": "La1c;->a(JILm22;)Ljava/lang/Object;",
+      "target": "Lp0c;->a:Lvgb;",
+      "instruction": "sget-object p0, Lp0c;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/a1c.smali",
+      "line": 209,
+      "caller": "La1c;->a(JILm22;)Ljava/lang/Object;",
+      "target": "Lp0c;->c(Lh84;Ll22;)Ljava/lang/Object;",
+      "instruction": "invoke-static {p1, v0}, Lp0c;->c(Lh84;Ll22;)Ljava/lang/Object;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/a1c.smali",
+      "line": 625,
+      "caller": "La1c;->b(Lt1c;Lm22;)Ljava/lang/Object;",
+      "target": "Lp0c;->a:Lvgb;",
+      "instruction": "sget-object v8, Lp0c;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/a1c.smali",
+      "line": 658,
+      "caller": "La1c;->b(Lt1c;Lm22;)Ljava/lang/Object;",
+      "target": "Lp0c;->c(Lh84;Ll22;)Ljava/lang/Object;",
+      "instruction": "invoke-static {v8, v2}, Lp0c;->c(Lh84;Ll22;)Ljava/lang/Object;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/a1c.smali",
+      "line": 694,
+      "caller": "La1c;->b(Lt1c;Lm22;)Ljava/lang/Object;",
+      "target": "Lp0c;->a:Lvgb;",
+      "instruction": "sget-object v6, Lp0c;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/a1c.smali",
+      "line": 764,
+      "caller": "La1c;->b(Lt1c;Lm22;)Ljava/lang/Object;",
+      "target": "Lp0c;->c(Lh84;Ll22;)Ljava/lang/Object;",
+      "instruction": "invoke-static {v7, v2}, Lp0c;->c(Lh84;Ll22;)Ljava/lang/Object;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/a1c.smali",
+      "line": 924,
+      "caller": "La1c;->c(JLm22;)Ljava/lang/Object;",
+      "target": "Lp0c;->a:Lvgb;",
+      "instruction": "sget-object p0, Lp0c;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/a1c.smali",
+      "line": 952,
+      "caller": "La1c;->c(JLm22;)Ljava/lang/Object;",
+      "target": "Lp0c;->c(Lh84;Ll22;)Ljava/lang/Object;",
+      "instruction": "invoke-static {p1, v0}, Lp0c;->c(Lh84;Ll22;)Ljava/lang/Object;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/aa2.smali",
+      "line": 688,
+      "caller": "Laa2;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lcx4;->a:Lvgb;",
+      "instruction": "sget-object v3, Lcx4;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/aa2.smali",
+      "line": 864,
+      "caller": "Laa2;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lcx4;->k(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Lko9;Ljava/lang/String;Lm22;I)Ljava/lang/Object;",
+      "instruction": "invoke-static/range {v0 .. v6}, Lcx4;->k(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Lko9;Ljava/lang/String;Lm22;I)Ljava/lang/Object;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/aa2.smali",
+      "line": 1040,
+      "caller": "Laa2;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lp0c;->a:Lvgb;",
+      "instruction": "sget-object v0, Lp0c;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/aa2.smali",
+      "line": 1057,
+      "caller": "Laa2;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lp0c;->c(Lh84;Ll22;)Ljava/lang/Object;",
+      "instruction": "invoke-static {v0, p0}, Lp0c;->c(Lh84;Ll22;)Ljava/lang/Object;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/aa2.smali",
+      "line": 1357,
+      "caller": "Laa2;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lcx4;->a:Lvgb;",
+      "instruction": "sget-object v0, Lcx4;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/aa2.smali",
+      "line": 1386,
+      "caller": "Laa2;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lcx4;->j(Ljava/lang/String;Ljava/util/LinkedHashMap;Ljava/lang/String;Lm22;I)Ljava/lang/Object;",
+      "instruction": "invoke-static {v2, v11, v0, p0, v1}, Lcx4;->j(Ljava/lang/String;Ljava/util/LinkedHashMap;Ljava/lang/String;Lm22;I)Ljava/lang/Object;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/ap0.smali",
+      "line": 951,
+      "caller": "Lap0;->run()V",
+      "target": "Lcx4;->g(Ljava/lang/String;Ljava/util/Map;)Lnq9;",
+      "instruction": "invoke-static {v11, v0}, Lcx4;->g(Ljava/lang/String;Ljava/util/Map;)Lnq9;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/ax4.smali",
+      "line": 771,
+      "caller": "Lax4;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;",
+      "instruction": "invoke-static/range {v0 .. v6}, Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/bg1.smali",
+      "line": 107,
+      "caller": "Lbg1;->run()V",
+      "target": "Lcom/instantbits/cast/webvideo/download/DownloadWorker;->h:Lvgb;",
+      "instruction": "sget-object v0, Lcom/instantbits/cast/webvideo/download/DownloadWorker;->h:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/bnc.smali",
+      "line": 143,
+      "caller": "Lbnc;->g(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;)Ljava/lang/String;",
+      "target": "Lcx4;->e()Lm48;",
+      "instruction": "invoke-static {}, Lcx4;->e()Lm48;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/bwc.smali",
+      "line": 6210,
+      "caller": "Lbwc;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Ljd9;->a(Ljava/lang/String;Ljava/util/HashMap;)V",
+      "instruction": "invoke-static {v0, v14}, Ljd9;->a(Ljava/lang/String;Ljava/util/HashMap;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/bx4.smali",
+      "line": 194,
+      "caller": "Lbx4;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lcx4;->h(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lmo9;ZZLjava/lang/String;)Lnq9;",
+      "instruction": "invoke-static/range {v0 .. v6}, Lcx4;->h(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lmo9;ZZLjava/lang/String;)Lnq9;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/bx9.smali",
+      "line": 1067,
+      "caller": "Lbx9;->c()Lax9;",
+      "target": "Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;",
+      "instruction": "invoke-static/range {v23 .. v29}, Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/bx9.smali",
+      "line": 1173,
+      "caller": "Lbx9;->c()Lax9;",
+      "target": "Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;",
+      "instruction": "invoke-static/range {v23 .. v29}, Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/c97.smali",
+      "line": 509,
+      "caller": "Lc97;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lcx4;->a:Lvgb;",
+      "instruction": "sget-object v0, Lcx4;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/c97.smali",
+      "line": 535,
+      "caller": "Lc97;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lcx4;->k(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Lko9;Ljava/lang/String;Lm22;I)Ljava/lang/Object;",
+      "instruction": "invoke-static/range {v4 .. v10}, Lcx4;->k(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Lko9;Ljava/lang/String;Lm22;I)Ljava/lang/Object;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/com/inmobi/media/Ug.smali",
+      "line": 138,
+      "caller": "Lcom/inmobi/media/Ug;->a(Landroid/content/Context;)Lcom/squareup/picasso/Picasso;",
+      "target": "Ll48;-><init>()V",
+      "instruction": "invoke-direct {v2}, Ll48;-><init>()V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/com/inmobi/media/Ug.smali",
+      "line": 165,
+      "caller": "Lcom/inmobi/media/Ug;->a(Landroid/content/Context;)Lcom/squareup/picasso/Picasso;",
+      "target": "Lm48;-><init>(Ll48;)V",
+      "instruction": "invoke-direct {v0, v2}, Lm48;-><init>(Ll48;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/com/inmobi/media/Y4.smali",
+      "line": 50,
+      "caller": "Lcom/inmobi/media/Y4;-><init>([Lie5;[Lie5;Le13;Lcom/inmobi/media/Bm;)V",
+      "target": "Ll48;-><init>()V",
+      "instruction": "invoke-direct {p2}, Ll48;-><init>()V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/com/inmobi/media/Y4.smali",
+      "line": 242,
+      "caller": "Lcom/inmobi/media/Y4;-><init>([Lie5;[Lie5;Le13;Lcom/inmobi/media/Bm;)V",
+      "target": "Lm48;-><init>(Ll48;)V",
+      "instruction": "invoke-direct {p1, p2}, Lm48;-><init>(Ll48;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/com/instantbits/android/utils/web/AbstractMediaProxyServlet.smali",
+      "line": 898,
+      "caller": "Lcom/instantbits/android/utils/web/AbstractMediaProxyServlet;->p(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z",
+      "target": "Lcom/instantbits/android/utils/web/AbstractMediaProxyServlet;->e:Ljava/lang/String;",
+      "instruction": "sput-object p2, Lcom/instantbits/android/utils/web/AbstractMediaProxyServlet;->e:Ljava/lang/String;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/com/instantbits/android/utils/web/AbstractMediaProxyServlet.smali",
+      "line": 920,
+      "caller": "Lcom/instantbits/android/utils/web/AbstractMediaProxyServlet;->r(Ljava/lang/String;)Ljava/util/Map;",
+      "target": "Ljd9;->a:Ljava/util/HashMap;",
+      "instruction": "sget-object v0, Ljd9;->a:Ljava/util/HashMap;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/com/instantbits/android/utils/web/AbstractMediaProxyServlet.smali",
+      "line": 1658,
+      "caller": "Lcom/instantbits/android/utils/web/AbstractMediaProxyServlet;->u()Ljava/lang/String;",
+      "target": "Lcom/instantbits/android/utils/web/AbstractMediaProxyServlet;->e:Ljava/lang/String;",
+      "instruction": "sget-object v0, Lcom/instantbits/android/utils/web/AbstractMediaProxyServlet;->e:Ljava/lang/String;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/com/instantbits/android/utils/web/AbstractMediaProxyServlet.smali",
+      "line": 1708,
+      "caller": "Lcom/instantbits/android/utils/web/AbstractMediaProxyServlet;->z(Ljava/lang/String;)Z",
+      "target": "Lcom/instantbits/android/utils/web/AbstractMediaProxyServlet;->e:Ljava/lang/String;",
+      "instruction": "sget-object v0, Lcom/instantbits/android/utils/web/AbstractMediaProxyServlet;->e:Ljava/lang/String;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/com/instantbits/android/utils/web/AbstractMediaProxyServlet.smali",
+      "line": 1736,
+      "caller": "Lcom/instantbits/android/utils/web/AbstractMediaProxyServlet;->z(Ljava/lang/String;)Z",
+      "target": "Lcom/instantbits/android/utils/web/AbstractMediaProxyServlet;->e:Ljava/lang/String;",
+      "instruction": "sget-object v1, Lcom/instantbits/android/utils/web/AbstractMediaProxyServlet;->e:Ljava/lang/String;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/com/instantbits/android/utils/web/AbstractMediaProxyServlet.smali",
+      "line": 4789,
+      "caller": "Lcom/instantbits/android/utils/web/AbstractMediaProxyServlet;->x(Lbw4;Lcw4;ZLjava/lang/String;ZLjava/util/Map;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V",
+      "target": "Lid9;->a(Ljava/lang/String;)Lkd9;",
+      "instruction": "invoke-static {v2}, Lid9;->a(Ljava/lang/String;)Lkd9;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/com/instantbits/android/utils/web/AbstractMediaProxyServlet.smali",
+      "line": 8898,
+      "caller": "Lcom/instantbits/android/utils/web/AbstractMediaProxyServlet;->x(Lbw4;Lcw4;ZLjava/lang/String;ZLjava/util/Map;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V",
+      "target": "Lcom/instantbits/android/utils/web/AbstractMediaProxyServlet;->e:Ljava/lang/String;",
+      "instruction": "sget-object v0, Lcom/instantbits/android/utils/web/AbstractMediaProxyServlet;->e:Ljava/lang/String;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/com/instantbits/android/utils/web/AbstractMediaProxyServlet.smali",
+      "line": 8951,
+      "caller": "Lcom/instantbits/android/utils/web/AbstractMediaProxyServlet;->x(Lbw4;Lcw4;ZLjava/lang/String;ZLjava/util/Map;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V",
+      "target": "Lcom/instantbits/android/utils/web/AbstractMediaProxyServlet;->e:Ljava/lang/String;",
+      "instruction": "sget-object v0, Lcom/instantbits/android/utils/web/AbstractMediaProxyServlet;->e:Ljava/lang/String;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/com/instantbits/android/utils/web/AbstractMediaProxyServlet.smali",
+      "line": 9993,
+      "caller": "Lcom/instantbits/android/utils/web/AbstractMediaProxyServlet;->x(Lbw4;Lcw4;ZLjava/lang/String;ZLjava/util/Map;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V",
+      "target": "Ljd9;->c(Ljava/lang/String;Ljava/lang/String;Z)V",
+      "instruction": "invoke-static {v1, v9, v6}, Ljd9;->c(Ljava/lang/String;Ljava/lang/String;Z)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/com/instantbits/cast/webvideo/WebBrowser.smali",
+      "line": 204,
+      "caller": "Lcom/instantbits/cast/webvideo/WebBrowser;-><init>()V",
+      "target": "Lcom/instantbits/cast/webvideo/WebBrowser;->q0:Lmvc;",
+      "instruction": "iput-object v0, p0, Lcom/instantbits/cast/webvideo/WebBrowser;->q0:Lmvc;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/com/instantbits/cast/webvideo/WebBrowser.smali",
+      "line": 6850,
+      "caller": "Lcom/instantbits/cast/webvideo/WebBrowser;->X0(Landroid/webkit/WebView;Ljava/lang/String;)V",
+      "target": "Lqmc;->g:Lqmc;",
+      "instruction": "sget-object p2, Lqmc;->g:Lqmc;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/com/instantbits/cast/webvideo/WebBrowser.smali",
+      "line": 6864,
+      "caller": "Lcom/instantbits/cast/webvideo/WebBrowser;->X0(Landroid/webkit/WebView;Ljava/lang/String;)V",
+      "target": "Lqmc;->b:Ljava/util/Map;",
+      "instruction": "iget-object p2, p2, Lqmc;->b:Ljava/util/Map;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/com/instantbits/cast/webvideo/WebBrowser.smali",
+      "line": 21428,
+      "caller": "Lcom/instantbits/cast/webvideo/WebBrowser;->w1()V",
+      "target": "Lqmc;->g:Lqmc;",
+      "instruction": "sget-object v2, Lqmc;->g:Lqmc;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/com/instantbits/cast/webvideo/WebBrowser.smali",
+      "line": 21444,
+      "caller": "Lcom/instantbits/cast/webvideo/WebBrowser;->w1()V",
+      "target": "Lqmc;->d(Lomc;)Z",
+      "instruction": "invoke-virtual {v2, v0}, Lqmc;->d(Lomc;)Z"
+    },
+    {
+      "file": "working/apktool/smali_classes6/com/instantbits/cast/webvideo/download/DownloadWorker.smali",
+      "line": 68,
+      "caller": "Lcom/instantbits/cast/webvideo/download/DownloadWorker;-><clinit>()V",
+      "target": "Lcom/instantbits/cast/webvideo/download/DownloadWorker;->h:Lvgb;",
+      "instruction": "sput-object v1, Lcom/instantbits/cast/webvideo/download/DownloadWorker;->h:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/com/instantbits/cast/webvideo/download/DownloadWorker.smali",
+      "line": 94,
+      "caller": "Lcom/instantbits/cast/webvideo/download/DownloadWorker;-><init>(Landroid/content/Context;Landroidx/work/WorkerParameters;)V",
+      "target": "Lcom/instantbits/cast/webvideo/download/DownloadWorker;->g:Landroid/content/Context;",
+      "instruction": "iput-object p1, p0, Lcom/instantbits/cast/webvideo/download/DownloadWorker;->g:Landroid/content/Context;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/com/instantbits/cast/webvideo/download/DownloadWorker.smali",
+      "line": 613,
+      "caller": "Lcom/instantbits/cast/webvideo/download/DownloadWorker;->a(Ll22;)Ljava/lang/Object;",
+      "target": "Lcom/instantbits/cast/webvideo/download/DownloadWorker;->b(Lm22;)Ljava/lang/Object;",
+      "instruction": "invoke-virtual {p0, v0}, Lcom/instantbits/cast/webvideo/download/DownloadWorker;->b(Lm22;)Ljava/lang/Object;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/com/instantbits/cast/webvideo/download/DownloadWorker.smali",
+      "line": 755,
+      "caller": "Lcom/instantbits/cast/webvideo/download/DownloadWorker;->a(Ll22;)Ljava/lang/Object;",
+      "target": "Lcom/instantbits/cast/webvideo/download/DownloadWorker;->e(Ln33;Lm22;)Ljava/lang/Object;",
+      "instruction": "invoke-virtual {p0, v1, v0}, Lcom/instantbits/cast/webvideo/download/DownloadWorker;->e(Ln33;Lm22;)Ljava/lang/Object;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/com/instantbits/cast/webvideo/download/DownloadWorker.smali",
+      "line": 1128,
+      "caller": "Lcom/instantbits/cast/webvideo/download/DownloadWorker;->b(Lm22;)Ljava/lang/Object;",
+      "target": "Lcom/instantbits/cast/webvideo/download/DownloadWorker;->g:Landroid/content/Context;",
+      "instruction": "iget-object p0, p0, Lcom/instantbits/cast/webvideo/download/DownloadWorker;->g:Landroid/content/Context;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/com/instantbits/cast/webvideo/download/DownloadWorker.smali",
+      "line": 1834,
+      "caller": "Lcom/instantbits/cast/webvideo/download/DownloadWorker;->c(Landroid/os/ParcelFileDescriptor;Ln33;Lbo9;Lm22;)Ljava/io/Serializable;",
+      "target": "Lcx4;->e()Lm48;",
+      "instruction": "invoke-static {}, Lcx4;->e()Lm48;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/com/instantbits/cast/webvideo/download/DownloadWorker.smali",
+      "line": 3945,
+      "caller": "Lcom/instantbits/cast/webvideo/download/DownloadWorker;->d(Lc43;Ln33;Ljava/lang/String;Lm22;)Ljava/io/Serializable;",
+      "target": "Lcom/instantbits/cast/webvideo/download/DownloadWorker;->g:Landroid/content/Context;",
+      "instruction": "iget-object v7, v1, Lcom/instantbits/cast/webvideo/download/DownloadWorker;->g:Landroid/content/Context;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/com/instantbits/cast/webvideo/download/DownloadWorker.smali",
+      "line": 5862,
+      "caller": "Lcom/instantbits/cast/webvideo/download/DownloadWorker;->e(Ln33;Lm22;)Ljava/lang/Object;",
+      "target": "Lcom/instantbits/cast/webvideo/download/DownloadWorker;->c(Landroid/os/ParcelFileDescriptor;Ln33;Lbo9;Lm22;)Ljava/io/Serializable;",
+      "instruction": "invoke-virtual {v1, v0, v6, v4, v8}, Lcom/instantbits/cast/webvideo/download/DownloadWorker;->c(Landroid/os/ParcelFileDescriptor;Ln33;Lbo9;Lm22;)Ljava/io/Serializable;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/com/instantbits/cast/webvideo/download/DownloadWorker.smali",
+      "line": 5951,
+      "caller": "Lcom/instantbits/cast/webvideo/download/DownloadWorker;->e(Ln33;Lm22;)Ljava/lang/Object;",
+      "target": "Lcom/instantbits/cast/webvideo/download/DownloadWorker;->d(Lc43;Ln33;Ljava/lang/String;Lm22;)Ljava/io/Serializable;",
+      "instruction": "invoke-virtual {v1, v3, v0, v5, v8}, Lcom/instantbits/cast/webvideo/download/DownloadWorker;->d(Lc43;Ln33;Ljava/lang/String;Lm22;)Ljava/io/Serializable;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/com/instantbits/cast/webvideo/download/DownloadWorker.smali",
+      "line": 6391,
+      "caller": "Lcom/instantbits/cast/webvideo/download/DownloadWorker;->e(Ln33;Lm22;)Ljava/lang/Object;",
+      "target": "Lcom/instantbits/cast/webvideo/download/DownloadWorker;->d(Lc43;Ln33;Ljava/lang/String;Lm22;)Ljava/io/Serializable;",
+      "instruction": "invoke-virtual {v1, v3, v0, v5, v8}, Lcom/instantbits/cast/webvideo/download/DownloadWorker;->d(Lc43;Ln33;Ljava/lang/String;Lm22;)Ljava/io/Serializable;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/com/instantbits/cast/webvideo/iptv/IPTVListsActivity.smali",
+      "line": 3720,
+      "caller": "Lcom/instantbits/cast/webvideo/iptv/IPTVListsActivity;->u0(Landroid/net/Uri;Ljava/lang/String;ZLm22;)Ljava/lang/Object;",
+      "target": "Lgh0;->r(Ljava/lang/String;Lm22;)Ljava/lang/Object;",
+      "instruction": "invoke-virtual {p1, p2, v0}, Lgh0;->r(Ljava/lang/String;Lm22;)Ljava/lang/Object;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/com/instantbits/cast/webvideo/mediaserver/MediaProxyServlet.smali",
+      "line": 217,
+      "caller": "Lcom/instantbits/cast/webvideo/mediaserver/MediaProxyServlet;->y(Ljava/lang/String;J)V",
+      "target": "Lqmc;->g:Lqmc;",
+      "instruction": "sget-object v1, Lqmc;->g:Lqmc;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/com/instantbits/cast/webvideo/player/InternalPlayerService.smali",
+      "line": 3821,
+      "caller": "Lcom/instantbits/cast/webvideo/player/InternalPlayerService;->j(Landroid/content/Context;Lvh5;Lyp3;JLm22;)Ljava/lang/Object;",
+      "target": "Lmp2;-><init>()V",
+      "instruction": "invoke-direct {v0}, Lmp2;-><init>()V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/com/instantbits/cast/webvideo/player/InternalPlayerService.smali",
+      "line": 3830,
+      "caller": "Lcom/instantbits/cast/webvideo/player/InternalPlayerService;->j(Landroid/content/Context;Lvh5;Lyp3;JLm22;)Ljava/lang/Object;",
+      "target": "Lmp2;->b:Ljava/lang/String;",
+      "instruction": "iput-object v13, v0, Lmp2;->b:Ljava/lang/String;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/com/instantbits/cast/webvideo/player/InternalPlayerService.smali",
+      "line": 3838,
+      "caller": "Lcom/instantbits/cast/webvideo/player/InternalPlayerService;->j(Landroid/content/Context;Lvh5;Lyp3;JLm22;)Ljava/lang/Object;",
+      "target": "Lmp2;->c:I",
+      "instruction": "iput v13, v0, Lmp2;->c:I"
+    },
+    {
+      "file": "working/apktool/smali_classes6/com/instantbits/cast/webvideo/player/InternalPlayerService.smali",
+      "line": 3842,
+      "caller": "Lcom/instantbits/cast/webvideo/player/InternalPlayerService;->j(Landroid/content/Context;Lvh5;Lyp3;JLm22;)Ljava/lang/Object;",
+      "target": "Lmp2;->d:I",
+      "instruction": "iput v13, v0, Lmp2;->d:I"
+    },
+    {
+      "file": "working/apktool/smali_classes6/com/instantbits/cast/webvideo/player/InternalPlayerService.smali",
+      "line": 3846,
+      "caller": "Lcom/instantbits/cast/webvideo/player/InternalPlayerService;->j(Landroid/content/Context;Lvh5;Lyp3;JLm22;)Ljava/lang/Object;",
+      "target": "Lmp2;->e:Z",
+      "instruction": "iput-boolean v11, v0, Lmp2;->e:Z"
+    },
+    {
+      "file": "working/apktool/smali_classes6/com/instantbits/cast/webvideo/videolist/VideoListActivity.smali",
+      "line": 333,
+      "caller": "Lcom/instantbits/cast/webvideo/videolist/VideoListActivity;->h0(Lcom/instantbits/cast/webvideo/videolist/VideoListActivity;Ljava/lang/String;Lm22;)Ljava/lang/Object;",
+      "target": "Lqmc;->g:Lqmc;",
+      "instruction": "sget-object p2, Lqmc;->g:Lqmc;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/com/instantbits/cast/webvideo/videolist/VideoListActivity.smali",
+      "line": 347,
+      "caller": "Lcom/instantbits/cast/webvideo/videolist/VideoListActivity;->h0(Lcom/instantbits/cast/webvideo/videolist/VideoListActivity;Ljava/lang/String;Lm22;)Ljava/lang/Object;",
+      "target": "Lqmc;->b:Ljava/util/Map;",
+      "instruction": "iget-object p2, p2, Lqmc;->b:Ljava/util/Map;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/com/instantbits/cast/webvideo/videolist/VideoListActivity.smali",
+      "line": 504,
+      "caller": "Lcom/instantbits/cast/webvideo/videolist/VideoListActivity;->h0(Lcom/instantbits/cast/webvideo/videolist/VideoListActivity;Ljava/lang/String;Lm22;)Ljava/lang/Object;",
+      "target": "Lqmc;->g:Lqmc;",
+      "instruction": "sget-object p0, Lqmc;->g:Lqmc;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/com/instantbits/cast/webvideo/videolist/VideoListActivity.smali",
+      "line": 508,
+      "caller": "Lcom/instantbits/cast/webvideo/videolist/VideoListActivity;->h0(Lcom/instantbits/cast/webvideo/videolist/VideoListActivity;Ljava/lang/String;Lm22;)Ljava/lang/Object;",
+      "target": "Lqmc;->c(Lomc;)Ljava/util/ArrayList;",
+      "instruction": "invoke-virtual {p0, v1}, Lqmc;->c(Lomc;)Ljava/util/ArrayList;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/com/instantbits/cast/webvideo/videolist/VideoListActivity.smali",
+      "line": 2978,
+      "caller": "Lcom/instantbits/cast/webvideo/videolist/VideoListActivity;->onPause()V",
+      "target": "Lqmc;->g:Lqmc;",
+      "instruction": "sget-object v0, Lqmc;->g:Lqmc;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/com/instantbits/cast/webvideo/videolist/VideoListActivity.smali",
+      "line": 2996,
+      "caller": "Lcom/instantbits/cast/webvideo/videolist/VideoListActivity;->onPause()V",
+      "target": "Lqmc;->a:Ljava/util/ArrayList;",
+      "instruction": "iget-object v0, v0, Lqmc;->a:Ljava/util/ArrayList;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/com/instantbits/cast/webvideo/videolist/VideoListActivity.smali",
+      "line": 3078,
+      "caller": "Lcom/instantbits/cast/webvideo/videolist/VideoListActivity;->onResume()V",
+      "target": "Lqmc;->g:Lqmc;",
+      "instruction": "sget-object v0, Lqmc;->g:Lqmc;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/com/instantbits/cast/webvideo/videolist/VideoListActivity.smali",
+      "line": 3096,
+      "caller": "Lcom/instantbits/cast/webvideo/videolist/VideoListActivity;->onResume()V",
+      "target": "Lqmc;->a:Ljava/util/ArrayList;",
+      "instruction": "iget-object v2, v0, Lqmc;->a:Ljava/util/ArrayList;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/com/instantbits/cast/webvideo/videolist/VideoListActivity.smali",
+      "line": 3163,
+      "caller": "Lcom/instantbits/cast/webvideo/videolist/VideoListActivity;->onResume()V",
+      "target": "Lqmc;->d:Ljava/util/List;",
+      "instruction": "iget-object v0, v0, Lqmc;->d:Ljava/util/List;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/com/mbridge/msdk/click/i.smali",
+      "line": 347,
+      "caller": "Lcom/mbridge/msdk/click/i;->a(Ljava/lang/String;ZZLcom/mbridge/msdk/foundation/entity/CampaignEx;)Lcom/mbridge/msdk/click/entity/a;",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {v1}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/com/mbridge/msdk/foundation/download/download/DownLoadUtils$1.smali",
+      "line": 152,
+      "caller": "Lcom/mbridge/msdk/foundation/download/download/DownLoadUtils$1;->runTask()V",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {v5}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/com/mbridge/msdk/playercommon/exoplayer2/upstream/DefaultHttpDataSource.smali",
+      "line": 946,
+      "caller": "Lcom/mbridge/msdk/playercommon/exoplayer2/upstream/DefaultHttpDataSource;->makeConnection(Ljava/net/URL;[BJJZZ)Ljavax/net/ssl/HttpsURLConnection;",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {p1}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/com/mbridge/msdk/tracker/network/toolbox/h.smali",
+      "line": 781,
+      "caller": "Lcom/mbridge/msdk/tracker/network/toolbox/h;->a(Ljava/net/URL;)Ljavax/net/ssl/HttpsURLConnection;",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {p1}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/com/pgl/ssdk/am.smali",
+      "line": 875,
+      "caller": "Lcom/pgl/ssdk/am;->c()Z",
+      "target": "Ljava/net/URL;->openConnection(Ljava/net/Proxy;)Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {v0, v3}, Ljava/net/URL;->openConnection(Ljava/net/Proxy;)Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/com/pgl/ssdk/am.smali",
+      "line": 892,
+      "caller": "Lcom/pgl/ssdk/am;->c()Z",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {v0}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/com/revenuecat/purchases/common/HTTPClient.smali",
+      "line": 504,
+      "caller": "Lcom/revenuecat/purchases/common/HTTPClient;->getConnection(Lcom/revenuecat/purchases/common/networking/HTTPRequest;J)Ljava/net/HttpURLConnection;",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {v0}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/cq7.smali",
+      "line": 101,
+      "caller": "Lcq7;->j(Lmxa;Lqxa;Leya;)V",
+      "target": "Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;",
+      "instruction": "invoke-static/range {v0 .. v6}, Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/cu7.smali",
+      "line": 433,
+      "caller": "Lcu7;->invoke()Ljava/lang/Object;",
+      "target": "Ll48;-><init>()V",
+      "instruction": "invoke-direct {p0}, Ll48;-><init>()V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/cu7.smali",
+      "line": 442,
+      "caller": "Lcu7;->invoke()Ljava/lang/Object;",
+      "target": "Lm48;-><init>(Ll48;)V",
+      "instruction": "invoke-direct {v0, p0}, Lm48;-><init>(Ll48;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/cx4.smali",
+      "line": 45,
+      "caller": "Lcx4;-><clinit>()V",
+      "target": "Lcx4;->a:Lvgb;",
+      "instruction": "sput-object v1, Lcx4;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/cx4.smali",
+      "line": 71,
+      "caller": "Lcx4;-><clinit>()V",
+      "target": "Lcx4;->b:Lvgb;",
+      "instruction": "sput-object v1, Lcx4;->b:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/cx4.smali",
+      "line": 97,
+      "caller": "Lcx4;-><clinit>()V",
+      "target": "Lcx4;->c:Lvgb;",
+      "instruction": "sput-object v1, Lcx4;->c:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/cx4.smali",
+      "line": 123,
+      "caller": "Lcx4;-><clinit>()V",
+      "target": "Lcx4;->d:Lvgb;",
+      "instruction": "sput-object v1, Lcx4;->d:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/cx4.smali",
+      "line": 149,
+      "caller": "Lcx4;-><clinit>()V",
+      "target": "Lcx4;->e:Lvgb;",
+      "instruction": "sput-object v1, Lcx4;->e:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/cx4.smali",
+      "line": 269,
+      "caller": "Lcx4;->a(Ljava/lang/String;)Ljava/lang/String;",
+      "target": "Lcx4;->l()Ljava/lang/String;",
+      "instruction": "invoke-static {}, Lcx4;->l()Ljava/lang/String;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/cx4.smali",
+      "line": 278,
+      "caller": "Lcx4;->a(Ljava/lang/String;)Ljava/lang/String;",
+      "target": "Lcx4;->l()Ljava/lang/String;",
+      "instruction": "invoke-static {}, Lcx4;->l()Ljava/lang/String;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/cx4.smali",
+      "line": 340,
+      "caller": "Lcx4;->b(Ll48;)V",
+      "target": "Lcx4;->l()Ljava/lang/String;",
+      "instruction": "invoke-static {}, Lcx4;->l()Ljava/lang/String;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/cx4.smali",
+      "line": 528,
+      "caller": "Lcx4;->d(Ll48;)V",
+      "target": "Lcx4;->d:Lvgb;",
+      "instruction": "sget-object v0, Lcx4;->d:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/cx4.smali",
+      "line": 555,
+      "caller": "Lcx4;->e()Lm48;",
+      "target": "Lcx4;->e:Lvgb;",
+      "instruction": "sget-object v0, Lcx4;->e:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/cx4.smali",
+      "line": 966,
+      "caller": "Lcx4;->g(Ljava/lang/String;Ljava/util/Map;)Lnq9;",
+      "target": "Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;",
+      "instruction": "invoke-static/range {v0 .. v6}, Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/cx4.smali",
+      "line": 991,
+      "caller": "Lcx4;->h(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lmo9;ZZLjava/lang/String;)Lnq9;",
+      "target": "Lcx4;->m(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Lmo9;Ljava/lang/String;)Ldo9;",
+      "instruction": "invoke-static {p2, p0, p1, p3, p6}, Lcx4;->m(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Lmo9;Ljava/lang/String;)Ldo9;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/cx4.smali",
+      "line": 1003,
+      "caller": "Lcx4;->h(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lmo9;ZZLjava/lang/String;)Lnq9;",
+      "target": "Lcx4;->b:Lvgb;",
+      "instruction": "sget-object p2, Lcx4;->b:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/cx4.smali",
+      "line": 1023,
+      "caller": "Lcx4;->h(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lmo9;ZZLjava/lang/String;)Lnq9;",
+      "target": "Lcx4;->c:Lvgb;",
+      "instruction": "sget-object p2, Lcx4;->c:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/cx4.smali",
+      "line": 1086,
+      "caller": "Lcx4;->h(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lmo9;ZZLjava/lang/String;)Lnq9;",
+      "target": "Lcx4;->l()Ljava/lang/String;",
+      "instruction": "invoke-static {}, Lcx4;->l()Ljava/lang/String;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/cx4.smali",
+      "line": 1119,
+      "caller": "Lcx4;->h(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lmo9;ZZLjava/lang/String;)Lnq9;",
+      "target": "Lcx4;->l()Ljava/lang/String;",
+      "instruction": "invoke-static {}, Lcx4;->l()Ljava/lang/String;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/cx4.smali",
+      "line": 1230,
+      "caller": "Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;",
+      "target": "Lcx4;->h(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lmo9;ZZLjava/lang/String;)Lnq9;",
+      "instruction": "invoke-static/range {v0 .. v6}, Lcx4;->h(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lmo9;ZZLjava/lang/String;)Lnq9;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/cx4.smali",
+      "line": 1260,
+      "caller": "Lcx4;->j(Ljava/lang/String;Ljava/util/LinkedHashMap;Ljava/lang/String;Lm22;I)Ljava/lang/Object;",
+      "target": "Lcx4;->b:Lvgb;",
+      "instruction": "sget-object p4, Lcx4;->b:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/cx4.smali",
+      "line": 1280,
+      "caller": "Lcx4;->j(Ljava/lang/String;Ljava/util/LinkedHashMap;Ljava/lang/String;Lm22;I)Ljava/lang/Object;",
+      "target": "Lcx4;->m(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Lmo9;Ljava/lang/String;)Ldo9;",
+      "instruction": "invoke-static {v1, p0, p1, v0, p2}, Lcx4;->m(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Lmo9;Ljava/lang/String;)Ldo9;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/cx4.smali",
+      "line": 1305,
+      "caller": "Lcx4;->j(Ljava/lang/String;Ljava/util/LinkedHashMap;Ljava/lang/String;Lm22;I)Ljava/lang/Object;",
+      "target": "Lcx4;->c(Luh9;Lm22;)Ljava/lang/Object;",
+      "instruction": "invoke-static {p1, p3}, Lcx4;->c(Luh9;Lm22;)Ljava/lang/Object;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/cx4.smali",
+      "line": 1452,
+      "caller": "Lcx4;->l()Ljava/lang/String;",
+      "target": "Lcx4;->a:Lvgb;",
+      "instruction": "sget-object v0, Lcx4;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/do1.smali",
+      "line": 1015,
+      "caller": "Ldo1;->invoke()Ljava/lang/Object;",
+      "target": "Lqo8;->g(Z)Lm48;",
+      "instruction": "invoke-static {p0}, Lqo8;->g(Z)Lm48;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/do1.smali",
+      "line": 1034,
+      "caller": "Ldo1;->invoke()Ljava/lang/Object;",
+      "target": "Lqo8;->g(Z)Lm48;",
+      "instruction": "invoke-static {p0}, Lqo8;->g(Z)Lm48;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/dv.smali",
+      "line": 125,
+      "caller": "Ldv;->j(Lmxa;Lqxa;Leya;)V",
+      "target": "Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;",
+      "instruction": "invoke-static/range {v0 .. v6}, Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/e43.smali",
+      "line": 155,
+      "caller": "Le43;->invoke(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lcom/instantbits/cast/webvideo/download/DownloadWorker;->h:Lvgb;",
+      "instruction": "sget-object v0, Lcom/instantbits/cast/webvideo/download/DownloadWorker;->h:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/ebb.smali",
+      "line": 153,
+      "caller": "Lebb;->invoke()Ljava/lang/Object;",
+      "target": "Lcx4;->e()Lm48;",
+      "instruction": "invoke-static {}, Lcx4;->e()Lm48;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/ebb.smali",
+      "line": 161,
+      "caller": "Lebb;->invoke()Ljava/lang/Object;",
+      "target": "Lm48;->a()Ll48;",
+      "instruction": "invoke-virtual {p0}, Lm48;->a()Ll48;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/ebb.smali",
+      "line": 210,
+      "caller": "Lebb;->invoke()Ljava/lang/Object;",
+      "target": "Lm48;-><init>(Ll48;)V",
+      "instruction": "invoke-direct {v0, p0}, Lm48;-><init>(Ll48;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/eh3.smali",
+      "line": 4170,
+      "caller": "Leh3;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Ll53;->b(Ljava/util/Set;Lm22;)Ljava/lang/Object;",
+      "instruction": "invoke-virtual {v1, v2, v4}, Ll53;->b(Ljava/util/Set;Lm22;)Ljava/lang/Object;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/ei0.smali",
+      "line": 1017,
+      "caller": "Lei0;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lgjc;->a(Ljava/lang/String;Lfjc;)V",
+      "instruction": "invoke-static {p0, p1}, Lgjc;->a(Ljava/lang/String;Lfjc;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/euc.smali",
+      "line": 925,
+      "caller": "Leuc;->a(ILm22;)Ljava/lang/Object;",
+      "target": "Lcx4;->a:Lvgb;",
+      "instruction": "sget-object v4, Lcx4;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/euc.smali",
+      "line": 1114,
+      "caller": "Leuc;->a(ILm22;)Ljava/lang/Object;",
+      "target": "Lcx4;->k(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Lko9;Ljava/lang/String;Lm22;I)Ljava/lang/Object;",
+      "instruction": "invoke-static/range {v5 .. v11}, Lcx4;->k(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Lko9;Ljava/lang/String;Lm22;I)Ljava/lang/Object;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/eya.smali",
+      "line": 102,
+      "caller": "Leya;->a(Lmxa;Lsoc;Lbya;)V",
+      "target": "Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;",
+      "instruction": "invoke-static/range {v0 .. v6}, Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/f43.smali",
+      "line": 56,
+      "caller": "Lf43;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lcom/instantbits/cast/webvideo/download/DownloadWorker;->h:Lvgb;",
+      "instruction": "sget-object p1, Lcom/instantbits/cast/webvideo/download/DownloadWorker;->h:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/f43.smali",
+      "line": 64,
+      "caller": "Lf43;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lcom/instantbits/cast/webvideo/download/DownloadWorker;->b(Lm22;)Ljava/lang/Object;",
+      "instruction": "invoke-virtual {p1, p0}, Lcom/instantbits/cast/webvideo/download/DownloadWorker;->b(Lm22;)Ljava/lang/Object;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/fd.smali",
+      "line": 1069,
+      "caller": "Lfd;->f(Ljava/lang/String;Ljava/util/HashMap;)Lvc;",
+      "target": "Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;",
+      "instruction": "invoke-static/range {v2 .. v8}, Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/fi0.smali",
+      "line": 2609,
+      "caller": "Lfi0;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lp0c;->a:Lvgb;",
+      "instruction": "sget-object p1, Lp0c;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/fi0.smali",
+      "line": 2613,
+      "caller": "Lfi0;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lp0c;->a:Lvgb;",
+      "instruction": "sget-object p1, Lp0c;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/g43.smali",
+      "line": 96,
+      "caller": "Lg43;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lcom/instantbits/cast/webvideo/download/DownloadWorker;->h:Lvgb;",
+      "instruction": "sget-object p1, Lcom/instantbits/cast/webvideo/download/DownloadWorker;->h:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/g43.smali",
+      "line": 107,
+      "caller": "Lg43;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lcom/instantbits/cast/webvideo/download/DownloadWorker;->c(Landroid/os/ParcelFileDescriptor;Ln33;Lbo9;Lm22;)Ljava/io/Serializable;",
+      "instruction": "invoke-virtual {p1, v0, v0, v0, p0}, Lcom/instantbits/cast/webvideo/download/DownloadWorker;->c(Landroid/os/ParcelFileDescriptor;Ln33;Lbo9;Lm22;)Ljava/io/Serializable;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/g45.smali",
+      "line": 65,
+      "caller": "Lg45;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lgh0;->r(Ljava/lang/String;Lm22;)Ljava/lang/Object;",
+      "instruction": "invoke-virtual {p1, v0, p0}, Lgh0;->r(Ljava/lang/String;Lm22;)Ljava/lang/Object;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/gfa.smali",
+      "line": 58,
+      "caller": "Lgfa;->a(Ljava/lang/String;Z)Lm48;",
+      "target": "Lcx4;->a:Lvgb;",
+      "instruction": "sget-object p0, Lcx4;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/gfa.smali",
+      "line": 66,
+      "caller": "Lgfa;->a(Ljava/lang/String;Z)Lm48;",
+      "target": "Ll48;-><init>()V",
+      "instruction": "invoke-direct {p0}, Ll48;-><init>()V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/gfa.smali",
+      "line": 71,
+      "caller": "Lgfa;->a(Ljava/lang/String;Z)Lm48;",
+      "target": "Lcx4;->b(Ll48;)V",
+      "instruction": "invoke-static {p0}, Lcx4;->b(Ll48;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/gfa.smali",
+      "line": 84,
+      "caller": "Lgfa;->a(Ljava/lang/String;Z)Lm48;",
+      "target": "Lcx4;->d(Ll48;)V",
+      "instruction": "invoke-static {p0}, Lcx4;->d(Ll48;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/gfa.smali",
+      "line": 93,
+      "caller": "Lgfa;->a(Ljava/lang/String;Z)Lm48;",
+      "target": "Lm48;-><init>(Ll48;)V",
+      "instruction": "invoke-direct {p1, p0}, Lm48;-><init>(Ll48;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/gg4.smali",
+      "line": 117,
+      "caller": "Lgg4;->a(Ljava/lang/String;Z)Ljava/lang/String;",
+      "target": "Lcx4;->e()Lm48;",
+      "instruction": "invoke-static {}, Lcx4;->e()Lm48;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/gg5.smali",
+      "line": 202,
+      "caller": "Lgg5;->invoke()Ljava/lang/Object;",
+      "target": "Lp0c;->b:Lr0c;",
+      "instruction": "sget-object v0, Lp0c;->b:Lr0c;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/gg5.smali",
+      "line": 206,
+      "caller": "Lgg5;->invoke()Ljava/lang/Object;",
+      "target": "Lp0c;->a:Lvgb;",
+      "instruction": "sget-object v1, Lp0c;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/gg5.smali",
+      "line": 210,
+      "caller": "Lgg5;->invoke()Ljava/lang/Object;",
+      "target": "Lp0c;->b(Ljava/lang/String;)Ljava/lang/String;",
+      "instruction": "invoke-static {p0}, Lp0c;->b(Ljava/lang/String;)Ljava/lang/String;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/gg5.smali",
+      "line": 300,
+      "caller": "Lgg5;->invoke()Ljava/lang/Object;",
+      "target": "Lp0c;->a:Lvgb;",
+      "instruction": "sget-object v1, Lp0c;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/gg5.smali",
+      "line": 353,
+      "caller": "Lgg5;->invoke()Ljava/lang/Object;",
+      "target": "Lp0c;->b:Lr0c;",
+      "instruction": "sget-object v0, Lp0c;->b:Lr0c;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/gg5.smali",
+      "line": 357,
+      "caller": "Lgg5;->invoke()Ljava/lang/Object;",
+      "target": "Lp0c;->a:Lvgb;",
+      "instruction": "sget-object v1, Lp0c;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/gg5.smali",
+      "line": 361,
+      "caller": "Lgg5;->invoke()Ljava/lang/Object;",
+      "target": "Lp0c;->b(Ljava/lang/String;)Ljava/lang/String;",
+      "instruction": "invoke-static {p0}, Lp0c;->b(Ljava/lang/String;)Ljava/lang/String;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/gg5.smali",
+      "line": 451,
+      "caller": "Lgg5;->invoke()Ljava/lang/Object;",
+      "target": "Lp0c;->a:Lvgb;",
+      "instruction": "sget-object v1, Lp0c;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/gh0.smali",
+      "line": 2774,
+      "caller": "Lgh0;->r(Ljava/lang/String;Lm22;)Ljava/lang/Object;",
+      "target": "Lcx4;->a:Lvgb;",
+      "instruction": "sget-object p0, Lcx4;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/gh0.smali",
+      "line": 2782,
+      "caller": "Lgh0;->r(Ljava/lang/String;Lm22;)Ljava/lang/Object;",
+      "target": "Ll48;-><init>()V",
+      "instruction": "invoke-direct {p0}, Ll48;-><init>()V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/gh0.smali",
+      "line": 2787,
+      "caller": "Lgh0;->r(Ljava/lang/String;Lm22;)Ljava/lang/Object;",
+      "target": "Lcx4;->b(Ll48;)V",
+      "instruction": "invoke-static {p0}, Lcx4;->b(Ll48;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/gh0.smali",
+      "line": 2854,
+      "caller": "Lgh0;->r(Ljava/lang/String;Lm22;)Ljava/lang/Object;",
+      "target": "Lcx4;->d(Ll48;)V",
+      "instruction": "invoke-static {p0}, Lcx4;->d(Ll48;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/gh0.smali",
+      "line": 2863,
+      "caller": "Lgh0;->r(Ljava/lang/String;Lm22;)Ljava/lang/Object;",
+      "target": "Lm48;-><init>(Ll48;)V",
+      "instruction": "invoke-direct {p2, p0}, Lm48;-><init>(Ll48;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/gh0.smali",
+      "line": 2930,
+      "caller": "Lgh0;->r(Ljava/lang/String;Lm22;)Ljava/lang/Object;",
+      "target": "Lcx4;->c(Luh9;Lm22;)Ljava/lang/Object;",
+      "instruction": "invoke-static {p0, v0}, Lcx4;->c(Luh9;Lm22;)Ljava/lang/Object;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/gjc.smali",
+      "line": 192,
+      "caller": "Lgjc;->a(Ljava/lang/String;Lfjc;)V",
+      "target": "Lcx4;->e()Lm48;",
+      "instruction": "invoke-static {}, Lcx4;->e()Lm48;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/gu8.smali",
+      "line": 5503,
+      "caller": "Lgu8;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lcx4;->a:Lvgb;",
+      "instruction": "sget-object v1, Lcx4;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/gu8.smali",
+      "line": 5551,
+      "caller": "Lgu8;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lcx4;->k(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Lko9;Ljava/lang/String;Lm22;I)Ljava/lang/Object;",
+      "instruction": "invoke-static/range {v0 .. v6}, Lcx4;->k(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Lko9;Ljava/lang/String;Lm22;I)Ljava/lang/Object;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/gu8.smali",
+      "line": 8841,
+      "caller": "Lgu8;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {v0}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/h43.smali",
+      "line": 58,
+      "caller": "Lh43;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lcom/instantbits/cast/webvideo/download/DownloadWorker;->h:Lvgb;",
+      "instruction": "sget-object p1, Lcom/instantbits/cast/webvideo/download/DownloadWorker;->h:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/h43.smali",
+      "line": 69,
+      "caller": "Lh43;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lcom/instantbits/cast/webvideo/download/DownloadWorker;->d(Lc43;Ln33;Ljava/lang/String;Lm22;)Ljava/io/Serializable;",
+      "instruction": "invoke-virtual {p1, v0, v0, v0, p0}, Lcom/instantbits/cast/webvideo/download/DownloadWorker;->d(Lc43;Ln33;Ljava/lang/String;Lm22;)Ljava/io/Serializable;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/hsc.smali",
+      "line": 313,
+      "caller": "Lhsc;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;",
+      "target": "Lcx4;->e()Lm48;",
+      "instruction": "invoke-static {}, Lcx4;->e()Lm48;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/i25.smali",
+      "line": 549,
+      "caller": "Li25;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lgh0;->r(Ljava/lang/String;Lm22;)Ljava/lang/Object;",
+      "instruction": "invoke-virtual {v9, v6, p0}, Lgh0;->r(Ljava/lang/String;Lm22;)Ljava/lang/Object;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/i43.smali",
+      "line": 66,
+      "caller": "Li43;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lcom/instantbits/cast/webvideo/download/DownloadWorker;->a(Ll22;)Ljava/lang/Object;",
+      "instruction": "invoke-virtual {p1, p0}, Lcom/instantbits/cast/webvideo/download/DownloadWorker;->a(Ll22;)Ljava/lang/Object;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/ic5.smali",
+      "line": 1754,
+      "caller": "Lic5;->j(Lmxa;Lqxa;Leya;)V",
+      "target": "Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;",
+      "instruction": "invoke-static/range {v12 .. v18}, Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/ic5.smali",
+      "line": 2680,
+      "caller": "Lic5;->j(Lmxa;Lqxa;Leya;)V",
+      "target": "Lqmc;->g:Lqmc;",
+      "instruction": "sget-object v2, Lqmc;->g:Lqmc;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/ic5.smali",
+      "line": 2684,
+      "caller": "Lic5;->j(Lmxa;Lqxa;Leya;)V",
+      "target": "Lqmc;->a(Lxyc;)V",
+      "instruction": "invoke-virtual {v2, v0}, Lqmc;->a(Lxyc;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/j43.smali",
+      "line": 64,
+      "caller": "Lj43;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lcom/instantbits/cast/webvideo/download/DownloadWorker;->h:Lvgb;",
+      "instruction": "sget-object p1, Lcom/instantbits/cast/webvideo/download/DownloadWorker;->h:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/j43.smali",
+      "line": 75,
+      "caller": "Lj43;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lcom/instantbits/cast/webvideo/download/DownloadWorker;->e(Ln33;Lm22;)Ljava/lang/Object;",
+      "instruction": "invoke-virtual {p1, v0, p0}, Lcom/instantbits/cast/webvideo/download/DownloadWorker;->e(Ln33;Lm22;)Ljava/lang/Object;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/jd9.smali",
+      "line": 24,
+      "caller": "Ljd9;-><clinit>()V",
+      "target": "Ljd9;->a:Ljava/util/HashMap;",
+      "instruction": "sput-object v0, Ljd9;->a:Ljava/util/HashMap;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/jd9.smali",
+      "line": 80,
+      "caller": "Ljd9;->a(Ljava/lang/String;Ljava/util/HashMap;)V",
+      "target": "Ljd9;->a:Ljava/util/HashMap;",
+      "instruction": "sget-object v0, Ljd9;->a:Ljava/util/HashMap;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/jd9.smali",
+      "line": 124,
+      "caller": "Ljd9;->b(Ljava/lang/String;)Ljava/util/HashMap;",
+      "target": "Ljd9;->a:Ljava/util/HashMap;",
+      "instruction": "sget-object v0, Ljd9;->a:Ljava/util/HashMap;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/jg1.smali",
+      "line": 79,
+      "caller": "Ljg1;->run()V",
+      "target": "Lqmc;->g:Lqmc;",
+      "instruction": "sget-object v1, Lqmc;->g:Lqmc;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/jg1.smali",
+      "line": 83,
+      "caller": "Ljg1;->run()V",
+      "target": "Lqmc;->d(Lomc;)Z",
+      "instruction": "invoke-virtual {v1, v0}, Lqmc;->d(Lomc;)Z"
+    },
+    {
+      "file": "working/apktool/smali_classes6/jh2.smali",
+      "line": 104,
+      "caller": "Ljh2;->j(Lmxa;Lqxa;Leya;)V",
+      "target": "Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;",
+      "instruction": "invoke-static/range {v0 .. v6}, Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/jmc.smali",
+      "line": 105,
+      "caller": "Ljmc;->j(Lmxa;Lqxa;Leya;)V",
+      "target": "Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;",
+      "instruction": "invoke-static/range {v0 .. v6}, Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/js6.smali",
+      "line": 280,
+      "caller": "Ljs6;->onClick(Landroid/view/View;)V",
+      "target": "Lqmc;->g:Lqmc;",
+      "instruction": "sget-object v0, Lqmc;->g:Lqmc;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/jt0.smali",
+      "line": 343,
+      "caller": "Ljt0;->j(Lmxa;Lqxa;Leya;)V",
+      "target": "Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;",
+      "instruction": "invoke-static/range {v3 .. v9}, Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/ka1.smali",
+      "line": 1382,
+      "caller": "Lka1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {p1}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/kc5.smali",
+      "line": 154,
+      "caller": "Lkc5;-><clinit>()V",
+      "target": "Lm48;-><init>()V",
+      "instruction": "invoke-direct {v0}, Lm48;-><init>()V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/kp.smali",
+      "line": 9005,
+      "caller": "Lkp;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lgh0;->r(Ljava/lang/String;Lm22;)Ljava/lang/Object;",
+      "instruction": "invoke-virtual {v2, v4, v1}, Lgh0;->r(Ljava/lang/String;Lm22;)Ljava/lang/Object;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/kp.smali",
+      "line": 11479,
+      "caller": "Lkp;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lqmc;->g:Lqmc;",
+      "instruction": "sget-object v0, Lqmc;->g:Lqmc;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/kp.smali",
+      "line": 11483,
+      "caller": "Lkp;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lqmc;->a(Lxyc;)V",
+      "instruction": "invoke-virtual {v0, v4}, Lqmc;->a(Lxyc;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/ks7.smali",
+      "line": 1556,
+      "caller": "Lks7;->j(Lmxa;Lqxa;Leya;)V",
+      "target": "Lcx4;->g(Ljava/lang/String;Ljava/util/Map;)Lnq9;",
+      "instruction": "invoke-static {v2, v5}, Lcx4;->g(Ljava/lang/String;Ljava/util/Map;)Lnq9;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/ku7.smali",
+      "line": 5813,
+      "caller": "Lku7;->q(Ljava/lang/String;Lm22;)Ljava/lang/Object;",
+      "target": "Lcx4;->a:Lvgb;",
+      "instruction": "sget-object p0, Lcx4;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/lg1.smali",
+      "line": 732,
+      "caller": "Llg1;->onNext(Ljava/lang/Object;)V",
+      "target": "Lqmc;->g:Lqmc;",
+      "instruction": "sget-object v0, Lqmc;->g:Lqmc;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/lg1.smali",
+      "line": 736,
+      "caller": "Llg1;->onNext(Ljava/lang/Object;)V",
+      "target": "Lqmc;->a(Lxyc;)V",
+      "instruction": "invoke-virtual {v0, v13}, Lqmc;->a(Lxyc;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/lt7.smali",
+      "line": 787,
+      "caller": "Llt7;->j(Lmxa;Lqxa;Leya;)V",
+      "target": "Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;",
+      "instruction": "invoke-static/range {v1 .. v7}, Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/lt7.smali",
+      "line": 1134,
+      "caller": "Llt7;->j(Lmxa;Lqxa;Leya;)V",
+      "target": "Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;",
+      "instruction": "invoke-static/range {v5 .. v11}, Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/mg1.smali",
+      "line": 2346,
+      "caller": "Lmg1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lqmc;->g:Lqmc;",
+      "instruction": "sget-object v0, Lqmc;->g:Lqmc;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/mg1.smali",
+      "line": 2350,
+      "caller": "Lmg1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lqmc;->a(Lxyc;)V",
+      "instruction": "invoke-virtual {v0, v3}, Lqmc;->a(Lxyc;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/ml8.smali",
+      "line": 1386,
+      "caller": "Lml8;->j(Landroid/content/Context;Lm22;)Ljava/lang/Object;",
+      "target": "Lmp2;-><init>()V",
+      "instruction": "invoke-direct {v0}, Lmp2;-><init>()V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/ml8.smali",
+      "line": 1426,
+      "caller": "Lml8;->j(Landroid/content/Context;Lm22;)Ljava/lang/Object;",
+      "target": "Lmp2;->b:Ljava/lang/String;",
+      "instruction": "iput-object v6, v0, Lmp2;->b:Ljava/lang/String;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/ml8.smali",
+      "line": 1434,
+      "caller": "Lml8;->j(Landroid/content/Context;Lm22;)Ljava/lang/Object;",
+      "target": "Lmp2;->c:I",
+      "instruction": "iput v6, v0, Lmp2;->c:I"
+    },
+    {
+      "file": "working/apktool/smali_classes6/ml8.smali",
+      "line": 1438,
+      "caller": "Lml8;->j(Landroid/content/Context;Lm22;)Ljava/lang/Object;",
+      "target": "Lmp2;->d:I",
+      "instruction": "iput v6, v0, Lmp2;->d:I"
+    },
+    {
+      "file": "working/apktool/smali_classes6/ml8.smali",
+      "line": 1445,
+      "caller": "Lml8;->j(Landroid/content/Context;Lm22;)Ljava/lang/Object;",
+      "target": "Lmp2;->e:Z",
+      "instruction": "iput-boolean v6, v0, Lmp2;->e:Z"
+    },
+    {
+      "file": "working/apktool/smali_classes6/mq3.smali",
+      "line": 1441,
+      "caller": "Lmq3;->j(Lmxa;Lqxa;Leya;)V",
+      "target": "Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;",
+      "instruction": "invoke-static/range {v5 .. v11}, Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/mq3.smali",
+      "line": 1637,
+      "caller": "Lmq3;->j(Lmxa;Lqxa;Leya;)V",
+      "target": "Lqmc;->g:Lqmc;",
+      "instruction": "sget-object p0, Lqmc;->g:Lqmc;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/mq3.smali",
+      "line": 1641,
+      "caller": "Lmq3;->j(Lmxa;Lqxa;Leya;)V",
+      "target": "Lqmc;->a(Lxyc;)V",
+      "instruction": "invoke-virtual {p0, v3}, Lqmc;->a(Lxyc;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/n0c.smali",
+      "line": 63,
+      "caller": "Ln0c;->invoke()Ljava/lang/Object;",
+      "target": "Lp0c;->b:Lr0c;",
+      "instruction": "sget-object v1, Lp0c;->b:Lr0c;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/n0c.smali",
+      "line": 118,
+      "caller": "Ln0c;->invoke()Ljava/lang/Object;",
+      "target": "Lp0c;->b:Lr0c;",
+      "instruction": "sget-object v0, Lp0c;->b:Lr0c;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/nmc.smali",
+      "line": 65,
+      "caller": "Lnmc;->run()V",
+      "target": "Lqmc;->d:Ljava/util/List;",
+      "instruction": "iget-object p0, p0, Lqmc;->d:Ljava/util/List;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/nmc.smali",
+      "line": 78,
+      "caller": "Lnmc;->run()V",
+      "target": "Lqmc;->d:Ljava/util/List;",
+      "instruction": "iget-object v0, p0, Lqmc;->d:Ljava/util/List;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/nmc.smali",
+      "line": 87,
+      "caller": "Lnmc;->run()V",
+      "target": "Lqmc;->b:Ljava/util/Map;",
+      "instruction": "iget-object v0, p0, Lqmc;->b:Ljava/util/Map;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/nmc.smali",
+      "line": 100,
+      "caller": "Lnmc;->run()V",
+      "target": "Lqmc;->g()V",
+      "instruction": "invoke-virtual {p0}, Lqmc;->g()V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/nx0.smali",
+      "line": 598,
+      "caller": "Lnx0;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "La78;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/instantbits/media/subtitlesapi/opensubtitles/restapi/OpensubtitlesRestApiDownloadLinkRequest;)Lg71;",
+      "instruction": "invoke-interface {p0, p1, v1, v5, v6}, La78;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/instantbits/media/subtitlesapi/opensubtitles/restapi/OpensubtitlesRestApiDownloadLinkRequest;)Lg71;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/o0c.smali",
+      "line": 134,
+      "caller": "Lo0c;->invoke()Ljava/lang/Object;",
+      "target": "Lp0c;->b:Lr0c;",
+      "instruction": "sget-object v0, Lp0c;->b:Lr0c;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/o0c.smali",
+      "line": 143,
+      "caller": "Lo0c;->invoke()Ljava/lang/Object;",
+      "target": "Lp0c;->a:Lvgb;",
+      "instruction": "sget-object v10, Lp0c;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/o0c.smali",
+      "line": 188,
+      "caller": "Lo0c;->invoke()Ljava/lang/Object;",
+      "target": "Lp0c;->b(Ljava/lang/String;)Ljava/lang/String;",
+      "instruction": "invoke-static {v9}, Lp0c;->b(Ljava/lang/String;)Ljava/lang/String;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/o0c.smali",
+      "line": 222,
+      "caller": "Lo0c;->invoke()Ljava/lang/Object;",
+      "target": "Lp0c;->b:Lr0c;",
+      "instruction": "sget-object v0, Lp0c;->b:Lr0c;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/o0c.smali",
+      "line": 226,
+      "caller": "Lo0c;->invoke()Ljava/lang/Object;",
+      "target": "Lp0c;->a:Lvgb;",
+      "instruction": "sget-object v10, Lp0c;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/o0c.smali",
+      "line": 230,
+      "caller": "Lo0c;->invoke()Ljava/lang/Object;",
+      "target": "Lp0c;->b(Ljava/lang/String;)Ljava/lang/String;",
+      "instruction": "invoke-static {v9}, Lp0c;->b(Ljava/lang/String;)Ljava/lang/String;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/o3.smali",
+      "line": 1875,
+      "caller": "Lo3;->invoke(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lcom/instantbits/android/utils/web/AbstractMediaProxyServlet;->e:Ljava/lang/String;",
+      "instruction": "sget-object v1, Lcom/instantbits/android/utils/web/AbstractMediaProxyServlet;->e:Ljava/lang/String;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/o8d.smali",
+      "line": 3273,
+      "caller": "Lo8d;->j(Lmxa;Lqxa;Leya;)V",
+      "target": "Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;",
+      "instruction": "invoke-static/range {v0 .. v6}, Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/og1.smali",
+      "line": 1269,
+      "caller": "Log1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lqmc;->g:Lqmc;",
+      "instruction": "sget-object v0, Lqmc;->g:Lqmc;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/og1.smali",
+      "line": 1273,
+      "caller": "Log1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lqmc;->a(Lxyc;)V",
+      "instruction": "invoke-virtual {v0, v4}, Lqmc;->a(Lxyc;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/ovb.smali",
+      "line": 648,
+      "caller": "Lovb;->a(ILjava/lang/String;ZLjava/lang/String;)Luia;",
+      "target": "Lcx4;->e()Lm48;",
+      "instruction": "invoke-static {}, Lcx4;->e()Lm48;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/p0c.smali",
+      "line": 38,
+      "caller": "Lp0c;-><clinit>()V",
+      "target": "Lp0c;->a:Lvgb;",
+      "instruction": "sput-object v2, Lp0c;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/p0c.smali",
+      "line": 42,
+      "caller": "Lp0c;-><clinit>()V",
+      "target": "Lcx4;->a:Lvgb;",
+      "instruction": "sget-object v0, Lcx4;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/p0c.smali",
+      "line": 50,
+      "caller": "Lp0c;-><clinit>()V",
+      "target": "Ll48;-><init>()V",
+      "instruction": "invoke-direct {v0}, Ll48;-><init>()V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/p0c.smali",
+      "line": 55,
+      "caller": "Lp0c;-><clinit>()V",
+      "target": "Lcx4;->b(Ll48;)V",
+      "instruction": "invoke-static {v0}, Lcx4;->b(Ll48;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/p0c.smali",
+      "line": 136,
+      "caller": "Lp0c;-><clinit>()V",
+      "target": "Lm48;-><init>(Ll48;)V",
+      "instruction": "invoke-direct {v1, v0}, Lm48;-><init>(Ll48;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/p0c.smali",
+      "line": 477,
+      "caller": "Lp0c;-><clinit>()V",
+      "target": "Lp0c;->b:Lr0c;",
+      "instruction": "sput-object v0, Lp0c;->b:Lr0c;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/p0c.smali",
+      "line": 600,
+      "caller": "Lp0c;->a(Lcom/instantbits/cast/util/connectsdkhelper/control/scrobble/trakt/model/TraktRatingAdd;Lcom/instantbits/cast/util/connectsdkhelper/control/scrobble/trakt/model/TraktRatingAdd;Lcom/instantbits/cast/util/connectsdkhelper/control/scrobble/trakt/model/TraktRatingAdd;Lcom/instantbits/cast/util/connectsdkhelper/control/scrobble/trakt/model/TraktRatingAdd;Ljava/lang/String;Lm22;I)Ljava/lang/Object;",
+      "target": "Lp0c;->c(Lh84;Ll22;)Ljava/lang/Object;",
+      "instruction": "invoke-static {v2, p5}, Lp0c;->c(Lh84;Ll22;)Ljava/lang/Object;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/p0c.smali",
+      "line": 767,
+      "caller": "Lp0c;->d(Lcom/instantbits/cast/util/connectsdkhelper/control/scrobble/trakt/model/TraktRatingRemove;Lcom/instantbits/cast/util/connectsdkhelper/control/scrobble/trakt/model/TraktRatingRemove;Lcom/instantbits/cast/util/connectsdkhelper/control/scrobble/trakt/model/TraktRatingRemove;Lcom/instantbits/cast/util/connectsdkhelper/control/scrobble/trakt/model/TraktRatingRemove;Ljava/lang/String;Lm22;I)Ljava/lang/Object;",
+      "target": "Lp0c;->c(Lh84;Ll22;)Ljava/lang/Object;",
+      "instruction": "invoke-static {v2, p5}, Lp0c;->c(Lh84;Ll22;)Ljava/lang/Object;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/pg1.smali",
+      "line": 34,
+      "caller": "Lpg1;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V",
+      "target": "Lpg1;->a:Ljava/lang/String;",
+      "instruction": "iput-object p1, p0, Lpg1;->a:Ljava/lang/String;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/pg1.smali",
+      "line": 38,
+      "caller": "Lpg1;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V",
+      "target": "Lpg1;->b:Ljava/lang/String;",
+      "instruction": "iput-object p2, p0, Lpg1;->b:Ljava/lang/String;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/pg1.smali",
+      "line": 42,
+      "caller": "Lpg1;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V",
+      "target": "Lpg1;->c:Ljava/lang/String;",
+      "instruction": "iput-object p3, p0, Lpg1;->c:Ljava/lang/String;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/pg1.smali",
+      "line": 46,
+      "caller": "Lpg1;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V",
+      "target": "Lpg1;->d:Z",
+      "instruction": "iput-boolean p4, p0, Lpg1;->d:Z"
+    },
+    {
+      "file": "working/apktool/smali_classes6/pg1.smali",
+      "line": 67,
+      "caller": "Lpg1;->call()Ljava/lang/Object;",
+      "target": "Lpg1;->a:Ljava/lang/String;",
+      "instruction": "iget-object v2, v0, Lpg1;->a:Ljava/lang/String;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/pg1.smali",
+      "line": 339,
+      "caller": "Lpg1;->call()Ljava/lang/Object;",
+      "target": "Lpg1;->d:Z",
+      "instruction": "iget-boolean v2, v0, Lpg1;->d:Z"
+    },
+    {
+      "file": "working/apktool/smali_classes6/pg1.smali",
+      "line": 499,
+      "caller": "Lpg1;->call()Ljava/lang/Object;",
+      "target": "Lcx4;->e()Lm48;",
+      "instruction": "invoke-static {}, Lcx4;->e()Lm48;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/pg1.smali",
+      "line": 538,
+      "caller": "Lpg1;->call()Ljava/lang/Object;",
+      "target": "Lpg1;->b:Ljava/lang/String;",
+      "instruction": "iget-object v12, v0, Lpg1;->b:Ljava/lang/String;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/pg1.smali",
+      "line": 573,
+      "caller": "Lpg1;->call()Ljava/lang/Object;",
+      "target": "Lpg1;->c:Ljava/lang/String;",
+      "instruction": "iget-object v0, v0, Lpg1;->c:Ljava/lang/String;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/psc.smali",
+      "line": 1477,
+      "caller": "Lpsc;->run()V",
+      "target": "Lqmc;->g:Lqmc;",
+      "instruction": "sget-object v2, Lqmc;->g:Lqmc;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/psc.smali",
+      "line": 1548,
+      "caller": "Lpsc;->run()V",
+      "target": "Lqmc;->g:Lqmc;",
+      "instruction": "sget-object p0, Lqmc;->g:Lqmc;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/psc.smali",
+      "line": 1552,
+      "caller": "Lpsc;->run()V",
+      "target": "Lqmc;->a(Lxyc;)V",
+      "instruction": "invoke-virtual {p0, v2}, Lqmc;->a(Lxyc;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/q92.smali",
+      "line": 2307,
+      "caller": "Lq92;->j(Lmxa;Lqxa;Leya;)V",
+      "target": "Lqmc;->g:Lqmc;",
+      "instruction": "sget-object v0, Lqmc;->g:Lqmc;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/q92.smali",
+      "line": 2311,
+      "caller": "Lq92;->j(Lmxa;Lqxa;Leya;)V",
+      "target": "Lqmc;->a(Lxyc;)V",
+      "instruction": "invoke-virtual {v0, v13}, Lqmc;->a(Lxyc;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qg1.smali",
+      "line": 41,
+      "caller": "Lqg1;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V",
+      "target": "Lqg1;->a:Ljava/lang/String;",
+      "instruction": "iput-object p1, p0, Lqg1;->a:Ljava/lang/String;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qg1.smali",
+      "line": 45,
+      "caller": "Lqg1;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V",
+      "target": "Lqg1;->b:Ljava/lang/String;",
+      "instruction": "iput-object p2, p0, Lqg1;->b:Ljava/lang/String;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qg1.smali",
+      "line": 49,
+      "caller": "Lqg1;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V",
+      "target": "Lqg1;->c:Ljava/lang/String;",
+      "instruction": "iput-object p3, p0, Lqg1;->c:Ljava/lang/String;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qg1.smali",
+      "line": 53,
+      "caller": "Lqg1;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V",
+      "target": "Lqg1;->d:Z",
+      "instruction": "iput-boolean p4, p0, Lqg1;->d:Z"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qg1.smali",
+      "line": 79,
+      "caller": "Lqg1;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V",
+      "target": "Lqg1;->e:Lvgb;",
+      "instruction": "iput-object p2, p0, Lqg1;->e:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qg1.smali",
+      "line": 92,
+      "caller": "Lqg1;->call()Ljava/lang/Object;",
+      "target": "Lqg1;->d:Z",
+      "instruction": "iget-boolean v0, p0, Lqg1;->d:Z"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qg1.smali",
+      "line": 96,
+      "caller": "Lqg1;->call()Ljava/lang/Object;",
+      "target": "Lqg1;->a:Ljava/lang/String;",
+      "instruction": "iget-object v1, p0, Lqg1;->a:Ljava/lang/String;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qg1.smali",
+      "line": 108,
+      "caller": "Lqg1;->call()Ljava/lang/Object;",
+      "target": "Lqg1;->e:Lvgb;",
+      "instruction": "iget-object v2, p0, Lqg1;->e:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qg1.smali",
+      "line": 140,
+      "caller": "Lqg1;->call()Ljava/lang/Object;",
+      "target": "Lqg1;->c:Ljava/lang/String;",
+      "instruction": "iget-object v3, p0, Lqg1;->c:Ljava/lang/String;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qg1.smali",
+      "line": 144,
+      "caller": "Lqg1;->call()Ljava/lang/Object;",
+      "target": "Lqg1;->b:Ljava/lang/String;",
+      "instruction": "iget-object p0, p0, Lqg1;->b:Ljava/lang/String;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qg1.smali",
+      "line": 400,
+      "caller": "Lqg1;->call()Ljava/lang/Object;",
+      "target": "Lcx4;->e()Lm48;",
+      "instruction": "invoke-static {}, Lcx4;->e()Lm48;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qg1.smali",
+      "line": 742,
+      "caller": "Lqg1;->call()Ljava/lang/Object;",
+      "target": "Lhsc;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;",
+      "instruction": "invoke-static {v1, v2, v0, p0, v3}, Lhsc;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qg1.smali",
+      "line": 782,
+      "caller": "Lqg1;->call()Ljava/lang/Object;",
+      "target": "Lhsc;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;",
+      "instruction": "invoke-static {v2, v1, v0, p0, v3}, Lhsc;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qj4.smali",
+      "line": 131,
+      "caller": "Lqj4;->invoke()Ljava/lang/Object;",
+      "target": "Lcx4;->a:Lvgb;",
+      "instruction": "sget-object p0, Lcx4;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qj4.smali",
+      "line": 139,
+      "caller": "Lqj4;->invoke()Ljava/lang/Object;",
+      "target": "Ll48;-><init>()V",
+      "instruction": "invoke-direct {p0}, Ll48;-><init>()V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qj4.smali",
+      "line": 144,
+      "caller": "Lqj4;->invoke()Ljava/lang/Object;",
+      "target": "Lcx4;->b(Ll48;)V",
+      "instruction": "invoke-static {p0}, Lcx4;->b(Ll48;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qj4.smali",
+      "line": 157,
+      "caller": "Lqj4;->invoke()Ljava/lang/Object;",
+      "target": "Lcx4;->d(Ll48;)V",
+      "instruction": "invoke-static {p0}, Lcx4;->d(Ll48;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qj4.smali",
+      "line": 166,
+      "caller": "Lqj4;->invoke()Ljava/lang/Object;",
+      "target": "Lm48;-><init>(Ll48;)V",
+      "instruction": "invoke-direct {v0, p0}, Lm48;-><init>(Ll48;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qj4.smali",
+      "line": 232,
+      "caller": "Lqj4;->invoke()Ljava/lang/Object;",
+      "target": "Lcx4;->a:Lvgb;",
+      "instruction": "sget-object p0, Lcx4;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qj4.smali",
+      "line": 236,
+      "caller": "Lqj4;->invoke()Ljava/lang/Object;",
+      "target": "Lcx4;->b:Lvgb;",
+      "instruction": "sget-object p0, Lcx4;->b:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qj4.smali",
+      "line": 252,
+      "caller": "Lqj4;->invoke()Ljava/lang/Object;",
+      "target": "Lm48;->a()Ll48;",
+      "instruction": "invoke-virtual {p0}, Lm48;->a()Ll48;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qj4.smali",
+      "line": 275,
+      "caller": "Lqj4;->invoke()Ljava/lang/Object;",
+      "target": "Lm48;-><init>(Ll48;)V",
+      "instruction": "invoke-direct {v0, p0}, Lm48;-><init>(Ll48;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qj4.smali",
+      "line": 284,
+      "caller": "Lqj4;->invoke()Ljava/lang/Object;",
+      "target": "Lcx4;->a:Lvgb;",
+      "instruction": "sget-object p0, Lcx4;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qj4.smali",
+      "line": 292,
+      "caller": "Lqj4;->invoke()Ljava/lang/Object;",
+      "target": "Ll48;-><init>()V",
+      "instruction": "invoke-direct {p0}, Ll48;-><init>()V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qj4.smali",
+      "line": 338,
+      "caller": "Lqj4;->invoke()Ljava/lang/Object;",
+      "target": "Lcx4;->b(Ll48;)V",
+      "instruction": "invoke-static {p0}, Lcx4;->b(Ll48;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qj4.smali",
+      "line": 343,
+      "caller": "Lqj4;->invoke()Ljava/lang/Object;",
+      "target": "Lcx4;->l()Ljava/lang/String;",
+      "instruction": "invoke-static {}, Lcx4;->l()Ljava/lang/String;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qj4.smali",
+      "line": 356,
+      "caller": "Lqj4;->invoke()Ljava/lang/Object;",
+      "target": "Lcx4;->d(Ll48;)V",
+      "instruction": "invoke-static {p0}, Lcx4;->d(Ll48;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qj4.smali",
+      "line": 365,
+      "caller": "Lqj4;->invoke()Ljava/lang/Object;",
+      "target": "Lm48;-><init>(Ll48;)V",
+      "instruction": "invoke-direct {v0, p0}, Lm48;-><init>(Ll48;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qj4.smali",
+      "line": 643,
+      "caller": "Lqj4;->invoke()Ljava/lang/Object;",
+      "target": "Lcx4;->a:Lvgb;",
+      "instruction": "sget-object p0, Lcx4;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qj4.smali",
+      "line": 651,
+      "caller": "Lqj4;->invoke()Ljava/lang/Object;",
+      "target": "Ll48;-><init>()V",
+      "instruction": "invoke-direct {p0}, Ll48;-><init>()V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qj4.smali",
+      "line": 757,
+      "caller": "Lqj4;->invoke()Ljava/lang/Object;",
+      "target": "Lcx4;->d(Ll48;)V",
+      "instruction": "invoke-static {p0}, Lcx4;->d(Ll48;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qj4.smali",
+      "line": 766,
+      "caller": "Lqj4;->invoke()Ljava/lang/Object;",
+      "target": "Lm48;-><init>(Ll48;)V",
+      "instruction": "invoke-direct {v0, p0}, Lm48;-><init>(Ll48;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qmc.smali",
+      "line": 54,
+      "caller": "Lqmc;-><clinit>()V",
+      "target": "Lqmc;->f:Lvgb;",
+      "instruction": "sput-object v1, Lqmc;->f:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qmc.smali",
+      "line": 62,
+      "caller": "Lqmc;-><clinit>()V",
+      "target": "Lqmc;-><init>()V",
+      "instruction": "invoke-direct {v0}, Lqmc;-><init>()V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qmc.smali",
+      "line": 67,
+      "caller": "Lqmc;-><clinit>()V",
+      "target": "Lqmc;->g:Lqmc;",
+      "instruction": "sput-object v0, Lqmc;->g:Lqmc;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qmc.smali",
+      "line": 80,
+      "caller": "Lqmc;-><clinit>()V",
+      "target": "Lqmc;->h:Lpqa;",
+      "instruction": "sput-object v0, Lqmc;->h:Lpqa;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qmc.smali",
+      "line": 105,
+      "caller": "Lqmc;-><clinit>()V",
+      "target": "Lqmc;->i:Lvgb;",
+      "instruction": "sput-object v1, Lqmc;->i:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qmc.smali",
+      "line": 134,
+      "caller": "Lqmc;-><init>()V",
+      "target": "Lqmc;->a:Ljava/util/ArrayList;",
+      "instruction": "iput-object v0, p0, Lqmc;->a:Ljava/util/ArrayList;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qmc.smali",
+      "line": 146,
+      "caller": "Lqmc;-><init>()V",
+      "target": "Lqmc;->b:Ljava/util/Map;",
+      "instruction": "iput-object v0, p0, Lqmc;->b:Ljava/util/Map;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qmc.smali",
+      "line": 158,
+      "caller": "Lqmc;-><init>()V",
+      "target": "Lqmc;->c:Ljava/util/List;",
+      "instruction": "iput-object v0, p0, Lqmc;->c:Ljava/util/List;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qmc.smali",
+      "line": 170,
+      "caller": "Lqmc;-><init>()V",
+      "target": "Lqmc;->d:Ljava/util/List;",
+      "instruction": "iput-object v0, p0, Lqmc;->d:Ljava/util/List;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qmc.smali",
+      "line": 183,
+      "caller": "Lqmc;-><init>()V",
+      "target": "Lqmc;->e:Ljava/util/ArrayList;",
+      "instruction": "iput-object v0, p0, Lqmc;->e:Ljava/util/ArrayList;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qmc.smali",
+      "line": 289,
+      "caller": "Lqmc;->b(Lxyc;Lomc;)Z",
+      "target": "Ljd9;->b(Ljava/lang/String;)Ljava/util/HashMap;",
+      "instruction": "invoke-static {v2}, Ljd9;->b(Ljava/lang/String;)Ljava/util/HashMap;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qmc.smali",
+      "line": 502,
+      "caller": "Lqmc;->c(Lomc;)Ljava/util/ArrayList;",
+      "target": "Lqmc;->c:Ljava/util/List;",
+      "instruction": "iget-object p0, p0, Lqmc;->c:Ljava/util/List;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qmc.smali",
+      "line": 583,
+      "caller": "Lqmc;->d(Lomc;)Z",
+      "target": "Lqmc;->b:Ljava/util/Map;",
+      "instruction": "iget-object v0, p0, Lqmc;->b:Ljava/util/Map;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qmc.smali",
+      "line": 626,
+      "caller": "Lqmc;->d(Lomc;)Z",
+      "target": "Lqmc;->c(Lomc;)Ljava/util/ArrayList;",
+      "instruction": "invoke-virtual {p0, p1}, Lqmc;->c(Lomc;)Ljava/util/ArrayList;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qmc.smali",
+      "line": 775,
+      "caller": "Lqmc;->f(Lomc;Ljava/util/List;)V",
+      "target": "Lqmc;->e:Ljava/util/ArrayList;",
+      "instruction": "iget-object v5, p0, Lqmc;->e:Ljava/util/ArrayList;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qmc.smali",
+      "line": 825,
+      "caller": "Lqmc;->f(Lomc;Ljava/util/List;)V",
+      "target": "Lqmc;->e(Ljava/lang/String;)Z",
+      "instruction": "invoke-static {v6}, Lqmc;->e(Ljava/lang/String;)Z"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qmc.smali",
+      "line": 928,
+      "caller": "Lqmc;->f(Lomc;Ljava/util/List;)V",
+      "target": "Lqmc;->h:Lpqa;",
+      "instruction": "sget-object v1, Lqmc;->h:Lpqa;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qmc.smali",
+      "line": 1072,
+      "caller": "Lqmc;->f(Lomc;Ljava/util/List;)V",
+      "target": "Lqmc;->i:Lvgb;",
+      "instruction": "sget-object p2, Lqmc;->i:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qmc.smali",
+      "line": 1131,
+      "caller": "Lqmc;->g()V",
+      "target": "Lqmc;->a:Ljava/util/ArrayList;",
+      "instruction": "iget-object p0, p0, Lqmc;->a:Ljava/util/ArrayList;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qo8.smali",
+      "line": 440,
+      "caller": "Lqo8;->g(Z)Lm48;",
+      "target": "Lcx4;->a:Lvgb;",
+      "instruction": "sget-object v0, Lcx4;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qo8.smali",
+      "line": 448,
+      "caller": "Lqo8;->g(Z)Lm48;",
+      "target": "Ll48;-><init>()V",
+      "instruction": "invoke-direct {v0}, Ll48;-><init>()V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qo8.smali",
+      "line": 453,
+      "caller": "Lqo8;->g(Z)Lm48;",
+      "target": "Lcx4;->b(Ll48;)V",
+      "instruction": "invoke-static {v0}, Lcx4;->b(Ll48;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qo8.smali",
+      "line": 538,
+      "caller": "Lqo8;->g(Z)Lm48;",
+      "target": "Lm48;-><init>(Ll48;)V",
+      "instruction": "invoke-direct {p0, v0}, Lm48;-><init>(Ll48;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qo8.smali",
+      "line": 725,
+      "caller": "Lqo8;->t()Ljava/lang/String;",
+      "target": "Lcom/instantbits/cast/webvideo/download/DownloadWorker;->h:Lvgb;",
+      "instruction": "sget-object v0, Lcom/instantbits/cast/webvideo/download/DownloadWorker;->h:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qo8.smali",
+      "line": 729,
+      "caller": "Lqo8;->t()Ljava/lang/String;",
+      "target": "Lcom/instantbits/cast/webvideo/download/DownloadWorker;->h:Lvgb;",
+      "instruction": "sget-object v0, Lcom/instantbits/cast/webvideo/download/DownloadWorker;->h:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qo8.smali",
+      "line": 921,
+      "caller": "Lqo8;->w(Ln33;)Ln33;",
+      "target": "Lcom/instantbits/cast/webvideo/download/DownloadWorker;->h:Lvgb;",
+      "instruction": "sget-object v0, Lcom/instantbits/cast/webvideo/download/DownloadWorker;->h:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qo8.smali",
+      "line": 983,
+      "caller": "Lqo8;->x(Ln33;)Ln33;",
+      "target": "Lcom/instantbits/cast/webvideo/download/DownloadWorker;->h:Lvgb;",
+      "instruction": "sget-object v0, Lcom/instantbits/cast/webvideo/download/DownloadWorker;->h:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qo8.smali",
+      "line": 1045,
+      "caller": "Lqo8;->y(Ln33;Ljava/lang/String;)Ln33;",
+      "target": "Lcom/instantbits/cast/webvideo/download/DownloadWorker;->h:Lvgb;",
+      "instruction": "sget-object v0, Lcom/instantbits/cast/webvideo/download/DownloadWorker;->h:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/qo8.smali",
+      "line": 1246,
+      "caller": "Lqo8;->z(Ln33;I)Ln33;",
+      "target": "Lcom/instantbits/cast/webvideo/download/DownloadWorker;->h:Lvgb;",
+      "instruction": "sget-object v0, Lcom/instantbits/cast/webvideo/download/DownloadWorker;->h:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/r1c.smali",
+      "line": 637,
+      "caller": "Lr1c;->a(Lcom/instantbits/cast/util/connectsdkhelper/control/scrobble/trakt/model/TraktEpisodeForScrobble;Ljava/util/LinkedHashMap;Ljava/lang/String;Lm22;)Ljava/lang/Object;",
+      "target": "Lp0c;->a:Lvgb;",
+      "instruction": "sget-object p0, Lp0c;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/r1c.smali",
+      "line": 666,
+      "caller": "Lr1c;->a(Lcom/instantbits/cast/util/connectsdkhelper/control/scrobble/trakt/model/TraktEpisodeForScrobble;Ljava/util/LinkedHashMap;Ljava/lang/String;Lm22;)Ljava/lang/Object;",
+      "target": "Lp0c;->a(Lcom/instantbits/cast/util/connectsdkhelper/control/scrobble/trakt/model/TraktRatingAdd;Lcom/instantbits/cast/util/connectsdkhelper/control/scrobble/trakt/model/TraktRatingAdd;Lcom/instantbits/cast/util/connectsdkhelper/control/scrobble/trakt/model/TraktRatingAdd;Lcom/instantbits/cast/util/connectsdkhelper/control/scrobble/trakt/model/TraktRatingAdd;Ljava/lang/String;Lm22;I)Ljava/lang/Object;",
+      "instruction": "invoke-static/range {v1 .. v7}, Lp0c;->a(Lcom/instantbits/cast/util/connectsdkhelper/control/scrobble/trakt/model/TraktRatingAdd;Lcom/instantbits/cast/util/connectsdkhelper/control/scrobble/trakt/model/TraktRatingAdd;Lcom/instantbits/cast/util/connectsdkhelper/control/scrobble/trakt/model/TraktRatingAdd;Lcom/instantbits/cast/util/connectsdkhelper/control/scrobble/trakt/model/TraktRatingAdd;Ljava/lang/String;Lm22;I)Ljava/lang/Object;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/r1c.smali",
+      "line": 1053,
+      "caller": "Lr1c;->b(Lcom/instantbits/cast/util/connectsdkhelper/control/scrobble/trakt/model/TraktMovieForScrobble;Ljava/util/LinkedHashMap;Ljava/lang/String;Lm22;)Ljava/lang/Object;",
+      "target": "Lp0c;->a:Lvgb;",
+      "instruction": "sget-object p0, Lp0c;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/r1c.smali",
+      "line": 1077,
+      "caller": "Lr1c;->b(Lcom/instantbits/cast/util/connectsdkhelper/control/scrobble/trakt/model/TraktMovieForScrobble;Ljava/util/LinkedHashMap;Ljava/lang/String;Lm22;)Ljava/lang/Object;",
+      "target": "Lp0c;->a(Lcom/instantbits/cast/util/connectsdkhelper/control/scrobble/trakt/model/TraktRatingAdd;Lcom/instantbits/cast/util/connectsdkhelper/control/scrobble/trakt/model/TraktRatingAdd;Lcom/instantbits/cast/util/connectsdkhelper/control/scrobble/trakt/model/TraktRatingAdd;Lcom/instantbits/cast/util/connectsdkhelper/control/scrobble/trakt/model/TraktRatingAdd;Ljava/lang/String;Lm22;I)Ljava/lang/Object;",
+      "instruction": "invoke-static/range {v1 .. v7}, Lp0c;->a(Lcom/instantbits/cast/util/connectsdkhelper/control/scrobble/trakt/model/TraktRatingAdd;Lcom/instantbits/cast/util/connectsdkhelper/control/scrobble/trakt/model/TraktRatingAdd;Lcom/instantbits/cast/util/connectsdkhelper/control/scrobble/trakt/model/TraktRatingAdd;Lcom/instantbits/cast/util/connectsdkhelper/control/scrobble/trakt/model/TraktRatingAdd;Ljava/lang/String;Lm22;I)Ljava/lang/Object;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/r1c.smali",
+      "line": 1754,
+      "caller": "Lr1c;->e(Lcom/instantbits/cast/util/connectsdkhelper/control/scrobble/trakt/model/TraktEpisodeForScrobble;Ljava/util/LinkedHashMap;Ljava/lang/String;Lm22;)Ljava/lang/Object;",
+      "target": "Lp0c;->a:Lvgb;",
+      "instruction": "sget-object p0, Lp0c;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/r1c.smali",
+      "line": 1774,
+      "caller": "Lr1c;->e(Lcom/instantbits/cast/util/connectsdkhelper/control/scrobble/trakt/model/TraktEpisodeForScrobble;Ljava/util/LinkedHashMap;Ljava/lang/String;Lm22;)Ljava/lang/Object;",
+      "target": "Lp0c;->d(Lcom/instantbits/cast/util/connectsdkhelper/control/scrobble/trakt/model/TraktRatingRemove;Lcom/instantbits/cast/util/connectsdkhelper/control/scrobble/trakt/model/TraktRatingRemove;Lcom/instantbits/cast/util/connectsdkhelper/control/scrobble/trakt/model/TraktRatingRemove;Lcom/instantbits/cast/util/connectsdkhelper/control/scrobble/trakt/model/TraktRatingRemove;Ljava/lang/String;Lm22;I)Ljava/lang/Object;",
+      "instruction": "invoke-static/range {v1 .. v7}, Lp0c;->d(Lcom/instantbits/cast/util/connectsdkhelper/control/scrobble/trakt/model/TraktRatingRemove;Lcom/instantbits/cast/util/connectsdkhelper/control/scrobble/trakt/model/TraktRatingRemove;Lcom/instantbits/cast/util/connectsdkhelper/control/scrobble/trakt/model/TraktRatingRemove;Lcom/instantbits/cast/util/connectsdkhelper/control/scrobble/trakt/model/TraktRatingRemove;Ljava/lang/String;Lm22;I)Ljava/lang/Object;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/r1c.smali",
+      "line": 2064,
+      "caller": "Lr1c;->f(Lcom/instantbits/cast/util/connectsdkhelper/control/scrobble/trakt/model/TraktMovieForScrobble;Ljava/util/LinkedHashMap;Ljava/lang/String;Lm22;)Ljava/lang/Object;",
+      "target": "Lp0c;->a:Lvgb;",
+      "instruction": "sget-object p0, Lp0c;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/r1c.smali",
+      "line": 2088,
+      "caller": "Lr1c;->f(Lcom/instantbits/cast/util/connectsdkhelper/control/scrobble/trakt/model/TraktMovieForScrobble;Ljava/util/LinkedHashMap;Ljava/lang/String;Lm22;)Ljava/lang/Object;",
+      "target": "Lp0c;->d(Lcom/instantbits/cast/util/connectsdkhelper/control/scrobble/trakt/model/TraktRatingRemove;Lcom/instantbits/cast/util/connectsdkhelper/control/scrobble/trakt/model/TraktRatingRemove;Lcom/instantbits/cast/util/connectsdkhelper/control/scrobble/trakt/model/TraktRatingRemove;Lcom/instantbits/cast/util/connectsdkhelper/control/scrobble/trakt/model/TraktRatingRemove;Ljava/lang/String;Lm22;I)Ljava/lang/Object;",
+      "instruction": "invoke-static/range {v1 .. v7}, Lp0c;->d(Lcom/instantbits/cast/util/connectsdkhelper/control/scrobble/trakt/model/TraktRatingRemove;Lcom/instantbits/cast/util/connectsdkhelper/control/scrobble/trakt/model/TraktRatingRemove;Lcom/instantbits/cast/util/connectsdkhelper/control/scrobble/trakt/model/TraktRatingRemove;Lcom/instantbits/cast/util/connectsdkhelper/control/scrobble/trakt/model/TraktRatingRemove;Ljava/lang/String;Lm22;I)Ljava/lang/Object;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/r90.smali",
+      "line": 5804,
+      "caller": "Lr90;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "La78;->b(Ljava/lang/String;Ljava/lang/String;Lcom/instantbits/media/subtitlesapi/opensubtitles/restapi/OpensubtitlesRestApiLogInRequest;)Lg71;",
+      "instruction": "invoke-interface {v0, v1, v3, v4}, La78;->b(Ljava/lang/String;Ljava/lang/String;Lcom/instantbits/media/subtitlesapi/opensubtitles/restapi/OpensubtitlesRestApiLogInRequest;)Lg71;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/r92.smali",
+      "line": 385,
+      "caller": "Lr92;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lqmc;->g:Lqmc;",
+      "instruction": "sget-object p0, Lqmc;->g:Lqmc;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/r92.smali",
+      "line": 389,
+      "caller": "Lr92;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lqmc;->a(Lxyc;)V",
+      "instruction": "invoke-virtual {p0, p1}, Lqmc;->a(Lxyc;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/r92.smali",
+      "line": 569,
+      "caller": "Lr92;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lqmc;->g:Lqmc;",
+      "instruction": "sget-object p0, Lqmc;->g:Lqmc;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/r92.smali",
+      "line": 573,
+      "caller": "Lr92;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lqmc;->a(Lxyc;)V",
+      "instruction": "invoke-virtual {p0, p1}, Lqmc;->a(Lxyc;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/sa.smali",
+      "line": 6869,
+      "caller": "Lsa;->then(Lcom/google/android/gms/tasks/Task;)Ljava/lang/Object;",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {v1}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/sfc.smali",
+      "line": 223,
+      "caller": "Lsfc;->j(Lmxa;Lqxa;Leya;)V",
+      "target": "Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;",
+      "instruction": "invoke-static/range {v1 .. v7}, Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/sg1.smali",
+      "line": 1622,
+      "caller": "Lsg1;->c(Ljava/lang/String;Ljava/lang/String;JLjava/util/HashMap;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V",
+      "target": "Ljd9;->b(Ljava/lang/String;)Ljava/util/HashMap;",
+      "instruction": "invoke-static {v3}, Ljd9;->b(Ljava/lang/String;)Ljava/util/HashMap;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/sg1.smali",
+      "line": 8309,
+      "caller": "Lsg1;->p(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V",
+      "target": "Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;",
+      "instruction": "invoke-static/range {v3 .. v9}, Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/sg1.smali",
+      "line": 8467,
+      "caller": "Lsg1;->p(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V",
+      "target": "Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;",
+      "instruction": "invoke-static/range {v3 .. v9}, Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/sg1.smali",
+      "line": 8591,
+      "caller": "Lsg1;->q(Ljava/lang/String;Ljava/lang/String;Lorg/json/JSONObject;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V",
+      "target": "Lsg1;->v:Ljava/lang/String;",
+      "instruction": "sget-object v0, Lsg1;->v:Ljava/lang/String;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/sg1.smali",
+      "line": 8744,
+      "caller": "Lsg1;->q(Ljava/lang/String;Ljava/lang/String;Lorg/json/JSONObject;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V",
+      "target": "Lyxc;->q:Ljava/util/Map;",
+      "instruction": "sget-object v10, Lyxc;->q:Ljava/util/Map;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/sg1.smali",
+      "line": 9193,
+      "caller": "Lsg1;->q(Ljava/lang/String;Ljava/lang/String;Lorg/json/JSONObject;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V",
+      "target": "Lsg1;->v:Ljava/lang/String;",
+      "instruction": "sput-object p0, Lsg1;->v:Ljava/lang/String;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/syc.smali",
+      "line": 788,
+      "caller": "Lsyc;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lcx4;->a:Lvgb;",
+      "instruction": "sget-object v0, Lcx4;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/syc.smali",
+      "line": 848,
+      "caller": "Lsyc;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lcx4;->k(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Lko9;Ljava/lang/String;Lm22;I)Ljava/lang/Object;",
+      "instruction": "invoke-static/range {v1 .. v7}, Lcx4;->k(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Lko9;Ljava/lang/String;Lm22;I)Ljava/lang/Object;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/syc.smali",
+      "line": 1179,
+      "caller": "Lsyc;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lcx4;->f(Ljava/lang/String;)Ljava/lang/String;",
+      "instruction": "invoke-static {v13}, Lcx4;->f(Ljava/lang/String;)Ljava/lang/String;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/syc.smali",
+      "line": 1911,
+      "caller": "Lsyc;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lcx4;->a:Lvgb;",
+      "instruction": "sget-object v2, Lcx4;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/syc.smali",
+      "line": 2006,
+      "caller": "Lsyc;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lcx4;->k(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Lko9;Ljava/lang/String;Lm22;I)Ljava/lang/Object;",
+      "instruction": "invoke-static/range {v0 .. v6}, Lcx4;->k(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Lko9;Ljava/lang/String;Lm22;I)Ljava/lang/Object;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/t48.smali",
+      "line": 81,
+      "caller": "Lt48;->a(Ldo9;)Lld9;",
+      "target": "Ll48;-><init>()V",
+      "instruction": "invoke-direct {v0}, Ll48;-><init>()V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/t48.smali",
+      "line": 124,
+      "caller": "Lt48;->a(Ldo9;)Lld9;",
+      "target": "Lcx4;->a:Lvgb;",
+      "instruction": "sget-object v1, Lcx4;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/t48.smali",
+      "line": 146,
+      "caller": "Lt48;->a(Ldo9;)Lld9;",
+      "target": "Lcx4;->b(Ll48;)V",
+      "instruction": "invoke-static {v0}, Lcx4;->b(Ll48;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/t48.smali",
+      "line": 155,
+      "caller": "Lt48;->a(Ldo9;)Lld9;",
+      "target": "Lm48;-><init>(Ll48;)V",
+      "instruction": "invoke-direct {v1, v0}, Lm48;-><init>(Ll48;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/t8.smali",
+      "line": 3035,
+      "caller": "Lt8;->p(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "La78;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lg71;",
+      "instruction": "invoke-interface {p1, v2, v0, v5}, La78;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lg71;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/t92.smali",
+      "line": 1311,
+      "caller": "Lt92;->K(Lsg1;ZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;ZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V",
+      "target": "Lpg1;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V",
+      "instruction": "invoke-direct {p8, p3, p0, p9, v0}, Lpg1;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/t92.smali",
+      "line": 1430,
+      "caller": "Lt92;->L(Lsg1;ZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;ZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V",
+      "target": "Lqg1;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V",
+      "instruction": "invoke-direct {p8, p3, p0, p9, v0}, Lqg1;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/t92.smali",
+      "line": 2579,
+      "caller": "Lt92;->m(Ljava/util/List;Lsg1;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZ)V",
+      "target": "Lqmc;->g:Lqmc;",
+      "instruction": "sget-object v0, Lqmc;->g:Lqmc;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/t92.smali",
+      "line": 2583,
+      "caller": "Lt92;->m(Ljava/util/List;Lsg1;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZ)V",
+      "target": "Lqmc;->a(Lxyc;)V",
+      "instruction": "invoke-virtual {v0, v13}, Lqmc;->a(Lxyc;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/toc.smali",
+      "line": 723,
+      "caller": "Ltoc;->b(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lomc;)Z",
+      "target": "Lqmc;->g:Lqmc;",
+      "instruction": "sget-object v0, Lqmc;->g:Lqmc;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/toc.smali",
+      "line": 732,
+      "caller": "Ltoc;->b(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lomc;)Z",
+      "target": "Lqmc;->b:Ljava/util/Map;",
+      "instruction": "iget-object v0, v0, Lqmc;->b:Ljava/util/Map;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/toc.smali",
+      "line": 902,
+      "caller": "Ltoc;->b(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lomc;)Z",
+      "target": "Lqmc;->f:Lvgb;",
+      "instruction": "sget-object p0, Lqmc;->f:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/tv8.smali",
+      "line": 213,
+      "caller": "Ltv8;->f(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lqmc;->f:Lvgb;",
+      "instruction": "sget-object p0, Lqmc;->f:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/tv8.smali",
+      "line": 256,
+      "caller": "Ltv8;->f(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lqmc;->f:Lvgb;",
+      "instruction": "sget-object p1, Lqmc;->f:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/tv8.smali",
+      "line": 364,
+      "caller": "Ltv8;->f(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lqmc;->f:Lvgb;",
+      "instruction": "sget-object p0, Lqmc;->f:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/tv8.smali",
+      "line": 4523,
+      "caller": "Ltv8;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lp0c;->a:Lvgb;",
+      "instruction": "sget-object v6, Lp0c;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/tv8.smali",
+      "line": 4544,
+      "caller": "Ltv8;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lp0c;->c(Lh84;Ll22;)Ljava/lang/Object;",
+      "instruction": "invoke-static {v6, v1}, Lp0c;->c(Lh84;Ll22;)Ljava/lang/Object;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/u33.smali",
+      "line": 560,
+      "caller": "Lu33;->b(Landroid/content/Context;ZLm22;)Ljava/lang/Object;",
+      "target": "Ll53;->b(Ljava/util/Set;Lm22;)Ljava/lang/Object;",
+      "instruction": "invoke-virtual {v0, v3, v2}, Ll53;->b(Ljava/util/Set;Lm22;)Ljava/lang/Object;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/u33.smali",
+      "line": 2272,
+      "caller": "Lu33;->c(Lm22;)Ljava/lang/Object;",
+      "target": "Ll53;->b(Ljava/util/Set;Lm22;)Ljava/lang/Object;",
+      "instruction": "invoke-virtual {p1, v1, v0}, Ll53;->b(Ljava/util/Set;Lm22;)Ljava/lang/Object;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/udb.smali",
+      "line": 345,
+      "caller": "Ludb;->a(Landroid/content/Context;Ljava/lang/String;Z)Ljava/util/ArrayList;",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {p1}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/ue2.smali",
+      "line": 132,
+      "caller": "Lue2;->invoke()Ljava/lang/Object;",
+      "target": "Lcom/instantbits/cast/webvideo/download/DownloadWorker;->h:Lvgb;",
+      "instruction": "sget-object p0, Lcom/instantbits/cast/webvideo/download/DownloadWorker;->h:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/uwc.smali",
+      "line": 501,
+      "caller": "Luwc;->b(Ljava/lang/String;Z)Lm48;",
+      "target": "Lcx4;->a:Lvgb;",
+      "instruction": "sget-object p0, Lcx4;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/uwc.smali",
+      "line": 509,
+      "caller": "Luwc;->b(Ljava/lang/String;Z)Lm48;",
+      "target": "Ll48;-><init>()V",
+      "instruction": "invoke-direct {p0}, Ll48;-><init>()V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/uwc.smali",
+      "line": 514,
+      "caller": "Luwc;->b(Ljava/lang/String;Z)Lm48;",
+      "target": "Lcx4;->b(Ll48;)V",
+      "instruction": "invoke-static {p0}, Lcx4;->b(Ll48;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/uwc.smali",
+      "line": 527,
+      "caller": "Luwc;->b(Ljava/lang/String;Z)Lm48;",
+      "target": "Lcx4;->d(Ll48;)V",
+      "instruction": "invoke-static {p0}, Lcx4;->d(Ll48;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/uwc.smali",
+      "line": 536,
+      "caller": "Luwc;->b(Ljava/lang/String;Z)Lm48;",
+      "target": "Lm48;-><init>(Ll48;)V",
+      "instruction": "invoke-direct {p1, p0}, Lm48;-><init>(Ll48;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/uwc.smali",
+      "line": 2286,
+      "caller": "Luwc;->e()V",
+      "target": "Lqmc;->g:Lqmc;",
+      "instruction": "sget-object v2, Lqmc;->g:Lqmc;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/uwc.smali",
+      "line": 2389,
+      "caller": "Luwc;->f(Ljava/lang/String;)Ljava/lang/String;",
+      "target": "Ljd9;->b(Ljava/lang/String;)Ljava/util/HashMap;",
+      "instruction": "invoke-static {p1}, Ljd9;->b(Ljava/lang/String;)Ljava/util/HashMap;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/uwc.smali",
+      "line": 2539,
+      "caller": "Luwc;->g(Landroid/webkit/WebView;Ljava/lang/String;Ljava/util/Map;)Landroid/webkit/WebResourceResponse;",
+      "target": "Luwc;->b(Ljava/lang/String;Z)Lm48;",
+      "instruction": "invoke-static {v1, v0}, Luwc;->b(Ljava/lang/String;Z)Lm48;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/uwc.smali",
+      "line": 2570,
+      "caller": "Luwc;->g(Landroid/webkit/WebView;Ljava/lang/String;Ljava/util/Map;)Landroid/webkit/WebResourceResponse;",
+      "target": "Luwc;->b(Ljava/lang/String;Z)Lm48;",
+      "instruction": "invoke-static {v1, v0}, Luwc;->b(Ljava/lang/String;Z)Lm48;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/uwc.smali",
+      "line": 3033,
+      "caller": "Luwc;->k(Ljava/lang/String;)Landroid/webkit/WebResourceResponse;",
+      "target": "Luwc;->b(Ljava/lang/String;Z)Lm48;",
+      "instruction": "invoke-static {v7, v10}, Luwc;->b(Ljava/lang/String;Z)Lm48;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/uwc.smali",
+      "line": 4058,
+      "caller": "Luwc;->o()V",
+      "target": "Lqmc;->g:Lqmc;",
+      "instruction": "sget-object v1, Lqmc;->g:Lqmc;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/uwc.smali",
+      "line": 4223,
+      "caller": "Luwc;->o()V",
+      "target": "Lsg1;->v:Ljava/lang/String;",
+      "instruction": "sput-object v2, Lsg1;->v:Ljava/lang/String;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/v74.smali",
+      "line": 74,
+      "caller": "Lv74;->shouldInterceptRequest(Landroid/webkit/WebResourceRequest;)Landroid/webkit/WebResourceResponse;",
+      "target": "Lgfa;->a(Ljava/lang/String;Z)Lm48;",
+      "instruction": "invoke-static {v1, v0}, Lgfa;->a(Ljava/lang/String;Z)Lm48;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/v74.smali",
+      "line": 105,
+      "caller": "Lv74;->shouldInterceptRequest(Landroid/webkit/WebResourceRequest;)Landroid/webkit/WebResourceResponse;",
+      "target": "Lgfa;->a(Ljava/lang/String;Z)Lm48;",
+      "instruction": "invoke-static {v1, v0}, Lgfa;->a(Ljava/lang/String;Z)Lm48;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/v9.smali",
+      "line": 6382,
+      "caller": "Lv9;->onClick(Landroid/view/View;)V",
+      "target": "Lqmc;->g:Lqmc;",
+      "instruction": "sget-object v2, Lqmc;->g:Lqmc;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/vc3.smali",
+      "line": 55,
+      "caller": "Lvc3;->invoke()Ljava/lang/Object;",
+      "target": "Lp0c;->b:Lr0c;",
+      "instruction": "sget-object v0, Lp0c;->b:Lr0c;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/vc3.smali",
+      "line": 59,
+      "caller": "Lvc3;->invoke()Ljava/lang/Object;",
+      "target": "Lp0c;->a:Lvgb;",
+      "instruction": "sget-object v1, Lp0c;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/vc3.smali",
+      "line": 63,
+      "caller": "Lvc3;->invoke()Ljava/lang/Object;",
+      "target": "Lp0c;->b(Ljava/lang/String;)Ljava/lang/String;",
+      "instruction": "invoke-static {p0}, Lp0c;->b(Ljava/lang/String;)Ljava/lang/String;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/vc3.smali",
+      "line": 83,
+      "caller": "Lvc3;->invoke()Ljava/lang/Object;",
+      "target": "Lp0c;->b:Lr0c;",
+      "instruction": "sget-object v0, Lp0c;->b:Lr0c;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/vc3.smali",
+      "line": 111,
+      "caller": "Lvc3;->invoke()Ljava/lang/Object;",
+      "target": "Lp0c;->b:Lr0c;",
+      "instruction": "sget-object v1, Lp0c;->b:Lr0c;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/vh2.smali",
+      "line": 1086,
+      "caller": "Lvh2;->b(Ljava/io/InputStream;Ldi2;Lq3;Lf01;Lgd9;)Ljava/io/ByteArrayInputStream;",
+      "target": "Lcom/instantbits/android/utils/web/AbstractMediaProxyServlet;->e:Ljava/lang/String;",
+      "instruction": "sget-object v9, Lcom/instantbits/android/utils/web/AbstractMediaProxyServlet;->e:Ljava/lang/String;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/vh2.smali",
+      "line": 1815,
+      "caller": "Lvh2;->c(Ljava/lang/String;Lq3;Ljava/util/LinkedHashMap;)Ljava/lang/String;",
+      "target": "Lcom/instantbits/android/utils/web/AbstractMediaProxyServlet;->e:Ljava/lang/String;",
+      "instruction": "sget-object p1, Lcom/instantbits/android/utils/web/AbstractMediaProxyServlet;->e:Ljava/lang/String;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/vm9.smali",
+      "line": 1144,
+      "caller": "Lvm9;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lcx4;->a:Lvgb;",
+      "instruction": "sget-object v2, Lcx4;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/vm9.smali",
+      "line": 1152,
+      "caller": "Lvm9;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Ll48;-><init>()V",
+      "instruction": "invoke-direct {v2}, Ll48;-><init>()V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/vm9.smali",
+      "line": 1157,
+      "caller": "Lvm9;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lcx4;->b(Ll48;)V",
+      "instruction": "invoke-static {v2}, Lcx4;->b(Ll48;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/vm9.smali",
+      "line": 1192,
+      "caller": "Lvm9;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lcx4;->d(Ll48;)V",
+      "instruction": "invoke-static {v2}, Lcx4;->d(Ll48;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/vm9.smali",
+      "line": 1201,
+      "caller": "Lvm9;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lm48;-><init>(Ll48;)V",
+      "instruction": "invoke-direct {v7, v2}, Lm48;-><init>(Ll48;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/vm9.smali",
+      "line": 1252,
+      "caller": "Lvm9;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lcx4;->c(Luh9;Lm22;)Ljava/lang/Object;",
+      "instruction": "invoke-static {v2, v1}, Lcx4;->c(Luh9;Lm22;)Ljava/lang/Object;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/vzc.smali",
+      "line": 192,
+      "caller": "Lvzc;->onDownloadStart(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;J)V",
+      "target": "Lcx4;->f(Ljava/lang/String;)Ljava/lang/String;",
+      "instruction": "invoke-static/range {p3 .. p3}, Lcx4;->f(Ljava/lang/String;)Ljava/lang/String;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/vzc.smali",
+      "line": 784,
+      "caller": "Lvzc;->onDownloadStart(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;J)V",
+      "target": "Lqmc;->g:Lqmc;",
+      "instruction": "sget-object v0, Lqmc;->g:Lqmc;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/vzc.smali",
+      "line": 828,
+      "caller": "Lvzc;->onDownloadStart(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;J)V",
+      "target": "Lqmc;->g:Lqmc;",
+      "instruction": "sget-object v0, Lqmc;->g:Lqmc;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/vzc.smali",
+      "line": 833,
+      "caller": "Lvzc;->onDownloadStart(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;J)V",
+      "target": "Lqmc;->a(Lxyc;)V",
+      "instruction": "invoke-virtual {v0, v13}, Lqmc;->a(Lxyc;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/w68.smali",
+      "line": 474,
+      "caller": "Lw68;->e(Ljava/lang/String;Z)La78;",
+      "target": "Ll48;-><init>()V",
+      "instruction": "invoke-direct {v0}, Ll48;-><init>()V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/w68.smali",
+      "line": 479,
+      "caller": "Lw68;->e(Ljava/lang/String;Z)La78;",
+      "target": "Lcx4;->a:Lvgb;",
+      "instruction": "sget-object v1, Lcx4;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/w68.smali",
+      "line": 483,
+      "caller": "Lw68;->e(Ljava/lang/String;Z)La78;",
+      "target": "Lcx4;->b(Ll48;)V",
+      "instruction": "invoke-static {v0}, Lcx4;->b(Ll48;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/w68.smali",
+      "line": 595,
+      "caller": "Lw68;->e(Ljava/lang/String;Z)La78;",
+      "target": "Lm48;-><init>(Ll48;)V",
+      "instruction": "invoke-direct {p1, v0}, Lm48;-><init>(Ll48;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/w9.smali",
+      "line": 325,
+      "caller": "Lw9;->c(Ls18;)V",
+      "target": "Ltu5;->V(Ljava/lang/String;Ljava/util/HashMap;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZZ)Lxyc;",
+      "instruction": "invoke-static/range {v2 .. v9}, Ltu5;->V(Ljava/lang/String;Ljava/util/HashMap;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZZ)Lxyc;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/w92.smali",
+      "line": 1447,
+      "caller": "Lw92;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lcx4;->a:Lvgb;",
+      "instruction": "sget-object v0, Lcx4;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/w92.smali",
+      "line": 1456,
+      "caller": "Lw92;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Ll48;-><init>()V",
+      "instruction": "invoke-direct {v0}, Ll48;-><init>()V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/w92.smali",
+      "line": 1461,
+      "caller": "Lw92;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lcx4;->b(Ll48;)V",
+      "instruction": "invoke-static {v0}, Lcx4;->b(Ll48;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/w92.smali",
+      "line": 1503,
+      "caller": "Lw92;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lcx4;->d(Ll48;)V",
+      "instruction": "invoke-static {v0}, Lcx4;->d(Ll48;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/w92.smali",
+      "line": 1512,
+      "caller": "Lw92;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lm48;-><init>(Ll48;)V",
+      "instruction": "invoke-direct {v5, v0}, Lm48;-><init>(Ll48;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/w9d.smali",
+      "line": 3717,
+      "caller": "Lw9d;->h(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;)Z",
+      "target": "Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;",
+      "instruction": "invoke-static/range {v3 .. v9}, Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/w9d.smali",
+      "line": 3828,
+      "caller": "Lw9d;->h(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;)Z",
+      "target": "Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;",
+      "instruction": "invoke-static/range {v5 .. v11}, Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/w9d.smali",
+      "line": 3963,
+      "caller": "Lw9d;->h(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;)Z",
+      "target": "Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;",
+      "instruction": "invoke-static/range {v3 .. v9}, Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/w9d.smali",
+      "line": 12782,
+      "caller": "Lw9d;->j(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lm22;)Ljava/lang/Object;",
+      "target": "Lcx4;->a:Lvgb;",
+      "instruction": "sget-object v2, Lcx4;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/w9d.smali",
+      "line": 12857,
+      "caller": "Lw9d;->j(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lm22;)Ljava/lang/Object;",
+      "target": "Lcx4;->k(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Lko9;Ljava/lang/String;Lm22;I)Ljava/lang/Object;",
+      "instruction": "invoke-static/range {v5 .. v11}, Lcx4;->k(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Lko9;Ljava/lang/String;Lm22;I)Ljava/lang/Object;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/w9d.smali",
+      "line": 15732,
+      "caller": "Lw9d;->k(Ljava/lang/String;Lm22;)Ljava/lang/Object;",
+      "target": "Lcx4;->a:Lvgb;",
+      "instruction": "sget-object p0, Lcx4;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/w9d.smali",
+      "line": 15784,
+      "caller": "Lw9d;->k(Ljava/lang/String;Lm22;)Ljava/lang/Object;",
+      "target": "Lcx4;->k(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Lko9;Ljava/lang/String;Lm22;I)Ljava/lang/Object;",
+      "instruction": "invoke-static/range {v4 .. v10}, Lcx4;->k(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Lko9;Ljava/lang/String;Lm22;I)Ljava/lang/Object;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/w9d.smali",
+      "line": 17855,
+      "caller": "Lw9d;->m(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lm22;)Ljava/lang/Object;",
+      "target": "Lcx4;->a:Lvgb;",
+      "instruction": "sget-object v0, Lcx4;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/w9d.smali",
+      "line": 17963,
+      "caller": "Lw9d;->m(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lm22;)Ljava/lang/Object;",
+      "target": "Lcx4;->k(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Lko9;Ljava/lang/String;Lm22;I)Ljava/lang/Object;",
+      "instruction": "invoke-static/range {v5 .. v11}, Lcx4;->k(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Lko9;Ljava/lang/String;Lm22;I)Ljava/lang/Object;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/w9d.smali",
+      "line": 19461,
+      "caller": "Lw9d;->o(Ljava/lang/String;Lm22;)Ljava/lang/Object;",
+      "target": "Lcx4;->a:Lvgb;",
+      "instruction": "sget-object p1, Lcx4;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/w9d.smali",
+      "line": 19555,
+      "caller": "Lw9d;->o(Ljava/lang/String;Lm22;)Ljava/lang/Object;",
+      "target": "Lcx4;->k(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Lko9;Ljava/lang/String;Lm22;I)Ljava/lang/Object;",
+      "instruction": "invoke-static/range {v3 .. v9}, Lcx4;->k(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Lko9;Ljava/lang/String;Lm22;I)Ljava/lang/Object;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/w9d.smali",
+      "line": 20662,
+      "caller": "Lw9d;->s(Ljava/lang/String;Lm22;)Ljava/lang/Object;",
+      "target": "Lcx4;->a:Lvgb;",
+      "instruction": "sget-object p1, Lcx4;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/w9d.smali",
+      "line": 20710,
+      "caller": "Lw9d;->s(Ljava/lang/String;Lm22;)Ljava/lang/Object;",
+      "target": "Lcx4;->k(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Lko9;Ljava/lang/String;Lm22;I)Ljava/lang/Object;",
+      "instruction": "invoke-static/range {v1 .. v7}, Lcx4;->k(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Lko9;Ljava/lang/String;Lm22;I)Ljava/lang/Object;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/wc.smali",
+      "line": 3830,
+      "caller": "Lwc;->o(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lp0c;->a:Lvgb;",
+      "instruction": "sget-object v3, Lp0c;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/wc.smali",
+      "line": 3867,
+      "caller": "Lwc;->o(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lp0c;->c(Lh84;Ll22;)Ljava/lang/Object;",
+      "instruction": "invoke-static {v3, p0}, Lp0c;->c(Lh84;Ll22;)Ljava/lang/Object;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/wc.smali",
+      "line": 3900,
+      "caller": "Lwc;->o(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lp0c;->a:Lvgb;",
+      "instruction": "sget-object v3, Lp0c;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/wc.smali",
+      "line": 3937,
+      "caller": "Lwc;->o(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lp0c;->c(Lh84;Ll22;)Ljava/lang/Object;",
+      "instruction": "invoke-static {v3, p0}, Lp0c;->c(Lh84;Ll22;)Ljava/lang/Object;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/wc.smali",
+      "line": 8874,
+      "caller": "Lwc;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "La78;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lg71;",
+      "instruction": "invoke-interface/range {v13 .. v23}, La78;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lg71;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/wc.smali",
+      "line": 12303,
+      "caller": "Lwc;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lcx4;->a:Lvgb;",
+      "instruction": "sget-object v4, Lcx4;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/wuc.smali",
+      "line": 150,
+      "caller": "Lwuc;->run()V",
+      "target": "Lqmc;->g:Lqmc;",
+      "instruction": "sget-object v3, Lqmc;->g:Lqmc;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/wuc.smali",
+      "line": 166,
+      "caller": "Lwuc;->run()V",
+      "target": "Lqmc;->d(Lomc;)Z",
+      "instruction": "invoke-virtual {v3, v0}, Lqmc;->d(Lomc;)Z"
+    },
+    {
+      "file": "working/apktool/smali_classes6/wwb.smali",
+      "line": 167,
+      "caller": "Lwwb;->run()V",
+      "target": "Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;",
+      "instruction": "invoke-static/range {v6 .. v12}, Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/wwb.smali",
+      "line": 300,
+      "caller": "Lwwb;->run()V",
+      "target": "Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;",
+      "instruction": "invoke-static/range {v17 .. v23}, Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/wxc.smali",
+      "line": 205,
+      "caller": "Lwxc;->run()V",
+      "target": "Lcx4;->g(Ljava/lang/String;Ljava/util/Map;)Lnq9;",
+      "instruction": "invoke-static {v4, v8}, Lcx4;->g(Ljava/lang/String;Ljava/util/Map;)Lnq9;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/xb.smali",
+      "line": 2237,
+      "caller": "Lxb;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "La78;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lg71;",
+      "instruction": "invoke-interface {p1, v0, p0, v1}, La78;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lg71;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/xgb.smali",
+      "line": 230,
+      "caller": "Lxgb;->b()Ljava/lang/String;",
+      "target": "Lqmc;->f:Lvgb;",
+      "instruction": "sget-object v0, Lqmc;->f:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/xgb.smali",
+      "line": 234,
+      "caller": "Lxgb;->b()Ljava/lang/String;",
+      "target": "Lqmc;->f:Lvgb;",
+      "instruction": "sget-object v0, Lqmc;->f:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/xgb.smali",
+      "line": 1263,
+      "caller": "Lxgb;->h(Ljava/lang/String;Ljava/lang/String;JLjava/util/Map;Lsg1;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V",
+      "target": "Lqmc;->g:Lqmc;",
+      "instruction": "sget-object v0, Lqmc;->g:Lqmc;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/xgb.smali",
+      "line": 1267,
+      "caller": "Lxgb;->h(Ljava/lang/String;Ljava/lang/String;JLjava/util/Map;Lsg1;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V",
+      "target": "Lqmc;->a(Lxyc;)V",
+      "instruction": "invoke-virtual {v0, v8}, Lqmc;->a(Lxyc;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/y8d.smali",
+      "line": 312,
+      "caller": "Ly8d;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lcx4;->a:Lvgb;",
+      "instruction": "sget-object v1, Lcx4;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/y8d.smali",
+      "line": 351,
+      "caller": "Ly8d;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lcx4;->k(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Lko9;Ljava/lang/String;Lm22;I)Ljava/lang/Object;",
+      "instruction": "invoke-static/range {v0 .. v6}, Lcx4;->k(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Lko9;Ljava/lang/String;Lm22;I)Ljava/lang/Object;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/y92.smali",
+      "line": 1117,
+      "caller": "Ly92;->d(Ljava/util/HashMap;Ljava/lang/String;Z)Lnq9;",
+      "target": "Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;",
+      "instruction": "invoke-static/range {v2 .. v8}, Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/yq0.smali",
+      "line": 3093,
+      "caller": "Lyq0;->j(Lmxa;Lqxa;Leya;)V",
+      "target": "Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;",
+      "instruction": "invoke-static/range {v12 .. v18}, Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/yq0.smali",
+      "line": 3563,
+      "caller": "Lyq0;->j(Lmxa;Lqxa;Leya;)V",
+      "target": "Lqmc;->g:Lqmc;",
+      "instruction": "sget-object v0, Lqmc;->g:Lqmc;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/yq0.smali",
+      "line": 3567,
+      "caller": "Lyq0;->j(Lmxa;Lqxa;Leya;)V",
+      "target": "Lqmc;->a(Lxyc;)V",
+      "instruction": "invoke-virtual {v0, v12}, Lqmc;->a(Lxyc;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/yuc.smali",
+      "line": 154,
+      "caller": "Lyuc;->run()V",
+      "target": "Lqmc;->g:Lqmc;",
+      "instruction": "sget-object v1, Lqmc;->g:Lqmc;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/yuc.smali",
+      "line": 158,
+      "caller": "Lyuc;->run()V",
+      "target": "Lqmc;->d(Lomc;)Z",
+      "instruction": "invoke-virtual {v1, v0}, Lqmc;->d(Lomc;)Z"
+    },
+    {
+      "file": "working/apktool/smali_classes6/yv8.smali",
+      "line": 1394,
+      "caller": "Lyv8;->run()V",
+      "target": "Lqmc;->g:Lqmc;",
+      "instruction": "sget-object v1, Lqmc;->g:Lqmc;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/yv8.smali",
+      "line": 1398,
+      "caller": "Lyv8;->run()V",
+      "target": "Lqmc;->a(Lxyc;)V",
+      "instruction": "invoke-virtual {v1, v0}, Lqmc;->a(Lxyc;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/yv8.smali",
+      "line": 1834,
+      "caller": "Lyv8;->run()V",
+      "target": "Lqmc;->e:Ljava/util/ArrayList;",
+      "instruction": "iget-object v9, v8, Lqmc;->e:Ljava/util/ArrayList;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/yv8.smali",
+      "line": 1838,
+      "caller": "Lyv8;->run()V",
+      "target": "Lqmc;->f:Lvgb;",
+      "instruction": "sget-object v0, Lqmc;->f:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/yv8.smali",
+      "line": 2011,
+      "caller": "Lyv8;->run()V",
+      "target": "Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;",
+      "instruction": "invoke-static/range {v19 .. v25}, Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/yv8.smali",
+      "line": 2765,
+      "caller": "Lyv8;->run()V",
+      "target": "Lqmc;->b:Ljava/util/Map;",
+      "instruction": "iget-object v3, v2, Lqmc;->b:Ljava/util/Map;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/yv8.smali",
+      "line": 2854,
+      "caller": "Lyv8;->run()V",
+      "target": "Lqmc;->b(Lxyc;Lomc;)Z",
+      "instruction": "invoke-static {v6, v1}, Lqmc;->b(Lxyc;Lomc;)Z"
+    },
+    {
+      "file": "working/apktool/smali_classes6/yv8.smali",
+      "line": 3126,
+      "caller": "Lyv8;->run()V",
+      "target": "Lqmc;->g()V",
+      "instruction": "invoke-virtual {v2}, Lqmc;->g()V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/yv8.smali",
+      "line": 3131,
+      "caller": "Lyv8;->run()V",
+      "target": "Lqmc;->f(Lomc;Ljava/util/List;)V",
+      "instruction": "invoke-virtual {v2, v1, v0}, Lqmc;->f(Lomc;Ljava/util/List;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes6/yxc.smali",
+      "line": 326,
+      "caller": "Lyxc;-><clinit>()V",
+      "target": "Lyxc;->q:Ljava/util/Map;",
+      "instruction": "sput-object v6, Lyxc;->q:Ljava/util/Map;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/yxc.smali",
+      "line": 1537,
+      "caller": "Lyxc;->c(Landroid/webkit/WebView;Lwzc;Ljava/lang/String;Lm48;Lm48;Ljava/lang/String;Ljava/util/Map;)Landroid/webkit/WebResourceResponse;",
+      "target": "Lyxc;->q:Ljava/util/Map;",
+      "instruction": "sget-object v9, Lyxc;->q:Ljava/util/Map;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/z3b.smali",
+      "line": 3176,
+      "caller": "Lz3b;->j(Lmxa;Lqxa;Leya;)V",
+      "target": "Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;",
+      "instruction": "invoke-static/range {v4 .. v10}, Lcx4;->i(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Lko9;ZLjava/lang/String;I)Lnq9;"
+    },
+    {
+      "file": "working/apktool/smali_classes6/z8.smali",
+      "line": 2758,
+      "caller": "Lz8;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "target": "Lcx4;->a:Lvgb;",
+      "instruction": "sget-object v4, Lcx4;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes7/com/revenuecat/purchases/utils/DefaultUrlConnectionFactory.smali",
+      "line": 73,
+      "caller": "Lcom/revenuecat/purchases/utils/DefaultUrlConnectionFactory;->createConnection(Ljava/lang/String;Ljava/lang/String;)Lcom/revenuecat/purchases/utils/UrlConnection;",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {p0}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali_classes7/com/squareup/picasso/OkHttp3Downloader.smali",
+      "line": 87,
+      "caller": "Lcom/squareup/picasso/OkHttp3Downloader;-><init>(Ljava/io/File;J)V",
+      "target": "Ll48;-><init>()V",
+      "instruction": "invoke-direct {v0}, Ll48;-><init>()V"
+    },
+    {
+      "file": "working/apktool/smali_classes7/com/squareup/picasso/OkHttp3Downloader.smali",
+      "line": 109,
+      "caller": "Lcom/squareup/picasso/OkHttp3Downloader;-><init>(Ljava/io/File;J)V",
+      "target": "Lm48;-><init>(Ll48;)V",
+      "instruction": "invoke-direct {p1, v0}, Lm48;-><init>(Ll48;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes7/com/tiktok/util/HttpRequestUtil.smali",
+      "line": 421,
+      "caller": "Lcom/tiktok/util/HttpRequestUtil;->connect(Ljava/lang/String;Ljava/util/Map;Lcom/tiktok/util/HttpRequestUtil$HttpRequestOptions;Ljava/lang/String;Ljava/lang/String;)Ljavax/net/ssl/HttpsURLConnection;",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {v0}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali_classes7/com/vungle/ads/internal/downloader/f.smali",
+      "line": 72,
+      "caller": "Lcom/vungle/ads/internal/downloader/f;->a(Lcom/vungle/ads/internal/util/PathProvider;)Lm48;",
+      "target": "Ll48;-><init>()V",
+      "instruction": "invoke-direct {v0}, Ll48;-><init>()V"
+    },
+    {
+      "file": "working/apktool/smali_classes7/com/vungle/ads/internal/downloader/f.smali",
+      "line": 261,
+      "caller": "Lcom/vungle/ads/internal/downloader/f;->a(Lcom/vungle/ads/internal/util/PathProvider;)Lm48;",
+      "target": "Lm48;-><init>(Ll48;)V",
+      "instruction": "invoke-direct {p1, v0}, Lm48;-><init>(Ll48;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes7/com/vungle/ads/internal/network/VungleApiClient.smali",
+      "line": 240,
+      "caller": "Lcom/vungle/ads/internal/network/VungleApiClient;-><init>(Landroid/content/Context;Lcom/vungle/ads/internal/platform/f;Lcom/vungle/ads/internal/persistence/FilePreferences;)V",
+      "target": "Ll48;-><init>()V",
+      "instruction": "invoke-direct {p1}, Ll48;-><init>()V"
+    },
+    {
+      "file": "working/apktool/smali_classes7/com/vungle/ads/internal/network/VungleApiClient.smali",
+      "line": 435,
+      "caller": "Lcom/vungle/ads/internal/network/VungleApiClient;-><init>(Landroid/content/Context;Lcom/vungle/ads/internal/platform/f;Lcom/vungle/ads/internal/persistence/FilePreferences;)V",
+      "target": "Lm48;-><init>(Ll48;)V",
+      "instruction": "invoke-direct {p2, p1}, Lm48;-><init>(Ll48;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes7/com/vungle/ads/internal/network/VungleApiClient.smali",
+      "line": 458,
+      "caller": "Lcom/vungle/ads/internal/network/VungleApiClient;-><init>(Landroid/content/Context;Lcom/vungle/ads/internal/platform/f;Lcom/vungle/ads/internal/persistence/FilePreferences;)V",
+      "target": "Lm48;-><init>(Ll48;)V",
+      "instruction": "invoke-direct {p3, p1}, Lm48;-><init>(Ll48;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes7/d9c.smali",
+      "line": 859,
+      "caller": "Ld9c;->o()Z",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {v0}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali_classes7/dv4.smali",
+      "line": 2158,
+      "caller": "Ldv4;->w(Landroid/net/Uri;)Ljava/net/HttpURLConnection;",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {v0}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali_classes7/jj1.smali",
+      "line": 6028,
+      "caller": "Ljj1;->u()Lfr0;",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {v2}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali_classes7/k71.smali",
+      "line": 5701,
+      "caller": "Lk71;->intercept(Lge5;)Lnq9;",
+      "target": "Lcx4;->a(Ljava/lang/String;)Ljava/lang/String;",
+      "instruction": "invoke-static {v2}, Lcx4;->a(Ljava/lang/String;)Ljava/lang/String;"
+    },
+    {
+      "file": "working/apktool/smali_classes7/lab.smali",
+      "line": 48,
+      "caller": "Llab;->a(Lzoa;Lkab;)Lnq9;",
+      "target": "Lcx4;->a:Lvgb;",
+      "instruction": "sget-object v0, Lcx4;->a:Lvgb;"
+    },
+    {
+      "file": "working/apktool/smali_classes7/lab.smali",
+      "line": 56,
+      "caller": "Llab;->a(Lzoa;Lkab;)Lnq9;",
+      "target": "Ll48;-><init>()V",
+      "instruction": "invoke-direct {v0}, Ll48;-><init>()V"
+    },
+    {
+      "file": "working/apktool/smali_classes7/lab.smali",
+      "line": 61,
+      "caller": "Llab;->a(Lzoa;Lkab;)Lnq9;",
+      "target": "Lcx4;->b(Ll48;)V",
+      "instruction": "invoke-static {v0}, Lcx4;->b(Ll48;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes7/lab.smali",
+      "line": 128,
+      "caller": "Llab;->a(Lzoa;Lkab;)Lnq9;",
+      "target": "Lm48;-><init>(Ll48;)V",
+      "instruction": "invoke-direct {v1, v0}, Lm48;-><init>(Ll48;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes7/m48.smali",
+      "line": 151,
+      "caller": "Lm48;-><init>()V",
+      "target": "Ll48;-><init>()V",
+      "instruction": "invoke-direct {v0}, Ll48;-><init>()V"
+    },
+    {
+      "file": "working/apktool/smali_classes7/m48.smali",
+      "line": 153,
+      "caller": "Lm48;-><init>()V",
+      "target": "Lm48;-><init>(Ll48;)V",
+      "instruction": "invoke-direct {p0, v0}, Lm48;-><init>(Ll48;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes7/m48.smali",
+      "line": 1272,
+      "caller": "Lm48;->a()Ll48;",
+      "target": "Ll48;-><init>()V",
+      "instruction": "invoke-direct {v0}, Ll48;-><init>()V"
+    },
+    {
+      "file": "working/apktool/smali_classes7/mp9.smali",
+      "line": 203,
+      "caller": "Lmp9;->k(Ljava/lang/String;)Ld9c;",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {v2}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali_classes7/nr4.smali",
+      "line": 104,
+      "caller": "Lnr4;->invoke()Ljava/lang/Object;",
+      "target": "Lp0c;->b:Lr0c;",
+      "instruction": "sget-object v1, Lp0c;->b:Lr0c;"
+    },
+    {
+      "file": "working/apktool/smali_classes7/sn2.smali",
+      "line": 204,
+      "caller": "Lsn2;->run()V",
+      "target": "Lqmc;->c:Ljava/util/List;",
+      "instruction": "iget-object v2, v0, Lqmc;->c:Ljava/util/List;"
+    },
+    {
+      "file": "working/apktool/smali_classes7/sn2.smali",
+      "line": 230,
+      "caller": "Lsn2;->run()V",
+      "target": "Lqmc;->b:Ljava/util/Map;",
+      "instruction": "iget-object v0, v0, Lqmc;->b:Ljava/util/Map;"
+    },
+    {
+      "file": "working/apktool/smali_classes7/vm5.smali",
+      "line": 211,
+      "caller": "Lvm5;->b()Z",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {v0}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali_classes7/vm5.smali",
+      "line": 1426,
+      "caller": "Lvm5;->q()Ljava/util/ArrayList;",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {v2}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali_classes7/we4.smali",
+      "line": 785,
+      "caller": "Lwe4;->B(Ljava/lang/String;)[B",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {v0}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    },
+    {
+      "file": "working/apktool/smali_classes7/ww.smali",
+      "line": 2385,
+      "caller": "Lww;->onNext(Ljava/lang/Object;)V",
+      "target": "Lqmc;->g:Lqmc;",
+      "instruction": "sget-object v1, Lqmc;->g:Lqmc;"
+    },
+    {
+      "file": "working/apktool/smali_classes7/ww.smali",
+      "line": 2389,
+      "caller": "Lww;->onNext(Ljava/lang/Object;)V",
+      "target": "Lqmc;->a(Lxyc;)V",
+      "instruction": "invoke-virtual {v1, p1}, Lqmc;->a(Lxyc;)V"
+    },
+    {
+      "file": "working/apktool/smali_classes7/ww.smali",
+      "line": 2405,
+      "caller": "Lww;->onNext(Ljava/lang/Object;)V",
+      "target": "Lqmc;->g:Lqmc;",
+      "instruction": "sget-object v2, Lqmc;->g:Lqmc;"
+    },
+    {
+      "file": "working/apktool/smali_classes7/yp9.smali",
+      "line": 398,
+      "caller": "Lyp9;->C(Lci8;)Lewa;",
+      "target": "Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+      "instruction": "invoke-virtual {p0}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+    }
+  ],
+  "download_sql": [
+    {
+      "file": "working/apktool/smali_classes6/g53.smali",
+      "line": 126,
+      "function": "invoke(Ljava/lang/Object;)Ljava/lang/Object;",
+      "instruction": "const-string v0, \"SELECT * FROM DownloadItem ORDER BY added DESC\""
+    },
+    {
+      "file": "working/apktool/smali_classes6/h53.smali",
+      "line": 1100,
+      "function": "invoke(Ljava/lang/Object;)Ljava/lang/Object;",
+      "instruction": "const-string v1, \"SELECT * FROM DownloadItem where id = ?\""
+    },
+    {
+      "file": "working/apktool/smali_classes6/h9.smali",
+      "line": 56,
+      "function": "G()Ljava/lang/String;",
+      "instruction": "const-string p0, \"INSERT OR REPLACE INTO `DownloadItem` (`id`,`file`,`url`,`incognito`,`downloadType`,`targetFormat`,`webPageAddress`,`headers`,`status`,`errorMessage`,`downloadedBytes`,`totalBytes`,`transformationProgress`,`added`,`updated`) VALUES (nullif(?, 0),?,?,?,?,?,?,?,?,?,?,?,?,?,?)\""
+    },
+    {
+      "file": "working/apktool/smali_classes6/j9.smali",
+      "line": 2062,
+      "function": "w()Ljava/lang/String;",
+      "instruction": "const-string p0, \"DELETE FROM `DownloadItem` WHERE `id` = ?\""
+    },
+    {
+      "file": "working/apktool/smali_classes6/k9.smali",
+      "line": 1060,
+      "function": "w()Ljava/lang/String;",
+      "instruction": "const-string p0, \"UPDATE OR ABORT `DownloadItem` SET `id` = ?,`file` = ?,`url` = ?,`incognito` = ?,`downloadType` = ?,`targetFormat` = ?,`webPageAddress` = ?,`headers` = ?,`status` = ?,`errorMessage` = ?,`downloadedBytes` = ?,`totalBytes` = ?,`transformationProgress` = ?,`added` = ?,`updated` = ? WHERE `id` = ?\""
+    },
+    {
+      "file": "working/apktool/smali_classes6/l53.smali",
+      "line": 125,
+      "function": "b(Ljava/util/Set;Lm22;)Ljava/lang/Object;",
+      "instruction": "const-string v1, \"SELECT * FROM DownloadItem WHERE status IN (\""
+    },
+    {
+      "file": "working/apktool/smali_classes6/vf1.smali",
+      "line": 328,
+      "function": "invoke(Ljava/lang/Object;)Ljava/lang/Object;",
+      "instruction": "const-string v1, \"DELETE FROM DownloadItem\""
+    }
+  ]
+}

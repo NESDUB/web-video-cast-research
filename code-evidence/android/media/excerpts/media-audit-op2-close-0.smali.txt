@@ -1,0 +1,158 @@
+.method public final close()V
+    .locals 6
+
+    .line 1
+    const/4 v0, 0x0
+
+    .line 2
+    const/4 v1, 0x0
+
+    .line 3
+    :try_start_0
+    iget-object v2, p0, Lop2;->m:Ljava/io/InputStream;
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 4
+    .line 5
+    if-eqz v2, :cond_0
+
+    .line 6
+    .line 7
+    :try_start_1
+    invoke-virtual {v2}, Ljava/io/InputStream;->close()V
+    :try_end_1
+    .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_0
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    .line 8
+    .line 9
+    .line 10
+    goto :goto_0
+
+    .line 11
+    :catchall_0
+    move-exception v2
+
+    .line 12
+    goto :goto_1
+
+    .line 13
+    :catch_0
+    move-exception v2
+
+    .line 14
+    :try_start_2
+    new-instance v3, Lkt4;
+
+    .line 15
+    .line 16
+    sget-object v4, Lzhc;->a:Ljava/lang/String;
+
+    .line 17
+    .line 18
+    const/16 v4, 0x7d0
+
+    .line 19
+    .line 20
+    const/4 v5, 0x3
+
+    .line 21
+    invoke-direct {v3, v4, v5, v2}, Lkt4;-><init>(IILjava/io/IOException;)V
+
+    .line 22
+    .line 23
+    .line 24
+    throw v3
+    :try_end_2
+    .catchall {:try_start_2 .. :try_end_2} :catchall_0
+
+    .line 25
+    :cond_0
+    :goto_0
+    iput-object v1, p0, Lop2;->m:Ljava/io/InputStream;
+
+    .line 26
+    .line 27
+    invoke-virtual {p0}, Lop2;->e()V
+
+    .line 28
+    .line 29
+    .line 30
+    iget-boolean v2, p0, Lop2;->n:Z
+
+    .line 31
+    .line 32
+    if-eqz v2, :cond_1
+
+    .line 33
+    .line 34
+    iput-boolean v0, p0, Lop2;->n:Z
+
+    .line 35
+    .line 36
+    invoke-virtual {p0}, Lmm0;->b()V
+
+    .line 37
+    .line 38
+    .line 39
+    :cond_1
+    iput-object v1, p0, Lop2;->l:Ljava/net/HttpURLConnection;
+
+    .line 40
+    .line 41
+    iput-object v1, p0, Lop2;->k:Lkj2;
+
+    .line 42
+    .line 43
+    invoke-static {}, Landroid/net/TrafficStats;->clearThreadStatsTag()V
+
+    .line 44
+    .line 45
+    .line 46
+    return-void
+
+    .line 47
+    :goto_1
+    iput-object v1, p0, Lop2;->m:Ljava/io/InputStream;
+
+    .line 48
+    .line 49
+    invoke-virtual {p0}, Lop2;->e()V
+
+    .line 50
+    .line 51
+    .line 52
+    iget-boolean v3, p0, Lop2;->n:Z
+
+    .line 53
+    .line 54
+    if-eqz v3, :cond_2
+
+    .line 55
+    .line 56
+    iput-boolean v0, p0, Lop2;->n:Z
+
+    .line 57
+    .line 58
+    invoke-virtual {p0}, Lmm0;->b()V
+
+    .line 59
+    .line 60
+    .line 61
+    :cond_2
+    iput-object v1, p0, Lop2;->l:Ljava/net/HttpURLConnection;
+
+    .line 62
+    .line 63
+    iput-object v1, p0, Lop2;->k:Lkj2;
+
+    .line 64
+    .line 65
+    invoke-static {}, Landroid/net/TrafficStats;->clearThreadStatsTag()V
+
+    .line 66
+    .line 67
+    .line 68
+    throw v2
+.end method

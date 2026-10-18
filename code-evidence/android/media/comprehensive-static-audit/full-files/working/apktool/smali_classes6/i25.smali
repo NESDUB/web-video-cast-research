@@ -1,0 +1,1075 @@
+.class public final Li25;
+.super Lfgb;
+.source "r8-map-id-5f5060530d9e05db1e1197cdcb7ee4005bad73cf33dea77cc3c253934918b27f"
+
+# interfaces
+.implements Lx84;
+
+
+# instance fields
+.field public final synthetic A:Ljava/lang/String;
+
+.field public final synthetic B:Lcom/instantbits/cast/webvideo/iptv/IPTVListsActivity;
+
+.field public final synthetic C:Ljava/lang/String;
+
+.field public r:Ljava/util/Map;
+
+.field public s:Ljk9;
+
+.field public t:Lfk9;
+
+.field public u:Ljava/lang/String;
+
+.field public v:I
+
+.field public w:I
+
+.field public x:I
+
+.field public final synthetic y:Lnz4;
+
+.field public final synthetic z:Z
+
+
+# direct methods
+.method public constructor <init>(Lnz4;ZLjava/lang/String;Lcom/instantbits/cast/webvideo/iptv/IPTVListsActivity;Ljava/lang/String;Ll22;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Li25;->y:Lnz4;
+
+    .line 2
+    .line 3
+    iput-boolean p2, p0, Li25;->z:Z
+
+    .line 4
+    .line 5
+    iput-object p3, p0, Li25;->A:Ljava/lang/String;
+
+    .line 6
+    .line 7
+    iput-object p4, p0, Li25;->B:Lcom/instantbits/cast/webvideo/iptv/IPTVListsActivity;
+
+    .line 8
+    .line 9
+    iput-object p5, p0, Li25;->C:Ljava/lang/String;
+
+    .line 10
+    .line 11
+    const/4 p1, 0x2
+
+    .line 12
+    invoke-direct {p0, p1, p6}, Lfgb;-><init>(ILl22;)V
+
+    .line 13
+    .line 14
+    .line 15
+    return-void
+.end method
+
+
+# virtual methods
+.method public final create(Ljava/lang/Object;Ll22;)Ll22;
+    .locals 7
+
+    .line 1
+    new-instance v0, Li25;
+
+    .line 2
+    .line 3
+    iget-object v4, p0, Li25;->B:Lcom/instantbits/cast/webvideo/iptv/IPTVListsActivity;
+
+    .line 4
+    .line 5
+    iget-object v5, p0, Li25;->C:Ljava/lang/String;
+
+    .line 6
+    .line 7
+    iget-object v1, p0, Li25;->y:Lnz4;
+
+    .line 8
+    .line 9
+    iget-boolean v2, p0, Li25;->z:Z
+
+    .line 10
+    .line 11
+    iget-object v3, p0, Li25;->A:Ljava/lang/String;
+
+    .line 12
+    .line 13
+    move-object v6, p2
+
+    .line 14
+    invoke-direct/range {v0 .. v6}, Li25;-><init>(Lnz4;ZLjava/lang/String;Lcom/instantbits/cast/webvideo/iptv/IPTVListsActivity;Ljava/lang/String;Ll22;)V
+
+    .line 15
+    .line 16
+    .line 17
+    return-object v0
+.end method
+
+.method public final invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    check-cast p1, Lo42;
+
+    .line 2
+    .line 3
+    check-cast p2, Ll22;
+
+    .line 4
+    .line 5
+    invoke-virtual {p0, p1, p2}, Li25;->create(Ljava/lang/Object;Ll22;)Ll22;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object p0
+
+    .line 9
+    check-cast p0, Li25;
+
+    .line 10
+    .line 11
+    sget-object p1, Lrac;->a:Lrac;
+
+    .line 12
+    .line 13
+    invoke-virtual {p0, p1}, Li25;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 14
+    .line 15
+    .line 16
+    move-result-object p0
+
+    .line 17
+    return-object p0
+.end method
+
+.method public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 14
+
+    .line 1
+    iget v0, p0, Li25;->x:I
+
+    .line 2
+    .line 3
+    const/4 v1, 0x3
+
+    .line 4
+    const/4 v2, 0x2
+
+    .line 5
+    iget-object v3, p0, Li25;->C:Ljava/lang/String;
+
+    .line 6
+    .line 7
+    const/4 v4, 0x1
+
+    .line 8
+    const/4 v5, 0x0
+
+    .line 9
+    iget-object v6, p0, Li25;->A:Ljava/lang/String;
+
+    .line 10
+    .line 11
+    iget-object v7, p0, Li25;->B:Lcom/instantbits/cast/webvideo/iptv/IPTVListsActivity;
+
+    .line 12
+    .line 13
+    sget-object v8, Lp42;->a:Lp42;
+
+    .line 14
+    .line 15
+    if-eqz v0, :cond_3
+
+    .line 16
+    .line 17
+    if-eq v0, v4, :cond_2
+
+    .line 18
+    .line 19
+    if-eq v0, v2, :cond_1
+
+    .line 20
+    .line 21
+    if-ne v0, v1, :cond_0
+
+    .line 22
+    .line 23
+    iget-object v0, p0, Li25;->u:Ljava/lang/String;
+
+    .line 24
+    .line 25
+    iget-object p0, p0, Li25;->r:Ljava/util/Map;
+
+    .line 26
+    .line 27
+    check-cast p0, Ljava/util/Map;
+
+    .line 28
+    .line 29
+    invoke-static {p1}, Ltt9;->m0(Ljava/lang/Object;)V
+
+    .line 30
+    .line 31
+    .line 32
+    goto/16 :goto_a
+
+    .line 33
+    .line 34
+    :cond_0
+    const-string p0, "call to \'resume\' before \'invoke\' with coroutine"
+
+    .line 35
+    .line 36
+    invoke-static {p0}, Lsm0;->r(Ljava/lang/String;)V
+
+    .line 37
+    .line 38
+    .line 39
+    return-object v5
+
+    .line 40
+    :cond_1
+    iget v0, p0, Li25;->w:I
+
+    .line 41
+    .line 42
+    iget v2, p0, Li25;->v:I
+
+    .line 43
+    .line 44
+    iget-object v4, p0, Li25;->s:Ljk9;
+
+    .line 45
+    .line 46
+    iget-object v9, p0, Li25;->r:Ljava/util/Map;
+
+    .line 47
+    .line 48
+    check-cast v9, Ljava/util/Map;
+
+    .line 49
+    .line 50
+    invoke-static {p1}, Ltt9;->m0(Ljava/lang/Object;)V
+
+    .line 51
+    .line 52
+    .line 53
+    goto/16 :goto_8
+
+    .line 54
+    .line 55
+    :cond_2
+    iget v0, p0, Li25;->w:I
+
+    .line 56
+    .line 57
+    iget v4, p0, Li25;->v:I
+
+    .line 58
+    .line 59
+    iget-object v9, p0, Li25;->t:Lfk9;
+
+    .line 60
+    .line 61
+    iget-object v10, p0, Li25;->s:Ljk9;
+
+    .line 62
+    .line 63
+    iget-object v11, p0, Li25;->r:Ljava/util/Map;
+
+    .line 64
+    .line 65
+    check-cast v11, Ljava/util/Map;
+
+    .line 66
+    .line 67
+    :try_start_0
+    invoke-static {p1}, Ltt9;->m0(Ljava/lang/Object;)V
+    :try_end_0
+    .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
+
+    .line 68
+    .line 69
+    .line 70
+    goto/16 :goto_2
+
+    .line 71
+    .line 72
+    :catch_0
+    move-exception p1
+
+    .line 73
+    goto/16 :goto_6
+
+    .line 74
+    .line 75
+    :cond_3
+    invoke-static {p1}, Ltt9;->m0(Ljava/lang/Object;)V
+
+    .line 76
+    .line 77
+    .line 78
+    new-instance v11, Ljava/util/LinkedHashMap;
+
+    .line 79
+    .line 80
+    invoke-direct {v11}, Ljava/util/LinkedHashMap;-><init>()V
+
+    .line 81
+    .line 82
+    .line 83
+    iget-object p1, p0, Li25;->y:Lnz4;
+
+    .line 84
+    .line 85
+    const/4 v0, 0x0
+
+    .line 86
+    if-nez p1, :cond_4
+
+    .line 87
+    .line 88
+    move p1, v4
+
+    .line 89
+    goto :goto_0
+
+    .line 90
+    :cond_4
+    move p1, v0
+
+    .line 91
+    :goto_0
+    const-string v9, "http://"
+
+    .line 92
+    .line 93
+    const-string v10, "https://"
+
+    .line 94
+    .line 95
+    filled-new-array {v9, v10}, [Ljava/lang/String;
+
+    .line 96
+    .line 97
+    .line 98
+    move-result-object v9
+
+    .line 99
+    invoke-static {v9}, Ljk2;->a0([Ljava/lang/Object;)Ljava/util/List;
+
+    .line 100
+    .line 101
+    .line 102
+    move-result-object v9
+
+    .line 103
+    check-cast v9, Ljava/lang/Iterable;
+
+    .line 104
+    .line 105
+    instance-of v10, v9, Ljava/util/Collection;
+
+    .line 106
+    .line 107
+    if-eqz v10, :cond_5
+
+    .line 108
+    .line 109
+    move-object v10, v9
+
+    .line 110
+    check-cast v10, Ljava/util/Collection;
+
+    .line 111
+    .line 112
+    invoke-interface {v10}, Ljava/util/Collection;->isEmpty()Z
+
+    .line 113
+    .line 114
+    .line 115
+    move-result v10
+
+    .line 116
+    if-eqz v10, :cond_5
+
+    .line 117
+    .line 118
+    goto :goto_1
+
+    .line 119
+    :cond_5
+    invoke-interface {v9}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+
+    .line 120
+    .line 121
+    .line 122
+    move-result-object v9
+
+    .line 123
+    :cond_6
+    invoke-interface {v9}, Ljava/util/Iterator;->hasNext()Z
+
+    .line 124
+    .line 125
+    .line 126
+    move-result v10
+
+    .line 127
+    if-eqz v10, :cond_7
+
+    .line 128
+    .line 129
+    invoke-interface {v9}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    .line 130
+    .line 131
+    .line 132
+    move-result-object v10
+
+    .line 133
+    check-cast v10, Ljava/lang/String;
+
+    .line 134
+    .line 135
+    invoke-static {v6, v10, v0}, Lq6b;->E0(Ljava/lang/String;Ljava/lang/String;Z)Z
+
+    .line 136
+    .line 137
+    .line 138
+    move-result v10
+
+    .line 139
+    if-eqz v10, :cond_6
+
+    .line 140
+    .line 141
+    move v0, v4
+
+    .line 142
+    :cond_7
+    :goto_1
+    iget-boolean v9, p0, Li25;->z:Z
+
+    .line 143
+    .line 144
+    if-eqz v9, :cond_10
+
+    .line 145
+    .line 146
+    if-eqz p1, :cond_10
+
+    .line 147
+    .line 148
+    if-eqz v0, :cond_10
+
+    .line 149
+    .line 150
+    new-instance v10, Ljk9;
+
+    .line 151
+    .line 152
+    invoke-direct {v10}, Ljava/lang/Object;-><init>()V
+
+    .line 153
+    .line 154
+    .line 155
+    invoke-static {v6}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+
+    .line 156
+    .line 157
+    .line 158
+    move-result-object v9
+
+    .line 159
+    iput-object v9, v10, Ljk9;->a:Ljava/lang/Object;
+
+    .line 160
+    .line 161
+    new-instance v12, Lfk9;
+
+    .line 162
+    .line 163
+    invoke-direct {v12}, Ljava/lang/Object;-><init>()V
+
+    .line 164
+    .line 165
+    .line 166
+    invoke-static {v7, v9}, Lcom/instantbits/cast/webvideo/iptv/IPTVListsActivity;->p0(Lcom/instantbits/cast/webvideo/iptv/IPTVListsActivity;Landroid/net/Uri;)Z
+
+    .line 167
+    .line 168
+    .line 169
+    move-result v9
+
+    .line 170
+    iput-boolean v9, v12, Lfk9;->a:Z
+
+    .line 171
+    .line 172
+    if-nez v9, :cond_a
+
+    .line 173
+    .line 174
+    :try_start_1
+    sget-object v9, Lgh0;->f:Lgh0;
+
+    .line 175
+    .line 176
+    iput-object v11, p0, Li25;->r:Ljava/util/Map;
+
+    .line 177
+    .line 178
+    iput-object v10, p0, Li25;->s:Ljk9;
+
+    .line 179
+    .line 180
+    iput-object v12, p0, Li25;->t:Lfk9;
+
+    .line 181
+    .line 182
+    iput p1, p0, Li25;->v:I
+
+    .line 183
+    .line 184
+    iput v0, p0, Li25;->w:I
+
+    .line 185
+    .line 186
+    iput v4, p0, Li25;->x:I
+
+    .line 187
+    .line 188
+    invoke-virtual {v9, v6, p0}, Lgh0;->r(Ljava/lang/String;Lm22;)Ljava/lang/Object;
+
+    .line 189
+    .line 190
+    .line 191
+    move-result-object v4
+    :try_end_1
+    .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_1
+
+    .line 192
+    if-ne v4, v8, :cond_8
+
+    .line 193
+    .line 194
+    goto/16 :goto_9
+
+    .line 195
+    .line 196
+    :cond_8
+    move-object v9, v4
+
+    .line 197
+    move v4, p1
+
+    .line 198
+    move-object p1, v9
+
+    .line 199
+    move-object v9, v12
+
+    .line 200
+    :goto_2
+    :try_start_2
+    check-cast p1, Ljava/io/Closeable;
+    :try_end_2
+    .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_0
+
+    .line 201
+    .line 202
+    :try_start_3
+    move-object v12, p1
+
+    .line 203
+    check-cast v12, Lnq9;
+
+    .line 204
+    .line 205
+    iget-object v12, v12, Lnq9;->a:Ldo9;
+
+    .line 206
+    .line 207
+    iget-object v12, v12, Ldo9;->a:Lvw4;
+
+    .line 208
+    .line 209
+    iget-object v12, v12, Lvw4;->i:Ljava/lang/String;
+
+    .line 210
+    .line 211
+    invoke-virtual {v12}, Ljava/lang/String;->length()I
+
+    .line 212
+    .line 213
+    .line 214
+    move-result v13
+
+    .line 215
+    if-lez v13, :cond_9
+
+    .line 216
+    .line 217
+    invoke-virtual {v12, v6}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    .line 218
+    .line 219
+    .line 220
+    move-result v13
+
+    .line 221
+    if-nez v13, :cond_9
+
+    .line 222
+    .line 223
+    invoke-static {v12}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+
+    .line 224
+    .line 225
+    .line 226
+    move-result-object v12
+
+    .line 227
+    iput-object v12, v10, Ljk9;->a:Ljava/lang/Object;
+
+    .line 228
+    .line 229
+    invoke-static {v7, v12}, Lcom/instantbits/cast/webvideo/iptv/IPTVListsActivity;->p0(Lcom/instantbits/cast/webvideo/iptv/IPTVListsActivity;Landroid/net/Uri;)Z
+
+    .line 230
+    .line 231
+    .line 232
+    move-result v12
+
+    .line 233
+    iput-boolean v12, v9, Lfk9;->a:Z
+    :try_end_3
+    .catchall {:try_start_3 .. :try_end_3} :catchall_0
+
+    .line 234
+    .line 235
+    goto :goto_3
+
+    .line 236
+    :catchall_0
+    move-exception v12
+
+    .line 237
+    goto :goto_5
+
+    .line 238
+    :cond_9
+    :goto_3
+    :try_start_4
+    invoke-static {p1, v5}, Lyv0;->k(Ljava/io/Closeable;Ljava/lang/Throwable;)V
+    :try_end_4
+    .catch Ljava/io/IOException; {:try_start_4 .. :try_end_4} :catch_0
+
+    .line 239
+    .line 240
+    .line 241
+    :goto_4
+    move-object v12, v9
+
+    .line 242
+    goto :goto_7
+
+    .line 243
+    :goto_5
+    :try_start_5
+    throw v12
+    :try_end_5
+    .catchall {:try_start_5 .. :try_end_5} :catchall_1
+
+    .line 244
+    :catchall_1
+    move-exception v13
+
+    .line 245
+    :try_start_6
+    invoke-static {p1, v12}, Lyv0;->k(Ljava/io/Closeable;Ljava/lang/Throwable;)V
+
+    .line 246
+    .line 247
+    .line 248
+    throw v13
+    :try_end_6
+    .catch Ljava/io/IOException; {:try_start_6 .. :try_end_6} :catch_0
+
+    .line 249
+    :catch_1
+    move-exception v4
+
+    .line 250
+    move-object v9, v4
+
+    .line 251
+    move v4, p1
+
+    .line 252
+    move-object p1, v9
+
+    .line 253
+    move-object v9, v12
+
+    .line 254
+    :goto_6
+    sget-object v12, Lcom/instantbits/cast/webvideo/iptv/IPTVListsActivity;->k0:Lvgb;
+
+    .line 255
+    .line 256
+    invoke-static {}, Lo8d;->k()Ljava/lang/String;
+
+    .line 257
+    .line 258
+    .line 259
+    move-result-object v12
+
+    .line 260
+    invoke-static {v12, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/Throwable;)I
+
+    .line 261
+    .line 262
+    .line 263
+    goto :goto_4
+
+    .line 264
+    :cond_a
+    move v4, p1
+
+    .line 265
+    :goto_7
+    iget-boolean p1, v12, Lfk9;->a:Z
+
+    .line 266
+    .line 267
+    if-eqz p1, :cond_10
+
+    .line 268
+    .line 269
+    iget-object p1, v10, Ljk9;->a:Ljava/lang/Object;
+
+    .line 270
+    .line 271
+    check-cast p1, Landroid/net/Uri;
+
+    .line 272
+    .line 273
+    move-object v9, v11
+
+    .line 274
+    check-cast v9, Ljava/util/Map;
+
+    .line 275
+    .line 276
+    iput-object v9, p0, Li25;->r:Ljava/util/Map;
+
+    .line 277
+    .line 278
+    iput-object v10, p0, Li25;->s:Ljk9;
+
+    .line 279
+    .line 280
+    iput-object v5, p0, Li25;->t:Lfk9;
+
+    .line 281
+    .line 282
+    iput v4, p0, Li25;->v:I
+
+    .line 283
+    .line 284
+    iput v0, p0, Li25;->w:I
+
+    .line 285
+    .line 286
+    iput v2, p0, Li25;->x:I
+
+    .line 287
+    .line 288
+    const-string v2, "ts"
+
+    .line 289
+    .line 290
+    invoke-static {v7, p1, v2, p0}, Lcom/instantbits/cast/webvideo/iptv/IPTVListsActivity;->o0(Lcom/instantbits/cast/webvideo/iptv/IPTVListsActivity;Landroid/net/Uri;Ljava/lang/String;Lm22;)Ljava/lang/Object;
+
+    .line 291
+    .line 292
+    .line 293
+    move-result-object p1
+
+    .line 294
+    if-ne p1, v8, :cond_b
+
+    .line 295
+    .line 296
+    goto :goto_9
+
+    .line 297
+    :cond_b
+    move v2, v4
+
+    .line 298
+    move-object v4, v10
+
+    .line 299
+    move-object v9, v11
+
+    .line 300
+    :goto_8
+    check-cast p1, Ljava/lang/String;
+
+    .line 301
+    .line 302
+    iget-object v4, v4, Ljk9;->a:Ljava/lang/Object;
+
+    .line 303
+    .line 304
+    check-cast v4, Landroid/net/Uri;
+
+    .line 305
+    .line 306
+    move-object v10, v9
+
+    .line 307
+    check-cast v10, Ljava/util/Map;
+
+    .line 308
+    .line 309
+    iput-object v10, p0, Li25;->r:Ljava/util/Map;
+
+    .line 310
+    .line 311
+    iput-object v5, p0, Li25;->s:Ljk9;
+
+    .line 312
+    .line 313
+    iput-object v5, p0, Li25;->t:Lfk9;
+
+    .line 314
+    .line 315
+    iput-object p1, p0, Li25;->u:Ljava/lang/String;
+
+    .line 316
+    .line 317
+    iput v2, p0, Li25;->v:I
+
+    .line 318
+    .line 319
+    iput v0, p0, Li25;->w:I
+
+    .line 320
+    .line 321
+    iput v1, p0, Li25;->x:I
+
+    .line 322
+    .line 323
+    const-string v0, "m3u8"
+
+    .line 324
+    .line 325
+    invoke-static {v7, v4, v0, p0}, Lcom/instantbits/cast/webvideo/iptv/IPTVListsActivity;->o0(Lcom/instantbits/cast/webvideo/iptv/IPTVListsActivity;Landroid/net/Uri;Ljava/lang/String;Lm22;)Ljava/lang/Object;
+
+    .line 326
+    .line 327
+    .line 328
+    move-result-object p0
+
+    .line 329
+    if-ne p0, v8, :cond_c
+
+    .line 330
+    .line 331
+    :goto_9
+    return-object v8
+
+    .line 332
+    :cond_c
+    move-object v0, p1
+
+    .line 333
+    move-object p1, p0
+
+    .line 334
+    move-object p0, v9
+
+    .line 335
+    :goto_a
+    check-cast p1, Ljava/lang/String;
+
+    .line 336
+    .line 337
+    if-eqz v0, :cond_d
+
+    .line 338
+    .line 339
+    if-eqz p1, :cond_d
+
+    .line 340
+    .line 341
+    invoke-virtual {v0, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    .line 342
+    .line 343
+    .line 344
+    move-result v1
+
+    .line 345
+    if-eqz v1, :cond_d
+
+    .line 346
+    .line 347
+    invoke-interface {p0, v3, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 348
+    .line 349
+    .line 350
+    goto :goto_b
+
+    .line 351
+    :cond_d
+    const-string v1, " "
+
+    .line 352
+    .line 353
+    if-eqz v0, :cond_e
+
+    .line 354
+    .line 355
+    const v2, 0x7f1304c2
+
+    .line 356
+    .line 357
+    .line 358
+    invoke-virtual {v7, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    .line 359
+    .line 360
+    .line 361
+    move-result-object v2
+
+    .line 362
+    new-instance v4, Ljava/lang/StringBuilder;
+
+    .line 363
+    .line 364
+    invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
+
+    .line 365
+    .line 366
+    .line 367
+    invoke-virtual {v4, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 368
+    .line 369
+    .line 370
+    invoke-virtual {v4, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 371
+    .line 372
+    .line 373
+    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 374
+    .line 375
+    .line 376
+    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 377
+    .line 378
+    .line 379
+    move-result-object v2
+
+    .line 380
+    invoke-interface {p0, v2, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 381
+    .line 382
+    .line 383
+    :cond_e
+    if-eqz p1, :cond_f
+
+    .line 384
+    .line 385
+    const v0, 0x7f1304ae
+
+    .line 386
+    .line 387
+    .line 388
+    invoke-virtual {v7, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    .line 389
+    .line 390
+    .line 391
+    move-result-object v0
+
+    .line 392
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    .line 393
+    .line 394
+    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+
+    .line 395
+    .line 396
+    .line 397
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 398
+    .line 399
+    .line 400
+    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 401
+    .line 402
+    .line 403
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 404
+    .line 405
+    .line 406
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 407
+    .line 408
+    .line 409
+    move-result-object v0
+
+    .line 410
+    invoke-interface {p0, v0, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 411
+    .line 412
+    .line 413
+    :cond_f
+    :goto_b
+    move-object v11, p0
+
+    .line 414
+    :cond_10
+    invoke-interface {v11}, Ljava/util/Map;->isEmpty()Z
+
+    .line 415
+    .line 416
+    .line 417
+    move-result p0
+
+    .line 418
+    if-eqz p0, :cond_11
+
+    .line 419
+    .line 420
+    invoke-interface {v11, v3, v6}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 421
+    .line 422
+    .line 423
+    :cond_11
+    return-object v11
+.end method

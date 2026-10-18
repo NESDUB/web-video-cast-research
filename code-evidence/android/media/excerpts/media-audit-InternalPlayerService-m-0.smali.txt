@@ -1,0 +1,150 @@
+.method public final m()V
+    .locals 4
+
+    .line 1
+    invoke-virtual {p0}, Lcom/instantbits/cast/webvideo/player/InternalPlayerService;->n()V
+
+    .line 2
+    .line 3
+    .line 4
+    iget-object v0, p0, Lcom/instantbits/cast/webvideo/player/InternalPlayerService;->u:Lxm3;
+
+    .line 5
+    .line 6
+    const/4 v1, 0x0
+
+    .line 7
+    if-eqz v0, :cond_0
+
+    .line 8
+    .line 9
+    const/4 v2, 0x0
+
+    .line 10
+    invoke-virtual {v0, v2}, Lxm3;->Z1(I)V
+
+    .line 11
+    .line 12
+    .line 13
+    invoke-virtual {v0}, Lxm3;->a2()V
+
+    .line 14
+    .line 15
+    .line 16
+    invoke-virtual {v0}, Lxm3;->K1()V
+
+    .line 17
+    .line 18
+    .line 19
+    iput-object v1, p0, Lcom/instantbits/cast/webvideo/player/InternalPlayerService;->u:Lxm3;
+
+    .line 20
+    .line 21
+    iput-object v1, p0, Lcom/instantbits/cast/webvideo/player/InternalPlayerService;->e:Llt2;
+
+    .line 22
+    .line 23
+    :cond_0
+    iget-object v0, p0, Lcom/instantbits/cast/webvideo/player/InternalPlayerService;->d:Lcy;
+
+    .line 24
+    .line 25
+    if-eqz v0, :cond_1
+
+    .line 26
+    .line 27
+    invoke-virtual {p0, v0}, Landroid/content/Context;->unregisterReceiver(Landroid/content/BroadcastReceiver;)V
+
+    .line 28
+    .line 29
+    .line 30
+    :cond_1
+    iput-object v1, p0, Lcom/instantbits/cast/webvideo/player/InternalPlayerService;->d:Lcy;
+
+    .line 31
+    .line 32
+    invoke-virtual {p0}, Lcom/instantbits/cast/webvideo/player/InternalPlayerService;->q()V
+
+    .line 33
+    .line 34
+    .line 35
+    iget-object v0, p0, Lcom/instantbits/cast/webvideo/player/InternalPlayerService;->v:Lgo5;
+
+    .line 36
+    .line 37
+    invoke-virtual {v0, v1}, Lmo5;->b(Ljava/util/concurrent/CancellationException;)V
+
+    .line 38
+    .line 39
+    .line 40
+    iget-object p0, p0, Lcom/instantbits/cast/webvideo/player/InternalPlayerService;->b:Ljava/lang/ref/WeakReference;
+
+    .line 41
+    .line 42
+    if-eqz p0, :cond_2
+
+    .line 43
+    .line 44
+    invoke-virtual {p0}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
+
+    .line 45
+    .line 46
+    .line 47
+    move-result-object p0
+
+    .line 48
+    check-cast p0, Lxg5;
+
+    .line 49
+    .line 50
+    if-eqz p0, :cond_2
+
+    .line 51
+    .line 52
+    iget-object p0, p0, Lxg5;->a:Lcom/instantbits/cast/webvideo/player/InternalPlayerActivity;
+
+    .line 53
+    .line 54
+    sget-object v0, Lcom/instantbits/cast/webvideo/player/InternalPlayerActivity;->l0:Lvgb;
+
+    .line 55
+    .line 56
+    invoke-virtual {p0}, Lcom/instantbits/cast/webvideo/player/InternalPlayerActivity;->t0()Lgj5;
+
+    .line 57
+    .line 58
+    .line 59
+    move-result-object v0
+
+    .line 60
+    invoke-static {v0}, Luj5;->K(Lkqc;)Lgk1;
+
+    .line 61
+    .line 62
+    .line 63
+    move-result-object v0
+
+    .line 64
+    new-instance v2, Log5;
+
+    .line 65
+    .line 66
+    const/4 v3, 0x4
+
+    .line 67
+    invoke-direct {v2, p0, v1, v3}, Log5;-><init>(Lcom/instantbits/cast/webvideo/player/InternalPlayerActivity;Ll22;I)V
+
+    .line 68
+    .line 69
+    .line 70
+    const/4 p0, 0x3
+
+    .line 71
+    invoke-static {v0, v1, v1, v2, p0}, Lll4;->y(Lo42;Le42;Lr42;Lx84;I)Lx0b;
+
+    .line 72
+    .line 73
+    .line 74
+    :cond_2
+    return-void
+.end method

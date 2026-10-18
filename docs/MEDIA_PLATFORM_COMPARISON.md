@@ -1,0 +1,27 @@
+# Android and iOS: confirmed similarities and limits
+
+Static comparison of the exact supplied packages, 2026-10-17. Android 6.0.3 and iOS 3.5 build 0 are not matched releases. The IPA's main executable has LC_ENCRYPTION_INFO_64 cryptid 1. No native iOS media implementation is inferred from names, settings, linked frameworks or Android behavior. Package hashes, selected resource equality and native encryption metadata are checked by [the static verifier](../scripts/verify_media_static.py).
+
+| Pipeline aspect | Android confirmed code | iOS confirmed readable evidence | What remains unknown |
+| --- | --- | --- | --- |
+| DOM/player detection | Primary script plus native URL/MIME observation and host-specific adapters | Video/AudioOnly, SOURCE/TRACK, JW, Rai, flashvars, Vaughn, FB, Clappr; metadata/subtitle adapters | Native iOS filtering/validation; exact injection scope/timing |
+| Dynamic sources | Main childList observer, play/rescan/frame callbacks; attributes:false | Main childList plus separate src observers on VIDEO/AUDIO/SOURCE and play callbacks | Real iframe/cache/player coverage on both platforms |
+| Native bridge | Console JSON with ibMessage → sg1 parser/candidate consumers | NativeApp wrapper or WK ibfunctions handler receives JSON string | Encrypted iOS handler consumer and message lifetime |
+| Native network observation | WebView and service-worker shared pipeline, separate native HTTP helpers | Script custom event consumers for XHR/fetch/player load/cookie change | All event producers/installation and native network pipeline |
+| Blob/MSE | Page segment metadata + observed path map → generated HLS; no universal recorder established | Blob FileReader data serialization when matching event supplied; payload-generated HLS | Generic SourceBuffer recording or reliable native saving from either mechanism |
+| Provider fetching | Native text/JSON requests, TCPlayer HLS validation and packaged hhtq adapter | Vimeo config fetch with credentials, candidate-host HEAD probing in PayloadSource | Device-effective adapters, provider authorization/expiry, hidden native helpers |
+| URL/header identity | xyc/nyc, omc, qmc and shared jd9 map are inspectable | Readable source fields and absolute-URL helper | iOS native identity, header precedence, cookie partitioning, cache/redirect policy |
+| Formats | HLS/DASH/progressive path selection, proxy rewriting, custom HLS TS delivery, Media3 local/export | Script MIME/source generation for progressive/HLS/DASH; bundled receiver libraries | iOS native parsing, format export, license enforcement and decoder behavior |
+| Cast/proxy | Receiver adapters, phone HTTP server, URL registration and direct/proxy policy | Bundled receiver app/resources and cast UI metadata | Phone-side iOS casting/proxy protocol, headers and cleanup |
+| Subtitles | Preparation/parsers/charset/timing/servlet and receiver-specific operations | Track/player subtitle discovery, UI/resources, receiver script commands | iOS phone conversion, serving, native timing/receiver behavior |
+| Download/export | Room/WorkManager/state, append/range transfer, TS assembly, Media3 MP4 export | Downloads UI/resources | Native iOS scheduling, persistence, resume, temp cleanup and conversion |
+| Lifecycle/private mode | Visible page/context cleanup plus shared static stores; protected startup/teardown remains | Script page state/observers and some explicit controls | Native iOS storage, private isolation, process recovery; Android protected portions |
+| Screen recording | No connected capture save path established in inspected graph | No connected native capture path recoverable; script source detection is different | Do not claim universal absence from encrypted/protected code |
+
+The iOS script contains material differences, so even its readable behavior should not be summarized as “same as Android.” It has explicit AudioOnly support, src observers, repeated JW scans, Vimeo config fetching, direct payload-generated data manifests, custom fetch/XHR/blob event consumers and shadow-root monitor consumers. Its `Video` constructor also sets playsinline, x-webkit-airplay and optionally muted attributes. These can change page behavior; finding the code is not an observation that any particular player breaks.
+
+`MessageReceiver` tests a prefix using indexOf but slices from the prefix length and dispatches through `e.tstringype`. That spelling and lack of a receiver existence check are static concerns, not a reproduced cross-frame defect. Producers of `__ib_x`, `__ib_f`, `__ib_b`, `__ib_w`, `__ib_c` and `__ib_s` have not all been located. The search covers packaged JS files and earlier literal executable searches; generated/encrypted native injection is outside what those searches can prove.
+
+`PayloadSource.getWorkingHost` launches HEAD probes and uses Promise.allSettled results, then selects the first fulfilled entry by input order; it does not race to first success. The per-ID cache is script memory. The produced VOD-like manifest uses page durations/sequence and ENDLIST. Blob serialization sends bytes only for a Blob supplied in the event; it does not turn a MediaSource object into accessible segment bytes.
+
+The shared receiver app can be compared byte for byte independently of encrypted native code. A common receiver HTML/JS resource demonstrates shipped receiver logic only; it does not demonstrate that both phone apps start, secure or drive it identically. Native iOS protected/unknown paths stay M35/M36 even if corresponding UI or resource names exist.

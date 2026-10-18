@@ -1,0 +1,607 @@
+{
+  "request": "docs/MEDIA_AUDIT_REQUEST.md",
+  "request_sha256": "17a9ce60dda2d86d0fbb3bba2b8398eb4ab5a89da14f14482074f30223412a41",
+  "literal_bullets": 47,
+  "items": [
+    {
+      "id": "C01",
+      "requirement": "The precise unanswered question.",
+      "document": "docs/MEDIA_GAPS.md",
+      "gap_ids": [
+        "M14"
+      ],
+      "disposition": "Addressed with stated boundaries; linked gap statuses apply, not an all-resolved assertion"
+    },
+    {
+      "id": "C02",
+      "requirement": "Platform and affected pipeline stage.",
+      "document": "docs/MEDIA_GAPS.md",
+      "gap_ids": [
+        "M14"
+      ],
+      "disposition": "Addressed with stated boundaries; linked gap statuses apply, not an all-resolved assertion"
+    },
+    {
+      "id": "C03",
+      "requirement": "Evidence and source references.",
+      "document": "docs/MEDIA_EVIDENCE_INDEX.md",
+      "gap_ids": [
+        "M11"
+      ],
+      "disposition": "Addressed with stated boundaries; linked gap statuses apply, not an all-resolved assertion"
+    },
+    {
+      "id": "C04",
+      "requirement": "Status: static trace remaining, protected/encrypted code, runtime unverified, device state unknown, or resolved.",
+      "document": "docs/MEDIA_GAPS.md",
+      "gap_ids": [
+        "M14",
+        "M35",
+        "M09",
+        "M39",
+        "M11"
+      ],
+      "disposition": "Addressed with stated boundaries; linked gap statuses apply, not an all-resolved assertion"
+    },
+    {
+      "id": "C05",
+      "requirement": "What would actually close it.",
+      "document": "docs/MEDIA_GAPS.md",
+      "gap_ids": [
+        "M14"
+      ],
+      "disposition": "Addressed with stated boundaries; linked gap statuses apply, not an all-resolved assertion"
+    },
+    {
+      "id": "C06",
+      "requirement": "Whether it matters to an independent implementation.",
+      "document": "docs/MEDIA_IMPLEMENTATION_RELEVANCE.md",
+      "gap_ids": [
+        "M14"
+      ],
+      "disposition": "Addressed with stated boundaries; linked gap statuses apply, not an all-resolved assertion"
+    },
+    {
+      "id": "C07",
+      "requirement": "HTML video/audio/source elements and embedded players.",
+      "document": "docs/MEDIA_METHOD_INVENTORY.md",
+      "gap_ids": [
+        "M01",
+        "M37"
+      ],
+      "disposition": "Addressed with stated boundaries; linked gap statuses apply, not an all-resolved assertion"
+    },
+    {
+      "id": "C08",
+      "requirement": "Initial and dynamically inserted elements, source changes, frames, and cross-origin boundaries.",
+      "document": "docs/MEDIA_STATIC_AUDIT.md",
+      "gap_ids": [
+        "M01",
+        "M02",
+        "M37"
+      ],
+      "disposition": "Addressed with stated boundaries; linked gap statuses apply, not an all-resolved assertion"
+    },
+    {
+      "id": "C09",
+      "requirement": "Injected scripts, native bridges, callback registration, message formats, and injection timing.",
+      "document": "docs/MEDIA_STATIC_AUDIT.md",
+      "gap_ids": [
+        "M01",
+        "M02",
+        "M08",
+        "M35",
+        "M36"
+      ],
+      "disposition": "Addressed with stated boundaries; linked gap statuses apply, not an all-resolved assertion"
+    },
+    {
+      "id": "C10",
+      "requirement": "Fetch/XHR, resource interception, service workers, redirects, and media-request observation.",
+      "document": "docs/MEDIA_METHOD_INVENTORY.md",
+      "gap_ids": [
+        "M03",
+        "M05",
+        "M09",
+        "M12",
+        "M36"
+      ],
+      "disposition": "Addressed with stated boundaries; linked gap statuses apply, not an all-resolved assertion"
+    },
+    {
+      "id": "C11",
+      "requirement": "Provider-specific discovery and injection paths.",
+      "document": "docs/MEDIA_METHOD_INVENTORY.md",
+      "gap_ids": [
+        "M03",
+        "M14",
+        "M37"
+      ],
+      "disposition": "Addressed with stated boundaries; linked gap statuses apply, not an all-resolved assertion"
+    },
+    {
+      "id": "C12",
+      "requirement": "Blob URLs, MediaSource/MSE, object URLs, and intercepted segment references.",
+      "document": "docs/MEDIA_METHOD_INVENTORY.md",
+      "gap_ids": [
+        "M04",
+        "M05",
+        "M36",
+        "M37"
+      ],
+      "disposition": "Addressed with stated boundaries; linked gap statuses apply, not an all-resolved assertion"
+    },
+    {
+      "id": "C13",
+      "requirement": "URL resolution, normalization, decoding, and scheme handling.",
+      "document": "docs/MEDIA_STATIC_AUDIT.md",
+      "gap_ids": [
+        "M06"
+      ],
+      "disposition": "Addressed with stated boundaries; linked gap statuses apply, not an all-resolved assertion"
+    },
+    {
+      "id": "C14",
+      "requirement": "MIME/type inference, extension checks, response inspection, and format validation.",
+      "document": "docs/MEDIA_STATIC_AUDIT.md",
+      "gap_ids": [
+        "M06",
+        "M19",
+        "M20"
+      ],
+      "disposition": "Addressed with stated boundaries; linked gap statuses apply, not an all-resolved assertion"
+    },
+    {
+      "id": "C15",
+      "requirement": "Candidate identity, deduplication, merging, ordering, grouping, and selection.",
+      "document": "docs/MEDIA_STATIC_AUDIT.md",
+      "gap_ids": [
+        "M07",
+        "M25",
+        "M41"
+      ],
+      "disposition": "Addressed with stated boundaries; linked gap statuses apply, not an all-resolved assertion"
+    },
+    {
+      "id": "C16",
+      "requirement": "False-positive filtering, unsupported formats, stale entries, and discovery failures.",
+      "document": "docs/MEDIA_STATIC_AUDIT.md",
+      "gap_ids": [
+        "M06",
+        "M07",
+        "M09",
+        "M20"
+      ],
+      "disposition": "Addressed with stated boundaries; linked gap statuses apply, not an all-resolved assertion"
+    },
+    {
+      "id": "C17",
+      "requirement": "Exactly what causes the detected-video list or icon to update.",
+      "document": "docs/MEDIA_STATIC_AUDIT.md",
+      "gap_ids": [
+        "M07",
+        "M08",
+        "M09"
+      ],
+      "disposition": "Addressed with stated boundaries; linked gap statuses apply, not an all-resolved assertion"
+    },
+    {
+      "id": "C18",
+      "requirement": "Headers, cookies, authorization, Referer, Origin, User-Agent, and private-mode context.",
+      "document": "docs/MEDIA_STATIC_AUDIT.md",
+      "gap_ids": [
+        "M10",
+        "M12",
+        "M14",
+        "M33"
+      ],
+      "disposition": "Addressed with stated boundaries; linked gap statuses apply, not an all-resolved assertion"
+    },
+    {
+      "id": "C19",
+      "requirement": "Context capture, precedence, redirects, destination changes, retention, and invalidation.",
+      "document": "docs/MEDIA_STATIC_AUDIT.md",
+      "gap_ids": [
+        "M10",
+        "M12",
+        "M32",
+        "M33"
+      ],
+      "disposition": "Addressed with stated boundaries; linked gap statuses apply, not an all-resolved assertion"
+    },
+    {
+      "id": "C20",
+      "requirement": "Every relevant HTTP client construction\u2014not just the main proxy.",
+      "document": "docs/MEDIA_STATIC_AUDIT.md",
+      "gap_ids": [
+        "M10",
+        "M14",
+        "M17"
+      ],
+      "disposition": "Addressed with stated boundaries; linked gap statuses apply, not an all-resolved assertion"
+    },
+    {
+      "id": "C21",
+      "requirement": "Intermediate and final response-cookie handling, including which URL receives stored cookies.",
+      "document": "docs/MEDIA_STATIC_AUDIT.md",
+      "gap_ids": [
+        "M11",
+        "M12",
+        "M13"
+      ],
+      "disposition": "Addressed with stated boundaries; linked gap statuses apply, not an all-resolved assertion"
+    },
+    {
+      "id": "C22",
+      "requirement": "Cache behavior, retry rules, timeout handling, cancellation, and connection/stream cleanup.",
+      "document": "docs/MEDIA_STATIC_AUDIT.md",
+      "gap_ids": [
+        "M16",
+        "M17",
+        "M18",
+        "M32",
+        "M41"
+      ],
+      "disposition": "Addressed with stated boundaries; linked gap statuses apply, not an all-resolved assertion"
+    },
+    {
+      "id": "C23",
+      "requirement": "Direct progressive media, HLS, DASH, and other formats actually found in the package.",
+      "document": "docs/MEDIA_ARCHITECTURE.md",
+      "gap_ids": [
+        "M19",
+        "M20",
+        "M21",
+        "M29"
+      ],
+      "disposition": "Addressed with stated boundaries; linked gap statuses apply, not an all-resolved assertion"
+    },
+    {
+      "id": "C24",
+      "requirement": "Master/media playlist parsing, variant selection, audio/subtitle renditions, relative URLs, and manifest rewriting.",
+      "document": "docs/MEDIA_STATIC_AUDIT.md",
+      "gap_ids": [
+        "M19",
+        "M20",
+        "M21",
+        "M24"
+      ],
+      "disposition": "Addressed with stated boundaries; linked gap statuses apply, not an all-resolved assertion"
+    },
+    {
+      "id": "C25",
+      "requirement": "Live playlists, discontinuities, byte ranges, initialization segments, and segment delivery.",
+      "document": "docs/MEDIA_STATIC_AUDIT.md",
+      "gap_ids": [
+        "M19",
+        "M20"
+      ],
+      "disposition": "Addressed with stated boundaries; linked gap statuses apply, not an all-resolved assertion"
+    },
+    {
+      "id": "C26",
+      "requirement": "Encryption/key-reference handling where present. Distinguish ordinary supported media handling from DRM; do not infer or attempt DRM bypass.",
+      "document": "docs/MEDIA_STATIC_AUDIT.md",
+      "gap_ids": [
+        "M19",
+        "M22"
+      ],
+      "disposition": "Addressed with stated boundaries; linked gap statuses apply, not an all-resolved assertion"
+    },
+    {
+      "id": "C27",
+      "requirement": "Whether MSE/blob handling discovers underlying sources, collects segments, alters the player, or does something else.",
+      "document": "docs/MEDIA_METHOD_INVENTORY.md",
+      "gap_ids": [
+        "M04",
+        "M05",
+        "M36",
+        "M37"
+      ],
+      "disposition": "Addressed with stated boundaries; linked gap statuses apply, not an all-resolved assertion"
+    },
+    {
+      "id": "C28",
+      "requirement": "Detected-item selection and dispatch to in-app playback, external playback, casting, proxying, and saving.",
+      "document": "docs/MEDIA_ARCHITECTURE.md",
+      "gap_ids": [
+        "M25"
+      ],
+      "disposition": "Addressed with stated boundaries; linked gap statuses apply, not an all-resolved assertion"
+    },
+    {
+      "id": "C29",
+      "requirement": "Direct receiver fetching versus phone-hosted proxy delivery.",
+      "document": "docs/MEDIA_STATIC_AUDIT.md",
+      "gap_ids": [
+        "M25"
+      ],
+      "disposition": "Addressed with stated boundaries; linked gap statuses apply, not an all-resolved assertion"
+    },
+    {
+      "id": "C30",
+      "requirement": "Receiver-specific URL/header/format adaptations and callbacks.",
+      "document": "docs/MEDIA_STATIC_AUDIT.md",
+      "gap_ids": [
+        "M23",
+        "M25"
+      ],
+      "disposition": "Addressed with stated boundaries; linked gap statuses apply, not an all-resolved assertion"
+    },
+    {
+      "id": "C31",
+      "requirement": "Subtitle discovery, selection, conversion, timing, serving, and receiver differences.",
+      "document": "docs/ANDROID_SUBTITLE_PIPELINE.md",
+      "gap_ids": [
+        "M20",
+        "M23",
+        "M24"
+      ],
+      "disposition": "Addressed with stated boundaries; linked gap statuses apply, not an all-resolved assertion"
+    },
+    {
+      "id": "C32",
+      "requirement": "Original downloads versus concatenation, remux/transmux, transcoding/export, and screen recording.",
+      "document": "docs/MEDIA_ARCHITECTURE.md",
+      "gap_ids": [
+        "M19",
+        "M29",
+        "M40"
+      ],
+      "disposition": "Addressed with stated boundaries; linked gap statuses apply, not an all-resolved assertion"
+    },
+    {
+      "id": "C33",
+      "requirement": "Download records, scheduling, retry/backoff, duplicate work, progress, cancellation, resumption, temporary files, and failure recovery.",
+      "document": "docs/MEDIA_STATIC_AUDIT.md",
+      "gap_ids": [
+        "M26",
+        "M27",
+        "M28",
+        "M29",
+        "M30",
+        "M34"
+      ],
+      "disposition": "Addressed with stated boundaries; linked gap statuses apply, not an all-resolved assertion"
+    },
+    {
+      "id": "C34",
+      "requirement": "Navigation, reload, tab close, activity/service destruction, process restart, and private-mode transitions.",
+      "document": "docs/MEDIA_STATIC_AUDIT.md",
+      "gap_ids": [
+        "M02",
+        "M31",
+        "M32",
+        "M33",
+        "M34"
+      ],
+      "disposition": "Addressed with stated boundaries; linked gap statuses apply, not an all-resolved assertion"
+    },
+    {
+      "id": "C35",
+      "requirement": "Ownership and lifetime of candidates, headers, cookies, proxy registrations, jobs, files, streams, and caches.",
+      "document": "docs/MEDIA_STATIC_AUDIT.md",
+      "gap_ids": [
+        "M17",
+        "M30",
+        "M31",
+        "M32"
+      ],
+      "disposition": "Addressed with stated boundaries; linked gap statuses apply, not an all-resolved assertion"
+    },
+    {
+      "id": "C36",
+      "requirement": "Concurrent tabs, overlapping discoveries/downloads, and shared mutable state.",
+      "document": "docs/MEDIA_STATIC_AUDIT.md",
+      "gap_ids": [
+        "M07",
+        "M33",
+        "M41"
+      ],
+      "disposition": "Addressed with stated boundaries; linked gap statuses apply, not an all-resolved assertion"
+    },
+    {
+      "id": "C37",
+      "requirement": "Protected, reflective, dynamically loaded, or native paths that prevent complete tracing.",
+      "document": "docs/MEDIA_STATIC_AUDIT.md",
+      "gap_ids": [
+        "M02",
+        "M05",
+        "M08",
+        "M31",
+        "M35",
+        "M36"
+      ],
+      "disposition": "Addressed with stated boundaries; linked gap statuses apply, not an all-resolved assertion"
+    },
+    {
+      "id": "C38",
+      "requirement": "Retain the relevant complete files in mechanism-organized evidence folders.",
+      "document": "docs/MEDIA_EVIDENCE_INDEX.md",
+      "gap_ids": [
+        "M14"
+      ],
+      "disposition": "Addressed with stated boundaries; linked gap statuses apply, not an all-resolved assertion"
+    },
+    {
+      "id": "C39",
+      "requirement": "Add exact method excerpts with provenance, physical line ranges, and hashes.",
+      "document": "docs/MEDIA_EVIDENCE_INDEX.md",
+      "gap_ids": [
+        "M11"
+      ],
+      "disposition": "Addressed with stated boundaries; linked gap statuses apply, not an all-resolved assertion"
+    },
+    {
+      "id": "C40",
+      "requirement": "Include enclosing branches and call-site arguments where needed to explain behavior.",
+      "document": "docs/MEDIA_STATIC_AUDIT.md",
+      "gap_ids": [
+        "M11",
+        "M16",
+        "M17"
+      ],
+      "disposition": "Addressed with stated boundaries; linked gap statuses apply, not an all-resolved assertion"
+    },
+    {
+      "id": "C41",
+      "requirement": "Identify decompiler warnings, synthetic selector cases, and unresolved protected constants.",
+      "document": "docs/MEDIA_STATIC_AUDIT.md",
+      "gap_ids": [
+        "M02",
+        "M08",
+        "M31"
+      ],
+      "disposition": "Addressed with stated boundaries; linked gap statuses apply, not an all-resolved assertion"
+    },
+    {
+      "id": "C42",
+      "requirement": "Update indexes and manifests without overwriting unrelated evidence.",
+      "document": "docs/MEDIA_EVIDENCE_INDEX.md",
+      "gap_ids": [
+        "M11"
+      ],
+      "disposition": "Addressed with stated boundaries; linked gap statuses apply, not an all-resolved assertion"
+    },
+    {
+      "id": "C43",
+      "requirement": "Explain how each component connects to the next; avoid a disconnected catalog of classes.",
+      "document": "docs/MEDIA_ARCHITECTURE.md",
+      "gap_ids": [
+        "M25"
+      ],
+      "disposition": "Addressed with stated boundaries; linked gap statuses apply, not an all-resolved assertion"
+    },
+    {
+      "id": "C44",
+      "requirement": "What was resolved.",
+      "document": "docs/MEDIA_GAPS.md",
+      "gap_ids": [
+        "M11",
+        "M12",
+        "M16",
+        "M17",
+        "M27"
+      ],
+      "disposition": "Addressed with stated boundaries; linked gap statuses apply, not an all-resolved assertion"
+    },
+    {
+      "id": "C45",
+      "requirement": "What remains statically unresolved and why.",
+      "document": "docs/MEDIA_GAPS.md",
+      "gap_ids": [
+        "M14",
+        "M31",
+        "M35",
+        "M36"
+      ],
+      "disposition": "Addressed with stated boundaries; linked gap statuses apply, not an all-resolved assertion"
+    },
+    {
+      "id": "C46",
+      "requirement": "What requires later runtime testing.",
+      "document": "docs/MEDIA_GAPS.md",
+      "gap_ids": [
+        "M09",
+        "M13",
+        "M18",
+        "M20",
+        "M23",
+        "M28",
+        "M33",
+        "M41"
+      ],
+      "disposition": "Addressed with stated boundaries; linked gap statuses apply, not an all-resolved assertion"
+    },
+    {
+      "id": "C47",
+      "requirement": "Which conclusions materially affect the intended browser extension.",
+      "document": "docs/MEDIA_IMPLEMENTATION_RELEVANCE.md",
+      "gap_ids": [
+        "M14",
+        "M25",
+        "M27",
+        "M33"
+      ],
+      "disposition": "Addressed with stated boundaries; linked gap statuses apply, not an all-resolved assertion"
+    },
+    {
+      "id": "C48",
+      "requirement": "End-to-end architecture diagram",
+      "document": "docs/MEDIA_ARCHITECTURE.md",
+      "gap_ids": [
+        "M25"
+      ],
+      "disposition": "Provided; consult stated limits and verification result"
+    },
+    {
+      "id": "C49",
+      "requirement": "Distinct technique inventory",
+      "document": "docs/MEDIA_METHOD_INVENTORY.md",
+      "gap_ids": [
+        "M01",
+        "M37"
+      ],
+      "disposition": "Provided; consult stated limits and verification result"
+    },
+    {
+      "id": "C50",
+      "requirement": "Current stable gap register",
+      "document": "docs/MEDIA_GAPS.md",
+      "gap_ids": [
+        "M14"
+      ],
+      "disposition": "Provided; consult stated limits and verification result"
+    },
+    {
+      "id": "C51",
+      "requirement": "Detailed static audit",
+      "document": "docs/MEDIA_STATIC_AUDIT.md",
+      "gap_ids": [
+        "M11",
+        "M16",
+        "M17"
+      ],
+      "disposition": "Provided; consult stated limits and verification result"
+    },
+    {
+      "id": "C52",
+      "requirement": "Android/iOS comparison without native parity inference",
+      "document": "docs/MEDIA_PLATFORM_COMPARISON.md",
+      "gap_ids": [
+        "M35",
+        "M36"
+      ],
+      "disposition": "Provided; consult stated limits and verification result"
+    },
+    {
+      "id": "C53",
+      "requirement": "Independent implementation relevance",
+      "document": "docs/MEDIA_IMPLEMENTATION_RELEVANCE.md",
+      "gap_ids": [
+        "M25",
+        "M27",
+        "M33"
+      ],
+      "disposition": "Provided; consult stated limits and verification result"
+    },
+    {
+      "id": "C54",
+      "requirement": "Package provenance, publisher qualification, encrypted native boundary",
+      "document": "docs/MEDIA_STATIC_AUDIT.md",
+      "gap_ids": [
+        "M35"
+      ],
+      "disposition": "Provided; consult stated limits and verification result"
+    },
+    {
+      "id": "C55",
+      "requirement": "Static integrity verification only; no application or provider execution",
+      "document": "docs/MEDIA_VERIFICATION.md",
+      "gap_ids": [
+        "M09"
+      ],
+      "disposition": "Provided; consult stated limits and verification result"
+    }
+  ]
+}

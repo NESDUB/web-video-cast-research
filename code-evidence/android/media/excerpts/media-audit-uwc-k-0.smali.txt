@@ -1,0 +1,706 @@
+.method public final k(Ljava/lang/String;)Landroid/webkit/WebResourceResponse;
+    .locals 12
+
+    .line 1
+    const-string v0, "patchYouTubePlayerJs: sig caller pattern not found in "
+
+    .line 2
+    .line 3
+    const-string v1, "patchYouTubePlayerJs: sig def not found for "
+
+    .line 4
+    .line 5
+    const-string v2, "(?<![.\\w$])(\\Q"
+
+    .line 6
+    .line 7
+    const-string v3, "patchYouTubePlayerJs: nsig pattern not found in "
+
+    .line 8
+    .line 9
+    const-string v4, "/s/player/"
+
+    .line 10
+    .line 11
+    const/4 v5, 0x0
+
+    .line 12
+    invoke-static {p1, v4, v5}, Lj6b;->I0(Ljava/lang/CharSequence;Ljava/lang/CharSequence;Z)Z
+
+    .line 13
+    .line 14
+    .line 15
+    move-result v4
+
+    .line 16
+    const/4 v6, 0x0
+
+    .line 17
+    if-eqz v4, :cond_9
+
+    .line 18
+    .line 19
+    const-string v4, ".js"
+
+    .line 20
+    .line 21
+    invoke-static {p1, v4, v5}, Lq6b;->u0(Ljava/lang/String;Ljava/lang/String;Z)Z
+
+    .line 22
+    .line 23
+    .line 24
+    move-result v4
+
+    .line 25
+    if-nez v4, :cond_0
+
+    .line 26
+    .line 27
+    goto/16 :goto_3
+
+    .line 28
+    .line 29
+    :cond_0
+    sget-object v4, Luwc;->o:Ljava/util/LinkedHashMap;
+
+    .line 30
+    .line 31
+    invoke-virtual {v4, p1}, Ljava/util/LinkedHashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 32
+    .line 33
+    .line 34
+    move-result-object v7
+
+    .line 35
+    check-cast v7, Ljava/lang/String;
+
+    .line 36
+    .line 37
+    const-string v8, "UTF-8"
+
+    .line 38
+    .line 39
+    const-string v9, "application/javascript"
+
+    .line 40
+    .line 41
+    if-eqz v7, :cond_1
+
+    .line 42
+    .line 43
+    new-instance p0, Landroid/webkit/WebResourceResponse;
+
+    .line 44
+    .line 45
+    new-instance p1, Ljava/io/ByteArrayInputStream;
+
+    .line 46
+    .line 47
+    sget-object v0, Lef1;->a:Ljava/nio/charset/Charset;
+
+    .line 48
+    .line 49
+    invoke-virtual {v7, v0}, Ljava/lang/String;->getBytes(Ljava/nio/charset/Charset;)[B
+
+    .line 50
+    .line 51
+    .line 52
+    move-result-object v0
+
+    .line 53
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 54
+    .line 55
+    .line 56
+    invoke-direct {p1, v0}, Ljava/io/ByteArrayInputStream;-><init>([B)V
+
+    .line 57
+    .line 58
+    .line 59
+    invoke-direct {p0, v9, v8, p1}, Landroid/webkit/WebResourceResponse;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;)V
+
+    .line 60
+    .line 61
+    .line 62
+    return-object p0
+
+    .line 63
+    :cond_1
+    :try_start_0
+    iget-object v7, p0, Luwc;->f:Lm48;
+
+    .line 64
+    .line 65
+    const/4 v10, 0x1
+
+    .line 66
+    if-nez v7, :cond_2
+
+    .line 67
+    .line 68
+    const-string v7, "intercept_rd"
+
+    .line 69
+    .line 70
+    invoke-static {v7, v10}, Luwc;->b(Ljava/lang/String;Z)Lm48;
+
+    .line 71
+    .line 72
+    .line 73
+    move-result-object v7
+
+    .line 74
+    iput-object v7, p0, Luwc;->f:Lm48;
+
+    .line 75
+    .line 76
+    :cond_2
+    new-instance p0, Lbo9;
+
+    .line 77
+    .line 78
+    invoke-direct {p0}, Lbo9;-><init>()V
+
+    .line 79
+    .line 80
+    .line 81
+    invoke-virtual {p0, p1}, Lbo9;->g(Ljava/lang/String;)V
+
+    .line 82
+    .line 83
+    .line 84
+    new-instance v11, Ldo9;
+
+    .line 85
+    .line 86
+    invoke-direct {v11, p0}, Ldo9;-><init>(Lbo9;)V
+
+    .line 87
+    .line 88
+    .line 89
+    new-instance p0, Luh9;
+
+    .line 90
+    .line 91
+    invoke-direct {p0, v7, v11, v5}, Luh9;-><init>(Lm48;Ldo9;Z)V
+
+    .line 92
+    .line 93
+    .line 94
+    invoke-virtual {p0}, Luh9;->execute()Lnq9;
+
+    .line 95
+    .line 96
+    .line 97
+    move-result-object p0
+
+    .line 98
+    iget-boolean v7, p0, Lnq9;->q:Z
+
+    .line 99
+    .line 100
+    if-nez v7, :cond_3
+
+    .line 101
+    .line 102
+    goto/16 :goto_3
+
+    .line 103
+    .line 104
+    :cond_3
+    iget-object p0, p0, Lnq9;->g:Lvq9;
+
+    .line 105
+    .line 106
+    if-eqz p0, :cond_9
+
+    .line 107
+    .line 108
+    invoke-virtual {p0}, Lvq9;->string()Ljava/lang/String;
+
+    .line 109
+    .line 110
+    .line 111
+    move-result-object p0
+
+    .line 112
+    if-nez p0, :cond_4
+
+    .line 113
+    .line 114
+    goto/16 :goto_3
+
+    .line 115
+    .line 116
+    :cond_4
+    sget-object v7, Luwc;->p:Ljava/util/regex/Pattern;
+
+    .line 117
+    .line 118
+    invoke-virtual {v7, p0}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
+
+    .line 119
+    .line 120
+    .line 121
+    move-result-object v7
+
+    .line 122
+    invoke-virtual {v7}, Ljava/util/regex/Matcher;->find()Z
+
+    .line 123
+    .line 124
+    .line 125
+    move-result v11
+
+    .line 126
+    if-eqz v11, :cond_5
+
+    .line 127
+    .line 128
+    invoke-virtual {v7}, Ljava/util/regex/Matcher;->start()I
+
+    .line 129
+    .line 130
+    .line 131
+    move-result v3
+
+    .line 132
+    invoke-virtual {p0, v5, v3}, Ljava/lang/String;->substring(II)Ljava/lang/String;
+
+    .line 133
+    .line 134
+    .line 135
+    move-result-object v3
+
+    .line 136
+    invoke-virtual {v7}, Ljava/util/regex/Matcher;->start()I
+
+    .line 137
+    .line 138
+    .line 139
+    move-result v11
+
+    .line 140
+    invoke-virtual {p0, v11}, Ljava/lang/String;->substring(I)Ljava/lang/String;
+
+    .line 141
+    .line 142
+    .line 143
+    move-result-object p0
+
+    .line 144
+    new-instance v11, Ljava/lang/StringBuilder;
+
+    .line 145
+    .line 146
+    invoke-direct {v11}, Ljava/lang/StringBuilder;-><init>()V
+
+    .line 147
+    .line 148
+    .line 149
+    invoke-virtual {v11, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 150
+    .line 151
+    .line 152
+    const-string v3, "window.__ytNDecrypt="
+
+    .line 153
+    .line 154
+    invoke-virtual {v11, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 155
+    .line 156
+    .line 157
+    invoke-virtual {v11, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 158
+    .line 159
+    .line 160
+    invoke-virtual {v11}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 161
+    .line 162
+    .line 163
+    move-result-object p0
+
+    .line 164
+    invoke-static {}, Ltdb;->a()Ljava/lang/String;
+
+    .line 165
+    .line 166
+    .line 167
+    invoke-virtual {v7, v10}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
+
+    .line 168
+    .line 169
+    .line 170
+    move v3, v10
+
+    .line 171
+    goto :goto_0
+
+    .line 172
+    :catch_0
+    move-exception p0
+
+    .line 173
+    goto/16 :goto_2
+
+    .line 174
+    .line 175
+    :cond_5
+    invoke-static {}, Ltdb;->a()Ljava/lang/String;
+
+    .line 176
+    .line 177
+    .line 178
+    move-result-object v7
+
+    .line 179
+    invoke-virtual {v3, p1}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+
+    .line 180
+    .line 181
+    .line 182
+    move-result-object v3
+
+    .line 183
+    invoke-static {v7, v3}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 184
+    .line 185
+    .line 186
+    move v3, v5
+
+    .line 187
+    :goto_0
+    sget-object v7, Luwc;->q:Ljava/util/regex/Pattern;
+
+    .line 188
+    .line 189
+    invoke-virtual {v7, p0}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
+
+    .line 190
+    .line 191
+    .line 192
+    move-result-object v7
+
+    .line 193
+    invoke-virtual {v7}, Ljava/util/regex/Matcher;->find()Z
+
+    .line 194
+    .line 195
+    .line 196
+    move-result v11
+
+    .line 197
+    if-eqz v11, :cond_7
+
+    .line 198
+    .line 199
+    invoke-virtual {v7, v10}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
+
+    .line 200
+    .line 201
+    .line 202
+    move-result-object v0
+
+    .line 203
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 204
+    .line 205
+    .line 206
+    new-instance v7, Ljava/lang/StringBuilder;
+
+    .line 207
+    .line 208
+    invoke-direct {v7, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 209
+    .line 210
+    .line 211
+    invoke-virtual {v7, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 212
+    .line 213
+    .line 214
+    const-string v2, "\\E)=function\\("
+
+    .line 215
+    .line 216
+    invoke-virtual {v7, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 217
+    .line 218
+    .line 219
+    invoke-virtual {v7}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 220
+    .line 221
+    .line 222
+    move-result-object v2
+
+    .line 223
+    invoke-static {v2}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
+
+    .line 224
+    .line 225
+    .line 226
+    move-result-object v2
+
+    .line 227
+    invoke-virtual {v2, p0}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
+
+    .line 228
+    .line 229
+    .line 230
+    move-result-object v2
+
+    .line 231
+    invoke-virtual {v2}, Ljava/util/regex/Matcher;->find()Z
+
+    .line 232
+    .line 233
+    .line 234
+    move-result v7
+
+    .line 235
+    if-eqz v7, :cond_6
+
+    .line 236
+    .line 237
+    invoke-virtual {v2, v10}, Ljava/util/regex/Matcher;->start(I)I
+
+    .line 238
+    .line 239
+    .line 240
+    move-result v0
+
+    .line 241
+    invoke-virtual {p0, v5, v0}, Ljava/lang/String;->substring(II)Ljava/lang/String;
+
+    .line 242
+    .line 243
+    .line 244
+    move-result-object v1
+
+    .line 245
+    invoke-virtual {p0, v0}, Ljava/lang/String;->substring(I)Ljava/lang/String;
+
+    .line 246
+    .line 247
+    .line 248
+    move-result-object p0
+
+    .line 249
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    .line 250
+    .line 251
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    .line 252
+    .line 253
+    .line 254
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 255
+    .line 256
+    .line 257
+    const-string v1, "window.__ytSigDecipher="
+
+    .line 258
+    .line 259
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 260
+    .line 261
+    .line 262
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 263
+    .line 264
+    .line 265
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 266
+    .line 267
+    .line 268
+    move-result-object p0
+
+    .line 269
+    invoke-static {}, Ltdb;->a()Ljava/lang/String;
+
+    .line 270
+    .line 271
+    .line 272
+    add-int/lit8 v3, v3, 0x1
+
+    .line 273
+    .line 274
+    goto :goto_1
+
+    .line 275
+    :cond_6
+    invoke-static {}, Ltdb;->a()Ljava/lang/String;
+
+    .line 276
+    .line 277
+    .line 278
+    move-result-object v2
+
+    .line 279
+    new-instance v5, Ljava/lang/StringBuilder;
+
+    .line 280
+    .line 281
+    invoke-direct {v5, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 282
+    .line 283
+    .line 284
+    invoke-virtual {v5, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 285
+    .line 286
+    .line 287
+    const-string v0, " in "
+
+    .line 288
+    .line 289
+    invoke-virtual {v5, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 290
+    .line 291
+    .line 292
+    invoke-virtual {v5, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 293
+    .line 294
+    .line 295
+    invoke-virtual {v5}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 296
+    .line 297
+    .line 298
+    move-result-object v0
+
+    .line 299
+    invoke-static {v2, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 300
+    .line 301
+    .line 302
+    goto :goto_1
+
+    .line 303
+    :cond_7
+    invoke-static {}, Ltdb;->a()Ljava/lang/String;
+
+    .line 304
+    .line 305
+    .line 306
+    move-result-object v1
+
+    .line 307
+    invoke-virtual {v0, p1}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+
+    .line 308
+    .line 309
+    .line 310
+    move-result-object v0
+
+    .line 311
+    invoke-static {v1, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 312
+    .line 313
+    .line 314
+    :goto_1
+    if-nez v3, :cond_8
+
+    .line 315
+    .line 316
+    goto :goto_3
+
+    .line 317
+    :cond_8
+    invoke-interface {v4, p1, p0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 318
+    .line 319
+    .line 320
+    new-instance v0, Landroid/webkit/WebResourceResponse;
+
+    .line 321
+    .line 322
+    new-instance v1, Ljava/io/ByteArrayInputStream;
+
+    .line 323
+    .line 324
+    sget-object v2, Lef1;->a:Ljava/nio/charset/Charset;
+
+    .line 325
+    .line 326
+    invoke-virtual {p0, v2}, Ljava/lang/String;->getBytes(Ljava/nio/charset/Charset;)[B
+
+    .line 327
+    .line 328
+    .line 329
+    move-result-object p0
+
+    .line 330
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 331
+    .line 332
+    .line 333
+    invoke-direct {v1, p0}, Ljava/io/ByteArrayInputStream;-><init>([B)V
+
+    .line 334
+    .line 335
+    .line 336
+    invoke-direct {v0, v9, v8, v1}, Landroid/webkit/WebResourceResponse;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;)V
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    .line 337
+    .line 338
+    .line 339
+    return-object v0
+
+    .line 340
+    :goto_2
+    invoke-static {}, Ltdb;->a()Ljava/lang/String;
+
+    .line 341
+    .line 342
+    .line 343
+    move-result-object v0
+
+    .line 344
+    const-string v1, "patchYouTubePlayerJs: failed for "
+
+    .line 345
+    .line 346
+    invoke-virtual {v1, p1}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+
+    .line 347
+    .line 348
+    .line 349
+    move-result-object p1
+
+    .line 350
+    invoke-static {v0, p1, p0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+
+    .line 351
+    .line 352
+    .line 353
+    :cond_9
+    :goto_3
+    return-object v6
+.end method

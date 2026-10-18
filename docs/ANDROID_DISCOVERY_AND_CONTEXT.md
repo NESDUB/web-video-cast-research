@@ -1,5 +1,7 @@
 # Android discovery, candidate lifetime and request context
 
+> **Current media status (2026-10-17):** use the [current gap register](MEDIA_GAPS.md) and [comprehensive static audit](MEDIA_STATIC_AUDIT.md). This document preserves chronological findings; older “remaining/open” lists and historical test commands below are not the current backlog or authorization to run tests. No behavioral tests were run for the new audit.
+
 Static investigation of the supplied Web_Video_Caster-6.0.3.apk. No scripts were injected, provider pages visited, media fetched, playback started or behavioral tests run. Reconstructed Java is checked against retained smali when resolving branches. The archive signature/publisher provenance remains unverified.
 
 ## Resource integrity

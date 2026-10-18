@@ -1,0 +1,64 @@
+class Video {
+    constructor(e, t, o) {
+        this.video = e, this.videoInfo = {
+            type: VideoType.Video,
+            poster: e.poster != t ? e.poster : void 0,
+            sources: [],
+            subtitles: [],
+            page: document.location.toString()
+        }, ibConsole.log("video element tracks", e.getElementsByTagName("track").length), e.setAttribute("playsinline", "true"), e.setAttribute("x-webkit-airplay", "deny"), IBDocument.isMuteVideosEnabled() && !Youtube.isYoutubeUrl(t) && (e.setAttribute("muted", "true"), e.defaultMuted = !0, e.muted = !0), e.currentSrc && this.videoInfo.sources.push({
+            source: IBDocument.getAbsoluteUrl(e.currentSrc) || "",
+            currentTime: e.currentTime,
+            duration: e.duration,
+            width: Video.getSize(e.videoWidth),
+            height: Video.getSize(e.videoHeight),
+            cors: null != e.getAttribute("crossorigin")
+        }), e.src && this.videoInfo.sources.push({
+            source: IBDocument.getAbsoluteUrl(e.src) || "",
+            duration: e.duration,
+            width: Video.getSize(e.videoWidth),
+            height: Video.getSize(e.videoHeight),
+            cors: null != e.getAttribute("crossorigin")
+        }), [].slice.call(e.getElementsByTagName("source")).forEach(t => {
+            let o = t.getAttribute("currentTime"),
+                i = t.getAttribute("duration"),
+                s = t.getAttribute("type"),
+                r = {
+                    source: IBDocument.getAbsoluteUrl(t.src) || "",
+                    currentTime: o ? Number(o) : void 0,
+                    duration: i ? Number(i) : void 0,
+                    mime: s,
+                    width: Video.getSize(e.videoWidth),
+                    height: Video.getSize(e.videoHeight),
+                    cors: null != e.getAttribute("crossorigin")
+                };
+            this.videoInfo.sources.push(r)
+        }), Video.addSubtitles(this.videoInfo, this.video), [].slice.call(e.getElementsByTagName("a")).filter(e => !/https?:\/\/[a-zA-Z0-9-.]*videojs.com/.test(e.href)).forEach(e => this.videoInfo.sources.push({
+            source: e.href
+        })), o && !this.videoInfo.poster && (this.videoInfo.poster = o.pageInfo.poster), FlowPlayerVideo.addSubtitles(e, this.videoInfo), VLiveTVVideo.addSubtitles(this.videoInfo), VideoJs.addSubtitles(this.videoInfo), Vimeo.removeDash(this.videoInfo), PayloadSource.addVideos(e, this.videoInfo).then(e => {
+            NativeApp.sendMessage({
+                type: "videoList",
+                from: t,
+                videoList: [e]
+            })
+        }, e => {})
+    }
+    static addSubtitles(e, t) {
+        [].slice.call(t.getElementsByTagName("track")).filter(e => ["subtitle", "subtitles", "captions", "caption"].indexOf(e.getAttribute("kind")) > -1).forEach(t => e.subtitles.push({
+            label: t.getAttribute("label"),
+            source: IBDocument.getAbsoluteUrl(t.getAttribute("src")),
+            language: t.getAttribute("srclang")
+        })), ibConsole.log(e)
+    }
+    static getSize(e) {
+        if ("number" == typeof e && Number.isInteger(e)) return e > 0 ? e : void 0;
+        if ("string" == typeof e) {
+            if (!/^\d+$/.test(e)) return;
+            const t = parseInt(e, 10);
+            if (!isNaN(t) && Number.isInteger(t)) return t > 0 ? t : void 0
+        }
+    }
+    pause() {
+        this.video.muted = !0, this.video.pause()
+    }
+}
